@@ -39,6 +39,22 @@ def load_chapters():
         out.append(json.load(open(f)))
     return out
 
+ART_TOPICS = {'egypt_photos', 'egypt_paintings', 'sea_ships', 'ruins_mood', 'archaeology', 'drought_famine'}
+LATE_TOPICS = {'iron_age', 'greek_after', 'neo_assyrian'}
+def era_ok(date, topic):
+    """Unattributed artifacts must be BCE and overlap the period the topic illustrates."""
+    import re
+    d = date.replace('B.C.', 'BCE')
+    if 'BCE' not in d: return False
+    if 'century' in d:
+        nums = [int(n) * 100 - 50 for n in re.findall(r'(\d{1,2})(?:st|nd|rd|th)', d)]
+    else:
+        nums = [int(n) for n in re.findall(r'\d{3,4}', d)]
+    if not nums: return True
+    early, late = max(nums), min(nums)
+    lo, hi = (450, 1250) if topic in LATE_TOPICS else (600, 2100)
+    return early >= lo and late <= hi
+
 def pick_images(chapters):
     """Per paragraph: fill ~dur/SHOT_TARGET stills from assets/visual_plan.json sources, never reusing an image."""
     db = {}
@@ -51,7 +67,7 @@ def pick_images(chapters):
     vplan = json.load(open(os.path.join(ROOT, 'assets', 'visual_plan.json')))
     allow = json.load(open(os.path.join(ROOT, 'assets', 'aic_allow.json')))
     allow_ids = {i for v in allow.values() for i in v}
-    used, map_uses = set(), {}
+    used, map_uses, recent = set(), {}, []
     def cands(spec):
         if spec.startswith('map:'): return [{'file': 'maps/' + spec[4:] + '.png', 'id': spec, 'map': True}]
         topic, _, kw = spec[2:].partition('~')
@@ -59,9 +75,9 @@ def pick_images(chapters):
         out = []
         for r in db.get(topic, []):
             if r['id'] in rej or not os.path.exists(os.path.join(IMG, r['file'])): continue
-            if r['id'].startswith('aic') and r['id'] not in allow_ids: continue
-            if r['id'].startswith('met') and not r.get('artist') and 'BCE' not in r.get('date', '') and 'B.C.' not in r.get('date', ''):
-                continue   # unattributed artifact not dated BCE: wrong era
+            if topic in allow and r['id'] not in allow[topic]: continue
+            if r['id'].startswith('met') and not (topic in ART_TOPICS and r.get('artist')):
+                if not era_ok(r.get('date', ''), topic): continue   # artifact from the wrong era
             hay = unicodedata.normalize('NFKD', r.get('title', '') + ' ' + r.get('term', '')).encode('ascii', 'ignore').decode().lower()
             if kws and not any(k in hay for k in kws): continue
             out.append(r)
@@ -80,18 +96,22 @@ def pick_images(chapters):
                     if len(chosen) >= n: break
                     for r in pool:
                         if r.get('map'):
-                            if map_uses.get((r['id'], ch['id'], i)): continue
-                            map_uses[(r['id'], ch['id'], i)] = 1
-                            chosen.append({'file': r['file'], 'credit': None}); break
+                            if map_uses.get((r['id'], ch['id'])): continue
+                            map_uses[(r['id'], ch['id'])] = 1
+                            chosen.append({'file': r['file'], 'credit': None}); recent.append(r['id']); break
                         if r['id'] in used: continue
-                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r}); break
+                        tkey = ' '.join(r.get('title', '').lower().split()[:2])
+                        if tkey and tkey in recent[-4:] and rnd < 6: continue
+                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r}); recent.append(tkey); break
                 if len(chosen) >= n or rnd > 3 and not any(pools): break
             if len(chosen) < n:   # top up from the same chapter's other sources
                 for sp in [x for row in specs for x in row]:
                     for r in cands(sp):
                         if len(chosen) >= n: break
                         if r.get('map') or r['id'] in used: continue
-                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r})
+                        tkey = ' '.join(r.get('title', '').lower().split()[:2])
+                        if tkey in recent[-4:]: continue
+                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r}); recent.append(tkey)
             if not chosen: chosen = [{'file': 'maps/map_overview.png', 'credit': None}]
             plan.append((ch['id'], i, chosen))
     return plan
@@ -175,6 +195,28 @@ def plan():
     print(f'total {total/60:.1f} min, {len(shots)} shots, {len(captions)} captions, {len(credits)} credited images')
 
 # ----------------------------------------------------------------------------- prep
+def trim_mount(im):
+    """Crop a plain paper mount / studio backdrop around a print (detected from uniform corners)."""
+    import cv2
+    k = 0.25
+    g = cv2.cvtColor(cv2.resize(im, (0, 0), fx=k, fy=k, interpolation=cv2.INTER_AREA), cv2.COLOR_BGR2GRAY).astype(np.float32)
+    h, w = g.shape; c = max(4, int(min(h, w) * 0.04)); o = int(min(h, w) * 0.05)
+    patches = [g[o:o + c, o:o + c], g[o:o + c, w - o - c:w - o], g[h - o - c:h - o, o:o + c], g[h - o - c:h - o, w - o - c:w - o]]
+    means = [p.mean() for p in patches]; sds = [p.std() for p in patches]
+    if max(sds) > 10 or max(means) - min(means) > 18 or min(means) < 150: return im
+    mount = float(np.mean(means))
+    mask = (np.abs(g - mount) > 28).astype(np.uint8)
+    mask[:o, :] = 0; mask[-o:, :] = 0; mask[:, :o] = 0; mask[:, -o:] = 0      # ignore scan edge
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+    n, lab, stats, _ = cv2.connectedComponentsWithStats(mask)
+    if n < 2: return im
+    i = 1 + int(np.argmax(stats[1:, cv2.CC_STAT_AREA]))
+    x, y, bw, bh = stats[i, :4]
+    if bw * bh > 0.88 * w * h or bw * bh < 0.08 * w * h: return im
+    s = 1 / k; pad = 4
+    H0, W0 = im.shape[:2]
+    return im[max(0, int(y * s) + pad):min(H0, int((y + bh) * s) - pad), max(0, int(x * s) + pad):min(W0, int((x + bw) * s) - pad)]
+
 def prep_one(rel):
     import cv2
     src = os.path.join(IMG, rel)
@@ -185,6 +227,8 @@ def prep_one(rel):
     if im is None:
         from PIL import Image
         im = cv2.cvtColor(np.asarray(Image.open(src).convert('RGB')), cv2.COLOR_RGB2BGR)
+    if not rel.startswith('maps/'):
+        im = trim_mount(im)
     h, w = im.shape[:2]; ar = w / h
     def cover(img, W2, H2):
         h, w = img.shape[:2]; s = max(W2 / w, H2 / h)

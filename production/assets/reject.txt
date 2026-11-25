@@ -1,0 +1,34 @@
+# images rejected after visual review
+met60919 chinese box
+met60920 chinese box
+met638141 cigarette card
+met287148 christian-era ruins
+met204765 rodin
+met189265 rodin
+met338544 study
+met338545 study
+met828678 late period
+met335070 christ
+met341457 christ
+met437955 golden age painting
+met339721 golden age drawing
+met196752 medal
+met195403 medal
+met51020 chinese vase
+met44831 japanese bell
+met256871 belt clasp
+met257584 belt clasp
+met257583 belt clasp
+met256038 belt
+met251250 attachment
+met472835 brooch
+met743011 celt
+met283149 dakkeh ptolemaic
+met683000 modern glass
+met682999 modern glass
+met544688 canopic jar
+met244158 spearhead dup
+met244159 spearhead dup
+met244160 spearhead dup
+met244161 spearhead dup
+met547815 roman era vase
