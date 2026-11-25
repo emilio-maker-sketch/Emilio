@@ -65,8 +65,24 @@ def trim(im):
     a = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
     return Image.fromarray(cv2.cvtColor(trim_mount(a), cv2.COLOR_BGR2RGB))
 
+_RB = None
 def cutout(im):
-    """Lift a museum object off a plain studio background (GrabCut). Returns RGBA or None."""
+    """Lift a museum object off a plain studio background. rembg (IS-Net) first; GrabCut as a fallback."""
+    global _RB
+    try:
+        from rembg import remove, new_session
+        if _RB is None: _RB = new_session('isnet-general-use')
+        sm = im.copy(); sm.thumbnail((1600, 1600))
+        co = remove(sm, session=_RB, post_process_mask=True)
+        al = np.array(co)[..., 3]; frac = (al > 128).mean()
+        if .04 < frac < .92:
+            ys, xs = np.nonzero(al > 20)
+            return co.crop((xs.min(), ys.min(), xs.max() + 1, ys.max() + 1))
+    except ImportError:
+        pass
+    return cutout_grabcut(im)
+
+def cutout_grabcut(im):
     a = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR); h, w = a.shape[:2]
     k = 640 / max(h, w); sm = cv2.resize(a, (int(w*k), int(h*k)), interpolation=cv2.INTER_AREA)
     g = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY).astype(np.float32); hh, ww = g.shape; c = max(4, int(min(hh, ww)*.04))
@@ -451,7 +467,8 @@ def build_model():
         nxt = [e['t'] for e in TL['events'] if e['t'] > VINTAGE[0] + 1 and e['d'][0] == 'card']
         VINTAGE[1] = min(nxt) if nxt else VINTAGE[0] + 10
     for o in OVERLAYS:
-        o['dur'] = {'year': 3.0, 'thesis': 3.8, 'end_open': 4.6, 'end': 7.0, 'open': 6.2, 'counter': 2.8, 'chapter': 2.2}[o['kind']]
+        o['dur'] = {'year': 3.0, 'thesis': 5.0, 'end_open': 4.6, 'end': 7.0, 'open': 6.2, 'counter': 2.8, 'chapter': 2.2}[o['kind']]
+        if o['kind'] == 'end': o['dur'] = max(7.0, DUR - o['t0'] + .5)      # hold the end card through the sign-off
     # play overlapping overlays one after another (chapter card, then year card, ...)
     seq = sorted([o for o in OVERLAYS if o['kind'] in ('chapter', 'year', 'thesis', 'counter', 'end_open')], key=lambda o: o['t0'])
     for a_, b_ in zip(seq, seq[1:]):
@@ -710,16 +727,16 @@ def screen_overlays(img, t):
                     ob = np.clip(ob*(1 - aa) + png[..., :3]*aa, 0, 255).astype(np.uint8)
             return ob
         if o['kind'] == 'thesis':
-            a = ss((t - t0)/.5) * (1 - ss((t - (t0 + du - .4))/.5)); out *= 1 - .6*a
+            a = ss((t - t0)/.5) * (1 - ss((t - (t0 + du - .4))/.5)); out *= 1 - .78*a
             pil = Image.fromarray(cv2.cvtColor(np.clip(out, 0, 255).astype(np.uint8), cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA")
             al = int(255*a); f1 = font(MONO, 50); s1 = o['a']
-            n = min(len(s1), int(max(0, t - t0 - .3)*20)); w1 = f1.getbbox(s1)[2]; x1 = (W - w1)/2
+            n = min(len(s1), int(max(0, t - t0 - .3)*30)); w1 = f1.getbbox(s1)[2]; x1 = (W - w1)/2
             d.text((x1, 380), s1[:n], font=f1, fill=(220, 220, 212, al))
-            if t > t0 + 1.3:
-                u = ease((t - t0 - 1.3)/.4); d.line([(x1-10, 412), (x1-10+(w1+20)*u, 412)], fill=RED+(al,), width=6)
-            if t > t0 + 1.8:
+            if t > t0 + 1.0:
+                u = ease((t - t0 - 1.0)/.35); d.line([(x1-10, 412), (x1-10+(w1+20)*u, 412)], fill=RED+(al,), width=6)
+            if t > t0 + 1.45:
                 s2 = o['b']; f2 = font(SERIF, 120 if len(s2) < 14 else (96 if len(s2) < 22 else 76))
-                n2 = min(len(s2), int((t - t0 - 1.8)*16)); w2 = f2.getbbox(s2 + ".")[2]
+                n2 = min(len(s2), int((t - t0 - 1.45)*30)); w2 = f2.getbbox(s2 + ".")[2]
                 d.text(((W - w2)/2, 480), s2[:n2], font=f2, fill=(242, 238, 228, al))
                 if n2 == len(s2): d.text(((W - w2)/2 + f2.getbbox(s2)[2], 480), ".", font=f2, fill=RED+(al,))
             return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)

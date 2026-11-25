@@ -18,22 +18,22 @@ K = lambda text, red=(), **k: dict(kind='type', text=text, red=set(red), **k)
 T = lambda ids, label, **k: dict(kind='trip', ids=ids, label=label, **k)
 SHOTS = {
     3: [K("THE LAST WARRIOR PHARAOH|WAS MURDERED.", ['MURDERED.'])],
-    5: [F('D', 121, 139, part=(0, .5)), F('X', 408, 544, part=(.5, 1))],
+    5: [F('D', 121.5, 139, part=(0, .5)), F('X', 408, 430, part=(.5, 1))],
     6: [K("A QUEEN.|HER SON.|THE THRONE.", ['THRONE.'])],
     7: [K("MESSENGERS.|REBELS.|MAGIC.", ['MAGIC.'])],
-    9: [F('N', 296, 312)],
+    9: [F('N', 296, 309.5)],
     10: [O('met549298', 'Ramesses III', 'FAIENCE INLAY  ·  REIGN OF RAMESSES III, c. 1184–1153 BCE  ·  THE MET', part=(0, .55))],
     11: [P('met705430', 'THE RAMESSEUM, TEMPLE OF RAMESSES II  ·  ÉMILE BÉCHARD, 1870s  ·  THE MET')],
     13: [P('met287142', "MEDINET HABU FROM THE EAST  ·  MAXIME DU CAMP, 1849–50  ·  THE MET")],
     14: [P('met261835', "MEDINET HABU, SECOND COURT  ·  FÉLIX TEYNARD, 1851–52  ·  THE MET")],
-    17: [F('X', 408, 544)],
+    17: [F('X', 408, 430)],
     22: [P('met260975', "THE VALLEY OF THE KINGS  ·  FRANCIS FRITH, c. 1857  ·  THE MET")],
     23: [F('D', 1216, 1240)],
     25: [K("THE FIRST RECORDED|STRIKE IN HISTORY.", ['STRIKE'])],
-    26: [F('D', 576, 595)],
+    26: [F('D', 576, 592)],
     30: [P('met548357', "RAMESSES III AND HIS SON, TOMB IN THE VALLEY OF THE QUEENS  ·  FACSIMILE, NINA DE GARIS DAVIES  ·  THE MET", part=(0, .6))],
     34: [P('met287144', "THE 'HAREM' PAVILION, MEDINET HABU  ·  MAXIME DU CAMP, 1849–50  ·  THE MET", part=(0, .6))],
-    36: [T(['met549271', 'met558850', 'met549345'], "COSMETIC SPOON AND KOHL TUBES, NEW KINGDOM  ·  THE MET")],
+    36: [K("ESTATES. WORKSHOPS.|SERVANTS. OFFICIALS.", ['ESTATES.'])],
     38: [P('met266121', "MEDINET HABU  ·  JOHN BEASLEY GREEN, 1854  ·  THE MET")],
     46: [O('met548356', 'Ramesses IV', "ARTIST'S SKETCH ON LIMESTONE  ·  c. 1166–1158 BCE  ·  THE MET")],
     51: [K("THE KING|WOULD HAVE TO DIE.", ['DIE.'])],
@@ -41,7 +41,7 @@ SHOTS = {
     57: [K("AN ATTACK ON THE|ORDER OF THE WORLD.", ['ORDER'])],
     58: [O('met549250', 'A Hieratic Papyrus', 'PAPYRUS IN HIERATIC SCRIPT  ·  c. 1181 BCE  ·  THE MET', part=(.4, 1))],
     64: [O('met544719', 'Window Grill', 'FROM A PALACE OF RAMESSES III  ·  c. 1184–1153 BCE  ·  THE MET')],
-    67: [F('N', 44, 62)],
+    67: [F('X', 408, 430)],
     68: [K("INCITE THE PEOPLE.|MAKE ENMITY.|MAKE REBELLION.", ['REBELLION.'])],
     76: [K("A DARK IRONY.", ['IRONY.'])],
     78: [O('met556841', 'Execration Figure', 'FIGURE OF A BOUND FOREIGNER  ·  c. 1900 BCE  ·  THE MET', part=(0, .6))],
@@ -55,17 +55,17 @@ SHOTS = {
     115: [K("AND TIYE?", ['TIYE?'])],
     124: [K("DID THEY ACTUALLY|KILL THE KING?", ['KILL'])],
     127: [P('met12061', "CLIFFS AT DEIR EL BAHRI  ·  JOHN SINGER SARGENT, 1890–91  ·  THE MET")],
-    128: [F('D', 121, 139)],
-    129: [F('D', 954, 963, part=(0, .5)), F('D', 963, 972, part=(.5, 1))],
-    131: [F('D', 920, 933)],
-    132: [F('D', 954, 963)],
-    136: [F('D', 891, 912)],
+    128: [F('D', 121.5, 139)],
+    129: [F('D', 957, 963.5, part=(0, .5)), F('D', 964, 971, part=(.5, 1))],
+    131: [F('D', 922.5, 931)],
+    132: [F('D', 957, 963.5)],
+    136: [K("THE NECK|STAYED WRAPPED.", ['WRAPPED.'])],
     141: [K("THE SCREAMING|MUMMY.", ['SCREAMING'])],
     147: [K("WINDPIPE. ARTERIES.|SEVERED.", ['SEVERED.'])],
     149: [O('met551476', 'The Eye of Horus', 'WEDJAT EYE AMULET  ·  NEW KINGDOM  ·  THE MET', part=(0, .65))],
     154: [K("THE VERDICT|WAS IN.", ['VERDICT'])],
     158: [K("HE WAS|THE KING'S SON.", ['SON.'])],
-    165: [F('N', 296, 312)],
+    165: [F('N', 296, 309.5)],
     166: [P('met557765', "JOURNEY TO ABYDOS, TOMB OF PAIRY  ·  FACSIMILE, CHARLES K. WILKINSON  ·  THE MET")],
     167: [P('met283145', "THE COLOSSI OF RAMESSES II, ABU SIMBEL  ·  FÉLIX TEYNARD, 1851–52  ·  THE MET")],
     168: [K("SIX YEARS.", ['SIX'])],
@@ -212,6 +212,10 @@ def r_foot(c, t, fi):
     bl = cv2.GaussianBlur(fr, (0, 0), 2.2); fr = cv2.addWeighted(fr, 1.6, bl, -.6, 0)
     u = (t - c['t0']) / dur; fr = zoom(fr, 1.03 + .07*u, .5 + .03*math.sin(c['s']), .5)
     r = np.random.default_rng(fi); fr = cv2.warpAffine(fr, np.float32([[1, 0, r.normal(0, 1.2)], [0, 1, r.normal(0, 1.6)]]), (W, H), borderMode=cv2.BORDER_REFLECT)
+    lum = cv2.cvtColor(fr.astype(np.uint8), cv2.COLOR_BGR2GRAY)
+    lo, hi = np.percentile(lum[::4, ::4], (1, 98))
+    if hi - lo < 170:                       # flat/dark shot (e.g. the Theban cliffs): stretch it so it reads
+        fr = np.clip((fr.astype(np.float32) - lo) * (215.0 / max(30.0, hi - lo)) + 12, 0, 255)
     f = grade(fr)
     for _ in range(r.integers(0, 4)): cv2.circle(f, (int(r.integers(0, W)), int(r.integers(0, H))), int(r.integers(1, 4)), (20, 18, 14), -1)
     if r.random() < .3: x = int(r.integers(0, W)); cv2.line(f, (x, 0), (x + int(r.integers(-15, 15)), H), (210, 220, 228), 1)

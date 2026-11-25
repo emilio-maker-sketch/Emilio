@@ -22,3 +22,14 @@ with the spoken line printed under every frame. Read **every** sheet, every cell
 
 ## 3. Before rendering the full video
 Render stills at every cutaway (`kaz_engine.py stills t1,t2,...`) and look at them as a contact sheet.
+
+## 4. Added after the full v6 review (all fixed in v7)
+- Object cutouts use rembg (IS-Net). GrabCut left white/grey blobs (studio base, shadows) under scarabs,
+  the wand, the harp and the eye amulet. Check every file in build/cut on a dark board colour.
+- Archival footage ranges must contain picture only: scrub each range and exclude the old film's own
+  intertitles and flash frames. Dark shots are auto-stretched so they read (Theban cliffs).
+- Every overlay text must be fully on screen, readable, for at least ~2 s (thesis cards were only fully
+  typed for 0.2 s).
+- The end card holds through the sign-off; never drop back to the board after the title.
+- Footage must illustrate the sentence (no 1920s workers sifting pots under "the neck stayed wrapped").
+- Run qc_sheets.py ONCE at a time (two runs share a temp frame and produce fake glitches).

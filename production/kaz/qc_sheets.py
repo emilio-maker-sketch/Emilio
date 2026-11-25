@@ -22,10 +22,11 @@ for m in range(int(dur // 60) + 1):
     rows = (len(times) + COLS - 1) // COLS
     sheet = Image.new('RGB', (COLS * TW, rows * (TH + 52)), (20, 20, 20)); d = ImageDraw.Draw(sheet)
     for i, t in enumerate(times):
-        fp = os.path.join(out, '_f.jpg')
-        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(t), '-i', video, '-frames:v', '1', '-vf', f'scale={TW}:{TH}', fp], check=True)
+        fp = os.path.join(out, '_f%d.jpg' % os.getpid())
+        if os.path.exists(fp): os.remove(fp)
+        subprocess.run(['ffmpeg', '-v', 'error', '-y', '-ss', str(t), '-i', video, '-frames:v', '1', '-vf', f'scale={TW}:{TH}', fp])
         x, y = (i % COLS) * TW, (i // COLS) * (TH + 52)
-        sheet.paste(Image.open(fp), (x, y))
+        if os.path.exists(fp) and os.path.getsize(fp): sheet.paste(Image.open(fp), (x, y))
         d.text((x + 4, y + 2), '%d:%04.1f' % (t // 60, t % 60), font=fnt, fill=(255, 230, 0))
         txt = said(t); words, lines, cur = txt.split(), [], ''
         for w in words:
