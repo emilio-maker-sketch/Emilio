@@ -155,7 +155,8 @@ def museum_img(id_):
     if id_ not in _IMG:
         rec = E.find_image(id_, set())
         im = cv2.imread(os.path.join(E.IMGDIR, rec['file']), cv2.IMREAD_COLOR)
-        for _ in range(3):                     # strip dark edges, then the white mount around old photographic prints
+        is_print = 'print' in rec.get('medium', '').lower() or 'photograph' in rec.get('medium', '').lower()
+        for _ in range(3 if is_print else 0):  # strip the mount around old photographic prints only; museum object photos keep their full frame
             g = cv2.GaussianBlur(cv2.cvtColor(im, cv2.COLOR_BGR2GRAY).astype(np.float32), (0, 0), 3)
             e = max(6, int(min(im.shape[:2]) * .025))
             bd = np.median(np.concatenate([g[e:2*e].ravel(), g[-2*e:-e].ravel(), g[:, e:2*e].ravel(), g[:, -2*e:-e].ravel()]))
@@ -163,6 +164,7 @@ def museum_img(id_):
             (y0, y1), (x0, x1) = longest_run(m.mean(1) > .3), longest_run(m.mean(0) > .3)
             if not (y1 - y0 > im.shape[0]*.3 and x1 - x0 > im.shape[1]*.3): break
             if (y1 - y0) > im.shape[0]*.97 and (x1 - x0) > im.shape[1]*.97: break
+            if m[y0:y1, x0:x1].mean() < .6: break   # inside is mostly plain backdrop: a studio object photo, not a mounted print
             py, px = int((y1 - y0)*.015), int((x1 - x0)*.015)
             im = im[y0 + py:y1 - py, x0 + px:x1 - px]
         if max(im.shape[:2]) > 2600: s = 2600/max(im.shape[:2]); im = cv2.resize(im, None, fx=s, fy=s, interpolation=cv2.INTER_AREA)
@@ -321,6 +323,42 @@ def r_type(c, t, fi):
         r = np.random.default_rng(fi); f = cv2.warpAffine(f, np.float32([[1, 0, r.uniform(-shake, shake)], [0, 1, r.uniform(-shake, shake)]]), (W, H), borderMode=cv2.BORDER_REFLECT)
     return finish(f, fi)
 
+def content_center(im):
+    """Centre (0..1) of the part of a museum photo that differs from its plain backdrop, plus how much of the image it fills."""
+    g = cv2.GaussianBlur(cv2.cvtColor(im, cv2.COLOR_BGR2GRAY).astype(np.float32), (0, 0), 4)
+    e = max(4, int(min(g.shape) * .03))
+    bd = np.median(np.concatenate([g[:e].ravel(), g[-e:].ravel(), g[:, :e].ravel(), g[:, -e:].ravel()]))
+    m = np.abs(g - bd) > 14
+    if m.mean() < .002: return .5, .5, 0.0
+    ys, xs = np.nonzero(m)
+    return (np.percentile(xs, 5) + np.percentile(xs, 95)) / 2 / g.shape[1], (np.percentile(ys, 5) + np.percentile(ys, 95)) / 2 / g.shape[0], float(m.mean())
+
+def object_box(im):
+    """Bounding box of the object, found from its edges (robust to gradient studio backdrops)."""
+    sc = 800 / max(im.shape[:2]); sm = cv2.resize(im, None, fx=sc, fy=sc, interpolation=cv2.INTER_AREA)
+    g = cv2.GaussianBlur(cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY), (0, 0), 1.5)
+    ed = cv2.dilate(cv2.Canny(g, 40, 110), np.ones((5, 5), np.uint8))
+    ys, xs = np.nonzero(ed)
+    if len(xs) < 50: return 0, 0, im.shape[1], im.shape[0]
+    return tuple(int(v / sc) for v in (np.percentile(xs, .5), np.percentile(ys, .5), np.percentile(xs, 99.5), np.percentile(ys, 99.5)))
+
+def frame_object(im, pw, ph):
+    """Crop around the object at the panel's aspect ratio (12% margin), padding with the backdrop colour if needed."""
+    x0, y0, x1, y1 = object_box(im); bw, bh = (x1 - x0) * 1.24, (y1 - y0) * 1.24
+    ar = pw / ph
+    if bw / bh > ar: bh = bw / ar
+    else: bw = bh * ar
+    bw, bh = bw * 1.07, bh * 1.07                    # room for the slow push-in
+    cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
+    e = max(4, int(min(im.shape[:2]) * .03)); bg = np.median(np.concatenate([im[:e].reshape(-1, 3), im[-e:].reshape(-1, 3)]), 0)
+    pad = int(max(bw, bh)); big = cv2.copyMakeBorder(im, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    X0, Y0 = int(cx - bw/2 + pad), int(cy - bh/2 + pad)
+    crop = big[Y0:Y0 + int(bh), X0:X0 + int(bw)]
+    return cv2.resize(crop, (int(pw * 1.07) + 2, int(ph * 1.07) + 2), interpolation=cv2.INTER_AREA)
+
+def panel_fill(crop):
+    cx, cy, fill = content_center(crop); return fill
+
 def r_trip(c, t, fi):
     f = dark_bg(t) * .7; pw, gap = 610, 22; x0 = (W - 3*pw - 2*gap)//2
     for i, id_ in enumerate(c['ids']):
@@ -328,10 +366,11 @@ def r_trip(c, t, fi):
         if u <= 0: continue
         im, _ = museum_img(id_); key = '_p%d' % i
         if key not in c:
-            p = cover(im, pw, H - 160, 1.1); ph, pw2 = p.shape[:2]; c[key] = p
-        p = c[key]; ph, pw2 = p.shape[:2]; z = (t - c['t0'])/(c['t1'] - c['t0'])
-        ox = int((pw2 - pw) * (.5 + .4*math.sin(i + z))); oy = int((ph - (H - 160)) * z)
-        crop = p[oy:oy + H - 160, ox:ox + pw]
+            c[key] = frame_object(im, pw, H - 160)    # whole object in frame, with margin
+        p = c[key]; z = (t - c['t0'])/(c['t1'] - c['t0']); k = 1.0 + .06*z
+        p2 = cv2.resize(p, None, fx=k, fy=k, interpolation=cv2.INTER_LINEAR); ph, pw2 = p2.shape[:2]
+        ox = int((pw2 - pw) * (.5 + .3*math.sin(i + z))); oy = int((ph - (H - 160)) * .5)
+        crop = p2[oy:oy + H - 160, ox:ox + pw]
         g = grade(crop, .6) if crop.size else None
         if g is None: continue
         dy = int((1 - u) * (H if i % 2 == 0 else -H))
@@ -340,6 +379,18 @@ def r_trip(c, t, fi):
         if ye > ys: f[ys:ye, x:x + g.shape[1]] = g[ys - y:ye - y]
     f = finish(f, fi)
     return label(f, c['label'], t, c['t0'], y=H - 62)
+
+def audit():
+    """Flag triptych panels that would be mostly empty backdrop. Run before every full render."""
+    bad = []
+    for c in CUTS:
+        if c['kind'] != 'trip': continue
+        pw = 610
+        for i, id_ in enumerate(c['ids']):
+            im, _ = museum_img(id_); fill = panel_fill(frame_object(im, pw, H - 160))
+            if fill < .12: bad.append((round(c['t0'], 1), id_, round(fill, 3)))
+    for b in bad: print('WARN trip panel mostly empty at t=%ss: %s (fill %.3f)' % b)
+    return bad
 
 R = {'foot': r_foot, 'photo': r_photo, 'object': r_object, 'type': r_type, 'trip': r_trip}
 
