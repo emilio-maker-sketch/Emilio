@@ -40,7 +40,7 @@ KEY SOURCES & FURTHER READING
 
 CREDITS
 Narration: AI-generated voice (Kokoro TTS).
-Images: The Metropolitan Museum of Art (Open Access, CC0) and the Art Institute of Chicago (public domain, CC0). Full list below.
+Images: The Metropolitan Museum of Art (Open Access, CC0) and the Art Institute of Chicago (public domain, CC0).
 Maps: made for this video with Natural Earth data (public domain).
 Music by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
 {chr(10).join('  "' + t + '" Kevin MacLeod (incompetech.com)' for t in tracks)}
