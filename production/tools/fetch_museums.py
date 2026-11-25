@@ -29,6 +29,13 @@ TOPICS = {
     'sea_ships': ['ship model', 'ancient ship', 'galley', 'shipwreck', 'storm at sea', 'stormy sea', 'Mediterranean coast'],
     'ruins_mood': ['ruins', 'ruined temple', 'ancient ruins painting', 'desert landscape', 'Piranesi', 'Hubert Robert ruins', 'Claude Lorrain', 'Syria landscape', 'Anatolia landscape', 'Greece landscape', 'Mycenae', 'Troy'],
     'drought_famine': ['drought', 'famine', 'wheat field', 'harvest', 'barren landscape', 'sunset desert', 'dust storm', 'volcano eruption', 'earthquake'],
+    'k_ramesses3': ['Ramesses III', 'Ramesses IV', 'Ramesside king', 'Dynasty 20 king', 'Medinet Habu relief', 'Thebes royal'],
+    'k_harem': ['queen Dynasty 19', 'royal woman New Kingdom', 'New Kingdom earring', 'New Kingdom jewelry', 'cosmetic jar New Kingdom', 'mirror New Kingdom', 'kohl tube', 'wig New Kingdom', 'musician New Kingdom', 'harem'],
+    'k_magic': ['magic wand', 'magical figurine', 'execration figure', 'wax figure', 'magical papyrus', 'amulet wedjat', 'Eye of Horus amulet', 'healing statue', 'magic brick'],
+    'k_papyri': ['hieratic papyrus', 'papyrus Ramesside', 'scribe palette', 'scribe statue', 'ostracon hieratic', 'papyrus document'],
+    'k_thebes_photos': ['Deir el-Bahari', 'Deir el Bahri', 'Valley of the Kings photograph', 'Thebes necropolis', 'Gournah', 'Qurna', 'Theban mountain', 'Colossi of Memnon', 'Luxor photograph'],
+    'k_officials': ['official New Kingdom statue', 'Ramesside official', 'stela New Kingdom', 'block statue New Kingdom', 'soldier New Kingdom', 'archer Egypt', 'Nubian'],
+    'k_death': ['coffin Dynasty 20', 'canopic Dynasty 20', 'shabti Dynasty 20', 'funerary papyrus', 'Book of the Dead', 'embalming', 'Anubis'],
     'archaeology': ['excavation photograph', 'archaeological excavation', 'Schliemann', 'Egypt Exploration', 'archaeologists'],
 }
 MAX_PER_TERM = 10
