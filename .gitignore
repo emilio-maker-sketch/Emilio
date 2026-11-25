@@ -4,3 +4,8 @@ __pycache__/
 production/assets/music/
 production/assets/music_src/
 production/kaz/build/
+production/kaz/three/node_modules/
+production/kaz/three/frames/
+production/kaz/three/test/
+production/kaz/three/*.log
+production/kaz/three/test_sheet.jpg
