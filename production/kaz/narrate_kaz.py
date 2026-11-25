@@ -9,7 +9,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, 'build'); os.makedirs(OUT, exist_ok=True)
 SR = 24000
 GAP = 0.55                                         # between sentences
-HOLD = {'zone': 2.0, 'year': 3.0, 'thesis': 3.6, 'network': 3.0, 'end_open': 4.5, 'end': 7.0, 'vintage': 1.0}
+HOLD = {'open': 5.5, 'zone': 2.0, 'year': 3.0, 'thesis': 3.6, 'network': 3.0, 'end_open': 4.5, 'end': 7.0, 'vintage': 1.0}
 EXTRA = [('Pebekkamen', 'Peh-bek-kah-men'), ('Mesedsure', 'Meh-sed-soo-reh'), ('Binemwese', 'Bin-em-weh-seh'),
          ('Penhuibin', 'Pen-hwee-bin'), ('Pentawere', 'Pen-tah-weh-reh'), ('Tiye', 'Tee-yeh'), ('Brugsch', 'Brooksh'),
          ('Abd el-Rassul', 'Abd el Rassool'), ('Gurna', 'Goorna'), ('Hawass', 'Hah-wass'), ('Saleem', 'Sah-leem'),
@@ -45,7 +45,7 @@ def main():
                 if d[0] in HOLD: events.append({'t': round(t, 3), 'd': d})
             chunks.append(np.zeros(int(hold * SR), np.float32)); t += hold
         for d in pend:
-            if d[0] not in HOLD: events.append({'t': round(t, 3), 'd': d})
+            if d[0] not in HOLD: events.append({'t': round(t, 3), 'd': d, 's': len(sentences)})
         pend = []
         key = re.sub(r'\W+', '_', v)[:60] + f'_{abs(hash(v)) % 10**8}'
         p = os.path.join(cache, key + '.wav')
