@@ -9,7 +9,7 @@ from kokoro_onnx import Kokoro
 from script_parse import chapters, ROOT
 
 OUT = os.path.join(ROOT, 'build', 'narration')
-VOICE, SPEED, LANG, SR, GAP = 'bm_george', 0.92, 'en-gb', 24000, 0.38
+VOICE, SPEED, LANG, SR, GAP = 'bm_lewis', 0.92, 'en-gb', 24000, 0.38
 SUBS = [('Palaiologos', 'Pally-ologos'), ('Baltaoğlu Süleyman', 'Balta-oh-loo Suleiman'), ('Baltaoğlu', 'Balta-oh-loo'),
         ('Boğazkesen', 'Boaz-kesen'), ('Kritoboulos', 'Kreeto-boolos'), ('Sphrantzes', 'Sfrant-zees'),
         ('Giustiniani', 'Joostin-yani'), ('Kerkoporta', 'Kerko-porta'), ('Mesoteichion', 'Meso-tikeeon'),
