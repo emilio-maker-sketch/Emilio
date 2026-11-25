@@ -62,6 +62,7 @@ The craftsmen who built the royal tombs in the Valley of the Kings went on strik
 @note "WE ARE HUNGRY.|EIGHTEEN DAYS HAVE GONE|BY IN THIS MONTH.|- THE TOMB WORKERS" as=strike
 Their grain rations had not arrived.
 @push strike
+@film strike dur=7.5 title="Year 29.|The workmen strike|\"because of hunger.\""
 They put down their tools, marched out, and sat down behind the temples, refusing to work until they were paid.
 @string dm strike
 It is the earliest well documented labor strike in history.
@@ -169,6 +170,7 @@ The conspirators had a problem: the women of the harem were closely guarded.
 @circle wives on=messengers
 So they used messengers.
 @counter "6" "WIVES OF THE GATEKEEPERS" on=six
+@film messengers dur=7
 The records name six wives of the men who guarded the harem gate, who carried messages between the women inside and their allies outside.
 @string overseer wives
 @suspect bin "BINEMWESE" "COMMANDER OF ARCHERS, KUSH"
@@ -258,6 +260,7 @@ The papyrus is written as if the dead king himself were speaking, giving instruc
 He appoints a panel of officials, more than a dozen of them, treasurers, butlers, scribes and army officers, to examine the accused.
 @note "THE COURT:|2 TREASURERS|STANDARD-BEARERS|ROYAL BUTLERS|A SCRIBE - A HERALD" as=court
 @string decree court
+@film trial dur=7
 These were not priests or professional judges.
 @card met549229 as=nedjem w=360
 @tag nedjem "BLOCK STATUE OF NEDJEM, REIGN OF RAMESSES III"
@@ -297,6 +300,7 @@ Strangely, the records never tell us what happened to her.
 But then the trial took a scandalous turn.
 @card met557733 as=mus w=520
 @tag mus "MUSICIANS (RELIEF, c. 1390 BCE)"
+@film party dur=6.5
 Some of the judges were caught partying with the very women they were supposed to be judging.
 @note "JUDGES CAUGHT|CAROUSING WITH THE|ACCUSED WOMEN" as=judges
 @stamp judges "PUNISHED"
@@ -334,6 +338,7 @@ Under pressure, one of the brothers led officials to a shaft in the cliffs.
 @push db320
 The museum official Émile Brugsch was lowered into the tomb, and found himself surrounded by the coffins of kings.
 @tag tm3 "BY BOAT TO CAIRO" at=nile
+@film cache dur=7.5
 In just a few days, the mummies were carried out and taken by boat down the Nile to Cairo.
 @string db320 king
 Among them was Ramesses the Third.

@@ -301,6 +301,7 @@ def kv(args):
 
 ITEMS, BYNAME, TAGS, LINES, ELLS, STAMPS, OVERLAYS, KEYS, NETWORKS = [], {}, [], [], [], [], [], [], []
 VINTAGE = None
+FILMS, LOUPES = [], []
 
 def layout_slots(zi):
     x0, y0, x1, y1 = zone_rect(zi)
@@ -348,6 +349,7 @@ POPS = []
 def build_pops():
     blocked = [(o['t0'], o['t0'] + o['dur'] + .3) for o in OVERLAYS if o['kind'] in ('year', 'thesis', 'end_open', 'end', 'open', 'counter', 'chapter')]
     if VINTAGE: blocked.append((VINTAGE[0] - .3, VINTAGE[1] + .3))
+    for F in FILMS: blocked.append((F['t0'] - .3, F['t1'] + .3))
     last_t, recent = -9, {}
     for i, w in enumerate(WORDS):
         c = _clean(w['w']); t = w['s']
@@ -440,6 +442,8 @@ def build_model():
             OVERLAYS.append(dict(kind=cmd, t0=t, a=pos[0], b=pos[1] if len(pos) > 1 else ''))
         elif cmd == 'vintage':
             VINTAGE = [t, None]
+        elif cmd == 'film':
+            FILMS.append(dict(t0=t, t1=t + float(opt.get('dur', 7)), scene=pos[0], title=opt.get('title')))
     # vintage ends at the next card event after it starts
     if VINTAGE:
         nxt = [e['t'] for e in TL['events'] if e['t'] > VINTAGE[0] + 1 and e['d'][0] == 'card']
@@ -458,6 +462,15 @@ def build_model():
         zi_ = ZONES.index([z for z in ZONES if ZONE_TITLES[z].endswith(o['a'])][0])
         first = [it for it in ITEMS if it['zone'] == zi_]
         if first: first[0]['t0'] = min(first[0]['t0'], o['t0'] + o['dur'] - .4)
+    yi = 0
+    for o in sorted(OVERLAYS, key=lambda o: o['t0']):
+        if o['kind'] == 'year': o['tl'] = yi; yi += 1
+    lastl = -99
+    for it in ITEMS:
+        if it['kind'] != 'card': continue
+        nk = [k[0] for k in KEYS if k[0] > it['t0'] + .2]; gap = (min(nk) if nk else DUR) - it['t0']
+        if gap > 3.6 and it['t0'] - lastl > 16 and not any(F['t0'] - 1 < it['t0'] < F['t1'] for F in FILMS):
+            LOUPES.append(dict(item=it, t0=it['t0'] + 1.0, du=min(gap - 1.3, 3.4))); lastl = it['t0']
     build_pops()
     # mip levels
     for it in ITEMS:
@@ -480,7 +493,7 @@ def build_cam():
         if t <= prev[0] + .05: continue
         # drift: slow push-in from the previous target until this move starts
         keys.append((t, prev[1], prev[2], prev[3] * 1.05, prev[4]))
-        rot = rr.uniform(-2, 2)
+        rot = (1 if i % 2 else -1) * rr.uniform(1.2, 3.2)
         nxt = [k[0] for k in KEYS[i + 1:] if k[0] > t + .3]
         keys.append((max(t + .35, min(t + mv, nxt[0] - .05)) if nxt else t + mv, tgt[0], tgt[1], tgt[2], rot))
     last = keys[-1]; keys.append((DUR, last[1], last[2], last[3] * 1.05, last[4]))
@@ -540,11 +553,11 @@ def blend_roi(frame, bgra, M):
     roi = frame[y0:y1, x0:x1]
     roi[:] = roi * (1 - a) + wpd[..., :3] * a
 
-def item_M(it, C, img, extra=1.0, dy=0.0, rot=None):
+def item_M(it, C, img, extra=1.0, dy=0.0, rot=None, sx=1.0, sy=1.0, dx=0.0):
     h, w = img.shape[:2]; scale_px = it['img'].shape[1] / w
     rr = math.radians(it['rot'] if rot is None else rot); k = extra * scale_px / R
     c, s = math.cos(rr)*k, math.sin(rr)*k
-    L = np.array([[c, -s, it['c'][0] - (c*w/2 - s*h/2)], [s, c, it['c'][1] + dy - (s*w/2 + c*h/2)], [0, 0, 1]])
+    L = np.array([[c*sx, -s*sy, it['c'][0] + dx - (c*sx*w/2 - s*sy*h/2)], [s*sx, c*sy, it['c'][1] + dy - (s*sx*w/2 + c*sy*h/2)], [0, 0, 1]])
     return (np.vstack([world_M(C), [0, 0, 1]]) @ L)[:2].astype(np.float32)
 
 # ------------------------------------------------------------------ overlays
@@ -684,7 +697,15 @@ def screen_overlays(img, t):
             text_center(d, 330, o['b'], font(MONO, 44), (220, 220, 210, al))
             text_center(d, 410, o['a'][:n], f, (240, 236, 225, al))
             d.line([(560, 620), (860, 620)], fill=(200, 200, 190, al), width=2); d.line([(1060, 620), (1360, 620)], fill=(200, 200, 190, al), width=2)
-            return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
+            ob = cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
+            fdir = os.path.join(B, 'tl', str(o.get('tl', -1))); n = len(os.listdir(fdir)) if os.path.isdir(fdir) else 0
+            k_ = int((t - t0)*FPS)
+            if k_ < n:
+                png = cv2.imread(os.path.join(fdir, f'f{k_ + 1:04d}.png'), cv2.IMREAD_UNCHANGED)
+                if png is not None:
+                    aa = png[..., 3:4].astype(np.float32)/255
+                    ob = np.clip(ob*(1 - aa) + png[..., :3]*aa, 0, 255).astype(np.uint8)
+            return ob
         if o['kind'] == 'thesis':
             a = ss((t - t0)/.5) * (1 - ss((t - (t0 + du - .4))/.5)); out *= 1 - .6*a
             pil = Image.fromarray(cv2.cvtColor(np.clip(out, 0, 255).astype(np.uint8), cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA")
@@ -798,6 +819,145 @@ def vintage_frame(t, fi):
     if t > T1 - .5: out = iris(out, full*(1 - ss((t - (T1 - .5))/.5)))
     return cv2.cvtColor(out, cv2.COLOR_RGB2BGR)
 
+# ------------------------------------------------------------------ v4: magnifying loupe, lamp dust, extra silent-film scenes
+def draw_loupe(frame, lp, t, C):
+    it = lp['item']; u = (t - lp['t0']) / lp['du']
+    a = ss(u / .15) * (1 - ss((u - .85) / .15))
+    if a < .02: return
+    w, h = it['size']; cx, cy = it['c']; v = ease(clamp((u - .1) / .8))
+    wp = (cx + w * (-.2 + .4 * v), cy + h * (-.14 + .26 * v + .06 * math.sin(v * math.pi)))
+    p = to_screen(wp, C); m = 2.4; r = int(175 * (.6 + .4 * a))
+    x0, y0 = int(p[0]) - r, int(p[1]) - r
+    if x0 < 0 or y0 < 0 or x0 + 2*r > W or y0 + 2*r > H: return
+    Mi = np.vstack([item_M(it, C, it['img']), [0, 0, 1]])
+    S = np.array([[m, 0, p[0] - m*p[0] - x0], [0, m, p[1] - m*p[1] - y0], [0, 0, 1]])
+    mag = cv2.warpAffine(it['img'], (S @ Mi)[:2].astype(np.float32), (2*r, 2*r), flags=cv2.INTER_CUBIC, borderValue=(0, 0, 0, 0))
+    roi = frame[y0:y0 + 2*r, x0:x0 + 2*r]
+    yy, xx = np.ogrid[:2*r, :2*r]; d = np.sqrt((xx - r)**2 + (yy - r)**2) / r
+    lens = np.clip((1 - d) * r / 3, 0, 1)[..., None] * a
+    al = mag[..., 3:4].astype(np.float32) / 255
+    inside = roi * (1 - al) + mag[..., :3] * al
+    inside = inside * (1.06 - .25 * np.clip(d, 0, 1)**3)[..., None] + 18 * np.clip(1 - np.hypot(xx - r*.62, yy - r*.55)/(r*.5), 0, 1)[..., None]
+    shadow = np.clip(1 - np.abs(d - 1.06) / .09, 0, 1)[..., None] * a * .55
+    roi[:] = roi * (1 - shadow) * (1 - lens) + inside * lens
+    rim = np.clip(1 - np.abs(d - .97) / .045, 0, 1)[..., None] * a
+    roi[:] = roi * (1 - rim) + np.array([38, 58, 74], np.float32) * rim
+    hx, hy = p[0] + r * .72, p[1] + r * .72
+    cv2.line(frame, (int(hx), int(hy)), (int(hx + 120*a), int(hy + 120*a)), (30, 40, 52), 22, cv2.LINE_AA)
+
+DUST = np.random.default_rng(9).random((80, 5))
+SPR = {}
+def add_dust(f, t, C):
+    for x0, y0, sz, sp, ph in DUST:
+        rr = int(2 + sz * 5)
+        if rr not in SPR:
+            g = np.exp(-((np.arange(-3*rr, 3*rr + 1)[None] / rr)**2 + (np.arange(-3*rr, 3*rr + 1)[:, None] / rr)**2))
+            SPR[rr] = g[..., None].astype(np.float32)
+        x = (x0 * W * 1.2 + t * (8 + 18 * sp) - C[0] * C[2] * (.05 + .12 * sz)) % (W * 1.2) - W * .1
+        y = (y0 * H * 1.2 + t * (4 + 10 * sp) + 30 * math.sin(t * .4 + ph * 6) - C[1] * C[2] * (.05 + .12 * sz)) % (H * 1.2) - H * .1
+        g = SPR[rr]; k = g.shape[0] // 2; xi, yi = int(x), int(y)
+        if k <= xi < W - k - 1 and k <= yi < H - k - 1:
+            tw = .5 + .5 * math.sin(t * (1.5 + 2 * sp) + ph * 9)
+            f[yi - k:yi + k + 1, xi - k:xi + k + 1] += g * (10 + 26 * sz) * tw
+    return f
+
+def seated(d, x, y, t, k, s=1.0, arm=0.0, col=INK, face=1):
+    """flat side-view figure sitting on the ground / a stool, knees raised"""
+    f = face
+    wline(d, [(x, y - 40*s), (x + f*95*s, y - 105*s), (x + f*120*s, y)], t, k + 7, col, int(14*s))
+    wpoly(d, [(x - 34*s, y - 60*s), (x + 30*s, y - 60*s), (x + 30*s, y), (x - 34*s, y)], t, k + 1, PAPER, col, int(4*s))
+    wpoly(d, [(x - 26*s, y - 170*s), (x + 26*s, y - 170*s), (x + 30*s, y - 60*s), (x - 30*s, y - 60*s)], t, k + 2, col, col, 2)
+    d.ellipse([x - 28*s + J(t, k), y - 232*s + J(t, k + 1), x + 28*s + J(t, k), y - 172*s + J(t, k + 1)], fill=col)
+    wpoly(d, [(x - f*36*s, y - 236*s), (x + f*16*s, y - 238*s), (x + f*6*s, y - 170*s), (x - f*40*s, y - 162*s)], t, k + 3, col, col, 2)
+    wline(d, [(x + f*14*s, y - 150*s), (x + f*(14 + 80*arm)*s, y - (150 - 10*arm)*s + 70*(1 - arm)*s)], t, k + 5, col, int(12*s))
+
+def woman(d, x, y, t, k, s=1.0, sway=0.0, arm=0.0, col=INK):
+    figure(d, x, y, t, k, s, arm, col)
+    o = sway * 14 * s
+    wpoly(d, [(x - 30*s, y - 330*s), (x + 30*s, y - 330*s), (x + 52*s + o, y - 20*s), (x - 48*s + o, y - 20*s)], t, k + 11, (214, 196, 160), col, int(4*s))
+
+def coffin(d, x, y, t, k, L=260, col=(120, 92, 58)):
+    wpoly(d, [(x, y - 24), (x + 40, y - 46), (x + L - 30, y - 40), (x + L, y - 20), (x + L - 30, y), (x + 40, y), (x, y - 10)], t, k, col, INK, 4)
+    d.ellipse([x + L - 70 + J(t, k), y - 40, x + L - 20 + J(t, k), y - 6], fill=(196, 160, 96), outline=INK, width=3)
+
+def sc_strike(d, t, lt, CW):
+    wpoly(d, [(0, 820), (0, 430), (260, 360), (620, 420), (900, 330), (1300, 400), (1500, 380), (1500, 820)], t, 300, (205, 182, 140), DARK, 4)
+    wpoly(d, [(1580, 820), (1640, 300), (1980, 300), (2040, 820)], t, 310, (196, 174, 136), DARK, 5)
+    for i in range(3): wline(d, [(1660 + 110*i, 360), (1680 + 110*i, 780)], t, 320 + i, MID, 3)
+    for i, x in enumerate((240, 470, 700, 930, 1160)):
+        seated(d, x, 820, t, 400 + 40*i, 1.15, arm=.15 + .1*(i % 2))
+    for i, x in enumerate((1290, 1360, 1430)): wline(d, [(x, 812), (x + 70, 790)], t, 500 + i, DARK, 9)
+    d.ellipse([1300, 770, 1380, 818], outline=INK, width=5)
+    wpoly(d, [(1440, 820), (1430, 700), (1460, 650), (1540, 650), (1570, 700), (1560, 820)], t, 520, (190, 150, 100), INK, 5)
+    if lt > 2.2:
+        u = ease((lt - 2.2) / .3); c = (1500, 735); e = 46 * u
+        d.line([(c[0] - e, c[1] - e), (c[0] + e, c[1] + e)], fill=VRED, width=12); d.line([(c[0] - e, c[1] + e), (c[0] + e, c[1] - e)], fill=VRED, width=12)
+    return ("DEIR EL-MEDINA  ·  YEAR 29", "THE TOMB-BUILDERS PUT DOWN THEIR TOOLS")
+
+def sc_messengers(d, t, lt, CW):
+    d.rectangle([0, 0, CW, 820], fill=(150, 130, 100)); d.ellipse([1720, 90, 1820, 190], fill=PAPER)
+    wpoly(d, [(0, 260), (900, 260), (900, 820), (0, 820)], t, 600, (186, 164, 126), INK, 5)
+    wpoly(d, [(1240, 260), (CW, 260), (CW, 820), (1240, 820)], t, 610, (186, 164, 126), INK, 5)
+    wpoly(d, [(860, 200), (1280, 200), (1280, 270), (860, 270)], t, 620, (176, 152, 116), INK, 5)
+    woman(d, 760, 820, t, 640, 1.1, sway=math.sin(lt*2), arm=clamp(lt / 1.2))
+    u = ease((lt - 1.4) / 3.6)
+    mx = 1000 + 900*u; figure(d, mx, 820, t, 700, 1.15, arm=.55)
+    sx_, sy_ = (850, 520) if lt < 1.4 else (mx + 70, 540)
+    wpoly(d, [(sx_, sy_), (sx_ + 60, sy_ - 8), (sx_ + 62, sy_ + 26), (sx_ + 2, sy_ + 32)], t, 720, PAPER, INK, 3)
+    d.ellipse([sx_ + 22, sy_ + 4, sx_ + 42, sy_ + 24], fill=VRED)
+    return ("THE HAREM GATE  ·  NIGHT", "MESSAGES CARRIED OUT OF THE PALACE")
+
+def sc_trial(d, t, lt, CW):
+    for i, x in enumerate(range(120, CW, 420)):
+        wpoly(d, [(x, 190), (x + 80, 190), (x + 80, 820), (x, 820)], t, 800 + i, (196, 174, 136), DARK, 4)
+    wpoly(d, [(120, 760), (1080, 760), (1080, 820), (120, 820)], t, 830, (150, 120, 84), INK, 4)
+    for i, x in enumerate((200, 380, 560, 740, 920)): seated(d, x, 760, t, 850 + 30*i, 1.0, arm=.3 if i != 2 else .2 + .7*clamp((lt - 3)/.6))
+    seated(d, 1180, 820, t, 1000, .8, arm=.6)
+    wpoly(d, [(1250, 700), (1330, 690), (1335, 712), (1255, 722)], t, 1010, PAPER, INK, 3)
+    if lt > 3.4: d.ellipse([1282, 696, 1302, 716], fill=VRED)
+    figure(d, 1560, 820, t, 1100, 1.15, arm=0.0); figure(d, 1720, 820, t, 1150, 1.2, arm=.3); figure(d, 1420, 820, t, 1200, 1.2, arm=.3)
+    return ("THE COURT OF INQUIRY  ·  THEBES", "OFFICIALS EXAMINE THE ACCUSED")
+
+def sc_party(d, t, lt, CW):
+    for i, x in enumerate(range(160, CW, 460)):
+        wpoly(d, [(x, 190), (x + 80, 190), (x + 80, 820), (x, 820)], t, 1300 + i, (196, 174, 136), DARK, 4)
+    for i, x in enumerate((260, 460, 660)):
+        seated(d, x, 820, t, 1350 + 30*i, 1.05, arm=.4 + .4*math.sin(lt*3 + i)**2)
+        cx_ = x + 14 + 80*(.4 + .4*math.sin(lt*3 + i)**2); d.rectangle([cx_ - 10, 660 - 60*(.4 + .4*math.sin(lt*3+i)**2), cx_ + 10, 690 - 60*(.4 + .4*math.sin(lt*3+i)**2)], fill=DARK)
+    for i, x in enumerate((1020, 1240)): woman(d, x + 40*math.sin(lt*2.2 + i*2), 820, t, 1450 + 50*i, 1.1, sway=math.sin(lt*4 + i), arm=.5 + .5*math.sin(lt*3 + i))
+    seated(d, 1580, 820, t, 1550, 1.05, arm=.8)
+    wpoly(d, [(1700, 820), (1720, 480), (1760, 470), (1790, 820)], t, 1560, (170, 130, 80), INK, 4)
+    for i in range(5): wline(d, [(1722 + 6*i, 500 + 10*i), (1700 + 18*i, 800)], t, 1570 + i, DARK, 2)
+    return ("THE JUDGES' MISCONDUCT", "CAROUSING WITH THE ACCUSED WOMEN")
+
+def sc_cache(d, t, lt, CW):
+    wpoly(d, [(0, 820), (0, 140), (380, 120), (640, 200), (820, 180), (980, 300), (1060, 820)], t, 1700, (198, 172, 128), INK, 5)
+    wpoly(d, [(430, 200), (520, 200), (520, 820), (430, 820)], t, 1710, (70, 54, 36), INK, 4)
+    wline(d, [(475, 150), (475, 200 + 300*clamp(lt / 2))], t, 1720, INK, 5)
+    for i in range(3): coffin(d, 560 + 30*i, 820 - 52*i, t, 1730 + 20*i, 300)
+    u = ease((lt - .8) / 5); bx = 1080 + 520*u
+    figure(d, bx, 820, t, 1800, 1.0, arm=.9); figure(d, bx + 250, 820, t, 1850, 1.0, arm=.9)
+    coffin(d, bx - 30, 560, t, 1880, 330)
+    d.rectangle([1500, 840, CW, 1000], fill=(150, 140, 120)); wline(d, [(1500, 842), (CW, 842)], t, 1890, INK, 4)
+    hx = 1900 + 60*math.sin(lt*.6)
+    wpoly(d, [(hx, 860), (hx + 340, 860), (hx + 280, 920), (hx + 60, 920)], t, 1900, (120, 92, 58), INK, 4)
+    wline(d, [(hx + 170, 860), (hx + 170, 640)], t, 1910, INK, 6); wpoly(d, [(hx + 175, 650), (hx + 300, 760), (hx + 175, 840)], t, 1920, PAPER, INK, 3)
+    return ("DEIR EL-BAHARI  ·  JULY 1881", "THE MUMMIES ARE CARRIED OUT, THEN SHIPPED TO CAIRO")
+
+SCENES = {'strike': sc_strike, 'messengers': sc_messengers, 'trial': sc_trial, 'party': sc_party, 'cache': sc_cache}
+def film_frame(t, fi, F):
+    T0, T1 = F['t0'], F['t1']; lt = t - T0; tq = math.floor(t*12)/12; lq = tq - T0
+    CW = W + 360; im = Image.new("RGB", (CW, H), PAPER); d = ImageDraw.Draw(im)
+    d.rectangle([0, 820, CW, H], fill=(205, 184, 146)); wline(d, [(0, 820), (CW, 820)], tq, 1, INK, 5)
+    cap = SCENES[F['scene']](d, tq, lq, CW)
+    pan = int(360 * ease(lt / (T1 - T0))); img = im.crop((pan, 0, pan + W, H)); d = ImageDraw.Draw(img)
+    d.text((60, 40), cap[0], font=font(SERIF, 50), fill=INK); d.text((60, 100), cap[1] + "   (RECONSTRUCTION)", font=font(MONO, 26), fill=DARK)
+    if F.get('title') and t > T1 - 2.0: img = intertitle(F['title'].split('|'))
+    out = film(img, fi); full = math.hypot(W/2, H/2)
+    if t < T0 + .5: out = iris(out, full*ss((t - T0)/.5))
+    if t > T1 - .45: out = iris(out, full*(1 - ss((t - (T1 - .45))/.45)))
+    return cv2.cvtColor(out, cv2.COLOR_RGB2BGR)
+
 # ------------------------------------------------------------------ render
 def render(frames, out, stills_dir=None):
     bg_full, bg_half = build_bg(1.0), None
@@ -814,8 +974,11 @@ def render(frames, out, stills_dir=None):
                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
     for fi in frames:
         t = fi / FPS
+        FL = [F for F in FILMS if F['t0'] <= t < F['t1']]
         if VINTAGE and VINTAGE[0] <= t < VINTAGE[1]:
             fr = vintage_frame(t, fi)
+        elif FL:
+            fr = film_frame(t, fi, FL[0])
         else:
             C = cam(t)
             for st in STAMPS:
@@ -827,7 +990,11 @@ def render(frames, out, stills_dir=None):
                 if t < it['t0']: continue
                 p = to_screen(it['c'], C); r = max(it['size'])*C[2]
                 if p[0]+r < 0 or p[0]-r > W or p[1]+r < 0 or p[1]-r > H: continue
-                u = (t - it['t0'])/.45; sc = 1.12 - .12*backout(u); dy = -60*(1 - ease(u))
+                u = (t - it['t0'])/.45; sc = 1.12 - .12*backout(u); dy = -60*(1 - ease(u)); sx = sy = 1.0; dx = 0.0; rx = None
+                kd = it['kind']
+                if kd in ('quote', 'note'): dy = 0; sc = 1.0; dx = -240*(1 - ease(u)); rx = it['rot'] - 9*(1 - backout(u))
+                elif kd == 'suspect': dy = 0; sx = max(.03, backout(clamp((t - it['t0'])/.55), 1.2))
+                elif kd in ('map', 'diagram'): dy = 0; sc = 1.0; sy = max(.03, ease((t - it['t0'])/.6))
                 lvl = 0 if C[2]/R*2 > .55 else (1 if C[2]/R*2 > .28 else 2)
                 im = it['mips'][lvl]
                 if 'hlimg' in it and t >= it['ht']:
@@ -837,11 +1004,13 @@ def render(frames, out, stills_dir=None):
                         sc_ = im.shape[1] / it['img'].shape[1]; pad_ = int(50*R*sc_); x0 = pad_ + int(it['hx'][0]*sc_); x1 = pad_ + int(it['hx'][1]*sc_)
                         xm = int(x0 + (x1 - x0)*hu); im = im.copy(); im[:, x0:xm] = hm[:, x0:xm]
                 if u < 1: im = im.copy(); im[..., 3] = (im[..., 3]*ss(u*1.6)).astype(np.uint8)
-                blend_roi(frame, im, item_M(it, C, im, sc, dy))
+                blend_roi(frame, im, item_M(it, C, im, sc, dy, rx, sx, sy, dx))
             for st in STAMPS:
                 if t < st['t0']: continue
                 it = st['item']; u = (t - st['t0'])/.2; sc = (1.6 - .6*backout(u, 2.2)) * min(1.0, it['size'][0]*R*.9/st['img'].shape[1])
                 blend_roi(frame, st['img'], item_M(dict(it, img=st['img']), C, st['img'], sc, 0, rot=it['rot'] - 12))
+            for lp in LOUPES:
+                if lp['t0'] <= t < lp['t0'] + lp['du']: draw_loupe(frame, lp, t, C)
             # motion blur on fast camera travel
             Cn = cam(t + 1/FPS); v = math.hypot((Cn[0] - C[0])*C[2], (Cn[1] - C[1])*C[2]) + abs(math.log(Cn[2]/C[2]))*900
             if v > 14:
@@ -856,6 +1025,7 @@ def render(frames, out, stills_dir=None):
             for st in STAMPS:
                 if st['t0'] < t < st['t0'] + .2:
                     f[..., 2] = np.roll(f[..., 2], 10, axis=1); f[..., 0] = np.roll(f[..., 0], -10, axis=1)
+            f = add_dust(f, t, C)
             f = f*LAMP + grains[fi % 6]
             if t < .6: f *= t/.6
             if t > DUR - 1.0: f *= max(0, (DUR - t))/1.0
