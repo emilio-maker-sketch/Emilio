@@ -346,7 +346,7 @@ KEYWORDS = {'murdered', 'murder', 'conspiracy', 'conspirators', 'plot', 'trial',
 ORD = {'third': 'III', 'fourth': 'IV', 'second': 'II', 'ninth': 'IX', 'great': 'THE GREAT'}
 POPS = []
 def build_pops():
-    blocked = [(o['t0'], o['t0'] + o['dur'] + .3) for o in OVERLAYS if o['kind'] in ('year', 'thesis', 'end_open', 'end', 'open', 'counter')]
+    blocked = [(o['t0'], o['t0'] + o['dur'] + .3) for o in OVERLAYS if o['kind'] in ('year', 'thesis', 'end_open', 'end', 'open', 'counter', 'chapter')]
     if VINTAGE: blocked.append((VINTAGE[0] - .3, VINTAGE[1] + .3))
     last_t, recent = -9, {}
     for i, w in enumerate(WORDS):
@@ -381,7 +381,10 @@ def build_model():
         pos, opt = kv(args)
         if cmd == 'zone':
             zi = ZONES.index(pos[0]); slots = layout_slots(zi)
-            x0, y0, x1, y1 = zone_rect(zi); KEYS.append((t, ((x0 + x1)/2, (y0 + y1)/2, ZW*.62, ZH*.62), 1.6))
+            sx, sy, _ = slots[0]; KEYS.append((t, (sx, sy, 1000, 760), 1.7))      # travel straight to where the first card lands
+            if pos[0] != 'open':
+                num, _, name = ZONE_TITLES[pos[0]].partition('  ')
+                OVERLAYS.append(dict(kind='chapter', t0=t, a=name, b=num))
             continue
         if cmd == 'open':
             OVERLAYS.append(dict(kind='open', t0=0.0, a=pos[0], b='')); continue
@@ -442,7 +445,19 @@ def build_model():
         nxt = [e['t'] for e in TL['events'] if e['t'] > VINTAGE[0] + 1 and e['d'][0] == 'card']
         VINTAGE[1] = min(nxt) if nxt else VINTAGE[0] + 10
     for o in OVERLAYS:
-        o['dur'] = {'year': 3.0, 'thesis': 3.8, 'end_open': 4.6, 'end': 7.0, 'open': 6.2, 'counter': 2.8}[o['kind']]
+        o['dur'] = {'year': 3.0, 'thesis': 3.8, 'end_open': 4.6, 'end': 7.0, 'open': 6.2, 'counter': 2.8, 'chapter': 2.2}[o['kind']]
+    # play overlapping overlays one after another (chapter card, then year card, ...)
+    seq = sorted([o for o in OVERLAYS if o['kind'] in ('chapter', 'year', 'thesis', 'counter', 'end_open')], key=lambda o: o['t0'])
+    for a_, b_ in zip(seq, seq[1:]):
+        if b_['t0'] < a_['t0'] + a_['dur']: b_['t0'] = a_['t0'] + a_['dur'] + .05
+    # the first exhibit drops in as the desk lamp comes on; in later chapters, as the chapter card fades
+    for it in ITEMS:
+        if it['zone'] == 0: it['t0'] = min(it['t0'], 6.1); break
+    for o in OVERLAYS:
+        if o['kind'] != 'chapter': continue
+        zi_ = ZONES.index([z for z in ZONES if ZONE_TITLES[z].endswith(o['a'])][0])
+        first = [it for it in ITEMS if it['zone'] == zi_]
+        if first: first[0]['t0'] = min(first[0]['t0'], o['t0'] + o['dur'] - .4)
     build_pops()
     # mip levels
     for it in ITEMS:
@@ -466,7 +481,8 @@ def build_cam():
         # drift: slow push-in from the previous target until this move starts
         keys.append((t, prev[1], prev[2], prev[3] * 1.05, prev[4]))
         rot = rr.uniform(-2, 2)
-        keys.append((min(t + mv, (KEYS[i + 1][0] - .05) if i + 1 < len(KEYS) else t + mv), tgt[0], tgt[1], tgt[2], rot))
+        nxt = [k[0] for k in KEYS[i + 1:] if k[0] > t + .3]
+        keys.append((max(t + .35, min(t + mv, nxt[0] - .05)) if nxt else t + mv, tgt[0], tgt[1], tgt[2], rot))
     last = keys[-1]; keys.append((DUR, last[1], last[2], last[3] * 1.05, last[4]))
     # fill every hold longer than ~3.2s with deliberate reframes (push / slide / pull) every ~2.2s
     PAT = [(1.16, .10, -.06), (1.0, -.12, .05), (1.24, .0, .08), (.94, .08, -.08), (1.12, -.08, -.04)]
@@ -493,8 +509,13 @@ def cam(t):
         a, b = K[i], K[i + 1]
         if a[0] <= t <= b[0]:
             u = ease((t - a[0]) / max(1e-6, b[0] - a[0]))
-            z = math.exp(math.log(a[3]) + (math.log(b[3]) - math.log(a[3])) * u)
-            return [a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, z, a[4] + (b[4] - a[4]) * u]
+            lz = math.log(a[3]) + (math.log(b[3]) - math.log(a[3])) * u
+            dist = math.hypot(b[1] - a[1], b[2] - a[2])
+            if dist > 900:                                   # flight arc: pull back wide on long travel, push in on arrival
+                zmid = clamp(W * 1.1 / dist, .28, 1.0)
+                lmid = math.log(a[3]) + (math.log(b[3]) - math.log(a[3])) * .5
+                if math.log(zmid) < lmid: lz += (math.log(zmid) - lmid) * math.sin(math.pi * u)
+            return [a[1] + (b[1] - a[1]) * u, a[2] + (b[2] - a[2]) * u, math.exp(lz), a[4] + (b[4] - a[4]) * u]
     return list(K[-1][1:])
 
 def to_screen(p, C):
@@ -609,7 +630,7 @@ def screen_overlays(img, t):
     for o in OVERLAYS:
         t0, du = o['t0'], o['dur']
         if not (t0 <= t < t0 + du + .4): continue
-        if o['kind'] in ('counter', 'year', 'thesis'):          # defocus the board behind the card
+        if o['kind'] in ('counter', 'year', 'thesis', 'chapter'):          # defocus the board behind the card
             a0 = ss((t - t0)/.3) * (1 - ss((t - (t0 + du - .3))/.4))
             if a0 > .02:
                 small = cv2.resize(out, (W//6, H//6), interpolation=cv2.INTER_AREA)
@@ -629,6 +650,15 @@ def screen_overlays(img, t):
             blk = np.array(pil)[..., ::-1].astype(np.float32)
             on = 0.0 if t < 5.4 else (1.0 if t > 6.1 else (1.0 if int((t - 5.4) * 14) % 3 == 1 else .25))
             return np.clip(blk * (1 - on) + out * on, 0, 255).astype(np.uint8)
+        if o['kind'] == 'chapter':
+            a = ss((t - t0)/.3) * (1 - ss((t - (t0 + du - .35))/.35)); out *= 1 - .5*a
+            pil = Image.fromarray(cv2.cvtColor(np.clip(out, 0, 255).astype(np.uint8), cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA"); al = int(255*a)
+            text_center(d, 380, o['b'], font(MONO, 44), (225, 222, 212, al))
+            f = font(SERIF, 150); n = min(len(o['a']), int(max(0, t - t0 - .15)*24))
+            text_center(d, 450, o['a'][:n], f, (244, 240, 230, al))
+            tw = f.getbbox(o['a'])[2]; u = ease((t - t0 - .3)/.5)
+            d.line([((W - tw)/2, 640), ((W - tw)/2 + tw*u, 640)], fill=RED + (al,), width=8)
+            return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
         if o['kind'] == 'counter':
             a = ss((t - t0)/.25) * (1 - ss((t - (t0 + du - .3))/.35))
             out *= 1 - .62*a
