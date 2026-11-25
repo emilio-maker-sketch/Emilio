@@ -17,8 +17,16 @@ if E.VINTAGE: c['film'].append([round(E.VINTAGE[0], 2), round(E.VINTAGE[1], 2)])
 for F in E.FILMS:
     c['film'].append([round(F['t0'], 2), round(F['t1'], 2)]); c['whoosh'] += [round(F['t0'], 2), round(F['t1'] - .3, 2)]
     if F.get('title'): c['thud'].append(round(F['t1'] - 2.0, 2))
+import cutaways as CWc
+for cu in CWc.CUTS:
+    if not cu.get('hard_in'): c['whoosh'].append(round(cu['t0'], 2))
+    if cu['kind'] == 'foot': c['film'].append([round(cu['t0'], 2), round(cu['t1'], 2)])
+    if cu['kind'] == 'type':
+        for wd in CWc.type_layout(cu):
+            (c['thud'] if wd['red'] else c.setdefault('tick_extra', [])).append(round(wd['t'], 2))
+    if cu['kind'] in ('photo', 'object', 'trip'): c.setdefault('soft_extra2', []).append(round(cu['t0'] + .2, 2))
 c['pin'] = [round(i['t0'], 2) for i in E.ITEMS]
-c['tick'] = [round(p['t'], 2) for p in E.POPS]
+c['tick'] = sorted([round(p['t'], 2) for p in E.POPS] + c.pop('tick_extra', []))
 for i in E.ITEMS:
     if i.get('kind') == 'quote': c['type'].append([round(i['t0'] + .2, 2), 18])
 c['roll'] = [[round(o['t0'], 2), 16] for o in E.OVERLAYS if o['kind'] == 'counter']
@@ -26,7 +34,7 @@ c['soft_extra'] = [round(l['t0'], 2) for l in E.LOUPES]
 mv = [k[0] for k in E.K]; c['soft'] = [round(t, 2) for t in mv if all(abs(t - w) > 1.0 for w in c['whoosh'])][::2]
 zt = {e['d'][1]: e['t'] for e in E.TL['events'] if e['d'][0] == 'zone'}
 c['pulse'] = [[zt['plot'], zt['night']], [zt['night'], zt['trial']], [zt['case'] + 120, zt['end']]]
-c['soft'] = sorted(c['soft'] + c.pop('soft_extra'))
+c['soft'] = sorted(c['soft'] + c.pop('soft_extra') + c.pop('soft_extra2', []))
 c['whoosh'].sort()
 json.dump(c, open(os.path.join(E.B, 'cues.json'), 'w'))
 print({k: len(v) if isinstance(v, list) else v for k, v in c.items()})

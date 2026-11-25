@@ -350,6 +350,8 @@ def build_pops():
     blocked = [(o['t0'], o['t0'] + o['dur'] + .3) for o in OVERLAYS if o['kind'] in ('year', 'thesis', 'end_open', 'end', 'open', 'counter', 'chapter')]
     if VINTAGE: blocked.append((VINTAGE[0] - .3, VINTAGE[1] + .3))
     for F in FILMS: blocked.append((F['t0'] - .3, F['t1'] + .3))
+    import cutaways as CW_
+    for c_ in CW_.CUTS: blocked.append((c_['t0'] - .3, c_['t1'] + .3))
     last_t, recent = -9, {}
     for i, w in enumerate(WORDS):
         c = _clean(w['w']); t = w['s']
@@ -471,6 +473,7 @@ def build_model():
         nk = [k[0] for k in KEYS if k[0] > it['t0'] + .2]; gap = (min(nk) if nk else DUR) - it['t0']
         if gap > 3.6 and it['t0'] - lastl > 16 and not any(F['t0'] - 1 < it['t0'] < F['t1'] for F in FILMS):
             LOUPES.append(dict(item=it, t0=it['t0'] + 1.0, du=min(gap - 1.3, 3.4))); lastl = it['t0']
+    import cutaways as CW_; CW_.init(sys.modules[__name__])
     build_pops()
     # mip levels
     for it in ITEMS:
@@ -972,6 +975,59 @@ def render(frames, out, stills_dir=None):
     if not stills_dir:
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
                                "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+    def board_frame(t, fi):
+        C = cam(t)
+        for st in STAMPS:
+            if st['t0'] < t < st['t0'] + .35:
+                k = (1 - (t - st['t0'])/.35)*14; C[0] += k*math.sin(t*90)/C[2]; C[1] += k*math.cos(t*77)/C[2]
+        if C[2] < .62: frame = cv2.warpAffine(bg_half, world_M(C, .5), (W, H), flags=cv2.INTER_LINEAR, borderValue=(38, 38, 24)).astype(np.float32)
+        else: frame = cv2.warpAffine(bg_full, world_M(C), (W, H), flags=cv2.INTER_LINEAR, borderValue=(38, 38, 24)).astype(np.float32)
+        for it in ITEMS:
+            if t < it['t0']: continue
+            p = to_screen(it['c'], C); r = max(it['size'])*C[2]
+            if p[0]+r < 0 or p[0]-r > W or p[1]+r < 0 or p[1]-r > H: continue
+            u = (t - it['t0'])/.45; sc = 1.12 - .12*backout(u); dy = -60*(1 - ease(u)); sx = sy = 1.0; dx = 0.0; rx = None
+            kd = it['kind']
+            if kd in ('quote', 'note'): dy = 0; sc = 1.0; dx = -240*(1 - ease(u)); rx = it['rot'] - 9*(1 - backout(u))
+            elif kd == 'suspect': dy = 0; sx = max(.03, backout(clamp((t - it['t0'])/.55), 1.2))
+            elif kd in ('map', 'diagram'): dy = 0; sc = 1.0; sy = max(.03, ease((t - it['t0'])/.6))
+            lvl = 0 if C[2]/R*2 > .55 else (1 if C[2]/R*2 > .28 else 2)
+            im = it['mips'][lvl]
+            if 'hlimg' in it and t >= it['ht']:
+                hu = ease((t - it['ht'])/.45); hm = it['hlmips'][lvl]
+                if hu >= 1: im = hm
+                else:
+                    sc_ = im.shape[1] / it['img'].shape[1]; pad_ = int(50*R*sc_); x0 = pad_ + int(it['hx'][0]*sc_); x1 = pad_ + int(it['hx'][1]*sc_)
+                    xm = int(x0 + (x1 - x0)*hu); im = im.copy(); im[:, x0:xm] = hm[:, x0:xm]
+            if u < 1: im = im.copy(); im[..., 3] = (im[..., 3]*ss(u*1.6)).astype(np.uint8)
+            blend_roi(frame, im, item_M(it, C, im, sc, dy, rx, sx, sy, dx))
+        for st in STAMPS:
+            if t < st['t0']: continue
+            it = st['item']; u = (t - st['t0'])/.2; sc = (1.6 - .6*backout(u, 2.2)) * min(1.0, it['size'][0]*R*.9/st['img'].shape[1])
+            blend_roi(frame, st['img'], item_M(dict(it, img=st['img']), C, st['img'], sc, 0, rot=it['rot'] - 12))
+        for lp in LOUPES:
+            if lp['t0'] <= t < lp['t0'] + lp['du']: draw_loupe(frame, lp, t, C)
+        # motion blur on fast camera travel
+        Cn = cam(t + 1/FPS); v = math.hypot((Cn[0] - C[0])*C[2], (Cn[1] - C[1])*C[2]) + abs(math.log(Cn[2]/C[2]))*900
+        if v > 14:
+            L = int(min(41, v * .9)) | 1; ang = math.atan2((Cn[1] - C[1]), (Cn[0] - C[0])); k = np.zeros((L, L), np.float32)
+            cv2.line(k, (int(L/2 - math.cos(ang)*L/2), int(L/2 - math.sin(ang)*L/2)), (int(L/2 + math.cos(ang)*L/2), int(L/2 + math.sin(ang)*L/2)), 1, 1)
+            k /= max(k.sum(), 1); frame = cv2.filter2D(frame, -1, k)
+        fr = np.clip(frame, 0, 255).astype(np.uint8)
+        fr = draw_overlays(fr, t, C)
+        fr = draw_pops(fr, t)
+        fr = screen_overlays(fr, t)
+        f = fr.astype(np.float32)
+        for st in STAMPS:
+            if st['t0'] < t < st['t0'] + .2:
+                f[..., 2] = np.roll(f[..., 2], 10, axis=1); f[..., 0] = np.roll(f[..., 0], -10, axis=1)
+        f = add_dust(f, t, C)
+        f = f*LAMP + grains[fi % 6]
+        if t < .6: f *= t/.6
+        if t > DUR - 1.0: f *= max(0, (DUR - t))/1.0
+        fr = np.clip(f, 0, 255).astype(np.uint8)
+        return fr
+    import cutaways as CW
     for fi in frames:
         t = fi / FPS
         FL = [F for F in FILMS if F['t0'] <= t < F['t1']]
@@ -980,56 +1036,7 @@ def render(frames, out, stills_dir=None):
         elif FL:
             fr = film_frame(t, fi, FL[0])
         else:
-            C = cam(t)
-            for st in STAMPS:
-                if st['t0'] < t < st['t0'] + .35:
-                    k = (1 - (t - st['t0'])/.35)*14; C[0] += k*math.sin(t*90)/C[2]; C[1] += k*math.cos(t*77)/C[2]
-            if C[2] < .62: frame = cv2.warpAffine(bg_half, world_M(C, .5), (W, H), flags=cv2.INTER_LINEAR, borderValue=(38, 38, 24)).astype(np.float32)
-            else: frame = cv2.warpAffine(bg_full, world_M(C), (W, H), flags=cv2.INTER_LINEAR, borderValue=(38, 38, 24)).astype(np.float32)
-            for it in ITEMS:
-                if t < it['t0']: continue
-                p = to_screen(it['c'], C); r = max(it['size'])*C[2]
-                if p[0]+r < 0 or p[0]-r > W or p[1]+r < 0 or p[1]-r > H: continue
-                u = (t - it['t0'])/.45; sc = 1.12 - .12*backout(u); dy = -60*(1 - ease(u)); sx = sy = 1.0; dx = 0.0; rx = None
-                kd = it['kind']
-                if kd in ('quote', 'note'): dy = 0; sc = 1.0; dx = -240*(1 - ease(u)); rx = it['rot'] - 9*(1 - backout(u))
-                elif kd == 'suspect': dy = 0; sx = max(.03, backout(clamp((t - it['t0'])/.55), 1.2))
-                elif kd in ('map', 'diagram'): dy = 0; sc = 1.0; sy = max(.03, ease((t - it['t0'])/.6))
-                lvl = 0 if C[2]/R*2 > .55 else (1 if C[2]/R*2 > .28 else 2)
-                im = it['mips'][lvl]
-                if 'hlimg' in it and t >= it['ht']:
-                    hu = ease((t - it['ht'])/.45); hm = it['hlmips'][lvl]
-                    if hu >= 1: im = hm
-                    else:
-                        sc_ = im.shape[1] / it['img'].shape[1]; pad_ = int(50*R*sc_); x0 = pad_ + int(it['hx'][0]*sc_); x1 = pad_ + int(it['hx'][1]*sc_)
-                        xm = int(x0 + (x1 - x0)*hu); im = im.copy(); im[:, x0:xm] = hm[:, x0:xm]
-                if u < 1: im = im.copy(); im[..., 3] = (im[..., 3]*ss(u*1.6)).astype(np.uint8)
-                blend_roi(frame, im, item_M(it, C, im, sc, dy, rx, sx, sy, dx))
-            for st in STAMPS:
-                if t < st['t0']: continue
-                it = st['item']; u = (t - st['t0'])/.2; sc = (1.6 - .6*backout(u, 2.2)) * min(1.0, it['size'][0]*R*.9/st['img'].shape[1])
-                blend_roi(frame, st['img'], item_M(dict(it, img=st['img']), C, st['img'], sc, 0, rot=it['rot'] - 12))
-            for lp in LOUPES:
-                if lp['t0'] <= t < lp['t0'] + lp['du']: draw_loupe(frame, lp, t, C)
-            # motion blur on fast camera travel
-            Cn = cam(t + 1/FPS); v = math.hypot((Cn[0] - C[0])*C[2], (Cn[1] - C[1])*C[2]) + abs(math.log(Cn[2]/C[2]))*900
-            if v > 14:
-                L = int(min(41, v * .9)) | 1; ang = math.atan2((Cn[1] - C[1]), (Cn[0] - C[0])); k = np.zeros((L, L), np.float32)
-                cv2.line(k, (int(L/2 - math.cos(ang)*L/2), int(L/2 - math.sin(ang)*L/2)), (int(L/2 + math.cos(ang)*L/2), int(L/2 + math.sin(ang)*L/2)), 1, 1)
-                k /= max(k.sum(), 1); frame = cv2.filter2D(frame, -1, k)
-            fr = np.clip(frame, 0, 255).astype(np.uint8)
-            fr = draw_overlays(fr, t, C)
-            fr = draw_pops(fr, t)
-            fr = screen_overlays(fr, t)
-            f = fr.astype(np.float32)
-            for st in STAMPS:
-                if st['t0'] < t < st['t0'] + .2:
-                    f[..., 2] = np.roll(f[..., 2], 10, axis=1); f[..., 0] = np.roll(f[..., 0], -10, axis=1)
-            f = add_dust(f, t, C)
-            f = f*LAMP + grains[fi % 6]
-            if t < .6: f *= t/.6
-            if t > DUR - 1.0: f *= max(0, (DUR - t))/1.0
-            fr = np.clip(f, 0, 255).astype(np.uint8)
+            fr = CW.compose(t, fi, board_frame)
         if stills_dir: cv2.imwrite(os.path.join(stills_dir, f'{t:07.2f}.jpg'), fr, [cv2.IMWRITE_JPEG_QUALITY, 85])
         else: ff.stdin.write(fr.tobytes())
     if ff: ff.stdin.close(); ff.wait()
