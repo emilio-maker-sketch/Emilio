@@ -242,7 +242,8 @@ class CardShot:
 
 class QuoteShot:
     def __init__(self, lib, quote, src, bgfile, dur, rnd):
-        self.dur = dur; self.bg = StillShot(lib, bgfile, dur, rnd)
+        self.dur = dur
+        self.bg = FxShot(lib, bgfile[3:], dur, rnd) if bgfile.startswith('fx:') else StillShot(lib, bgfile, dur, rnd)
         def draw(d):
             f = ImageFont.truetype(SERIF_I, 58); lines = wrap(d, '“' + quote + '”', f, 1300)
             y = H / 2 - len(lines) * 74 / 2 - 30
@@ -288,29 +289,36 @@ def build(ch):
             out = os.path.join(B, 'maps', f"{name}_{pi:02d}_{b['map']}.mp4")
             if not os.path.exists(out): mapmod.render(b['map'], dur + XF + 0.1, out)
             segs.append((t, dur, 'video', out, trans))
-        elif 'quote' in b:
-            q, src = [x.strip() for x in b['quote'].split('|')]
-            qs = [x.strip() for x in (b.get('v') or last_q or 'Volcanic ash cloud').split(';')]
-            segs.append((t, dur, 'quote', (q, src, lib.pick(qs, rnd)), trans))
         else:
+            qoff = 0.0
+            if 'quote' in b:   # quote card for the opening sentence(s) only (6-10 s), then back to pictures
+                q, src = [x.strip() for x in b['quote'].split('|')]
+                qs0 = [x.strip() for x in (b.get('v') or last_q or 'Volcanic ash cloud').split(';')]
+                bounds = [0.35 + x['start'] for x in m['sentences'][1:]] + [dur]
+                qoff = next((x for x in bounds if x >= 6.0), dur)
+                if dur - qoff < 2.5: qoff = dur
+                segs.append((t, qoff, 'quote', (q, src, lib.pick(qs0, rnd)), trans))
+                if qoff >= dur: t += dur; continue
+                trans = 'xf'
             qs = [x.strip() for x in (b.get('v') or last_q or 'Pompeii ruins panorama').split(';')]; last_q = b.get('v') or last_q
             # one shot per sentence, picture chosen from what that sentence says
             sents = m['sentences']; starts = [0.0] + [0.35 + x['start'] for x in sents[1:]] + [dur]
             spans = []
             for k, x in enumerate(sents):
-                a, b2 = starts[k], starts[k + 1]
+                a, b2 = max(starts[k], qoff), starts[k + 1]
+                if b2 <= qoff + 0.01: continue
                 vis, shake = visuals.for_sentence(x['text'])
                 if spans and b2 - a < 1.8 and vis is None:      # short line with no own subject: extend previous shot
                     spans[-1][1] = b2; continue
-                spans.append([a, b2, vis, shake])
+                spans.append([a, b2, vis, shake, x['text']])
             first = True
-            for a, b2, vis, shake in spans:
+            for a, b2, vis, shake, txt in spans:
                 pieces = [(a, b2 - a)] if b2 - a <= 5.6 else [(a, (b2 - a) / 2), (a + (b2 - a) / 2, (b2 - a) / 2)]
                 for pi_, (pa, pd) in enumerate(pieces):
                     if vis and vis[0] == 'file' and pi_ == 0: f = vis[1]
                     elif vis and vis[0] == 'themes': f = lib.pick_themes(vis[1], rnd) or lib.pick(qs, rnd)
                     else: f = lib.pick(qs, rnd, primary=first)
-                    segs.append((t + pa, pd, 'still', (f, shake and pi_ == 0), trans if first else 'cut')); first = False
+                    segs.append((t + pa, pd, 'still', (f, shake and pi_ == 0, txt), trans if first else 'cut')); first = False
         t += dur
     moods.append((mood_t, t, mood))
     return name, segs, vo, moods, hits, caps, t, lib, rnd
@@ -319,7 +327,7 @@ def make_shot(seg, lib, rnd, extra):
     st, dur, kind, pay, _ = seg
     d = dur + extra
     if kind == 'still':
-        f, shake = pay if isinstance(pay, tuple) else (pay, False)
+        f, shake = (pay[0], pay[1]) if isinstance(pay, tuple) else (pay, False)
         if f.startswith('fx:'): return FxShot(lib, f[3:], d, rnd)
         return StillShot(lib, f, d, rnd, shake)
     if kind == 'video': return VideoShot(pay, d)
