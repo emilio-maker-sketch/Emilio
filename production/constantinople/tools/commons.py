@@ -19,7 +19,7 @@ def search(q, n=15):
         r = requests.get('https://commons.wikimedia.org/w/api.php', headers=UA, timeout=40, params={
             'action': 'query', 'format': 'json', 'generator': 'search', 'gsrnamespace': 6,
             'gsrsearch': f'{q} filetype:bitmap', 'gsrlimit': n, 'prop': 'imageinfo',
-            'iiprop': 'url|extmetadata|size', 'iiurlwidth': 2400})
+            'iiprop': 'url|extmetadata|size', 'iiurlwidth': 1920})
         if r.status_code == 200: break
         time.sleep(5 * (i + 1))
     pages = sorted(r.json().get('query', {}).get('pages', {}).values(), key=lambda p: p.get('index', 99))
@@ -30,7 +30,7 @@ def search(q, n=15):
         if not OK.search(lic) or BAD.search(lic): continue
         out.append({'title': p['title'], 'w': ii['width'], 'h': ii['height'], 'license': lic,
                     'artist': clean(m.get('Artist', {}).get('value', ''))[:120],
-                    'url': ii.get('thumburl') if ii['width'] > 2400 and ii.get('thumburl') else ii['url'], 'page': ii['descriptionurl']})
+                    'url': ii.get('thumburl') if ii['width'] > 1920 and ii.get('thumburl') else ii['url'], 'page': ii['descriptionurl']})
     return out
 
 def main():

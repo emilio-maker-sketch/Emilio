@@ -106,7 +106,7 @@ def map_strait():
     label(d, P(29.12, 41.33), 'Bosphorus', 58)
     label(d, P(27.0, 41.6), 'EUROPE', 110, f='Cinzel.ttf', fill=(90, 70, 50))
     label(d, P(30.3, 40.35), 'ASIA', 110, f='Cinzel.ttf', fill=(90, 70, 50))
-    city(d, P, 28.97, 41.01, 'Constantinople', 72, dx=-40, dy=-80, star=True)
+    city(d, P, 28.97, 41.01, 'Constantinople', 72, dx=-330, dy=10, star=True)
     # sea lanes
     for pts in ([(29.12, 41.6), (29.06, 41.2), (28.98, 41.0)], [(28.98, 41.0), (28.4, 40.75), (27.3, 40.5), (26.6, 40.2)]):
         q = [P(*p) for p in pts]
@@ -144,11 +144,78 @@ def map_1450():
     d.rectangle([110, H - 210, 170, H - 160], fill=(170, 130, 160)); label(d, (200, H - 185), 'Byzantine (Roman) Empire', 60, anchor='lm')
     return vignette(img)
 
-MAPS = {'01-00-0': map_strait, '01-05-0': map_1450}
+def arrow(d, a, b, col=GOLD, w=12):
+    (x0, y0), (x1, y1) = a, b; n = 40
+    pts = [(x0 + (x1 - x0) * t + math.sin(t * math.pi) * (y1 - y0) * 0.12, y0 + (y1 - y0) * t - math.sin(t * math.pi) * (x1 - x0) * 0.12) for t in [i / n for i in range(n + 1)]]
+    for i in range(0, n - 2, 2): d.line([pts[i], pts[i + 1]], fill=col, width=w)
+    (ax, ay), (bx, by) = pts[-3], pts[-1]; ang = math.atan2(by - ay, bx - ax); L = 46
+    d.polygon([(bx, by), (bx - L * math.cos(ang - 0.45), by - L * math.sin(ang - 0.45)), (bx - L * math.cos(ang + 0.45), by - L * math.sin(ang + 0.45))], fill=col)
+
+def map_forts():
+    P = Proj(28.78, 29.32, 40.96, 41.26)
+    img = Image.fromarray(paper().clip(0, 255).astype(np.uint8)); draw_land(img, P)
+    img, mask = coast_lines(img, P); d = ImageDraw.Draw(img)
+    city(d, P, 28.95, 41.01, 'Constantinople', 64, dx=-60, dy=90, star=True)
+    city(d, P, 29.056, 41.085, 'Rumeli Hisarı (1452)', 58, dx=-420, dy=-10)
+    city(d, P, 29.066, 41.082, 'Anadolu Hisarı', 54, dx=330, dy=40)
+    label(d, P(29.2, 41.235), 'to the Black Sea', 56)
+    label(d, P(28.92, 40.99), 'Sea of Marmara', 58)
+    label(d, P(29.18, 41.04), 'ASIA', 90, f='Cinzel.ttf', fill=(90, 70, 50)); label(d, P(28.88, 41.17), 'EUROPE', 90, f='Cinzel.ttf', fill=(90, 70, 50))
+    label(d, (W - 60, H - 60), 'narrowest point: about 700 m', 54, anchor='rd')
+    return vignette(img)
+
+def map_help():
+    P = Proj(-7.0, 36.0, 34.5, 52.0)
+    img = Image.fromarray(paper().clip(0, 255).astype(np.uint8)); draw_land(img, P)
+    img, mask = coast_lines(img, P); d = ImageDraw.Draw(img)
+    c = P(28.97, 41.01); city(d, P, 28.97, 41.01, 'Constantinople', 60, dx=60, dy=80, star=True)
+    for lon, lat, name, dx, dy in ((12.33, 45.44, 'Venice', 0, -60), (8.93, 44.41, 'Genoa', -40, -60), (12.5, 41.9, 'Rome', -110, -10),
+                                   (19.04, 47.5, 'Hungary', 0, -60), (14.25, 40.85, 'Aragon (Naples)', 60, 80)):
+        city(d, P, lon, lat, name, 54, dx=dx, dy=dy); arrow(d, P(lon, lat), (c[0] - 30, c[1] - 10))
+    label(d, (W - 60, H - 60), 'hoped-for help, 1452–53', 54, anchor='rd')
+    return vignette(img)
+
+def map_1461():
+    P = Proj(17.5, 42.5, 34.5, 46.5)
+    img = Image.fromarray(paper().clip(0, 255).astype(np.uint8)); draw_land(img, P)
+    img, mask = coast_lines(img, P)
+    ott = [(21.0, 42.9), (22.6, 43.9), (25.0, 43.7), (27.6, 44.0), (28.7, 43.7), (29.2, 41.3), (27.9, 40.9), (26.2, 40.6),
+           (24.0, 40.6), (22.9, 39.4), (22.6, 38.4), (21.4, 39.0), (20.8, 40.3), (20.6, 41.6)]
+    ana = [(26.0, 40.1), (29.4, 41.2), (31.5, 41.3), (33.0, 40.9), (34.6, 40.7), (36.4, 40.6), (36.2, 39.6), (33.6, 39.0),
+           (31.6, 38.0), (29.6, 37.0), (27.3, 37.2), (26.1, 38.5)]
+    morea = [(21.1, 38.3), (23.2, 38.0), (23.3, 36.3), (21.5, 36.6)]
+    treb = [(37.6, 41.2), (41.6, 41.5), (41.4, 40.2), (38.0, 40.4)]
+    regs = [region(P, mask, x, OTT) for x in (ott, ana)] + [region(P, mask, x, OTT, 0.6) for x in (morea, treb)]
+    img = apply_regions(img, regs); d = ImageDraw.Draw(img)
+    city(d, P, 28.97, 41.01, 'Constantinople', 60, dx=230, dy=-55, star=True)
+    label(d, P(19.9, 36.6), 'Morea · 1460', 66, fill=(120, 34, 28)); label(d, P(39.6, 41.9), 'Trebizond · 1461', 62, fill=(120, 34, 28))
+    label(d, (W - 60, H - 60), 'the last Byzantine lands fall · borders approximate', 54, anchor='rd')
+    return vignette(img)
+
+def card(lines, out):
+    img = Image.new('RGB', (W, H), (10, 9, 8)); d = ImageDraw.Draw(img); y = H / 2 - (len(lines) - 1) * 130
+    for text, size, colr, f in lines:
+        d.text((W / 2, y), text, font=font(f, size), fill=colr, anchor='mm'); y += 260 if size > 100 else 200
+    img.save(out)
+
+def cards():
+    G, Wt, R = (176, 132, 52), (230, 216, 186), (190, 70, 60)
+    card([('Contemporary claims: 160,000 – 300,000+', 92, (150, 140, 125), 'CormorantGaramond-Italic.ttf'),
+          ('Modern estimates: 50,000 – 80,000 soldiers', 120, Wt, 'CormorantGaramond.ttf'),
+          ('Defenders: about 7,000 – 8,000', 120, G, 'CormorantGaramond.ttf')], os.path.join(OUT, '05-01-0.png'))
+    card([('MYTH', 110, R, 'Cinzel.ttf'), ('1453 closed the trade routes to Asia', 100, (150, 140, 125), 'CormorantGaramond-Italic.ttf'),
+          ('REALITY', 110, G, 'Cinzel.ttf'), ('Trade went on; Portuguese voyages had begun decades earlier', 84, Wt, 'CormorantGaramond.ttf')],
+         os.path.join(OUT, '13-02-0.png'))
+    card([('THE LAST DAY OF ROME', 150, Wt, 'Cinzel.ttf'), ('Narration, script and edit: Ancient World Files', 64, (160, 150, 130), 'CormorantGaramond-Italic.ttf'),
+          ('Reconstructions are artistic interpretations · AI-assisted imagery and voice', 56, (130, 122, 108), 'CormorantGaramond-Italic.ttf')],
+         os.path.join(OUT, '13-06-3.png'))
+
+MAPS = {'01-00-0': map_strait, '01-05-0': map_1450, '03-00-2': map_forts, '04-00-0': map_help, '13-00-2': map_1461}
 
 def main():
     os.makedirs(OUT, exist_ok=True)
     for k, fn in MAPS.items():
         fn().save(os.path.join(OUT, k + '.png')); print(k)
+    cards(); print('cards')
 
 if __name__ == '__main__': main()

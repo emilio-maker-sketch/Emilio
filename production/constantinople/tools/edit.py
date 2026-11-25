@@ -20,9 +20,16 @@ B = os.path.join(ROOT, 'build'); PREP = os.path.join(B, 'prep'); PARTS = os.path
 FONTS = os.path.join(ROOT, '..', 'assets', 'fonts')
 FPS, W, H = 30, 1920, 1080
 SW, SH = 2304, 1296                    # working canvas (1.2x) so moves never reveal edges
-LEAD, GAP, XF, PXF = 0.7, 1.1, 0.6, 1.2  # narration lead-in, gap after paragraph, shot dissolve, paragraph dissolve
-CARD = 5.5
+LEAD, GAP, XF, PXF = 0.7, 1.6, 0.6, 1.2
+CH_LEAD = 4.5   # music-only opening at the start of each chapter  # narration lead-in, gap after paragraph, shot dissolve, paragraph dissolve
+CARD = 6.5
 WORDS = 'ONE TWO THREE FOUR FIVE SIX SEVEN EIGHT NINE TEN ELEVEN TWELVE THIRTEEN FOURTEEN FIFTEEN'.split()
+
+SMALL = {'a', 'an', 'and', 'of', 'the', 'over', 'in', 'on', 'to', 'at', 'for'}
+def nice_title(t):
+    w = t.lower().split()
+    cap = lambda x: '-'.join(p[:1].upper() + p[1:] for p in x.split('-'))
+    return ' '.join(x if (i and x in SMALL) else cap(x) for i, x in enumerate(w))
 
 def load(p): return json.load(open(p))
 def edits():
@@ -57,7 +64,8 @@ def plan(chs):
             t += CARD - 0.3
         for pi, para in enumerate(n['paras']):
             ps = [s for s in shots if s['chapter'] == ch and s['para'] == pi]
-            seg = LEAD + para['dur'] + GAP
+            lead = CH_LEAD if pi == 0 and not ch.startswith('00') else LEAD
+            seg = lead + para['dur'] + GAP
             items = []
             for s in ps:
                 r = resolve(s, ps, ed)
@@ -80,9 +88,9 @@ def plan(chs):
                            'src': r['src'], 'crop': r.get('crop'), 'move': r.get('move', s['move']),
                            'grade': r.get('grade', s['grade']), 'kind': s['kind'], 'title': r.get('title')})
                 cur += d
-            tl.append({'type': 'voice', 'start': round(t + LEAD, 3), 'wav': os.path.join(ROOT, para['wav']), 'chapter': ch})
+            tl.append({'type': 'voice', 'start': round(t + lead, 3), 'wav': os.path.join(ROOT, para['wav']), 'chapter': ch})
             for sent in para['sentences']:
-                caps.append((t + LEAD + sent['start'], t + LEAD + sent['end'], sent['text']))
+                caps.append((t + lead + sent['start'], t + lead + sent['end'], sent['text']))
             t += seg
         if ch.startswith('00'):
             tl.append({'type': 'title', 'start': t, 'dur': 7.0, 'chapter': ch}); t += 7.0
@@ -94,7 +102,7 @@ def plan(chs):
 
 # ------------------------------------------------------------------ grading
 GRADES = {  # (rgb gain, lift, gamma, saturation, contrast, strength)
-    'gold':   ((1.06, 1.00, 0.88), 0.010, 1.00, 0.95, 1.04),
+    'gold':   ((1.035, 1.00, 0.94), 0.008, 1.00, 1.00, 1.04),
     'candle': ((1.08, 0.97, 0.82), 0.000, 1.06, 0.95, 1.08),
     'steel':  ((0.94, 0.99, 1.06), 0.015, 1.00, 0.68, 1.05),
     'night':  ((0.92, 0.97, 1.10), 0.000, 1.08, 0.85, 1.06),
@@ -188,7 +196,7 @@ def card_img(l1, l2, big=False):
         d.text((W / 2, H / 2 + 120), l2, font=font('CormorantGaramond-Italic.ttf', 46), fill=(180, 165, 140), anchor='mm')
     else:
         d.text((W / 2, H / 2 - 70), '   '.join(l1.replace('CHAPTER', 'CHAPTER ').split()), font=font('Cinzel.ttf', 34), fill=(170, 140, 90), anchor='mm')
-        d.text((W / 2, H / 2 + 20), l2.title() if l2.isupper() else l2, font=font('CormorantGaramond.ttf', 96), fill=(226, 212, 182), anchor='mm')
+        d.text((W / 2, H / 2 + 20), nice_title(l2), font=font('CormorantGaramond.ttf', 96), fill=(226, 212, 182), anchor='mm')
     a = np.asarray(im, np.float32)
     yy, xx = np.mgrid[0:H, 0:W]; r = np.hypot((xx - W / 2) / W, (yy - H / 2) / H)
     a = a + (np.exp(-r * r * 9) * 16)[..., None] * np.array([1.0, 0.8, 0.55])
