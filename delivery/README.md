@@ -4,7 +4,7 @@ Upload package for YouTube.
 
 | File | Use |
 |---|---|
-| `BronzeAgeCollapse_1177BC.mp4` | The video: 1080p, 30 fps, 65:21, loudness -14 LUFS (stored with Git LFS) |
+| `BronzeAgeCollapse_1177BC.mp4` | The video: 1080p, 30 fps, 65:21, 460 MB, loudness -14 LUFS (stored with Git LFS) |
 | `thumbnail.jpg` | 1280x720 thumbnail |
 | `titles.txt` | Three title options (first is recommended) |
 | `description.txt` | Description with chapters, sources and music credits. Paste as-is |
