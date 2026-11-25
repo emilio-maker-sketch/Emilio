@@ -31,3 +31,53 @@ IMAGE CREDITS - The Metropolitan Museum of Art, Open Access (CC0)
 - [Valley of the Kings, Thebes], Francis Frith (ca. 1857, printed 1870s)  https://www.metmuseum.org/art/collection/search/260975
 - Vue générale de la Nécropole de Thèbes (Gournah), Maxime Du Camp (1849–50)  https://www.metmuseum.org/art/collection/search/287137
 - Ostracon (ca. 1300–1080 BCE)  https://www.metmuseum.org/art/collection/search/555557
+
+FULL-SCREEN PHOTOGRAPHS AND OBJECTS (The Met, Open Access, CC0)
+- Haute-Egypt, Salle Hypostyle à Karnak, Adolphe Braun (ca. 1870)  https://www.metmuseum.org/art/collection/search/260967
+- Médînet-Abou (Thèbes). Constructions Postérieures - Deuxiéme Cour, Félix Teynard (1851–52, printed 1853–54)  https://www.metmuseum.org/art/collection/search/261835
+- Karnak (Thèbes), Premier Pylône - Ruines de la Porte et des Colosses, Vues du Point E, Félix Teynard (1851–52, printed 1853–54)  https://www.metmuseum.org/art/collection/search/261867
+- Medinet-Habu, John Beasley Greene (1854)  https://www.metmuseum.org/art/collection/search/266121
+- Abo-Sembil, Grand Spéos, Statues Colossales vues de Face (Parte Inférieure), Félix Teynard (1851–52)  https://www.metmuseum.org/art/collection/search/283145
+- Vue générale de Médinet-habou, prise de l'Est (Thèbes), Maxime Du Camp (1849–50)  https://www.metmuseum.org/art/collection/search/287142
+- Bow harp (ca. 2030–1640 B.C.)  https://www.metmuseum.org/art/collection/search/544242
+- Block Statue of Nedjem (ca. 1197–1166 BCE)  https://www.metmuseum.org/art/collection/search/549229
+- Cosmetic Spoon (ca. 1300–1080 BCE)  https://www.metmuseum.org/art/collection/search/549271
+- Faience Inlay (ca. 1197–1166 BCE)  https://www.metmuseum.org/art/collection/search/549298
+- Hes Vase with the name of Ramesses IV (ca. 1166–1158 BCE)  https://www.metmuseum.org/art/collection/search/549335
+- Kohl Tube (ca. 1300–1080 BCE)  https://www.metmuseum.org/art/collection/search/549345
+- Wedjat Eye Amulet (ca. 1386–1347 BCE)  https://www.metmuseum.org/art/collection/search/551476
+- Scribe's Palette (ca. 1550–1300 BCE)  https://www.metmuseum.org/art/collection/search/554341
+- Magical figurine of foreigner (ca. 1981–1650 B.C.)  https://www.metmuseum.org/art/collection/search/556841
+- Journey to Abydos, Tomb of Pairy, Charles K. Wilkinson (ca. 1386–1347 BCE)  https://www.metmuseum.org/art/collection/search/557765
+- Thèbes, Temple de Ramasseum, Colosses brisés, Emile Béchard (1870s)  https://www.metmuseum.org/art/collection/search/705430
+
+ARCHIVAL FOOTAGE (public domain, Prelinger Archives via Internet Archive)
+- Digging Into the Past: Egyptian Excavations of the Metropolitan Museum (c. 1920)  https://archive.org/details/0998_Digging_Into_the_Past_Egyptian_Excavations_of_the_Metropolitan_01_00_44_21
+- Father Nile (Egypt), Bray Studios (1931)  https://archive.org/details/0922_Father_Nile_Egypt_00_44_19_19
+- Egypt (Part 3, Reel 2), 1920s travelogue  https://archive.org/details/203152_Egypt_P3_R2
+
+SOUND EFFECTS (CC0: Freesound, Kenney)
+- "Whoosh" by qubodup (https://freesound.org/people/qubodup/sounds/60013/), CC0
+- "Classic Click" by adh.dreaming (https://freesound.org/people/adh.dreaming/sounds/671105/), CC0
+- "Click / Tick" by Squirrel_404 (https://freesound.org/people/Squirrel_404/sounds/683048/), CC0
+- Freesound sound #426767, CC0  https://freesound.org/s/426767/
+- kenney-interface-glass-001 (Kenney, CC0)  https://kenney.nl/assets
+- kenney-interface-glitch-002 (Kenney, CC0)  https://kenney.nl/assets
+- kenney-sci-computernoise-001 (Kenney, CC0)  https://kenney.nl/assets
+- Freesound sound #177242, CC0  https://freesound.org/s/177242/
+- Freesound sound #222517, CC0  https://freesound.org/s/222517/
+- Freesound sound #464250, CC0  https://freesound.org/s/464250/
+- Freesound sound #685256, CC0  https://freesound.org/s/685256/
+- Freesound sound #702773, CC0  https://freesound.org/s/702773/
+- Freesound sound #786514, CC0  https://freesound.org/s/786514/
+- Freesound sound #816262, CC0  https://freesound.org/s/816262/
+- Freesound sound #447909, CC0  https://freesound.org/s/447909/
+- Freesound sound #79388, CC0  https://freesound.org/s/79388/
+- kenney-digital-threetone1 (Kenney, CC0)  https://kenney.nl/assets
+- kenney-digital-twotone1 (Kenney, CC0)  https://kenney.nl/assets
+- Freesound sound #169867, CC0  https://freesound.org/s/169867/
+- Freesound sound #264777, CC0  https://freesound.org/s/264777/
+- Freesound sound #683101, CC0  https://freesound.org/s/683101/
+- Freesound sound #810485, CC0  https://freesound.org/s/810485/
+
+Animated timeline: Manim Community (MIT). 3D scene: three.js (MIT). Transitions: ghost-editor / xfade-easing (MIT).

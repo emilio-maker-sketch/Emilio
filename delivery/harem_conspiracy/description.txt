@@ -23,12 +23,16 @@ KEY SOURCES & FURTHER READING
 
 CREDITS
 Narration: AI-generated voice (Kokoro TTS).
-Images: The Metropolitan Museum of Art, Open Access (CC0). Dossier cards, notes, diagrams, maps and the silent-film reconstruction were made for this video; the reconstruction of the attack is illustrative, since the records do not describe it.
+Images: The Metropolitan Museum of Art, Open Access (CC0), including 19th-century photographs by Maxime Du Camp, Félix Teynard, Francis Frith, Adolphe Braun, John Beasley Green and Émile Béchard.
+Archival footage (public domain, Prelinger Archives / Internet Archive): "Digging Into the Past: Egyptian Excavations of the Metropolitan Museum" (c. 1920, filmed at Thebes); "Father Nile (Egypt)" (Bray Studios, 1931); "Egypt" travelogue (1920s). Footage is labelled on screen with its real date: it shows Egypt in the 1920s, not the ancient events.
+Dossier cards, notes, diagrams, maps, the silent-film scenes, the animated timeline (made with Manim) and the 3D CT-scan scene (Three.js) were made for this video. The 3D scan and the silent-film scenes are illustrative reconstructions, not real scan data or records of the events.
+Sound effects: CC0 recordings from Freesound and Kenney (full list in the credits file).
 Map data: Natural Earth (public domain).
 Music by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0 License, http://creativecommons.org/licenses/by/4.0/
   "Long Note One" Kevin MacLeod (incompetech.com)
   "Ossuary 2 - Turn" Kevin MacLeod (incompetech.com)
   "Lightless Dawn" Kevin MacLeod (incompetech.com)
   "Long Note Three" Kevin MacLeod (incompetech.com)
+  "Long Note Two" Kevin MacLeod (incompetech.com)
 
 #AncientEgypt #Ramesses #TrueCrime #AncientHistory
