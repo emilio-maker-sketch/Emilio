@@ -13,7 +13,7 @@ The first film in the new cinematic style: photoreal AI reconstructions, real ca
 | 6. Visual identity | Done: `bible.json` + `visual_bible.md` (characters, locations, grades, rules) |
 | 7. Scratch narration for timing | Free local voice (Kokoro), not the final voice |
 | 8. Generate visuals | **Blocked: Higgsfield balance is 0.25 credits** |
-| 9. Final narration | Waiting for your choice of voice and OK to spend (ElevenLabs, about $4 for the whole film) |
+| 9. Final narration | Free voice only (Kokoro, local). Auditions in `voice_samples/`, waiting for your pick |
 | 10. Edit, music, sound design, grade | Not started (needs the visuals) |
 | 11. Review and delivery package | Not started |
 
@@ -38,7 +38,7 @@ The narration alone times at about 48 minutes with the free scratch voice. With 
 2. **Keyframes.** One photoreal still per shot from `shots.json` `image_prompt`, with the matching reference sheets attached as image references.
 3. **Motion.** Approved keyframes are animated with Kling 3.0 Pro image-to-video (5 s, silent, 1080p) using `motion_prompt`. A 5 s clip can be eased to about 6 s. Longer shots get a cutaway still.
 4. **Local finishing (free).** Maps, title cards, kinetic type, parallax on stills, grade, film grain and transitions in ffmpeg/Python, extending the existing `production/tools` pipeline.
-5. **Sound.** Final narration with ElevenLabs. Sound effects from the Epidemic Sound library via Higgsfield. Licensed orchestral music. Mix at -14 LUFS with the music ducked under the voice.
+5. **Sound.** Final narration with a free local voice (Kokoro; paid voices only with your OK). Sound effects from the Epidemic Sound library via Higgsfield. Licensed orchestral music. Mix at -14 LUFS with the music ducked under the voice.
 
 ## Budget
 Higgsfield credit quotes as of today: still 0.75, Kling 3.0 Pro 5 s silent 8.75, Kling 3.0 Std 5 s 7.5.
