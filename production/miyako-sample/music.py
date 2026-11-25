@@ -7,6 +7,7 @@ import os, sys, numpy as np, soundfile as sf
 HERE = os.path.dirname(os.path.abspath(__file__)); B = os.path.join(HERE, 'build'); os.makedirs(B, exist_ok=True)
 SR = 48000
 DUR, T_QUAKE, T_IMPACT, T_CALM = (float(x) for x in sys.argv[1:5])
+HITS = [float(x) for x in sys.argv[5].split(',')] if len(sys.argv) > 5 and sys.argv[5] else []
 N = int(DUR * SR); t = np.arange(N) / SR
 rng = np.random.default_rng(7)
 
@@ -74,6 +75,7 @@ def boom(at, gain=1.0):
                   + lowpass(rng.normal(0, 1, L), 900) * np.exp(-s * 5) * 0.8) * gain
     return o
 impact = boom(T_IMPACT, 1.4)
+for h in HITS: impact += boom(h, 0.7)
 
 # --- heartbeat pulse during the footage
 hb = np.zeros(N); beat = T_IMPACT + 1.0
@@ -82,7 +84,7 @@ while beat < T_CALM:
         i = int((beat + off) * SR); L = int(0.5 * SR)
         if i + L < N:
             s = np.arange(L) / SR; hb[i:i + L] += np.sin(2 * np.pi * (52 * np.exp(-s * 3) + 40) * s) * np.exp(-s * 9) * g
-    beat += 1.15
+    beat += 0.82
 hb *= 0.9
 
 # --- sparse piano at the end (bell-ish additive tone)

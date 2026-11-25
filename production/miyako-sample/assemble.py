@@ -19,19 +19,41 @@ SERIFB = '/usr/share/fonts/truetype/crosextra/Caladea-Bold.ttf'
 SHOTS = [
     ('card_open', 0.0),
     ('map',       4.0),
-    ('clip',     24.0, 'yamada.mp4',     6.0, 1.00, (1.06, 1.14), None),
-    ('clip',     31.5, 'miyako.mp4',     8.5, 0.80, (1.08, 1.16), '15:26  ·  MIYAKO, IWATE'),
-    ('clip',     37.0, 'miyako.mp4',    30.0, 0.85, (1.05, 1.12), None),
-    ('clip',     43.0, 'kamaishi.mp4',   7.0, 0.80, (1.04, 1.10), 'KAMAISHI  ·  40 km SOUTH'),
-    ('clip',     48.5, 'miyako.mp4',    62.0, 0.85, (1.06, 1.12), None),
-    ('clip',     53.0, 'yamada.mp4',    22.0, 0.80, (1.05, 1.13), 'YAMADA TOWN'),
-    ('clip',     60.0, 'miyako.mp4',    84.0, 0.70, (1.10, 1.18), None),
-    ('card_end', 67.0),
+    # fast montage: build-up
+    ('clip',     21.5, 'yamada.mp4',     3.0, 1.0, (1.05, 1.15), None),
+    ('clip',     24.0, 'kamaishi.mp4',   0.5, 1.0, (1.06, 1.16), None),
+    ('clip',     26.5, 'yamada.mp4',     8.5, 1.0, (1.08, 1.18), None),
+    ('clip',     28.5, 'kamaishi.mp4',  15.0, 1.0, (1.06, 1.16), None),
+    ('clip',     30.5, 'yamada.mp4',    12.0, 1.0, (1.08, 1.20), None),
+    # impact
+    ('clip',     32.0, 'miyako.mp4',     9.0, 1.0, (1.08, 1.20), '15:26  ·  MIYAKO, IWATE'),
+    ('clip',     34.5, 'miyako.mp4',    15.0, 1.0, (1.10, 1.20), None),
+    ('clip',     36.5, 'kamaishi.mp4',   6.0, 1.0, (1.06, 1.18), None),
+    ('clip',     38.7, 'miyako.mp4',    21.0, 1.0, (1.08, 1.18), None),
+    ('clip',     40.7, 'yamada.mp4',    21.0, 1.0, (1.06, 1.18), None),
+    ('clip',     42.9, 'miyako.mp4',    33.0, 1.0, (1.05, 1.15), None),
+    ('clip',     45.2, 'kamaishi.mp4',  37.0, 1.0, (1.06, 1.18), None),
+    ('clip',     47.2, 'yamada.mp4',    24.0, 1.0, (1.05, 1.17), None),
+    ('clip',     49.6, 'miyako.mp4',    45.0, 1.0, (1.05, 1.15), None),
+    ('clip',     51.8, 'yamada.mp4',    54.0, 1.0, (1.06, 1.16), None),
+    # aftermath: slow down
+    ('clip',     53.8, 'miyako.mp4',    80.5, 0.7, (1.10, 1.16), None),
+    ('clip',     56.8, 'miyako.mp4',    87.0, 0.6, (1.12, 1.18), None),
+    ('card_end', 59.5),
 ]
-END = 76.0
-VO_AT = [5.0, 14.9, 20.4, 26.2, 32.2, 37.6, 53.6, 61.6]
-T_QUAKE, T_IMPACT, T_CALM = 15.0, 31.5, 60.0
-MAP_DUR = 20.0 + X
+END = 67.5
+VO_AT = [4.6, 14.4, 19.9, 26.0, 32.3, 36.4, 47.4, 54.2]
+T_QUAKE, T_IMPACT, T_CALM = 14.6, 32.0, 53.8
+HITS = [21.5, 59.5]
+# transition INTO each shot: (xfade type, seconds). ~2-frame dissolves read as hard cuts.
+def TR(i):
+    kind = SHOTS[i][0]; st = SHOTS[i][1]
+    if kind == 'map': return ('fade', 0.8)
+    if kind == 'card_end': return ('fadeblack', 1.0)
+    if st == T_IMPACT: return ('fadewhite', 0.25)
+    if SHOTS[i - 1][0] == 'map': return ('fade', 0.6)
+    if st == T_CALM: return ('fade', 0.5)
+    return ('fade', 0.07)
 
 def ease(x):
     x = min(max(x, 0), 1); return x * x * (3 - 2 * x)
@@ -76,7 +98,7 @@ def render_clip(i, src, tin, speed, zoom, cap, dur):
         M = cv2.getRotationMatrix2D((W / 2, H / 2 - 20), 0, z)
         fr = grade(cv2.warpAffine(fr, M, (W, H), flags=cv2.INTER_CUBIC, borderMode=cv2.BORDER_REFLECT))
         if cap:
-            t = k / FPS; a = ease((t - 0.6) / 0.7) * (1 - ease((t - (dur - X - 0.9)) / 0.6))
+            t = k / FPS; a = ease((t - 0.3) / 0.4) * (1 - ease((t - (dur - 0.6)) / 0.4))
             if a > 0.01:
                 im = Image.alpha_composite(Image.fromarray(cv2.cvtColor(fr, cv2.COLOR_BGR2RGB)).convert('RGBA'), caption_layer(cap, a))
                 fr = cv2.cvtColor(np.asarray(im.convert('RGB')), cv2.COLOR_RGB2BGR)
@@ -121,10 +143,12 @@ def render_map(i, dur):
 
 def main():
     os.makedirs(B, exist_ok=True)
+    map_dur = SHOTS[2][1] - 4.0 + TR(2)[1]
+    subprocess.run([sys.executable, os.path.join(HERE, 'maps.py'), str(map_dur), str((T_QUAKE - 4.0) / map_dur)], check=True)
     starts = [s[1] for s in SHOTS] + [END]
     paths = []
     for i, s in enumerate(SHOTS):
-        dur = starts[i + 1] - starts[i] + (X if i < len(SHOTS) - 1 else 0)
+        dur = starts[i + 1] - starts[i] + (TR(i + 1)[1] if i < len(SHOTS) - 1 else 0)
         print('shot', i, s[0], round(dur, 2), flush=True)
         cached = os.path.join(B, f'shot{i:02d}.mp4')
         if os.path.exists(cached) and os.environ.get('REUSE'): paths.append(cached); continue
@@ -132,7 +156,7 @@ def main():
         elif s[0] == 'map': paths.append(render_map(i, dur))
         else: paths.append(render_card(i, s[0], dur))
     # music + narration timings
-    subprocess.run([sys.executable, os.path.join(HERE, 'music.py'), str(END), str(T_QUAKE), str(T_IMPACT), str(T_CALM)], check=True)
+    subprocess.run([sys.executable, os.path.join(HERE, 'music.py'), str(END), str(T_QUAKE), str(T_IMPACT), str(T_CALM), ','.join(map(str, HITS))], check=True)
     lines = json.load(open(os.path.join(B, 'vo', 'lines.json')))
     # ---- ffmpeg: dissolve chain + letterbox + grain, audio mix
     cmd = ['ffmpeg', '-v', 'error', '-y']
@@ -146,16 +170,16 @@ def main():
     fg = []; prev = '[0:v]'
     for i in range(1, len(paths)):
         off = starts[i]
-        fg.append(f'{prev}[{i}:v]xfade=transition=fade:duration={X}:offset={off:.3f}[v{i}]'); prev = f'[v{i}]'
+        fg.append(f'{prev}[{i}:v]xfade=transition={TR(i)[0]}:duration={TR(i)[1]}:offset={off:.3f}[v{i}]'); prev = f'[v{i}]'
     fg.append(f'{prev}noise=alls=7:allf=t,drawbox=x=0:y=0:w=iw:h=138:color=black:t=fill,drawbox=x=0:y=ih-138:w=iw:h=138:color=black:t=fill,format=yuv420p[vout]')
     am = [f'[{mi}:a]volume=1.0[mus]']
     for j, l in enumerate(lines):
         d = int(VO_AT[j] * 1000); am.append(f'[{vo0 + j}:a]aresample=48000,pan=stereo|c0=c0|c1=c0,volume=1.9,adelay={d}|{d}[vo{j}]')
     for k, (i, s) in enumerate(clips):
-        dur = starts[i + 1] - starts[i] + X; speed = s[4]
+        dur = starts[i + 1] - starts[i] + TR(i + 1)[1]; speed = s[4]
         d = int(starts[i] * 1000)
         am.append(f'[{fa0 + k}:a]atrim={s[3]}:{s[3] + dur * speed:.3f},asetpts=PTS-STARTPTS,atempo={speed},aresample=48000,'
-                  f'afade=t=in:d=0.6,afade=t=out:st={dur - 0.8:.3f}:d=0.8,volume=0.22,adelay={d}|{d}[fa{k}]')
+                  f'afade=t=in:d=0.08,afade=t=out:st={dur - 0.15:.3f}:d=0.15,volume=0.3,adelay={d}|{d}[fa{k}]')
     # narration ducks the music via sidechain
     vo_all = ''.join(f'[vo{j}]' for j in range(len(lines)))
     am.append(f'{vo_all}amix=inputs={len(lines)}:normalize=0,asplit=2[vomix][vosc]')

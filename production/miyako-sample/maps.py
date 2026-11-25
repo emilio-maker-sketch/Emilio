@@ -105,7 +105,7 @@ def main():
     p = subprocess.Popen(['ffmpeg', '-v', 'error', '-y', '-f', 'rawvideo', '-pix_fmt', 'bgr24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                           '-c:v', 'libx264', '-crf', '14', '-preset', 'medium', '-pix_fmt', 'yuv420p', os.path.join(B, 'map.mp4')], stdin=subprocess.PIPE)
     N = int(DUR * FPS)
-    T_EQ = 0.55 * DUR  # earthquake moment (sec into the map)
+    T_EQ = (float(sys.argv[2]) if len(sys.argv) > 2 else 0.55) * DUR  # earthquake moment (sec into the map)
     for i in range(N):
         t = i / FPS; f = i / (N - 1)
         lon, lat, span = camera(f)
