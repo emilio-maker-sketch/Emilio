@@ -288,8 +288,8 @@ def card_frame(kind, shot, bg=None):
     elif kind == 'outro':
         d.text((W / 2, H / 2 - 150), 'ANCIENT WORLD FILES', font=font('Cinzel.ttf', 84), fill=cream, anchor='mm')
         d.text((W / 2, H / 2 - 50), 'Evidence-based deep dives into the lost civilizations of the ancient world', font=font('CormorantGaramond-Italic.ttf', 52), fill=gold, anchor='mm')
-        d.text((W / 2, H / 2 + 90), 'Narration: AI voice (Kokoro TTS)  ·  Images: Wikimedia Commons, The Met (CC0)', font=font('CormorantGaramond.ttf', 38), fill=cream, anchor='mm')
-        d.text((W / 2, H / 2 + 145), 'Full image credits and sources in the description', font=font('CormorantGaramond.ttf', 38), fill=cream, anchor='mm')
+        d.text((W / 2, H / 2 + 90), 'Narration: AI voice (Kokoro TTS)  ·  Images: The Met & Art Institute of Chicago (CC0)', font=font('CormorantGaramond.ttf', 38), fill=cream, anchor='mm')
+        d.text((W / 2, H / 2 + 145), 'Sources and further reading in the description', font=font('CormorantGaramond.ttf', 38), fill=cream, anchor='mm')
     return cv2.cvtColor(np.asarray(base), cv2.COLOR_RGB2BGR)
 
 # ----------------------------------------------------------------------------- video

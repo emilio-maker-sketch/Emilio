@@ -1,0 +1,4203 @@
+1
+00:00:01,000 --> 00:00:02,079
+My father.
+
+2
+00:00:02,459 --> 00:00:04,788
+Behold, the enemy's ships came.
+
+3
+00:00:05,168 --> 00:00:09,543
+My cities were burned, and they
+did evil things in my country.
+
+4
+00:00:09,923 --> 00:00:15,193
+Does my father not know that all my troops
+and chariots are in the land of Hatti,
+
+5
+00:00:15,193 --> 00:00:17,926
+and all my ships are in the land of Lukka?
+
+6
+00:00:18,306 --> 00:00:21,360
+Thus the country is abandoned to itself.
+
+7
+00:00:21,740 --> 00:00:27,405
+Let my father know it: the seven ships of
+the enemy that came here have done us much
+
+8
+00:00:27,405 --> 00:00:27,877
+damage.
+
+9
+00:00:28,777 --> 00:00:34,115
+Those words were pressed into wet clay
+more than three thousand years ago by
+
+10
+00:00:34,115 --> 00:00:40,014
+Ammurapi, the last king of Ugarit, a wealthy
+port on the coast of what is now Syria.
+
+11
+00:00:40,394 --> 00:00:43,092
+We do not know if help ever came.
+
+12
+00:00:43,472 --> 00:00:49,170
+We do know that, within a few years at most,
+Ugarit was burned and abandoned, and no
+
+13
+00:00:49,170 --> 00:00:51,816
+one ever lived in the great city again.
+
+14
+00:00:52,716 --> 00:00:57,967
+You've probably never heard
+of the year 1177 B.C.E.
+
+15
+00:00:58,347 --> 00:01:03,098
+But in the span of roughly fifty years
+around that date, the Hittite Empire
+
+16
+00:01:03,098 --> 00:01:03,668
+vanished.
+
+17
+00:01:04,048 --> 00:01:07,155
+The palaces of Mycenaean Greece burned.
+
+18
+00:01:07,535 --> 00:01:09,694
+Ugarit was wiped from the map.
+
+19
+00:01:10,074 --> 00:01:12,503
+Egypt survived, but was broken.
+
+20
+00:01:12,883 --> 00:01:17,688
+And in Greece, the art of writing
+disappeared for almost four hundred years.
+
+21
+00:01:18,588 --> 00:01:24,175
+For a long time, the blame fell on a
+mysterious band of raiders that the Egyptians
+
+22
+00:01:24,175 --> 00:01:28,877
+carved into their temple walls, a
+people we now call the Sea Peoples.
+
+23
+00:01:29,257 --> 00:01:34,967
+But the evidence that has come out of the
+ground, out of ancient lake beds, out of
+
+24
+00:01:34,967 --> 00:01:40,677
+tree rings and out of royal letters over
+the last few decades tells a far stranger
+
+25
+00:01:40,677 --> 00:01:42,766
+and far more unsettling story.
+
+26
+00:01:43,666 --> 00:01:49,527
+This is the story of the end of the Bronze
+Age, of the first truly connected world,
+
+27
+00:01:49,527 --> 00:01:51,292
+and of how it fell apart.
+
+28
+00:01:51,672 --> 00:01:53,544
+So, what really killed them?
+
+29
+00:01:53,924 --> 00:01:55,179
+Let's find out.
+
+30
+00:02:11,678 --> 00:02:18,163
+In 1887, a local woman digging for fertile
+soil in the ruins at Amarna, in Middle
+
+31
+00:02:18,163 --> 00:02:22,407
+Egypt, is said to have found
+a cache of clay tablets.
+
+32
+00:02:22,787 --> 00:02:28,344
+They were covered not in hieroglyphs, but
+in cuneiform, the wedge-shaped script of
+
+33
+00:02:28,344 --> 00:02:29,157
+Mesopotamia.
+
+34
+00:02:29,537 --> 00:02:35,102
+Many were broken or lost as they passed
+through the hands of dealers, but in the end
+
+35
+00:02:35,102 --> 00:02:38,348
+around three hundred and
+eighty of them survived.
+
+36
+00:02:38,728 --> 00:02:41,586
+Today we call them the Amarna Letters.
+
+37
+00:02:42,486 --> 00:02:48,599
+They turned out to be the diplomatic archive
+of the Egyptian court in the fourteenth
+
+38
+00:02:48,599 --> 00:02:54,349
+century B.C.E., during the reigns of
+Amenhotep the Third and his son Akhenaten.
+
+39
+00:02:54,729 --> 00:02:57,339
+And what they reveal is astonishing.
+
+40
+00:02:57,719 --> 00:03:02,948
+They show a world of great kings who wrote
+to each other constantly, in a shared
+
+41
+00:03:02,948 --> 00:03:07,784
+diplomatic language, Akkadian, and who
+called each other by a single word.
+
+42
+00:03:08,164 --> 00:03:08,912
+Brother.
+
+43
+00:03:09,812 --> 00:03:15,207
+There was the king of Egypt, the richest
+of them all, whose land was famous for its
+
+44
+00:03:15,207 --> 00:03:15,532
+gold.
+
+45
+00:03:15,912 --> 00:03:20,557
+There was the king of Babylon, ruled
+at the time by a Kassite dynasty.
+
+46
+00:03:20,937 --> 00:03:26,706
+There was the king of Mitanni, a powerful
+state in northern Mesopotamia and Syria.
+
+47
+00:03:27,086 --> 00:03:30,856
+Later there would be the
+king of Assyria, rising fast.
+
+48
+00:03:31,236 --> 00:03:36,568
+And to the north, in the highlands of
+Anatolia, there was the king of Hatti, ruler
+
+49
+00:03:36,568 --> 00:03:37,608
+of the Hittites.
+
+50
+00:03:38,508 --> 00:03:43,805
+These rulers formed something that
+historians have compared to a club of great
+
+51
+00:03:43,805 --> 00:03:44,280
+powers.
+
+52
+00:03:44,660 --> 00:03:47,572
+They exchanged ambassadors and gifts.
+
+53
+00:03:47,952 --> 00:03:50,263
+They married each other's daughters.
+
+54
+00:03:50,643 --> 00:03:56,010
+They argued, they sulked, and they complained,
+constantly, about not being treated
+
+55
+00:03:56,010 --> 00:03:57,319
+with enough respect.
+
+56
+00:03:58,219 --> 00:04:03,525
+One Babylonian king, Burna-Buriash, grumbled
+to Pharaoh that the gold he had been
+
+57
+00:04:03,525 --> 00:04:08,765
+sent, when it was put in the furnace,
+turned out to be much less than its stated
+
+58
+00:04:08,765 --> 00:04:09,224
+weight.
+
+59
+00:04:09,604 --> 00:04:15,241
+Tushratta, king of Mitanni, pleaded again
+and again for statues of solid gold that
+
+60
+00:04:15,241 --> 00:04:20,740
+he believed had been promised to him, and
+he was bitterly disappointed when they
+
+61
+00:04:20,740 --> 00:04:23,009
+arrived plated in gold over wood.
+
+62
+00:04:23,389 --> 00:04:26,643
+These were not the letters
+of distant strangers.
+
+63
+00:04:27,023 --> 00:04:31,722
+They were the letters of a family, with
+all the jealousies that come with one.
+
+64
+00:04:32,622 --> 00:04:36,738
+Beyond this inner circle lay the
+wider world they traded with.
+
+65
+00:04:37,118 --> 00:04:42,410
+On Crete, the palace culture of the Minoans
+had flourished for centuries, though by
+
+66
+00:04:42,410 --> 00:04:46,426
+this time it had come under the
+control of the mainland Greeks.
+
+67
+00:04:46,806 --> 00:04:53,343
+On mainland Greece itself, warrior kings
+ruled from fortified palaces at places like
+
+68
+00:04:53,343 --> 00:04:55,989
+Mycenae, Tiryns, Pylos and Thebes.
+
+69
+00:04:56,369 --> 00:04:59,152
+Today we call them the Mycenaeans.
+
+70
+00:04:59,532 --> 00:05:04,838
+The Hittites seem to have called them the
+Ahhiyawa, and the Egyptians may have known
+
+71
+00:05:04,838 --> 00:05:06,165
+their land as Tanaja.
+
+72
+00:05:07,065 --> 00:05:12,822
+On the island of Cyprus, known in the texts
+as Alashiya, lay the great copper mines
+
+73
+00:05:12,822 --> 00:05:14,278
+of the Mediterranean.
+
+74
+00:05:14,658 --> 00:05:20,374
+And along the coast of the Levant were
+the trading cities of Canaan, like Byblos,
+
+75
+00:05:20,374 --> 00:05:26,161
+Sidon, Tyre and Ugarit, which acted as the
+great middlemen between the sea and the
+
+76
+00:05:26,161 --> 00:05:27,855
+empires of the interior.
+
+77
+00:05:28,755 --> 00:05:34,177
+In tomb paintings in Thebes, Egyptian
+officials proudly showed foreign envoys
+
+78
+00:05:34,177 --> 00:05:36,008
+arriving with their goods.
+
+79
+00:05:36,388 --> 00:05:41,264
+Men from Keftiu, probably Crete,
+carrying elaborate metal vessels.
+
+80
+00:05:41,644 --> 00:05:44,439
+Syrians bringing horses and chariots.
+
+81
+00:05:44,819 --> 00:05:48,514
+Nubians bringing gold,
+ebony and animal skins.
+
+82
+00:05:48,894 --> 00:05:52,297
+The world, as the Egyptians
+saw it, came to them.
+
+83
+00:05:53,197 --> 00:05:55,518
+Why did all of this matter so much?
+
+84
+00:05:55,898 --> 00:05:58,174
+Because of a single material.
+
+85
+00:05:58,554 --> 00:05:59,391
+Bronze.
+
+86
+00:06:00,291 --> 00:06:05,449
+Bronze is an alloy, made mostly of
+copper with around ten percent tin.
+
+87
+00:06:05,829 --> 00:06:11,376
+It is harder than copper alone, and it
+was the metal of weapons, armor, tools and
+
+88
+00:06:11,376 --> 00:06:13,705
+prestige across the entire region.
+
+89
+00:06:14,085 --> 00:06:15,864
+But here was the problem.
+
+90
+00:06:16,244 --> 00:06:20,802
+Copper could be found in a number
+of places, most famously Cyprus.
+
+91
+00:06:21,182 --> 00:06:22,940
+Tin was much rarer.
+
+92
+00:06:23,320 --> 00:06:29,032
+Some of the tin used in the eastern
+Mediterranean seems to have come from as far
+
+93
+00:06:29,032 --> 00:06:34,816
+away as Central Asia, carried overland
+through Mesopotamia, or from other distant
+
+94
+00:06:34,816 --> 00:06:38,100
+sources whose exact
+location is still debated.
+
+95
+00:06:39,000 --> 00:06:44,472
+That means that every bronze sword in
+Mycenae, every chariot fitting in Hattusa,
+
+96
+00:06:44,472 --> 00:06:49,876
+every tool in Egypt depended on a chain
+of trade that crossed seas, deserts and
+
+97
+00:06:49,876 --> 00:06:54,390
+mountains, and passed through the
+hands of many different peoples.
+
+98
+00:06:54,770 --> 00:06:57,924
+No single kingdom could make bronze alone.
+
+99
+00:06:58,304 --> 00:07:00,022
+They needed each other.
+
+100
+00:07:00,922 --> 00:07:06,954
+This was, in a very real sense, the first
+globalized economy in the Mediterranean
+
+101
+00:07:06,954 --> 00:07:07,401
+world.
+
+102
+00:07:07,781 --> 00:07:13,333
+Long before Rome, long before classical
+Athens, there was a network of kingdoms
+
+103
+00:07:13,333 --> 00:07:16,707
+bound together by trade,
+diplomacy and marriage.
+
+104
+00:07:17,088 --> 00:07:22,855
+And like every globalized economy, its
+great strength was also its great weakness.
+
+105
+00:07:23,755 --> 00:07:29,055
+To understand just how connected this world
+was, we need to go to the bottom of the
+
+106
+00:07:29,055 --> 00:07:33,973
+sea, off the southern coast of Turkey,
+where a ship went down more than three
+
+107
+00:07:33,973 --> 00:07:36,080
+thousand three hundred years ago.
+
+108
+00:07:43,580 --> 00:07:50,272
+In 1982, a young sponge diver named Mehmet
+Çakır was working off a rocky headland
+
+109
+00:07:50,272 --> 00:07:54,982
+called Uluburun, near the town
+of Kaş in southern Turkey.
+
+110
+00:07:55,363 --> 00:08:00,282
+At a depth of about fifty meters, he
+saw something strange on the seabed.
+
+111
+00:08:00,662 --> 00:08:04,009
+He described them as
+metal biscuits with ears.
+
+112
+00:08:04,909 --> 00:08:10,038
+Archaeologists who heard his description
+realized exactly what he had seen.
+
+113
+00:08:10,418 --> 00:08:16,030
+They were oxhide ingots, slabs of copper
+cast in a distinctive shape, with four
+
+114
+00:08:16,030 --> 00:08:21,713
+handle-like corners, that was used to
+transport metal across the Late Bronze Age
+
+115
+00:08:21,713 --> 00:08:22,139
+world.
+
+116
+00:08:23,039 --> 00:08:29,164
+Over the following decade, between 1984
+and 1994, a team from the Institute of
+
+117
+00:08:29,164 --> 00:08:35,524
+Nautical Archaeology, led first by George
+Bass and then by Cemal Pulak, made more
+
+118
+00:08:35,524 --> 00:08:38,665
+than twenty thousand dives to the wreck.
+
+119
+00:08:39,045 --> 00:08:44,530
+What they brought up was one of the most
+important archaeological discoveries of the
+
+120
+00:08:44,530 --> 00:08:45,705
+twentieth century.
+
+121
+00:08:46,605 --> 00:08:50,783
+The ship was small, perhaps fifteen
+meters long, built of cedar.
+
+122
+00:08:51,163 --> 00:08:54,718
+It sank around 1300 B.C.E.
+
+123
+00:08:55,098 --> 00:09:00,322
+And its cargo was a snapshot of
+the entire Late Bronze Age economy.
+
+124
+00:09:01,222 --> 00:09:06,828
+There were around ten tons of copper, mostly
+in the form of more than three hundred
+
+125
+00:09:06,828 --> 00:09:08,449
+and fifty oxhide ingots.
+
+126
+00:09:08,829 --> 00:09:13,504
+Chemical analysis suggests most
+of this copper came from Cyprus.
+
+127
+00:09:13,884 --> 00:09:16,329
+There was roughly a ton of tin.
+
+128
+00:09:16,709 --> 00:09:17,990
+Ten to one.
+
+129
+00:09:18,370 --> 00:09:21,498
+Exactly the right ratio to make bronze.
+
+130
+00:09:21,878 --> 00:09:26,551
+This ship was carrying enough raw
+material to equip a small army.
+
+131
+00:09:27,451 --> 00:09:29,752
+But that was only the beginning.
+
+132
+00:09:30,132 --> 00:09:35,919
+There were ingots of glass, in cobalt blue
+and turquoise, some of them likely made
+
+133
+00:09:35,919 --> 00:09:37,613
+in Egypt or Mesopotamia.
+
+134
+00:09:37,993 --> 00:09:43,627
+There were large Canaanite storage jars,
+many filled with terebinth resin, a
+
+135
+00:09:43,627 --> 00:09:47,037
+substance probably used
+in incense or perfume.
+
+136
+00:09:47,417 --> 00:09:50,102
+There were logs of African ebony.
+
+137
+00:09:50,482 --> 00:09:56,106
+There was elephant ivory and hippopotamus
+teeth, ostrich eggshells, and spices.
+
+138
+00:09:57,006 --> 00:10:02,463
+There was Mycenaean pottery from Greece,
+Cypriot pottery, and Canaanite jewelry.
+
+139
+00:10:02,843 --> 00:10:08,644
+There were weapons and tools whose styles
+point to Italy, the Balkans, the Aegean,
+
+140
+00:10:08,644 --> 00:10:10,130
+Egypt and the Levant.
+
+141
+00:10:10,510 --> 00:10:16,567
+There was a scarab made of gold, bearing
+the name of Nefertiti, the queen of Egypt
+
+142
+00:10:16,567 --> 00:10:18,192
+and wife of Akhenaten.
+
+143
+00:10:19,092 --> 00:10:22,521
+And there was something
+small and easily overlooked.
+
+144
+00:10:22,901 --> 00:10:28,926
+A wooden writing board, made of two leaves
+joined by an ivory hinge, which once held
+
+145
+00:10:28,926 --> 00:10:30,002
+a layer of wax.
+
+146
+00:10:30,382 --> 00:10:33,536
+Someone on board had been keeping records.
+
+147
+00:10:33,916 --> 00:10:36,249
+We will never know what they wrote.
+
+148
+00:10:37,149 --> 00:10:42,093
+We don't know for certain where the
+Uluburun ship was going, or who owned it.
+
+149
+00:10:42,473 --> 00:10:48,345
+One popular theory is that it was sailing
+west from the Levant or Cyprus toward the
+
+150
+00:10:48,345 --> 00:10:53,651
+Aegean, perhaps carrying a royal
+shipment, a gift from one king to another.
+
+151
+00:10:54,031 --> 00:10:59,448
+What is clear is that a single ship could
+carry materials from at least seven or
+
+152
+00:10:59,448 --> 00:11:05,001
+eight different cultures, from Africa to
+the Baltic, since even amber was found on
+
+153
+00:11:05,001 --> 00:11:05,407
+board.
+
+154
+00:11:06,307 --> 00:11:09,728
+This was not a world of isolated kingdoms.
+
+155
+00:11:10,107 --> 00:11:16,066
+It was a world where a palace in Greece
+relied on copper from Cyprus, tin from the
+
+156
+00:11:16,066 --> 00:11:19,627
+far east, glass from Egypt
+and ivory from Africa.
+
+157
+00:11:20,007 --> 00:11:25,219
+A world where any disruption in one place
+could ripple outward to all the others.
+
+158
+00:11:26,119 --> 00:11:31,159
+And yet, in this same century, the great
+powers were also preparing for war.
+
+159
+00:11:31,539 --> 00:11:36,952
+The two greatest of them, Egypt and the
+Hittites, were about to meet in one of the
+
+160
+00:11:36,952 --> 00:11:39,328
+largest chariot battles ever fought.
+
+161
+00:11:46,828 --> 00:11:53,574
+In the spring of 1274 B.C.E., the young
+pharaoh Ramesses the Second marched north
+
+162
+00:11:53,574 --> 00:11:56,906
+out of Egypt at the head of a vast army.
+
+163
+00:11:57,286 --> 00:11:59,605
+He was in the fifth year of his reign.
+
+164
+00:11:59,985 --> 00:12:05,685
+His target was the city of Kadesh, on
+the Orontes River in what is now western
+
+165
+00:12:05,685 --> 00:12:11,311
+Syria, a strategic stronghold that Egypt
+and the Hittites had fought over for
+
+166
+00:12:11,311 --> 00:12:12,188
+generations.
+
+167
+00:12:13,088 --> 00:12:18,378
+Waiting for him was the Hittite king,
+Muwatalli the Second, with an army that,
+
+168
+00:12:18,378 --> 00:12:24,074
+according to the Egyptian accounts, included
+thousands of chariots gathered from all
+
+169
+00:12:24,074 --> 00:12:26,787
+across the Hittite world and its allies.
+
+170
+00:12:27,687 --> 00:12:33,008
+What happened next is one of the best
+documented battles of the ancient world,
+
+171
+00:12:33,008 --> 00:12:35,668
+because Ramesses made sure it would be.
+
+172
+00:12:36,048 --> 00:12:42,015
+He had the story carved on the walls of
+temples across Egypt, at Abu Simbel, at
+
+173
+00:12:42,015 --> 00:12:47,303
+Karnak, at Luxor, at Abydos and at
+his memorial temple, the Ramesseum.
+
+174
+00:12:48,203 --> 00:12:53,641
+According to his version, two Bedouin men
+approached the Egyptian camp and claimed
+
+175
+00:12:53,641 --> 00:12:56,891
+that the Hittite army was
+far away, to the north.
+
+176
+00:12:57,271 --> 00:13:02,071
+Ramesses believed them, and pushed
+ahead with only part of his forces.
+
+177
+00:13:02,451 --> 00:13:04,755
+But the men were Hittite spies.
+
+178
+00:13:05,135 --> 00:13:09,658
+The Hittite army was hidden just
+behind the old city of Kadesh.
+
+179
+00:13:10,038 --> 00:13:15,239
+Their chariots smashed into one of the
+Egyptian divisions as it marched, scattered
+
+180
+00:13:15,239 --> 00:13:18,093
+it, and then crashed
+into the pharaoh's camp.
+
+181
+00:13:18,993 --> 00:13:24,679
+In the Egyptian telling, Ramesses was
+abandoned by almost everyone, and fought on
+
+182
+00:13:24,679 --> 00:13:30,506
+alone, calling on the god Amun, charging
+the enemy again and again until the battle
+
+183
+00:13:30,506 --> 00:13:30,997
+turned.
+
+184
+00:13:31,377 --> 00:13:36,271
+Reinforcements arrived just in time,
+and the Hittite attack collapsed.
+
+185
+00:13:37,171 --> 00:13:39,289
+It is a magnificent story.
+
+186
+00:13:39,669 --> 00:13:42,986
+It is also, almost certainly, propaganda.
+
+187
+00:13:43,366 --> 00:13:47,012
+When we look at what happened
+afterward, the picture changes.
+
+188
+00:13:47,392 --> 00:13:49,908
+Ramesses did not take Kadesh.
+
+189
+00:13:50,288 --> 00:13:52,149
+He returned to Egypt.
+
+190
+00:13:52,529 --> 00:13:57,778
+And the Hittites pushed further south,
+taking territory that had belonged to Egypt's
+
+191
+00:13:57,778 --> 00:13:59,028
+sphere of influence.
+
+192
+00:13:59,408 --> 00:14:02,340
+At best, the battle was a bloody draw.
+
+193
+00:14:02,720 --> 00:14:07,394
+Hittite sources, for their part, seem
+to have regarded it as a victory.
+
+194
+00:14:08,294 --> 00:14:12,262
+But the most remarkable thing
+about Kadesh is what came after.
+
+195
+00:14:12,642 --> 00:14:18,751
+About fifteen years later, around 1259
+B.C.E., Ramesses and a new Hittite king,
+
+196
+00:14:18,751 --> 00:14:24,705
+Hattusili the Third, did something that
+had never been done in quite this way
+
+197
+00:14:24,705 --> 00:14:25,246
+before.
+
+198
+00:14:25,626 --> 00:14:28,482
+They signed a formal,
+written peace treaty.
+
+199
+00:14:29,382 --> 00:14:31,241
+We have both versions.
+
+200
+00:14:31,621 --> 00:14:37,227
+The Egyptian copy was carved in
+hieroglyphs on the walls of Karnak and the
+
+201
+00:14:37,227 --> 00:14:37,985
+Ramesseum.
+
+202
+00:14:38,365 --> 00:14:44,357
+The Hittite copy was written in Akkadian
+on a clay tablet, found in the ruins of the
+
+203
+00:14:44,357 --> 00:14:46,140
+Hittite capital, Hattusa.
+
+204
+00:14:46,520 --> 00:14:52,133
+In it, the two kings swore eternal peace
+and brotherhood, promised to come to each
+
+205
+00:14:52,133 --> 00:14:57,882
+other's aid against enemies, and agreed to
+return political refugees to one another.
+
+206
+00:14:58,782 --> 00:15:03,162
+It is often called the oldest
+surviving peace treaty in the world.
+
+207
+00:15:03,542 --> 00:15:09,727
+A replica of the Hittite tablet now hangs
+in the United Nations headquarters in New
+
+208
+00:15:09,727 --> 00:15:10,100
+York.
+
+209
+00:15:11,000 --> 00:15:12,282
+The peace held.
+
+210
+00:15:12,662 --> 00:15:17,865
+Ramesses later married a Hittite
+princess, who took the Egyptian name
+
+211
+00:15:17,865 --> 00:15:19,072
+Maathorneferure.
+
+212
+00:15:19,452 --> 00:15:23,054
+Letters flowed back and forth
+between the royal families.
+
+213
+00:15:23,434 --> 00:15:29,162
+Hittite queen Puduhepa wrote directly
+to Ramesses, and Ramesses wrote back.
+
+214
+00:15:30,062 --> 00:15:34,670
+Ramesses the Second would go
+on to rule for sixty-six years.
+
+215
+00:15:35,050 --> 00:15:37,827
+He outlived many of his own children.
+
+216
+00:15:38,207 --> 00:15:44,902
+By the time he died, around 1213 B.C.E.,
+he had become the very image of an eternal
+
+217
+00:15:44,902 --> 00:15:45,547
+pharaoh.
+
+218
+00:15:45,927 --> 00:15:51,194
+To most people in Egypt, it must have
+seemed that the world he ruled would last
+
+219
+00:15:51,194 --> 00:15:51,727
+forever.
+
+220
+00:15:52,627 --> 00:15:53,688
+It would not.
+
+221
+00:15:54,068 --> 00:15:59,232
+Within a single lifetime of his death,
+the whole system that he and his Hittite
+
+222
+00:15:59,232 --> 00:16:01,651
+brothers had built would be in ruins.
+
+223
+00:16:02,031 --> 00:16:05,679
+And the first warning signs
+had already begun to appear.
+
+224
+00:16:13,179 --> 00:16:18,785
+When Ramesses the Second died, he was
+succeeded by his thirteenth son, Merneptah,
+
+225
+00:16:18,785 --> 00:16:22,107
+already an old man by the
+standards of his time.
+
+226
+00:16:22,487 --> 00:16:27,547
+And within five years of taking the
+throne, Merneptah faced an invasion.
+
+227
+00:16:28,447 --> 00:16:35,365
+Around 1208 B.C.E., a Libyan chief named
+Meryey led a great force east toward the
+
+228
+00:16:35,365 --> 00:16:38,013
+fertile land of the Nile Delta.
+
+229
+00:16:38,393 --> 00:16:43,650
+According to Merneptah's inscription at
+Karnak, they came with their wives, their
+
+230
+00:16:43,650 --> 00:16:45,337
+children and their cattle.
+
+231
+00:16:45,717 --> 00:16:47,783
+They were not simply raiders.
+
+232
+00:16:48,163 --> 00:16:50,342
+They were looking for a place to live.
+
+233
+00:16:51,242 --> 00:16:53,130
+And they did not come alone.
+
+234
+00:16:53,510 --> 00:16:59,094
+Among their allies, the Egyptian scribes
+listed five peoples who came, in the words
+
+235
+00:16:59,094 --> 00:17:02,188
+of the inscription, from
+the lands of the sea.
+
+236
+00:17:02,568 --> 00:17:03,713
+The Ekwesh.
+
+237
+00:17:04,093 --> 00:17:05,095
+The Teresh.
+
+238
+00:17:05,475 --> 00:17:06,374
+The Lukka.
+
+239
+00:17:06,754 --> 00:17:07,796
+The Sherden.
+
+240
+00:17:08,176 --> 00:17:09,489
+And the Shekelesh.
+
+241
+00:17:10,389 --> 00:17:15,913
+This is one of the first times we meet
+the people that modern historians call the
+
+242
+00:17:15,913 --> 00:17:16,731
+Sea Peoples.
+
+243
+00:17:17,111 --> 00:17:20,407
+And it is important to
+notice something right away.
+
+244
+00:17:20,787 --> 00:17:23,165
+Some of these names were not new.
+
+245
+00:17:23,545 --> 00:17:29,491
+The Lukka were known from Hittite texts as
+the people of a rugged coastal region in
+
+246
+00:17:29,491 --> 00:17:33,216
+southwestern Anatolia, a
+land of pirates and rebels.
+
+247
+00:17:33,596 --> 00:17:38,816
+The Sherden had already appeared
+generations earlier, both as raiders and as
+
+248
+00:17:38,816 --> 00:17:42,594
+mercenaries, some of whom
+fought in Pharaoh's own army.
+
+249
+00:17:43,494 --> 00:17:44,796
+Merneptah won.
+
+250
+00:17:45,176 --> 00:17:50,947
+His inscriptions boast of thousands of
+enemy dead, and of the hands and other body
+
+251
+00:17:50,947 --> 00:17:54,606
+parts cut from the slain
+and counted by his scribes.
+
+252
+00:17:54,986 --> 00:18:00,878
+He celebrated his victory with a stone
+monument now known as the Merneptah Stele,
+
+253
+00:18:00,878 --> 00:18:06,697
+which includes, almost in passing, the
+earliest known mention of a people called
+
+254
+00:18:06,697 --> 00:18:07,206
+Israel.
+
+255
+00:18:08,106 --> 00:18:13,484
+But there is another line in Merneptah's
+inscriptions that is easy to miss, and it
+
+256
+00:18:13,484 --> 00:18:16,501
+may be one of the most
+important clues of all.
+
+257
+00:18:16,881 --> 00:18:22,377
+The pharaoh says that he sent grain in
+ships, to keep the land of Hatti alive.
+
+258
+00:18:23,277 --> 00:18:25,404
+Think about that for a moment.
+
+259
+00:18:25,784 --> 00:18:30,048
+The Hittite Empire was one of
+the two superpowers of its age.
+
+260
+00:18:30,428 --> 00:18:36,086
+And yet here it was, apparently dependent
+on grain shipments from Egypt to feed its
+
+261
+00:18:36,086 --> 00:18:36,563
+people.
+
+262
+00:18:37,463 --> 00:18:41,018
+The Hittite records themselves
+confirm the picture.
+
+263
+00:18:41,398 --> 00:18:46,543
+Letters from the late thirteenth century
+speak again and again about grain.
+
+264
+00:18:46,923 --> 00:18:52,486
+One letter, sent from the Hittite court
+to the king of Ugarit, demands that a ship
+
+265
+00:18:52,486 --> 00:18:58,117
+and crew be provided to carry two thousand
+measures of grain to the Hittite port of
+
+266
+00:18:58,117 --> 00:18:58,388
+Ura.
+
+267
+00:18:58,768 --> 00:19:02,929
+It ends with a phrase that has
+echoed through modern scholarship.
+
+268
+00:19:03,309 --> 00:19:05,817
+It is a matter of life or death.
+
+269
+00:19:06,717 --> 00:19:11,901
+Another letter, found at Ugarit, appears
+to scold its king for not having sent
+
+270
+00:19:11,901 --> 00:19:17,484
+supplies quickly enough, and asks, in effect,
+whether he does not know that there is
+
+271
+00:19:17,484 --> 00:19:18,747
+famine in the land.
+
+272
+00:19:19,127 --> 00:19:24,522
+Something was going badly wrong in the
+agricultural heartlands of Anatolia.
+
+273
+00:19:25,422 --> 00:19:28,799
+At the same time, the
+political order was shifting.
+
+274
+00:19:29,179 --> 00:19:34,918
+In the east, the Assyrian king Tukulti-Ninurta
+the First defeated a Hittite army,
+
+275
+00:19:34,918 --> 00:19:40,302
+and later sacked Babylon, carrying away
+the statue of its chief god, Marduk.
+
+276
+00:19:40,682 --> 00:19:45,108
+The old balance of power between
+the great kings was breaking apart.
+
+277
+00:19:46,008 --> 00:19:51,457
+In the Hittite capital, the last great
+kings, Tudhaliya the Fourth and then
+
+278
+00:19:51,457 --> 00:19:57,341
+Suppiluliuma the Second, faced threats on
+every side: rival branches of their own
+
+279
+00:19:57,341 --> 00:20:03,226
+royal family, rebellious vassals in western
+Anatolia, and new enemies on the sea.
+
+280
+00:20:04,126 --> 00:20:10,256
+Suppiluliuma the Second left an inscription
+that records something quite unusual for
+
+281
+00:20:10,256 --> 00:20:13,029
+a land-based empire like the Hittites.
+
+282
+00:20:13,409 --> 00:20:14,687
+A naval battle.
+
+283
+00:20:15,067 --> 00:20:20,456
+He claims to have fought the ships of
+Alashiya, of Cyprus, three times on the sea,
+
+284
+00:20:20,456 --> 00:20:22,230
+and to have destroyed them.
+
+285
+00:20:22,610 --> 00:20:28,047
+Who exactly was crewing those ships, and
+whether Cyprus itself was the enemy or had
+
+286
+00:20:28,047 --> 00:20:30,799
+been taken over by others, we do not know.
+
+287
+00:20:31,699 --> 00:20:35,299
+What we can see is a
+world under rising stress.
+
+288
+00:20:35,679 --> 00:20:37,637
+Hunger in Anatolia.
+
+289
+00:20:38,017 --> 00:20:42,877
+Peoples on the move along the coasts
+of North Africa and the Aegean.
+
+290
+00:20:43,257 --> 00:20:45,767
+Rivalries among the great kings.
+
+291
+00:20:46,147 --> 00:20:50,402
+A sea that was becoming more
+dangerous with every passing year.
+
+292
+00:20:51,302 --> 00:20:56,571
+And at the center of all this, on the Syrian
+coast, sat the richest trading city of
+
+293
+00:20:56,571 --> 00:20:57,142
+them all.
+
+294
+00:20:57,522 --> 00:21:03,842
+A city that had no idea it was about to
+become the most famous casualty of the age.
+
+295
+00:21:11,342 --> 00:21:17,909
+In 1928, a farmer ploughing his field near
+the Syrian coast, at a place called Minet
+
+296
+00:21:17,909 --> 00:21:20,255
+el-Beida, struck a stone slab.
+
+297
+00:21:20,635 --> 00:21:23,017
+Beneath it was an ancient tomb.
+
+298
+00:21:23,397 --> 00:21:28,893
+The next year, French archaeologists led
+by Claude Schaeffer began digging at the
+
+299
+00:21:28,893 --> 00:21:31,471
+large mound nearby, called Ras Shamra.
+
+300
+00:21:31,851 --> 00:21:37,626
+They soon realized that they had found
+Ugarit, a city known until then only from
+
+301
+00:21:37,626 --> 00:21:41,596
+mentions in the Amarna letters
+and other foreign texts.
+
+302
+00:21:42,496 --> 00:21:47,531
+Excavations have continued, on and
+off, for most of a century since.
+
+303
+00:21:47,911 --> 00:21:53,539
+What they have revealed is a city of
+perhaps six to eight thousand people, with a
+
+304
+00:21:53,539 --> 00:21:58,958
+great royal palace of around ninety
+rooms, temples to the gods Baal and Dagan,
+
+305
+00:21:58,958 --> 00:22:04,517
+wealthy private houses, and an adjoining
+harbor that linked it to Cyprus, Egypt,
+
+306
+00:22:04,517 --> 00:22:06,184
+Anatolia and the Aegean.
+
+307
+00:22:07,084 --> 00:22:10,280
+But Ugarit's greatest
+treasure was not gold.
+
+308
+00:22:10,660 --> 00:22:11,847
+It was words.
+
+309
+00:22:12,227 --> 00:22:17,750
+Archaeologists have found thousands of clay
+tablets there, written in more than half
+
+310
+00:22:17,750 --> 00:22:20,906
+a dozen languages and
+several different scripts.
+
+311
+00:22:21,287 --> 00:22:27,140
+Among them was something extraordinary:
+an alphabet of thirty letters, written in
+
+312
+00:22:27,140 --> 00:22:28,368
+cuneiform wedges.
+
+313
+00:22:28,748 --> 00:22:34,230
+One small tablet found there even lists
+the letters in order, making it one of the
+
+314
+00:22:34,230 --> 00:22:37,105
+oldest known alphabet
+primers in the world.
+
+315
+00:22:38,005 --> 00:22:43,709
+The texts written in that alphabet, in
+the local Ugaritic language, include myths
+
+316
+00:22:43,709 --> 00:22:49,413
+and epic poems about the god Baal, his
+battles with the sea god Yam and with Mot,
+
+317
+00:22:49,413 --> 00:22:50,610
+the god of death.
+
+318
+00:22:50,990 --> 00:22:56,608
+Scholars of the Hebrew Bible have studied
+them closely, because they share imagery
+
+319
+00:22:56,608 --> 00:23:00,582
+and phrases with some of the
+oldest passages of the Bible.
+
+320
+00:23:01,482 --> 00:23:03,554
+And then there are the letters.
+
+321
+00:23:03,934 --> 00:23:08,880
+Thousands of them, preserved in the
+palace and in the houses of officials and
+
+322
+00:23:08,880 --> 00:23:09,522
+merchants.
+
+323
+00:23:09,902 --> 00:23:15,459
+Through them, we can follow Ugarit's final
+years almost as if we were reading its
+
+324
+00:23:15,459 --> 00:23:15,802
+mail.
+
+325
+00:23:16,702 --> 00:23:19,729
+Ugarit was a vassal of the Hittites.
+
+326
+00:23:20,109 --> 00:23:26,141
+Its kings owed loyalty, tribute, and military
+service to the great king in Hattusa.
+
+327
+00:23:26,521 --> 00:23:31,343
+And in its final years, the demands
+from the Hittite court were relentless.
+
+328
+00:23:31,723 --> 00:23:32,895
+Send grain.
+
+329
+00:23:33,275 --> 00:23:34,298
+Send ships.
+
+330
+00:23:34,678 --> 00:23:35,802
+Send troops.
+
+331
+00:23:36,702 --> 00:23:39,059
+Then the letters start to change.
+
+332
+00:23:39,439 --> 00:23:44,549
+One letter to the king of Ugarit from
+the king of Cyprus warns him about enemy
+
+333
+00:23:44,549 --> 00:23:49,921
+ships, telling him to fortify his cities,
+bring his troops and chariots inside the
+
+334
+00:23:49,921 --> 00:23:52,804
+walls, and wait for the
+enemy with strength.
+
+335
+00:23:53,184 --> 00:23:58,390
+Another letter from a Hittite official
+speaks of a people called the Shikala, who
+
+336
+00:23:58,390 --> 00:24:03,661
+live on ships, and asks for a man who had
+been held captive by them to be sent for
+
+337
+00:24:03,661 --> 00:24:04,432
+questioning.
+
+338
+00:24:05,332 --> 00:24:10,017
+And then there is the letter we heard
+at the very beginning of this story.
+
+339
+00:24:10,397 --> 00:24:15,789
+Ammurapi, Ugarit's last king, writes to
+the king of Cyprus, whom he addresses
+
+340
+00:24:15,789 --> 00:24:17,680
+respectfully as his father.
+
+341
+00:24:18,060 --> 00:24:19,964
+The enemy's ships have come.
+
+342
+00:24:20,344 --> 00:24:22,452
+His cities have been burned.
+
+343
+00:24:22,832 --> 00:24:26,176
+His army is away in the
+land of the Hittites.
+
+344
+00:24:26,556 --> 00:24:29,690
+His fleet is away in the land of Lukka.
+
+345
+00:24:30,070 --> 00:24:33,410
+Seven enemy ships have
+done terrible damage.
+
+346
+00:24:34,310 --> 00:24:38,663
+Here is where the story has often
+been told with a powerful twist.
+
+347
+00:24:39,043 --> 00:24:44,525
+For decades, it was said that some of these
+final letters were found inside a kiln,
+
+348
+00:24:44,525 --> 00:24:49,809
+where they had been placed to be baked
+hard before being sent, and that the city
+
+349
+00:24:49,809 --> 00:24:52,583
+fell before they could ever be dispatched.
+
+350
+00:24:52,963 --> 00:24:54,696
+It is a haunting image.
+
+351
+00:24:55,076 --> 00:25:01,346
+Unfortunately, more recent reexamination
+of the excavation records suggests that it
+
+352
+00:25:01,346 --> 00:25:02,932
+is probably not true.
+
+353
+00:25:03,312 --> 00:25:08,477
+The tablets seem to have fallen from an
+upper story when the building collapsed, and
+
+354
+00:25:08,477 --> 00:25:12,105
+some were found in a different
+place than the story claims.
+
+355
+00:25:13,005 --> 00:25:15,877
+But the destruction itself is very real.
+
+356
+00:25:16,257 --> 00:25:22,052
+Archaeologists found Ugarit burned, with
+collapsed walls and a thick layer of ash.
+
+357
+00:25:22,432 --> 00:25:25,978
+Arrowheads were scattered
+through the streets of the city.
+
+358
+00:25:26,358 --> 00:25:31,669
+Hoards of valuables had been buried and
+never recovered, as if their owners hoped to
+
+359
+00:25:31,669 --> 00:25:33,819
+come back for them, and never did.
+
+360
+00:25:34,719 --> 00:25:40,444
+We can even date the end of Ugarit fairly
+closely, thanks to another letter found in
+
+361
+00:25:40,444 --> 00:25:41,126
+its ruins.
+
+362
+00:25:41,506 --> 00:25:47,439
+It was sent by an Egyptian official named
+Bay, a powerful chancellor in the Egyptian
+
+363
+00:25:47,439 --> 00:25:47,863
+court.
+
+364
+00:25:48,243 --> 00:25:55,434
+We know from Egyptian records that Bay
+was executed in the fifth year of Pharaoh
+
+365
+00:25:55,434 --> 00:25:57,771
+Siptah, around 1192 B.C.E.
+
+366
+00:25:58,151 --> 00:26:03,029
+Since his letter reached Ugarit while he
+was still alive, the city must have still
+
+367
+00:26:03,029 --> 00:26:04,159
+been standing then.
+
+368
+00:26:04,539 --> 00:26:12,452
+Most scholars now place its destruction
+in the years shortly after, around 1190 to
+
+369
+00:26:12,452 --> 00:26:13,513
+1185 B.C.E.
+
+370
+00:26:14,413 --> 00:26:17,314
+After that, Ugarit was never rebuilt.
+
+371
+00:26:17,694 --> 00:26:20,612
+The site remained empty for centuries.
+
+372
+00:26:20,992 --> 00:26:26,449
+Its alphabet, its literature and its very
+name disappeared from the world, until a
+
+373
+00:26:26,449 --> 00:26:30,841
+farmer's plough struck stone more
+than three thousand years later.
+
+374
+00:26:31,741 --> 00:26:36,716
+Ugarit's overlord, the great Hittite
+Empire, did not long outlive it.
+
+375
+00:26:37,096 --> 00:26:41,903
+But what happened at the Hittite capital
+is very different from what you might
+
+376
+00:26:41,903 --> 00:26:42,334
+expect.
+
+377
+00:26:49,835 --> 00:26:56,086
+High on the central Anatolian plateau,
+about one hundred and fifty kilometers east
+
+378
+00:26:56,086 --> 00:27:02,032
+of modern Ankara, lie the ruins of
+Hattusa, the capital of the Hittite Empire.
+
+379
+00:27:02,412 --> 00:27:05,941
+At its height, it was one of the
+greatest cities in the world.
+
+380
+00:27:06,321 --> 00:27:11,716
+Its walls ran for more than six
+kilometers, studded with towers, pierced by
+
+381
+00:27:11,716 --> 00:27:16,751
+monumental gates guarded by carved
+lions, sphinxes, and a warrior god.
+
+382
+00:27:17,651 --> 00:27:24,157
+Inside were temples, palaces, grain silos
+and archives holding tens of thousands of
+
+383
+00:27:24,157 --> 00:27:25,176
+clay tablets.
+
+384
+00:27:25,556 --> 00:27:28,660
+The Hittites were
+meticulous record keepers.
+
+385
+00:27:29,040 --> 00:27:35,008
+They wrote treaties, laws, rituals, prayers,
+letters and royal annals in a variety
+
+386
+00:27:35,008 --> 00:27:40,759
+of languages, chief among them Hittite
+itself, the oldest written Indo-European
+
+387
+00:27:40,759 --> 00:27:41,996
+language we know.
+
+388
+00:27:42,896 --> 00:27:46,330
+The Hittites also thought
+carefully about food.
+
+389
+00:27:46,710 --> 00:27:52,502
+At Hattusa, archaeologists have found
+enormous underground grain silos, one complex
+
+390
+00:27:52,502 --> 00:27:57,805
+of which could have held several thousand
+tons of grain, enough to feed many
+
+391
+00:27:57,805 --> 00:27:59,968
+thousands of people for a year.
+
+392
+00:28:00,348 --> 00:28:06,571
+These silos are a reminder that the Hittite
+state understood how vulnerable it was
+
+393
+00:28:06,571 --> 00:28:07,785
+to bad harvests.
+
+394
+00:28:08,165 --> 00:28:13,564
+And yet, as we have seen, by the end of
+the thirteenth century it was relying on
+
+395
+00:28:13,564 --> 00:28:14,779
+grain from abroad.
+
+396
+00:28:15,679 --> 00:28:21,530
+For a long time, scholars imagined the
+end of Hattusa as a violent catastrophe.
+
+397
+00:28:21,910 --> 00:28:27,640
+Enemies storming the walls, the great city
+burning, the last Hittite king dying in
+
+398
+00:28:27,640 --> 00:28:28,479
+its defense.
+
+399
+00:28:28,859 --> 00:28:31,026
+Fire certainly struck the city.
+
+400
+00:28:31,406 --> 00:28:36,391
+Parts of the citadel and some of the
+temples show clear signs of burning.
+
+401
+00:28:37,291 --> 00:28:42,777
+But the German archaeologists who have
+excavated the site for more than a century
+
+402
+00:28:42,777 --> 00:28:44,877
+have noticed something strange.
+
+403
+00:28:45,257 --> 00:28:50,938
+When they dug into the palace and temple
+quarters, they found remarkably little left
+
+404
+00:28:50,938 --> 00:28:51,411
+behind.
+
+405
+00:28:51,791 --> 00:28:53,137
+Few valuables.
+
+406
+00:28:53,517 --> 00:28:55,903
+Few objects of everyday use.
+
+407
+00:28:56,283 --> 00:28:57,364
+Few bodies.
+
+408
+00:28:57,744 --> 00:29:02,189
+Buildings that look as if they had
+been emptied before they were burned.
+
+409
+00:29:03,089 --> 00:29:09,206
+Jürgen Seeher, who directed the excavations
+for many years, argued that Hattusa was
+
+410
+00:29:09,206 --> 00:29:11,564
+not sacked by a sudden invasion.
+
+411
+00:29:11,944 --> 00:29:17,422
+Instead, he suggested, the royal court
+abandoned it, packing up its treasures and
+
+412
+00:29:17,422 --> 00:29:22,899
+its essential records and leaving for
+somewhere else, perhaps somewhere easier to
+
+413
+00:29:22,899 --> 00:29:24,049
+supply or defend.
+
+414
+00:29:24,429 --> 00:29:30,020
+The fires may have come later, set by local
+people or by squatters, after the great
+
+415
+00:29:30,020 --> 00:29:32,513
+king and his court were already gone.
+
+416
+00:29:33,413 --> 00:29:39,346
+That makes the end of the Hittite Empire
+one of the most mysterious episodes of the
+
+417
+00:29:39,346 --> 00:29:40,490
+entire collapse.
+
+418
+00:29:40,870 --> 00:29:45,276
+We know the name of its last known
+king, Suppiluliuma the Second.
+
+419
+00:29:45,656 --> 00:29:51,331
+We know the empire was under severe stress
+from famine, from rivals within the royal
+
+420
+00:29:51,331 --> 00:29:54,304
+family, and from enemies
+around its borders.
+
+421
+00:29:54,684 --> 00:29:59,291
+But we do not know exactly what
+happened to Suppiluliuma or his court.
+
+422
+00:29:59,671 --> 00:30:06,486
+Sometime around 1180 B.C.E., the written
+record of the great kings of Hatti simply
+
+423
+00:30:06,486 --> 00:30:06,985
+stops.
+
+424
+00:30:07,885 --> 00:30:11,381
+The Hittite name did
+not disappear entirely.
+
+425
+00:30:11,761 --> 00:30:17,732
+In the south, in cities like Carchemish
+on the Euphrates, branches of the royal
+
+426
+00:30:17,732 --> 00:30:18,941
+family survived.
+
+427
+00:30:19,321 --> 00:30:24,865
+Over the following centuries, a group of
+small kingdoms in southern Anatolia and
+
+428
+00:30:24,865 --> 00:30:29,370
+northern Syria preserved Hittite
+traditions, royal names and art.
+
+429
+00:30:29,750 --> 00:30:35,250
+The Bible calls their peoples Hittites,
+and Assyrian records called the region the
+
+430
+00:30:35,250 --> 00:30:36,189
+land of Hatti.
+
+431
+00:30:36,569 --> 00:30:39,903
+Scholars today call them
+the Neo-Hittite states.
+
+432
+00:30:40,803 --> 00:30:46,366
+But the great empire, the empire that had
+matched Egypt at Kadesh, that had held a
+
+433
+00:30:46,366 --> 00:30:51,862
+peace treaty with Ramesses, that had ruled
+most of Anatolia and much of Syria for
+
+434
+00:30:51,862 --> 00:30:53,219
+centuries, was gone.
+
+435
+00:30:54,119 --> 00:30:59,178
+And its disappearance was so complete
+that for nearly three thousand years, the
+
+436
+00:30:59,178 --> 00:31:01,163
+Hittites were almost forgotten.
+
+437
+00:31:01,543 --> 00:31:03,488
+Their language was lost.
+
+438
+00:31:03,868 --> 00:31:07,548
+Their capital became a set
+of ruins on a hillside.
+
+439
+00:31:07,928 --> 00:31:13,497
+It was only in the late nineteenth and early
+twentieth centuries that scholars began
+
+440
+00:31:13,497 --> 00:31:18,867
+to rediscover them, and only in 1915 that
+the Czech scholar Bedřich Hrozný showed
+
+441
+00:31:18,867 --> 00:31:21,121
+that their language could be read.
+
+442
+00:31:22,021 --> 00:31:27,796
+Meanwhile, far to the west, across the
+Aegean Sea, another world of palaces was
+
+443
+00:31:27,796 --> 00:31:29,258
+meeting its own end.
+
+444
+00:31:36,758 --> 00:31:42,564
+On a hill in the northeastern Peloponnese,
+overlooking the plain of Argos, stands
+
+445
+00:31:42,564 --> 00:31:44,213
+the citadel of Mycenae.
+
+446
+00:31:44,593 --> 00:31:50,295
+Its walls are built of stones so massive
+that later Greeks believed they could only
+
+447
+00:31:50,295 --> 00:31:54,555
+have been lifted by the Cyclopes,
+the one-eyed giants of myth.
+
+448
+00:31:54,935 --> 00:31:58,844
+We still call this style of
+building Cyclopean masonry.
+
+449
+00:31:59,744 --> 00:32:05,960
+You enter Mycenae through the Lion Gate,
+built around 1250 B.C.E., with two great
+
+450
+00:32:05,960 --> 00:32:10,565
+stone lions, or perhaps lionesses,
+carved above the doorway.
+
+451
+00:32:10,945 --> 00:32:16,838
+It is the oldest monumental sculpture in
+Europe that still stands in its original
+
+452
+00:32:16,838 --> 00:32:17,274
+place.
+
+453
+00:32:18,174 --> 00:32:25,079
+In 1876, the German businessman and excavator
+Heinrich Schliemann dug into a circle
+
+454
+00:32:25,079 --> 00:32:28,657
+of royal shaft graves
+just inside the gate.
+
+455
+00:32:29,037 --> 00:32:31,658
+He found a staggering treasure of gold.
+
+456
+00:32:32,038 --> 00:32:37,049
+Diadems, cups, jewelry, weapons,
+and a set of gold funeral masks.
+
+457
+00:32:37,429 --> 00:32:42,813
+Over one of them, he is said to have
+announced that he had gazed upon the face of
+
+458
+00:32:42,813 --> 00:32:47,332
+Agamemnon, the legendary king of
+Mycenae who led the Greeks to Troy.
+
+459
+00:32:47,712 --> 00:32:52,953
+In fact, the graves were centuries older
+than any Trojan War could have been.
+
+460
+00:32:53,333 --> 00:32:54,829
+But the name stuck.
+
+461
+00:32:55,209 --> 00:32:58,183
+It is still called the Mask of Agamemnon.
+
+462
+00:32:59,083 --> 00:33:05,002
+By the thirteenth century B.C.E., Mycenaean
+Greece was a world of rival palace
+
+463
+00:33:05,002 --> 00:33:05,533
+states.
+
+464
+00:33:05,913 --> 00:33:09,455
+Mycenae, Tiryns, Pylos,
+Thebes, and others.
+
+465
+00:33:09,835 --> 00:33:14,103
+Each palace was the center of
+a highly organized economy.
+
+466
+00:33:14,483 --> 00:33:20,393
+Scribes recorded, in great detail, the
+land, livestock, workers, raw materials and
+
+467
+00:33:20,393 --> 00:33:23,420
+finished goods that the palace controlled.
+
+468
+00:33:24,320 --> 00:33:27,355
+They wrote in a script we call Linear B.
+
+469
+00:33:27,735 --> 00:33:30,297
+For decades, nobody could read it.
+
+470
+00:33:30,677 --> 00:33:36,336
+Then, in 1952, an English architect
+named Michael Ventris, working with the
+
+471
+00:33:36,336 --> 00:33:41,542
+philologist John Chadwick, showed
+that it was an early form of Greek.
+
+472
+00:33:41,922 --> 00:33:47,082
+Suddenly, the administrative records
+of the Mycenaean palaces could speak.
+
+473
+00:33:47,982 --> 00:33:54,024
+The most important collection of these
+records came from the palace at Pylos in
+
+474
+00:33:54,024 --> 00:34:00,066
+southwestern Greece, which the American
+archaeologist Carl Blegen discovered in
+
+475
+00:34:00,066 --> 00:34:03,278
+1939, on the very first day of excavation.
+
+476
+00:34:03,658 --> 00:34:07,249
+He found more than a thousand
+Linear B tablets there.
+
+477
+00:34:08,149 --> 00:34:10,155
+Here is the strange thing.
+
+478
+00:34:10,535 --> 00:34:13,415
+Linear B tablets were not meant to last.
+
+479
+00:34:13,795 --> 00:34:19,234
+They were made of unbaked clay, like
+temporary notes, and were regularly recycled.
+
+480
+00:34:19,614 --> 00:34:25,867
+The only reason we have them at all is that
+the palace of Pylos burned down, around
+
+481
+00:34:25,867 --> 00:34:29,333
+1180 B.C.E., and the
+fire baked the clay hard.
+
+482
+00:34:29,713 --> 00:34:34,747
+The disaster that destroyed the palace
+is what preserved its final records.
+
+483
+00:34:35,647 --> 00:34:38,712
+And those final records are fascinating.
+
+484
+00:34:39,092 --> 00:34:43,178
+Some tablets list rowers being
+sent to a place called Pleuron.
+
+485
+00:34:43,558 --> 00:34:49,052
+Others describe groups of men posted along
+the coast, watchers, or guards of the
+
+486
+00:34:49,052 --> 00:34:52,485
+coastline, as some scholars
+have interpreted them.
+
+487
+00:34:52,865 --> 00:34:58,838
+Some historians have read these texts as
+emergency measures, a kingdom preparing for
+
+488
+00:34:58,838 --> 00:35:00,473
+an attack from the sea.
+
+489
+00:35:00,853 --> 00:35:04,461
+Others caution that these
+could simply be routine.
+
+490
+00:35:04,841 --> 00:35:10,440
+Either way, they offer a tantalizing
+glimpse of the last weeks of a Bronze Age
+
+491
+00:35:10,440 --> 00:35:10,942
+palace.
+
+492
+00:35:11,842 --> 00:35:13,673
+Pylos was not alone.
+
+493
+00:35:14,053 --> 00:35:21,734
+Across Greece, between roughly 1225 and
+1175 B.C.E., the great palace centers were
+
+494
+00:35:21,734 --> 00:35:23,701
+damaged or destroyed.
+
+495
+00:35:24,081 --> 00:35:26,424
+Mycenae suffered destruction.
+
+496
+00:35:26,804 --> 00:35:30,038
+Tiryns, with its massive
+walls, was damaged.
+
+497
+00:35:30,418 --> 00:35:31,681
+Thebes burned.
+
+498
+00:35:32,061 --> 00:35:35,624
+Some sites were rebuilt for
+a time on a smaller scale.
+
+499
+00:35:36,004 --> 00:35:38,526
+Others were abandoned entirely.
+
+500
+00:35:39,426 --> 00:35:45,083
+At Tiryns, excavators have found evidence
+that has been interpreted as earthquake
+
+501
+00:35:45,083 --> 00:35:50,671
+damage, including collapsed walls and,
+in one case, skeletons that may have been
+
+502
+00:35:50,671 --> 00:35:52,766
+crushed beneath falling stone.
+
+503
+00:35:53,146 --> 00:35:58,144
+At Mycenae too, there are signs that
+have been linked to seismic activity.
+
+504
+00:35:58,524 --> 00:36:02,048
+We will return to the
+question of earthquakes later.
+
+505
+00:36:02,948 --> 00:36:06,624
+After the palaces fell,
+life in Greece did not end.
+
+506
+00:36:07,004 --> 00:36:10,015
+People continued to live in many places.
+
+507
+00:36:10,395 --> 00:36:16,105
+In fact, for a few generations, some
+communities even seem to have done reasonably
+
+508
+00:36:16,105 --> 00:36:16,453
+well.
+
+509
+00:36:16,833 --> 00:36:22,734
+A famous painted vessel from Mycenae, called
+the Warrior Vase, shows a line of armed
+
+510
+00:36:22,734 --> 00:36:27,862
+soldiers marching off, while a woman
+raises her arm, perhaps in farewell.
+
+511
+00:36:28,242 --> 00:36:33,607
+It is often dated to this period, just
+after the destruction of the palaces.
+
+512
+00:36:34,507 --> 00:36:39,199
+But the palace system, with its
+scribes, its central storerooms and its
+
+513
+00:36:39,199 --> 00:36:41,776
+long-distance trade, was gone for good.
+
+514
+00:36:42,156 --> 00:36:47,489
+Within a few generations, population
+levels across much of Greece appear to have
+
+515
+00:36:47,489 --> 00:36:48,889
+dropped dramatically.
+
+516
+00:36:49,269 --> 00:36:51,584
+Many settlements were abandoned.
+
+517
+00:36:51,964 --> 00:36:54,103
+Monumental building stopped.
+
+518
+00:36:54,483 --> 00:36:58,653
+And Linear B, the script of the
+palaces, vanished completely.
+
+519
+00:36:59,553 --> 00:37:05,102
+For roughly four centuries, the Greeks
+lived in a world without writing, a period
+
+520
+00:37:05,102 --> 00:37:07,980
+historians long called the Greek Dark Age.
+
+521
+00:37:08,360 --> 00:37:14,286
+When writing finally returned, in the eighth
+century B.C.E., it came in an entirely
+
+522
+00:37:14,286 --> 00:37:17,998
+new form: an alphabet
+borrowed from the Phoenicians.
+
+523
+00:37:18,378 --> 00:37:24,456
+The memory of the palaces survived only
+in myth, in stories of heroes, kings and a
+
+524
+00:37:24,456 --> 00:37:29,348
+great war against Troy, eventually
+set down in the poems of Homer.
+
+525
+00:37:30,248 --> 00:37:36,935
+And Troy itself, on the coast of northwestern
+Anatolia, was also destroyed in this
+
+526
+00:37:36,935 --> 00:37:42,969
+period, around 1180 B.C.E., in the
+layer archaeologists call Troy Seven A.
+
+527
+00:37:43,349 --> 00:37:48,895
+Whether there was ever a real Trojan War,
+and whether this destruction had anything
+
+528
+00:37:48,895 --> 00:37:53,372
+to do with it, remains one of the
+great debates of ancient history.
+
+529
+00:37:54,272 --> 00:37:57,013
+In the east, the great empires were gone.
+
+530
+00:37:57,393 --> 00:38:00,577
+In the west, the palaces
+of Greece had fallen.
+
+531
+00:38:00,957 --> 00:38:03,515
+One great power remained standing.
+
+532
+00:38:03,895 --> 00:38:09,770
+But between Greece and Egypt lay an island
+that would face the storm in its own way.
+
+533
+00:38:17,270 --> 00:38:22,769
+Before we follow the storm to Egypt, we
+need to stop on an island that sat right in
+
+534
+00:38:22,769 --> 00:38:23,365
+its path.
+
+535
+00:38:23,745 --> 00:38:24,654
+Cyprus.
+
+536
+00:38:25,034 --> 00:38:30,248
+In the letters of the Late Bronze Age, it
+was called Alashiya, and its kings wrote
+
+537
+00:38:30,248 --> 00:38:32,919
+to Pharaoh as equals, calling him brother.
+
+538
+00:38:33,299 --> 00:38:35,237
+The reason was simple.
+
+539
+00:38:35,617 --> 00:38:36,394
+Copper.
+
+540
+00:38:37,294 --> 00:38:42,779
+The copper mines in the foothills of the
+Troodos Mountains were among the richest in
+
+541
+00:38:42,779 --> 00:38:43,954
+the ancient world.
+
+542
+00:38:44,334 --> 00:38:49,523
+In one of the Amarna letters, the king
+of Alashiya sends five hundred units of
+
+543
+00:38:49,523 --> 00:38:55,110
+copper to Egypt, and apologizes that it is
+not more, explaining that the hand of the
+
+544
+00:38:55,110 --> 00:39:00,565
+god Nergal, a god of plague and death, had
+killed all the men of his land, so that
+
+545
+00:39:00,565 --> 00:39:03,226
+there was no one left to produce copper.
+
+546
+00:39:03,606 --> 00:39:07,722
+Even at the height of the age,
+disaster was never far away.
+
+547
+00:39:08,622 --> 00:39:14,561
+On the east coast of the island stood
+Enkomi, a wealthy port city with streets laid
+
+548
+00:39:14,561 --> 00:39:20,071
+out in a grid, fine houses built of cut
+stone, and workshops where copper was
+
+549
+00:39:20,071 --> 00:39:21,288
+smelted and cast.
+
+550
+00:39:21,668 --> 00:39:28,006
+Further south, near modern Larnaca, lay
+Hala Sultan Tekke, a large harbor town whose
+
+551
+00:39:28,006 --> 00:39:34,194
+excavations have produced goods from across
+the Mediterranean world, from Sardinia
+
+552
+00:39:34,194 --> 00:39:35,929
+to Egypt to the Baltic.
+
+553
+00:39:36,829 --> 00:39:40,474
+The people of Late Bronze
+Age Cyprus also wrote.
+
+554
+00:39:40,854 --> 00:39:46,332
+They used a script that we call Cypro-Minoan,
+descended from the writing of Minoan
+
+555
+00:39:46,332 --> 00:39:46,733
+Crete.
+
+556
+00:39:47,113 --> 00:39:49,536
+And here is a remarkable fact.
+
+557
+00:39:49,916 --> 00:39:54,641
+Even today, more than three thousand
+years later, no one can read it.
+
+558
+00:39:55,021 --> 00:39:57,185
+We can recognize the signs.
+
+559
+00:39:57,565 --> 00:40:02,009
+We can see that it was used on
+clay tablets, balls, and objects.
+
+560
+00:40:02,389 --> 00:40:05,536
+But the language it
+records is still a mystery.
+
+561
+00:40:06,436 --> 00:40:09,370
+When the storm arrived,
+Cyprus was hit hard.
+
+562
+00:40:09,750 --> 00:40:16,259
+Around 1200 B.C.E., several sites show
+signs of destruction or abandonment.
+
+563
+00:40:16,639 --> 00:40:21,548
+At a place called Pyla-Kokkinokremos,
+on a ridge overlooking the coast,
+
+564
+00:40:21,548 --> 00:40:27,148
+archaeologists found a fortified settlement
+that seems to have been occupied only
+
+565
+00:40:27,148 --> 00:40:31,711
+briefly, perhaps for a single
+generation, before it was abandoned.
+
+566
+00:40:32,091 --> 00:40:37,327
+Hoards of metal and valuables were found
+buried there, never recovered by their
+
+567
+00:40:37,327 --> 00:40:37,791
+owners.
+
+568
+00:40:38,691 --> 00:40:44,245
+At Maa-Palaeokastro, on a rocky headland
+in the west of the island, a defended
+
+569
+00:40:44,245 --> 00:40:48,944
+settlement with a wall across its
+neck was built around this time.
+
+570
+00:40:49,324 --> 00:40:54,653
+Some archaeologists have suggested that
+the people who built these sites were
+
+571
+00:40:54,653 --> 00:40:59,983
+newcomers from the Aegean, others that
+they were Cypriots seeking safety in a
+
+572
+00:40:59,983 --> 00:41:00,952
+dangerous age.
+
+573
+00:41:01,332 --> 00:41:06,426
+As with so much of this period, the
+evidence can be read in more than one way.
+
+574
+00:41:07,326 --> 00:41:13,519
+But unlike the Hittites, unlike Ugarit, and
+unlike the Mycenaean palaces, Cyprus did
+
+575
+00:41:13,519 --> 00:41:16,025
+not simply collapse and disappear.
+
+576
+00:41:16,405 --> 00:41:19,067
+Enkomi was damaged, but rebuilt.
+
+577
+00:41:19,447 --> 00:41:23,911
+Kition, near Larnaca, was rebuilt
+as well, with new temples.
+
+578
+00:41:24,291 --> 00:41:29,436
+And it was in Enkomi, in the twelfth
+century, that someone made one of the most
+
+579
+00:41:29,436 --> 00:41:31,716
+striking bronze statues of the age.
+
+580
+00:41:32,096 --> 00:41:37,717
+A warrior god, wearing a horned helmet,
+holding a spear and shield, standing on a
+
+581
+00:41:37,717 --> 00:41:40,007
+base shaped like an oxhide ingot.
+
+582
+00:41:40,387 --> 00:41:42,913
+Scholars call him the Ingot God.
+
+583
+00:41:43,292 --> 00:41:47,701
+The god of copper itself, standing
+guard over the island's wealth.
+
+584
+00:41:48,601 --> 00:41:51,079
+Cyprus seems to have adapted.
+
+585
+00:41:51,459 --> 00:41:53,940
+Its copper industry continued.
+
+586
+00:41:54,320 --> 00:41:56,591
+Its merchants found new partners.
+
+587
+00:41:56,971 --> 00:42:02,609
+Over the following century, settlers who
+spoke Greek arrived on the island, and by
+
+588
+00:42:02,609 --> 00:42:08,109
+the Iron Age, Cyprus was a land of small
+kingdoms where Greek was widely spoken,
+
+589
+00:42:08,109 --> 00:42:13,197
+alongside other languages, some of
+which we still cannot fully understand.
+
+590
+00:42:14,097 --> 00:42:19,791
+Hala Sultan Tekke was eventually abandoned,
+perhaps because its harbor was silting
+
+591
+00:42:19,791 --> 00:42:24,026
+up, perhaps because the trade
+that made it rich had dried up.
+
+592
+00:42:24,406 --> 00:42:30,399
+But Cyprus as a whole survived the collapse
+better than almost anywhere else in the
+
+593
+00:42:30,399 --> 00:42:30,904
+region.
+
+594
+00:42:31,804 --> 00:42:32,563
+Why?
+
+595
+00:42:32,943 --> 00:42:36,222
+Historians are still
+debating that question.
+
+596
+00:42:36,602 --> 00:42:43,076
+One possibility is that Cyprus was less
+dependent on a single, rigid palace system
+
+597
+00:42:43,076 --> 00:42:45,760
+than places like Pylos or Hattusa.
+
+598
+00:42:46,140 --> 00:42:51,714
+Its wealth was spread among several towns,
+and its merchants were used to adapting
+
+599
+00:42:51,714 --> 00:42:53,073
+to changing markets.
+
+600
+00:42:53,453 --> 00:42:58,698
+In a world where the most centralized
+states fell the hardest, a more flexible
+
+601
+00:42:58,698 --> 00:43:02,800
+society may have had a better
+chance of riding out the storm.
+
+602
+00:43:03,700 --> 00:43:08,571
+But one great power was still to
+face the full force of the crisis.
+
+603
+00:43:08,951 --> 00:43:14,678
+A kingdom far older than any of the others,
+which had seen empires rise and fall
+
+604
+00:43:14,678 --> 00:43:15,179
+before.
+
+605
+00:43:15,559 --> 00:43:16,418
+Egypt.
+
+606
+00:43:23,918 --> 00:43:29,309
+On the west bank of the Nile, across
+the river from modern Luxor, stands the
+
+607
+00:43:29,309 --> 00:43:34,842
+memorial temple of Pharaoh Ramesses the
+Third, at a place called Medinet Habu.
+
+608
+00:43:35,222 --> 00:43:38,944
+It is one of the best preserved
+temples in all of Egypt.
+
+609
+00:43:39,324 --> 00:43:45,187
+Its walls are covered with colossal carved
+scenes, many of them still bearing traces
+
+610
+00:43:45,187 --> 00:43:46,862
+of their original paint.
+
+611
+00:43:47,762 --> 00:43:53,354
+Ramesses the Third came to
+the throne around 1184 B.C.E.
+
+612
+00:43:53,734 --> 00:43:58,621
+He was not a descendant of Ramesses
+the Second, though he took his name and
+
+613
+00:43:58,621 --> 00:44:02,139
+deliberately modeled himself
+on his great predecessor.
+
+614
+00:44:02,519 --> 00:44:06,776
+He would become the last great
+warrior pharaoh of the New Kingdom.
+
+615
+00:44:07,676 --> 00:44:13,702
+And on the walls of Medinet Habu, he left
+us the single most famous account of the
+
+616
+00:44:13,702 --> 00:44:14,584
+Sea Peoples.
+
+617
+00:44:14,964 --> 00:44:21,653
+In his eighth regnal year, which by the
+most widely used chronology falls around
+
+618
+00:44:21,653 --> 00:44:26,168
+1177 B.C.E., his scribes
+recorded the following words.
+
+619
+00:44:27,068 --> 00:44:30,944
+The foreign countries made a
+conspiracy in their islands.
+
+620
+00:44:31,324 --> 00:44:35,523
+All at once the lands were
+removed and scattered in the fray.
+
+621
+00:44:35,903 --> 00:44:41,876
+No land could stand before their arms,
+from Hatti, Kode, Carchemish, Arzawa, and
+
+622
+00:44:41,876 --> 00:44:44,788
+Alashiya on, being cut off at one time.
+
+623
+00:44:45,167 --> 00:44:48,427
+A camp was set up in one place in Amurru.
+
+624
+00:44:48,807 --> 00:44:53,742
+They desolated its people, and its land
+was like that which has never come into
+
+625
+00:44:53,742 --> 00:44:54,117
+being.
+
+626
+00:44:54,497 --> 00:44:59,420
+They were coming forward toward Egypt,
+while the flame was prepared before them.
+
+627
+00:45:00,320 --> 00:45:04,854
+The inscription goes on to name
+the members of this confederation.
+
+628
+00:45:05,234 --> 00:45:09,860
+The Peleset, the Tjeker, the
+Shekelesh, the Denyen and the Weshesh.
+
+629
+00:45:10,240 --> 00:45:11,815
+Lands united.
+
+630
+00:45:12,715 --> 00:45:15,280
+Then it describes two great battles.
+
+631
+00:45:15,660 --> 00:45:19,493
+One on land, somewhere on
+Egypt's border in the Levant.
+
+632
+00:45:19,873 --> 00:45:24,675
+And one at sea, in the mouths of the
+Nile, where the enemy fleet was trapped.
+
+633
+00:45:25,055 --> 00:45:30,744
+Ramesses claims that he prepared the river
+mouths like a strong wall, with warships,
+
+634
+00:45:30,744 --> 00:45:35,688
+galleys and coasters, fully manned
+from bow to stern with brave warriors.
+
+635
+00:45:36,588 --> 00:45:42,215
+The carved scenes of this naval battle are
+among the most famous images to survive
+
+636
+00:45:42,215 --> 00:45:43,793
+from the ancient world.
+
+637
+00:45:44,173 --> 00:45:48,898
+Egyptian ships, with lion-headed
+prows, close in on the enemy.
+
+638
+00:45:49,278 --> 00:45:53,126
+Egyptian archers fire from
+the decks and from the shore.
+
+639
+00:45:53,506 --> 00:45:57,966
+Enemy ships, with bird-headed
+prows at both ends, are capsized.
+
+640
+00:45:58,346 --> 00:46:03,807
+Their warriors, some wearing horned helmets,
+others wearing distinctive headdresses
+
+641
+00:46:03,807 --> 00:46:09,203
+that look like a crown of feathers or
+reeds, fall into the water or are hauled out
+
+642
+00:46:09,203 --> 00:46:10,058
+as prisoners.
+
+643
+00:46:10,958 --> 00:46:15,828
+But perhaps the most revealing scene
+is the one depicting the land battle.
+
+644
+00:46:16,208 --> 00:46:20,294
+Among the warriors, there are ox
+carts carrying women and children.
+
+645
+00:46:20,674 --> 00:46:22,592
+These were not just armies.
+
+646
+00:46:22,972 --> 00:46:27,015
+They were entire communities on
+the move, looking for new land.
+
+647
+00:46:27,915 --> 00:46:31,041
+According to the inscriptions, Egypt won.
+
+648
+00:46:31,421 --> 00:46:37,105
+The invaders were defeated, captured,
+branded and, in some cases, settled in
+
+649
+00:46:37,105 --> 00:46:39,498
+Egyptian fortresses as soldiers.
+
+650
+00:46:39,878 --> 00:46:45,582
+Ramesses the Third saved Egypt from the
+fate that had befallen the Hittites and
+
+651
+00:46:45,582 --> 00:46:46,087
+Ugarit.
+
+652
+00:46:46,987 --> 00:46:52,479
+But the cost of victory was enormous, and
+the decades that followed show a state
+
+653
+00:46:52,479 --> 00:46:53,852
+under severe strain.
+
+654
+00:46:54,232 --> 00:46:59,455
+In the twenty-ninth year of Ramesses the
+Third, the workmen who built the royal
+
+655
+00:46:59,455 --> 00:47:04,943
+tombs in the Valley of the Kings, living
+in the village we now call Deir el-Medina,
+
+656
+00:47:04,943 --> 00:47:09,307
+went on strike because their grain
+rations had not been delivered.
+
+657
+00:47:09,687 --> 00:47:14,637
+They laid down their tools and sat
+behind the temples, refusing to work.
+
+658
+00:47:15,017 --> 00:47:19,235
+It is the earliest well documented
+labor strike in history.
+
+659
+00:47:20,135 --> 00:47:25,376
+Then, toward the end of his reign, a
+conspiracy formed within the royal harem.
+
+660
+00:47:25,756 --> 00:47:31,294
+One of the king's secondary wives, Tiye,
+plotted with courtiers and officials to
+
+661
+00:47:31,294 --> 00:47:35,448
+murder Ramesses and place her
+son, Pentawere, on the throne.
+
+662
+00:47:35,828 --> 00:47:39,877
+Records of the trial that
+followed survive on papyrus.
+
+663
+00:47:40,257 --> 00:47:45,676
+Many conspirators were condemned to death,
+and some were allowed to take their own
+
+664
+00:47:45,676 --> 00:47:46,072
+lives.
+
+665
+00:47:46,972 --> 00:47:51,812
+For a long time, it was unclear whether
+the plot had actually succeeded.
+
+666
+00:47:52,192 --> 00:47:58,831
+Then, in 2012, a team of scientists
+published the results of CT scans of Ramesses
+
+667
+00:47:58,831 --> 00:48:00,306
+the Third's mummy.
+
+668
+00:48:00,686 --> 00:48:05,897
+They found a deep cut across his throat,
+severe enough to have killed him almost
+
+669
+00:48:05,897 --> 00:48:10,392
+instantly, which had been hidden
+under the bandages by the embalmers.
+
+670
+00:48:10,772 --> 00:48:16,484
+A later study also found that one of his
+toes appears to have been cut off, perhaps
+
+671
+00:48:16,484 --> 00:48:17,791
+in the same attack.
+
+672
+00:48:18,171 --> 00:48:22,568
+The last great pharaoh of the New
+Kingdom, it seems, was murdered.
+
+673
+00:48:23,468 --> 00:48:24,917
+Egypt survived.
+
+674
+00:48:25,297 --> 00:48:27,264
+But it was never the same.
+
+675
+00:48:27,644 --> 00:48:33,365
+Over the following decades, under a series
+of weaker kings who all bore the name
+
+676
+00:48:33,365 --> 00:48:37,442
+Ramesses, Egypt lost control
+of its empire in the Levant.
+
+677
+00:48:37,822 --> 00:48:40,953
+Tomb robbing spread in
+the Valley of the Kings.
+
+678
+00:48:41,333 --> 00:48:42,617
+Prices rose.
+
+679
+00:48:42,997 --> 00:48:47,972
+Royal power faded, and the priests
+of Amun at Thebes grew more powerful.
+
+680
+00:48:48,352 --> 00:48:55,297
+By around 1070 B.C.E., the New Kingdom
+had come to an end, and Egypt was divided.
+
+681
+00:48:56,197 --> 00:48:58,249
+And the defeated Sea Peoples?
+
+682
+00:48:58,629 --> 00:49:01,485
+Some of them, at least, did not disappear.
+
+683
+00:49:01,865 --> 00:49:07,647
+One group, the Peleset, settled on the
+southern coast of Canaan, in cities like
+
+684
+00:49:07,647 --> 00:49:10,501
+Ashkelon, Ashdod, Ekron, Gath and Gaza.
+
+685
+00:49:10,881 --> 00:49:13,089
+We know them by another name.
+
+686
+00:49:13,469 --> 00:49:14,794
+The Philistines.
+
+687
+00:49:22,294 --> 00:49:27,477
+For more than a century, the Sea Peoples
+have been the great villains of the Bronze
+
+688
+00:49:27,477 --> 00:49:28,289
+Age collapse.
+
+689
+00:49:28,669 --> 00:49:34,087
+In older history books, they appear as a
+kind of barbarian horde, sweeping across
+
+690
+00:49:34,087 --> 00:49:38,970
+the eastern Mediterranean, burning
+everything in their path, and bringing
+
+691
+00:49:38,970 --> 00:49:40,709
+civilization to its knees.
+
+692
+00:49:41,609 --> 00:49:45,255
+The very name Sea Peoples
+is a modern invention.
+
+693
+00:49:45,635 --> 00:49:51,417
+It was popularized in the nineteenth
+century by French Egyptologists, especially
+
+694
+00:49:51,417 --> 00:49:57,416
+Gaston Maspero, who drew on phrases in the
+Egyptian inscriptions about peoples from
+
+695
+00:49:57,416 --> 00:49:59,657
+the sea and from their islands.
+
+696
+00:50:00,037 --> 00:50:05,393
+The Egyptians themselves never used
+it as a single label for one nation.
+
+697
+00:50:06,293 --> 00:50:08,046
+So who were they really?
+
+698
+00:50:08,426 --> 00:50:11,750
+The honest answer is that
+we are still not certain.
+
+699
+00:50:12,130 --> 00:50:15,477
+But we can say a few things
+with some confidence.
+
+700
+00:50:16,377 --> 00:50:18,279
+First, they were not one people.
+
+701
+00:50:18,659 --> 00:50:23,697
+They were a shifting collection of groups
+with different names, different dress, and
+
+702
+00:50:23,697 --> 00:50:25,316
+probably different origins.
+
+703
+00:50:25,696 --> 00:50:31,056
+Some had been known in the region for
+generations as pirates, raiders or
+
+704
+00:50:31,056 --> 00:50:31,949
+mercenaries.
+
+705
+00:50:32,329 --> 00:50:37,868
+The Sherden, for example, served as
+bodyguards to Ramesses the Second at Kadesh.
+
+706
+00:50:38,768 --> 00:50:43,063
+Second, scholars have long tried
+to link their names to places.
+
+707
+00:50:43,443 --> 00:50:48,303
+The Sherden have been connected with
+Sardinia, and the Shekelesh with Sicily.
+
+708
+00:50:48,683 --> 00:50:53,850
+The Lukka almost certainly came
+from Lycia in southwestern Anatolia.
+
+709
+00:50:54,230 --> 00:50:59,555
+The Denyen have been linked to the Danaoi,
+one of Homer's names for the Greeks, and
+
+710
+00:50:59,555 --> 00:51:01,864
+the Ekwesh to the Achaeans, another.
+
+711
+00:51:02,244 --> 00:51:07,886
+The Teresh have been connected, much more
+speculatively, with the Tyrsenians, a name
+
+712
+00:51:07,886 --> 00:51:10,304
+later Greeks used for the Etruscans.
+
+713
+00:51:10,684 --> 00:51:13,677
+Some of these connections
+are well supported.
+
+714
+00:51:14,057 --> 00:51:17,954
+Others rest on little more
+than a similarity of sound.
+
+715
+00:51:18,334 --> 00:51:23,760
+And even where a name matches, it is often
+unclear whether these peoples came from
+
+716
+00:51:23,760 --> 00:51:27,334
+those places, or went there
+later, after the collapse.
+
+717
+00:51:28,234 --> 00:51:33,697
+Third, and most importantly, the archaeology
+of the Philistines gives us a rare,
+
+718
+00:51:33,697 --> 00:51:36,906
+direct glimpse of at
+least one of these groups.
+
+719
+00:51:37,286 --> 00:51:43,760
+In the early twelfth century B.C.E., at
+sites like Ashdod, Ashkelon, Ekron and Gath,
+
+720
+00:51:43,760 --> 00:51:46,843
+a new material culture suddenly appears.
+
+721
+00:51:47,223 --> 00:51:53,229
+Locally made pottery painted in a style
+that closely resembles Mycenaean pottery
+
+722
+00:51:53,229 --> 00:51:54,430
+from the Aegean.
+
+723
+00:51:54,810 --> 00:51:57,016
+Hearths of an Aegean type.
+
+724
+00:51:57,396 --> 00:52:00,361
+Changes in diet, including more pork.
+
+725
+00:52:00,741 --> 00:52:03,521
+Even new kinds of loom
+weights for weaving.
+
+726
+00:52:04,421 --> 00:52:11,315
+In 2019, a team of geneticists and
+archaeologists published a study of ancient DNA
+
+727
+00:52:11,315 --> 00:52:14,174
+from skeletons buried at Ashkelon.
+
+728
+00:52:14,554 --> 00:52:19,582
+They found that people buried there
+in the early Iron Age, right after the
+
+729
+00:52:19,582 --> 00:52:24,814
+Philistines arrived, carried a distinct
+genetic component that pointed toward
+
+730
+00:52:24,814 --> 00:52:29,910
+southern Europe, a component that was
+not present in the earlier Bronze Age
+
+731
+00:52:29,910 --> 00:52:30,657
+population.
+
+732
+00:52:31,037 --> 00:52:36,601
+Within a couple of centuries, that signal
+had been largely diluted by intermarriage
+
+733
+00:52:36,601 --> 00:52:39,014
+with the local Levantine population.
+
+734
+00:52:39,914 --> 00:52:45,332
+In other words, at least some of the newcomers
+really did come from the west, across
+
+735
+00:52:45,332 --> 00:52:45,848
+the sea.
+
+736
+00:52:46,228 --> 00:52:49,525
+But they did not wipe out the
+people already living there.
+
+737
+00:52:49,905 --> 00:52:54,371
+They settled among them, and their
+descendants gradually blended in.
+
+738
+00:52:55,271 --> 00:52:58,888
+This changes how we should
+think about the Sea Peoples.
+
+739
+00:52:59,268 --> 00:53:04,842
+Instead of a horde of destroyers who caused
+the collapse, many historians now see
+
+740
+00:53:04,842 --> 00:53:07,801
+them, at least in part,
+as a symptom of it.
+
+741
+00:53:08,181 --> 00:53:13,916
+People displaced by hunger, war and the
+breakdown of their own societies, taking to
+
+742
+00:53:13,916 --> 00:53:16,887
+the sea in search of
+somewhere new to live.
+
+743
+00:53:17,267 --> 00:53:20,141
+Some of them certainly raided and burned.
+
+744
+00:53:20,521 --> 00:53:23,891
+Some fought as mercenaries
+for whoever would pay.
+
+745
+00:53:24,271 --> 00:53:28,107
+Some brought their families
+in ox carts and settled down.
+
+746
+00:53:29,007 --> 00:53:32,863
+And there is a deeper problem
+with blaming them for everything.
+
+747
+00:53:33,243 --> 00:53:37,919
+Many of the destroyed sites show no
+clear sign of who destroyed them.
+
+748
+00:53:38,299 --> 00:53:41,816
+At some, there is evidence
+of fire but no weapons.
+
+749
+00:53:42,196 --> 00:53:44,853
+At others, there are signs of earthquakes.
+
+750
+00:53:45,233 --> 00:53:50,830
+And at some, like Hattusa, the evidence
+points more toward abandonment than attack.
+
+751
+00:53:51,210 --> 00:53:53,295
+The Sea Peoples were real.
+
+752
+00:53:53,675 --> 00:53:54,990
+They were dangerous.
+
+753
+00:53:55,370 --> 00:53:58,412
+But they cannot explain
+everything on their own.
+
+754
+00:53:59,312 --> 00:54:04,974
+To understand why so many great civilizations
+fell at once, we have to look beyond
+
+755
+00:54:04,974 --> 00:54:09,462
+the soldiers and ships, and into
+the soil, the water and the sky.
+
+756
+00:54:16,962 --> 00:54:22,850
+Over the past two decades, a new kind of
+evidence has transformed the debate about
+
+757
+00:54:22,850 --> 00:54:24,717
+the end of the Bronze Age.
+
+758
+00:54:25,097 --> 00:54:28,290
+It does not come from
+palaces or inscriptions.
+
+759
+00:54:28,670 --> 00:54:33,261
+It comes from mud, from pollen, and
+from the rings of ancient trees.
+
+760
+00:54:34,161 --> 00:54:40,187
+In 2013, a team of researchers led by
+Dafna Langgut published the results of a
+
+761
+00:54:40,187 --> 00:54:44,590
+sediment core drilled from
+the bed of the Sea of Galilee.
+
+762
+00:54:44,970 --> 00:54:50,551
+Layer by layer, the mud preserved tiny
+grains of pollen, a record of the plants
+
+763
+00:54:50,551 --> 00:54:53,800
+growing in the region
+over thousands of years.
+
+764
+00:54:54,180 --> 00:54:59,678
+Toward the end of the Late Bronze Age, the
+pollen of trees like oak, pine and olive
+
+765
+00:54:59,678 --> 00:55:00,738
+dropped sharply.
+
+766
+00:55:01,118 --> 00:55:07,064
+This is a sign of a much drier climate,
+a long stretch of drought that the
+
+767
+00:55:07,064 --> 00:55:11,483
+researchers placed roughly
+between 1250 and 1100 B.C.E.
+
+768
+00:55:12,383 --> 00:55:18,803
+That same year, a team led by David Kaniewski
+published a study of sediments from a
+
+769
+00:55:18,803 --> 00:55:24,836
+salt lake near Larnaca, on Cyprus, close
+to the Bronze Age harbor city of Hala
+
+770
+00:55:24,836 --> 00:55:25,841
+Sultan Tekke.
+
+771
+00:55:26,221 --> 00:55:31,580
+It also pointed to a shift to drier
+conditions at about this time, a period of
+
+772
+00:55:31,580 --> 00:55:36,046
+drought that seems to have lasted
+for as long as three centuries.
+
+773
+00:55:36,946 --> 00:55:43,245
+Then, in 2023, a study led by Sturt Manning,
+published in the journal Nature, looked
+
+774
+00:55:43,245 --> 00:55:49,393
+at the growth rings of ancient juniper
+wood from Gordion, in central Anatolia, the
+
+775
+00:55:49,393 --> 00:55:51,718
+heart of the old Hittite lands.
+
+776
+00:55:52,098 --> 00:55:56,825
+Tree rings grow thicker in wet
+years and thinner in dry ones.
+
+777
+00:55:57,205 --> 00:56:04,037
+The researchers found a severe drought
+in this region, and in particular three
+
+778
+00:56:04,037 --> 00:56:09,993
+consecutive extremely dry years,
+dated to around 1198 to 1196 B.C.E.
+
+779
+00:56:10,893 --> 00:56:16,850
+Three years in a row of failed harvests,
+in a region where the great Hittite state
+
+780
+00:56:16,850 --> 00:56:19,393
+already depended on imported grain.
+
+781
+00:56:19,773 --> 00:56:25,700
+That is exactly when we see the desperate
+letters about grain shipments, a matter of
+
+782
+00:56:25,700 --> 00:56:26,688
+life or death.
+
+783
+00:56:27,068 --> 00:56:31,227
+It fits the timeline of the
+Hittite collapse disturbingly well.
+
+784
+00:56:32,127 --> 00:56:35,711
+But drought was not the
+only natural force at work.
+
+785
+00:56:36,091 --> 00:56:42,509
+In 2000, the geophysicist Amos Nur and
+the archaeologist Eric Cline proposed what
+
+786
+00:56:42,509 --> 00:56:45,044
+they called an earthquake storm.
+
+787
+00:56:45,424 --> 00:56:50,489
+The eastern Mediterranean is one of the
+most seismically active regions in the
+
+788
+00:56:50,489 --> 00:56:50,879
+world.
+
+789
+00:56:51,259 --> 00:56:57,178
+Nur and Cline argued that over a period of
+perhaps fifty years, a sequence of large
+
+790
+00:56:57,178 --> 00:57:03,169
+earthquakes could have struck many of the
+major Bronze Age sites, including Mycenae,
+
+791
+00:57:03,169 --> 00:57:05,451
+Tiryns, Troy, Ugarit and others.
+
+792
+00:57:06,351 --> 00:57:11,581
+Earthquakes alone probably would not
+have brought down entire civilizations.
+
+793
+00:57:11,961 --> 00:57:17,573
+Societies have survived earthquakes throughout
+history, rebuilding again and again.
+
+794
+00:57:17,953 --> 00:57:22,769
+But earthquakes striking already weakened
+states, at a time when their resources
+
+795
+00:57:22,769 --> 00:57:25,718
+were stretched thin, could
+have been devastating.
+
+796
+00:57:26,618 --> 00:57:28,935
+Then there are the human factors.
+
+797
+00:57:29,315 --> 00:57:33,978
+Some scholars have suggested that
+internal rebellion played a part.
+
+798
+00:57:34,358 --> 00:57:40,064
+When harvests fail and palaces keep demanding
+taxes and labor, ordinary people may
+
+799
+00:57:40,064 --> 00:57:42,361
+have turned against their rulers.
+
+800
+00:57:42,741 --> 00:57:48,097
+Some of the destroyed palaces could have
+been burned not by foreign invaders, but by
+
+801
+00:57:48,097 --> 00:57:49,309
+their own subjects.
+
+802
+00:57:50,209 --> 00:57:52,685
+And there is the network itself.
+
+803
+00:57:53,065 --> 00:57:59,128
+Remember the Uluburun ship, with its copper
+from Cyprus and its tin from the distant
+
+804
+00:57:59,128 --> 00:57:59,489
+east.
+
+805
+00:57:59,869 --> 00:58:04,334
+Every palace depended on these
+long, fragile chains of trade.
+
+806
+00:58:04,714 --> 00:58:09,973
+If drought hit one region, if earthquakes
+struck another, if pirates made the sea
+
+807
+00:58:09,973 --> 00:58:15,232
+lanes too dangerous to sail, if a key
+trading city like Ugarit was destroyed, the
+
+808
+00:58:15,232 --> 00:58:18,543
+effects would have spread
+through the whole system.
+
+809
+00:58:19,443 --> 00:58:24,983
+This is the explanation that the historian
+Eric Cline, whose book on the subject
+
+810
+00:58:24,983 --> 00:58:27,753
+gave this date its fame, has championed.
+
+811
+00:58:28,133 --> 00:58:29,846
+A systems collapse.
+
+812
+00:58:30,226 --> 00:58:32,985
+Not a single cause, but many at once.
+
+813
+00:58:33,365 --> 00:58:35,898
+Climate change, drought and famine.
+
+814
+00:58:36,278 --> 00:58:37,299
+Earthquakes.
+
+815
+00:58:37,679 --> 00:58:39,951
+Invasion and migration.
+
+816
+00:58:40,331 --> 00:58:42,136
+Internal unrest.
+
+817
+00:58:42,516 --> 00:58:45,345
+The breakdown of international trade.
+
+818
+00:58:45,725 --> 00:58:49,264
+Each of these, on its own,
+might have been survivable.
+
+819
+00:58:49,644 --> 00:58:54,810
+Together, they reinforced one another,
+in a cascade of failures that no single
+
+820
+00:58:54,810 --> 00:58:56,069
+kingdom could stop.
+
+821
+00:58:56,969 --> 00:59:03,109
+Complex societies, as the historian Joseph
+Tainter has argued, can become vulnerable
+
+822
+00:59:03,109 --> 00:59:05,887
+precisely because of their complexity.
+
+823
+00:59:06,267 --> 00:59:11,722
+The more specialized and interconnected
+they are, the more their survival depends on
+
+824
+00:59:11,722 --> 00:59:13,476
+everything working at once.
+
+825
+00:59:13,856 --> 00:59:19,664
+The Late Bronze Age palaces were masters
+of complexity: central administrations,
+
+826
+00:59:19,664 --> 00:59:25,618
+scribes, specialized workshops, and trade
+routes spanning thousands of kilometers.
+
+827
+00:59:25,998 --> 00:59:29,410
+When the shocks came, they
+had a very long way to fall.
+
+828
+00:59:30,310 --> 00:59:32,982
+It is important to be careful here.
+
+829
+00:59:33,362 --> 00:59:37,705
+Not every region collapsed at
+the same time or in the same way.
+
+830
+00:59:38,085 --> 00:59:42,355
+Some places, like Cyprus,
+recovered relatively quickly.
+
+831
+00:59:42,735 --> 00:59:45,144
+Assyria survived, though weakened.
+
+832
+00:59:45,524 --> 00:59:47,044
+Egypt held on.
+
+833
+00:59:47,424 --> 00:59:52,914
+The collapse was not one event on one
+day, but a process unfolding over several
+
+834
+00:59:52,914 --> 00:59:57,501
+decades, with different causes
+mattering more in different places.
+
+835
+00:59:58,401 --> 01:00:01,473
+But the overall pattern is unmistakable.
+
+836
+01:00:01,853 --> 01:00:06,974
+In a few generations, the world of the
+great kings, of the Amarna letters, of
+
+837
+01:00:06,974 --> 01:00:09,435
+brother writing to brother, was gone.
+
+838
+01:00:16,935 --> 01:00:21,422
+Historians often describe
+what came next as a dark age.
+
+839
+01:00:21,802 --> 01:00:24,160
+And in many places, it was.
+
+840
+01:00:24,539 --> 01:00:26,044
+Populations fell.
+
+841
+01:00:26,424 --> 01:00:28,794
+Cities shrank or disappeared.
+
+842
+01:00:29,174 --> 01:00:31,490
+Long-distance trade dwindled.
+
+843
+01:00:31,870 --> 01:00:34,028
+Writing vanished from Greece.
+
+844
+01:00:34,408 --> 01:00:38,118
+Monumental art and
+architecture largely stopped.
+
+845
+01:00:39,018 --> 01:00:41,799
+But collapse is never only an ending.
+
+846
+01:00:42,179 --> 01:00:47,441
+Out of the ruins of the Bronze Age, a new
+world slowly emerged, and it would turn
+
+847
+01:00:47,441 --> 01:00:50,040
+out to be the world that shaped our own.
+
+848
+01:00:50,940 --> 01:00:53,849
+The first great change was a new metal.
+
+849
+01:00:54,229 --> 01:00:59,371
+Iron had been known and worked for centuries,
+but it had been a rare and precious
+
+850
+01:00:59,371 --> 01:00:59,942
+material.
+
+851
+01:01:00,322 --> 01:01:05,990
+As the trade in tin broke down, and as
+smiths learned better ways of working iron,
+
+852
+01:01:05,990 --> 01:01:09,999
+it gradually became the common
+metal of tools and weapons.
+
+853
+01:01:10,379 --> 01:01:14,481
+Unlike copper and tin, iron
+ore is found almost everywhere.
+
+854
+01:01:14,861 --> 01:01:20,104
+You did not need a palace, a fleet or a
+network of foreign kings to obtain it.
+
+855
+01:01:20,484 --> 01:01:23,454
+In a sense, iron democratized metal.
+
+856
+01:01:24,354 --> 01:01:28,180
+The second great change came
+from the coast of the Levant.
+
+857
+01:01:28,560 --> 01:01:33,817
+Some of the old Canaanite cities, like
+Byblos, Sidon and Tyre, survived the
+
+858
+01:01:33,817 --> 01:01:36,550
+collapse, or recovered quickly from it.
+
+859
+01:01:36,930 --> 01:01:42,162
+Their people, whom the Greeks would later
+call the Phoenicians, became the great
+
+860
+01:01:42,162 --> 01:01:44,385
+seafaring traders of the Iron Age.
+
+861
+01:01:44,765 --> 01:01:50,298
+Their ships sailed farther than any Bronze
+Age merchants had ever gone, all the way
+
+862
+01:01:50,298 --> 01:01:55,098
+across the Mediterranean, and eventually
+beyond the Strait of Gibraltar.
+
+863
+01:01:55,478 --> 01:02:00,866
+They founded colonies, including, according
+to tradition, the city of Carthage.
+
+864
+01:02:01,766 --> 01:02:05,360
+And they spread something that
+would change the world forever.
+
+865
+01:02:05,740 --> 01:02:06,931
+The alphabet.
+
+866
+01:02:07,310 --> 01:02:12,696
+The Phoenician alphabet, a simple set of
+twenty-two letters, could be learned in
+
+867
+01:02:12,696 --> 01:02:14,244
+days rather than years.
+
+868
+01:02:14,624 --> 01:02:18,558
+Writing was no longer the
+secret skill of palace scribes.
+
+869
+01:02:18,938 --> 01:02:24,442
+In the eighth century B.C.E., the Greeks
+adopted it, adding letters for vowels.
+
+870
+01:02:24,822 --> 01:02:29,999
+From the Greek alphabet came the Etruscan,
+then the Latin alphabet, the one you are
+
+871
+01:02:29,999 --> 01:02:32,370
+reading on your screen at this moment.
+
+872
+01:02:33,270 --> 01:02:38,785
+In the southern Levant, in the space left
+by the retreat of Egypt and the fall of
+
+873
+01:02:38,785 --> 01:02:43,142
+the Canaanite city-states, new
+peoples and new kingdoms emerged.
+
+874
+01:02:43,522 --> 01:02:45,942
+The Philistines on the coast.
+
+875
+01:02:46,322 --> 01:02:49,851
+The kingdoms of Israel and
+Judah in the highlands.
+
+876
+01:02:50,231 --> 01:02:52,932
+Aram, Ammon, Moab and Edom.
+
+877
+01:02:53,312 --> 01:02:58,942
+Many of the stories of the Hebrew Bible
+are set in this new Iron Age world.
+
+878
+01:02:59,842 --> 01:03:06,127
+In Mesopotamia, Assyria survived its own
+crises and, a few centuries later, rose to
+
+879
+01:03:06,127 --> 01:03:12,336
+become a new kind of empire, larger and
+more ruthless than anything the Bronze Age
+
+880
+01:03:12,336 --> 01:03:13,017
+had seen.
+
+881
+01:03:13,917 --> 01:03:19,916
+And in Greece, after centuries of silence,
+a new civilization would rise, one of
+
+882
+01:03:19,916 --> 01:03:26,064
+independent city-states, of the Olympic
+games, of philosophy, democracy and drama.
+
+883
+01:03:26,444 --> 01:03:29,856
+But they never forgot the
+age that had come before.
+
+884
+01:03:30,236 --> 01:03:35,635
+Their poets sang of a lost age of heroes,
+of mighty kings who lived in golden
+
+885
+01:03:35,635 --> 01:03:38,650
+Mycenae, and of a great
+war fought at Troy.
+
+886
+01:03:39,031 --> 01:03:44,802
+The Iliad and the Odyssey, the founding
+works of Western literature, are in part a
+
+887
+01:03:44,802 --> 01:03:48,251
+distant memory of the
+Bronze Age world that fell.
+
+888
+01:03:49,151 --> 01:03:54,133
+So what really killed the great
+civilizations of the Late Bronze Age?
+
+889
+01:03:54,513 --> 01:03:56,423
+Not a single invasion.
+
+890
+01:03:56,803 --> 01:03:59,038
+Not a single catastrophe.
+
+891
+01:03:59,418 --> 01:04:02,438
+The evidence points to
+a deadly combination.
+
+892
+01:04:02,818 --> 01:04:05,033
+Years of drought and famine.
+
+893
+01:04:05,413 --> 01:04:06,434
+Earthquakes.
+
+894
+01:04:06,814 --> 01:04:08,674
+Rebellion from within.
+
+895
+01:04:09,054 --> 01:04:11,690
+Peoples uprooted and on the move.
+
+896
+01:04:12,070 --> 01:04:17,862
+And a tightly connected international system
+that turned each local disaster into a
+
+897
+01:04:17,862 --> 01:04:18,630
+shared one.
+
+898
+01:04:19,530 --> 01:04:23,411
+Perhaps that is why this
+story feels so relevant today.
+
+899
+01:04:23,791 --> 01:04:30,098
+The world of 1177 B.C.E. was one of
+interconnected economies, of supply chains
+
+900
+01:04:30,098 --> 01:04:36,566
+stretching across continents, of rulers
+who believed their prosperity would last
+
+901
+01:04:36,566 --> 01:04:37,213
+forever.
+
+902
+01:04:37,593 --> 01:04:42,423
+It was a world that seemed too big,
+too rich and too connected to fail.
+
+903
+01:04:43,323 --> 01:04:48,826
+And when it did fail, the last king of
+Ugarit wrote to his father in Cyprus, asking
+
+904
+01:04:48,826 --> 01:04:50,881
+for help that would never come.
+
+905
+01:04:51,781 --> 01:04:54,757
+Thank you for watching
+Ancient World Files.
+
+906
+01:04:55,137 --> 01:05:00,581
+If you enjoyed this journey into the end
+of the Bronze Age, subscribe for more
+
+907
+01:05:00,581 --> 01:05:05,816
+evidence-based deep dives into the lost
+civilizations of the ancient world.
+
