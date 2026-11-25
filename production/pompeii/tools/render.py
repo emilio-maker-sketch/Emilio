@@ -9,7 +9,7 @@ import json, math, os, random, re, subprocess, sys, glob, time
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-import score, maps as mapmod
+import score, maps as mapmod, visuals
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); B = os.path.join(ROOT, 'build')
 W, H, FPS = 1920, 1080, 30
@@ -45,12 +45,20 @@ class Library:
         self.themes = lib['themes']           # theme -> [files]
         self.meta = lib.get('meta', {})
         self.use = {}; self.recent = []; self.cache = {}
+        for k, ids in visuals.AIT.items():
+            self.themes[k] = [f'../ai/ai_{i:02d}.png' for i in ids if os.path.exists(os.path.join(B, 'img', 'ai', f'ai_{i:02d}.png'))]
     def candidates(self, queries):
         files = []
         for q in queries:
             for th in self.qmap.get(q, ['RUINS']):
                 files += [f for f in self.themes.get(th, []) if f not in files]
         return files or self.themes['RUINS']
+    def pick_themes(self, themes, rnd):
+        c = [f for th in themes for f in self.themes.get(th, [])]
+        fresh = [f for f in c if f not in self.recent[-14:]] or c
+        if not fresh: return None
+        rnd.shuffle(fresh); f = min(fresh, key=lambda f: self.use.get(f, 0))
+        self.use[f] = self.use.get(f, 0) + 1; self.recent.append(f); return f
     def pick(self, queries, rnd, primary=False):
         c = self.candidates(queries)
         if primary:
@@ -107,8 +115,8 @@ def grade(img):
 
 # ---------------------------------------------------------------- shots
 class StillShot:
-    def __init__(self, lib, f, dur, rnd):
-        self.im, fit = lib.image(f); self.dur = dur; self.f = f
+    def __init__(self, lib, f, dur, rnd, shake=False):
+        self.im, fit = lib.image(f); self.dur = dur; self.f = f; self.shake = shake
         h, w = self.im.shape[:2]
         # base crop: largest 16:9 window; optionally a closer "detail" window on big images
         bw = min(w, h * 16 / 9); bh = bw * 9 / 16
@@ -124,6 +132,8 @@ class StillShot:
         u = t / max(self.dur, 1e-3)
         cx = self.a[0] + (self.b[0] - self.a[0]) * u; cy = self.a[1] + (self.b[1] - self.a[1]) * u
         cw = self.a[2] * (self.b[2] / self.a[2]) ** u; s = W / cw
+        if self.shake and t < 2.5:
+            amp = 9 * (1 - t / 2.5) / s; cx += amp * math.sin(t * 57); cy += amp * math.cos(t * 43)
         M = np.float32([[s, 0, W / 2 - cx * s], [0, s, H / 2 - cy * s]])
         return cv2.warpAffine(self.im, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
@@ -284,20 +294,23 @@ def build(ch):
             segs.append((t, dur, 'quote', (q, src, lib.pick(qs, rnd)), trans))
         else:
             qs = [x.strip() for x in (b.get('v') or last_q or 'Pompeii ruins panorama').split(';')]; last_q = b.get('v') or last_q
-            # cut points: sentence starts, merged into 2.6-5.2 s shots
-            cuts = [0.0] + [0.35 + s['start'] for s in m['sentences'][1:]] + [dur]
-            shots, a = [], 0.0
-            for c in cuts[1:]:
-                if c - a >= 2.6 or c == dur:
-                    while c - a > 5.2:
-                        step = rnd.uniform(2.8, 4.4)
-                        if c - a - step < 2.2: break
-                        shots.append((a, step)); a += step
-                    shots.append((a, c - a)); a = c
-            if len(shots) > 1 and shots[-1][1] < 1.8:
-                s0 = shots.pop(); shots[-1] = (shots[-1][0], shots[-1][1] + s0[1])
-            for k, (a, d) in enumerate(shots):
-                segs.append((t + a, d, 'still', lib.pick(qs, rnd, primary=(k == 0)), trans if k == 0 else 'cut'))
+            # one shot per sentence, picture chosen from what that sentence says
+            sents = m['sentences']; starts = [0.0] + [0.35 + x['start'] for x in sents[1:]] + [dur]
+            spans = []
+            for k, x in enumerate(sents):
+                a, b2 = starts[k], starts[k + 1]
+                vis, shake = visuals.for_sentence(x['text'])
+                if spans and b2 - a < 1.8 and vis is None:      # short line with no own subject: extend previous shot
+                    spans[-1][1] = b2; continue
+                spans.append([a, b2, vis, shake])
+            first = True
+            for a, b2, vis, shake in spans:
+                pieces = [(a, b2 - a)] if b2 - a <= 5.6 else [(a, (b2 - a) / 2), (a + (b2 - a) / 2, (b2 - a) / 2)]
+                for pi_, (pa, pd) in enumerate(pieces):
+                    if vis and vis[0] == 'file' and pi_ == 0: f = vis[1]
+                    elif vis and vis[0] == 'themes': f = lib.pick_themes(vis[1], rnd) or lib.pick(qs, rnd)
+                    else: f = lib.pick(qs, rnd, primary=first)
+                    segs.append((t + pa, pd, 'still', (f, shake and pi_ == 0), trans if first else 'cut')); first = False
         t += dur
     moods.append((mood_t, t, mood))
     return name, segs, vo, moods, hits, caps, t, lib, rnd
@@ -305,8 +318,10 @@ def build(ch):
 def make_shot(seg, lib, rnd, extra):
     st, dur, kind, pay, _ = seg
     d = dur + extra
-    if kind == 'still' and pay.startswith('fx:'): return FxShot(lib, pay[3:], d, rnd)
-    if kind == 'still': return StillShot(lib, pay, d, rnd)
+    if kind == 'still':
+        f, shake = pay if isinstance(pay, tuple) else (pay, False)
+        if f.startswith('fx:'): return FxShot(lib, f[3:], d, rnd)
+        return StillShot(lib, f, d, rnd, shake)
     if kind == 'video': return VideoShot(pay, d)
     if kind == 'card': return CardShot(pay[0], pay[1], d, pay[2])
     if kind == 'quote': return QuoteShot(lib, pay[0], pay[1], pay[2], d, rnd)
