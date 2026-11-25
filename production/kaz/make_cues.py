@@ -4,7 +4,7 @@ sys.argv = ['kaz_engine.py', 'info']
 import kaz_engine as E
 c = {'duration': E.DUR, 'whoosh': [], 'type': [], 'thud': [], 'scratch': [], 'tension': [], 'film': [], 'pulse': []}
 last = -9
-for t, box, mv in E.KEYS:
+for t, box, mv_ in E.KEYS:
     if t - last > 1.2: c['whoosh'].append(round(t, 2)); last = t
 for tg in E.TAGS: c['type'].append([round(tg['t0'], 2), len(tg['text'])])
 for o in E.OVERLAYS:
@@ -14,6 +14,12 @@ for st in E.STAMPS: c['thud'].append(round(st['t0'] + .05, 2))
 for e in E.ELLS: c['scratch'].append([round(e['t0'], 2), e['du']])
 for L in E.LINES: c['scratch'].append([round(L['t0'], 2), .35])
 if E.VINTAGE: c['film'].append([round(E.VINTAGE[0], 2), round(E.VINTAGE[1], 2)]); c['thud'].append(round(E.VINTAGE[0] + min(4.2, (E.VINTAGE[1]-E.VINTAGE[0])*.5), 2))
+c['pin'] = [round(i['t0'], 2) for i in E.ITEMS]
+c['tick'] = [round(p['t'], 2) for p in E.POPS]
+for i in E.ITEMS:
+    if i.get('kind') == 'quote': c['type'].append([round(i['t0'] + .2, 2), 18])
+c['roll'] = [[round(o['t0'], 2), 16] for o in E.OVERLAYS if o['kind'] == 'counter']
+mv = [k[0] for k in E.K]; c['soft'] = [round(t, 2) for t in mv if all(abs(t - w) > 1.0 for w in c['whoosh'])][::2]
 zt = {e['d'][1]: e['t'] for e in E.TL['events'] if e['d'][0] == 'zone'}
 c['pulse'] = [[zt['plot'], zt['night']], [zt['night'], zt['trial']], [zt['case'] + 120, zt['end']]]
 json.dump(c, open(os.path.join(E.B, 'cues.json'), 'w'))

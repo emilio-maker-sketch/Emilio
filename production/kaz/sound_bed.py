@@ -30,6 +30,13 @@ for a in c.get("whoosh", []): add(W, a, .25)
 for s, k in c.get("type", []):
     for j in range(k): add(click(), s+j/22, .12)
 for a in c.get("thud", []): add(thud, a, .55)
+pin = (np.sin(2*np.pi*(180*np.exp(-tt*30)+90)*tt)*np.exp(-tt*28) + .4*rng.normal(0,1,len(tt))*np.exp(-tt*90))
+for a in c.get("pin", []): add(pin, a, .22)
+tick = lambda: (rng.normal(0,1,int(.02*sr))*np.exp(-np.arange(int(.02*sr))/sr*400) + np.sin(2*np.pi*2200*np.arange(int(.02*sr))/sr)*np.exp(-np.arange(int(.02*sr))/sr*300))
+for a in c.get("tick", []): add(tick(), a, .10)
+for a in c.get("soft", []): add(W, a, .09)
+for a, k in c.get("roll", []):
+    for j in range(k): add(tick(), a + j*.06, .07)
 for a in c.get("shot", []): add(shot, a, .55)
 for a, d in c.get("scratch", []):
     L = int(d*sr); add(rng.normal(0,1,L)*.5*(1+np.sin(np.arange(L)/sr*90)), a, .05)
