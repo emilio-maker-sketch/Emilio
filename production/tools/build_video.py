@@ -6,7 +6,7 @@
   python3 tools/build_video.py audio     # narration + ducked music, loudness-normalized
   python3 tools/build_video.py mux       # final.mp4
 """
-import json, os, sys, glob, math, random, subprocess, hashlib
+import json, os, sys, glob, math, random, subprocess, hashlib, unicodedata
 from concurrent.futures import ProcessPoolExecutor
 import numpy as np
 
@@ -40,36 +40,58 @@ def load_chapters():
     return out
 
 def pick_images(chapters):
-    cat = json.load(open(os.path.join(IMG, 'catalog.json')))
+    """Per paragraph: fill ~dur/SHOT_TARGET stills from assets/visual_plan.json sources, never reusing an image."""
+    db = {}
+    for f in ('museum.json', 'aic.json'):
+        p = os.path.join(IMG, f)
+        if os.path.exists(p): db.update(json.load(open(p)))
     rej = set()
     rp = os.path.join(ROOT, 'assets', 'reject.txt')
     if os.path.exists(rp): rej = {l.split()[0] for l in open(rp) if l.strip() and not l.startswith('#')}
-    over = json.load(open(os.path.join(ROOT, 'assets', 'overrides.json')))
-    used = {}
-    def avail(q):
-        return [c for c in cat.get(q, []) if c['file'] not in rej and os.path.exists(os.path.join(IMG, 'pool', c['file']))]
+    vplan = json.load(open(os.path.join(ROOT, 'assets', 'visual_plan.json')))
+    allow = json.load(open(os.path.join(ROOT, 'assets', 'aic_allow.json')))
+    allow_ids = {i for v in allow.values() for i in v}
+    used, map_uses = set(), {}
+    def cands(spec):
+        if spec.startswith('map:'): return [{'file': 'maps/' + spec[4:] + '.png', 'id': spec, 'map': True}]
+        topic, _, kw = spec[2:].partition('~')
+        kws = [k.lower() for k in kw.split('|')] if kw else None
+        out = []
+        for r in db.get(topic, []):
+            if r['id'] in rej or not os.path.exists(os.path.join(IMG, r['file'])): continue
+            if r['id'].startswith('aic') and r['id'] not in allow_ids: continue
+            if r['id'].startswith('met') and not r.get('artist') and 'BCE' not in r.get('date', '') and 'B.C.' not in r.get('date', ''):
+                continue   # unattributed artifact not dated BCE: wrong era
+            hay = unicodedata.normalize('NFKD', r.get('title', '') + ' ' + r.get('term', '')).encode('ascii', 'ignore').decode().lower()
+            if kws and not any(k in hay for k in kws): continue
+            out.append(r)
+        return out
     plan = []
     for ch in chapters:
-        qs = [p['visual'] for p in ch['paras']]
+        specs = vplan[ch['id']]
+        assert len(specs) == len(ch['paras']), (ch['id'], len(specs), len(ch['paras']))
         for i, p in enumerate(ch['paras']):
             n = max(1, round((p['dur'] + PARA_GAP) / SHOT_TARGET))
-            key = f"{ch['id']}:{i}"
             chosen = []
-            for o in over.get(key, []):
-                if o.startswith('map:'): chosen.append({'file': 'maps/' + o[4:], 'credit': None})
-                elif o.startswith('q:'):
-                    for c in avail(o[2:]):
-                        if c['file'] not in used: chosen.append({'file': 'pool/' + c['file'], 'credit': c}); used[c['file']] = key; break
-            # primary query, then neighbours in the chapter, then reuse least-recently
-            order = [p['visual']] + [q for d in (1, -1, 2, -2, 3, -3) for q in ([qs[i + d]] if 0 <= i + d < len(qs) else [])]
-            for q in order:
-                for c in avail(q):
+            pools = [cands(sp) for sp in specs[i]]
+            # round-robin across the listed sources so a paragraph mixes them
+            for rnd in range(40):
+                for pool in pools:
                     if len(chosen) >= n: break
-                    if c['file'] in used: continue
-                    chosen.append({'file': 'pool/' + c['file'], 'credit': c}); used[c['file']] = key
-                if len(chosen) >= n: break
-            if not chosen:  # fall back to reuse of primary
-                for c in avail(p['visual'])[:n]: chosen.append({'file': 'pool/' + c['file'], 'credit': c})
+                    for r in pool:
+                        if r.get('map'):
+                            if map_uses.get((r['id'], ch['id'], i)): continue
+                            map_uses[(r['id'], ch['id'], i)] = 1
+                            chosen.append({'file': r['file'], 'credit': None}); break
+                        if r['id'] in used: continue
+                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r}); break
+                if len(chosen) >= n or rnd > 3 and not any(pools): break
+            if len(chosen) < n:   # top up from the same chapter's other sources
+                for sp in [x for row in specs for x in row]:
+                    for r in cands(sp):
+                        if len(chosen) >= n: break
+                        if r.get('map') or r['id'] in used: continue
+                        used.add(r['id']); chosen.append({'file': r['file'], 'credit': r})
             if not chosen: chosen = [{'file': 'maps/map_overview.png', 'credit': None}]
             plan.append((ch['id'], i, chosen))
     return plan
@@ -101,10 +123,10 @@ def split_caption(text, start, end):
 def plan():
     chapters = load_chapters()
     picks = {(c, i): ch for c, i, ch in pick_images(chapters)}
-    shots, audio, captions, chapter_marks = [], [], [], []
+    shots, audio, chapter_marks = [], [], []
     t = 1.0
     def add_paragraphs(ch):
-        nonlocal t
+        nonlocal t, captions
         for i, p in enumerate(ch['paras']):
             audio.append({'wav': p['wav'], 'start': round(t, 3)})
             for s in p['sentences']:
@@ -116,12 +138,15 @@ def plan():
                 shots.append({'kind': 'image', 'src': im['file'], 'start': round(t + k * d, 3), 'dur': round(d, 3), 'chapter': ch['id']})
             t += seg
     captions = []
+    segs = []
     for ch in chapters:
+        segs.append([ch['id'], round(t, 3)])
         if ch['id'] == '00_cold_open':
             chapter_marks.append((0.0, 'Cold Open: The Last Letter of Ugarit'))
             add_paragraphs(ch)
             t += 0.6
             chapter_marks.append((t, 'Title'))
+            segs.append(['title', round(t, 3)])
             shots.append({'kind': 'title', 'start': round(t, 3), 'dur': TITLE_CARD, 'chapter': 'title'}); t += TITLE_CARD
             continue
         num = int(ch['id'][:2])
@@ -130,9 +155,11 @@ def plan():
         t += CARD
         add_paragraphs(ch)
         t += 0.6
+    segs.append(['outro', round(t, 3)])
     shots.append({'kind': 'outro', 'start': round(t, 3), 'dur': OUTRO, 'chapter': 'outro'}); t += OUTRO
     total = round(t, 3)
-    json.dump({'total': total, 'shots': shots, 'audio': audio, 'chapters': chapter_marks}, open(os.path.join(B, 'timeline.json'), 'w'), indent=1)
+    segs = [[a, st, (segs[i + 1][1] if i + 1 < len(segs) else total)] for i, (a, st) in enumerate(segs)]
+    json.dump({'total': total, 'music_segments': segs, 'shots': shots, 'audio': audio, 'chapters': chapter_marks}, open(os.path.join(B, 'timeline.json'), 'w'), indent=1)
     with open(os.path.join(B, 'captions.srt'), 'w') as f:
         for k, (a, b, txt) in enumerate(captions, 1):
             f.write(f'{k}\n{fmt_ts(a)} --> {fmt_ts(b)}\n{txt}\n\n')
@@ -151,6 +178,7 @@ def plan():
 def prep_one(rel):
     import cv2
     src = os.path.join(IMG, rel)
+    os.makedirs(PREP, exist_ok=True)
     dst = os.path.join(PREP, hashlib.md5(rel.encode()).hexdigest()[:14] + '.jpg')
     if os.path.exists(dst): return dst
     im = cv2.imread(src, cv2.IMREAD_COLOR)
@@ -344,16 +372,28 @@ def audio():
     # smooth ramps (0.6s)
     k = 60; env = np.convolve(np.pad(env, (k, k), mode='edge'), np.ones(k) / k, mode='same')[k:-k]
     gain = np.repeat(env, hop)[:N]
-    # music bed
-    tracks = sorted(glob.glob(os.path.join(ROOT, 'assets', 'music', '*.wav')))
-    bed = np.zeros(N, np.float32); pos = 0; ti = 0; fade = 4 * SR
-    while pos < N and tracks:
-        x, sr = sf.read(tracks[ti % len(tracks)], dtype='float32', always_2d=True); x = x.mean(axis=1)
-        if sr != SR: x = resample_poly(x, SR, sr).astype(np.float32)
-        x = x / (np.sqrt(np.mean(x ** 2)) + 1e-9) * 0.1   # -20 dBFS RMS
-        r = np.ones(len(x), np.float32); r[:fade] = np.linspace(0, 1, fade); r[-fade:] = np.linspace(1, 0, fade); x *= r
-        e = min(N, pos + len(x)); bed[pos:e] += x[:e - pos]
-        pos = e - fade; ti += 1
+    # music bed, aligned to chapters (assets/music_plan.json)
+    mplan = json.load(open(os.path.join(ROOT, 'assets', 'music_plan.json')))
+    cache = {}
+    def track(name):
+        if name not in cache:
+            x, sr = sf.read(os.path.join(ROOT, 'assets', 'music', name + '.wav'), dtype='float32', always_2d=True)
+            x = x.mean(axis=1)
+            if sr != SR: x = resample_poly(x, SR, sr).astype(np.float32)
+            cache[name] = x / (np.sqrt(np.mean(x ** 2)) + 1e-9) * 0.1   # -20 dBFS RMS
+        return cache[name]
+    bed = np.zeros(N, np.float32); fade = 3 * SR
+    for seg_id, st, en in tl['music_segments']:
+        a = max(0, int(st * SR) - fade // 2); b = min(N, int(en * SR) + fade // 2)
+        names = mplan.get(seg_id, []); pos = a; k = 0
+        while pos < b and names:
+            x = track(names[k % len(names)]).copy(); k += 1
+            take = min(len(x), b - pos)
+            x = x[:take]
+            r = np.ones(take, np.float32); f = min(fade, take // 2)
+            r[:f] = np.linspace(0, 1, f); r[take - f:] = np.linspace(1, 0, f); x *= r
+            bed[pos:pos + take] += x
+            pos = pos + take - f
     # fade music in at start, out at end
     bed[:3 * SR] *= np.linspace(0, 1, 3 * SR); bed[-6 * SR:] *= np.linspace(1, 0, 6 * SR)
     mix = voice + bed * gain
