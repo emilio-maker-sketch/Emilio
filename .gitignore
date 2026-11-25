@@ -3,4 +3,4 @@ production/voice_tests/
 __pycache__/
 production/assets/music/
 production/assets/music_src/
-kaz/build/
+production/kaz/build/
