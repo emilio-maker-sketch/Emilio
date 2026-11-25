@@ -1,0 +1,73 @@
+{
+ "credit": "Music by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0",
+ "cues": [
+  {
+   "file": "Ossuary 1 - A Beginning.mp3",
+   "start": 0.0,
+   "end": 97.0,
+   "gain": 0.9,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Despair and Triumph.mp3",
+   "start": 94.0,
+   "end": 112.0,
+   "gain": 1.0,
+   "fade_in": 1.5,
+   "fade_out": 5
+  },
+  {
+   "file": "Echoes of Time v2.mp3",
+   "start": 106.0,
+   "end": 236.0,
+   "gain": 0.85,
+   "fade_in": 4,
+   "fade_out": 6
+  },
+  {
+   "file": "Unwritten Return.mp3",
+   "start": 230.0,
+   "end": 340.0,
+   "gain": 0.85,
+   "fade_in": 6,
+   "fade_out": 4
+  }
+ ],
+ "sfx": [
+  {
+   "file": "night.wav",
+   "start": 0.0,
+   "end": 96.0,
+   "gain": 0.35
+  },
+  {
+   "file": "bells.wav",
+   "start": 1.0,
+   "gain": 0.45
+  },
+  {
+   "file": "fire.wav",
+   "start": 31.0,
+   "end": 54.0,
+   "gain": 0.25
+  },
+  {
+   "file": "wind.wav",
+   "start": 77.0,
+   "end": 96.0,
+   "gain": 0.35
+  },
+  {
+   "file": "boom.wav",
+   "start": 95.9,
+   "gain": 0.9
+  },
+  {
+   "file": "wind.wav",
+   "start": 190.0,
+   "end": 237.0,
+   "gain": 0.18
+  }
+ ]
+}

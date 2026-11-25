@@ -6,13 +6,13 @@
   "negative": "cartoon, illustration, painting, CGI look, oversaturated, HDR, plastic skin, anime, text, logo, watermark, modern buildings, minarets on Hagia Sophia, Blue Mosque, Topkapi Palace, Galata Bridge, electric lights, gore"
  },
  "grades": {
-  "gold":   "warm golden-hour sunlight, amber and honey tones, soft atmospheric haze over the water",
+  "gold": "warm golden-hour sunlight, amber and honey tones, soft atmospheric haze over the water",
   "candle": "warm candlelight and oil lamps, deep shadows, gold mosaic glints, incense haze",
-  "steel":  "overcast cold daylight, desaturated steel-blue and stone-grey palette, drifting gunpowder smoke",
-  "night":  "night, moonlight blue with orange firelight and torches, smoke catching the light",
-  "dawn":   "pre-dawn cold blue light turning to pale grey, burning fires on the horizon, heavy smoke",
-  "ash":    "muted, low-contrast, ash-grey and faded ochre, quiet aftermath light",
-  "map":    "aged parchment map texture"
+  "steel": "overcast cold daylight, desaturated steel-blue and stone-grey palette, drifting gunpowder smoke",
+  "night": "night, moonlight blue with orange firelight and torches, smoke catching the light",
+  "dawn": "pre-dawn cold blue light turning to pale grey, burning fires on the horizon, heavy smoke",
+  "ash": "muted, low-contrast, ash-grey and faded ochre, quiet aftermath light",
+  "map": "aged parchment map texture"
  },
  "refs": {
   "constantine": "Emperor Constantine XI Palaiologos, a man of 48 with a lean weathered face, dark beard flecked with grey, tired dignified eyes; wears a deep crimson-purple cloak over steel lamellar and mail armour, purple-red imperial boots, a simple gold circlet only in ceremonial scenes",
@@ -26,7 +26,7 @@
   "janissaries": "Ottoman janissaries in tall white felt bork caps with a folded flap at the back, long robes tucked into sashes, composite bows, some with early matchlock handguns",
   "azaps": "Ottoman irregular troops and volunteers, mixed simple clothing, wicker shields, spears and ladders",
   "defenders": "Byzantine and Italian defenders in mixed mail, brigandines and kettle helmets, crossbows, pavise shields, a few early handguns",
-  "walls": "the Theodosian land walls of Constantinople: a wide moat, a lower outer wall and a massive inner wall with square and polygonal towers, built of limestone blocks with bands of red brick, weathered and patched by a thousand years",
+  "walls": "the Theodosian land walls of Constantinople: a wide dry moat, a lower outer wall and a massive inner wall with tall mostly square towers and a few octagonal ones, built of pale limestone blocks with horizontal bands of red brick, weathered and patched by a thousand years, clean grassy ground with no debris",
   "lycus": "the Mesoteichion, the stretch of the land walls where the Lycus valley dips, near the Gate of St Romanus, the weakest point of the walls",
   "city1453": "Constantinople in 1453: a shrunken city of scattered neighbourhoods, orchards, fields and ruined churches inside vast old walls, the great dome of Hagia Sophia with heavy buttresses and no minarets",
   "hagia": "Hagia Sophia in 1453 before any minarets: a vast central dome on buttressed walls; inside, gold mosaics, marble columns, a ring of windows under the dome flooding light",
@@ -40,6 +40,7 @@
   "still": 0.75,
   "video_5s": 8.75,
   "video_10s": 17.5,
-  "retake_factor": 1.25
+  "retake_factor": 1.25,
+  "z_image": 0.15
  }
 }
