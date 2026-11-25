@@ -2,7 +2,7 @@
 # Directive lines start with @ and fire at the start of the next sentence.
 
 @zone open
-@card k_ramesses3:Ramesses III as=king w=620
+@card met544764 as=king w=560
 In 2012, a team of scientists slid the mummy of an Egyptian pharaoh into a CT scanner in Cairo.
 @note "CT SCAN|CAIRO, 2012|MUMMY OF RAMESSES III" as=ct
 For more than a century, his neck had been hidden under thick layers of linen, wrapped by embalmers more than three thousand years ago.
@@ -10,7 +10,7 @@ For more than a century, his neck had been hidden under thick layers of linen, w
 What the scan revealed under those bandages was a deep cut across the front of his throat.
 @stamp king "MURDERED"
 The last great warrior pharaoh of Egypt had been murdered.
-@card k_papyri:papyrus as=pap0 w=520
+@card met549250 as=pap0 w=560
 And we know a surprising amount about who did it, because the trial of his killers was written down, and the records still survive.
 @string ct pap0
 This is the story of a royal conspiracy, a trial that went wrong, and a cold case that took three thousand years to close.
@@ -22,16 +22,16 @@ This is Ancient World Files.
 @zone king
 @year "1186 BCE" "THEBES, EGYPT"
 Our story begins around the year 1186 B.C.E., when a man named Ramesses came to the throne of Egypt.
-@card k_ramesses3:Ramesses as=r3 w=560
-@tag r3 "RAMESSES III"
+@card met550252 as=r3 w=600
+@tag r3 "CARTOUCHES OF RAMESSES III"
 He was the second king of a new royal family, the Twentieth Dynasty, and he took the name of the most famous pharaoh of all, Ramesses the Second, the great builder who had died a generation earlier.
 @tag r3 "20TH DYNASTY"
 Ramesses the Third wanted to be seen as a new Ramesses the Great.
-@card egypt_photos:Medinet as=mh w=760
+@card met261832 as=mh w=760
 And for a while, he succeeded.
 @tag mh "MEDINET HABU"
 On the west bank of the Nile at Thebes, he built a vast memorial temple, Medinet Habu, which still stands today.
-@card egypt_photos:Medinet w=640
+@card met287147 w=600
 Its walls tell the story of his reign in stone.
 @circle mh
 In his eighth year, he fought off the invasion of the Sea Peoples, in battles on land and at the mouths of the Nile, at a time when empires all around Egypt were collapsing.
@@ -39,15 +39,15 @@ In his eighth year, he fought off the invasion of the Sea Peoples, in battles on
 @string mh sea
 He fought Libyan invaders twice.
 He built temples, gave enormous gifts to the gods, and sent expeditions abroad.
-@card k_officials:stela w=460
+@card met263236 w=600
 But behind the triumphant reliefs, Egypt was under strain.
-@card egypt_paintings:harvest|granary as=grain w=560
+@card egypt_paintings:harvest|granary|grain as=grain w=600
 The great victories had been expensive.
 The eastern Mediterranean world that Egypt had traded with for centuries was falling apart.
 @year "YEAR 29" "DEIR EL-MEDINA"
 In the twenty ninth year of his reign, something happened that had never been recorded before.
-@card egypt_photos:Deir|Thebes as=dm w=640
-@tag dm "DEIR EL-MEDINA"
+@card met545582 as=dm w=440
+@tag dm "OSTRACON, THEBES"
 The craftsmen who built the royal tombs in the Valley of the Kings went on strike.
 @note "WE ARE HUNGRY.|EIGHTEEN DAYS HAVE GONE|BY IN THIS MONTH.|- THE TOMB WORKERS" as=strike
 Their grain rations had not arrived.
@@ -58,10 +58,10 @@ It is the earliest well documented labor strike in history.
 The great pharaoh's government could no longer feed the men building his own tomb.
 By now, Ramesses the Third was an old man.
 He had ruled for three decades.
-@card k_ramesses3:Ramesses w=460
+@card met568067 w=420
 He had many sons.
-@card egypt_photos:Thebes|Valley as=qv w=600
-@tag qv "VALLEY OF THE QUEENS"
+@card met548357 as=qv w=560
+@tag qv "TOMB OF PRINCE AMENHERKHEPESHEF (COPY)"
 Several of them were buried as young princes in the Valley of the Queens, in beautifully painted tombs that show their father leading them by the hand into the presence of the gods.
 @note "PRINCES' TOMBS:|AMENHERKHEPESHEF|KHAEMWASET|SETHHERKHEPESHEF" as=princes
 @string qv princes
@@ -71,22 +71,22 @@ And the question of who would succeed him was becoming urgent.
 @network
 
 @zone harem
-@card k_harem:queen|woman as=harem w=520
+@card met287144 as=harem w=620
 To understand what happened next, we need to step inside one of the most misunderstood institutions in ancient Egypt: the royal harem.
-@tag harem "THE ROYAL HAREM"
+@tag harem "'HAREM' GATE, MEDINET HABU, 1850"
 The word conjures images of a secluded chamber of wives.
 @note "NOT A SECLUDED CHAMBER.|AN INSTITUTION:|ESTATES, WORKSHOPS,|STAFF, ADMINISTRATORS." as=inst
 @string harem inst
 In reality, the Egyptian royal harem was a large institution, with its own estates, workshops, servants, and administrators.
-@card k_harem:jewelry|earring|cosmetic w=420
+@card met558850 w=300
 It housed the king's wives, his mother, his young children, and many women of the court, along with officials who managed its property and guarded its doors.
-@card egypt_photos:Medinet w=560
+@card met287145 w=600
 At Medinet Habu itself, in the rooms above the great eastern gate, there are reliefs that show the king at leisure among the royal women.
 @note "EASTERN HIGH GATE:|THE KING WITH|ROYAL WOMEN,|PLAYING A BOARD GAME" as=gate
 @string harem gate
 They bring him fruit and flowers, and in one scene he plays a board game with one of them.
 These were the people closest to the king, the people who could reach him when no one else could.
-@card k_harem:mirror|kohl|musician w=420
+@card met548355 w=600
 Some of these women had great influence.
 And some of them had sons.
 @suspect tiye "TIYE" "SECONDARY WIFE OF RAMESSES III"
@@ -96,7 +96,8 @@ She was not the chief queen, and her son was not the chosen heir.
 @suspect pent "PENTAWERE" "SON OF TIYE"
 Her son's name, as it appears in the records, was Pentawere.
 @string tiye pent
-@suspect heir "RAMESSES IV" "THE CHOSEN HEIR"
+@card met548356 as=heir w=420
+@tag heir "RAMESSES IV - THE CHOSEN HEIR"
 The crown prince was another son of the king, the future Ramesses the Fourth.
 @string pent heir
 Tiye decided that her own son should be pharaoh instead.
@@ -116,10 +117,11 @@ It was an attack on the order of the world itself.
 @network
 
 @zone plot
-@card k_papyri:papyrus as=turin w=640
-@tag turin "JUDICIAL PAPYRUS OF TURIN"
+@card met544847 as=turin w=600
+@note "JUDICIAL PAPYRUS OF TURIN|MUSEO EGIZIO, TURIN|THE CASE FILE" as=turinnote
+@string turin turinnote
 Almost everything we know about the conspiracy comes from a handful of papyri, the most important of which is now in the Egyptian Museum in Turin, in Italy.
-@circle turin
+@circle turinnote
 It is known as the Judicial Papyrus of Turin, and it is, in effect, the case file.
 It lists the accused, one by one, with their titles, what they did, and what happened to them.
 @suspect pebek "PEBEKKAMEN" "CHIEF OF THE CHAMBER"
@@ -146,17 +148,17 @@ This was not just a murder plot.
 @thesis "A PLOT TO KILL A KING." "A PLANNED COUP"
 It was meant to be a coup, with an uprising outside the palace to put Pentawere on the throne.
 @network
-@card k_magic:figurine|wax|execration as=wax w=460
+@card met556840 as=wax w=380
 And the conspirators were not only relying on knives.
-@tag wax "WAX FIGURES"
+@tag wax "MAGICAL FIGURE, c. 1900 BCE"
 Other papyri describe how one of the accused, an official named Penhuibin, obtained a book of magic from the royal library.
 @suspect penhu "PENHUIBIN" "OVERSEER OF HERDS"
 @string penhu wax
 With it, he made figures of wax and wrote magical spells, intended to weaken the guards and paralyze the people who might stop them.
-@card k_magic:wand|amulet w=420
+@card met544243 w=520
 To the ancient Egyptians, this was not superstition.
 It was a weapon, and the court treated it as a crime as serious as the plot itself.
-@card k_magic:execration|magic as=exec w=420
+@card met546648 as=exec w=380
 There is a dark irony here.
 The Egyptian state itself used magic as a weapon.
 For centuries, priests had made figures of Egypt's enemies, written their names on them, and broken or buried them in rituals meant to destroy their power.
@@ -178,17 +180,18 @@ Sometime in the thirty second year of his reign, around 1155 B.C.E., the conspir
 @vintage
 We do not know exactly where, or how many people were involved in the attack itself.
 The records do not describe the night.
-@card egypt_photos:Medinet as=palace w=600
-@tag palace "PALACE AT MEDINET HABU?"
+@card met544719 as=palace w=520
+@tag palace "WINDOW GRILL, PALACE OF RAMESSES III"
 Some historians have suggested that it may have happened at Medinet Habu itself, where a royal palace stood right beside the temple, connected to it by a window where the king appeared before his people.
 @circle palace
 It would have been a place where the king lived close to the women of his household, and where those who served him could come and go.
 But this is only a reasonable guess.
 But we know the result.
-@card k_ramesses3:Ramesses as=r3b w=520
+@card met548357 as=r3b w=520
 @stamp r3b "DEAD"
 Ramesses the Third died.
-@suspect heir2 "RAMESSES IV" "CROWNED KING"
+@card met565728 as=heir2 w=360
+@tag heir2 "RAMESSES IV - CROWNED"
 And then the plan fell apart.
 The uprising never happened.
 The crown prince, Ramesses the Fourth, took the throne.
@@ -197,7 +200,7 @@ And the conspirators, one by one, were arrested.
 @network
 
 @zone trial
-@card k_papyri:hieratic|papyrus as=trial w=620
+@card met561362 as=trial w=480
 The trial that followed is one of the most remarkable legal records from the ancient world.
 The papyrus is written as if the dead king himself were speaking, giving instructions to the court.
 @note "I COMMISSIONED THEM ...|THAT THEY MIGHT EXAMINE|THE SPEECHES ...|- THE KING'S DECREE" as=decree
@@ -208,7 +211,7 @@ These were not priests or professional judges.
 They were senior servants of the crown, men the king trusted, chosen to judge the people who had betrayed him.
 @string trial decree
 He tells them to punish those who are guilty, and he insists that he himself knows nothing of the details, that the responsibility is theirs.
-@card k_officials:official|statue w=440
+@card met549245 w=320
 Then the record lists the verdicts.
 @note "SECTION 1: TRIED AND EXECUTED|SECTION 2: TOOK THEIR OWN LIVES|SECTION 3: TOOK THEIR OWN LIVES|SECTION 4: THE JUDGES" as=sections
 The accused are divided into groups, depending on their crimes and their punishment.
@@ -232,7 +235,7 @@ Among them was Pentawere himself, the prince who would have been king.
 And Tiye?
 Strangely, the records never tell us what happened to her.
 @network
-@card k_officials:scribe|official w=440
+@card k_officials:Kneeling official w=380
 But then the trial took a scandalous turn.
 Some of the judges were caught partying with the very women they were supposed to be judging.
 @note "JUDGES CAUGHT|CAROUSING WITH THE|ACCUSED WOMEN" as=judges
@@ -250,8 +253,8 @@ For more than a century after the papyrus was translated, historians argued abou
 Did the conspirators actually kill the king?
 The trial records are strangely silent about it.
 Some scholars believed Ramesses survived the attack and died later, perhaps of his wounds, perhaps of old age.
-@card k_thebes_photos:Deir el-Bahari|Deir el Bahri|Bahri as=cache w=660
-@tag cache "DEIR EL-BAHARI"
+@card met12061 as=cache w=700
+@tag cache "DEIR EL-BAHARI (SARGENT, 1890)"
 The answer lay in a hidden tomb in the cliffs of Deir el-Bahari, near Thebes.
 @year "1881" "THE ROYAL CACHE"
 In 1881, Egyptian authorities learned of a secret burial that had been looted for years by a local family.
@@ -259,7 +262,7 @@ In 1881, Egyptian authorities learned of a secret burial that had been looted fo
 Inside were the mummies of dozens of pharaohs and royal relatives, moved there by priests around three thousand years ago to protect them from tomb robbers.
 @string cache db320
 For a decade, royal antiquities had been appearing on the antiquities market, and the authorities finally traced them to the Abd el-Rassul family of Gurna.
-@card k_thebes_photos:Gournah|Qurna|Theban w=600
+@card met291410 w=640
 Under pressure, one of the brothers led officials to a shaft in the cliffs.
 The museum official Émile Brugsch was lowered into the tomb, and found himself surrounded by the coffins of kings.
 In just a few days, the mummies were carried out and taken by boat down the Nile to Cairo.
@@ -290,7 +293,7 @@ Death would have been almost immediate.
 @note "AMULET: EYE OF HORUS|PLACED IN THE WOUND|BY THE EMBALMERS" as=amulet
 @string neckd amulet
 The embalmers had placed an amulet, an Eye of Horus, a symbol of healing and protection, directly into the wound, and then wrapped the neck in thick linen.
-@card k_magic:wedjat|Horus as=wedjat w=360
+@card met574178 as=wedjat w=360
 @string amulet wedjat
 @diagram foot as=footd
 Later study of the scans found a second injury.
@@ -321,7 +324,8 @@ But it is the best match we have.
 @thesis "THE PLOT FAILED." "THE MURDER SUCCEEDED"
 In the end, the conspiracy both failed and succeeded.
 The king was dead, but the conspirators never took power.
-@suspect heir3 "RAMESSES IV" "KING OF EGYPT"
+@card met549308 as=heir3 w=300
+@tag heir3 "RAMESSES IV"
 Ramesses the Fourth ruled, and Egypt continued, though its golden age was over.
 @note "ABYDOS STELA:|RAMESSES IV ASKS OSIRIS|FOR A REIGN LONGER THAN|RAMESSES II'S 67 YEARS" as=abydos
 @string heir3 abydos
@@ -329,8 +333,10 @@ At Abydos, the new king set up a stela with a prayer to the god Osiris.
 He asked for a long life and a long reign, longer even than the sixty seven years of Ramesses the Great.
 @stamp abydos "DENIED"
 He reigned for about six years.
-@card egypt_photos:Valley|Thebes as=kv w=600
-@tag kv "KV11 - TOMB OF RAMESSES III"
+@card met260975 as=kv w=640
+@tag kv "VALLEY OF THE KINGS, 1857"
+@note "KV11|TOMB OF RAMESSES III|'TOMB OF THE HARPERS'" as=kv11
+@string kv kv11
 His murdered father was buried in the Valley of the Kings, in a long tomb now called KV11.
 Travelers later named it the Tomb of the Harpers, after a painting of two blind musicians playing harps for the gods.
 @note "SARCOPHAGUS BOX: THE LOUVRE, PARIS|LID: FITZWILLIAM MUSEUM, CAMBRIDGE" as=sarc
@@ -338,9 +344,9 @@ Travelers later named it the Tomb of the Harpers, after a painting of two blind 
 Today the granite box of his sarcophagus sits in the Louvre in Paris, and its lid is in the Fitzwilliam Museum in Cambridge.
 The king himself was taken from his tomb by priests centuries later, rewrapped, and moved from hiding place to hiding place, until he came to rest in the royal cache at Deir el-Bahari.
 @string kv cache
-@card egypt_photos:Valley|Thebes w=620
+@card met287137 w=640
 Within a century, the New Kingdom would come to an end.
-@card k_papyri:papyrus|document w=520
+@card met555557 w=420
 In fact, Egypt would soon need more courts like the one that judged the conspirators.
 Under Ramesses the Ninth, officials investigated a wave of tomb robberies in the royal necropolis, and their reports, now known as the tomb robbery papyri, survive too.
 @note "TOMB ROBBERY PAPYRI|ABBOTT - AMHERST - LEOPOLD II|c. 1110 BCE" as=robbery
