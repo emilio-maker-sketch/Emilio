@@ -17,7 +17,7 @@ MONO = "/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf"
 SERIF = "/usr/share/fonts/truetype/crosextra/Caladea-Bold.ttf"
 RED = (208, 49, 45)                       # RGB for PIL
 R = 2.0                                   # card pixels per world unit
-ZW, ZH, MARG, COLS = 3600, 2700, 420, 4
+ZW, ZH, MARG, COLS = 4300, 3100, 420, 4
 ZONES = ['open', 'king', 'harem', 'plot', 'night', 'trial', 'case', 'end']
 ZONE_TITLES = {'open': 'EXHIBIT A', 'king': 'FILE 01  THE KING', 'harem': 'FILE 02  THE HAREM', 'plot': 'FILE 03  THE PLOT',
                'night': 'FILE 04  THE NIGHT', 'trial': 'FILE 05  THE TRIAL', 'case': 'FILE 06  THE EVIDENCE', 'end': 'FILE 07  VERDICT'}
@@ -65,8 +65,48 @@ def trim(im):
     a = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR)
     return Image.fromarray(cv2.cvtColor(trim_mount(a), cv2.COLOR_BGR2RGB))
 
-def make_card(path, wworld, max_h=560, border=14):
-    im = trim(Image.open(path).convert("RGB"))
+def cutout(im):
+    """Lift a museum object off a plain studio background (GrabCut). Returns RGBA or None."""
+    a = cv2.cvtColor(np.array(im), cv2.COLOR_RGB2BGR); h, w = a.shape[:2]
+    k = 640 / max(h, w); sm = cv2.resize(a, (int(w*k), int(h*k)), interpolation=cv2.INTER_AREA)
+    g = cv2.cvtColor(sm, cv2.COLOR_BGR2GRAY).astype(np.float32); hh, ww = g.shape; c = max(4, int(min(hh, ww)*.04))
+    corners = [g[:c, :c], g[:c, -c:], g[-c:, :c], g[-c:, -c:]]
+    if max(p.std() for p in corners) > 12 or max(p.mean() for p in corners) - min(p.mean() for p in corners) > 40: return None
+    mask = np.zeros((hh, ww), np.uint8); r = (int(ww*.03), int(hh*.03), int(ww*.94), int(hh*.94))
+    bgd, fgd = np.zeros((1, 65), np.float64), np.zeros((1, 65), np.float64)
+    try: cv2.grabCut(sm, mask, r, bgd, fgd, 5, cv2.GC_INIT_WITH_RECT)
+    except cv2.error: return None
+    m = np.where((mask == 1) | (mask == 3), 255, 0).astype(np.uint8)
+    m = cv2.morphologyEx(m, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8)); m = cv2.morphologyEx(m, cv2.MORPH_CLOSE, np.ones((9, 9), np.uint8))
+    n, lab, st, _ = cv2.connectedComponentsWithStats(m)
+    if n < 2: return None
+    i = 1 + int(np.argmax(st[1:, cv2.CC_STAT_AREA])); m = np.where(lab == i, 255, 0).astype(np.uint8)
+    frac = m.mean() / 255
+    if not (.06 < frac < .88): return None
+    m = cv2.GaussianBlur(cv2.resize(m, (w, h), interpolation=cv2.INTER_LINEAR), (0, 0), 1.6)
+    ys, xs = np.where(m > 20); y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+    rgba = np.dstack([np.array(im), m]); return Image.fromarray(rgba[y0:y1, x0:x1], 'RGBA')
+
+def make_cutout(rgba, wworld, max_h=520):
+    ar = rgba.height / rgba.width
+    if wworld * ar > max_h: wworld = max_h / ar
+    pw = int(wworld * R); ph = int(pw * ar); im = rgba.resize((pw, ph), Image.LANCZOS)
+    pad = int(50 * R); c = Image.new("RGBA", (pw + 2*pad, ph + 2*pad), (0, 0, 0, 0))
+    sh = Image.new("L", c.size, 0); sh.paste(im.split()[3].point(lambda v: int(v * .62)), (pad + int(10*R), pad + int(20*R)))
+    c.paste((0, 0, 0, 255), (0, 0), sh.filter(ImageFilter.GaussianBlur(12*R)))
+    c.alpha_composite(im, (pad, pad))
+    return cv2.cvtColor(np.array(c), cv2.COLOR_RGBA2BGRA), (wworld, wworld*ar)
+
+def make_card(path, wworld, max_h=560, border=14, rec=None):
+    raw = Image.open(path).convert("RGB")
+    if rec is not None and not rec.get('artist'):
+        cache = os.path.join(B, 'cut', rec['id'] + '.png')
+        if os.path.exists(cache): co = Image.open(cache)
+        else:
+            co = cutout(raw); os.makedirs(os.path.dirname(cache), exist_ok=True)
+            (co or Image.new('RGBA', (1, 1))).save(cache)
+        if co is not None and co.width > 1: return make_cutout(co, wworld * 1.05)
+    im = trim(raw)
     ar = im.height / im.width
     if wworld * ar > max_h: wworld = max_h / ar
     pw = int(wworld * R); ph = int(pw * ar)
@@ -90,11 +130,60 @@ def make_paper(lines, wworld=None):
     return shadowed(p), (wworld, hworld)
 
 def silhouette(d, x, y, s, fill):
-    """generic head-and-shoulders with an Egyptian wig (centre x, head centre y)"""
-    d.ellipse([x - 150*s, y + 95*s, x + 150*s, y + 330*s], fill=fill)              # shoulders
-    d.rounded_rectangle([x - 78*s, y - 92*s, x + 78*s, y + 120*s], radius=int(40*s), fill=fill)   # wig
-    d.rectangle([x - 26*s, y + 40*s, x + 26*s, y + 120*s], fill=fill)             # neck
-    d.ellipse([x - 56*s, y - 70*s, x + 56*s, y + 64*s], fill=fill)                 # face
+    """head-and-shoulders with a striped Egyptian tripartite wig (centre x, head centre y)"""
+    d.pieslice([x - 175*s, y + 105*s, x + 175*s, y + 420*s], 180, 360, fill=fill)                  # shoulders
+    d.rectangle([x - 24*s, y + 40*s, x + 24*s, y + 130*s], fill=fill)                               # neck
+    d.polygon([(x - 70*s, y - 60*s), (x + 70*s, y - 60*s), (x + 92*s, y + 118*s), (x - 92*s, y + 118*s)], fill=fill)  # wig
+    d.ellipse([x - 72*s, y - 98*s, x + 72*s, y + 20*s], fill=fill)                                  # wig crown
+    face = tuple(min(255, c + 22) for c in fill[:3]) + (255,)
+    d.ellipse([x - 44*s, y - 62*s, x + 44*s, y + 58*s], fill=face)                                  # face
+    for k in range(-3, 4):                                                                          # wig stripes
+        d.line([(x + k*24*s, y + 24*s), (x + k*28*s, y + 116*s)], fill=tuple(max(0, c - 18) for c in fill[:3]) + (255,), width=max(1, int(4*s)))
+
+def make_quote(text, hl):
+    fs = 34
+    while font(MONO, fs*R).getbbox(text)[2] / R > 620 and fs > 20: fs -= 1
+    f = font(MONO, fs*R); tw = f.getbbox(text)[2]; pw, ph = int(tw + 90*R), int(110*R)
+    def strip(highlight):
+        p = Image.new("RGBA", (pw, ph), (0, 0, 0, 0)); d = ImageDraw.Draw(p)
+        r = np.random.default_rng(len(text))
+        top = [(x, int(r.uniform(0, 7*R))) for x in range(0, pw + 1, int(14*R))]; bot = [(x, ph - int(r.uniform(0, 7*R))) for x in range(pw, -1, -int(14*R))]
+        d.polygon(top + bot, fill=(236, 229, 212, 255))
+        if highlight and hl and hl in text:
+            x0 = 45*R + f.getbbox(text[:text.index(hl)])[2]; x1 = 45*R + f.getbbox(text[:text.index(hl) + len(hl)])[2]
+            d.rectangle([x0 - 6*R, 30*R, x1 + 6*R, 82*R], fill=(226, 74, 60, 92))
+        d.text((45*R, 33*R), text, font=f, fill=(34, 30, 28))
+        return p
+    hx = (45*R + f.getbbox(text[:text.index(hl)])[2] - 6*R, 45*R + f.getbbox(text[:text.index(hl) + len(hl)])[2] + 6*R) if hl and hl in text else None
+    return shadowed(strip(False)), (pw / R, ph / R), shadowed(strip(True)), hx
+
+THEBES_PTS = {'valley': (120, 95), 'bahari': (205, 175), 'gurna': (255, 245), 'deirmed': (175, 320), 'medinet': (285, 390),
+              'queens': (95, 410), 'karnak': (520, 115), 'luxor': (545, 330), 'nile': (425, 250)}
+def make_thebes_map():
+    wworld, hworld = 640, 500; pw, ph = int(wworld*R), int(hworld*R)
+    p = Image.new("RGBA", (pw, ph), (231, 220, 194, 255)); d = ImageDraw.Draw(p, "RGBA")
+    nile = [(430, 0), (405, 150), (420, 300), (455, 500)]
+    d.rectangle([300*R, 0, 380*R, ph], fill=(212, 214, 176, 120))                    # cultivation
+    d.rectangle([480*R, 0, 600*R, ph], fill=(212, 214, 176, 120))
+    d.line([(x*R, y*R) for x, y in nile], fill=(150, 168, 170), width=int(46*R), joint="curve")
+    d.line([((x - 26)*R, y*R) for x, y in nile], fill=(110, 120, 120), width=int(2*R), joint="curve")
+    d.line([((x + 26)*R, y*R) for x, y in nile], fill=(110, 120, 120), width=int(2*R), joint="curve")
+    for y in range(30, 470, 14):                                                        # cliffs (hatched)
+        x = 150 + 40*math.sin(y/80)
+        d.line([((x - 22)*R, y*R), (x*R, (y + 8)*R)], fill=(120, 100, 76), width=int(2*R))
+    fm = font(MONO, 15*R)
+    names = {'valley': 'VALLEY OF THE KINGS', 'bahari': 'DEIR EL-BAHARI', 'gurna': 'GURNA', 'deirmed': 'DEIR EL-MEDINA',
+             'medinet': 'MEDINET HABU', 'queens': 'VALLEY OF THE QUEENS', 'karnak': 'KARNAK', 'luxor': 'LUXOR'}
+    for k, (x, y) in THEBES_PTS.items():
+        if k == 'nile': continue
+        d.rectangle([(x - 6)*R, (y - 6)*R, (x + 6)*R, (y + 6)*R], fill=(52, 38, 26))
+        tx = x + 12 if x < 470 else x - 12 - fm.getbbox(names[k])[2]/R
+        d.text((tx*R, (y - 9)*R), names[k], font=fm, fill=(40, 30, 22))
+    d.text((392*R, 470*R), "NILE", font=font(MONO, 18*R), fill=(70, 80, 84))
+    d.text((24*R, 14*R), "THEBES", font=font(SERIF, 34*R), fill=(40, 30, 22))
+    d.text((24*R, 52*R), "WEST BANK - EAST BANK", font=font(MONO, 13*R), fill=(80, 66, 52))
+    d.line([(600*R, 30*R), (600*R, 80*R)], fill=(40, 30, 22), width=int(3*R)); d.text((592*R, 84*R), "N", font=font(MONO, 18*R), fill=(40, 30, 22))
+    return shadowed(p), (wworld, hworld)
 
 def make_suspect(name, role):
     wworld, hworld = 360, 470; pw, ph = int(wworld*R), int(hworld*R)
@@ -215,11 +304,73 @@ VINTAGE = None
 
 def layout_slots(zi):
     x0, y0, x1, y1 = zone_rect(zi)
-    cols, rows = 5, 4
+    cols, rows = 6, 4
     sw, sh = ZW / cols, (ZH - 260) / rows
-    order = [(1, 1), (2, 1), (1, 2), (2, 2), (3, 1), (3, 2), (0, 1), (0, 2), (4, 1), (4, 2), (1, 0), (2, 0), (3, 0), (1, 3), (2, 3), (3, 3), (0, 0), (4, 0), (0, 3), (4, 3)]
+    order = [(1, 1), (2, 1), (1, 2), (2, 2), (3, 1), (3, 2), (4, 1), (4, 2), (0, 1), (0, 2), (5, 1), (5, 2),
+             (1, 0), (2, 0), (3, 0), (4, 0), (1, 3), (2, 3), (3, 3), (4, 3), (0, 0), (5, 0), (0, 3), (5, 3)]
     r = np.random.default_rng(zi * 31 + 5)
     return [(x0 + sw*(c + .5) + r.uniform(-60, 60), y0 + 260 + sh*(rr + .5) + r.uniform(-50, 50), r.uniform(-6, 6)) for c, rr in order]
+
+WORDS = json.load(open(os.path.join(B, 'words.json'))) if os.path.exists(os.path.join(B, 'words.json')) else []
+def _clean(w): return re.sub(r'[^a-z0-9]', '', w.lower())
+
+def trig(ev, opt, default):
+    if 'on' in opt and 's' in ev and ev['s'] < len(TL['sentences']) and WORDS:
+        snt = TL['sentences'][ev['s']]; key = _clean(opt['on'])
+        for w in WORDS:
+            if snt['start'] - .4 <= w['s'] <= snt['end'] + .4 and _clean(w['w']).startswith(key[:max(3, len(key) - 1)]):
+                return w['s'] + .05
+    return _trig_chars(ev, opt, default)
+
+def _trig_chars(ev, opt, default):
+    """time of the event: on=word places it on that word of the sentence"""
+    if 'on' in opt and 's' in ev and ev['s'] < len(TL['sentences']):
+        snt = TL['sentences'][ev['s']]; txt = snt['text'].lower(); i = txt.find(opt['on'].lower())
+        if i >= 0: return snt['start'] + (snt['end'] - snt['start']) * i / max(1, len(txt)) + .1
+    return ev['t'] + default
+
+def loc(it, key):
+    if key and it.get('pts') and key in it['pts']:
+        x, y = it['pts'][key]; return (it['c'][0] - it['size'][0]/2 + x, it['c'][1] - it['size'][1]/2 + y)
+    return None
+
+NAMES = {'ramesses': None, 'tiye': 'TIYE', 'pentawere': 'PENTAWERE', 'pebekkamen': 'PEBEKKAMEN', 'mesedsure': 'MESEDSURE',
+         'binemwese': 'BINEMWESE', 'penhuibin': 'PENHUIBIN', 'thebes': 'THEBES', 'turin': 'TURIN', 'nubia': 'NUBIA', 'hawass': 'ZAHI HAWASS',
+         'saleem': 'SAHAR SALEEM', 'maspero': 'GASTON MASPERO', 'brugsch': 'EMILE BRUGSCH', 'osiris': 'OSIRIS', 'abydos': 'ABYDOS',
+         'louvre': 'THE LOUVRE', 'cambridge': 'CAMBRIDGE', 'cairo': 'CAIRO', 'medinet': 'MEDINET HABU', 'bahari': 'DEIR EL-BAHARI', 'maat': 'MAAT'}
+KEYWORDS = {'murdered', 'murder', 'conspiracy', 'conspirators', 'plot', 'trial', 'guilty', 'magic', 'rebellion', 'coup', 'strike', 'hungry',
+            'harem', 'heir', 'throne', 'wax', 'poisoned', 'dna', 'scan', 'scanner', 'wound', 'throat', 'amulet', 'goatskin', 'executed',
+            'corrupted', 'corruption', 'judges', 'noses', 'cache', 'mummy', 'mummies', 'robbers', 'robberies', 'failed', 'succeeded',
+            'verdict', 'uprising', 'messengers', 'insults', 'chaos', 'weapon', 'impure', 'screaming', 'secret', 'scandalous', 'betrayed',
+            'enemies', 'library', 'blade', 'toes', 'healing', 'immediate', 'evidence', 'killers', 'queen', 'prince', 'son', 'gold', 'ambition', 'fear'}
+ORD = {'third': 'III', 'fourth': 'IV', 'second': 'II', 'ninth': 'IX', 'great': 'THE GREAT'}
+POPS = []
+def build_pops():
+    blocked = [(o['t0'], o['t0'] + o['dur'] + .3) for o in OVERLAYS if o['kind'] in ('year', 'thesis', 'end_open', 'end', 'open', 'counter')]
+    if VINTAGE: blocked.append((VINTAGE[0] - .3, VINTAGE[1] + .3))
+    last_t, recent = -9, {}
+    for i, w in enumerate(WORDS):
+        c = _clean(w['w']); t = w['s']
+        if any(a <= t <= b for a, b in blocked) or t - last_t < 1.05: continue
+        txt, kind = None, 'mono'
+        if c not in NAMES:
+            for k in NAMES:
+                if len(k) >= 6 and len(c) >= 5 and c[:5] == k[:5]: c = k; break
+            if c in ('ramses', 'rameses', 'ramesis'): c = 'ramesses'
+        if c in NAMES:
+            if c == 'ramesses':
+                n1 = _clean(WORDS[i + 1]['w']) if i + 1 < len(WORDS) else ''
+                nx = _clean(WORDS[i + 2]['w']) if i + 2 < len(WORDS) and n1 == 'the' else ''
+                if n1 in ('ii', 'iii', 'iv', 'ix'): txt = 'RAMESSES ' + n1.upper()
+                else: txt = 'RAMESSES ' + ORD[nx] if nx in ORD else 'RAMESSES'
+            else: txt = NAMES[c]
+            kind = 'serif'
+        elif (re.fullmatch(r'\d{2,5}', c) and not c.startswith('0')) or re.fullmatch(r'[1-9]\d*(st|nd|rd|th)', c):
+            txt, kind = c.upper(), 'serif'
+        elif c in KEYWORDS:
+            txt = c.upper()
+        if not txt or t - recent.get(txt, -99) < 25: continue
+        POPS.append(dict(t=t, text=txt, kind=kind, n=len(POPS))); last_t = t; recent[txt] = t
 
 def build_model():
     global VINTAGE
@@ -232,33 +383,49 @@ def build_model():
             zi = ZONES.index(pos[0]); slots = layout_slots(zi)
             x0, y0, x1, y1 = zone_rect(zi); KEYS.append((t, ((x0 + x1)/2, (y0 + y1)/2, ZW*.62, ZH*.62), 1.6))
             continue
-        if cmd in ('card', 'note', 'suspect', 'diagram'):
+        if cmd == 'open':
+            OVERLAYS.append(dict(kind='open', t0=0.0, a=pos[0], b='')); continue
+        if cmd == 'push':
+            it = BYNAME[pos[0]]; KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*.78, it['size'][1]*.78), 1.0)); continue
+        if cmd == 'counter':
+            OVERLAYS.append(dict(kind='counter', t0=trig(ev, opt, .2), a=pos[0], b=pos[1] if len(pos) > 1 else '')); continue
+        if cmd in ('card', 'note', 'suspect', 'diagram', 'quote', 'map'):
             if cmd == 'card':
                 rec = find_image(pos[0], used); used.add(rec['id'])
-                img, size = make_card(os.path.join(IMGDIR, rec['file']), min(float(opt.get('w', 520)), 640))
+                img, size = make_card(os.path.join(IMGDIR, rec['file']), min(float(opt.get('w', 520)), 600), rec=rec)
                 credit = rec
             elif cmd == 'note':
                 img, size = make_paper(pos[0].split('|')); credit = None
             elif cmd == 'suspect':
                 img, size = make_suspect(pos[1], pos[2]); opt['as'] = pos[0]; credit = None
+            elif cmd == 'quote':
+                img, size, hlimg, hx = make_quote(pos[0], opt.get('hl')); credit = None
+            elif cmd == 'map':
+                img, size = make_thebes_map(); credit = None
             else:
                 img, size = make_diagram(pos[0]); credit = None
             cx, cy, rot = slots.pop(0)
-            it = dict(img=img, c=(cx, cy), rot=rot, t0=t + .25, size=size, zone=zi, credit=credit)
+            if cmd == 'quote': rot = rot * .4
+            it = dict(img=img, c=(cx, cy), rot=rot, t0=t + .25, size=size, zone=zi, credit=credit, kind=cmd)
+            if cmd == 'quote' and hx:
+                it.update(hlimg=hlimg, hx=hx, ht=max(t + .9, trig(ev, opt, .9)))
+            if cmd == 'map': it['pts'] = THEBES_PTS
             ITEMS.append(it); last_item = it
             if 'as' in opt: BYNAME[opt['as']] = it
             KEYS.append((t, (cx, cy, size[0], size[1]), .9))
         elif cmd == 'tag':
-            it = BYNAME[pos[0]]; TAGS.append(dict(item=it, text=pos[1], t0=t + .5, zone=it['zone']))
+            it = BYNAME[pos[0]]; TAGS.append(dict(item=it, text=pos[1], t0=trig(ev, opt, .5), zone=it['zone'], at=loc(it, opt.get('at'))))
+            if it['zone'] != zi or opt.get('at'): KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.2, it['size'][1]*1.2), .9))
         elif cmd == 'string':
             a, b = BYNAME[pos[0]], BYNAME[pos[1]]; LINES.append(dict(a=a, b=b, t0=t + .3, du=.8))
             xs = [a['c'][0], b['c'][0]]; ys = [a['c'][1], b['c'][1]]
             KEYS.append((t, ((min(xs) + max(xs))/2, (min(ys) + max(ys))/2, abs(xs[1]-xs[0]) + 600, abs(ys[1]-ys[0]) + 520), .9))
         elif cmd == 'circle':
-            it = BYNAME[pos[0]]; ELLS.append(dict(item=it, t0=t + .35, du=.55))
+            it = BYNAME[pos[0]]; at = loc(it, opt.get('at'))
+            ELLS.append(dict(item=it, t0=trig(ev, opt, .35), du=.55, at=at))
             KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.3, it['size'][1]*1.3), .7))
         elif cmd == 'stamp':
-            it = BYNAME[pos[0]]; STAMPS.append(dict(item=it, img=make_stamp(pos[1]), t0=t + .45))
+            it = BYNAME[pos[0]]; STAMPS.append(dict(item=it, img=make_stamp(pos[1]), t0=trig(ev, opt, .45) + .05))
             KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.25, it['size'][1]*1.25), .6))
         elif cmd == 'network':
             zs = [i for i in ITEMS if i['zone'] == zi]
@@ -275,9 +442,11 @@ def build_model():
         nxt = [e['t'] for e in TL['events'] if e['t'] > VINTAGE[0] + 1 and e['d'][0] == 'card']
         VINTAGE[1] = min(nxt) if nxt else VINTAGE[0] + 10
     for o in OVERLAYS:
-        o['dur'] = {'year': 3.0, 'thesis': 3.8, 'end_open': 4.6, 'end': 7.0}[o['kind']] + (0 if o['kind'] != 'thesis' else 0)
+        o['dur'] = {'year': 3.0, 'thesis': 3.8, 'end_open': 4.6, 'end': 7.0, 'open': 6.2, 'counter': 2.8}[o['kind']]
+    build_pops()
     # mip levels
     for it in ITEMS:
+        if 'hlimg' in it: it['hlmips'] = [it['hlimg'], cv2.resize(it['hlimg'], None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA), cv2.resize(it['hlimg'], None, fx=.25, fy=.25, interpolation=cv2.INTER_AREA)]
         it['mips'] = [it['img'], cv2.resize(it['img'], None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA),
                       cv2.resize(it['img'], None, fx=.25, fy=.25, interpolation=cv2.INTER_AREA)]
 
@@ -299,7 +468,25 @@ def build_cam():
         rot = rr.uniform(-2, 2)
         keys.append((min(t + mv, (KEYS[i + 1][0] - .05) if i + 1 < len(KEYS) else t + mv), tgt[0], tgt[1], tgt[2], rot))
     last = keys[-1]; keys.append((DUR, last[1], last[2], last[3] * 1.05, last[4]))
-    return keys
+    # fill every hold longer than ~3.2s with deliberate reframes (push / slide / pull) every ~2.2s
+    PAT = [(1.16, .10, -.06), (1.0, -.12, .05), (1.24, .0, .08), (.94, .08, -.08), (1.12, -.08, -.04)]
+    out, pi = [keys[0]], 0
+    for a, b in zip(keys, keys[1:]):
+        if b[0] - a[0] > 3.4 and a[3] > .34:
+            tt, base = a[0] + 1.3, a
+            while b[0] - tt > 2.0:
+                zf, ox, oy = PAT[pi % len(PAT)]; pi += 1
+                span = W / base[3]
+                out.append((tt, *cam_at(out, tt)))
+                out.append((tt + .9, base[1] + ox*span*.35, base[2] + oy*span*.25, base[3]*zf, base[4] + (pi % 3 - 1)*.6))
+                tt += 2.2
+        out.append(b)
+    out.sort(key=lambda k: k[0])
+    return out
+
+def cam_at(keys, t):
+    a = keys[-1]
+    return (a[1], a[2], a[3], a[4])
 K = []
 def cam(t):
     for i in range(len(K) - 1):
@@ -356,8 +543,9 @@ def draw_overlays(img, t, C):
     pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA"); z = C[2]
     for e in ELLS:
         if t < e['t0']: continue
-        it = e['item']; rx, ry = it['size'][0]*.62, it['size'][1]*.62
-        pts = wobble_ellipse(it['c'], rx, ry, clamp((t - e['t0'])/e['du']), C, seed=e['t0'])
+        it = e['item']; rx, ry = it['size'][0]*.62, it['size'][1]*.62; cc = it['c']
+        if e.get('at'): cc, rx, ry = e['at'], 62, 42
+        pts = wobble_ellipse(cc, rx, ry, clamp((t - e['t0'])/e['du']), C, seed=e['t0'])
         if len(pts) > 1: d.line(pts, fill=RED+(240,), width=max(3, int(7*z)), joint="curve")
     for L in LINES:
         if t < L['t0']: continue
@@ -379,7 +567,7 @@ def draw_overlays(img, t, C):
         LA = int(235*life); txt = tg['text']
         n = min(len(txt), int((t - t0)*22)); s = txt[:n]
         if n < len(txt) or (int(t*2.5) % 2 == 0 and t - t0 < 3): s += "_"
-        it = tg['item']; p = to_screen((it['c'][0] - it['size'][0]*.42, it['c'][1] - it['size'][1]*.42), C)
+        it = tg['item']; p = to_screen(tg['at'] if tg.get('at') else (it['c'][0] - it['size'][0]*.42, it['c'][1] - it['size'][1]*.42), C)
         q = (p[0] - 40, p[1] - 90)
         tw = fm.getbbox(txt + "_")[2]
         if q[0] + tw > W - 20: q = (W - 30 - tw, q[1])
@@ -391,6 +579,28 @@ def draw_overlays(img, t, C):
         d.text((q[0], q[1]+2), s, font=fm, fill=(235, 235, 228, LA))
     return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
 
+POP_SPOTS = [(150, 860), (1180, 170), (170, 190), (1150, 860)]
+def draw_pops(img, t):
+    act = [p for p in POPS if p['t'] - .05 <= t < p['t'] + 1.35]
+    if not act: return img
+    pil = Image.fromarray(cv2.cvtColor(img, cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA")
+    for p in act:
+        u = (t - p['t']); a = ss(u/.12) * (1 - ss((u - 1.05)/.3)); al = int(255*a)
+        x, y = POP_SPOTS[p['n'] % 4]; dx = int(28*(1 - ease(u/.25)))
+        if p['kind'] == 'serif':
+            f = font(SERIF, 100); tw = f.getbbox(p['text'])[2]
+            if x + tw > W - 60: x = W - 60 - tw
+            d.text((x + dx + 3, y + 4), p['text'], font=f, fill=(0, 0, 0, int(al*.6)))
+            d.text((x + dx, y), p['text'], font=f, fill=(244, 238, 226, al))
+            uu = ease((u - .12)/.3); d.line([(x + dx, y + 118), (x + dx + tw*uu, y + 118)], fill=RED + (al,), width=8)
+        else:
+            f = font(MONO, 62); s_ = p['text'][:max(1, int(u*30))]; tw = f.getbbox(p['text'])[2]
+            if x + tw > W - 60: x = W - 60 - tw
+            d.rectangle([x + dx - 18, y - 10, x + dx + tw + 18, y + 80], fill=(12, 12, 12, int(al*.92)))
+            d.rectangle([x + dx - 18, y - 10, x + dx - 9, y + 80], fill=RED + (al,))
+            d.text((x + dx, y + 4), s_, font=f, fill=(240, 238, 230, al))
+    return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
+
 def text_center(d, y, s, f, fill):
     w = f.getbbox(s)[2]; d.text(((W-w)/2, y), s, font=f, fill=fill)
 
@@ -398,7 +608,41 @@ def screen_overlays(img, t):
     out = img.astype(np.float32)
     for o in OVERLAYS:
         t0, du = o['t0'], o['dur']
-        if not (t0 < t < t0 + du + .4): continue
+        if not (t0 <= t < t0 + du + .4): continue
+        if o['kind'] in ('counter', 'year', 'thesis'):          # defocus the board behind the card
+            a0 = ss((t - t0)/.3) * (1 - ss((t - (t0 + du - .3))/.4))
+            if a0 > .02:
+                small = cv2.resize(out, (W//6, H//6), interpolation=cv2.INTER_AREA)
+                bl = cv2.resize(cv2.GaussianBlur(small, (0, 0), 3), (W, H), interpolation=cv2.INTER_LINEAR)
+                out = out*(1 - a0) + bl*a0
+        if o['kind'] == 'open':
+            # typed case file on black, then the desk lamp flickers on
+            lines = o['a'].split('|'); pil = Image.new('RGB', (W, H), (6, 6, 6)); d = ImageDraw.Draw(pil)
+            y = 330; tt = t - .3
+            for i, ln in enumerate(lines):
+                n = int(clamp(tt / 1.0) * len(ln)) if tt > 0 else 0
+                f = font(MONO, 46 if i < 2 else 58); col = (222, 218, 206) if i != 2 else RED
+                if i >= 2: f = font(SERIF, 64)
+                d.text((260, y), ln[:n] + ('_' if 0 < n < len(ln) and int(t*6) % 2 == 0 else ''), font=f, fill=col)
+                tt -= max(.7, len(ln) / 34.0) + .25; y += 70 if i < 2 else 92
+                if i == 1: y += 40
+            blk = np.array(pil)[..., ::-1].astype(np.float32)
+            on = 0.0 if t < 5.4 else (1.0 if t > 6.1 else (1.0 if int((t - 5.4) * 14) % 3 == 1 else .25))
+            return np.clip(blk * (1 - on) + out * on, 0, 255).astype(np.uint8)
+        if o['kind'] == 'counter':
+            a = ss((t - t0)/.25) * (1 - ss((t - (t0 + du - .3))/.35))
+            out *= 1 - .62*a
+            out[300:700] *= 1 - .45*a
+            pil = Image.fromarray(cv2.cvtColor(np.clip(out, 0, 255).astype(np.uint8), cv2.COLOR_BGR2RGB)); d = ImageDraw.Draw(pil, "RGBA"); al = int(255*a)
+            val = o['a']; m = re.match(r'^(\D*)(\d[\d,]*)(.*)$', val)
+            if m:
+                num = int(m.group(2).replace(',', '')); u = ease((t - t0)/1.1); cur = int(round(num * u))
+                val = m.group(1) + (f'{cur:,}' if ',' in m.group(2) else str(cur)) + m.group(3)
+            fb = font(SERIF, 190); wv = fb.getbbox(o['a'])[2]
+            d.rectangle([(W - wv)/2 - 50, 560, (W + wv)/2 + 50, 568], fill=RED + (al,))
+            d.text(((W - wv)/2, 330), val, font=fb, fill=(244, 240, 230, al))
+            text_center(d, 600, o['b'], font(MONO, 46), (225, 222, 212, al))
+            return cv2.cvtColor(np.array(pil), cv2.COLOR_RGB2BGR)
         if o['kind'] == 'year':
             a = ss((t - t0)/.3) * (1 - ss((t - (t0 + du - .3))/.4)); out *= 1 - .5*a
             fl = math.exp(-(t - t0)*5) * a
@@ -529,7 +773,11 @@ def render(frames, out, stills_dir=None):
     bg_full, bg_half = build_bg(1.0), None
     bg_half = cv2.resize(bg_full, None, fx=.5, fy=.5, interpolation=cv2.INTER_AREA)
     vig = (1 - .45*np.clip(((vx-W/2)/(W*.62))**2 + ((vy-H/2)/(H*.62))**2, 0, 1))[..., None].astype(np.float32)
-    grains = [rng.normal(0, 4.5, (H, W, 1)).astype(np.float32) for _ in range(6)]
+    grains = [rng.normal(0, 3.2, (H, W, 1)).astype(np.float32) for _ in range(6)]
+    global LAMP
+    d2 = ((vx - W*.5)/(W*.62))**2 + ((vy - H*.46)/(H*.66))**2
+    light = (1.20 - .60*np.clip(d2, 0, 1.3)**1.1)[..., None]
+    LAMP = (light * np.array([0.96, 1.0, 1.05], np.float32)).astype(np.float32)     # warm centre (BGR), dark edges
     ff = None
     if not stills_dir:
         ff = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "bgr24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
@@ -552,20 +800,33 @@ def render(frames, out, stills_dir=None):
                 u = (t - it['t0'])/.45; sc = 1.12 - .12*backout(u); dy = -60*(1 - ease(u))
                 lvl = 0 if C[2]/R*2 > .55 else (1 if C[2]/R*2 > .28 else 2)
                 im = it['mips'][lvl]
+                if 'hlimg' in it and t >= it['ht']:
+                    hu = ease((t - it['ht'])/.45); hm = it['hlmips'][lvl]
+                    if hu >= 1: im = hm
+                    else:
+                        sc_ = im.shape[1] / it['img'].shape[1]; pad_ = int(50*R*sc_); x0 = pad_ + int(it['hx'][0]*sc_); x1 = pad_ + int(it['hx'][1]*sc_)
+                        xm = int(x0 + (x1 - x0)*hu); im = im.copy(); im[:, x0:xm] = hm[:, x0:xm]
                 if u < 1: im = im.copy(); im[..., 3] = (im[..., 3]*ss(u*1.6)).astype(np.uint8)
                 blend_roi(frame, im, item_M(it, C, im, sc, dy))
             for st in STAMPS:
                 if t < st['t0']: continue
                 it = st['item']; u = (t - st['t0'])/.2; sc = (1.6 - .6*backout(u, 2.2)) * min(1.0, it['size'][0]*R*.9/st['img'].shape[1])
                 blend_roi(frame, st['img'], item_M(dict(it, img=st['img']), C, st['img'], sc, 0, rot=it['rot'] - 12))
+            # motion blur on fast camera travel
+            Cn = cam(t + 1/FPS); v = math.hypot((Cn[0] - C[0])*C[2], (Cn[1] - C[1])*C[2]) + abs(math.log(Cn[2]/C[2]))*900
+            if v > 14:
+                L = int(min(41, v * .9)) | 1; ang = math.atan2((Cn[1] - C[1]), (Cn[0] - C[0])); k = np.zeros((L, L), np.float32)
+                cv2.line(k, (int(L/2 - math.cos(ang)*L/2), int(L/2 - math.sin(ang)*L/2)), (int(L/2 + math.cos(ang)*L/2), int(L/2 + math.sin(ang)*L/2)), 1, 1)
+                k /= max(k.sum(), 1); frame = cv2.filter2D(frame, -1, k)
             fr = np.clip(frame, 0, 255).astype(np.uint8)
             fr = draw_overlays(fr, t, C)
+            fr = draw_pops(fr, t)
             fr = screen_overlays(fr, t)
             f = fr.astype(np.float32)
             for st in STAMPS:
                 if st['t0'] < t < st['t0'] + .2:
                     f[..., 2] = np.roll(f[..., 2], 10, axis=1); f[..., 0] = np.roll(f[..., 0], -10, axis=1)
-            f = f*vig + grains[fi % 6]
+            f = f*LAMP + grains[fi % 6]
             if t < .6: f *= t/.6
             if t > DUR - 1.0: f *= max(0, (DUR - t))/1.0
             fr = np.clip(f, 0, 255).astype(np.uint8)
