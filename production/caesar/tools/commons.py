@@ -30,7 +30,7 @@ def search(q, n=15):
         if not OK.search(lic) or BAD.search(lic): continue
         out.append({'title': p['title'], 'w': ii['width'], 'h': ii['height'], 'license': lic,
                     'artist': clean(m.get('Artist', {}).get('value', ''))[:120],
-                    'url': ii.get('thumburl') if ii['width'] > 1920 and ii.get('thumburl') else ii['url'], 'page': ii['descriptionurl']})
+                    'url': ii.get('thumburl') or ii['url'], 'page': ii['descriptionurl']})
     return out
 
 def main():
