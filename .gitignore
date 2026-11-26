@@ -9,3 +9,9 @@ production/kaz/three/frames/
 production/kaz/three/test/
 production/kaz/three/*.log
 production/kaz/three/test_sheet.jpg
+production/pompeii/build/
+production/pompeii/three/node_modules/
+production/pompeii/three/frames/
+production/pompeii/three/test/
+production/pompeii/three/*.log
+production/pompeii/three/test_sheet.jpg

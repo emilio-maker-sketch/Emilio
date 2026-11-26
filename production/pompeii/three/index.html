@@ -1,0 +1,200 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Vesuvius 79</title>
+<style>html,body{margin:0;background:#1a1a18;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script>
+</head><body>
+<script type="module">
+// Illustrative 3D reconstruction of the A.D. 79 eruption.  1 unit ~ 1 km horizontally (heights exaggerated).
+// Local timeline:  0-13  the column rises and spreads (Day 1, ~1 PM)
+//                 13-17.5 the column collapses (Day 2, ~1 AM)
+//                 18-30  a surge crosses the plain and overruns Pompeii (Day 2, ~7 AM)
+import * as THREE from 'three';
+const W = 1920, H = 1080;
+const renderer = new THREE.WebGLRenderer({antialias: true, preserveDrawingBuffer: true});
+renderer.setSize(W, H); renderer.setPixelRatio(1);
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.toneMappingExposure = 1.0;
+renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const sm = x => { x = clamp(x); return x * x * (3 - 2 * x); };
+const lerp = (a, b, u) => a + (b - a) * u;
+function rng(seed) { let s = seed >>> 0; return () => { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(38, W / H, .1, 400);
+const sky = new THREE.Color(), fogC = new THREE.Color();
+scene.fog = new THREE.Fog(0xb8b2a4, 20, 90);
+
+// ---------------- terrain
+const coastZ = x => 5.6 + .43 * x;                                    // sea lies south of this line
+function height(x, z) {
+  const r = Math.hypot(x, z);
+  let h = 2.6 * Math.exp(-Math.pow(r / 3.0, 1.55));                  // Vesuvius
+  h -= .3 * Math.exp(-Math.pow(r / .42, 2));                         // crater
+  const rs = Math.hypot(x + .3, z + 1.1); h += .9 * Math.exp(-Math.pow((rs - 1.9) / .55, 2)) * (z < -.6 ? 1 : 0); // Monte Somma rim (north)
+  h += .05 * Math.sin(x * 1.7) * Math.cos(z * 1.3) + .03 * Math.sin(x * 4.1 + z * 2.7);
+  const sea = coastZ(x) - z;                                          // >0 on land
+  return lerp(-.3, Math.max(.03, h), sm((sea + .4) / 1.4));
+}
+const TG = new THREE.PlaneGeometry(80, 80, 320, 320); TG.rotateX(-Math.PI / 2);
+const pos = TG.attributes.position, cols = new Float32Array(pos.count * 3);
+const c = new THREE.Color();
+for (let i = 0; i < pos.count; i++) {
+  const x = pos.getX(i), z = pos.getZ(i), h = height(x, z); pos.setY(i, h);
+  if (h < 0) c.setRGB(.36, .42, .40);
+  else { const u = clamp(h / 2.4); c.setRGB(lerp(.52, .46, u), lerp(.55, .40, u), lerp(.36, .33, u)); }
+  cols.set([c.r, c.g, c.b], i * 3);
+}
+TG.setAttribute('color', new THREE.BufferAttribute(cols, 3)); TG.computeVertexNormals();
+const terrain = new THREE.Mesh(TG, new THREE.MeshStandardMaterial({vertexColors: true, roughness: .95, metalness: 0}));
+scene.add(terrain);
+const sea = new THREE.Mesh(new THREE.PlaneGeometry(200, 200), new THREE.MeshStandardMaterial({color: 0x3c5a5e, roughness: .35, metalness: .1}));
+sea.rotation.x = -Math.PI / 2; sea.position.y = -.02; scene.add(sea);
+
+// ---------------- towns: Pompeii (walled grid) and Herculaneum (smaller)
+function town(cx, cz, rx, rz, n, seed) {
+  const r = rng(seed), g = new THREE.BoxGeometry(1, 1, 1), m = new THREE.MeshStandardMaterial({color: 0xd9c7a2, roughness: .9});
+  const im = new THREE.InstancedMesh(g, m, n), M = new THREE.Matrix4(), q = new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(0, 1, 0), .5);
+  let k = 0;
+  while (k < n) {
+    const x = (r() * 2 - 1) * rx, z = (r() * 2 - 1) * rz; if ((x / rx) ** 2 + (z / rz) ** 2 > 1) continue;
+    const s = .05 + r() * .06, h = .03 + r() * .05, X = cx + x, Z = cz + z;
+    M.compose(new THREE.Vector3(X, height(X, Z) + h / 2, Z), q, new THREE.Vector3(s, h, s * (1 + r())));
+    im.setMatrixAt(k++, M);
+  }
+  scene.add(im); return im;
+}
+const PX = 6.4, PZ = 7.2;                                              // Pompeii, ~9.6 km SE of the vent
+town(PX, PZ, .62, .42, 520, 7); town(-6.6, 2.2, .3, .22, 140, 9);
+const wallC = new THREE.EllipseCurve(PX, PZ, .66, .46, 0, Math.PI * 2, false, .5);
+const wp = wallC.getPoints(120).map(p => new THREE.Vector3(p.x, height(p.x, p.y) + .05, p.y));
+scene.add(new THREE.Line(new THREE.BufferGeometry().setFromPoints(wp), new THREE.LineBasicMaterial({color: 0x8a1f17})));
+
+// ---------------- labels (sprites)
+function label(text, x, y, z, s = 1) {
+  const cv = document.createElement('canvas'); cv.width = 1024; cv.height = 160; const g = cv.getContext('2d');
+  g.font = 'bold 84px FreeMono, monospace'; g.fillStyle = 'rgba(14,12,10,.72)'; const w = g.measureText(text).width + 60;
+  g.fillRect((1024 - w) / 2, 20, w, 120); g.fillStyle = '#d0312d'; g.fillRect((1024 - w) / 2, 20, 12, 120);
+  g.fillStyle = '#efe9dc'; g.textAlign = 'center'; g.textBaseline = 'middle'; g.fillText(text, 512, 82);
+  const sp = new THREE.Sprite(new THREE.SpriteMaterial({map: new THREE.CanvasTexture(cv), depthTest: false, transparent: true}));
+  sp.scale.set(4.2 * s, .66 * s, 1); sp.position.set(x, y, z); sp.renderOrder = 10; scene.add(sp); return sp;
+}
+const labV = label('VESUVIUS', 0, 3.6, 0), labP = label('POMPEII', PX, .9, PZ, .55), labH = label('HERCULANEUM', -6.6, .9, 2.2, .9);
+
+// ---------------- light
+const hemi = new THREE.HemisphereLight(0xdcd6c8, 0x4a4436, 1.2); scene.add(hemi);
+const sun = new THREE.DirectionalLight(0xfff0d8, 2.2); sun.position.set(-20, 30, 10); scene.add(sun);
+
+// ---------------- ash particles (column, umbrella, collapse, surge) - analytic positions from time t
+const puffTex = (() => {
+  const cv = document.createElement('canvas'); cv.width = cv.height = 128; const g = cv.getContext('2d');
+  const gr = g.createRadialGradient(64, 64, 4, 64, 64, 62); gr.addColorStop(0, 'rgba(255,255,255,1)'); gr.addColorStop(.55, 'rgba(255,255,255,.55)'); gr.addColorStop(1, 'rgba(255,255,255,0)');
+  g.fillStyle = gr; g.fillRect(0, 0, 128, 128); return new THREE.CanvasTexture(cv);
+})();
+function cloud(n) {
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(n * 3), 3));
+  geo.setAttribute('size', new THREE.BufferAttribute(new Float32Array(n), 1));
+  geo.setAttribute('shade', new THREE.BufferAttribute(new Float32Array(n), 1));
+  geo.setAttribute('alpha', new THREE.BufferAttribute(new Float32Array(n), 1));
+  const mat = new THREE.ShaderMaterial({transparent: true, depthWrite: false, fog: false,
+    uniforms: {map: {value: puffTex}, tint: {value: new THREE.Color(1, 1, 1)}},
+    vertexShader: `attribute float size; attribute float shade; attribute float alpha; varying float vS; varying float vA;
+      void main(){ vec4 mv = modelViewMatrix * vec4(position,1.); gl_PointSize = size * 900. / -mv.z; gl_Position = projectionMatrix * mv; vS = shade; vA = alpha; }`,
+    fragmentShader: `uniform sampler2D map; uniform vec3 tint; varying float vS; varying float vA;
+      void main(){ vec4 m = texture2D(map, gl_PointCoord); vec3 col = mix(vec3(.22,.20,.18), vec3(.86,.83,.78), vS) * tint; gl_FragColor = vec4(col, m.a * vA); }`});
+  const pts = new THREE.Points(geo, mat); pts.frustumCulled = false; scene.add(pts); return pts;
+}
+const NC = 3600, col = cloud(NC); const rc = rng(3); const CP = [];
+for (let i = 0; i < NC; i++) CP.push({b: .6 + rc() * 12.5, a: rc() * Math.PI * 2, r: rc(), s: rc(), j: rc()});
+const NF = 1600, fall = cloud(NF); const rf = rng(5); const FP = [];
+for (let i = 0; i < NF; i++) FP.push({x: rf(), z: rf(), p: rf(), s: rf()});
+const NS = 3000, surge = cloud(NS); const rs = rng(11); const SP = [];
+for (let i = 0; i < NS; i++) SP.push({a: -.25 + rs() * 2.6, d: rs(), h: rs(), s: rs(), j: rs()});
+const WIND = new THREE.Vector3(.62, 0, .78);                           // blowing to the south-east
+
+function updateColumn(t) {
+  const P = col.geometry.attributes.position.array, S = col.geometry.attributes.size.array, Sh = col.geometry.attributes.shade.array, A = col.geometry.attributes.alpha.array;
+  const collapse = sm((t - 13.2) / 3.6);
+  for (let i = 0; i < NC; i++) {
+    const p = CP[i]; let age = Math.min(t, 13.2) - p.b;
+    if (age < 0) { A[i] = 0; continue; }
+    const top = 11.5 + 1.5 * p.j, y0 = 2.4;
+    let y = y0 + (top - y0) * (1 - Math.exp(-age / 2.6));
+    const up = clamp((y - 8.5) / 3.5);                                    // reaching the umbrella
+    let rad = .28 + .05 * y + p.r * (.25 + .04 * y) + up * (age - 3) * .55 * (.4 + p.r);
+    let x = Math.cos(p.a) * rad, z = Math.sin(p.a) * rad;
+    const drift = Math.pow(clamp(y / top), 2) * Math.max(0, age - 1.5) * .55;
+    x += WIND.x * drift; z += WIND.z * drift;
+    y += Math.sin(age * 1.3 + p.j * 9) * .25;
+    if (collapse > 0) {                                                // the column falls back onto the mountain
+      const k = collapse * (1 - .5 * up);
+      y = lerp(y, 1.6 + p.s * 2.2, k); x *= 1 + collapse * .6; z *= 1 + collapse * .6;
+    }
+    P[i * 3] = x; P[i * 3 + 1] = y; P[i * 3 + 2] = z;
+    S[i] = (.55 + .08 * y + .6 * p.s) * (1 + up * .8);
+    Sh[i] = clamp(.25 + .045 * y + .25 * Math.cos(p.a + 2.3) * clamp(y / 6) + .1 * p.j);
+    A[i] = sm(age / .6) * (.55 + .3 * p.s) * (1 - .9 * sm((t - 15.5) / 2.5));
+  }
+  col.geometry.attributes.position.needsUpdate = col.geometry.attributes.size.needsUpdate = true;
+  col.geometry.attributes.shade.needsUpdate = col.geometry.attributes.alpha.needsUpdate = true;
+}
+function updateFall(t) {                                               // pumice falling from the drifting umbrella onto Pompeii
+  const P = fall.geometry.attributes.position.array, S = fall.geometry.attributes.size.array, Sh = fall.geometry.attributes.shade.array, A = fall.geometry.attributes.alpha.array;
+  const on = sm((t - 6.5) / 3) * (1 - sm((t - 12.6) / .4)) + (t > 18 && t < 25 ? .6 : 0);
+  for (let i = 0; i < NF; i++) {
+    const p = FP[i]; const cx = 2 + p.x * 7, cz = 2.5 + p.z * 7;
+    const y = 12 - ((t * (3.5 + 2 * p.s) + p.p * 12) % 12);
+    P[i * 3] = cx + (12 - y) * .1; P[i * 3 + 1] = y; P[i * 3 + 2] = cz + (12 - y) * .12;
+    S[i] = .05 + .05 * p.s; Sh[i] = .15; A[i] = on * .8;
+  }
+  fall.geometry.attributes.position.needsUpdate = fall.geometry.attributes.size.needsUpdate = true;
+  fall.geometry.attributes.shade.needsUpdate = fall.geometry.attributes.alpha.needsUpdate = true;
+}
+function surgeFront(t) { return t < 13.5 ? 0 : (t < 17.5 ? (t - 13.5) * .9 : (t < 18 ? 3.6 : 3.6 + (t - 18) * .62)); }
+function updateSurge(t) {                                              // ground-hugging pyroclastic density current
+  const P = surge.geometry.attributes.position.array, S = surge.geometry.attributes.size.array, Sh = surge.geometry.attributes.shade.array, A = surge.geometry.attributes.alpha.array;
+  const R = surgeFront(t);
+  for (let i = 0; i < NS; i++) {
+    const p = SP[i]; const r = R * Math.sqrt(p.d) * (.85 + .2 * p.j);
+    if (R <= 0) { A[i] = 0; continue; }
+    const a = p.a + .35 * Math.sin(p.d * 7);                          // a fan opening to the south (both towns)
+    const x = Math.sin(a) * r * 1.05, z = Math.cos(a) * r * .95 + .2;
+    const front = clamp((R - r) / 1.2);
+    const y = height(x, z) + .1 + p.h * (.9 + .9 * (1 - front)) + .25 * Math.sin(t * 2 + p.j * 8);
+    P[i * 3] = x; P[i * 3 + 1] = y; P[i * 3 + 2] = z;
+    S[i] = .7 + p.s * 1.1 + (1 - front) * .6; Sh[i] = .3 + .35 * p.h; A[i] = .5 * sm(R / 1.0);
+  }
+  surge.geometry.attributes.position.needsUpdate = surge.geometry.attributes.size.needsUpdate = true;
+  surge.geometry.attributes.shade.needsUpdate = surge.geometry.attributes.alpha.needsUpdate = true;
+}
+
+const V = (a, b, c) => new THREE.Vector3(a, b, c);
+function camAt(t) {
+  if (t < 13) {                                                        // from the bay (south-west), a slow push and rise
+    const u = sm(t / 13); return [V(-15, 4.5, 30).lerp(V(-11, 6.5, 25), u), V(2, 5.5 + 1.5 * u, 2)];
+  }
+  if (t < 18) { const u = sm((t - 13) / 4.5); return [V(-15, 6, 24).lerp(V(-12, 5, 20), u), V(1, 3.2, 2)]; }
+  const u = sm((t - 18) / 12);                                         // low, behind Pompeii, looking north-west at the mountain
+  return [V(PX + 5.5, 2.4, PZ + 6.5).lerp(V(PX + 3.0, 1.4, PZ + 3.6), u), V(PX - 2.5, 1.2, PZ - 3.2)];
+}
+
+window.renderAt = (t) => {
+  const night = t >= 13 ? 1 : 0, dawn = t >= 18 ? 1 : 0;
+  if (!night) { sky.setRGB(.66, .64, .58); sun.intensity = 2.2; hemi.intensity = 1.2; col.material.uniforms.tint.value.setRGB(1, 1, 1); }
+  else if (!dawn) { sky.setRGB(.10, .09, .09); sun.intensity = .15; hemi.intensity = .35; col.material.uniforms.tint.value.setRGB(.55, .42, .36); }
+  else { sky.setRGB(.24, .22, .20); sun.intensity = .4; hemi.intensity = .55; col.material.uniforms.tint.value.setRGB(.7, .66, .62); }
+  surge.material.uniforms.tint.value.setRGB(night && !dawn ? .75 : .85, night && !dawn ? .5 : .8, night && !dawn ? .4 : .76);
+  // darkness under the plume over Pompeii (day 1 afternoon) and the ash-dark dawn
+  scene.background = sky; fogC.copy(sky); scene.fog.color = fogC;
+  scene.fog.near = night ? (dawn ? 6 : 10) : 30; scene.fog.far = night ? (dawn ? 30 : 55) : 110;
+  updateColumn(t); updateFall(t); updateSurge(t);
+  labV.material.opacity = sm(t / 1.5) * (1 - sm((t - 11) / 1)) + (t >= 13 && t < 18 ? .9 : 0);
+  labP.material.opacity = (t < 13 ? sm((t - 2) / 1) : 1) * (t >= 18 ? 1 - sm((t - 24) / 1.5) : 1);
+  labH.material.opacity = t < 13 ? sm((t - 2.5) / 1) : (t < 18 ? 1 : 0);
+  const [p, l] = camAt(t); camera.position.copy(p); camera.lookAt(l);
+  if (t >= 18) { const sh = .03 * sm((t - 24) / 3); camera.position.x += Math.sin(t * 37) * sh; camera.position.y += Math.cos(t * 29) * sh; }
+  renderer.render(scene, camera);
+};
+window.ready = true;
+</script></body></html>

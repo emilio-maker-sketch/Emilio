@@ -11,6 +11,13 @@ DB = os.path.join(ROOT, 'build', 'images', 'museum.json')
 S = requests.Session(); S.headers['User-Agent'] = 'DocumentaryResearchBot/1.0 (educational video production)'
 
 TOPICS = {
+    'p_casts': ['Plaster Casts of Bodies Pompeii', 'Pompeii bodies', 'Sommer Pompeii', 'Pompeii excavation photograph', 'Pompeii Forum photograph', 'Herculaneum excavation', 'Vesuvius eruption 1872', 'Vesuvius 1822', 'stone pine', 'Roman galley relief', 'Roman ship mosaic', 'Roman warship'],
+    'p_frescoes': ['Boscoreale', 'Pompeian wall painting', 'Roman fresco', 'Villa of P. Fannius Synistor', 'Boscotrecase', 'Roman wall painting fragment', 'Pompeii fresco'],
+    'p_daily': ['Roman bronze lamp', 'Roman glass bottle', 'Roman bread stamp', 'Roman oil lamp', 'Roman strigil', 'Roman jewelry gold', 'Roman bracelet', 'Roman ring gold', 'Roman bronze jug', 'Roman amphora', 'Roman dice', 'Roman key', 'Roman mirror', 'Roman stylus', 'Roman wax tablet', 'Roman cooking pot', 'Roman surgical instrument'],
+    'p_people': ['Roman portrait bust', 'Roman portrait head marble', 'Vespasian', 'Titus', 'Roman boy portrait', 'Roman woman portrait', 'Roman bronze statuette', 'Roman funerary relief', 'Roman gladiator', 'Roman sestertius Titus', 'denarius Vespasian'],
+    'p_photos': ['Pompeii photograph', 'Giorgio Sommer', 'Herculaneum', 'Vesuvius photograph', 'Naples photograph', 'Pompeii albumen', 'Via dell Abbondanza', 'Forum Pompeii', 'Robert Rive', 'Bay of Naples photograph', 'casts Pompeii'],
+    'p_vesuvius': ['Vesuvius', 'eruption of Vesuvius', 'Vesuvius erupting', 'Volaire', 'Bay of Naples', 'volcano', 'Vesuvius at night', 'Last Days of Pompeii', 'Pliny', 'Campi Phlegraei', 'Hamilton Vesuvius'],
+    'p_villas': ['Roman villa', 'Roman marble table', 'Roman garden painting', 'Roman mosaic', 'Roman cubiculum', 'Roman sculpture Herculaneum', 'Villa of the Papyri', 'papyrus scroll Roman', 'Roman ship', 'Roman navy', 'Roman trireme'],
     'amarna': ['Amarna letter', 'cuneiform tablet Amarna', 'Akhenaten', 'Amenhotep III', 'Nefertiti', 'Amarna relief', 'Tiye'],
     'egypt_kings': ['Ramesses II', 'Ramesses III', 'Merneptah', 'Seti I', 'Ramesside', 'Dynasty 19 statue', 'Dynasty 20'],
     'egypt_photos': ['Medinet Habu', 'Karnak', 'Abu Simbel', 'Luxor temple', 'Ramesseum', 'Thebes photograph', 'Nile photograph', 'Valley of the Kings', 'Deir el-Medina', 'Felix Teynard', 'Francis Frith Egypt', 'Maxime Du Camp'],
