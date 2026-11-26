@@ -8,7 +8,7 @@ import os, re, sys, json, html, time, requests
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, 'build', 'photos')
-UA = {'User-Agent': 'DocumentaryResearchBot/1.0 (educational documentary; python-requests)'}
+UA = {'User-Agent': 'DocumentaryResearch/1.1 (educational documentary; curl-compatible)'}
 OK = re.compile(r'(public domain|^pd|cc0|cc by|cc-by|attribution)', re.I)
 BAD = re.compile(r'(\bnc\b|-nc|\bnd\b|-nd|fair use|non-free)', re.I)
 
@@ -30,7 +30,7 @@ def search(q, n=15):
         if not OK.search(lic) or BAD.search(lic): continue
         out.append({'title': p['title'], 'w': ii['width'], 'h': ii['height'], 'license': lic,
                     'artist': clean(m.get('Artist', {}).get('value', ''))[:120],
-                    'url': ii.get('thumburl') or ii['url'], 'page': ii['descriptionurl']})
+                    'url': (ii.get('thumburl') or ii['url']).split('?')[0], 'page': ii['descriptionurl']})
     return out
 
 def main():
