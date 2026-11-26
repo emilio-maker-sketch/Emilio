@@ -15,7 +15,7 @@ The first film in the new cinematic style: photoreal AI reconstructions, real ca
 | 8. Generate visuals | Done: 121 Z Image reconstructions (19.20 credits total), Wikimedia Commons photos and art, original maps and cards |
 | 9. Final narration | Done: Kokoro `bm_lewis` (free, local) |
 | 10. Edit, music, sound design, grade | Done: `tools/edit.py` (depth-parallax camera moves, grades, grain), Kevin MacLeod music (CC BY 4.0), synthesized SFX, -14 LUFS |
-| 11. Review and delivery package | Done: 53:25 film, 1080p30. Package in `delivery/the_last_day_of_rome/`. The video file is not in git (7 GB master, rebuild with `tools/edit.py`) |
+| 11. Review and delivery package | Done: 53:25 film, 1080p30. Package in `delivery/the_last_day_of_rome/`. Film: `delivery/the_last_day_of_rome/TheLastDayOfRome_1080p.mp4` (Git LFS) |
 
 ## Structure
 | Act | Chapters | What it does |
