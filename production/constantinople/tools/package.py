@@ -39,12 +39,14 @@ def main():
              "Narration is a synthetic voice (Kokoro). Real photographs, museum objects and period art are credited below.",
              "", "MUSIC", json.load(open(os.path.join(ROOT, 'music.json')))['credit']]
     used = sorted({c['file'].rsplit('.', 1)[0] for c in json.load(open(os.path.join(ROOT, 'music.json')))['cues']})
-    desc += [f'  "{u}" Kevin MacLeod (incompetech.com)' for u in used]
+    desc += ['Tracks: ' + ', '.join(f'"{u}"' for u in used)]
     cr = json.load(open(os.path.join(B, 'photos', 'credits.json')))
     lines = ['IMAGE CREDITS (Wikimedia Commons)']
     for k, c in sorted(cr.items()):
         if not os.path.exists(os.path.join(B, 'photos', k + '.jpg')) and not os.path.exists(os.path.join(B, 'photos', k + '.png')): continue
-        lines.append(f"- {c['title'][5:]} · {c['artist'] or 'unknown'} · {c['license']} · {c['page']}")
+        art = ' '.join((c['artist'] or 'unknown').split())
+        art = {'Unknown authorUnknown author': 'unknown', 'Horses_of_Basilica_San_Marco.jpg: Tteske derivative work: Morn (talk)': 'Tteske, derivative work by Morn'}.get(art, art)
+        lines.append(f"- {c['title'][5:].rsplit('.', 1)[0]} · {art} · {c['license']} · {c['page']}")
     lines += ['', 'Maps: made for this video with Natural Earth data (public domain).',
               'Sound effects: synthesized for this video.']
     desc += [''] + lines
