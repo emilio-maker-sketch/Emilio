@@ -1,0 +1,49 @@
+{
+ "title": "The Ides of March: The Assassination of Julius Caesar",
+ "style": {
+  "prefix": "Photorealistic cinematic film still from a high-budget historical documentary reconstruction, anamorphic lens, natural film grain, realistic skin and fabric texture",
+  "suffix": "historically accurate late Roman Republic, 1st century BC details, no text, no captions, no watermark, no modern objects",
+  "negative": "cartoon, illustration, CGI look, oversaturated, plastic skin, text, logo, watermark, modern buildings, segmented plate armour, rectangular imperial shields, beards on Roman senators, gore"
+ },
+ "grades": {
+  "gold": "warm Mediterranean sunlight, honey and ochre tones, soft haze",
+  "candle": "warm light from small clay oil lamps, deep shadows, marble and dark wood",
+  "steel": "overcast cold daylight, desaturated grey-blue, dust and smoke",
+  "night": "night, moonlight blue with orange torchlight",
+  "dawn": "cold grey-blue dawn light, mist",
+  "ash": "muted grey light, faded colours, quiet aftermath",
+  "neutral": "museum photograph",
+  "map": "aged parchment map texture"
+ },
+ "refs": {
+  "caesar": "a lean Roman statesman of 55 with a long angular face, smooth clean-shaven skin, high forehead, thinning dark-grey hair combed forward, sharp dark eyes, white toga with a broad purple border",
+  "young_caesar": "a slim young Roman nobleman of about 20 with dark hair, smooth clean-shaven face, long face and sharp dark eyes, in a white tunic and toga",
+  "brutus": "a serious Roman senator of about 40, smooth clean-shaven face, short dark hair, deep-set thoughtful eyes, a heavy brow, white toga with a purple stripe",
+  "cassius": "a lean hollow-cheeked Roman senator in his forties, pale, smooth clean-shaven face, short dark hair, intense eyes, white toga",
+  "decimus": "a confident Roman general of about 40 with a soldier's build, short cropped hair, smooth clean-shaven face, a slight smile, white toga",
+  "antony": "a burly muscular Roman of 39 with a thick neck, curly dark hair, smooth clean-shaven face, strong jaw",
+  "pompey": "a broad-faced Roman general in his late fifties with thick hair swept up at the forehead, smooth clean-shaven face, heavy jowls",
+  "calpurnia": "a dignified Roman noblewoman in her thirties with dark hair parted and gathered at the nape, a long stola and palla",
+  "porcia": "a determined Roman noblewoman in her thirties, dark hair gathered at the nape, plain dark stola",
+  "cleopatra": "a young Ptolemaic queen of about 21 with a strong nose, dark hair in a braided melon-style bun with a white diadem band, Greek dress",
+  "cicero": "an elderly balding Roman orator of 62 with a lined intelligent face, smooth clean-shaven face, white toga",
+  "octavian": "a slim pale young Roman of 18 with light brown hair, delicate features, smooth clean-shaven face, plain white toga",
+  "spurinna": "an elderly Etruscan soothsayer with a lined face and a fringed priest's cloak and pointed cap",
+  "artemidorus": "a Greek scholar in his fifties with a short grey beard and a plain Greek cloak",
+  "cimber": "a stocky Roman senator in his forties, smooth clean-shaven face, white toga",
+  "casca": "a nervous Roman senator in his forties, smooth clean-shaven face, white toga",
+  "senators": "Roman senators, smooth clean-shaven faces, short neat hair, white woollen togas over tunics with a broad purple stripe",
+  "legion": "late Roman Republic legionaries wearing knee-length grey iron chain mail shirts, simple round bronze helmets with cheek guards, tall oval curved shields painted red, javelins",
+  "gauls": "Gallic warriors with long hair and moustaches, checked cloaks, long swords and tall oval shields",
+  "rome": "ancient Rome in 44 BC: temples on hills, red-tiled roofs, brick apartment blocks, the Tiber",
+  "forum": "the Roman Forum of 44 BC: temples with columns, basilicas, a stone speaker's platform, paved square",
+  "curia": "the Curia of Pompey: a rectangular Roman meeting hall with tiered stone benches on both sides, marble floor, and a marble statue of a Roman general at the far end",
+  "theatre": "the Theatre of Pompey complex in Rome: a huge semicircular stone theatre and a long garden portico of colonnades",
+  "domus": "a Roman townhouse interior: atrium with a rainwater pool, painted walls, oil lamps"
+ },
+ "costs": {
+  "still": 0.15,
+  "video_5s": 2.0,
+  "retake_factor": 1.0
+ }
+}

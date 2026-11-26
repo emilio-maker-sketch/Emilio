@@ -1,0 +1,7 @@
+- 8 Z images (batch 1): 1.20
+- 120 Z images (batches 2-16): 18.00
+- Running total: 19.20
+- Seedance 2.0 Mini test clip (Rubicon, 4s 480p): 2.00
+- Running total: 21.20
+- 4 Seedance 2.0 Mini clips (4s 480p): 8.00
+- **Total: 29.20 of 30**
