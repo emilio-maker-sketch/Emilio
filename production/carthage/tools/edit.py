@@ -473,7 +473,7 @@ def prime_layers(spec):
             y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1; L['bb'] = (y0, y1, x0, x1)
             L['sub'] = L['arr'][y0:y1, x0:x1].astype(np.float32)
         if L['t'] == 'unit' and L.get('label') and 'spr' not in L:
-            im = Image.new('RGBA', (600, 70), (0, 0, 0, 0)); ImageDraw.Draw(im).text((300, 35), L['label'], font=font(ITA, 40), fill=(40, 30, 20, 255), anchor='mm', stroke_width=2, stroke_fill=(236, 224, 196, 220))
+            im = Image.new('RGBA', (600, 70), (0, 0, 0, 0)); ImageDraw.Draw(im).text((300, 35), L['label'], font=font(ITA, 50), fill=(40, 30, 20, 255), anchor='mm', stroke_width=2, stroke_fill=(236, 224, 196, 220))
             L['spr'] = np.asarray(im, np.float32)
     return spec
 
@@ -653,7 +653,8 @@ class Shot:
         elif k == 'split':
             fr = np.zeros((H, W, 3), np.float32); hw = W // 2
             for j, (img, tgt) in enumerate(self.sides):
-                z = 1.0 + 0.06 * ease(lt); half = warp(img, z * 2, img.shape[1] / 2, img.shape[0] / 2)[:, W // 4: W // 4 + hw]
+                z = 1.0 + 0.06 * ease(lt); sc = z * hw / img.shape[1]; cx, cy = img.shape[1] / 2 + (tgt[0] - 0.5) * img.shape[1] * 0.2 * ease(lt), img.shape[0] / 2
+                half = cv2.warpAffine(img, np.array([[sc, 0, hw / 2 - cx * sc], [0, sc, H / 2 - cy * sc]], np.float32), (hw, H), borderMode=cv2.BORDER_REFLECT)
                 slide = int((1 - ease(lt / 0.18)) * hw * (1 if j else -1))
                 x0 = j * hw + slide; a, b_ = max(0, x0), min(W, x0 + hw)
                 if b_ > a: fr[:, a:b_] = half[:, a - x0:b_ - x0]
@@ -693,6 +694,7 @@ def render_chapter(ch, only=None):
     if only is None:
         p = subprocess.Popen(['ffmpeg', '-y', '-loglevel', 'error', '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-',
                               '-c:v', 'libx264', '-preset', 'medium', '-crf', '17', '-pix_fmt', 'yuv420p', out], stdin=subprocess.PIPE)
+    lb_state = [0.0]
     ks = range(n) if only is None else [int(round((x - t0) * FPS)) for x in only]
     for kf in ks:
         t = t0 + kf / FPS
@@ -715,7 +717,8 @@ def render_chapter(ch, only=None):
         if gk == 'fire': acc = dust.draw(acc, t, 0.8, (255, 150, 60), rise=True)
         if gk == 'snow': acc = dust.draw(acc, t, 0.9, (240, 244, 255))
         if card_it and card_it['start'] <= t < card_it['start'] + 1.6: acc = leak(acc, (t - card_it['start']) / 1.6)
-        lb = min(1.0, max(0.0, (t - t0 - CARD + 1.0) / 2.0)) if ch in LETTERBOX else 0.0
+        want = 1.0 if ch in LETTERBOX and gk != 'map' and t - t0 > CARD else 0.0   # bars only over pictures, never over graphics
+        lb_state[0] = want if only is not None else lb_state[0] + max(-1 / 20, min(1 / 20, want - lb_state[0])); lb = lb_state[0]
         fin = finish(acc, t, gk, lb)
         if p is None: Image.fromarray(fin).save(os.path.join(B, f'test_{ch}_{t:.1f}.jpg'), quality=88); continue
         p.stdin.write(fin.tobytes())

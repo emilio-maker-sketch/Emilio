@@ -494,7 +494,7 @@ def cannae_units(phase):
             R_.append(u(ROM, 'Roman infantry' if (i, j) == (3, 0) and phase == 1 else '', k))
     for i in range(7):   # crescent of Gauls and Spaniards
         bulge = 0.08 * math.sin(math.pi * i / 6); x = 0.32 + 0.055 * i
-        p1, p2, p3 = [x, 0.55 + bulge], [x, 0.62 - bulge * 0.6], [0.34 + 0.05 * i, 0.68]
+        p1, p2, p3 = [x, 0.6 - bulge], [x, 0.6 + bulge * 0.7], [0.34 + 0.05 * i, 0.68]
         k = {1: [[0, *p1, 0.05, 0.03, 0], [1, *p1, 0.05, 0.03, 0]], 2: [[0, *p1, 0.05, 0.03, 0], [0.8, *p2, 0.05, 0.03, 0], [1, *p2, 0.05, 0.03, 0]],
              3: [[0, *p2, 0.05, 0.03, 0], [1, *p3, 0.05, 0.03, 0]]}[phase]
         C_.append(u(CAR, 'Gauls and Spaniards' if i == 3 and phase == 1 else '', k))
