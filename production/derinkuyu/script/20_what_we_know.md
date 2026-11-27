@@ -21,6 +21,9 @@ Which leaves the real answers to our three questions. How was it built? By hand,
 There is one more thing worth saying. The real story is better than the myths. A city dug by giants or aliens would be a curiosity. A city dug by farmers, with iron picks, by lamplight, over centuries, to keep their children and their animals alive while armies marched over their heads, is something else: one of the great achievements of ordinary people anywhere in the ancient and medieval world.
 > WS | slow push | photo | neutral | | Arched doorway in Derinkuyu [q: POOL 29]
 
+Questions remain, and some of them may one day be answered. How deep does the city really go, below the levels open to visitors? Is there a tunnel to Kaymaklı, and how long is it? When were the first rooms cut? Careful survey, new dating methods and the study of the other underground settlements of Cappadocia may give better answers than we have now. For the moment, the honest position is to enjoy the mystery that is real, and leave aside the ones that were invented.
+> WS | slow push | photo | neutral | | Passage leading into the dark in Kaymaklı {LT: Kaymaklı | only part is open to visitors} [q: Kaymakli underground city 8851 Nevit]
+
 Walk back up the stairs and out into the daylight, and the town looks ordinary again: houses, a mosque, a main street. Under your feet, eighty-five metres of rock are still hollow, a reminder that for a very long time the people of Cappadocia survived by hiding. And they hid so well that their hiding place was almost forgotten.
 > WS | slow push | photo | neutral | | Light at the top of a narrow stairway, Derinkuyu [q: POOL 84]
 > EWS | slow pan | photo | neutral | | Cappadocian landscape at sunset [q: Cappadocia sunset landscape]

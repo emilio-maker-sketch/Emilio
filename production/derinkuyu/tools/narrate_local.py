@@ -10,7 +10,19 @@ from script_parse import chapters, ROOT
 
 OUT = os.path.join(ROOT, 'build', 'narration')
 VOICE, SPEED, LANG, SR, GAP = 'bm_lewis', 0.92, 'en-gb', 24000, 0.38
-SUBS = [('Qart-hadasht', 'Kart-ha-dasht'), ('Karchedon', 'Kar-keh-don'), ('Byrsa', 'Beer-sa'), ('Tanit', 'Tah-neet'),
+SUBS = [('Derinkuyu', 'Deh-rin-koo-yoo'), ('Kaymaklı', 'Kai-mak-luh'), ('Özkonak', 'Erz-ko-nak'), ('Nevşehir', 'Nev-sheh-heer'), ('Göreme', 'Gur-reh-meh'),
+        ('Erciyes', 'Er-jee-yes'), ('Kültepe', 'Kewl-teh-peh'), ('Kanesh', 'Kah-nesh'), ('Assur', 'Ah-soor'), ('karum', 'kah-room'), ('nesili', 'neh-see-lee'),
+        ('Hattusa', 'Hat-too-sha'), ('Katpatuka', 'Kat-pa-too-ka'), ('Mazaca', 'Ma-za-ka'), ('Archelaus', 'Ar-keh-lay-us'), ('Comana', 'Ko-mah-na'),
+        ('Ihlara', 'Ih-la-ra'), ('Soğanlı', 'So-ahn-luh'), ('Tokalı', 'To-ka-luh'), ('Açıksaray', 'Ah-chuk-sa-rai'), ('Selime', 'Seh-lee-meh'),
+        ('Zelve', 'Zel-veh'), ('Uçhisar', 'Ooch-hee-sar'), ('Çatalhöyük', 'Chah-tal-hur-yook'), ('Tyana', 'Tie-ay-na'), ('Heraclea', 'Heh-ra-klee-a'),
+        ('Amorium', 'A-mor-ee-um'), ('Ancyra', 'An-sigh-ra'), ("al-Mu'tasim", 'al Moo-ta-sim'), ('Harun al-Rashid', 'Ha-roon al Ra-sheed'),
+        ('Digenis Akritis', 'Dee-yeh-nees A-kree-tees'), ('Manzikert', 'Man-zi-kert'), ('Alp Arslan', 'Alp Ars-lan'), ('Sultanhanı', 'Sool-tan-ha-nuh'),
+        ('Aksaray', 'Ak-sa-rai'), ('Karamanlides', 'Ka-ra-man-lee-deez'), ('Sinasos', 'See-na-sos'), ('Mustafapaşa', 'Moos-ta-fa-pa-sha'),
+        ('Malakopi', 'Ma-la-ko-pee'), ('Gelveri', 'Gel-veh-ree'), ('Güzelyurt', 'Gew-zel-yurt'), ('Nea Karvali', 'Neh-a Kar-va-lee'),
+        ('Naours', 'Na-oor'), ('Matmata', 'Mat-ma-ta'), ('Mazı', 'Ma-zuh'), ('Tatlarin', 'Tat-la-rin'), ('Gaziemir', 'Ga-zee-eh-meer'),
+        ('Avanos', 'Ah-va-nos'), ('Anabasis', 'A-na-ba-sis'), ('Xenophon', 'Zen-o-fon'), ('Aydan', 'Ai-dan'), ('Ulusay', 'Oo-loo-sai'),
+        ('Kalas', 'Ka-las'), ('Nazianzus', 'Na-zee-an-zus'), ('Nyssa', 'Nis-sa'), ('Dawkins', 'Daw-kins'),
+        ('Qart-hadasht', 'Kart-ha-dasht'), ('Karchedon', 'Kar-keh-don'), ('Byrsa', 'Beer-sa'), ('Tanit', 'Tah-neet'),
         ('Baal Hammon', 'Bahl Hammon'), ('suffetes', 'suff-eets'), ('suffete', 'suff-eet'), ('Mylae', 'My-lee'), ('Xanthippus', 'Zan-thippus'),
         ('Aegates', 'Ee-gay-teez'), ('Eryx', 'Eh-rix'), ('Saguntum', 'Sa-gun-tum'), ('Saguntines', 'Sa-gun-tines'), ('Ticinus', 'Tih-kee-nus'),
         ('Trasimene', 'Trazzi-meen'), ('Cunctator', 'Kunk-tah-tor'), ('Aufidus', 'Ow-fid-us'), ('Maharbal', 'Ma-har-bal'),

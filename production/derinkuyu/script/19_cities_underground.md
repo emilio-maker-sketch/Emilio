@@ -24,3 +24,7 @@ What makes Cappadocia special is the scale. Nowhere else did so many communities
 There are many others besides the famous ones. Underground settlements are known at Mazı, Tatlarin, Gaziemir and dozens of other villages, some only recently opened to visitors. New entrances are still found, sometimes when a road is widened or a house is rebuilt. Nobody knows how many remain undiscovered.
 > WS | slow push | photo | neutral | | Underground city at Mazı or Tatlarin, Cappadocia [q: Mazi underground city Cappadocia]
 > WS | drift | photo | neutral | | Entrance of a smaller underground settlement in Cappadocia [q: Gaziemir underground city]
+
+And the idea is not only ancient. In the desert of South Australia lies the opal-mining town of Coober Pedy, where summer temperatures can climb above forty degrees. Since the early twentieth century many of its people have lived in dugouts, homes carved into the hillsides, where the temperature stays comfortable all year. There are underground houses, shops and churches. It is a modern town that solved the old problem in the same old way.
+> WS | slow push | photo | neutral | | Underground dugout home in Coober Pedy, South Australia {LT: Coober Pedy | South Australia} [q: Coober Pedy dugout]
+> MS | drift | photo | neutral | | Underground church in Coober Pedy [q: Coober Pedy underground church]

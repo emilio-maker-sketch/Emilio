@@ -1606,6 +1606,23 @@
   "desc": "Bronze Age: merchants at Kanesh (no link to Derinkuyu known) ; 8th–6th centuries BC: Phrygian period (link suggested, not proven) ; 4th century AD: Christian Cappadocia ; 7th–10th centuries: the raids, main period of use ; until 1923: still used"
  },
  {
+  "id": "11-03-0",
+  "chapter": "11_dating_the_rock",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Kaymaklı",
+   "a neighbouring underground city"
+  ],
+  "q": "Kaymakli underground city 8887 Nevit",
+  "desc": "Carved room in Kaymaklı"
+ },
+ {
   "id": "12-00-0",
   "chapter": "12_the_rock_churches",
   "para": 0,
@@ -1897,6 +1914,23 @@
   "para": 3,
   "idx": 0,
   "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Dovecotes",
+   "carved into the cliffs"
+  ],
+  "q": "Cappadocia dovecote",
+  "desc": "Pigeon houses cut into a Cappadocian cliff"
+ },
+ {
+  "id": "13-04-0",
+  "chapter": "13_houses_in_the_rock",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
   "size": "EWS",
   "move": "slow pan",
   "grade": "neutral",
@@ -2186,6 +2220,19 @@
   "idx": 0,
   "kind": "photo",
   "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Sultanhani caravanserai courtyard",
+  "desc": "Courtyard of a Seljuk caravanserai"
+ },
+ {
+  "id": "15-03-0",
+  "chapter": "15_turks_and_ottomans",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
   "move": "drift",
   "grade": "neutral",
   "refs": [],
@@ -2193,9 +2240,9 @@
   "desc": "Later rock-cut church in Cappadocia"
  },
  {
-  "id": "15-02-1",
+  "id": "15-03-1",
   "chapter": "15_turks_and_ottomans",
-  "para": 2,
+  "para": 3,
   "idx": 1,
   "kind": "photo",
   "size": "EWS",
@@ -2210,9 +2257,9 @@
   "desc": "Soğanlı valley, Cappadocia"
  },
  {
-  "id": "15-03-0",
+  "id": "15-04-0",
   "chapter": "15_turks_and_ottomans",
-  "para": 3,
+  "para": 4,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -2223,9 +2270,9 @@
   "desc": "Ottoman-period village mosque and houses in Cappadocia"
  },
  {
-  "id": "15-04-0",
+  "id": "15-05-0",
   "chapter": "15_turks_and_ottomans",
-  "para": 4,
+  "para": 5,
   "idx": 0,
   "kind": "photo",
   "size": "CU",
@@ -2240,9 +2287,9 @@
   "desc": "Page of a Karamanlidika book: Turkish printed in Greek letters"
  },
  {
-  "id": "15-04-1",
+  "id": "15-05-1",
   "chapter": "15_turks_and_ottomans",
-  "para": 4,
+  "para": 5,
   "idx": 1,
   "kind": "card",
   "size": "CARD",
@@ -2252,9 +2299,9 @@
   "desc": "KARAMANLIDES · Orthodox Christians who spoke Turkish"
  },
  {
-  "id": "15-05-0",
+  "id": "15-06-0",
   "chapter": "15_turks_and_ottomans",
-  "para": 5,
+  "para": 6,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -2269,9 +2316,9 @@
   "desc": "Stone mansion of the Greek period in Mustafapaşa"
  },
  {
-  "id": "15-05-1",
+  "id": "15-06-1",
   "chapter": "15_turks_and_ottomans",
-  "para": 5,
+  "para": 6,
   "idx": 1,
   "kind": "photo",
   "size": "MS",
@@ -2904,6 +2951,36 @@
   "desc": "Entrance of a smaller underground settlement in Cappadocia"
  },
  {
+  "id": "19-07-0",
+  "chapter": "19_cities_underground",
+  "para": 7,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Coober Pedy",
+   "South Australia"
+  ],
+  "q": "Coober Pedy dugout",
+  "desc": "Underground dugout home in Coober Pedy, South Australia"
+ },
+ {
+  "id": "19-07-1",
+  "chapter": "19_cities_underground",
+  "para": 7,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Coober Pedy underground church",
+  "desc": "Underground church in Coober Pedy"
+ },
+ {
   "id": "20-00-0",
   "chapter": "20_what_we_know",
   "para": 0,
@@ -3035,13 +3112,30 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Kaymaklı",
+   "only part is open to visitors"
+  ],
+  "q": "Kaymakli underground city 8851 Nevit",
+  "desc": "Passage leading into the dark in Kaymaklı"
+ },
+ {
+  "id": "20-07-0",
+  "chapter": "20_what_we_know",
+  "para": 7,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
   "q": "POOL 84",
   "desc": "Light at the top of a narrow stairway, Derinkuyu"
  },
  {
-  "id": "20-06-1",
+  "id": "20-07-1",
   "chapter": "20_what_we_know",
-  "para": 6,
+  "para": 7,
   "idx": 1,
   "kind": "photo",
   "size": "EWS",
@@ -3052,9 +3146,9 @@
   "desc": "Cappadocian landscape at sunset"
  },
  {
-  "id": "20-06-2",
+  "id": "20-07-2",
   "chapter": "20_what_we_know",
-  "para": 6,
+  "para": 7,
   "idx": 2,
   "kind": "card",
   "size": "CARD",

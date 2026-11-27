@@ -1,0 +1,135 @@
+{
+ "id": "00_cold_open",
+ "title": "COLD OPEN",
+ "paras": [
+  {
+   "wav": "build/narration/00_cold_open/00.wav",
+   "dur": 38.412,
+   "sentences": [
+    {
+     "text": "How do you build a city eighty-five metres down, into solid rock, with nothing but hand tools?",
+     "start": 0.0,
+     "end": 6.415
+    },
+    {
+     "text": "And why would anyone want to?",
+     "start": 6.795,
+     "end": 8.566
+    },
+    {
+     "text": "Beneath an ordinary town in central Turkey there is a second town.",
+     "start": 8.947,
+     "end": 13.529
+    },
+    {
+     "text": "It was not built.",
+     "start": 13.909,
+     "end": 15.176
+    },
+    {
+     "text": "It was dug, straight down into the rock, level below level.",
+     "start": 15.556,
+     "end": 19.362
+    },
+    {
+     "text": "It had stables, kitchens, wine presses, wells and a church, and doors of solid stone that could be rolled shut from the inside.",
+     "start": 19.742,
+     "end": 28.354
+    },
+    {
+     "text": "This is Derinkuyu.",
+     "start": 28.734,
+     "end": 30.426
+    },
+    {
+     "text": "In this film we answer three questions: how it was built, who built it, and why people would choose to live underground.",
+     "start": 30.806,
+     "end": 38.412
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/00_cold_open/01.wav",
+   "dur": 23.048,
+   "sentences": [
+    {
+     "text": "For centuries the town above had almost forgotten it.",
+     "start": 0.0,
+     "end": 3.374
+    },
+    {
+     "text": "Then, in 1963, a man renovating his house knocked through a wall and found a passage behind it.",
+     "start": 3.754,
+     "end": 10.984
+    },
+    {
+     "text": "The passage led to another, and that one led down.",
+     "start": 11.364,
+     "end": 14.548
+    },
+    {
+     "text": "What the people of Derinkuyu uncovered over the following years was one of the largest underground settlements ever found.",
+     "start": 14.928,
+     "end": 23.048
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/00_cold_open/02.wav",
+   "dur": 19.594,
+   "sentences": [
+    {
+     "text": "It was not alone.",
+     "start": 0.0,
+     "end": 1.299
+    },
+    {
+     "text": "Across the region of Cappadocia, dozens of other underground settlements have been found, some small, some huge, a few joined, perhaps, by tunnels.",
+     "start": 1.679,
+     "end": 11.856
+    },
+    {
+     "text": "Together they are among the strangest things that people have ever made: whole villages that could vanish into the ground.",
+     "start": 12.236,
+     "end": 19.594
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/00_cold_open/03.wav",
+   "dur": 21.848,
+   "sentences": [
+    {
+     "text": "But almost everything you may have heard about it needs checking.",
+     "start": 0.0,
+     "end": 3.106
+    },
+    {
+     "text": "That it has eighteen levels.",
+     "start": 3.486,
+     "end": 5.371
+    },
+    {
+     "text": "That twenty thousand people lived in it.",
+     "start": 5.751,
+     "end": 8.113
+    },
+    {
+     "text": "That a Greek soldier described it two and a half thousand years ago.",
+     "start": 8.493,
+     "end": 12.772
+    },
+    {
+     "text": "Some of this is true, some is exaggerated, and some is simply wrong.",
+     "start": 13.152,
+     "end": 18.004
+    },
+    {
+     "text": "Let us go down and see what the evidence actually says.",
+     "start": 18.384,
+     "end": 21.848
+    }
+   ]
+  }
+ ]
+}

@@ -11,4 +11,7 @@ What researchers can use is the shape of the rooms. A cross-shaped church with t
 > WS | slow pan | photo | neutral | | Rock-cut church with dated frescoes in Göreme [q: Goreme open air museum church fresco]
 > TL | static | timeline | map | | Bronze Age: merchants at Kanesh (no link to Derinkuyu known) ; 8th–6th centuries BC: Phrygian period (link suggested, not proven) ; 4th century AD: Christian Cappadocia ; 7th–10th centuries: the raids, main period of use ; until 1923: still used
 
+Science can sometimes help where the rock cannot. Where soot from lamps, charcoal from a hearth or seeds and bones survive in an undisturbed corner, radiocarbon dating can give a date for when they were left there. But such deposits are rare in a city that has been cleared and reused so many times, and a date for a hearth tells you when someone lit a fire, not when the room around it was cut. Every date has to be read with that in mind.
+> WS | slow push | photo | neutral | | Carved room in Kaymaklı {LT: Kaymaklı | a neighbouring underground city} [q: Kaymakli underground city 8887 Nevit]
+
 That uncertainty is not a failure. It is the honest state of the evidence, and it is exactly where the myths rush in to fill the gap.

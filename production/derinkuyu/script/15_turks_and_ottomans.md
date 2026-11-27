@@ -9,6 +9,9 @@ A new state grew up on the plateau, the Seljuk Sultanate of Rum, with its capita
 > WS | slow push | photo | neutral | | The Seljuk caravanserai of Sultanhanı near Aksaray {LT: Sultanhanı caravanserai | near Aksaray, 1229} [q: Sultanhani caravanserai Aksaray]
 > MS | slow pan | photo | neutral | | Carved portal of a Seljuk caravanserai [q: Sultanhani portal]
 
+Caravanserais like this were built along the main trade roads of the sultanate, roughly a day's travel apart, so that merchants, their animals and their goods could shelter behind high walls for the night. Inside there was a courtyard, rooms, stables and often a small mosque. The roads that the Assyrian merchants of Kanesh had used three thousand years earlier were busy again, and the sultans protected them because trade paid for their state.
+> WS | slow pan | photo | neutral | | Courtyard of a Seljuk caravanserai [q: Sultanhani caravanserai courtyard]
+
 The Christians of Cappadocia did not disappear. Under the Seljuks and later under the Ottoman sultans, Christian villages survived across the region, side by side with Muslim ones. Churches went on being cut and painted, more modestly than before. In the valleys there are Greek inscriptions from the Seljuk period and later.
 > WS | drift | photo | neutral | | Later rock-cut church in Cappadocia [q: Cappadocia church Soganli]
 > EWS | slow pan | photo | neutral | | Soğanlı valley, Cappadocia {LT: The Soğanlı valley | south of Derinkuyu} [q: Soganli valley Cappadocia]
