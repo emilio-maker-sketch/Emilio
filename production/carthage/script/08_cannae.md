@@ -7,7 +7,7 @@ By 216 BC, Rome had lost patience with delay. The voters elected two new consuls
 
 They found him in Apulia, in the south-east of Italy, near a small hilltop town called Cannae, beside the river Aufidus. Hannibal had perhaps forty thousand infantry and ten thousand cavalry. He was outnumbered almost two to one. On the second of August, by the Roman calendar, the two armies formed up on the flat ground by the river.
 > MAP | slow push | map | map | | Map of Italy zooming to Apulia: Hannibal's movements from Trasimene to Cannae, 217 to 216 BC
-> WS | slow pan | photo | neutral | | Cannae battlefield and the Ofanto plain [q: Canne della Battaglia]
+> WS | slow pan | photo | neutral | | Cannae battlefield and the Ofanto plain {LT: Cannae today | the hill above the battlefield} [q: Canne della Battaglia]
 > STAT | static | stat | gold | | 40,000 infantry · 10,000 cavalry :: Hannibal's army, outnumbered almost two to one
 
 The Romans planned to smash through the centre with sheer weight of numbers. Hannibal read their plan, and used it against them. In the centre he placed his Gauls and Spaniards, the least reliable troops, in a line that bulged forward toward the enemy like a crescent. On either side, held back, stood his best African infantry. On the wings, his cavalry.

@@ -178,28 +178,30 @@ def plan(_=None):
                     try: w0 = Image.open(src).size[0]
                     except Exception: return 0
                     c = crop or [0, 0, 1, 1]; return w0 * (c[2] - c[0]) * frac
-                if s['kind'] in ('still', 'vid', 'photo', 'detail') and du > MAX_HOLD and not (not (s['kind'] == 'vid' and os.path.exists(clip)) and s.get('src') and detail_px(s['src'], s.get('crop')) < 900):
+                fracs = [0.82, 0.66, 0.74, 0.6]
+                if s.get('src') and detail_px(s['src'], s.get('crop')) < 900 and detail_px(s['src'], s.get('crop'), 0.78) >= 900: fracs = [0.92, 0.78, 0.86, 0.8]   # mid resolution: wider framings only
+                if s['kind'] in ('still', 'vid', 'photo', 'detail') and du > MAX_HOLD and not (not (s['kind'] == 'vid' and os.path.exists(clip)) and s.get('src') and detail_px(s['src'], s.get('crop'), min(fracs)) < 900):
                     if os.path.exists(clip) and s['kind'] == 'vid':
                         first = min(du - 2.6, 5.6); beats = [first] + [(du - first) / max(1, math.ceil((du - first) / MAX_HOLD))] * max(1, math.ceil((du - first) / MAX_HOLD))
                     else:
                         nb = min(4, math.ceil(du / 7.0)); beats = [du / nb] * nb
                 elif s['kind'] in GRAPHIC and du > 15.5 and prev_img and detail_px(prev_img[0], prev_img[1], 0.7) >= 900:
-                    beats = [12.5, du - 12.5]       # graphic, then a slow detail reprise of the last picture
+                    nr = math.ceil((du - 12.5) / MAX_HOLD); beats = [12.5] + [(du - 12.5) / nr] * nr   # graphic, then detail reprises of the last picture, none longer than MAX_HOLD
                 else: beats = [du]
                 bt = st
                 for bi, bd in enumerate(beats):
                     if bi and s['kind'] in GRAPHIC:
-                        it = {'type': 'shot', 'id': s['id'] + '#r', 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
-                              'kind': 'still', 'size': 'CU', 'grade': prev_img[2], 'desc': '', 'beat': 1, 'src': prev_img[0], 'crop': window(prev_img[1], prev_img[3], 0.7),
-                              'focus': prev_img[3], 'move': 'drift'}
-                        it['tr'] = list(choose_trans(prev, it, False, False)); tl.append(it); prev = it; prev_move = 'drift'; bt += bd; continue
+                        it = {'type': 'shot', 'id': s['id'] + '#r' + (str(bi) if bi > 1 else ''), 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
+                              'kind': 'still', 'size': 'CU', 'grade': prev_img[2], 'desc': '', 'beat': bi, 'src': prev_img[0], 'crop': window(prev_img[1], prev_img[3], (0.7, 0.92, 0.8)[(bi - 1) % 3]),
+                              'focus': prev_img[3], 'move': ('drift', 'push', 'pull')[(bi - 1) % 3]}
+                        it['tr'] = list(choose_trans(prev, it, False, False)); tl.append(it); prev = it; prev_move = it['move']; bt += bd; continue
                     it = {'type': 'shot', 'id': s['id'] + (f'#{bi}' if bi else ''), 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
                           'kind': s['kind'], 'size': s['size'], 'grade': s['grade'], 'desc': s['desc'], 'beat': bi}
                     for key in ('src', 'crop', 'quote', 'attrib', 'sides', 'bg_grade', 'focus'):
                         if s.get(key) is not None: it[key] = s[key]
                     if bi and s.get('focus'):
                         f = s['focus2'] if (bi == 2 and s.get('focus2')) else s['focus']
-                        it['crop'] = window(s.get('crop'), f, [0.82, 0.66, 0.74, 0.6][bi % 4]); it['focus'] = f
+                        it['crop'] = window(s.get('crop'), f, fracs[bi % 4]); it['focus'] = f
                     if bi == 0 and os.path.exists(clip) and s['kind'] == 'vid': it['clip'] = clip
                     if bi == 0 and s.get('lt'): it['lt'] = s['lt']
                     it['move'] = choose_move(dict(s, move=s['move'] if bi == 0 else ['push', 'drift', 'pull', 'tilt'][(bi - 1 + zlib.crc32(s['id'].encode())) % 4]), prev_move)
@@ -369,7 +371,7 @@ def load_clip(path, gkey):
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True, check=True).stdout
     out = []
     for f in np.frombuffer(raw, np.uint8).reshape(-1, h, w, 3):
-        a = np.asarray(cover(Image.fromarray(f), 1152, 648), np.float32) / 255
+        a = np.asarray(cover(Image.fromarray(f), 1152, 648)[0], np.float32) / 255
         out.append((np.clip(grade(a, gkey), 0, 1) * 255).astype(np.uint8))
     return out
 

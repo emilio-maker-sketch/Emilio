@@ -54,12 +54,12 @@
   "note": ""
  },
  "z_00-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.6
   ],
-  "note": "modern-looking buildings at top cropped",
+  "note": "frame re-check after render: modern apartment blocks behind the gate",
   "crop": [
    0,
    0.35,
@@ -124,20 +124,20 @@
   "note": ""
  },
  "z_01-02-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.55
   ],
-  "note": ""
+  "note": "frame re-check after render: modern town on the shore"
  },
  "z_01-03-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.43,
    0.27
   ],
-  "note": ""
+  "note": "frame re-check after render: holds a telescope-like tube"
  },
  "z_01-03-1": {
   "status": "VERIFIED",
@@ -164,20 +164,20 @@
   "note": ""
  },
  "z_02-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.45
   ],
-  "note": "replacement"
+  "note": "frame re-check after render: medieval crenellated castle, modern buildings"
  },
  "z_02-00-2": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.55
   ],
-  "note": "modern-looking quay buildings cropped",
+  "note": "frame re-check after render: modern marina and buildings behind",
   "crop": [
    0,
    0.3,
@@ -186,12 +186,12 @@
   ]
  },
  "z_02-01-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.55
   ],
-  "note": "replacement"
+  "note": "frame re-check after render: electric cables and wall lamp"
  },
  "z_02-02-1": {
   "status": "VERIFIED",
@@ -418,12 +418,12 @@
   "note": ""
  },
  "z_05-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.35,
    0.4
   ],
-  "note": ""
+  "note": "frame re-check after render: modern metal-nib pen"
  },
  "z_06-00-1": {
   "status": "VERIFIED",
@@ -744,12 +744,12 @@
   "note": "Renaissance villas and medieval towers: not 3rd-century BC Rome"
  },
  "z_09-03-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.45
   ],
-  "note": ""
+  "note": "frame re-check after render: paper sheet with gibberish text"
  },
  "z_09-03-1": {
   "status": "VERIFIED",
@@ -772,12 +772,12 @@
   "note": "medieval round towers: not the walls of Rome"
  },
  "z_09-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.35
   ],
-  "note": ""
+  "note": "frame re-check after render: street lamp post"
  },
  "z_09-06-1": {
   "status": "VERIFIED",
@@ -876,12 +876,12 @@
   "note": ""
  },
  "z_10-06-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.35
   ],
-  "note": ""
+  "note": "frame re-check after render: sunglasses"
  },
  "z_11-00-1": {
   "status": "VERIFIED",
@@ -908,12 +908,12 @@
   "note": ""
  },
  "z_11-01-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.5
   ],
-  "note": ""
+  "note": "frame re-check after render: modern valved brass trumpets"
  },
  "z_11-01-2": {
   "status": "REJECTED",
@@ -986,24 +986,24 @@
   ]
  },
  "z_12-00-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.3
   ],
-  "note": ""
+  "note": "frame re-check after render: paper with AI gibberish text"
  },
  "z_12-01-0": {
   "status": "REJECTED",
   "note": "paved road"
  },
  "z_12-02-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.6
   ],
-  "note": "dome cropped",
+  "note": "frame re-check after render: domed church on the hill",
   "crop": [
    0,
    0.38,
@@ -1012,12 +1012,12 @@
   ]
  },
  "z_12-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": "modern beach in background cropped",
+  "note": "frame re-check after render: glass wine bottle",
   "crop": [
    0.2,
    0.3,
@@ -1086,12 +1086,12 @@
   "note": ""
  },
  "z_13-01-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.3
   ],
-  "note": "AI map lettering cropped out",
+  "note": "frame re-check after render: modern patio umbrella and printed map",
   "crop": [
    0,
    0,
@@ -1108,12 +1108,12 @@
   "note": ""
  },
  "z_13-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.62,
    0.6
   ],
-  "note": "replacement; dome on far hill cropped",
+  "note": "frame re-check after render: domed building, modern harbour",
   "crop": [
    0.3,
    0.22,
@@ -1186,12 +1186,12 @@
   "note": "Viking-style boat"
  },
  "z_14-02-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.3,
    0.75
   ],
-  "note": "pointed arch gate cropped out",
+  "note": "frame re-check after render: medieval castle gate",
   "crop": [
    0,
    0.42,
@@ -1200,20 +1200,20 @@
   ]
  },
  "z_14-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.5
   ],
-  "note": ""
+  "note": "frame re-check after render: medieval great helms"
  },
  "z_14-03-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.3
   ],
-  "note": ""
+  "note": "frame re-check after render: modern railing"
  },
  "z_14-03-1": {
   "status": "VERIFIED",
@@ -1236,12 +1236,12 @@
   "note": "modern pier and schooner"
  },
  "z_14-04-2": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.3
   ],
-  "note": "glass lantern cropped out",
+  "note": "frame re-check after render: glass oil lantern",
   "crop": [
    0,
    0.05,
@@ -1274,20 +1274,20 @@
   "note": ""
  },
  "z_15-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.55
   ],
-  "note": "replacement"
+  "note": "frame re-check after render: medieval round towers, modern city"
  },
  "z_15-01-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": "castle-like wall top cropped",
+  "note": "frame re-check after render: medieval castle wall",
   "crop": [
    0,
    0.35,
@@ -1332,12 +1332,12 @@
   "note": ""
  },
  "z_15-04-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.6
   ],
-  "note": "modern-looking town cropped",
+  "note": "frame re-check after render: church bell tower in the town",
   "crop": [
    0,
    0.4,
@@ -1358,12 +1358,12 @@
   "note": "modern-looking harbour town"
  },
  "z_15-07-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": "medieval wall top cropped",
+  "note": "frame re-check after render: medieval castle with round towers",
   "crop": [
    0,
    0.5,
@@ -1412,20 +1412,20 @@
   "note": ""
  },
  "z_16-01-2": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.55
   ],
-  "note": "replacement"
+  "note": "frame re-check after render: modern concrete building"
  },
  "z_16-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.5
   ],
-  "note": ""
+  "note": "frame re-check after render: AI image that looks like a real excavation photo"
  },
  "z_16-02-2a": {
   "status": "VERIFIED",
@@ -1502,12 +1502,12 @@
   "note": ""
  },
  "z_17-02-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.5
   ],
-  "note": "Roman Carthage, 2nd century AD"
+  "note": "frame re-check after render: modern town and metal roofs"
  },
  "z_17-05-1": {
   "status": "REJECTED",
@@ -1770,10 +1770,16 @@
  "16-02-0": {
   "status": "VERIFIED",
   "focus": [
-   0.5,
-   0.6
+   0.35,
+   0.58
   ],
-  "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+  "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image; cropped below the modern building at top left",
+  "crop": [
+   0,
+   0.36,
+   1,
+   1
+  ]
  },
  "17-00-2": {
   "status": "VERIFIED",

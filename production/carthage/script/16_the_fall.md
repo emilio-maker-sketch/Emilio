@@ -11,7 +11,7 @@ From the agora, three narrow streets climbed the hill to the Byrsa, the citadel 
 > WS | crane-up | still | fire | @carthage | Fire spreading along a steep street of tall flat-roofed houses on a hillside, smoke pouring into the sky
 
 The excavations on the Byrsa hill in the 1970s and 1980s, led by the French archaeologist Serge Lancel, found exactly this: a district of tall houses built in the second century BC, ending in a thick layer of ash, burnt timber, fallen roof tiles and sling stones.
-> WS | slow pan | photo | neutral | | Punic houses of the Hannibal quarter on the Byrsa hill [q: Quartier Hannibal Byrsa Carthage]
+> WS | slow pan | photo | neutral | | Punic houses of the Hannibal quarter on the Byrsa hill {LT: The Byrsa hill today | the Punic houses excavated by the French mission} [q: Quartier Hannibal Byrsa Carthage]
 > CU | slow push | still | ash | | An archaeological trench cut through a thick black layer of ash and charred roof beams, a trowel and a label on the earth
 > SPLIT | static | split | neutral | | Before: the Byrsa district, 2nd century BC {z: Reconstruction of a hillside district of ancient Carthage in the 2nd century BC, tall whitewashed flat-roofed houses on stepped streets, morning sun} || After: the same hill today [q: Byrsa hill Punic quarter ruins Carthage]
 

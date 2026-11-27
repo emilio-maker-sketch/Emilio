@@ -20,7 +20,7 @@ That winter almost all of Hannibal's elephants died of the cold. In the spring o
 
 The new consul, Gaius Flaminius, followed him south. Near Lake Trasimene, the road ran along a narrow strip between the water and a line of hills. Hannibal hid his entire army on the hills overnight. In the morning a thick mist rose off the lake. The Roman column marched into the valley without scouting it.
 > MAP | slow push | map | map | | Map of Lake Trasimene, June 217 BC: the road along the north shore, Hannibal's army hidden in the hills, the Roman column entering the trap
-> WS | slow push | photo | neutral | | Lake Trasimene in the morning mist [q: Lago Trasimeno nebbia]
+> WS | slow push | photo | neutral | | Lake Trasimene in the morning mist {LT: Lake Trasimene today | Umbria, Italy} [q: Lago Trasimeno nebbia]
 > WS | track | vid | dawn | @legion | A long column of Roman soldiers marching along a narrow lakeside road in thick morning fog, unaware of shapes on the hills above
 
 At a signal, Hannibal's men charged down out of the fog from every direction. The Romans could not see the enemy, could not form up, could not run. Livy says the fighting was so fierce that no one noticed an earthquake. Flaminius was killed by a Gallic horseman. In three hours, about fifteen thousand Romans died. Thousands more drowned trying to swim out into the lake.

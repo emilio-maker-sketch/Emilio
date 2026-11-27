@@ -25,6 +25,7 @@ At Syracuse, a Roman army and fleet laid siege to the city in 213 BC. For two ye
 In 211, while Roman armies besieged Capua, Hannibal marched on Rome itself, hoping to draw them away. He camped five kilometres from the city and rode up to the walls with his cavalry. Livy says that, at that very moment, the land where Hannibal was camped was put up for sale in Rome, and sold at full price. The Romans did not lift the siege. Hannibal withdrew, and Capua fell.
 > WS | slow push | still | gold | @hannibal,@numidians | A commander with a patched eye on horseback with a small cavalry escort in front of the tall stone walls and gate of Rome, defenders crowding the battlements
 > MS | static | still | gold | @romans | A Roman auctioneer on a platform in a crowded forum selling a plot of land, citizens bidding confidently
+> MAP | slow push | map | map | | Map of Hannibal's march from Capua to Rome, 211 BC
 
 Then, in 207 BC, Hannibal's brother Hasdrubal crossed the Alps from Spain with a second army. If the brothers could join forces, the war might still be won. But Hasdrubal's messengers were captured. A Roman consul marched north in secret, joined his colleague, and at the river Metaurus destroyed Hasdrubal's army. Hasdrubal was killed. The Romans cut off his head, carried it south, and threw it into Hannibal's camp.
 > MAP | track | map | map | | Map of 207 BC: Hasdrubal's route over the Alps, the Roman consul's secret march north, and the battle of the Metaurus

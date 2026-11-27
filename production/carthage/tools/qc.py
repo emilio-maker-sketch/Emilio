@@ -93,6 +93,12 @@ def main():
     for s_, ids in use.items():
         if len(ids) > 1:
             for i in ids[1:]: fails[i].append(f'REUSE same image as {ids[0]}')
+    import hashlib   # the same picture saved under two file names is still a reuse
+    seen = {}
+    for s_, ids in use.items():
+        h = hashlib.md5(open(s_, 'rb').read()).hexdigest() if os.path.exists(s_) else s_
+        if h in seen: fails[ids[0]].append(f'REUSE same picture as {seen[h]} (different file)')
+        else: seen[h] = ids[0]
     # TECH
     for a, b_ in zip(sh, sh[1:]):
         if a['chapter'] == b_['chapter'] and b_['start'] - (a['start'] + a['dur']) > 0.05: fails[a['id']].append('TECH gap after shot')

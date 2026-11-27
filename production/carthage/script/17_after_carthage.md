@@ -17,10 +17,10 @@ The curse did not last long. A generation later, the reformer Gaius Gracchus tri
 
 The Phoenician language, Punic, lived on too. It was still spoken in the countryside of North Africa six hundred years after the fall, in the time of Augustine. Carthage itself passed to the Vandals, then the Byzantines, and was finally abandoned after the Arab conquest at the end of the seventh century, its stones carried off for centuries to build Tunis and other cities.
 > CU | scan | photo | neutral | | Neo-Punic inscription [q: Neo-Punic inscription]
-> WS | slow push | photo | neutral | | Tunis and the Gulf from Carthage [q: Gulf of Tunis from Carthage Byrsa view]
+> WS | slow push | photo | neutral | | Tunis and the Gulf from Carthage {LT: Carthage today | looking out over the Gulf of Tunis} [q: Gulf of Tunis from Carthage Byrsa view]
 
 Today the site of Carthage is a quiet suburb of Tunis, with villas, gardens and a presidential palace. Since 1979 it has been a UNESCO World Heritage Site. You can still walk around the circular harbour, now a lagoon, with its small round island where the admiral's tower once stood. On the Byrsa hill, the houses that burned in 146 BC have been uncovered again. And in the tophet, the little stones of Tanit still stand in the grass.
-> EWS | aerial | photo | neutral | | Aerial view of the Punic ports of Carthage [q: Carthage ports puniques vue aérienne]
+> EWS | aerial | photo | neutral | | Aerial view of the Punic ports of Carthage {LT: Carthage today | the two Punic harbours from the air} [q: Carthage ports puniques vue aérienne]
 > WS | slow push | photo | neutral | | Tophet stelae among plants at Carthage [q: Carthage tophet stelae garden]
 > CU | slow push | photo | neutral | | Carthage National Museum on Byrsa hill [q: Carthage National Museum Byrsa]
 
@@ -34,6 +34,6 @@ Cato died in 149 BC, before he could see the war he had demanded won. Scipio Aem
 > WS | slow pan | still | snow | @hannibal,@elephants | A lone commander on horseback beside an elephant on a snowy mountain ridge at sunset, looking out over endless peaks
 
 For generations, Romans used the words Hannibal at the gates to mean mortal danger. They never forgot that, for fifteen years, one man from a city they destroyed had held Rome itself in the balance. Carthage had been the New City. Rome made sure it would also be the last city of its kind. And Scipio's fear, at least, came true. Six centuries later, Rome itself would be sacked, and its empire in the west would fall.
-> EWS | slow push | photo | neutral | | The Punic ports of Carthage at sunset [q: Carthage sunset Punic ports]
+> EWS | slow push | photo | neutral | | The Punic ports of Carthage at sunset {LT: Carthage today | the Punic harbours at dusk} [q: Carthage sunset Punic ports]
 > CU | static | photo | neutral | | Carthaginian coin with horse head [q: Carthage coin horse head Siculo-Punic]
 > CARD | static | card | map | | End card

@@ -562,6 +562,10 @@
   "move": "slow pan",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "The Byrsa hill today",
+   "remains of the Punic quarter"
+  ],
   "q": "Punic quarter Byrsa Carthage ruins",
   "desc": "Punic quarter ruins on Byrsa hill, Carthage"
  },
@@ -643,6 +647,10 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Carthage today",
+   "the site of the circular naval harbour"
+  ],
   "q": "Punic ports Carthage circular harbour",
   "desc": "Punic ports of Carthage today, the circular harbour"
  },
@@ -2149,6 +2157,10 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Lake Trasimene today",
+   "Umbria, Italy"
+  ],
   "q": "Lago Trasimeno nebbia",
   "desc": "Lake Trasimene in the morning mist"
  },
@@ -2362,6 +2374,10 @@
   "move": "slow pan",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Cannae today",
+   "the hill above the battlefield"
+  ],
   "q": "Canne della Battaglia",
   "desc": "Cannae battlefield and the Ofanto plain"
  },
@@ -2756,6 +2772,18 @@
    "romans"
   ],
   "desc": "A Roman auctioneer on a platform in a crowded forum selling a plot of land, citizens bidding confidently"
+ },
+ {
+  "id": "09-05-2",
+  "chapter": "09_the_long_war",
+  "para": 5,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Hannibal's march from Capua to Rome, 211 BC"
  },
  {
   "id": "09-06-0",
@@ -4503,6 +4531,10 @@
   "move": "slow pan",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "The Byrsa hill today",
+   "the Punic houses excavated by the French mission"
+  ],
   "q": "Quartier Hannibal Byrsa Carthage",
   "desc": "Punic houses of the Hannibal quarter on the Byrsa hill"
  },
@@ -4799,6 +4831,10 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Carthage today",
+   "looking out over the Gulf of Tunis"
+  ],
   "q": "Gulf of Tunis from Carthage Byrsa view",
   "desc": "Tunis and the Gulf from Carthage"
  },
@@ -4812,6 +4848,10 @@
   "move": "aerial",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Carthage today",
+   "the two Punic harbours from the air"
+  ],
   "q": "Carthage ports puniques vue aérienne",
   "desc": "Aerial view of the Punic ports of Carthage"
  },
@@ -4915,6 +4955,10 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "Carthage today",
+   "the Punic harbours at dusk"
+  ],
   "q": "Carthage sunset Punic ports",
   "desc": "The Punic ports of Carthage at sunset"
  },

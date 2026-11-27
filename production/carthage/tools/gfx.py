@@ -626,12 +626,20 @@ def d_newcarthage(G):
     G.route([nrm(450, 1000), nrm(900, 900), nrm(1380, 950)], ROM, [0.5, 0.85], w=12, dash=True); G.add(text_layer([((850, 1250), 'wading at low water', 60, ITA, ROM, 'mm')]), [0.65, 0.8])
     G.focus = None; G.zoom = 1.04; finish(G, base)
 
+def m_rome211(G):
+    P = Proj(10.5, 17.5, 39.6, 44.2); base, mask = map_base(P)
+    G.add(title('HANNIBAL MARCHES ON ROME', '211 BC'), [0.0, 0.1], fix=True)
+    cities(G, P, [(*PL['Rome'], 'Rome', 60, -40, -95, True), (*PL['Capua'], 'Capua', 56, 120, 40)], [0.05, 0.2])
+    G.route(R(P, 'Capua', (13.9, 41.5), (13.3, 41.75), (12.75, 41.85), 'Rome'), CAR, [0.2, 0.7], w=11)
+    G.pulse(P.n(*PL['Rome']), (200, 60, 40), [0.7, 1.0])
+    G.add(legend([(CAR, 'Hannibal')], 'route approximate'), [0.5, 0.65], fix=True); G.focus = P.n(13.4, 41.5); G.zoom = 1.15; finish(G, base)
+
 GFX = {'12-03-4': d_harbours, '01-00-0': m_phoenicia, '01-01-1': m_trade, '02-00-0': m_empire300, '02-02-0': d_harbours, '03-00-0': m_sicily264, '03-02-0': d_corvus,
        '03-03-0': m_regulus, '03-06-0': m_aegates, '03-07-0': m_241, '04-02-0': m_sardinia, '04-05-0': lambda G: m_spain(G), '04-06-0': lambda G: m_spain(G, ebro=True),
        '05-03-0': lambda G: m_spain(G, sag=True), '05-05-0': m_plan218, '06-00-0': lambda G: m_march(G, 1), '06-02-0': m_rhone, '06-05-1': m_passes,
        '06-06-2': lambda G: m_march(G, 2), '07-00-2': m_north_italy, '07-02-0': d_trebia, '07-04-0': d_trasimene, '08-01-0': m_to_cannae,
        '08-02-0': lambda G: d_cannae(G, 1), '08-03-0': lambda G: d_cannae(G, 2), '08-04-0': lambda G: d_cannae(G, 3), '09-01-0': m_after_cannae,
-       '09-02-0': m_fronts, '09-06-0': m_metaurus, '10-01-0': d_newcarthage, '10-03-0': m_spain_scipio, '11-00-0': m_africa202, '11-01-0': d_zama,
+       '09-02-0': m_fronts, '09-05-2': m_rome211, '09-06-0': m_metaurus, '10-01-0': d_newcarthage, '10-03-0': m_spain_scipio, '11-00-0': m_africa202, '11-01-0': d_zama,
        '12-01-2': m_exile, '13-00-1': m_numidia, '14-00-0': m_149, '14-03-2': m_inland, '15-00-0': d_walls, '15-04-0': d_siege, '15-05-2': d_channel,
        '16-00-0': d_assault, '16-01-0': d_byrsa, '17-00-1': m_146}
 

@@ -38,6 +38,12 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
 - No image is reused outside deliberate detail beats.
 - A photo of a modern reconstruction (a replica ship) or of a site as it is today (a medieval castle on an ancient hill) carries a lower third that says so, e.g. "a modern reconstruction" or "today".
 - A split-screen label must describe what its picture actually shows (a stele is not an urn).
+- After the render, re-check every AI image at 640 px or larger, not as thumbnails. Look at the background as closely as the subject. Reject on sight:
+  - electric cables, wall lamps, street lamps, metal railings, glass lanterns, glass bottles
+  - sunglasses, metal-nib pens, printed paper or maps with fake lettering, patio umbrellas
+  - domes, church bell towers, medieval round towers and castle walls, great helms, valved brass trumpets
+  - apartment blocks, marinas with white motorboats, concrete buildings, modern field patterns behind a "period" scene
+  - AI images made to look like a real excavation or archive photograph
 
 ## Zoom and crop rules
 - The subject stays in frame for the whole move. Pans and tracks travel toward the subject, never away from it.
@@ -62,3 +68,5 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
 - No gaps between shots, no black stretches outside intended dips, loudness about -14 LUFS with true peak under -1 dB.
 - Keep a backup of anything replaced (`build/gen_rejected`, `build/clips_rejected`).
 - Credit only the photos that are actually on screen. `package.py` reads them from the timeline.
+- No still holds longer than about 8 s. When a graphic outlasts its animation, the tail is split into several reframings of the last picture, each kept above 900 source pixels across.
+- `qc.py` also compares file contents, so one picture saved under two names counts as a reuse.

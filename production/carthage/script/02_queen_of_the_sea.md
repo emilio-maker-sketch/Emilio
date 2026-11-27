@@ -8,7 +8,7 @@ When Tyre itself fell under the power of the great empires of the East, Carthage
 
 The city itself grew into one of the largest in the Mediterranean world. Its houses climbed the slopes of the Byrsa, with tall apartment blocks on narrow streets, and grand villas with gardens on the outskirts. Water was precious, so almost every house had its own cistern. Archaeologists have found bathtubs, mosaic floors and drains that would not look out of place in a Roman town centuries later.
 > WS | slow push | still | gold | @carthage | A narrow ancient street in Carthage climbing a hill between whitewashed five-storey houses with small windows and flat roofs, people in long robes, a donkey with baskets
-> WS | slow pan | photo | neutral | | Punic quarter ruins on Byrsa hill, Carthage [q: Punic quarter Byrsa Carthage ruins]
+> WS | slow pan | photo | neutral | | Punic quarter ruins on Byrsa hill, Carthage {LT: The Byrsa hill today | remains of the Punic quarter} [q: Punic quarter Byrsa Carthage ruins]
 > CU | focus | photo | neutral | | Punic bathtub or house remains at Kerkouane [q: Kerkouane bathtub Punic]
 > MS | crane-down | photo | neutral | | Kerkouane Punic town ruins [q: Kerkouane ruins]
 
@@ -16,7 +16,7 @@ Most famous of all were the harbours. A ship entering from the sea passed first 
 > DIAGRAM | static | diagram | map | | harbours
 > EWS | crane-down | still | gold | @harbour,@ships | Overhead view of an ancient circular naval harbour with a round island in the centre, long rows of covered ship sheds with columns all around the basin, galleys inside
 > WS | track | still | gold | @harbour,@ships | Inside the covered ship sheds of an ancient naval harbour, a row of warship hulls with bronze rams on wooden slipways between pairs of columns
-> WS | slow push | photo | neutral | | Punic ports of Carthage today, the circular harbour [q: Punic ports Carthage circular harbour]
+> WS | slow push | photo | neutral | | Punic ports of Carthage today, the circular harbour {LT: Carthage today | the site of the circular naval harbour} [q: Punic ports Carthage circular harbour]
 
 Carthage was a republic, like Rome. Each year it elected two chief magistrates, called suffetes. There was a council of elders and a popular assembly, and a court of one hundred and four judges who watched over the generals. A general who lost a battle could be put on trial, and sometimes crucified. The Greek philosopher Aristotle admired the Carthaginian constitution and praised its stability.
 > WS | slow pan | still | candle | @carthaginians | A council of bearded Carthaginian elders in long robes seated in a stone hall lit by oil lamps, one standing to speak
