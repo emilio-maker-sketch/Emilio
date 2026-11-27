@@ -364,11 +364,6 @@
   "shot": "05-02-0",
   "source": "Livy 21.4 \"inhumana crudelitas, perfidia plus quam Punica\", translated; spoken identically"
  },
- "Inhuman cruelty, more than Punic treachery.": {
-  "kind": "quote",
-  "shot": "05-02-0",
-  "source": "Livy 21.4 \"inhumana crudelitas, perfidia plus quam Punica\", translated; spoken identically"
- },
  "Here we bring you war and peace. Take whichever you please.": {
   "kind": "quote",
   "shot": "05-04-2",
@@ -487,7 +482,8 @@
  "A rite hardly Roman at all.": {
   "kind": "quote",
   "shot": "09-03-2",
-  "source": "Livy 22.57 \"minime Romano sacro\""
+  "source": "Livy 22.57 \"minime Romano sacro\" ; Livy 22.57.6 \"minime Romano sacro\"; narration quotes it indirectly",
+  "narration": "reviewed"
  },
  "Livy 22.57, on the sacrifice in Rome after Cannae (translated)": {
   "kind": "attribution",
@@ -855,5 +851,951 @@
   "kind": "card",
   "shot": "17-07-2",
   "source": "credits"
+ },
+ "The written accounts": {
+  "kind": "split label",
+  "shot": "02-05-1",
+  "source": "split label: manuscript of Diodorus (a written source)"
+ },
+ "The excavated evidence": {
+  "kind": "split label",
+  "shot": "02-05-1",
+  "source": "split label: Punic stele with the sign of Tanit, Louvre AO 23046"
+ },
+ "Olympias | a modern reconstruction of a Greek trireme": {
+  "kind": "lower third",
+  "shot": "02-06-1",
+  "source": "Olympias, built 1985-87, Hellenic Navy (photo title)"
+ },
+ "THE INVASION OF AFRICA": {
+  "kind": "map text",
+  "shot": "03-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "256 BC": {
+  "kind": "map text",
+  "shot": "03-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Ecnomus": {
+  "kind": "map text",
+  "shot": "03-03-0",
+  "source": "Polybius 1.25"
+ },
+ "Aspis": {
+  "kind": "map text",
+  "shot": "03-03-0",
+  "source": "Polybius 1.29 (Roman landing at Aspis/Clupea)"
+ },
+ "naval battle": {
+  "kind": "map text",
+  "shot": "03-03-0",
+  "source": "Polybius 1.25-28 (battle of Ecnomus, 256 BC)"
+ },
+ "THE AEGATES ISLANDS": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "241 BC": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Aegates Islands": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "Polybius 1.60-61"
+ },
+ "Drepana": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Lilybaeum": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Carthaginian supply fleet": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "Polybius 1.60-61"
+ },
+ "Roman fleet": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "Polybius 1.60-61"
+ },
+ "positions approximate": {
+  "kind": "map text",
+  "shot": "03-06-0",
+  "source": "editorial note on a schematic map/diagram (states that positions or borders are approximate)"
+ },
+ "AFTER THE FIRST WAR": {
+  "kind": "map text",
+  "shot": "03-07-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "SICILY": {
+  "kind": "map text",
+  "shot": "03-07-0",
+  "source": "Sicily became the first Roman province after 241 BC (research.md)"
+ },
+ "first Roman province": {
+  "kind": "map text",
+  "shot": "03-07-0",
+  "source": "research.md claim register"
+ },
+ "ROME SEIZES SARDINIA": {
+  "kind": "map text",
+  "shot": "04-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "238 BC": {
+  "kind": "map text",
+  "shot": "04-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "CARTHAGINIAN SPAIN": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "237–219 BC": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "Polybius 2.1, 3.17 (Hamilcar to Spain 237; Saguntum 219)"
+ },
+ "New Carthage": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "silver mines": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "Polybius 34.9 (silver mines near New Carthage); Diodorus 5.36"
+ },
+ "River Ebro": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "the Ebro treaty, 226 BC": {
+  "kind": "map text",
+  "shot": "04-06-0",
+  "source": "Polybius 2.13"
+ },
+ "Saguntum": {
+  "kind": "map text",
+  "shot": "04-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Inhuman cruelty; a treachery worse than Punic.": {
+  "kind": "quote",
+  "shot": "05-02-0",
+  "source": "Livy 21.4.9 \"inhumana crudelitas, perfidia plus quam Punica\"",
+  "narration": "reviewed"
+ },
+ "SAGUNTUM": {
+  "kind": "map text",
+  "shot": "05-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "219 BC": {
+  "kind": "map text",
+  "shot": "05-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Ebro": {
+  "kind": "map text",
+  "shot": "05-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Sagunto today | the hill of ancient Saguntum": {
+  "kind": "lower third",
+  "shot": "05-03-2",
+  "source": "Livy 21.7 (Saguntum on a hill near the sea); photo title"
+ },
+ "THE PLANS OF 218 BC": {
+  "kind": "map text",
+  "shot": "05-05-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "to Spain": {
+  "kind": "map text",
+  "shot": "05-05-0",
+  "source": "Polybius 3.40-41 (consul Scipio sent to Spain)"
+ },
+ "to Africa": {
+  "kind": "map text",
+  "shot": "05-05-0",
+  "source": "Polybius 3.40-41; Livy 21.17 (consul Sempronius at Lilybaeum for Africa)"
+ },
+ "Hannibal's plan": {
+  "kind": "map text",
+  "shot": "05-05-0",
+  "source": "Polybius 3.34"
+ },
+ "HANNIBAL'S MARCH": {
+  "kind": "map text",
+  "shot": "06-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "218 BC": {
+  "kind": "map text",
+  "shot": "06-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Pyrenees": {
+  "kind": "map text",
+  "shot": "06-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Hannibal's route": {
+  "kind": "map text",
+  "shot": "06-00-0",
+  "source": "Polybius 3.35-56"
+ },
+ "route approximate": {
+  "kind": "map text",
+  "shot": "06-00-0",
+  "source": "editorial note on a schematic map/diagram (states that positions or borders are approximate)"
+ },
+ "THE RHÔNE": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "late summer 218 BC": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "Polybius 3.42"
+ },
+ "Massalia": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Hannibal crosses": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "Polybius 3.42-46"
+ },
+ "Scipio's fleet": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "Polybius 3.41"
+ },
+ "three days too late": {
+  "kind": "map text",
+  "shot": "06-02-0",
+  "source": "Polybius 3.49 (Scipio reached the crossing three days after Hannibal left)"
+ },
+ "WHICH PASS?": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "main theories": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "pass not recorded by Polybius or Livy; modern candidate passes (research.md)"
+ },
+ "Little St Bernard": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "candidate pass (research.md)"
+ },
+ "Mont Cenis": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "candidate pass (research.md)"
+ },
+ "Col du Clapier": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "candidate pass (research.md)"
+ },
+ "Col de la Traversette": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "candidate pass (research.md)"
+ },
+ "Taurini (Turin)": {
+  "kind": "map text",
+  "shot": "06-05-1",
+  "source": "Polybius 3.60"
+ },
+ "Rhône": {
+  "kind": "map text",
+  "shot": "06-06-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Alps": {
+  "kind": "map text",
+  "shot": "06-06-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Po valley": {
+  "kind": "map text",
+  "shot": "06-06-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "NORTHERN ITALY": {
+  "kind": "map text",
+  "shot": "07-00-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "late 218 BC": {
+  "kind": "map text",
+  "shot": "07-00-2",
+  "source": "Polybius 3.64-74"
+ },
+ "Placentia": {
+  "kind": "map text",
+  "shot": "07-00-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Ticinus": {
+  "kind": "map text",
+  "shot": "07-00-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Trebia": {
+  "kind": "map text",
+  "shot": "07-00-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "THE TREBIA": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Mago": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "Polybius 3.71"
+ },
+ "Romans wade the icy river": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "Polybius 3.72"
+ },
+ "ambush from a hidden streambed": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "Polybius 3.71"
+ },
+ "Romans": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "key"
+ },
+ "Carthaginians": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "key"
+ },
+ "positions schematic": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "editorial note on a schematic map/diagram (states that positions or borders are approximate)"
+ },
+ "LAKE TRASIMENE": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "June 217 BC · schematic": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "Ovid, Fasti 6.767 (21 June); Polybius 3.82-84"
+ },
+ "Lake Trasimene": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "Polybius 3.82"
+ },
+ "hills": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "Polybius 3.83"
+ },
+ "the trap springs": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "Polybius 3.84"
+ },
+ "Roman column": {
+  "kind": "map text",
+  "shot": "07-04-0",
+  "source": "Polybius 3.84"
+ },
+ "TO CANNAE": {
+  "kind": "map text",
+  "shot": "08-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "217–216 BC": {
+  "kind": "map text",
+  "shot": "08-01-0",
+  "source": "Polybius 3.86-107"
+ },
+ "Trasimene": {
+  "kind": "map text",
+  "shot": "08-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Cannae": {
+  "kind": "map text",
+  "shot": "08-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "CANNAE": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "2 August 216 BC: deployment": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Gellius 5.17 / Macrobius 1.16 (a.d. IV Non. Sext.); Polybius 3.113"
+ },
+ "Roman infantry": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.113"
+ },
+ "Roman cavalry": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.113"
+ },
+ "allied cavalry": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.113"
+ },
+ "Gauls and Spaniards": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.113-114"
+ },
+ "Africans": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.114"
+ },
+ "Carthaginian cavalry": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.114"
+ },
+ "outnumbered almost two to one": {
+  "kind": "map text",
+  "shot": "08-02-0",
+  "source": "Polybius 3.113-114: about 80,000 Roman infantry against about 40,000"
+ },
+ "the centre gives ground; the cavalry rides round": {
+  "kind": "map text",
+  "shot": "08-03-0",
+  "source": "Polybius 3.115-116"
+ },
+ "the crescent bends backward": {
+  "kind": "map text",
+  "shot": "08-03-0",
+  "source": "Polybius 3.115"
+ },
+ "the trap closes": {
+  "kind": "map text",
+  "shot": "08-04-0",
+  "source": "Polybius 3.115-116"
+ },
+ "surrounded on every side": {
+  "kind": "map text",
+  "shot": "08-04-0",
+  "source": "Polybius 3.116"
+ },
+ "ITALY AFTER CANNAE": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "216–211 BC": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "Livy 22-26"
+ },
+ "Capua": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Tarentum": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "about 310 km in a straight line": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "computed great-circle distance Rome to Cannae"
+ },
+ "Rome and loyal allies": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "Livy 22.61"
+ },
+ "went over to Hannibal (much of the south)": {
+  "kind": "map text",
+  "shot": "09-01-0",
+  "source": "Livy 22.61; Polybius 3.118"
+ },
+ "A WAR ON FOUR FRONTS": {
+  "kind": "map text",
+  "shot": "09-02-0",
+  "source": "Livy 23-25"
+ },
+ "215–212 BC": {
+  "kind": "map text",
+  "shot": "09-02-0",
+  "source": "Livy 23-25"
+ },
+ "Macedon": {
+  "kind": "map text",
+  "shot": "09-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Spain": {
+  "kind": "map text",
+  "shot": "09-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Macedon, allied to Carthage": {
+  "kind": "map text",
+  "shot": "09-02-0",
+  "source": "Polybius 7.9 (treaty of 215 BC)"
+ },
+ "THE METAURUS": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "207 BC": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "Livy 27.46-49"
+ },
+ "Metaurus": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Canusium": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Hasdrubal": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "Livy 27.39-49"
+ },
+ "Roman consul Nero, secret march north": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "Livy 27.43-45"
+ },
+ "routes approximate": {
+  "kind": "map text",
+  "shot": "09-06-0",
+  "source": "editorial note on a schematic map/diagram (states that positions or borders are approximate)"
+ },
+ "NEW CARTHAGE": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "209 BC · schematic": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.9-15; Livy 26.42-46"
+ },
+ "lagoon": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.10"
+ },
+ "harbour": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.10"
+ },
+ "Scipio's camp": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.9"
+ },
+ "main attack": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.12-13"
+ },
+ "wading at low water": {
+  "kind": "map text",
+  "shot": "10-01-0",
+  "source": "Polybius 10.14"
+ },
+ "SCIPIO'S CAMPAIGNS IN SPAIN": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "209–206 BC": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "Polybius 10-11"
+ },
+ "New Carthage 209": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "Polybius 10.9-15"
+ },
+ "Baecula 208": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "Polybius 10.38-40"
+ },
+ "Ilipa 206": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "Polybius 11.20-24"
+ },
+ "Tarraco": {
+  "kind": "map text",
+  "shot": "10-03-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "NORTH AFRICA": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "202 BC": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Utica": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Hadrumetum": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Zama": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Zama: exact site uncertain": {
+  "kind": "map text",
+  "shot": "11-00-0",
+  "source": "research.md (site of the battle is disputed)"
+ },
+ "ZAMA": {
+  "kind": "map text",
+  "shot": "11-01-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "202 BC: the elephant charge": {
+  "kind": "map text",
+  "shot": "11-01-0",
+  "source": "Polybius 15.11-12"
+ },
+ "elephants": {
+  "kind": "map text",
+  "shot": "11-01-0",
+  "source": "Polybius 15.11-12"
+ },
+ "open lanes between the Roman units": {
+  "kind": "map text",
+  "shot": "11-01-0",
+  "source": "Polybius 15.9"
+ },
+ "HANNIBAL'S EXILE": {
+  "kind": "map text",
+  "shot": "12-01-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "195–183 BC": {
+  "kind": "map text",
+  "shot": "12-01-2",
+  "source": "Livy 33.47-49, 39.51"
+ },
+ "Ephesus": {
+  "kind": "map text",
+  "shot": "12-01-2",
+  "source": "Livy 33.49"
+ },
+ "Crete": {
+  "kind": "map text",
+  "shot": "12-01-2",
+  "source": "Nepos, Hannibal 9"
+ },
+ "Bithynia": {
+  "kind": "map text",
+  "shot": "12-01-2",
+  "source": "Livy 39.51"
+ },
+ "MAGO": {
+  "kind": "card",
+  "shot": "12-03-3",
+  "source": "Pliny, Natural History 18.22; Columella 1.1.13"
+ },
+ "a Carthaginian writer on farming": {
+  "kind": "card",
+  "shot": "12-03-3",
+  "source": "Pliny, Natural History 18.22"
+ },
+ "his manual was translated into Latin by order of the Roman Senate": {
+  "kind": "card",
+  "shot": "12-03-3",
+  "source": "Pliny, Natural History 18.22"
+ },
+ "10 warships": {
+  "kind": "statistic",
+  "shot": "12-03-5",
+  "source": "Polybius 15.18 (ten triremes allowed by the peace of 201 BC)"
+ },
+ "all that Carthage was allowed after 201 BC, according to Polybius": {
+  "kind": "statistic",
+  "shot": "12-03-5",
+  "source": "Polybius 15.18"
+ },
+ "CARTHAGE AND NUMIDIA": {
+  "kind": "map text",
+  "shot": "13-00-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "c. 200 to 150 BC": {
+  "kind": "map text",
+  "shot": "13-00-1",
+  "source": "Polybius 31.21; Appian, Punic Wars 67-70"
+ },
+ "Numidia under Masinissa, growing at Carthage's expense": {
+  "kind": "map text",
+  "shot": "13-00-1",
+  "source": "Polybius 31.21; Appian, Punic Wars 68-70"
+ },
+ "THE THIRD WAR BEGINS": {
+  "kind": "map text",
+  "shot": "14-00-0",
+  "source": "Appian, Punic Wars 75"
+ },
+ "149 BC": {
+  "kind": "map text",
+  "shot": "14-00-0",
+  "source": "Appian, Punic Wars 75"
+ },
+ "THE ROMAN ULTIMATUM": {
+  "kind": "map text",
+  "shot": "14-03-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "at least 80 stades (about 15 km) from the sea": {
+  "kind": "map text",
+  "shot": "14-03-2",
+  "source": "Appian, Punic Wars 81 (80 stades = about 14.8 km)"
+ },
+ "THE LANDWARD WALLS": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "cross-section, after Appian; simplified": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "ditch": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "palisade": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "stalls for 300 elephants": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "stables for 4,000 horses,": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "barracks for 20,000 men": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "about 13 m": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "Appian, Punic Wars 95: 30 cubits"
+ },
+ "a man, for scale": {
+  "kind": "map text",
+  "shot": "15-00-0",
+  "source": "scale figure, about 1.7 m"
+ },
+ "Lake of Tunis": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Gulf of Tunis": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "THE SIEGE OF CARTHAGE": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "147 BC": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "Appian, Punic Wars 112-120"
+ },
+ "Byrsa": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "city walls": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "Appian, Punic Wars 95"
+ },
+ "Scipio's siege line": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "Appian, Punic Wars 119"
+ },
+ "the mole": {
+  "kind": "map text",
+  "shot": "15-04-0",
+  "source": "Appian, Punic Wars 121"
+ },
+ "THE NEW CHANNEL": {
+  "kind": "map text",
+  "shot": "15-05-2",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "channel dug in secret": {
+  "kind": "map text",
+  "shot": "15-05-2",
+  "source": "Appian, Punic Wars 121"
+ },
+ "THE FINAL ASSAULT": {
+  "kind": "map text",
+  "shot": "16-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "spring 146 BC": {
+  "kind": "map text",
+  "shot": "16-00-0",
+  "source": "Appian, Punic Wars 127-131"
+ },
+ "agora": {
+  "kind": "map text",
+  "shot": "16-00-0",
+  "source": "Appian, Punic Wars 127"
+ },
+ "THE THREE STREETS TO THE BYRSA": {
+  "kind": "map text",
+  "shot": "16-01-0",
+  "source": "Appian, Punic Wars 128"
+ },
+ "schematic": {
+  "kind": "map text",
+  "shot": "16-01-0",
+  "source": "editorial note on a schematic map/diagram (states that positions or borders are approximate)"
+ },
+ "temple of Eshmun": {
+  "kind": "map text",
+  "shot": "16-01-0",
+  "source": "Appian, Punic Wars 130 (temple of Asclepius, i.e. Eshmun)"
+ },
+ "from the agora": {
+  "kind": "map text",
+  "shot": "16-01-0",
+  "source": "Appian, Punic Wars 128"
+ },
+ "houses six storeys high": {
+  "kind": "map text",
+  "shot": "16-01-0",
+  "source": "Appian, Punic Wars 128"
+ },
+ "146 BC": {
+  "kind": "map text",
+  "shot": "17-00-1",
+  "source": "research.md claim register"
+ },
+ "Corinth": {
+  "kind": "map text",
+  "shot": "17-00-1",
+  "source": "Pausanias 7.16 (Corinth destroyed 146 BC)"
+ },
+ "province of Africa": {
+  "kind": "map text",
+  "shot": "17-00-1",
+  "source": "Appian, Punic Wars 135"
+ },
+ "Roman territory, 146 BC": {
+  "kind": "map text",
+  "shot": "17-00-1",
+  "source": "research.md"
+ },
+ "OUR SOURCES": {
+  "kind": "card",
+  "shot": "17-05-2",
+  "source": "card heading"
+ },
+ "Polybius, a Greek, friend of Scipio Aemilianus": {
+  "kind": "card",
+  "shot": "17-05-2",
+  "source": "Polybius 31.23-25"
+ },
+ "Livy, a Roman, writing under Augustus": {
+  "kind": "card",
+  "shot": "17-05-2",
+  "source": "research.md"
+ },
+ "Appian, a Greek, 2nd century AD": {
+  "kind": "card",
+  "shot": "17-05-2",
+  "source": "research.md (Appian of Alexandria, wrote c. AD 160)"
+ },
+ "Carthaginian control": {
+  "kind": "map text",
+  "shot": "04-05-0",
+  "source": "map key"
+ },
+ "December 218 BC": {
+  "kind": "map text",
+  "shot": "07-02-0",
+  "source": "Polybius 3.72 (winter solstice, 218 BC)"
  }
 }

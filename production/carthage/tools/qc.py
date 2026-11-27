@@ -71,7 +71,7 @@ def main():
     for x in sh:   # quotes that are also spoken must match the narration
         if x['kind'] != 'quote': continue
         if reg.get(x['quote'], {}).get('narration') == 'reviewed': continue   # indirect speech in the narration, checked by eye
-        para = re.sub(r',? (he|she) said,?', '', narr[x['chapter']]['paras'][x['para']]['text']); q = norm(x['quote'])
+        para = re.sub(r',? (he|she) said,?', '', ' '.join(s['text'] for s in narr[x['chapter']]['paras'][x['para']]['sentences'])); q = norm(x['quote'])
         words = norm(para); joined = ' '.join(words)
         overlap = sum(1 for w in q if w in words) / max(1, len(q))
         if overlap > 0.7 and ' '.join(q) not in joined: fails[x['id']].append('TEXT quote differs from the spoken words')

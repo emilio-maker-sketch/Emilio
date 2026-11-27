@@ -27,6 +27,7 @@ Today the site of Carthage is a quiet suburb of Tunis, with villas, gardens and 
 We know Carthage almost entirely through the eyes of its enemies: Polybius, the friend of the man who destroyed it; Livy, who wrote Rome's national epic; and Appian, two centuries later still. Carthage's own books are gone. Its own version of its story is lost. We will never hear its side.
 > CU | scan | photo | neutral | | Polybius stele relief [q: Polybius stele relief Kleitor]
 > CU | slow push | still | candle | | A charred fragment of an ancient scroll with Phoenician letters, lying in ash, lamplight
+> CARD | static | card | candle | | OUR SOURCES · Polybius, a Greek, friend of Scipio Aemilianus · Livy, a Roman, writing under Augustus · Appian, a Greek, 2nd century AD
 
 Cato died in 149 BC, before he could see the war he had demanded won. Scipio Aemilianus, who had wept for Rome as he burned Carthage, was found dead in his bed twenty years later, during the political violence that would eventually tear the Roman Republic apart. And Hannibal, who never captured Rome, became more famous than almost any Roman of his age. Generals have studied his campaigns ever since.
 > TL | static | timeline | map | | 149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 133 BC: Tiberius Gracchus killed in Rome ; 129 BC: Death of Scipio Aemilianus*

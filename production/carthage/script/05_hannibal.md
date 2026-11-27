@@ -11,13 +11,13 @@ What we do have are descriptions written by his enemies. The Roman historian Liv
 > WS | track | still | gold | @hannibal,@punic_army | A Carthaginian commander riding along a line of soldiers on a dusty plain, soldiers cheering as he passes
 
 Livy also gave him a list of vices: inhuman cruelty, and more than Punic treachery. That phrase, Punic faith, became a Roman proverb for lying. We should remember who was writing.
-> QUOTE | static | quote | candle | | "Inhuman cruelty, more than Punic treachery." ~ Livy 21.4 (translated)
+> QUOTE | static | quote | candle | | "Inhuman cruelty; a treachery worse than Punic." ~ Livy 21.4 (translated)
 > CU | scan | photo | neutral | | Medieval manuscript of Livy [q: Livy Ab Urbe Condita manuscript]
 
 Hannibal spent two years strengthening his hold on Spain. Then he turned to Saguntum, a wealthy town on the coast south of the Ebro, which had placed itself under Rome's protection. In 219 BC he laid siege to it. The Saguntines held out for eight months, expecting Roman help that never came. When the city fell, many of its people, according to Livy, burned themselves and their possessions rather than surrender.
 > MAP | slow push | map | map | | Map of eastern Spain zooming in from the Ebro to Saguntum on the coast, 219 BC
 > WS | handheld | still | gold | @punic_army | A Carthaginian army attacking the stone walls of a hilltop Spanish town with a battering ram and siege tower under a hot sky
-> WS | slow push | photo | neutral | | Castle hill of Sagunto [q: Sagunto castle hill]
+> WS | slow push | photo | neutral | | Castle hill of Sagunto {LT: Sagunto today | the hill of ancient Saguntum} [q: Sagunto castle hill]
 > CU | static | still | fire | | Citizens of a besieged ancient town throwing gold and possessions into a great bonfire in a square, flames rising
 
 In Rome, the news caused outrage, and an embassy sailed to Carthage. Its leader, Quintus Fabius, stood before the Carthaginian council and gathered a fold of his toga in his hand. Here, he said, we bring you war and peace. Take whichever you please. Give us whichever you like, the Carthaginians shouted back. Then I give you war, he said, and let the fold fall. They answered that they accepted it.

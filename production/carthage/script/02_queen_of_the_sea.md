@@ -30,10 +30,10 @@ Its people worshipped Phoenician gods: Baal Hammon, and a goddess called Tanit, 
 
 Greek and Roman writers said that the Carthaginians sacrificed their own children to their gods in times of crisis. Some modern scholars have argued that this was enemy propaganda, and that the tophet was simply a cemetery for children who died young. The debate goes on, but many archaeologists now accept that sacrifices did happen, at least at times. It is worth remembering that almost every word we have about Carthage was written by its enemies.
 > CU | static | still | night | | A row of weathered stone grave markers carved with a triangle-and-circle symbol in a dark sacred enclosure lit by a single torch
-> SPLIT | static | split | neutral | | The written accounts [q: Diodorus Siculus manuscript Bibliotheca historica] || The excavated urns [q: Carthage tophet stele urn museum]
+> SPLIT | static | split | neutral | | The written accounts [q: Diodorus Siculus manuscript Bibliotheca historica] || The excavated evidence [q: Carthage tophet stele urn museum]
 
 For centuries Carthage fought the Greek cities of Sicily, above all Syracuse. With Rome, a small city in central Italy, it was on friendly terms. The Greek historian Polybius copied out the text of a treaty between the two cities made in the first year of the Roman Republic. Rome was to stay out of Carthage's waters. Carthage was to leave Rome's Latin allies alone. For two hundred and fifty years, it worked.
 > WS | slow push | still | steel | @ships | Greek and Carthaginian war galleys ramming each other in a sea battle off a rocky Sicilian coast, splintered oars and smoke
-> WS | pan | photo | neutral | | Olympias, a full-size reconstruction of an ancient Greek trireme [q: Olympias trireme]
+> WS | pan | photo | neutral | | Olympias, a full-size reconstruction of an ancient Greek trireme {LT: Olympias | a modern reconstruction of a Greek trireme} [q: Olympias trireme]
 > CU | scan | still | candle | | A bronze treaty tablet with Phoenician and Latin letters on a temple wall, lamplight
 > TL | static | timeline | map | | 509 BC: First treaty with Rome* ; 480 BC: Battle of Himera ; 348 BC: Second treaty ; 279 BC: Alliance against Pyrrhus ; 264 BC: War

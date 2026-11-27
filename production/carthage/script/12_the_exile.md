@@ -19,6 +19,9 @@ Carthaginian agriculture was so admired that, after the city's fall, the Roman S
 > CU | slow push | still | candle | | An ancient scroll of farming instructions with drawings of olive trees and vines, being copied by a Roman scribe
 > SPLIT | static | split | neutral | | The harbour today [q: Carthage Punic ports aerial] || Model of the naval harbour [q: Carthage harbour model museum]
 > WS | slow push | photo | neutral | | Admiralty island of the Punic naval harbour of Carthage [q: Ilot de l'Amirauté Carthage]
+> CARD | static | card | candle | | MAGO · a Carthaginian writer on farming · his manual was translated into Latin by order of the Roman Senate
+> DIAGRAM | static | diagram | map | | harbours
+> STAT | static | stat | steel | | 10 warships :: all that Carthage was allowed after 201 BC, according to Polybius
 
 Hannibal served Antiochus as an adviser and admiral, but the king ignored most of his advice and was crushed by the Romans in 190 BC. The peace treaty demanded that Hannibal be handed over. He fled again, and found shelter at last with King Prusias of Bithynia, in what is now northern Turkey. There, according to the Roman writer Nepos, he won a sea battle for his host by having jars full of poisonous snakes thrown onto the enemy's ships.
 > WS | handheld | still | steel | @ships | Sailors on a galley throwing clay jars onto an enemy ship's deck, the jars smashing open, sailors recoiling in panic
