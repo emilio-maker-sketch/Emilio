@@ -16,4 +16,4 @@ Not every carved hill was so fragile. At Uçhisar, a great crag of tuff rises ov
 > WS | slow push | photo | neutral | | Uçhisar castle rock {LT: Uçhisar | a crag of tuff honeycombed with rooms} [q: Uchisar castle Cappadocia]
 
 Underground, the rock is protected from all of this. There is no frost, no rain and no wind below the first few metres. That is one reason the underground cities have survived better than many of the carved houses above. Their enemy is not the weather but water seeping through the rock, and the slow weight of the ground overhead.
-> WS | drift | photo | neutral | | Well-preserved deep passage in Derinkuyu [q: Derinkuyu Underground City 9886 Nevit]
+> WS | drift | photo | neutral | | Narrow lit passage deep in Derinkuyu [q: POOL 39]

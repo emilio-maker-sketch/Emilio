@@ -25,4 +25,3 @@ In the nineteenth century, some of these villages grew rich. Men went to work in
 > MS | slow pan | photo | neutral | | Carved stone facade in Mustafapaşa [q: Mustafapasa house facade]
 
 And in many of these villages, under the houses, the old underground rooms were still there.
-> MS | slow push | photo | neutral | | Passage leading down from a house into the rock [q: Derinkuyu Underground City.JPG]

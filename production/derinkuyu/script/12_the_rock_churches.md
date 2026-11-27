@@ -24,8 +24,7 @@ The paintings were not only decoration. In a world where few people could read, 
 > CU | drift | photo | neutral | | Damaged fresco faces in a Cappadocian church [q: Cappadocia damaged fresco faces]
 
 These painted churches are the same world as the church deep inside Derinkuyu. The same communities that carved chapels in the cliffs carved refuges under their villages. One was for prayer in the open valleys. The other was for the times when the open valleys were not safe.
-> WS | slow push | photo | neutral | | Cross-shaped church in the lower levels of Derinkuyu [q: Derinkuyu church cruciform]
 > EWS | slow pan | photo | neutral | | Göreme valley with rock-cut churches [q: Goreme Valley in Cappadocia edit1]
 
 And from the seventh century onwards, the times were very rarely safe.
-> WS | drift | photo | neutral | | Dark passage receding into the rock [q: Derinkuyu Underground City 9771 Nevit]
+> WS | drift | photo | neutral | | Passage receding into the rock, Derinkuyu [q: POOL 7]

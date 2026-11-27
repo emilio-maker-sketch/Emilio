@@ -25,4 +25,4 @@ Christianity arrived early. When the New Testament describes the crowd in Jerusa
 > STAT | static | stat | neutral | | Acts 2:9 · 1 Peter 1:1 :: Cappadocia in the New Testament
 
 It is in this Christian Cappadocia that the underground cities first come clearly into view. But before we follow that story, let us go back down into Derinkuyu and see the city itself, level by level.
-> WS | slow push | photo | neutral | | Stairway descending into Derinkuyu [q: Derinkuyu Underground City 9843 Nevit]
+> WS | slow push | photo | neutral | | Stairway descending into Derinkuyu [q: POOL 34]

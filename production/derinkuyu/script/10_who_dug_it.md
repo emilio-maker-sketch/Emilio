@@ -1,8 +1,8 @@
 # WHO DUG IT?
 
 So who were they? This is the hardest question about Derinkuyu, and the honest answer is that no one knows who cut the first chamber. There is no inscription at the entrance and no founder's name. Carved rooms are very hard to date, because rock has no layers that build up over time the way a mound of earth does.
-> WS | slow push | photo | neutral | | Empty carved chamber in Derinkuyu [q: Derinkuyu Underground City 9789 Nevit]
-> CU | slow push | photo | neutral | | Bare tuff wall, Derinkuyu [q: Derinkuyu Underground City 9807 Nevit]
+> WS | slow push | photo | neutral | | Empty carved room, Derinkuyu [q: POOL 41]
+> CU | slow push | photo | neutral | | Bare carved room, Derinkuyu [q: POOL 43]
 
 You will often read that it was begun by the Phrygians, a people of Anatolia in the eighth and seventh centuries before Christ. Some scholars have suggested this, and Phrygians did cut rock monuments elsewhere in Anatolia. But there is no direct evidence linking them to Derinkuyu. It is a possibility, not a fact.
 > WS | slow pan | photo | neutral | | The Midas Monument, a Phrygian rock-cut facade {LT: The Midas Monument | Phrygian rock-cut facade, 6th century BC} [q: Midas monument Midas sehri Phrygian]
@@ -20,4 +20,4 @@ Others have pointed to the Hittites, or to people even older. Again there is no 
 > WS | slow push | photo | neutral | | The Yerkapı tunnel under the ramparts of Hattusa {LT: Yerkapı | Hittite tunnel, Hattusa} [q: Yerkapi tunnel Hattusa]
 
 Most researchers think the city grew in stages. The upper levels and the lower ones are not necessarily the same age, and rooms were widened, joined and dug deeper over many centuries. Derinkuyu was not built. It accumulated.
-> WS | slow push | photo | neutral | | Lower-level chamber in Derinkuyu [q: Derinkuyu Underground City 9815 Nevit Enhancer]
+> WS | slow push | photo | neutral | | Room in the lower levels of Derinkuyu [q: POOL 15]
