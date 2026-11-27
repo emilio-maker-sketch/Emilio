@@ -36,7 +36,7 @@ In 241 BC, with its treasury empty, the Roman Senate accepted loans from private
 > MAP | slow push | map | map | | Map of the Aegates Islands off western Sicily, the battle of 241 BC
 > WS | handheld | still | steel | @ships | Roman galleys ramming heavily loaded Carthaginian ships in rough grey sea off a group of rocky islands
 > CU | slow push | photo | neutral | | Bronze ram from the Battle of the Egadi Islands [q: Egadi rostrum bronze ram]
-> ECU | scan | detail | neutral | | crop=0.15,0.25,0.85,0.75 · the inscription on the ram
+> ECU | scan | detail | neutral | | crop=0.08,0.36,0.68,0.98 · the front bronze ram
 
 Carthage asked for peace. It gave up Sicily, which became Rome's first overseas province, and agreed to pay a huge indemnity of three thousand two hundred talents of silver over ten years. Hamilcar came down from his mountain undefeated, and never forgave the men who had made him surrender.
 > MAP | static | map | map | | Map of the western Mediterranean in 241 BC: Sicily becomes Roman, Carthage keeps Sardinia and North Africa

@@ -174,12 +174,16 @@ def plan(_=None):
                 st, du = t + edges[k], edges[k + 1] - edges[k]
                 clip = os.path.join(B, 'clips', s['id'] + '.mp4')
                 beats = []
-                if s['kind'] in ('still', 'vid', 'photo', 'detail') and du > MAX_HOLD:
+                def detail_px(src, crop, frac=0.6):   # source pixels across the tightest detail framing
+                    try: w0 = Image.open(src).size[0]
+                    except Exception: return 0
+                    c = crop or [0, 0, 1, 1]; return w0 * (c[2] - c[0]) * frac
+                if s['kind'] in ('still', 'vid', 'photo', 'detail') and du > MAX_HOLD and not (not (s['kind'] == 'vid' and os.path.exists(clip)) and s.get('src') and detail_px(s['src'], s.get('crop')) < 900):
                     if os.path.exists(clip) and s['kind'] == 'vid':
                         first = min(du - 2.6, 5.6); beats = [first] + [(du - first) / max(1, math.ceil((du - first) / MAX_HOLD))] * max(1, math.ceil((du - first) / MAX_HOLD))
                     else:
                         nb = min(4, math.ceil(du / 7.0)); beats = [du / nb] * nb
-                elif s['kind'] in GRAPHIC and du > 15.5 and prev_img:
+                elif s['kind'] in GRAPHIC and du > 15.5 and prev_img and detail_px(prev_img[0], prev_img[1], 0.7) >= 900:
                     beats = [12.5, du - 12.5]       # graphic, then a slow detail reprise of the last picture
                 else: beats = [du]
                 bt = st

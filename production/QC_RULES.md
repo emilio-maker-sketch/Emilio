@@ -36,6 +36,8 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
 - AI reconstructions are artistic interpretations. Never present them as photographs or archival records, and say so in the description.
 - If no verified image exists for a sentence, use an accurate neutral visual (a map, a diagram, a text-free texture), not a borrowed or approximate picture.
 - No image is reused outside deliberate detail beats.
+- A photo of a modern reconstruction (a replica ship) or of a site as it is today (a medieval castle on an ancient hill) carries a lower third that says so, e.g. "a modern reconstruction" or "today".
+- A split-screen label must describe what its picture actually shows (a stele is not an urn).
 
 ## Zoom and crop rules
 - The subject stays in frame for the whole move. Pans and tracks travel toward the subject, never away from it.
@@ -48,9 +50,15 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
 - Paraphrase is narration, not a quote card.
 - Dates and numbers come from the claim register in `research.md`. Approximate dates carry "c.", and timelines are in chronological order.
 - Map labels are checked against coordinates. Distances are computed, not guessed.
+- Every map is inspected on a check sheet (`build/gfxcheck`, last frame) at full size. Look for:
+  - labels hidden by routes, pulses or the camera zoom
+  - a city label with no dot
+  - shading that misses land it should cover (Picenum, Sardinia), or that covers places it should not (all the Balearics, Spain before the Barcids)
+- Territory polygons run out into the sea so that the land mask draws the coast. Inland borders are softened and the map says "borders approximate".
 - No decorative text. If a piece of text cannot be verified, leave it out.
 
 ## Technical rules
 - Script edits must not shift shot ids silently. `shotlist.py` refuses until assets and `review.json` are renamed.
 - No gaps between shots, no black stretches outside intended dips, loudness about -14 LUFS with true peak under -1 dB.
 - Keep a backup of anything replaced (`build/gen_rejected`, `build/clips_rejected`).
+- Credit only the photos that are actually on screen. `package.py` reads them from the timeline.

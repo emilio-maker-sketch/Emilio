@@ -1640,10 +1640,16 @@
  "03-06-2": {
   "status": "VERIFIED",
   "focus": [
-   0.4,
-   0.6
+   0.35,
+   0.65
   ],
-  "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+  "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image; cropped to remove a visitor reflected in the glass and the panel text",
+  "crop": [
+   0.12,
+   0.33,
+   0.98,
+   0.95
+  ]
  },
  "04-03-2": {
   "status": "VERIFIED",
@@ -1654,12 +1660,8 @@
   "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
  },
  "04-05-3": {
-  "status": "VERIFIED",
-  "focus": [
-   0.5,
-   0.5
-  ],
-  "note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+  "status": "REJECTED",
+  "note": "Barcid shekel, correct subject, but only 800 px wide: too soft for a full-frame shot"
  },
  "05-00-0b": {
   "status": "VERIFIED",

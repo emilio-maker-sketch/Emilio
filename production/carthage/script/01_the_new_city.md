@@ -19,8 +19,8 @@ One of those settlements, on a peninsula in what is now Tunisia, was given a sim
 According to the legend, the city was founded by a princess of Tyre named Elissa, whom the Romans would call Dido. Her brother, King Pygmalion, had murdered her husband for his wealth. Elissa fled with her followers and the treasure, sailed west, and landed on the African shore.
 > MS | slow push | still | night | | A young Phoenician noblewoman in a dark veil and gold jewellery boarding a ship at night by torchlight, chests carried aboard behind her
 > CU | focus | still | night | | The young Phoenician queen's face lit by torchlight on the deck of a ship at sea, resolute
-> WS | slow pan | photo | neutral | | Dido building Carthage by J. M. W. Turner [q: Turner Dido building Carthage]
-> ECU | reveal | detail | neutral | | crop=0.3,0.25,0.75,0.75 · the builders on the shore
+> WS | slow pan | photo | neutral | | Dido building Carthage by J. M. W. Turner {LT: J. M. W. Turner | Dido Building Carthage, 1815} [q: Turner Dido building Carthage]
+> ECU | reveal | detail | neutral | | crop=0.0,0.48,0.5,0.98 · the builders on the shore
 
 She asked the local ruler for as much land as could be covered by the hide of an ox. He agreed. So she cut the hide into strips so thin that, laid end to end, they circled a whole hill. That hill became the citadel of Carthage, the Byrsa. In Greek, byrsa means ox-hide. It is a good story, but it is almost certainly a pun on a Phoenician word for a fortress.
 > CU | static | still | candle | | Hands cutting a large ox-hide into very thin strips with a bronze knife on a wooden table

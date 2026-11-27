@@ -42,8 +42,10 @@ def main():
     desc += ['Tracks: ' + ', '.join(f'"{u}"' for u in used)]
     cr = json.load(open(os.path.join(B, 'photos', 'credits.json')))
     lines = ['IMAGE CREDITS (Wikimedia Commons; full links in the credits file)']; full = ['IMAGE CREDITS (Wikimedia Commons)']
+    tl = json.load(open(os.path.join(B, 'timeline.json')))['items']; srcs = {x.get('src', '') for x in tl} | {sd.get('src', '') for x in tl for sd in x.get('sides', [])}
+    on_screen = {os.path.splitext(os.path.basename(s_))[0] for s_ in srcs if '/photos/' in s_}   # credit only photos that are actually in the film
     for k, c in sorted(cr.items()):
-        if not os.path.exists(os.path.join(B, 'photos', k + '.jpg')) and not os.path.exists(os.path.join(B, 'photos', k + '.png')): continue
+        if k not in on_screen: continue
         art = ' '.join((c['artist'] or 'unknown').split())
         art = {'Unknown authorUnknown author': 'unknown', 'Horses_of_Basilica_San_Marco.jpg: Tteske derivative work: Morn (talk)': 'Tteske, derivative work by Morn'}.get(art, art)
         full.append(f"- {c['title'][5:].rsplit('.', 1)[0]} · {art} · {c['license']} · {c['page']}")

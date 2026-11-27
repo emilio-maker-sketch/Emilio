@@ -369,6 +369,10 @@
   "move": "slow pan",
   "grade": "neutral",
   "refs": [],
+  "lt": [
+   "J. M. W. Turner",
+   "Dido Building Carthage, 1815"
+  ],
   "q": "Turner Dido building Carthage",
   "desc": "Dido building Carthage by J. M. W. Turner"
  },
@@ -383,10 +387,10 @@
   "grade": "neutral",
   "refs": [],
   "crop": [
-   0.3,
-   0.25,
-   0.75,
-   0.75
+   0.0,
+   0.48,
+   0.5,
+   0.98
   ],
   "parent": "01-03-2",
   "desc": "the builders on the shore"
@@ -1128,13 +1132,13 @@
   "grade": "neutral",
   "refs": [],
   "crop": [
-   0.15,
-   0.25,
-   0.85,
-   0.75
+   0.08,
+   0.36,
+   0.68,
+   0.98
   ],
   "parent": "03-06-2",
-  "desc": "the inscription on the ram"
+  "desc": "the front bronze ram"
  },
  {
   "id": "03-07-0",
@@ -2556,10 +2560,10 @@
   "grade": "candle",
   "refs": [],
   "crop": [
-   0.3,
-   0.5,
-   0.7,
-   0.95
+   0.27,
+   0.52,
+   0.72,
+   0.97
   ],
   "parent": "08-06-0",
   "desc": "the heap of gold rings"

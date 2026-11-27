@@ -32,4 +32,4 @@ What followed was not a battle but a slaughter that lasted the rest of the day. 
 
 Livy tells us that Hannibal's brother Mago later stood before the council in Carthage and poured out the gold rings taken from the fingers of dead Roman nobles: a heap so large that, by some accounts, it filled three and a half bushels. More than two thousand years later, armies still study Cannae. The double envelopment, the perfect encirclement of a larger force, is still often called simply, a Cannae.
 > MS | slow push | still | candle | @carthaginians | A Carthaginian nobleman pouring a heap of gold signet rings from a basket onto a stone floor before a council of bearded elders, lamplight
-> ECU | slow push | detail | candle | | crop=0.3,0.5,0.7,0.95 · the heap of gold rings
+> ECU | slow push | detail | candle | | crop=0.27,0.52,0.72,0.97 · the heap of gold rings
