@@ -10,6 +10,10 @@ For centuries the town above had almost forgotten it. Then, in 1963, a man renov
 > STAT | static | stat | neutral | | 1963 :: the year a house renovation broke into the underground city
 > WS | drift | photo | neutral | | Chamber deep inside Derinkuyu with carved walls [q: Derinkuyu Underground City chamber]
 
+It was not alone. Across the region of Cappadocia, dozens of other underground settlements have been found, some small, some huge, a few joined, perhaps, by tunnels. Together they are among the strangest things that people have ever made: whole villages that could vanish into the ground.
+> EWS | slow pan | photo | neutral | | Cappadocian landscape of fairy chimneys and valleys [q: Cappadocia Chimneys Wikimedia Commons]
+> WS | slow push | photo | neutral | | Passage inside Kaymaklı {LT: Kaymaklı | another underground city, 10 km away} [q: Kaymakli underground city 8870 Nevit]
+
 But almost everything you may have heard about it needs checking. That it has eighteen levels. That twenty thousand people lived in it. That a Greek soldier described it two and a half thousand years ago. Some of this is true, some is exaggerated, and some is simply wrong. Let us go down and see what the evidence actually says.
 > WS | slow push | photo | neutral | | Deep vertical shaft inside Derinkuyu looking down [q: Derinkuyu Underground City shaft]
 > CARD | static | card | neutral | | DERINKUYU · The City Beneath Cappadocia

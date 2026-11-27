@@ -90,6 +90,36 @@
   "para": 2,
   "idx": 0,
   "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia Chimneys Wikimedia Commons",
+  "desc": "Cappadocian landscape of fairy chimneys and valleys"
+ },
+ {
+  "id": "00-02-1",
+  "chapter": "00_cold_open",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Kaymaklı",
+   "another underground city, 10 km away"
+  ],
+  "q": "Kaymakli underground city 8870 Nevit",
+  "desc": "Passage inside Kaymaklı"
+ },
+ {
+  "id": "00-03-0",
+  "chapter": "00_cold_open",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
   "size": "WS",
   "move": "slow push",
   "grade": "neutral",
@@ -98,9 +128,9 @@
   "desc": "Deep vertical shaft inside Derinkuyu looking down"
  },
  {
-  "id": "00-02-1",
+  "id": "00-03-1",
   "chapter": "00_cold_open",
-  "para": 2,
+  "para": 3,
   "idx": 1,
   "kind": "card",
   "size": "CARD",
@@ -162,11 +192,11 @@
   "grade": "neutral",
   "refs": [],
   "lt": [
-   "Göreme",
-   "fairy chimneys"
+   "Mount Hasan",
+   "a volcano west of Derinkuyu"
   ],
-  "q": "Cappadocia fairy chimneys Goreme",
-  "desc": "Fairy chimneys in the Göreme valley"
+  "q": "Hasan Dagi volcano",
+  "desc": "Mount Hasan, twin-peaked volcano"
  },
  {
   "id": "01-01-1",
@@ -178,8 +208,24 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
-  "q": "fairy chimney cap rock Cappadocia",
-  "desc": "Fairy chimney with a dark cap stone"
+  "lt": [
+   "Çatalhöyük",
+   "wall painting, about 6600 BC"
+  ],
+  "q": "Catalhoyuk mural volcano",
+  "desc": "The Çatalhöyük wall painting sometimes read as an erupting volcano"
+ },
+ {
+  "id": "01-01-2",
+  "chapter": "01_the_soft_stone",
+  "para": 1,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "about 9,000 years ago :: the youngest dated eruption of Mount Hasan"
  },
  {
   "id": "01-02-0",
@@ -187,12 +233,16 @@
   "para": 2,
   "idx": 0,
   "kind": "photo",
-  "size": "WS",
-  "move": "drift",
+  "size": "EWS",
+  "move": "slow pan",
   "grade": "neutral",
   "refs": [],
-  "q": "Cappadocia rock cut houses cliff",
-  "desc": "Rock-cut dwellings with doors and windows in a Cappadocian cliff"
+  "lt": [
+   "Göreme",
+   "fairy chimneys"
+  ],
+  "q": "Cappadocia fairy chimneys Goreme",
+  "desc": "Fairy chimneys in the Göreme valley"
  },
  {
   "id": "01-02-1",
@@ -204,13 +254,39 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
+  "q": "fairy chimney cap rock Cappadocia",
+  "desc": "Fairy chimney with a dark cap stone"
+ },
+ {
+  "id": "01-03-0",
+  "chapter": "01_the_soft_stone",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia rock cut houses cliff",
+  "desc": "Rock-cut dwellings with doors and windows in a Cappadocian cliff"
+ },
+ {
+  "id": "01-03-1",
+  "chapter": "01_the_soft_stone",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
   "q": "Cappadocia pigeon houses dovecote",
   "desc": "Carved dovecotes in a Cappadocian valley"
  },
  {
-  "id": "01-02-2",
+  "id": "01-03-2",
   "chapter": "01_the_soft_stone",
-  "para": 2,
+  "para": 3,
   "idx": 2,
   "kind": "photo",
   "size": "MS",
@@ -225,9 +301,22 @@
   "desc": "Rock-cut church interior at Göreme with frescoes"
  },
  {
-  "id": "01-03-0",
+  "id": "01-04-0",
   "chapter": "01_the_soft_stone",
-  "para": 3,
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia cave house fairy chimney door",
+  "desc": "Carved house with door and windows in a tuff cone"
+ },
+ {
+  "id": "01-05-0",
+  "chapter": "01_the_soft_stone",
+  "para": 5,
   "idx": 0,
   "kind": "map",
   "size": "MAP",
@@ -237,9 +326,9 @@
   "desc": "Map of central Cappadocia: Derinkuyu and Kaymaklı, about 10 km apart, with Özkonak and Nevşehir"
  },
  {
-  "id": "01-03-1",
+  "id": "01-05-1",
   "chapter": "01_the_soft_stone",
-  "para": 3,
+  "para": 5,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -254,9 +343,9 @@
   "desc": "Passage inside Kaymaklı underground city"
  },
  {
-  "id": "01-03-2",
+  "id": "01-05-2",
   "chapter": "01_the_soft_stone",
-  "para": 3,
+  "para": 5,
   "idx": 2,
   "kind": "photo",
   "size": "WS",
@@ -271,9 +360,9 @@
   "desc": "Entrance of Özkonak underground city"
  },
  {
-  "id": "01-04-0",
+  "id": "01-06-0",
   "chapter": "01_the_soft_stone",
-  "para": 4,
+  "para": 6,
   "idx": 0,
   "kind": "photo",
   "size": "EWS",
@@ -284,9 +373,9 @@
   "desc": "Panorama of Cappadocian valleys"
  },
  {
-  "id": "01-04-1",
+  "id": "01-06-1",
   "chapter": "01_the_soft_stone",
-  "para": 4,
+  "para": 6,
   "idx": 1,
   "kind": "stat",
   "size": "STAT",
@@ -297,7 +386,491 @@
  },
  {
   "id": "02-00-0",
-  "chapter": "02_going_down",
+  "chapter": "02_fairy_chimneys",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia Goreme red valley fairy chimneys badlands tele",
+  "desc": "Fairy chimneys with dark cap stones"
+ },
+ {
+  "id": "02-00-1",
+  "chapter": "02_fairy_chimneys",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia Goreme hike red valley fairy chimneys 2",
+  "desc": "Eroded tuff cones in Cappadocia"
+ },
+ {
+  "id": "02-01-0",
+  "chapter": "02_fairy_chimneys",
+  "para": 1,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "How a fairy chimney forms: a hard cap protects soft tuff; erosion removes the rock around it; when the cap falls the cone wears away; schematic"
+ },
+ {
+  "id": "02-01-1",
+  "chapter": "02_fairy_chimneys",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "fairy chimney cap rock Cappadocia",
+  "desc": "Cap stone balanced on a fairy chimney"
+ },
+ {
+  "id": "02-02-0",
+  "chapter": "02_fairy_chimneys",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Zelve",
+   "abandoned in the 1950s"
+  ],
+  "q": "Zelve open air museum Cappadocia",
+  "desc": "Zelve valley with abandoned rock-cut dwellings"
+ },
+ {
+  "id": "02-02-1",
+  "chapter": "02_fairy_chimneys",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Zelve rock dwellings",
+  "desc": "Collapsed rock-cut rooms at Zelve"
+ },
+ {
+  "id": "02-03-0",
+  "chapter": "02_fairy_chimneys",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Uçhisar",
+   "a crag of tuff honeycombed with rooms"
+  ],
+  "q": "Uchisar castle Cappadocia",
+  "desc": "Uçhisar castle rock"
+ },
+ {
+  "id": "02-04-0",
+  "chapter": "02_fairy_chimneys",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9886 Nevit",
+  "desc": "Well-preserved deep passage in Derinkuyu"
+ },
+ {
+  "id": "03-00-0",
+  "chapter": "03_kanesh",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Cappadocia: Kültepe (Kanesh) near Kayseri, about 94 km north-east of Derinkuyu; distance computed"
+ },
+ {
+  "id": "03-00-1",
+  "chapter": "03_kanesh",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Kültepe",
+   "the site of ancient Kanesh, near Kayseri"
+  ],
+  "q": "Kultepe Kanesh excavation",
+  "desc": "Excavations at Kültepe, ancient Kanesh"
+ },
+ {
+  "id": "03-01-0",
+  "chapter": "03_kanesh",
+  "para": 1,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map: the caravan route from Assur to Kanesh across the Taurus, about 800 km in a straight line; distance computed"
+ },
+ {
+  "id": "03-01-1",
+  "chapter": "03_kanesh",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kultepe karum ruins houses",
+  "desc": "Ruins of the lower town (karum) at Kültepe"
+ },
+ {
+  "id": "03-02-0",
+  "chapter": "03_kanesh",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "A merchant's letter",
+   "Kültepe, about 1900 BC"
+  ],
+  "q": "Kultepe tablet Old Assyrian cuneiform",
+  "desc": "Old Assyrian clay tablet with cuneiform from Kültepe"
+ },
+ {
+  "id": "03-02-1",
+  "chapter": "03_kanesh",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kultepe tablet envelope",
+  "desc": "Clay tablet in its clay envelope, Kültepe"
+ },
+ {
+  "id": "03-02-2",
+  "chapter": "03_kanesh",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "more than 20,000 :: clay tablets found at Kültepe"
+ },
+ {
+  "id": "03-03-0",
+  "chapter": "03_kanesh",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kultepe tablets museum Ankara",
+  "desc": "Clay tablets from Kültepe in a museum case"
+ },
+ {
+  "id": "03-03-1",
+  "chapter": "03_kanesh",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Museum of Anatolian Civilizations",
+   "Ankara, where many Kültepe finds are kept"
+  ],
+  "q": "Museum of Anatolian Civilizations Ankara",
+  "desc": "Museum of Anatolian Civilizations, Ankara"
+ },
+ {
+  "id": "03-04-0",
+  "chapter": "03_kanesh",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Hattusa",
+   "capital of the Hittites"
+  ],
+  "q": "Hattusa Lion Gate",
+  "desc": "Hittite capital Hattusa, the Lion Gate"
+ },
+ {
+  "id": "03-04-1",
+  "chapter": "03_kanesh",
+  "para": 4,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "nesili :: \"the language of Nesa\", the Hittites' own name for their language"
+ },
+ {
+  "id": "03-05-0",
+  "chapter": "03_kanesh",
+  "para": 5,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Hittite heartland: Hattusa, Kanesh, Cappadocia, borders approximate"
+ },
+ {
+  "id": "03-05-1",
+  "chapter": "03_kanesh",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Hittite relief Yazilikaya",
+  "desc": "Hittite relief carving"
+ },
+ {
+  "id": "03-06-0",
+  "chapter": "03_kanesh",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia landscape plateau",
+  "desc": "Cappadocian plateau landscape"
+ },
+ {
+  "id": "04-00-0",
+  "chapter": "04_katpatuka",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The Behistun inscription",
+   "Darius the Great, about 520 BC"
+  ],
+  "q": "Behistun inscription Darius",
+  "desc": "The Behistun inscription of Darius the Great"
+ },
+ {
+  "id": "04-00-1",
+  "chapter": "04_katpatuka",
+  "para": 0,
+  "idx": 1,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "KATPATUKA · Cappadocia"
+ },
+ {
+  "id": "04-01-0",
+  "chapter": "04_katpatuka",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Coin of Ariarathes",
+   "king of Cappadocia"
+  ],
+  "q": "Ariarathes drachm coin Cappadocia",
+  "desc": "Silver drachm of a king of Cappadocia"
+ },
+ {
+  "id": "04-01-1",
+  "chapter": "04_katpatuka",
+  "para": 1,
+  "idx": 1,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map: the Kingdom of Cappadocia, 2nd century BC, with Mazaca at the foot of Mount Erciyes; borders approximate"
+ },
+ {
+  "id": "04-02-0",
+  "chapter": "04_katpatuka",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Kayseri",
+   "ancient Mazaca, later Caesarea"
+  ],
+  "q": "Kayseri city Erciyes",
+  "desc": "Kayseri, ancient Caesarea, with Mount Erciyes"
+ },
+ {
+  "id": "04-02-1",
+  "chapter": "04_katpatuka",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Tiberius bust",
+  "desc": "Portrait bust of the emperor Tiberius"
+ },
+ {
+  "id": "04-02-2",
+  "chapter": "04_katpatuka",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "17 AD :: Cappadocia becomes a Roman province"
+ },
+ {
+  "id": "04-03-0",
+  "chapter": "04_katpatuka",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Comana",
+   "a temple-state of Cappadocia"
+  ],
+  "q": "Comana Cappadocia Sar ruins",
+  "desc": "Ruins of Comana in Cappadocia, modern Şar"
+ },
+ {
+  "id": "04-04-0",
+  "chapter": "04_katpatuka",
+  "para": 4,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map: Roman Cappadocia with the roads east to the Euphrates frontier; routes approximate"
+ },
+ {
+  "id": "04-04-1",
+  "chapter": "04_katpatuka",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Roman milestone Cappadocia",
+  "desc": "Roman road or milestone in Cappadocia"
+ },
+ {
+  "id": "04-05-0",
+  "chapter": "04_katpatuka",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Codex Sinaiticus 1 Peter",
+  "desc": "Early Christian manuscript page"
+ },
+ {
+  "id": "04-05-1",
+  "chapter": "04_katpatuka",
+  "para": 5,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "Acts 2:9 · 1 Peter 1:1 :: Cappadocia in the New Testament"
+ },
+ {
+  "id": "04-06-0",
+  "chapter": "04_katpatuka",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9843 Nevit",
+  "desc": "Stairway descending into Derinkuyu"
+ },
+ {
+  "id": "05-00-0",
+  "chapter": "05_going_down",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -309,8 +882,8 @@
   "desc": "Entrance building of Derinkuyu underground city"
  },
  {
-  "id": "02-00-1",
-  "chapter": "02_going_down",
+  "id": "05-00-1",
+  "chapter": "05_going_down",
   "para": 0,
   "idx": 1,
   "kind": "photo",
@@ -322,8 +895,8 @@
   "desc": "Narrow sloping passage in Derinkuyu with a visitor stooping"
  },
  {
-  "id": "02-00-2",
-  "chapter": "02_going_down",
+  "id": "05-00-2",
+  "chapter": "05_going_down",
   "para": 0,
   "idx": 2,
   "kind": "photo",
@@ -335,8 +908,8 @@
   "desc": "Low carved doorway between two chambers"
  },
  {
-  "id": "02-01-0",
-  "chapter": "02_going_down",
+  "id": "05-01-0",
+  "chapter": "05_going_down",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -348,8 +921,8 @@
   "desc": "Large chamber near the top of Derinkuyu"
  },
  {
-  "id": "02-01-1",
-  "chapter": "02_going_down",
+  "id": "05-01-1",
+  "chapter": "05_going_down",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -361,8 +934,8 @@
   "desc": "Carved basin in the floor of a Derinkuyu chamber, thought to be a press"
  },
  {
-  "id": "02-01-2",
-  "chapter": "02_going_down",
+  "id": "05-01-2",
+  "chapter": "05_going_down",
   "para": 1,
   "idx": 2,
   "kind": "photo",
@@ -374,8 +947,8 @@
   "desc": "Smoke-darkened ceiling of a carved room"
  },
  {
-  "id": "02-02-0",
-  "chapter": "02_going_down",
+  "id": "05-02-0",
+  "chapter": "05_going_down",
   "para": 2,
   "idx": 0,
   "kind": "diagram",
@@ -386,8 +959,8 @@
   "desc": "Cross-section of Derinkuyu: the town on the surface, at least eight levels below, about 85 m deep, a person for scale"
  },
  {
-  "id": "02-02-1",
-  "chapter": "02_going_down",
+  "id": "05-02-1",
+  "chapter": "05_going_down",
   "para": 2,
   "idx": 1,
   "kind": "photo",
@@ -399,8 +972,8 @@
   "desc": "Steep carved stairway between levels"
  },
  {
-  "id": "02-02-2",
-  "chapter": "02_going_down",
+  "id": "05-02-2",
+  "chapter": "05_going_down",
   "para": 2,
   "idx": 2,
   "kind": "stat",
@@ -411,9 +984,60 @@
   "desc": "about 85 m :: the depth of the lowest known level"
  },
  {
-  "id": "02-03-0",
-  "chapter": "02_going_down",
+  "id": "05-03-0",
+  "chapter": "05_going_down",
   "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City wall",
+  "desc": "Pick marks on a tuff wall"
+ },
+ {
+  "id": "05-03-1",
+  "chapter": "05_going_down",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City niche lamp",
+  "desc": "Carved niche for an oil lamp, soot above it"
+ },
+ {
+  "id": "05-04-0",
+  "chapter": "05_going_down",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9807 Nevit",
+  "desc": "Long passage with a low ceiling in Derinkuyu"
+ },
+ {
+  "id": "05-04-1",
+  "chapter": "05_going_down",
+  "para": 4,
+  "idx": 1,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "How a room was cut: working forward into the rock face, spoil carried out in baskets; schematic"
+ },
+ {
+  "id": "05-05-0",
+  "chapter": "05_going_down",
+  "para": 5,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -424,9 +1048,9 @@
   "desc": "Long vaulted hall in Derinkuyu"
  },
  {
-  "id": "02-03-1",
-  "chapter": "02_going_down",
-  "para": 3,
+  "id": "05-05-1",
+  "chapter": "05_going_down",
+  "para": 5,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -441,9 +1065,22 @@
   "desc": "Cross-shaped rock-cut church in the lower levels of Derinkuyu"
  },
  {
-  "id": "02-04-0",
-  "chapter": "02_going_down",
-  "para": 4,
+  "id": "05-06-0",
+  "chapter": "05_going_down",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu with man",
+  "desc": "Visitor crouching in a low passage in Derinkuyu"
+ },
+ {
+  "id": "05-07-0",
+  "chapter": "05_going_down",
+  "para": 7,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -454,9 +1091,9 @@
   "desc": "Storage niches carved in a Derinkuyu wall"
  },
  {
-  "id": "02-04-1",
-  "chapter": "02_going_down",
-  "para": 4,
+  "id": "05-07-1",
+  "chapter": "05_going_down",
+  "para": 7,
   "idx": 1,
   "kind": "photo",
   "size": "MS",
@@ -467,8 +1104,8 @@
   "desc": "Dim chamber lit by a single lamp in Derinkuyu"
  },
  {
-  "id": "03-00-0",
-  "chapter": "03_breathing",
+  "id": "06-00-0",
+  "chapter": "06_air_and_water",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -480,8 +1117,8 @@
   "desc": "Looking up a vertical shaft in Derinkuyu toward daylight"
  },
  {
-  "id": "03-00-1",
-  "chapter": "03_breathing",
+  "id": "06-00-1",
+  "chapter": "06_air_and_water",
   "para": 0,
   "idx": 1,
   "kind": "diagram",
@@ -492,8 +1129,8 @@
   "desc": "Cross-section: vertical shafts carry fresh air down to every level; warm stale air rises and leaves"
  },
  {
-  "id": "03-01-0",
-  "chapter": "03_breathing",
+  "id": "06-01-0",
+  "chapter": "06_air_and_water",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -505,8 +1142,8 @@
   "desc": "Ventilation opening in the wall of a Derinkuyu chamber"
  },
  {
-  "id": "03-01-1",
-  "chapter": "03_breathing",
+  "id": "06-01-1",
+  "chapter": "06_air_and_water",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -518,8 +1155,8 @@
   "desc": "Passage leading to a shaft in Derinkuyu"
  },
  {
-  "id": "03-02-0",
-  "chapter": "03_breathing",
+  "id": "06-02-0",
+  "chapter": "06_air_and_water",
   "para": 2,
   "idx": 0,
   "kind": "stat",
@@ -530,8 +1167,8 @@
   "desc": "about 55 m :: the reported depth of one of the city's wells"
  },
  {
-  "id": "03-02-1",
-  "chapter": "03_breathing",
+  "id": "06-02-1",
+  "chapter": "06_air_and_water",
   "para": 2,
   "idx": 1,
   "kind": "photo",
@@ -543,8 +1180,8 @@
   "desc": "Well shaft inside Derinkuyu"
  },
  {
-  "id": "03-03-0",
-  "chapter": "03_breathing",
+  "id": "06-03-0",
+  "chapter": "06_air_and_water",
   "para": 3,
   "idx": 0,
   "kind": "diagram",
@@ -555,8 +1192,8 @@
   "desc": "Why it stands: small rooms, thick walls and pillars between them, levels offset on solid rock"
  },
  {
-  "id": "03-03-1",
-  "chapter": "03_breathing",
+  "id": "06-03-1",
+  "chapter": "06_air_and_water",
   "para": 3,
   "idx": 1,
   "kind": "photo",
@@ -568,9 +1205,22 @@
   "desc": "Thick rock pillar between two chambers in Derinkuyu"
  },
  {
-  "id": "03-04-0",
-  "chapter": "03_breathing",
+  "id": "06-04-0",
+  "chapter": "06_air_and_water",
   "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Water trickling through the rocks at Kaymakli Underground City 2",
+  "desc": "Damp wall with water traces in Kaymaklı"
+ },
+ {
+  "id": "06-05-0",
+  "chapter": "06_air_and_water",
+  "para": 5,
   "idx": 0,
   "kind": "photo",
   "size": "MS",
@@ -581,8 +1231,98 @@
   "desc": "Tool marks on a carved tuff wall"
  },
  {
-  "id": "04-00-0",
-  "chapter": "04_the_doors",
+  "id": "07-00-0",
+  "chapter": "07_life_below",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9789 Nevit",
+  "desc": "Dim chamber in Derinkuyu"
+ },
+ {
+  "id": "07-01-0",
+  "chapter": "07_life_below",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City niche",
+  "desc": "Lamp niche with soot in a Derinkuyu wall"
+ },
+ {
+  "id": "07-01-1",
+  "chapter": "07_life_below",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9925 Nevit",
+  "desc": "Dark corridor lit by a single light"
+ },
+ {
+  "id": "07-02-0",
+  "chapter": "07_life_below",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9813 Nevit",
+  "desc": "Storage room with niches in Derinkuyu"
+ },
+ {
+  "id": "07-02-1",
+  "chapter": "07_life_below",
+  "para": 2,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "cool all year :: ideal for storage, hard for people"
+ },
+ {
+  "id": "07-03-0",
+  "chapter": "07_life_below",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City stable",
+  "desc": "Stable with carved troughs near the top of Derinkuyu"
+ },
+ {
+  "id": "07-04-0",
+  "chapter": "07_life_below",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City stairs",
+  "desc": "Stairway leading upward toward light"
+ },
+ {
+  "id": "08-00-0",
+  "chapter": "08_the_doors",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -594,8 +1334,8 @@
   "desc": "Rolling stone door standing in its slot beside a passage, Derinkuyu"
  },
  {
-  "id": "04-00-1",
-  "chapter": "04_the_doors",
+  "id": "08-00-1",
+  "chapter": "08_the_doors",
   "para": 0,
   "idx": 1,
   "kind": "photo",
@@ -607,8 +1347,8 @@
   "desc": "Edge of a rolling stone door in Derinkuyu"
  },
  {
-  "id": "04-00-2",
-  "chapter": "04_the_doors",
+  "id": "08-00-2",
+  "chapter": "08_the_doors",
   "para": 0,
   "idx": 2,
   "kind": "diagram",
@@ -619,8 +1359,8 @@
   "desc": "How a rolling stone door works: disc in a side slot, rolled across the passage from inside, wedged shut"
  },
  {
-  "id": "04-01-0",
-  "chapter": "04_the_doors",
+  "id": "08-01-0",
+  "chapter": "08_the_doors",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -632,8 +1372,8 @@
   "desc": "Rolling stone door seen from inside the passage"
  },
  {
-  "id": "04-01-1",
-  "chapter": "04_the_doors",
+  "id": "08-01-1",
+  "chapter": "08_the_doors",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -649,8 +1389,8 @@
   "desc": "Circular door at Kaymaklı"
  },
  {
-  "id": "04-02-0",
-  "chapter": "04_the_doors",
+  "id": "08-02-0",
+  "chapter": "08_the_doors",
   "para": 2,
   "idx": 0,
   "kind": "photo",
@@ -662,9 +1402,22 @@
   "desc": "Rolling stone with a central hole"
  },
  {
-  "id": "04-03-0",
-  "chapter": "04_the_doors",
+  "id": "08-03-0",
+  "chapter": "08_the_doors",
   "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kaymakli underground city 8899 Nevit",
+  "desc": "Rolling stone door at Kaymaklı"
+ },
+ {
+  "id": "08-04-0",
+  "chapter": "08_the_doors",
+  "para": 4,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -675,9 +1428,9 @@
   "desc": "A person standing beside a rolling stone door for scale"
  },
  {
-  "id": "04-04-0",
-  "chapter": "04_the_doors",
-  "para": 4,
+  "id": "08-05-0",
+  "chapter": "08_the_doors",
+  "para": 5,
   "idx": 0,
   "kind": "photo",
   "size": "MS",
@@ -688,9 +1441,9 @@
   "desc": "Narrow turning passage in Derinkuyu"
  },
  {
-  "id": "04-04-1",
-  "chapter": "04_the_doors",
-  "para": 4,
+  "id": "08-05-1",
+  "chapter": "08_the_doors",
+  "para": 5,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -701,8 +1454,8 @@
   "desc": "Passage disappearing into darkness"
  },
  {
-  "id": "05-00-0",
-  "chapter": "05_who_dug_it",
+  "id": "09-00-0",
+  "chapter": "09_who_dug_it",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -714,8 +1467,8 @@
   "desc": "Empty carved chamber in Derinkuyu"
  },
  {
-  "id": "05-00-1",
-  "chapter": "05_who_dug_it",
+  "id": "09-00-1",
+  "chapter": "09_who_dug_it",
   "para": 0,
   "idx": 1,
   "kind": "photo",
@@ -727,8 +1480,8 @@
   "desc": "Bare tuff wall, Derinkuyu"
  },
  {
-  "id": "05-01-0",
-  "chapter": "05_who_dug_it",
+  "id": "09-01-0",
+  "chapter": "09_who_dug_it",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -744,8 +1497,8 @@
   "desc": "The Midas Monument, a Phrygian rock-cut facade"
  },
  {
-  "id": "05-01-1",
-  "chapter": "05_who_dug_it",
+  "id": "09-01-1",
+  "chapter": "09_who_dug_it",
   "para": 1,
   "idx": 1,
   "kind": "map",
@@ -756,8 +1509,8 @@
   "desc": "Map of Anatolia: Phrygia in the west, Cappadocia in the centre"
  },
  {
-  "id": "05-02-0",
-  "chapter": "05_who_dug_it",
+  "id": "09-02-0",
+  "chapter": "09_who_dug_it",
   "para": 2,
   "idx": 0,
   "kind": "photo",
@@ -769,8 +1522,8 @@
   "desc": "Manuscript or early printed edition of Xenophon's Anabasis"
  },
  {
-  "id": "05-02-1",
-  "chapter": "05_who_dug_it",
+  "id": "09-02-1",
+  "chapter": "09_who_dug_it",
   "para": 2,
   "idx": 1,
   "kind": "stat",
@@ -781,8 +1534,8 @@
   "desc": "Anabasis 4.5.25 :: houses dug into the ground, entered through a narrow opening like a well"
  },
  {
-  "id": "05-03-0",
-  "chapter": "05_who_dug_it",
+  "id": "09-03-0",
+  "chapter": "09_who_dug_it",
   "para": 3,
   "idx": 0,
   "kind": "map",
@@ -793,8 +1546,8 @@
   "desc": "Map: route of Xenophon's Ten Thousand through Armenia, far east of Cappadocia; distance computed"
  },
  {
-  "id": "05-03-1",
-  "chapter": "05_who_dug_it",
+  "id": "09-03-1",
+  "chapter": "09_who_dug_it",
   "para": 3,
   "idx": 1,
   "kind": "stat",
@@ -805,9 +1558,26 @@
   "desc": "Armenia, not Cappadocia :: where Xenophon saw his underground houses"
  },
  {
-  "id": "05-04-0",
-  "chapter": "05_who_dug_it",
+  "id": "09-04-0",
+  "chapter": "09_who_dug_it",
   "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Yerkapı",
+   "Hittite tunnel, Hattusa"
+  ],
+  "q": "Yerkapi tunnel Hattusa",
+  "desc": "The Yerkapı tunnel under the ramparts of Hattusa"
+ },
+ {
+  "id": "09-05-0",
+  "chapter": "09_who_dug_it",
+  "para": 5,
   "idx": 0,
   "kind": "diagram",
   "size": "DIAGRAM",
@@ -817,8 +1587,396 @@
   "desc": "Cross-section: the city growing in stages, upper rooms first, lower levels added later; dates schematic"
  },
  {
-  "id": "06-00-0",
-  "chapter": "06_the_raids",
+  "id": "10-00-0",
+  "chapter": "10_dating_the_rock",
+  "para": 0,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Why rock-cut spaces are hard to date: a mound builds up in layers; a carved room removes rock and leaves no layers; schematic"
+ },
+ {
+  "id": "10-00-1",
+  "chapter": "10_dating_the_rock",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9874 Nevit",
+  "desc": "Empty carved room in Derinkuyu"
+ },
+ {
+  "id": "10-01-0",
+  "chapter": "10_dating_the_rock",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "DERINKUYU UNDERGROUND CITY - panoramio",
+  "desc": "Cleared passage with modern lighting in Derinkuyu"
+ },
+ {
+  "id": "10-02-0",
+  "chapter": "10_dating_the_rock",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Goreme open air museum church fresco",
+  "desc": "Rock-cut church with dated frescoes in Göreme"
+ },
+ {
+  "id": "10-02-1",
+  "chapter": "10_dating_the_rock",
+  "para": 2,
+  "idx": 1,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "Bronze Age: merchants at Kanesh (no link to Derinkuyu known) ; 8th–6th centuries BC: Phrygian period (link suggested, not proven) ; 4th century AD: Christian Cappadocia ; 7th–10th centuries: the raids, main period of use ; until 1923: still used"
+ },
+ {
+  "id": "10-03-0",
+  "chapter": "10_dating_the_rock",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City shaft",
+  "desc": "Deep shaft in Derinkuyu"
+ },
+ {
+  "id": "11-00-0",
+  "chapter": "11_the_rock_churches",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Basil of Caesarea",
+   "about 330 to 379"
+  ],
+  "q": "Basil the Great mosaic icon",
+  "desc": "Icon or mosaic of Saint Basil the Great"
+ },
+ {
+  "id": "11-00-1",
+  "chapter": "11_the_rock_churches",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Gregory of Nazianzus icon mosaic",
+  "desc": "Icon of Gregory of Nazianzus"
+ },
+ {
+  "id": "11-00-2",
+  "chapter": "11_the_rock_churches",
+  "para": 0,
+  "idx": 2,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "THE CAPPADOCIAN FATHERS · Basil of Caesarea · Gregory of Nyssa · Gregory of Nazianzus"
+ },
+ {
+  "id": "11-01-0",
+  "chapter": "11_the_rock_churches",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Basil of Caesarea manuscript miniature",
+  "desc": "Medieval manuscript illumination of Saint Basil"
+ },
+ {
+  "id": "11-01-1",
+  "chapter": "11_the_rock_churches",
+  "para": 1,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "4th century :: Basil founds a refuge for the poor and sick outside Caesarea"
+ },
+ {
+  "id": "11-02-0",
+  "chapter": "11_the_rock_churches",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Goreme open air museum monastery rock cut",
+  "desc": "Rock-cut monastery facade in Cappadocia"
+ },
+ {
+  "id": "11-02-1",
+  "chapter": "11_the_rock_churches",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "A monks' refectory",
+   "carved from the rock, Göreme"
+  ],
+  "q": "Goreme refectory rock table",
+  "desc": "Rock-cut refectory with a carved table at Göreme"
+ },
+ {
+  "id": "11-02-2",
+  "chapter": "11_the_rock_churches",
+  "para": 2,
+  "idx": 2,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The Ihlara valley",
+   "south-west of Derinkuyu"
+  ],
+  "q": "Ihlara valley Cappadocia",
+  "desc": "Ihlara valley with rock-cut churches"
+ },
+ {
+  "id": "11-03-0",
+  "chapter": "11_the_rock_churches",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The Tokalı church",
+   "Göreme, 10th century"
+  ],
+  "q": "Tokali Kilise fresco Goreme",
+  "desc": "Frescoes of the Tokalı church, Göreme"
+ },
+ {
+  "id": "11-03-1",
+  "chapter": "11_the_rock_churches",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The Dark Church",
+   "Göreme, 11th century"
+  ],
+  "q": "Karanlik Kilise fresco Goreme",
+  "desc": "Fresco in the Dark Church, Göreme"
+ },
+ {
+  "id": "11-03-2",
+  "chapter": "11_the_rock_churches",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia fresco detail Christ",
+  "desc": "Detail of a Cappadocian church fresco"
+ },
+ {
+  "id": "11-04-0",
+  "chapter": "11_the_rock_churches",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia fresco Saint George dragon",
+  "desc": "Fresco of a warrior saint on horseback in a Cappadocian church"
+ },
+ {
+  "id": "11-04-1",
+  "chapter": "11_the_rock_churches",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia damaged fresco faces",
+  "desc": "Damaged fresco faces in a Cappadocian church"
+ },
+ {
+  "id": "11-05-0",
+  "chapter": "11_the_rock_churches",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu church cruciform",
+  "desc": "Cross-shaped church in the lower levels of Derinkuyu"
+ },
+ {
+  "id": "11-05-1",
+  "chapter": "11_the_rock_churches",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Goreme Valley in Cappadocia edit1",
+  "desc": "Göreme valley with rock-cut churches"
+ },
+ {
+  "id": "11-06-0",
+  "chapter": "11_the_rock_churches",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9771 Nevit",
+  "desc": "Dark passage receding into the rock"
+ },
+ {
+  "id": "12-00-0",
+  "chapter": "12_houses_in_the_rock",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Açıksaray",
+   "rock-cut courtyard complexes"
+  ],
+  "q": "Aciksaray Cappadocia rock cut",
+  "desc": "Rock-cut courtyard complex at Açıksaray"
+ },
+ {
+  "id": "12-00-1",
+  "chapter": "12_houses_in_the_rock",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Aciksaray facade",
+  "desc": "Carved facade with blind arches in Cappadocia"
+ },
+ {
+  "id": "12-01-0",
+  "chapter": "12_houses_in_the_rock",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Selime",
+   "Ihlara valley"
+  ],
+  "q": "Selime monastery Cappadocia",
+  "desc": "Selime rock-cut complex in the Ihlara valley"
+ },
+ {
+  "id": "12-01-1",
+  "chapter": "12_houses_in_the_rock",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Selime kalesi interior",
+  "desc": "Large carved hall at Selime"
+ },
+ {
+  "id": "12-02-0",
+  "chapter": "12_houses_in_the_rock",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia village cliff dwellings",
+  "desc": "Cappadocian village beneath carved cliffs"
+ },
+ {
+  "id": "12-03-0",
+  "chapter": "12_houses_in_the_rock",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Ihlara valley Cappadocia",
+  "desc": "Ihlara valley seen from above"
+ },
+ {
+  "id": "13-00-0",
+  "chapter": "13_the_raids",
   "para": 0,
   "idx": 0,
   "kind": "map",
@@ -829,8 +1987,8 @@
   "desc": "Map of the Byzantine–Arab frontier c. 800 AD: Byzantine Anatolia, the Caliphate, the Taurus passes, Cappadocia on the frontier"
  },
  {
-  "id": "06-00-1",
-  "chapter": "06_the_raids",
+  "id": "13-00-1",
+  "chapter": "13_the_raids",
   "para": 0,
   "idx": 1,
   "kind": "timeline",
@@ -841,8 +1999,8 @@
   "desc": "c. 640s: Arab armies first raid Anatolia ; 717–718: Arab siege of Constantinople fails ; 9th century: raids across Cappadocia continue ; 10th century: Byzantium pushes the frontier east"
  },
  {
-  "id": "06-01-0",
-  "chapter": "06_the_raids",
+  "id": "13-01-0",
+  "chapter": "13_the_raids",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -858,8 +2016,8 @@
   "desc": "The Taurus Mountains"
  },
  {
-  "id": "06-01-1",
-  "chapter": "06_the_raids",
+  "id": "13-01-1",
+  "chapter": "13_the_raids",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -871,8 +2029,8 @@
   "desc": "Open Cappadocian plain with fields"
  },
  {
-  "id": "06-02-0",
-  "chapter": "06_the_raids",
+  "id": "13-02-0",
+  "chapter": "13_the_raids",
   "para": 2,
   "idx": 0,
   "kind": "photo",
@@ -888,8 +2046,8 @@
   "desc": "Rock-cut Byzantine church in Cappadocia with frescoes"
  },
  {
-  "id": "06-02-1",
-  "chapter": "06_the_raids",
+  "id": "13-02-1",
+  "chapter": "13_the_raids",
   "para": 2,
   "idx": 1,
   "kind": "photo",
@@ -901,8 +2059,8 @@
   "desc": "Deep passage in Derinkuyu"
  },
  {
-  "id": "06-03-0",
-  "chapter": "06_the_raids",
+  "id": "13-03-0",
+  "chapter": "13_the_raids",
   "para": 3,
   "idx": 0,
   "kind": "map",
@@ -913,8 +2071,8 @@
   "desc": "Map of the Abbasid invasion of 806: from Tarsus through the Cilician Gates to Tyana and Heraclea; Derinkuyu marked; distance computed"
  },
  {
-  "id": "06-03-1",
-  "chapter": "06_the_raids",
+  "id": "13-03-1",
+  "chapter": "13_the_raids",
   "para": 3,
   "idx": 1,
   "kind": "photo",
@@ -930,8 +2088,8 @@
   "desc": "Roman aqueduct at Tyana, modern Kemerhisar"
  },
  {
-  "id": "06-04-0",
-  "chapter": "06_the_raids",
+  "id": "13-04-0",
+  "chapter": "13_the_raids",
   "para": 4,
   "idx": 0,
   "kind": "stat",
@@ -942,8 +2100,8 @@
   "desc": "806 :: Harun al-Rashid's army reaches Tyana, about 60 km from Derinkuyu"
  },
  {
-  "id": "06-04-1",
-  "chapter": "06_the_raids",
+  "id": "13-04-1",
+  "chapter": "13_the_raids",
   "para": 4,
   "idx": 1,
   "kind": "photo",
@@ -955,35 +2113,62 @@
   "desc": "Dark passage receding into Derinkuyu"
  },
  {
-  "id": "06-05-0",
-  "chapter": "06_the_raids",
+  "id": "13-05-0",
+  "chapter": "13_the_raids",
   "para": 5,
   "idx": 0,
   "kind": "photo",
-  "size": "MS",
+  "size": "WS",
   "move": "slow pan",
   "grade": "neutral",
   "refs": [],
-  "q": "Goreme fresco saint Cappadocia",
-  "desc": "Fresco of a saint in a Cappadocian rock church"
+  "lt": [
+   "Digenis Akritis",
+   "the hero of the Byzantine frontier epic"
+  ],
+  "q": "Digenis Akritas Byzantine plate",
+  "desc": "Medieval Byzantine plate or manuscript showing Digenis Akritis"
  },
  {
-  "id": "06-05-1",
-  "chapter": "06_the_raids",
+  "id": "13-05-1",
+  "chapter": "13_the_raids",
   "para": 5,
   "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
   "grade": "neutral",
   "refs": [],
-  "q": "Goreme Valley in Cappadocia",
-  "desc": "Göreme valley with rock-cut monasteries"
+  "desc": "DIGENIS AKRITIS · \"the two-blooded border lord\""
  },
  {
-  "id": "06-06-0",
-  "chapter": "06_the_raids",
+  "id": "13-06-0",
+  "chapter": "13_the_raids",
   "para": 6,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Abbasid campaign of 838: through the Cilician Gates, across Cappadocia to Ancyra and Amorium; routes approximate"
+ },
+ {
+  "id": "13-06-1",
+  "chapter": "13_the_raids",
+  "para": 6,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "838 :: the sack of Amorium"
+ },
+ {
+  "id": "13-07-0",
+  "chapter": "13_the_raids",
+  "para": 7,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -994,8 +2179,194 @@
   "desc": "Chamber in Derinkuyu with passage beyond"
  },
  {
-  "id": "07-00-0",
-  "chapter": "07_malakopi",
+  "id": "14-00-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map: Manzikert 1071, far east of Cappadocia; Seljuk advance across Anatolia; positions approximate"
+ },
+ {
+  "id": "14-00-1",
+  "chapter": "14_turks_and_ottomans",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The battle of Manzikert",
+   "from a 15th-century French manuscript"
+  ],
+  "q": "Battle of Manzikert miniature manuscript",
+  "desc": "Medieval miniature of the battle of Manzikert"
+ },
+ {
+  "id": "14-00-2",
+  "chapter": "14_turks_and_ottomans",
+  "para": 0,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "1071 :: the battle of Manzikert"
+ },
+ {
+  "id": "14-01-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Sultanhanı caravanserai",
+   "near Aksaray, 1229"
+  ],
+  "q": "Sultanhani caravanserai Aksaray",
+  "desc": "The Seljuk caravanserai of Sultanhanı near Aksaray"
+ },
+ {
+  "id": "14-01-1",
+  "chapter": "14_turks_and_ottomans",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Sultanhani portal",
+  "desc": "Carved portal of a Seljuk caravanserai"
+ },
+ {
+  "id": "14-02-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia church Soganli",
+  "desc": "Later rock-cut church in Cappadocia"
+ },
+ {
+  "id": "14-02-1",
+  "chapter": "14_turks_and_ottomans",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "The Soğanlı valley",
+   "south of Derinkuyu"
+  ],
+  "q": "Soganli valley Cappadocia",
+  "desc": "Soğanlı valley, Cappadocia"
+ },
+ {
+  "id": "14-03-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia village mosque Ottoman",
+  "desc": "Ottoman-period village mosque and houses in Cappadocia"
+ },
+ {
+  "id": "14-04-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Karamanlidika",
+   "Turkish written in Greek letters"
+  ],
+  "q": "Karamanlidika book page",
+  "desc": "Page of a Karamanlidika book: Turkish printed in Greek letters"
+ },
+ {
+  "id": "14-04-1",
+  "chapter": "14_turks_and_ottomans",
+  "para": 4,
+  "idx": 1,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "KARAMANLIDES · Orthodox Christians who spoke Turkish"
+ },
+ {
+  "id": "14-05-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Mustafapaşa",
+   "the former Greek village of Sinasos"
+  ],
+  "q": "Mustafapasa Sinasos Greek house",
+  "desc": "Stone mansion of the Greek period in Mustafapaşa"
+ },
+ {
+  "id": "14-05-1",
+  "chapter": "14_turks_and_ottomans",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Mustafapasa house facade",
+  "desc": "Carved stone facade in Mustafapaşa"
+ },
+ {
+  "id": "14-06-0",
+  "chapter": "14_turks_and_ottomans",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City.JPG",
+  "desc": "Passage leading down from a house into the rock"
+ },
+ {
+  "id": "15-00-0",
+  "chapter": "15_malakopi",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -1007,8 +2378,8 @@
   "desc": "Old stone houses in Derinkuyu town"
  },
  {
-  "id": "07-00-1",
-  "chapter": "07_malakopi",
+  "id": "15-00-1",
+  "chapter": "15_malakopi",
   "para": 0,
   "idx": 1,
   "kind": "card",
@@ -1019,8 +2390,8 @@
   "desc": "MALAKOPI · Derinkuyu · \"deep well\""
  },
  {
-  "id": "07-01-0",
-  "chapter": "07_malakopi",
+  "id": "15-01-0",
+  "chapter": "15_malakopi",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -1032,8 +2403,8 @@
   "desc": "Greek Orthodox church in a Cappadocian village, now disused"
  },
  {
-  "id": "07-01-1",
-  "chapter": "07_malakopi",
+  "id": "15-01-1",
+  "chapter": "15_malakopi",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -1049,8 +2420,8 @@
   "desc": "Portrait of R. M. Dawkins"
  },
  {
-  "id": "07-02-0",
-  "chapter": "07_malakopi",
+  "id": "15-02-0",
+  "chapter": "15_malakopi",
   "para": 2,
   "idx": 0,
   "kind": "photo",
@@ -1062,8 +2433,8 @@
   "desc": "Passage under a house leading down into the underground city"
  },
  {
-  "id": "07-03-0",
-  "chapter": "07_malakopi",
+  "id": "15-03-0",
+  "chapter": "15_malakopi",
   "para": 3,
   "idx": 0,
   "kind": "stat",
@@ -1074,8 +2445,8 @@
   "desc": "1923 :: the population exchange between Greece and Turkey"
  },
  {
-  "id": "07-03-1",
-  "chapter": "07_malakopi",
+  "id": "15-03-1",
+  "chapter": "15_malakopi",
   "para": 3,
   "idx": 1,
   "kind": "photo",
@@ -1087,9 +2458,80 @@
   "desc": "Refugees of the 1923 population exchange"
  },
  {
-  "id": "07-04-0",
-  "chapter": "07_malakopi",
+  "id": "15-04-0",
+  "chapter": "15_malakopi",
   "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Lausanne",
+   "the exchange convention, 30 January 1923"
+  ],
+  "q": "Lausanne 1923 conference signing",
+  "desc": "Signing of the Treaty of Lausanne, 1923"
+ },
+ {
+  "id": "15-04-1",
+  "chapter": "15_malakopi",
+  "para": 4,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "religion, not language :: the test of the 1923 exchange"
+ },
+ {
+  "id": "15-05-0",
+  "chapter": "15_malakopi",
+  "para": 5,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map: Gelveri (Güzelyurt) near Derinkuyu, and Nea Karvali near Kavala in northern Greece; distance computed"
+ },
+ {
+  "id": "15-05-1",
+  "chapter": "15_malakopi",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Güzelyurt",
+   "the former Greek village of Gelveri"
+  ],
+  "q": "Guzelyurt Gelveri Aksaray",
+  "desc": "Güzelyurt, the former Gelveri"
+ },
+ {
+  "id": "15-06-0",
+  "chapter": "15_malakopi",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Mustafapasa village houses",
+  "desc": "Old houses of a Cappadocian village"
+ },
+ {
+  "id": "15-07-0",
+  "chapter": "15_malakopi",
+  "para": 7,
   "idx": 0,
   "kind": "photo",
   "size": "MS",
@@ -1100,8 +2542,8 @@
   "desc": "Narrow passage in Derinkuyu leading toward light"
  },
  {
-  "id": "08-00-0",
-  "chapter": "08_rediscovery",
+  "id": "16-00-0",
+  "chapter": "16_rediscovery",
   "para": 0,
   "idx": 0,
   "kind": "photo",
@@ -1113,8 +2555,8 @@
   "desc": "Visitors in a lit chamber of Derinkuyu today"
  },
  {
-  "id": "08-00-1",
-  "chapter": "08_rediscovery",
+  "id": "16-00-1",
+  "chapter": "16_rediscovery",
   "para": 0,
   "idx": 1,
   "kind": "stat",
@@ -1125,8 +2567,8 @@
   "desc": "1969 :: Derinkuyu opens to visitors"
  },
  {
-  "id": "08-01-0",
-  "chapter": "08_rediscovery",
+  "id": "16-01-0",
+  "chapter": "16_rediscovery",
   "para": 1,
   "idx": 0,
   "kind": "photo",
@@ -1138,8 +2580,8 @@
   "desc": "Lit passage with handrail in Derinkuyu"
  },
  {
-  "id": "08-01-1",
-  "chapter": "08_rediscovery",
+  "id": "16-01-1",
+  "chapter": "16_rediscovery",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -1151,9 +2593,22 @@
   "desc": "A blocked or closed passage in Derinkuyu"
  },
  {
-  "id": "08-02-0",
-  "chapter": "08_rediscovery",
+  "id": "16-02-0",
+  "chapter": "16_rediscovery",
   "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City 9913 Nevit",
+  "desc": "Closed-off passage beyond a barrier in Derinkuyu"
+ },
+ {
+  "id": "16-03-0",
+  "chapter": "16_rediscovery",
+  "para": 3,
   "idx": 0,
   "kind": "map",
   "size": "MAP",
@@ -1163,9 +2618,9 @@
   "desc": "Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported tunnel shown dashed and marked unconfirmed"
  },
  {
-  "id": "08-02-1",
-  "chapter": "08_rediscovery",
-  "para": 2,
+  "id": "16-03-1",
+  "chapter": "16_rediscovery",
+  "para": 3,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -1180,9 +2635,9 @@
   "desc": "Large room in Kaymaklı underground city"
  },
  {
-  "id": "08-03-0",
-  "chapter": "08_rediscovery",
-  "para": 3,
+  "id": "16-04-0",
+  "chapter": "16_rediscovery",
+  "para": 4,
   "idx": 0,
   "kind": "map",
   "size": "MAP",
@@ -1192,9 +2647,9 @@
   "desc": "Map: Nevşehir, about 30 km north of Derinkuyu; distance computed"
  },
  {
-  "id": "08-03-1",
-  "chapter": "08_rediscovery",
-  "para": 3,
+  "id": "16-04-1",
+  "chapter": "16_rediscovery",
+  "para": 4,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -1209,8 +2664,366 @@
   "desc": "Nevşehir castle hill"
  },
  {
-  "id": "09-00-0",
-  "chapter": "09_myths_and_evidence",
+  "id": "16-05-0",
+  "chapter": "16_rediscovery",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City shaft",
+  "desc": "Looking down a deep shaft in Derinkuyu"
+ },
+ {
+  "id": "16-06-0",
+  "chapter": "16_rediscovery",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu town Nevsehir",
+  "desc": "Derinkuyu main street today"
+ },
+ {
+  "id": "17-00-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Kaymaklı underground city",
+   "opened to visitors in 1964"
+  ],
+  "q": "Kaymakli underground city 9003 Nevit",
+  "desc": "Large room in Kaymaklı underground city"
+ },
+ {
+  "id": "17-00-1",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 0,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "1964 :: Kaymaklı opens to visitors"
+ },
+ {
+  "id": "17-01-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kaymakli village Cappadocia houses",
+  "desc": "Kaymaklı village above the underground city"
+ },
+ {
+  "id": "17-01-1",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kaymakli underground city 8891 Nevit",
+  "desc": "Narrow passage in Kaymaklı"
+ },
+ {
+  "id": "17-02-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Water trickling through the rocks at Kaymakli Underground City",
+  "desc": "Water trickling through the rock at Kaymaklı"
+ },
+ {
+  "id": "17-02-1",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kaymakli underground city 8939 Nevit",
+  "desc": "Storage room with niches in Kaymaklı"
+ },
+ {
+  "id": "17-02-2",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 2,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "A circular door at Kaymakli Underground City",
+  "desc": "Rolling stone door at Kaymaklı"
+ },
+ {
+  "id": "17-03-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Özkonak underground city",
+   "near Avanos"
+  ],
+  "q": "Entrance of Ozkonak Underground City",
+  "desc": "Entrance of Özkonak underground city"
+ },
+ {
+  "id": "17-03-1",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 3,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "1972 :: Özkonak found, according to the local account"
+ },
+ {
+  "id": "17-04-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Ciudad subterránea de Özkonak, Capadocia, Turquía, 2024-10-01, DD 36",
+  "desc": "Passage inside Özkonak"
+ },
+ {
+  "id": "17-04-1",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Ciudad subterránea de Özkonak, Capadocia, Turquía, 2024-10-01, DD 43-45 HDR",
+  "desc": "Chamber inside Özkonak"
+ },
+ {
+  "id": "17-05-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 5,
+  "idx": 0,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "q": "Derinkuyu Underground City 9815 Nevit",
+    "label": "Derinkuyu"
+   },
+   {
+    "q": "Kaymakli underground city 8943 Nevit",
+    "label": "Kaymaklı"
+   }
+  ],
+  "desc": "Derinkuyu [q: Derinkuyu Underground City 9815 Nevit] || Kaymaklı [q: Kaymakli underground city 8943 Nevit]"
+ },
+ {
+  "id": "17-06-0",
+  "chapter": "17_kaymakli_and_ozkonak",
+  "para": 6,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of central Cappadocia: Derinkuyu, Kaymaklı, Özkonak and other underground settlements"
+ },
+ {
+  "id": "18-00-0",
+  "chapter": "18_cities_underground",
+  "para": 0,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kaymakli underground city 8972 Nevit",
+  "desc": "Underground passage in Kaymaklı"
+ },
+ {
+  "id": "18-01-0",
+  "chapter": "18_cities_underground",
+  "para": 1,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Naours",
+   "Picardy, France"
+  ],
+  "q": "Naours souterraine cite tunnel",
+  "desc": "Tunnel in the underground refuge of Naours, France"
+ },
+ {
+  "id": "18-01-1",
+  "chapter": "18_cities_underground",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Naours graffiti soldiers",
+  "desc": "Soldiers' graffiti on a chalk wall at Naours"
+ },
+ {
+  "id": "18-02-0",
+  "chapter": "18_cities_underground",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "lt": [
+   "Matmata",
+   "southern Tunisia"
+  ],
+  "q": "Matmata troglodyte house",
+  "desc": "Troglodyte pit house at Matmata, Tunisia"
+ },
+ {
+  "id": "18-02-1",
+  "chapter": "18_cities_underground",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "MS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Matmata pit dwelling courtyard",
+  "desc": "Rooms cut into the walls of a pit house, Matmata"
+ },
+ {
+  "id": "18-03-0",
+  "chapter": "18_cities_underground",
+  "para": 3,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "World map: Derinkuyu, Naours, Matmata and Xenophon's Armenia"
+ },
+ {
+  "id": "18-03-1",
+  "chapter": "18_cities_underground",
+  "para": 3,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "safety · steady temperature :: the two reasons people went underground"
+ },
+ {
+  "id": "18-04-0",
+  "chapter": "18_cities_underground",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Yerkapi tunnel Hattusa",
+  "desc": "Yerkapı tunnel under the walls of Hattusa"
+ },
+ {
+  "id": "18-05-0",
+  "chapter": "18_cities_underground",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cappadocia Chimneys - DWiW",
+  "desc": "Cappadocian valley seen from above"
+ },
+ {
+  "id": "18-06-0",
+  "chapter": "18_cities_underground",
+  "para": 6,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Mazi underground city Cappadocia",
+  "desc": "Underground city at Mazı or Tatlarin, Cappadocia"
+ },
+ {
+  "id": "18-06-1",
+  "chapter": "18_cities_underground",
+  "para": 6,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Gaziemir underground city",
+  "desc": "Entrance of a smaller underground settlement in Cappadocia"
+ },
+ {
+  "id": "19-00-0",
+  "chapter": "19_what_we_know",
   "para": 0,
   "idx": 0,
   "kind": "stat",
@@ -1221,8 +3034,8 @@
   "desc": "at least 8 :: the number of levels known; 18 is unsupported"
  },
  {
-  "id": "09-00-1",
-  "chapter": "09_myths_and_evidence",
+  "id": "19-00-1",
+  "chapter": "19_what_we_know",
   "para": 0,
   "idx": 1,
   "kind": "photo",
@@ -1234,8 +3047,8 @@
   "desc": "Looking down a stairway into the lower levels"
  },
  {
-  "id": "09-01-0",
-  "chapter": "09_myths_and_evidence",
+  "id": "19-01-0",
+  "chapter": "19_what_we_know",
   "para": 1,
   "idx": 0,
   "kind": "stat",
@@ -1246,8 +3059,8 @@
   "desc": "up to 20,000 :: a popular estimate with no published calculation behind it"
  },
  {
-  "id": "09-01-1",
-  "chapter": "09_myths_and_evidence",
+  "id": "19-01-1",
+  "chapter": "19_what_we_know",
   "para": 1,
   "idx": 1,
   "kind": "photo",
@@ -1259,8 +3072,8 @@
   "desc": "Large chamber in Derinkuyu"
  },
  {
-  "id": "09-02-0",
-  "chapter": "09_myths_and_evidence",
+  "id": "19-02-0",
+  "chapter": "19_what_we_know",
   "para": 2,
   "idx": 0,
   "kind": "split",
@@ -1281,9 +3094,21 @@
   "desc": "The claim: 18 levels, 20,000 people [q: Derinkuyu Underground City 9913 Nevit] || The evidence: at least 8 levels, no published count [q: Derinkuyu Underground City 9851 Nevit]"
  },
  {
-  "id": "09-03-0",
-  "chapter": "09_myths_and_evidence",
+  "id": "19-03-0",
+  "chapter": "19_what_we_know",
   "para": 3,
+  "idx": 0,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "Confirmed: rolling stone doors ; Confirmed: the church in the lower levels ; Confirmed: at least eight levels, about 85 m ; Reported: a 55 m well ; Reported: tunnel to Kaymaklı ; Possible: Phrygian origins ; Unsupported: 18 levels"
+ },
+ {
+  "id": "19-04-0",
+  "chapter": "19_what_we_know",
+  "para": 4,
   "idx": 0,
   "kind": "timeline",
   "size": "TL",
@@ -1293,9 +3118,9 @@
   "desc": "uncertain date: first chambers cut ; 7th–10th centuries: enlarged as a refuge from raids ; 1923: Christian inhabitants leave in the population exchange ; 1963: rediscovered ; 1969: opened to visitors ; 1985: UNESCO World Heritage listing"
  },
  {
-  "id": "09-03-1",
-  "chapter": "09_myths_and_evidence",
-  "para": 3,
+  "id": "19-04-1",
+  "chapter": "19_what_we_know",
+  "para": 4,
   "idx": 1,
   "kind": "photo",
   "size": "WS",
@@ -1306,9 +3131,35 @@
   "desc": "Deep passage in Derinkuyu"
  },
  {
-  "id": "09-04-0",
-  "chapter": "09_myths_and_evidence",
-  "para": 4,
+  "id": "19-05-0",
+  "chapter": "19_what_we_know",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Derinkuyu Underground City wall",
+  "desc": "Tool marks on a passage wall"
+ },
+ {
+  "id": "19-05-1",
+  "chapter": "19_what_we_know",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "drift",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Roling door in Derinkuyu",
+  "desc": "Rolling stone door in its slot"
+ },
+ {
+  "id": "19-06-0",
+  "chapter": "19_what_we_know",
+  "para": 6,
   "idx": 0,
   "kind": "photo",
   "size": "WS",
@@ -1319,9 +3170,9 @@
   "desc": "Light at the top of a stairway in Derinkuyu"
  },
  {
-  "id": "09-04-1",
-  "chapter": "09_myths_and_evidence",
-  "para": 4,
+  "id": "19-06-1",
+  "chapter": "19_what_we_know",
+  "para": 6,
   "idx": 1,
   "kind": "photo",
   "size": "EWS",
@@ -1332,9 +3183,9 @@
   "desc": "Cappadocian landscape at sunset"
  },
  {
-  "id": "09-04-2",
-  "chapter": "09_myths_and_evidence",
-  "para": 4,
+  "id": "19-06-2",
+  "chapter": "19_what_we_know",
+  "para": 6,
   "idx": 2,
   "kind": "card",
   "size": "CARD",

@@ -104,10 +104,6 @@
    }
   ]
  },
- "00-01-0": {
-  "q": "Derinkuyu Underground City tunnel passage",
-  "cands": []
- },
  "00-01-2": {
   "q": "Derinkuyu Underground City chamber",
   "cands": [
@@ -123,8 +119,63 @@
   ]
  },
  "00-02-0": {
-  "q": "Derinkuyu Underground City shaft",
-  "cands": []
+  "q": "Cappadocia Chimneys Wikimedia Commons",
+  "cands": [
+   {
+    "title": "File:Cappadocia Chimneys Wikimedia Commons.jpg",
+    "w": 17494,
+    "h": 5619,
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Cappadocia_Chimneys_Wikimedia_Commons.jpg/1920px-Cappadocia_Chimneys_Wikimedia_Commons.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Chimneys_Wikimedia_Commons.jpg"
+   },
+   {
+    "title": "File:Cappadocia Chimneys - DWiW.jpg",
+    "w": 12569,
+    "h": 3990,
+    "license": "CC BY-SA 3.0",
+    "artist": "Cappadocia_Chimneys_Wikimedia_Commons.jpg: Benh LIEU SONG\nderivative work: Wolf im Wald",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Cappadocia_Chimneys_-_DWiW.jpg/1920px-Cappadocia_Chimneys_-_DWiW.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Chimneys_-_DWiW.jpg"
+   },
+   {
+    "title": "File:Cappadocia March 2006.jpg",
+    "w": 1807,
+    "h": 1527,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Cappadocia_March_2006.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_March_2006.jpg"
+   },
+   {
+    "title": "File:View of Cappadocia edit.jpg",
+    "w": 1514,
+    "h": 996,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory Edit by CillanXC",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/78/View_of_Cappadocia_edit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Cappadocia_edit.jpg"
+   },
+   {
+    "title": "File:Göreme Valley in Cappadocia edit1.jpg",
+    "w": 2200,
+    "h": 1371,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/G%C3%B6reme_Valley_in_Cappadocia_edit1.jpg/1920px-G%C3%B6reme_Valley_in_Cappadocia_edit1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_Valley_in_Cappadocia_edit1.jpg"
+   },
+   {
+    "title": "File:Fairy chimneys in Cappadocia.JPG",
+    "w": 7360,
+    "h": 4912,
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Fairy_chimneys_in_Cappadocia.JPG/1920px-Fairy_chimneys_in_Cappadocia.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Fairy_chimneys_in_Cappadocia.JPG"
+   }
+  ]
  },
  "01-00-1": {
   "q": "Mount Erciyes volcano Kayseri",
@@ -185,11 +236,7 @@
    }
   ]
  },
- "01-00-2": {
-  "q": "Cappadocia tuff layers cliff",
-  "cands": []
- },
- "01-01-0": {
+ "01-02-0": {
   "q": "Cappadocia fairy chimneys Goreme",
   "cands": [
    {
@@ -248,7 +295,7 @@
    }
   ]
  },
- "01-01-1": {
+ "01-02-1": {
   "q": "fairy chimney cap rock Cappadocia",
   "cands": [
    {
@@ -307,15 +354,7 @@
    }
   ]
  },
- "01-02-0": {
-  "q": "Cappadocia rock cut houses cliff",
-  "cands": []
- },
- "01-02-1": {
-  "q": "Cappadocia pigeon houses dovecote",
-  "cands": []
- },
- "01-02-2": {
+ "01-03-2": {
   "q": "Goreme open air museum church fresco",
   "cands": [
    {
@@ -374,7 +413,7 @@
    }
   ]
  },
- "01-03-1": {
+ "01-05-1": {
   "q": "Kaymakli underground city",
   "cands": [
    {
@@ -433,7 +472,7 @@
    }
   ]
  },
- "01-03-2": {
+ "01-05-2": {
   "q": "Entrance of Ozkonak Underground City",
   "cands": [
    {
@@ -456,7 +495,7 @@
    }
   ]
  },
- "01-04-0": {
+ "01-06-0": {
   "q": "Cappadocia Chimneys Wikimedia Commons",
   "cands": [
    {
@@ -515,11 +554,112 @@
    }
   ]
  },
- "02-00-0": {
-  "q": "Derinkuyu underground city entrance",
-  "cands": []
+ "02-01-1": {
+  "q": "fairy chimney cap rock Cappadocia",
+  "cands": [
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg",
+    "w": 4431,
+    "h": 3223,
+    "license": "Public domain",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg"
+   },
+   {
+    "title": "File:View of Cappadocia edit1.jpg",
+    "w": 1554,
+    "h": 1051,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/View_of_Cappadocia_edit1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Cappadocia_edit1.jpg"
+   },
+   {
+    "title": "File:Turkey-1978 - Cappadocia (2216713418).jpg",
+    "w": 3264,
+    "h": 2448,
+    "license": "CC BY-SA 2.0",
+    "artist": "Dennis G. Jarvis",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Turkey-1978_-_Cappadocia_%282216713418%29.jpg/1920px-Turkey-1978_-_Cappadocia_%282216713418%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey-1978_-_Cappadocia_(2216713418).jpg"
+   },
+   {
+    "title": "File:Göreme cappadocia.jpg",
+    "w": 1536,
+    "h": 1034,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/G%C3%B6reme_cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_cappadocia.jpg"
+   },
+   {
+    "title": "File:Turkey-1787 (2216662472) (2).jpg",
+    "w": 3264,
+    "h": 2448,
+    "license": "CC BY-SA 2.0",
+    "artist": "Dennis G. Jarvis",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Turkey-1787_%282216662472%29_%282%29.jpg/1920px-Turkey-1787_%282216662472%29_%282%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey-1787_(2216662472)_(2).jpg"
+   },
+   {
+    "title": "File:Churches of Göreme.jpg",
+    "w": 4496,
+    "h": 2222,
+    "license": "CC BY 2.0",
+    "artist": "lensnmatter",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Churches_of_G%C3%B6reme.jpg/1920px-Churches_of_G%C3%B6reme.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Churches_of_G%C3%B6reme.jpg"
+   }
+  ]
  },
- "02-00-1": {
+ "02-04-0": {
+  "q": "Derinkuyu Underground City 9886 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9886 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Derinkuyu_Underground_City_9886_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9886_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9886_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9886 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Derinkuyu_Underground_City_9886_Nevit.jpg/1920px-Derinkuyu_Underground_City_9886_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9886_Nevit.jpg"
+   }
+  ]
+ },
+ "04-06-0": {
+  "q": "Derinkuyu Underground City 9843 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9843 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9843 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Derinkuyu_Underground_City_9843_Nevit.jpg/1920px-Derinkuyu_Underground_City_9843_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9843_Nevit.jpg"
+   }
+  ]
+ },
+ "05-00-1": {
   "q": "Derinkuyu with man",
   "cands": [
    {
@@ -551,7 +691,7 @@
    }
   ]
  },
- "02-00-2": {
+ "05-00-2": {
   "q": "Derinkuyu Underground City doorway",
   "cands": [
    {
@@ -610,7 +750,7 @@
    }
   ]
  },
- "02-01-0": {
+ "05-01-0": {
   "q": "Derinkuyu Underground City 9831 Nevit",
   "cands": [
    {
@@ -633,11 +773,7 @@
    }
   ]
  },
- "02-01-1": {
-  "q": "Derinkuyu Underground City press",
-  "cands": []
- },
- "02-01-2": {
+ "05-01-2": {
   "q": "Derinkuyu Underground City ceiling",
   "cands": [
    {
@@ -651,7 +787,7 @@
    }
   ]
  },
- "02-02-1": {
+ "05-02-1": {
   "q": "Derinkuyu Underground City 9843 Nevit",
   "cands": [
    {
@@ -674,19 +810,62 @@
    }
   ]
  },
- "02-03-0": {
-  "q": "Derinkuyu Underground City hall vaulted",
-  "cands": []
+ "05-04-0": {
+  "q": "Derinkuyu Underground City 9807 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9807 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Derinkuyu_Underground_City_9807_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9807_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9807_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9807 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Derinkuyu_Underground_City_9807_Nevit.jpg/1920px-Derinkuyu_Underground_City_9807_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9807_Nevit.jpg"
+   }
+  ]
  },
- "02-03-1": {
-  "q": "Derinkuyu church cruciform",
-  "cands": []
+ "05-06-0": {
+  "q": "Derinkuyu with man",
+  "cands": [
+   {
+    "title": "File:Derinkuyu with man.jpg",
+    "w": 600,
+    "h": 800,
+    "license": "CC BY-SA 3.0",
+    "artist": "user:Shakko",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Derinkuyu_with_man.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_with_man.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. Turkey. Hot Air Ballooning Cappadocia.jpg",
+    "w": 6000,
+    "h": 3375,
+    "license": "CC0",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg",
+    "w": 4431,
+    "h": 3223,
+    "license": "Public domain",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg"
+   }
+  ]
  },
- "02-04-0": {
-  "q": "Derinkuyu Underground City niches",
-  "cands": []
- },
- "02-04-1": {
+ "05-07-1": {
   "q": "Derinkuyu Underground City 9813 Nevit",
   "cands": [
    {
@@ -709,11 +888,7 @@
    }
   ]
  },
- "03-00-0": {
-  "q": "Derinkuyu Underground City shaft light",
-  "cands": []
- },
- "03-01-0": {
+ "06-01-0": {
   "q": "Derinkuyu Underground City ventilation",
   "cands": [
    {
@@ -763,7 +938,7 @@
    }
   ]
  },
- "03-01-1": {
+ "06-01-1": {
   "q": "Derinkuyu Underground City 9781 Nevit",
   "cands": [
    {
@@ -786,11 +961,7 @@
    }
   ]
  },
- "03-02-1": {
-  "q": "Derinkuyu well shaft",
-  "cands": []
- },
- "03-03-1": {
+ "06-03-1": {
   "q": "Derinkuyu Underground City pillar",
   "cands": [
    {
@@ -813,11 +984,67 @@
    }
   ]
  },
- "03-04-0": {
-  "q": "Derinkuyu Underground City wall tool marks",
-  "cands": []
+ "07-01-1": {
+  "q": "Derinkuyu Underground City 9925 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9925 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Derinkuyu_Underground_City_9925_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9925_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9925_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9925 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Derinkuyu_Underground_City_9925_Nevit.jpg/1920px-Derinkuyu_Underground_City_9925_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9925_Nevit.jpg"
+   }
+  ]
  },
- "04-00-0": {
+ "07-02-0": {
+  "q": "Derinkuyu Underground City 9813 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9813 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Derinkuyu_Underground_City_9813_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9813_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9813_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9813 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Derinkuyu_Underground_City_9813_Nevit.jpg/1920px-Derinkuyu_Underground_City_9813_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9813_Nevit.jpg"
+   }
+  ]
+ },
+ "07-04-0": {
+  "q": "Derinkuyu Underground City stairs",
+  "cands": [
+   {
+    "title": "File:In putDerinkuyu,nosh abad kashan.jpg",
+    "w": 4128,
+    "h": 2322,
+    "license": "CC BY-SA 4.0",
+    "artist": "Eman1366",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/In_putDerinkuyu%2Cnosh_abad_kashan.jpg/1920px-In_putDerinkuyu%2Cnosh_abad_kashan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:In_putDerinkuyu,nosh_abad_kashan.jpg"
+   }
+  ]
+ },
+ "08-00-0": {
   "q": "Roling door in Derinkuyu",
   "cands": [
    {
@@ -876,7 +1103,7 @@
    }
   ]
  },
- "04-00-1": {
+ "08-00-1": {
   "q": "Derinkuyu door",
   "cands": [
    {
@@ -935,7 +1162,7 @@
    }
   ]
  },
- "04-01-0": {
+ "08-01-0": {
   "q": "Derinkuyu Underground City 9843 Nevit Enhancer",
   "cands": [
    {
@@ -949,7 +1176,7 @@
    }
   ]
  },
- "04-01-1": {
+ "08-01-1": {
   "q": "A circular door at Kaymakli Underground City",
   "cands": [
    {
@@ -963,11 +1190,7 @@
    }
   ]
  },
- "04-02-0": {
-  "q": "Derinkuyu rolling stone hole",
-  "cands": []
- },
- "04-03-0": {
+ "08-04-0": {
   "q": "Rolling stone door Derinkuyu",
   "cands": [
    {
@@ -1026,7 +1249,7 @@
    }
   ]
  },
- "04-04-0": {
+ "08-05-0": {
   "q": "Derinkuyu Underground City 9886 Nevit",
   "cands": [
    {
@@ -1049,7 +1272,7 @@
    }
   ]
  },
- "04-04-1": {
+ "08-05-1": {
   "q": "Derinkuyu Underground City 9925 Nevit",
   "cands": [
    {
@@ -1072,7 +1295,7 @@
    }
   ]
  },
- "05-00-1": {
+ "09-00-1": {
   "q": "Derinkuyu Underground City 9807 Nevit",
   "cands": [
    {
@@ -1095,7 +1318,7 @@
    }
   ]
  },
- "05-01-0": {
+ "09-01-0": {
   "q": "Midas monument Midas sehri Phrygian",
   "cands": [
    {
@@ -1108,5 +1331,988 @@
     "page": "https://commons.wikimedia.org/wiki/File:MidasSehri.TombDetail.jpg"
    }
   ]
+ },
+ "09-02-0": {
+  "q": "Xenophon Anabasis manuscript",
+  "cands": [
+   {
+    "title": "File:Xenophon, Anabasis, Milan, A 78 inf.jpg",
+    "w": 2270,
+    "h": 3149,
+    "license": "Public domain",
+    "artist": "Xenophon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Xenophon%2C_Anabasis%2C_Milan%2C_A_78_inf.jpg/1920px-Xenophon%2C_Anabasis%2C_Milan%2C_A_78_inf.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Xenophon,_Anabasis,_Milan,_A_78_inf.jpg"
+   }
+  ]
+ },
+ "10-00-1": {
+  "q": "Derinkuyu Underground City 9874 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9874 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Derinkuyu_Underground_City_9874_Nevit.jpg/1920px-Derinkuyu_Underground_City_9874_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9874_Nevit.jpg"
+   }
+  ]
+ },
+ "10-02-0": {
+  "q": "Goreme open air museum church fresco",
+  "cands": [
+   {
+    "title": "File:Medieval Fresco in Cave Church - Open-Air Museum - Goreme - Cappadocia - Turkey (5761507026).jpg",
+    "w": 3456,
+    "h": 2304,
+    "license": "CC BY-SA 2.0",
+    "artist": "Adam Jones from Kelowna, BC, Canada",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Medieval_Fresco_in_Cave_Church_-_Open-Air_Museum_-_Goreme_-_Cappadocia_-_Turkey_%285761507026%29.jpg/1920px-Medieval_Fresco_in_Cave_Church_-_Open-Air_Museum_-_Goreme_-_Cappadocia_-_Turkey_%285761507026%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Medieval_Fresco_in_Cave_Church_-_Open-Air_Museum_-_Goreme_-_Cappadocia_-_Turkey_(5761507026).jpg"
+   },
+   {
+    "title": "File:Goreme Open Air Museum (163972393).jpeg",
+    "w": 2048,
+    "h": 1365,
+    "license": "CC BY 3.0",
+    "artist": "Vyacheslav Gusev",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Goreme_Open_Air_Museum_%28163972393%29.jpeg/1920px-Goreme_Open_Air_Museum_%28163972393%29.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Goreme_Open_Air_Museum_(163972393).jpeg"
+   },
+   {
+    "title": "File:Karanlık Kilise, the Dark Church, Underground Church, Goreme Open Air Museum, Göreme Açık Hava Müzesi (52399241664).jpg",
+    "w": 4032,
+    "h": 3024,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Karanl%C4%B1k_Kilise%2C_the_Dark_Church%2C_Underground_Church%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852399241664%29.jpg/1920px-Karanl%C4%B1k_Kilise%2C_the_Dark_Church%2C_Underground_Church%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852399241664%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karanl%C4%B1k_Kilise,_the_Dark_Church,_Underground_Church,_Goreme_Open_Air_Museum,_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_(52399241664).jpg"
+   },
+   {
+    "title": "File:Çarıklı Kilise, the Church with Sandals, Goreme Open Air Museum, Göreme Açık Hava Müzesi (52398956036).jpg",
+    "w": 4032,
+    "h": 3024,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/%C3%87ar%C4%B1kl%C4%B1_Kilise%2C_the_Church_with_Sandals%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852398956036%29.jpg/1920px-%C3%87ar%C4%B1kl%C4%B1_Kilise%2C_the_Church_with_Sandals%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852398956036%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%87ar%C4%B1kl%C4%B1_Kilise,_the_Church_with_Sandals,_Goreme_Open_Air_Museum,_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_(52398956036).jpg"
+   },
+   {
+    "title": "File:Elmalı Kilise, Apple Church, Underground Church, Goreme Open Air Museum, Göreme Açık Hava Müzesi (52399447783).jpg",
+    "w": 4032,
+    "h": 2502,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Elmal%C4%B1_Kilise%2C_Apple_Church%2C_Underground_Church%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852399447783%29.jpg/1920px-Elmal%C4%B1_Kilise%2C_Apple_Church%2C_Underground_Church%2C_Goreme_Open_Air_Museum%2C_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_%2852399447783%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Elmal%C4%B1_Kilise,_Apple_Church,_Underground_Church,_Goreme_Open_Air_Museum,_G%C3%B6reme_A%C3%A7%C4%B1k_Hava_M%C3%BCzesi_(52399447783).jpg"
+   },
+   {
+    "title": "File:Sandal church - Çarıklı Kilise - Göreme open air museum.jpg",
+    "w": 5760,
+    "h": 3840,
+    "license": "CC BY 2.0",
+    "artist": "prilfish",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Sandal_church_-_%C3%87ar%C4%B1kl%C4%B1_Kilise_-_G%C3%B6reme_open_air_museum.jpg/1920px-Sandal_church_-_%C3%87ar%C4%B1kl%C4%B1_Kilise_-_G%C3%B6reme_open_air_museum.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sandal_church_-_%C3%87ar%C4%B1kl%C4%B1_Kilise_-_G%C3%B6reme_open_air_museum.jpg"
+   }
+  ]
+ },
+ "11-06-0": {
+  "q": "Derinkuyu Underground City 9771 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9771 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Derinkuyu_Underground_City_9771_Nevit.jpg/1920px-Derinkuyu_Underground_City_9771_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9771_Nevit.jpg"
+   }
+  ]
+ },
+ "13-01-0": {
+  "q": "Taurus Mountains Turkey",
+  "cands": [
+   {
+    "title": "File:Toros Dağları (Taurus Mountains).jpg",
+    "w": 2194,
+    "h": 1101,
+    "license": "CC BY-SA 2.0",
+    "artist": "Dan",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Toros_Da%C4%9Flar%C4%B1_%28Taurus_Mountains%29.jpg/1920px-Toros_Da%C4%9Flar%C4%B1_%28Taurus_Mountains%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Toros_Da%C4%9Flar%C4%B1_(Taurus_Mountains).jpg"
+   },
+   {
+    "title": "File:Taurus Mountains, Saimbeyli 04.JPG",
+    "w": 2250,
+    "h": 1605,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeynel Cebeci",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Taurus_Mountains%2C_Saimbeyli_04.JPG/1920px-Taurus_Mountains%2C_Saimbeyli_04.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Taurus_Mountains,_Saimbeyli_04.JPG"
+   },
+   {
+    "title": "File:Taurus Mountains, Saimbeyli 03.JPG",
+    "w": 2005,
+    "h": 855,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeynel Cebeci",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Taurus_Mountains%2C_Saimbeyli_03.JPG/1920px-Taurus_Mountains%2C_Saimbeyli_03.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Taurus_Mountains,_Saimbeyli_03.JPG"
+   },
+   {
+    "title": "File:Taurus Mountains, Saimbeyli 01.JPG",
+    "w": 2250,
+    "h": 1406,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeynel Cebeci",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Taurus_Mountains%2C_Saimbeyli_01.JPG/1920px-Taurus_Mountains%2C_Saimbeyli_01.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Taurus_Mountains,_Saimbeyli_01.JPG"
+   },
+   {
+    "title": "File:Taurus Mountains, Saimbeyli 02.JPG",
+    "w": 2250,
+    "h": 976,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeynel Cebeci",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Taurus_Mountains%2C_Saimbeyli_02.JPG/1920px-Taurus_Mountains%2C_Saimbeyli_02.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Taurus_Mountains,_Saimbeyli_02.JPG"
+   },
+   {
+    "title": "File:Taurus mountains - Toros Dağları 08.jpg",
+    "w": 5472,
+    "h": 3648,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zeynel Cebeci",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Taurus_mountains_-_Toros_Da%C4%9Flar%C4%B1_08.jpg/1920px-Taurus_mountains_-_Toros_Da%C4%9Flar%C4%B1_08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Taurus_mountains_-_Toros_Da%C4%9Flar%C4%B1_08.jpg"
+   }
+  ]
+ },
+ "13-02-0": {
+  "q": "Cappadocia Byzantine rock cut church fresco",
+  "cands": [
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. Turkey. Hot Air Ballooning Cappadocia.jpg",
+    "w": 6000,
+    "h": 3375,
+    "license": "CC0",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg"
+   }
+  ]
+ },
+ "13-02-1": {
+  "q": "Derinkuyu Underground City 9771 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9771 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Derinkuyu_Underground_City_9771_Nevit.jpg/1920px-Derinkuyu_Underground_City_9771_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9771_Nevit.jpg"
+   }
+  ]
+ },
+ "13-03-1": {
+  "q": "Tyana aqueduct Kemerhisar",
+  "cands": [
+   {
+    "title": "File:Roman aqueduct at Tyana (Kemerhisar), Niğde Province, Turkey 01.jpg",
+    "w": 4000,
+    "h": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "Ugiadam08",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Roman_aqueduct_at_Tyana_%28Kemerhisar%29%2C_Ni%C4%9Fde_Province%2C_Turkey_01.jpg/1920px-Roman_aqueduct_at_Tyana_%28Kemerhisar%29%2C_Ni%C4%9Fde_Province%2C_Turkey_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roman_aqueduct_at_Tyana_(Kemerhisar),_Ni%C4%9Fde_Province,_Turkey_01.jpg"
+   },
+   {
+    "title": "File:Kemerhisar-aqueduct.jpg",
+    "w": 2848,
+    "h": 4288,
+    "license": "CC BY-SA 3.0",
+    "artist": "Burak Sakal",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Kemerhisar-aqueduct.jpg/1920px-Kemerhisar-aqueduct.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kemerhisar-aqueduct.jpg"
+   },
+   {
+    "title": "File:Tuwanuwa - Tyana - Kemerhisar.jpg",
+    "w": 1536,
+    "h": 2048,
+    "license": "CC BY-SA 3.0",
+    "artist": "Htkava",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/26/Tuwanuwa_-_Tyana_-_Kemerhisar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tuwanuwa_-_Tyana_-_Kemerhisar.jpg"
+   },
+   {
+    "title": "File:Kemerhisar banner Aqueduct.jpg",
+    "w": 2994,
+    "h": 428,
+    "license": "CC BY-SA 3.0",
+    "artist": "Klaus-Peter Simon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Kemerhisar_banner_Aqueduct.jpg/1920px-Kemerhisar_banner_Aqueduct.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kemerhisar_banner_Aqueduct.jpg"
+   },
+   {
+    "title": "File:Roman aqueduct built in the 2nd century AD, Tyana, Cappadocia, Turkey (23777572438).jpg",
+    "w": 4928,
+    "h": 3264,
+    "license": "CC BY-SA 2.0",
+    "artist": "Carole Raddato from FRANKFURT, Germany",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Roman_aqueduct_built_in_the_2nd_century_AD%2C_Tyana%2C_Cappadocia%2C_Turkey_%2823777572438%29.jpg/1920px-Roman_aqueduct_built_in_the_2nd_century_AD%2C_Tyana%2C_Cappadocia%2C_Turkey_%2823777572438%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Roman_aqueduct_built_in_the_2nd_century_AD,_Tyana,_Cappadocia,_Turkey_(23777572438).jpg"
+   },
+   {
+    "title": "File:Kemerhisar-panaromic.JPG",
+    "w": 4288,
+    "h": 2848,
+    "license": "CC BY-SA 3.0",
+    "artist": "Burak Sakal",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Kemerhisar-panaromic.JPG/1920px-Kemerhisar-panaromic.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kemerhisar-panaromic.JPG"
+   }
+  ]
+ },
+ "13-04-1": {
+  "q": "Derinkuyu Underground City 9851 Nevit Enhancer",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9851 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg"
+   }
+  ]
+ },
+ "13-07-0": {
+  "q": "Derinkuyu Underground City 9874 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9874 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Derinkuyu_Underground_City_9874_Nevit.jpg/1920px-Derinkuyu_Underground_City_9874_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9874_Nevit.jpg"
+   }
+  ]
+ },
+ "14-06-0": {
+  "q": "Derinkuyu Underground City.JPG",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City.JPG",
+    "w": 3456,
+    "h": 2592,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bjørn Christian Tørrissen",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Derinkuyu_Underground_City.JPG/1920px-Derinkuyu_Underground_City.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City.JPG"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9831 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Derinkuyu_Underground_City_9831_Nevit.jpg/1920px-Derinkuyu_Underground_City_9831_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9831_Nevit.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9843 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Underground City - Derinkuyu, Nevşehir Province, Turkey - October 5, 2025.jpg",
+    "w": 5452,
+    "h": 8177,
+    "license": "CC BY-SA 4.0",
+    "artist": "Giorgio Galeotti",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Underground_City_-_Derinkuyu%2C_Nev%C5%9Fehir_Province%2C_Turkey_-_October_5%2C_2025.jpg/1920px-Underground_City_-_Derinkuyu%2C_Nev%C5%9Fehir_Province%2C_Turkey_-_October_5%2C_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Underground_City_-_Derinkuyu,_Nev%C5%9Fehir_Province,_Turkey_-_October_5,_2025.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9831 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City Türkiye.jpg",
+    "w": 4608,
+    "h": 3456,
+    "license": "CC BY-SA 2.0",
+    "artist": "Joe Wallace",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Derinkuyu_Underground_City_T%C3%BCrkiye.jpg/1920px-Derinkuyu_Underground_City_T%C3%BCrkiye.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_T%C3%BCrkiye.jpg"
+   }
+  ]
+ },
+ "15-01-0": {
+  "q": "Cappadocia Greek church village Mustafapasa",
+  "cands": [
+   {
+    "title": "File:Distribution of Cappadocian Greek-speaking villages in Central Anatolia before 1924.jpg",
+    "w": 1170,
+    "h": 932,
+    "license": "CC BY 4.0",
+    "artist": "Squeaks 41",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Distribution_of_Cappadocian_Greek-speaking_villages_in_Central_Anatolia_before_1924.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Distribution_of_Cappadocian_Greek-speaking_villages_in_Central_Anatolia_before_1924.jpg"
+   }
+  ]
+ },
+ "15-01-1": {
+  "q": "Richard MacGillivray Dawkins",
+  "cands": [
+   {
+    "title": "File:Bosanquet Dawkins Currelly 01.jpg",
+    "w": 362,
+    "h": 399,
+    "license": "Public domain",
+    "artist": "UnknownUnknown  (British School at Athens)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Bosanquet_Dawkins_Currelly_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bosanquet_Dawkins_Currelly_01.jpg"
+   },
+   {
+    "title": "File:RM Dawkins BSA Photograph.jpg",
+    "w": 746,
+    "h": 963,
+    "license": "Public domain",
+    "artist": "No author recorded; presumably a member of the Sparta excavation.",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/RM_Dawkins_BSA_Photograph.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:RM_Dawkins_BSA_Photograph.jpg"
+   },
+   {
+    "title": "File:Dawkins Palaikastro 1903.jpg",
+    "w": 2088,
+    "h": 4038,
+    "license": "Public domain",
+    "artist": "No author recorded; presumably a member of the Palaikastro excavation.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Dawkins_Palaikastro_1903.jpg/1920px-Dawkins_Palaikastro_1903.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dawkins_Palaikastro_1903.jpg"
+   },
+   {
+    "title": "File:Dawkins, Bosanquet, Myres Palaikastro 1903.jpg",
+    "w": 7271,
+    "h": 5877,
+    "license": "Public domain",
+    "artist": "No author recorded; presumably a member of the Palaikastro excavation.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Dawkins%2C_Bosanquet%2C_Myres_Palaikastro_1903.jpg/1920px-Dawkins%2C_Bosanquet%2C_Myres_Palaikastro_1903.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Dawkins,_Bosanquet,_Myres_Palaikastro_1903.jpg"
+   },
+   {
+    "title": "File:BSA Archaeologists at Sparta 1908.jpg",
+    "w": 3198,
+    "h": 2442,
+    "license": "Public domain",
+    "artist": "Anonymous (presumably a member of the Sparta excavation team)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/BSA_Archaeologists_at_Sparta_1908.jpg/1920px-BSA_Archaeologists_at_Sparta_1908.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:BSA_Archaeologists_at_Sparta_1908.jpg"
+   },
+   {
+    "title": "File:Sikinos, church of the Episkopi ('Temple of Apollo Pythios') in 1907 (BSA 11, 1911-1912, fig. 2).jpg",
+    "w": 2560,
+    "h": 3615,
+    "license": "Public domain",
+    "artist": "Richard MacGillivray Dawkins (1871–1955)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Sikinos%2C_church_of_the_Episkopi_%28%27Temple_of_Apollo_Pythios%27%29_in_1907_%28BSA_11%2C_1911-1912%2C_fig._2%29.jpg/1920px-Sikinos%2C_church_of_the_Episkopi_%28%27Temple_of_Apollo_Pythios%27%29_in_1907_%28BSA_11%2C_1911-1912%2C_fig._2%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sikinos,_church_of_the_Episkopi_(%27Temple_of_Apollo_Pythios%27)_in_1907_(BSA_11,_1911-1912,_fig._2).jpg"
+   }
+  ]
+ },
+ "15-02-0": {
+  "q": "Derinkuyu Underground City.JPG",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City.JPG",
+    "w": 3456,
+    "h": 2592,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bjørn Christian Tørrissen",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Derinkuyu_Underground_City.JPG/1920px-Derinkuyu_Underground_City.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City.JPG"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9831 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Derinkuyu_Underground_City_9831_Nevit.jpg/1920px-Derinkuyu_Underground_City_9831_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9831_Nevit.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9843 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Underground City - Derinkuyu, Nevşehir Province, Turkey - October 5, 2025.jpg",
+    "w": 5452,
+    "h": 8177,
+    "license": "CC BY-SA 4.0",
+    "artist": "Giorgio Galeotti",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Underground_City_-_Derinkuyu%2C_Nev%C5%9Fehir_Province%2C_Turkey_-_October_5%2C_2025.jpg/1920px-Underground_City_-_Derinkuyu%2C_Nev%C5%9Fehir_Province%2C_Turkey_-_October_5%2C_2025.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Underground_City_-_Derinkuyu,_Nev%C5%9Fehir_Province,_Turkey_-_October_5,_2025.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9831 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City Türkiye.jpg",
+    "w": 4608,
+    "h": 3456,
+    "license": "CC BY-SA 2.0",
+    "artist": "Joe Wallace",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Derinkuyu_Underground_City_T%C3%BCrkiye.jpg/1920px-Derinkuyu_Underground_City_T%C3%BCrkiye.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_T%C3%BCrkiye.jpg"
+   }
+  ]
+ },
+ "15-03-1": {
+  "q": "1923 population exchange Greece Turkey refugees",
+  "cands": [
+   {
+    "title": "File:Muslim refugee by the compulsory population exchange.jpg",
+    "w": 440,
+    "h": 300,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Muslim_refugee_by_the_compulsory_population_exchange.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Muslim_refugee_by_the_compulsory_population_exchange.jpg"
+   },
+   {
+    "title": "File:Greek and Armenian refugee children near Athens, 1923.jpg",
+    "w": 3552,
+    "h": 2059,
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Greek_and_Armenian_refugee_children_near_Athens%2C_1923.jpg/1920px-Greek_and_Armenian_refugee_children_near_Athens%2C_1923.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_and_Armenian_refugee_children_near_Athens,_1923.jpg"
+   },
+   {
+    "title": "File:Greek and Armenian refugee children outside barracks near Athens, 1923.jpg",
+    "w": 4096,
+    "h": 3276,
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Greek_and_Armenian_refugee_children_outside_barracks_near_Athens%2C_1923.jpg/1920px-Greek_and_Armenian_refugee_children_outside_barracks_near_Athens%2C_1923.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_and_Armenian_refugee_children_outside_barracks_near_Athens,_1923.jpg"
+   },
+   {
+    "title": "File:Greek and Armenian refugee children from Anatolia standing outside one-story building, near Athens, Greece LCCN2002709161.jpg",
+    "w": 4096,
+    "h": 3256,
+    "license": "Public domain",
+    "artist": "Frank and Frances Carpenter Collection",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Greek_and_Armenian_refugee_children_from_Anatolia_standing_outside_one-story_building%2C_near_Athens%2C_Greece_LCCN2002709161.jpg/1920px-Greek_and_Armenian_refugee_children_from_Anatolia_standing_outside_one-story_building%2C_near_Athens%2C_Greece_LCCN2002709161.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_and_Armenian_refugee_children_from_Anatolia_standing_outside_one-story_building,_near_Athens,_Greece_LCCN2002709161.jpg"
+   },
+   {
+    "title": "File:Map of Greek Refugee Settlements in Greece, 1926.png",
+    "w": 813,
+    "h": 868,
+    "license": "CC BY-SA 4.0",
+    "artist": "Renee Hirschon",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/83/Map_of_Greek_Refugee_Settlements_in_Greece%2C_1926.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Map_of_Greek_Refugee_Settlements_in_Greece,_1926.png"
+   },
+   {
+    "title": "File:Greek mother & child waiting in camp at Salonica for continuation of journey from the Caucasus to Thrace LCCN2001705752.jpg",
+    "w": 1536,
+    "h": 1536,
+    "license": "Public domain",
+    "artist": "Frank and Frances Carpenter Collection",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/88/Greek_mother_%26_child_waiting_in_camp_at_Salonica_for_continuation_of_journey_from_the_Caucasus_to_Thrace_LCCN2001705752.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_mother_%26_child_waiting_in_camp_at_Salonica_for_continuation_of_journey_from_the_Caucasus_to_Thrace_LCCN2001705752.jpg"
+   }
+  ]
+ },
+ "15-07-0": {
+  "q": "DerinkuyuUndergroundCity02",
+  "cands": [
+   {
+    "title": "File:DerinkuyuUndergroundCity02.jpg",
+    "w": 2048,
+    "h": 1536,
+    "license": "CC BY-SA 3.0",
+    "artist": "Cactus26 (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/DerinkuyuUndergroundCity02.jpg/1920px-DerinkuyuUndergroundCity02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:DerinkuyuUndergroundCity02.jpg"
+   }
+  ]
+ },
+ "16-00-0": {
+  "q": "Derinkuyu Underground City Türkiye",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City Türkiye.jpg",
+    "w": 4608,
+    "h": 3456,
+    "license": "CC BY-SA 2.0",
+    "artist": "Joe Wallace",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Derinkuyu_Underground_City_T%C3%BCrkiye.jpg/1920px-Derinkuyu_Underground_City_T%C3%BCrkiye.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_T%C3%BCrkiye.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg",
+    "w": 4431,
+    "h": 3223,
+    "license": "Public domain",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg"
+   }
+  ]
+ },
+ "16-01-1": {
+  "q": "Derinkuyu Underground City 9815 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9815 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9815 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Derinkuyu_Underground_City_9815_Nevit.jpg/1920px-Derinkuyu_Underground_City_9815_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9815_Nevit.jpg"
+   }
+  ]
+ },
+ "16-02-0": {
+  "q": "Derinkuyu Underground City 9913 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9913 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9913 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Derinkuyu_Underground_City_9913_Nevit.jpg/1920px-Derinkuyu_Underground_City_9913_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9913_Nevit.jpg"
+   }
+  ]
+ },
+ "16-03-1": {
+  "q": "Kaymaklı Underground City large room",
+  "cands": [
+   {
+    "title": "File:Kaymaklı Underground City large room.JPG",
+    "w": 6000,
+    "h": 4000,
+    "license": "CC BY-SA 4.0",
+    "artist": "MusikAnimal",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Kaymakl%C4%B1_Underground_City_large_room.JPG/1920px-Kaymakl%C4%B1_Underground_City_large_room.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaymakl%C4%B1_Underground_City_large_room.JPG"
+   }
+  ]
+ },
+ "16-04-1": {
+  "q": "Nevsehir castle",
+  "cands": [
+   {
+    "title": "File:Nevsehir Kale june 2017 3535.jpg",
+    "w": 5472,
+    "h": 3648,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Nevsehir_Kale_june_2017_3535.jpg/1920px-Nevsehir_Kale_june_2017_3535.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nevsehir_Kale_june_2017_3535.jpg"
+   },
+   {
+    "title": "File:Nevsehir Kale june 2017 3540.jpg",
+    "w": 5472,
+    "h": 3648,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Nevsehir_Kale_june_2017_3540.jpg/1920px-Nevsehir_Kale_june_2017_3540.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nevsehir_Kale_june_2017_3540.jpg"
+   },
+   {
+    "title": "File:NevsehirKalesi.jpg",
+    "w": 1600,
+    "h": 900,
+    "license": "CC BY-SA 4.0",
+    "artist": "Ebubekir Boyar",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/NevsehirKalesi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:NevsehirKalesi.jpg"
+   },
+   {
+    "title": "File:Nevşehir view from Kale hill in 2017 3537.jpg",
+    "w": 8192,
+    "h": 1856,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Nev%C5%9Fehir_view_from_Kale_hill_in_2017_3537.jpg/1920px-Nev%C5%9Fehir_view_from_Kale_hill_in_2017_3537.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nev%C5%9Fehir_view_from_Kale_hill_in_2017_3537.jpg"
+   },
+   {
+    "title": "File:Nevşehir fortress in 2011 9841.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Nev%C5%9Fehir_fortress_in_2011_9841.jpg/1920px-Nev%C5%9Fehir_fortress_in_2011_9841.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nev%C5%9Fehir_fortress_in_2011_9841.jpg"
+   },
+   {
+    "title": "File:Nevşehir fortress in 2011 9874.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Nev%C5%9Fehir_fortress_in_2011_9874.jpg/1920px-Nev%C5%9Fehir_fortress_in_2011_9874.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nev%C5%9Fehir_fortress_in_2011_9874.jpg"
+   }
+  ]
+ },
+ "16-06-0": {
+  "q": "Derinkuyu town Nevsehir",
+  "cands": [
+   {
+    "title": "File:Yazıhüyük ve Suvermez tabelaları.jpg",
+    "w": 598,
+    "h": 617,
+    "license": "CC0",
+    "artist": "Sabri76",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Yaz%C4%B1h%C3%BCy%C3%BCk_ve_Suvermez_tabelalar%C4%B1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Yaz%C4%B1h%C3%BCy%C3%BCk_ve_Suvermez_tabelalar%C4%B1.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. Turkey. Hot Air Ballooning Cappadocia.jpg",
+    "w": 6000,
+    "h": 3375,
+    "license": "CC0",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg",
+    "w": 4431,
+    "h": 3223,
+    "license": "Public domain",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg"
+   }
+  ]
+ },
+ "17-02-2": {
+  "q": "A circular door at Kaymakli Underground City",
+  "cands": [
+   {
+    "title": "File:A circular door at Kaymakli Underground City.jpg",
+    "w": 2048,
+    "h": 1536,
+    "license": "CC BY-SA 4.0",
+    "artist": "Slyronit",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/A_circular_door_at_Kaymakli_Underground_City.jpg/1920px-A_circular_door_at_Kaymakli_Underground_City.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:A_circular_door_at_Kaymakli_Underground_City.jpg"
+   }
+  ]
+ },
+ "17-03-0": {
+  "q": "Entrance of Ozkonak Underground City",
+  "cands": [
+   {
+    "title": "File:Entrance of Özkonak Underground City.jpg",
+    "w": 4959,
+    "h": 3306,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Entrance_of_%C3%96zkonak_Underground_City.jpg/1920px-Entrance_of_%C3%96zkonak_Underground_City.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrance_of_%C3%96zkonak_Underground_City.jpg"
+   },
+   {
+    "title": "File:Özkonak Underground City.jpg",
+    "w": 5184,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/%C3%96zkonak_Underground_City.jpg/1920px-%C3%96zkonak_Underground_City.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%C3%96zkonak_Underground_City.jpg"
+   }
+  ]
+ },
+ "17-05-0a": {
+  "q": "Derinkuyu Underground City 9815 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9815 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9815_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9815 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Derinkuyu_Underground_City_9815_Nevit.jpg/1920px-Derinkuyu_Underground_City_9815_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9815_Nevit.jpg"
+   }
+  ]
+ },
+ "19-00-1": {
+  "q": "Derinkuyu Underground City stairs",
+  "cands": [
+   {
+    "title": "File:In putDerinkuyu,nosh abad kashan.jpg",
+    "w": 4128,
+    "h": 2322,
+    "license": "CC BY-SA 4.0",
+    "artist": "Eman1366",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/In_putDerinkuyu%2Cnosh_abad_kashan.jpg/1920px-In_putDerinkuyu%2Cnosh_abad_kashan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:In_putDerinkuyu,nosh_abad_kashan.jpg"
+   }
+  ]
+ },
+ "19-01-1": {
+  "q": "Derinkuyu Underground City 9831 Nevit Enhancer",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9831 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9831_Nevit_Enhancer.jpg"
+   }
+  ]
+ },
+ "19-02-0a": {
+  "q": "Derinkuyu Underground City 9913 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9913 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9913_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9913 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Derinkuyu_Underground_City_9913_Nevit.jpg/1920px-Derinkuyu_Underground_City_9913_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9913_Nevit.jpg"
+   }
+  ]
+ },
+ "19-02-0b": {
+  "q": "Derinkuyu Underground City 9851 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9851 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9851_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9851 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Derinkuyu_Underground_City_9851_Nevit.jpg/1920px-Derinkuyu_Underground_City_9851_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9851_Nevit.jpg"
+   }
+  ]
+ },
+ "19-04-1": {
+  "q": "Derinkuyu Underground City 9817 Nevit",
+  "cands": [
+   {
+    "title": "File:Derinkuyu Underground City 9817 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Derinkuyu_Underground_City_9817_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9817_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9817_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9817 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Derinkuyu_Underground_City_9817_Nevit.jpg/1920px-Derinkuyu_Underground_City_9817_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9817_Nevit.jpg"
+   }
+  ]
+ },
+ "19-05-1": {
+  "q": "Roling door in Derinkuyu",
+  "cands": [
+   {
+    "title": "File:Roling door in Derinkuyu.JPG",
+    "w": 2304,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "José Luiz",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Roling_door_in_Derinkuyu.JPG/1920px-Roling_door_in_Derinkuyu.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Roling_door_in_Derinkuyu.JPG"
+   },
+   {
+    "title": "File:Rolling stone door Derinkuyu.jpg",
+    "w": 4851,
+    "h": 7165,
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Rolling_stone_door_Derinkuyu.jpg/1920px-Rolling_stone_door_Derinkuyu.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Rolling_stone_door_Derinkuyu.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9843 Nevit Enhancer.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg/1920px-Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9843_Nevit_Enhancer.jpg"
+   },
+   {
+    "title": "File:Derinkuyu-17-Verity-Cridland.jpg",
+    "w": 1712,
+    "h": 2288,
+    "license": "CC BY 2.0",
+    "artist": "Verity Cridland",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Derinkuyu-17-Verity-Cridland.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu-17-Verity-Cridland.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9815 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Derinkuyu_Underground_City_9815_Nevit.jpg/1920px-Derinkuyu_Underground_City_9815_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9815_Nevit.jpg"
+   },
+   {
+    "title": "File:Derinkuyu Underground City 9851 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Derinkuyu_Underground_City_9851_Nevit.jpg/1920px-Derinkuyu_Underground_City_9851_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu_Underground_City_9851_Nevit.jpg"
+   }
+  ]
+ },
+ "19-06-1": {
+  "q": "Cappadocia sunset landscape",
+  "cands": [
+   {
+    "title": "File:Cappadocia Landscape At Sunset (135658433).jpeg",
+    "w": 2048,
+    "h": 1357,
+    "license": "CC BY 3.0",
+    "artist": "James Farnham Long",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Cappadocia_Landscape_At_Sunset_%28135658433%29.jpeg/1920px-Cappadocia_Landscape_At_Sunset_%28135658433%29.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Landscape_At_Sunset_(135658433).jpeg"
+   },
+   {
+    "title": "File:Cappadoce Sunset (6998762766).jpg",
+    "w": 3327,
+    "h": 901,
+    "license": "CC BY-SA 2.0",
+    "artist": "Benh LIEU SONG from Torcy, France",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Cappadoce_Sunset_%286998762766%29.jpg/1920px-Cappadoce_Sunset_%286998762766%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadoce_Sunset_(6998762766).jpg"
+   },
+   {
+    "title": "File:Nevşehir Kızıl Çukur Vadisi.jpg",
+    "w": 1024,
+    "h": 768,
+    "license": "CC BY-SA 4.0",
+    "artist": "Kevser Polat",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Nev%C5%9Fehir_K%C4%B1z%C4%B1l_%C3%87ukur_Vadisi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Nev%C5%9Fehir_K%C4%B1z%C4%B1l_%C3%87ukur_Vadisi.jpg"
+   },
+   {
+    "title": "File:Sunset at Goreme Valley.jpg",
+    "w": 3800,
+    "h": 2529,
+    "license": "CC BY-SA 4.0",
+    "artist": "Emrahuygun",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Sunset_at_Goreme_Valley.jpg/1920px-Sunset_at_Goreme_Valley.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_at_Goreme_Valley.jpg"
+   },
+   {
+    "title": "File:Sunset at GoremeValley with View of Uchisar.jpg",
+    "w": 3500,
+    "h": 2329,
+    "license": "CC BY-SA 4.0",
+    "artist": "Emrahuygun",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Sunset_at_GoremeValley_with_View_of_Uchisar.jpg/1920px-Sunset_at_GoremeValley_with_View_of_Uchisar.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sunset_at_GoremeValley_with_View_of_Uchisar.jpg"
+   }
+  ]
+ },
+ "00-01-0": {
+  "q": "Derinkuyu Underground City tunnel passage",
+  "cands": []
  }
 }
