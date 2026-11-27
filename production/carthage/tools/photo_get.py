@@ -16,5 +16,5 @@ for sid, i in picks.items():
         time.sleep(15 * (k + 1))
     else: print('FAILED', sid, flush=True); continue
     open(os.path.join(OUT, sid + ext), 'wb').write(r.content); cr[sid] = c; json.dump(cr, open(cf, 'w'), indent=1, ensure_ascii=False)
-    print('got', sid, c['title'][5:70], flush=True); time.sleep(20)
+    print('got', sid, c['title'][5:70], flush=True); time.sleep(25)
 print('GET_DONE')

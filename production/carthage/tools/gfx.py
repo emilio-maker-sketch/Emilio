@@ -108,7 +108,7 @@ def map_base(P, river_names=(), extra_rivers=()):
 def territory(G, P, mask, polys, col, a, alpha=0.42, hatch=False):
     reg = Image.new('L', (W, H), 0); dr = ImageDraw.Draw(reg)
     for q in polys: dr.polygon([P(x, y) for x, y in q], fill=255)
-    reg = Image.fromarray(np.minimum(np.array(reg.filter(ImageFilter.GaussianBlur(22))), np.array(mask)))
+    reg = Image.fromarray(np.minimum(np.array(reg.filter(ImageFilter.GaussianBlur(10))), np.array(mask)))
     r = np.array(reg, np.float32) / 255
     if hatch:
         yy, xx = np.mgrid[0:H, 0:W]; r = r * (((xx + yy) // 18) % 3 == 0)
@@ -172,15 +172,20 @@ SYRAC = [(14.6, 38.0), (15.8, 38.3), (15.3, 36.5), (14.3, 36.7)]
 SARD = [(7.8, 41.4), (10.0, 41.4), (10.0, 38.7), (7.8, 38.7)]
 CORS = [(8.3, 43.1), (9.7, 43.1), (9.7, 41.3), (8.3, 41.3)]
 BAL = [(1.0, 40.3), (4.6, 40.3), (4.6, 38.5), (1.0, 38.5)]
-AFR = [(-6.5, 36.2), (-2, 35.6), (3, 37.0), (8, 37.4), (10.3, 37.6), (11.4, 37.2), (11.2, 35.2), (10.4, 34.0), (11.5, 33.4), (13.5, 33.0), (15.6, 32.6),
-       (15.6, 31.6), (11, 32.0), (9.5, 33.5), (8.6, 35.2), (3, 36.2), (-2, 34.9), (-6.5, 35.0)]
-AFR_CORE = [(8.6, 37.2), (10.3, 37.6), (11.4, 37.2), (11.2, 35.2), (10.4, 34.0), (11.5, 33.4), (13.5, 33.0), (15.6, 32.6), (15.6, 31.6), (11, 32.0), (9.5, 33.5), (8.6, 35.2)]
-SPAIN_S = [(-7.0, 37.4), (-5.6, 35.9), (-2, 36.5), (0.4, 38.2), (-0.6, 38.6), (-3, 37.6), (-6.4, 37.9)]
-SPAIN_B = [(-9.2, 37.0), (-6, 35.9), (-2, 36.5), (0.4, 38.6), (0.6, 40.7), (-1.5, 41.0), (-4, 40.6), (-6.5, 40.2), (-8.8, 38.6)]
-NUMIDIA = [(-1.8, 36.0), (8.6, 37.2), (8.8, 35.6), (9.5, 34.6), (10.0, 32.4), (6, 32.6), (0, 33.4), (-2, 34.0)]
-MACED = [(20.4, 42.2), (24.8, 42.0), (24.6, 39.4), (21.0, 39.8)]
-HISP_R = [(-7.0, 37.4), (-5.6, 35.9), (-2, 36.5), (0.4, 38.6), (3.3, 42.4), (0.5, 42.6), (-2.5, 41.5), (-4.5, 39.0), (-6.4, 37.9)]
-PROV_AFR = [(8.6, 37.2), (10.3, 37.6), (11.4, 37.2), (11.1, 35.2), (10.2, 34.8), (9.0, 35.3), (8.6, 36.4)]
+AFR = [(-5.9, 35.9), (-5.3, 36.0), (-2.0, 35.2), (0.0, 36.0), (3.0, 36.9), (6.0, 37.2), (8.6, 37.1), (9.2, 37.4), (10.3, 37.5), (11.2, 37.2),
+       (11.2, 36.4), (10.8, 35.5), (11.2, 35.2), (10.5, 34.4), (10.1, 33.8), (10.5, 33.5), (11.5, 33.2), (13.2, 32.9), (15.4, 32.4), (15.3, 31.8), (13.0, 32.4),
+       (11.0, 32.9), (9.8, 33.3), (9.0, 34.5), (8.4, 35.8), (8.5, 36.6), (6.0, 36.7), (3.0, 36.4), (0.0, 35.5), (-2.0, 34.8), (-5.3, 35.5), (-5.9, 35.5)]
+AFR_CORE = [(8.6, 37.1), (9.2, 37.4), (10.3, 37.5), (11.2, 37.2), (11.2, 36.4), (10.8, 35.5), (11.2, 35.2), (10.5, 34.4), (10.1, 33.8), (10.5, 33.5), (11.5, 33.2),
+            (13.2, 32.9), (15.4, 32.4), (15.3, 31.8), (13.0, 32.4), (11.0, 32.9), (9.8, 33.3), (9.0, 34.5), (8.4, 35.8)]
+SPAIN_S = [(-6.4, 37.0), (-5.6, 35.95), (-4.0, 36.6), (-2.0, 36.7), (-0.6, 37.6), (0.2, 38.8), (-0.4, 38.9), (-1.4, 37.9), (-3.0, 37.1), (-5.0, 36.9), (-6.2, 37.3)]
+SPAIN_B = [(-7.4, 37.2), (-6.2, 36.6), (-5.6, 35.95), (-2.0, 36.6), (0.2, 38.6), (-0.15, 39.45), (-0.6, 39.6), (-1.6, 40.2), (-3.5, 40.2), (-5.5, 39.5), (-7.2, 38.6)]
+NUMIDIA = [(-1.8, 35.4), (2.0, 36.7), (6.0, 37.1), (8.5, 37.0), (8.4, 35.8), (9.0, 34.5), (8.2, 33.9), (4.0, 34.3), (0.0, 34.5), (-1.8, 34.7)]
+NUMID_GAIN = [(8.5, 37.0), (9.3, 37.1), (9.6, 36.4), (10.2, 35.8), (10.6, 35.4), (10.4, 34.6), (10.1, 33.8), (10.5, 33.5), (11.5, 33.2), (13.2, 32.9),
+              (15.4, 32.4), (15.3, 31.8), (13.0, 32.4), (11.0, 32.9), (9.8, 33.3), (9.0, 34.5), (8.4, 35.8)]
+CAR_150 = [(9.3, 37.1), (10.3, 37.5), (11.2, 37.2), (11.2, 36.4), (10.6, 35.4), (10.2, 35.8), (9.6, 36.4)]
+MACED = [(20.5, 41.9), (22.0, 42.3), (23.5, 41.6), (24.6, 41.0), (23.8, 40.6), (22.6, 40.3), (22.4, 39.9), (21.2, 39.9), (20.5, 40.6)]
+HISP_R = [(-7.4, 37.2), (-5.6, 35.95), (-2.0, 36.6), (0.2, 38.6), (0.6, 40.6), (3.2, 41.9), (3.2, 42.4), (1.5, 42.5), (-1.0, 42.2), (-2.2, 41.4), (-3.5, 40.0), (-5.5, 38.9), (-7.2, 38.3)]
+PROV_AFR = [(8.8, 37.0), (9.4, 37.3), (10.3, 37.4), (11.2, 37.1), (11.1, 36.3), (10.7, 35.6), (10.4, 35.2), (9.6, 35.6), (9.1, 36.4)]
 CISALP = [(6.6, 45.2), (7.0, 46.0), (10.5, 46.6), (13.8, 46.6), (13.6, 45.6), (12.4, 44.1), (10.0, 44.1), (8.0, 43.8)]
 RHONE = [(4.85, 43.35), (4.63, 43.68), (4.8, 44.0), (4.72, 44.5), (4.85, 44.95), (4.8, 45.5), (4.85, 45.76), (5.6, 46.1), (6.15, 46.2)]
 PO = [(7.6, 45.0), (8.6, 45.1), (9.7, 45.08), (10.8, 45.0), (11.8, 45.0), (12.4, 44.95)]
@@ -193,19 +198,19 @@ def m_phoenicia(G):
     P = Proj(27, 40, 29.5, 38.5); base, mask = map_base(P)
     G.add(title('PHOENICIA', 'c. 900 BC'), [0.0, 0.12], fix=True)
     territory(G, P, mask, [[(34.8, 32.9), (35.55, 32.9), (36.05, 34.6), (35.95, 35.25), (35.5, 35.3), (34.8, 34.0)]], CAR, [0.1, 0.35], alpha=0.55)
-    cities(G, P, [(*PL['Tyre'], 'Tyre', 74, -170, 0, True), (*PL['Sidon'], 'Sidon', 64, -170, 0), (*PL['Byblos'], 'Byblos', 64, -170, 0)], [0.3, 0.5])
+    cities(G, P, [(*PL['Tyre'], 'Tyre', 74, -190, 40, True), (*PL['Sidon'], 'Sidon', 64, -190, -20), (*PL['Byblos'], 'Byblos', 64, -190, 0)], [0.3, 0.5])
     G.pulse(P.n(*PL['Tyre']), GOLD, [0.5, 1.0]); G.focus = P.n(35.3, 33.6); G.zoom = 1.22; finish(G, base)
 
 def m_trade(G):
     P = Proj(-10, 37, 29, 46); base, mask = map_base(P)
     G.add(title('THE PHOENICIAN WEST', 'trading posts, 9th to 7th centuries BC'), [0.0, 0.1], fix=True)
     cities(G, P, [(*PL['Tyre'], 'Tyre', 64, 0, -70, True)], [0.0, 0.1])
-    G.route(R(P, 'Tyre', (33.0, 34.4), 'Kition'), CAR, [0.1, 0.25]); cities(G, P, [(*PL['Kition'], 'Kition', 56)], [0.2, 0.3])
+    G.route(R(P, 'Tyre', (33.0, 34.4), 'Kition'), CAR, [0.1, 0.25]); cities(G, P, [(*PL['Kition'], 'Kition', 56, -150, 0)], [0.2, 0.3])
     G.route(R(P, 'Kition', (28, 34.6), (22, 35.6), (16, 36.6), 'Motya'), CAR, [0.25, 0.45]); cities(G, P, [(*PL['Motya'], 'Motya', 56, 0, -70)], [0.42, 0.5])
     G.route(R(P, 'Motya', (11.0, 37.5), 'Carthage'), CAR, [0.45, 0.55]); cities(G, P, [(*PL['Carthage'], 'Carthage', 66, 0, 80, True)], [0.52, 0.6])
     G.route(R(P, 'Motya', (10.5, 38.6), (9.0, 39.0)), CAR, [0.55, 0.65]); cities(G, P, [(8.6, 39.1, 'Sardinia', 52, 0, -70)], [0.62, 0.7])
     G.route(R(P, 'Carthage', (5, 37.6), (-1, 36.6), (-5.6, 36.0), 'Gades'), CAR, [0.6, 0.85]); cities(G, P, [(*PL['Gades'], 'Gades', 60, 0, 80)], [0.82, 0.9])
-    G.focus = P.n(10, 37); G.zoom = 1.06; finish(G, base)
+    G.focus = None; G.zoom = 1.02; finish(G, base)
 
 def m_empire300(G):
     P = Proj(-10, 20, 30.5, 45); base, mask = map_base(P)
@@ -220,7 +225,7 @@ def m_sicily264(G):
     P = Proj(8, 19, 35.5, 42.8); base, mask = map_base(P)
     G.add(title('SICILY, 264 BC'), [0.0, 0.1], fix=True)
     territory(G, P, mask, [ITALY_S], ROM, [0.05, 0.3]); territory(G, P, mask, [SIC_W], CAR, [0.2, 0.4]); territory(G, P, mask, [SYRAC], GRK, [0.35, 0.5])
-    cities(G, P, [(*PL['Rome'], 'Rome', 64, 0, -70, True), (*PL['Carthage'], 'Carthage', 64, 0, 80, True), (*PL['Syracuse'], 'Syracuse', 56, 160, 40),
+    cities(G, P, [(*PL['Rome'], 'Rome', 64, 0, -70, True), (*PL['Carthage'], 'Carthage', 64, 0, -75, True), (*PL['Syracuse'], 'Syracuse', 56, 160, 40),
                   (*PL['Messana'], 'Messana', 60, 170, -40)], [0.45, 0.6])
     G.pulse(P.n(*PL['Messana']), ROM, [0.6, 1.0]); G.route(R(P, (15.7, 38.6), (15.58, 38.25)), ROM, [0.65, 0.8], w=12)
     G.add(legend([(ROM, 'Rome and its allies'), (CAR, 'Carthage'), (GRK, 'Syracuse')]), [0.55, 0.7], fix=True); G.focus = P.n(*PL['Messana']); G.zoom = 1.16; finish(G, base)
@@ -228,7 +233,7 @@ def m_sicily264(G):
 def m_regulus(G):
     P = Proj(8, 17, 34.5, 39.5); base, mask = map_base(P)
     G.add(title('THE INVASION OF AFRICA', '256 BC'), [0.0, 0.1], fix=True)
-    cities(G, P, [(*PL['Carthage'], 'Carthage', 64, -40, 80, True), (13.9, 37.1, 'Ecnomus', 52, 0, -60), (11.1, 36.84, 'Aspis', 52, 110, 0), (*PL['Messana'], 'Messana', 52, 0, -60)], [0.05, 0.2])
+    cities(G, P, [(*PL['Carthage'], 'Carthage', 64, -40, 80, True), (13.9, 37.1, 'Ecnomus', 52, 0, -60), (11.1, 36.84, 'Aspis', 52, 60, 75), (*PL['Messana'], 'Messana', 52, 0, -60)], [0.05, 0.2])
     G.route(R(P, (15.5, 38.1), (15.3, 37.2), (14.7, 36.7), (13.9, 37.0)), ROM, [0.2, 0.45]); G.add(text_layer([(P(13.6, 36.6), 'naval battle', 50, ITA, INK, 'mm')]), [0.42, 0.5])
     G.route(R(P, (13.9, 37.0), (12.4, 36.9), (11.15, 36.85)), ROM, [0.48, 0.7]); G.route(R(P, (11.1, 36.8), (10.6, 36.7), (10.25, 36.78)), ROM, [0.72, 0.92], w=7, dash=True)
     G.focus = P.n(10.8, 36.8); G.zoom = 1.18; finish(G, base)
@@ -236,16 +241,17 @@ def m_regulus(G):
 def m_aegates(G):
     P = Proj(11.6, 13.3, 37.55, 38.35); base, mask = map_base(P)
     G.add(title('THE AEGATES ISLANDS', '241 BC'), [0.0, 0.1], fix=True)
-    G.add(text_layer([(P(12.34, 38.06), 'Levanzo', 58, ITA, INK, 'mm'), (P(12.33, 37.88), 'Favignana', 58, ITA, INK, 'mm'), (P(12.07, 38.03), 'Marettimo', 58, ITA, INK, 'mm'),
-                      (P(12.56, 38.13), 'Drepana', 60, CAP, INK, 'mm'), (P(12.48, 37.74), 'Lilybaeum', 60, CAP, INK, 'mm')]), [0.05, 0.2])
-    G.route([P.n(11.75, 38.0), P.n(12.0, 38.08), P.n(12.25, 38.07)], CAR, [0.2, 0.5]); G.route([P.n(12.52, 38.0), P.n(12.42, 38.0), P.n(12.3, 38.04)], ROM, [0.3, 0.55])
-    G.pulse(P.n(12.27, 38.06), (200, 60, 40), [0.55, 1.0]); G.add(legend([(CAR, 'Carthaginian supply fleet'), (ROM, 'Roman fleet')], 'positions approximate'), [0.5, 0.65], fix=True)
-    G.focus = P.n(12.27, 38.05); G.zoom = 1.15; finish(G, base)
+    isl = [r for r in land() if all(11.9 < x < 12.45 and 37.85 < y < 38.1 for x, y in r)]
+    cx = sum(sum(x for x, _ in r) / len(r) for r in isl) / max(1, len(isl)); cy = sum(sum(y for _, y in r) / len(r) for r in isl) / max(1, len(isl))
+    G.add(text_layer([(P(cx, cy - 0.11), 'Aegates Islands', 62, ITA, INK, 'mm'), (P(12.62, 38.13), 'Drepana', 60, CAP, INK, 'lm'), (P(12.52, 37.78), 'Lilybaeum', 60, CAP, INK, 'lm')]), [0.05, 0.2])
+    G.route([P.n(11.75, 38.12), P.n(12.0, 38.14), P.n(12.25, 38.1)], CAR, [0.2, 0.5]); G.route([P.n(12.5, 38.03), P.n(12.4, 38.08), P.n(12.3, 38.1)], ROM, [0.3, 0.55])
+    G.pulse(P.n(12.27, 38.1), (200, 60, 40), [0.55, 1.0]); G.add(legend([(CAR, 'Carthaginian supply fleet'), (ROM, 'Roman fleet')], 'positions approximate'), [0.5, 0.65], fix=True)
+    G.focus = P.n(12.25, 38.03); G.zoom = 1.1; finish(G, base)
 
 def m_241(G):
     P = Proj(-8, 20, 30.5, 46); base, mask = map_base(P)
     G.add(title('AFTER THE FIRST WAR', '241 BC'), [0.0, 0.1], fix=True)
-    territory(G, P, mask, [ITALY_S], ROM, [0.0, 0.1]); territory(G, P, mask, [AFR, SARD, CORS, BAL, SPAIN_S], CAR, [0.0, 0.1])
+    territory(G, P, mask, [ITALY_S], ROM, [0.0, 0.1]); territory(G, P, mask, [AFR, SARD, SPAIN_S], CAR, [0.0, 0.1])
     territory(G, P, mask, [SICILY], ROM, [0.2, 0.55], alpha=0.5); G.add(text_layer([(P(14.2, 37.2), 'SICILY', 64, CAP, (110, 30, 24), 'mm'), (P(14.2, 36.6), 'first Roman province', 52, ITA, INK, 'mm')]), [0.45, 0.6])
     G.add(legend([(ROM, 'Rome'), (CAR, 'Carthage')]), [0.1, 0.25], fix=True); G.focus = P.n(13.5, 37.6); G.zoom = 1.12; finish(G, base)
 
@@ -253,7 +259,7 @@ def m_sardinia(G):
     P = Proj(2, 20, 34, 46); base, mask = map_base(P)
     G.add(title('ROME SEIZES SARDINIA', '238 BC'), [0.0, 0.1], fix=True)
     territory(G, P, mask, [ITALY_S, SICILY], ROM, [0.0, 0.1]); territory(G, P, mask, [AFR_CORE], CAR, [0.0, 0.1])
-    territory(G, P, mask, [SARD, CORS], CAR, [0.0, 0.1]); territory(G, P, mask, [SARD, CORS], ROM, [0.3, 0.6], alpha=0.75)
+    territory(G, P, mask, [SARD], CAR, [0.0, 0.1]); territory(G, P, mask, [SARD], ROM, [0.3, 0.6], alpha=0.75)
     G.route(R(P, (12.0, 41.8), (10.3, 41.0)), ROM, [0.25, 0.5], w=12); G.add(legend([(ROM, 'Rome'), (CAR, 'Carthage')]), [0.1, 0.25], fix=True)
     G.focus = P.n(9.0, 40.5); G.zoom = 1.18; finish(G, base)
 
@@ -265,16 +271,17 @@ def m_spain(G, ebro=False, sag=False):
         cities(G, P, [(*PL['Gades'], 'Gades', 60, 0, 75), (*PL['NewCarthage'], 'New Carthage', 64, 0, 80, True)], [0.2, 0.35])
         G.add(text_layer([(P(-4.6, 38.6), 'silver mines', 58, ITA, INK, 'mm'), (P(0.0, 41.45), 'River Ebro', 56, ITA, (60, 80, 100), 'mm')]), [0.35, 0.5])
         if ebro:
-            G.route([P.n(0.9, 40.7), P.n(0.3, 41.4), P.n(-1.5, 42.0), P.n(-3.8, 42.8)], (40, 40, 40), [0.45, 0.7], w=7, dash=True)
+            eb = max(rivers(('Ebro',)), key=len); eb = eb[::max(1, len(eb) // 40)]
+            G.route([P.n(*q) for q in eb[::-1]], (40, 40, 40), [0.45, 0.7], w=7, dash=True)
             cities(G, P, [(*PL['Saguntum'], 'Saguntum', 60, 210, 0)], [0.65, 0.78]); G.pulse(P.n(*PL['Saguntum']), ROM, [0.75, 1.0]); G.focus = P.n(-0.3, 39.7)
         else: G.focus = P.n(-3, 38.3)
         G.add(legend([(CAR, 'Carthaginian control')]), [0.4, 0.55], fix=True)
     else:
-        G.add(title('SAGUNTUM', '219 BC'), [0.0, 0.1], fix=True); territory(G, P, mask, [SPAIN_B], CAR, [0.0, 0.1])
-        cities(G, P, [(*PL['NewCarthage'], 'New Carthage', 60, 0, 80, True), (*PL['Saguntum'], 'Saguntum', 64, -230, 0)], [0.05, 0.2])
+        G.add(title('SAGUNTUM', '219 BC'), [0.0, 0.1], fix=True); territory(G, P, mask, [SPAIN_B], CAR, [0.0, 0.1], alpha=0.3)
+        cities(G, P, [(*PL['NewCarthage'], 'New Carthage', 60, 0, 80, True), (*PL['Saguntum'], 'Saguntum', 64, 230, 0)], [0.05, 0.2])
         G.add(text_layer([(P(0.6, 41.0), 'Ebro', 60, ITA, (60, 80, 100), 'mm')]), [0.05, 0.2])
         G.route(R(P, 'NewCarthage', (-0.6, 38.6), (-0.4, 39.4), (-0.32, 39.62)), CAR, [0.25, 0.6]); G.pulse(P.n(*PL['Saguntum']), (200, 60, 40), [0.6, 1.0])
-        G.focus = P.n(*PL['Saguntum']); G.zoom = 1.25
+        G.focus = P.n(-0.5, 39.0); G.zoom = 1.08
     finish(G, base)
 
 HANNIBAL = [PL['NewCarthage'], (-0.6, 38.7), PL['Saguntum'], (0.3, 40.6), (1.4, 41.4), (2.6, 42.0), (2.9, 42.45), (3.0, 43.2), (4.2, 43.8),
@@ -283,11 +290,11 @@ def m_plan218(G):
     P = Proj(-8, 18, 34, 47.5); base, mask = map_base(P)
     G.add(title('THE PLANS OF 218 BC'), [0.0, 0.08], fix=True)
     territory(G, P, mask, [ITALY_S, SICILY, SARD, CORS], ROM, [0.0, 0.08]); territory(G, P, mask, [AFR_CORE, SPAIN_B], CAR, [0.0, 0.08])
-    cities(G, P, [(*PL['Rome'], 'Rome', 60, 0, -70, True), (*PL['Carthage'], 'Carthage', 60, 0, 80, True), (*PL['NewCarthage'], 'New Carthage', 54, 0, 75)], [0.0, 0.1])
+    cities(G, P, [(*PL['Rome'], 'Rome', 60, 0, -70, True), (*PL['Carthage'], 'Carthage', 60, -60, 80, True), (*PL['NewCarthage'], 'New Carthage', 54, 0, 75)], [0.0, 0.1])
     G.route(R(P, 'Rome', (11.2, 42.4), (9.0, 43.2), (6.2, 43.0), 'Massalia', (3.5, 42.6), (2.0, 41.4)), ROM, [0.1, 0.35])
     G.route(R(P, (15.2, 38.0), (13.0, 37.9), 'Lilybaeum', (11.4, 37.4), (10.5, 37.0)), ROM, [0.3, 0.5])
-    G.add(text_layer([(P(3.6, 40.8), 'to Spain', 56, ITA, ROM, 'mm'), (P(12.5, 36.6), 'to Africa', 56, ITA, ROM, 'mm')]), [0.45, 0.55])
-    G.route([P.n(*q) for q in HANNIBAL], CAR, [0.55, 0.95], w=8, dash=True); G.add(text_layer([(P(5.2, 46.3), "Hannibal's plan", 60, ITA, CAR, 'mm')]), [0.85, 0.95])
+    G.add(text_layer([(P(3.6, 40.8), 'to Spain', 56, ITA, ROM, 'mm'), (P(13.3, 36.9), 'to Africa', 56, ITA, ROM, 'mm')]), [0.45, 0.55])
+    G.route([P.n(*q) for q in HANNIBAL], CAR, [0.55, 0.95], w=8, dash=True); G.add(text_layer([(P(1.2, 44.2), "Hannibal's plan", 60, ITA, CAR, 'mm')]), [0.85, 0.95])
     finish(G, base)
 
 def m_march(G, part):
@@ -297,17 +304,17 @@ def m_march(G, part):
     pts = HANNIBAL if part == 2 else HANNIBAL[:8]
     G.route([P.n(*q) for q in pts], CAR, [0.08, 0.85], w=11)
     rows = [(*PL['NewCarthage'], 'New Carthage', 58, 0, 75, True), (0.87, 40.72, 'Ebro', 52, 120, 0), (2.9, 42.45, 'Pyrenees', 56, 190, -10)]
-    if part == 2: rows += [(4.72, 43.98, 'Rhône', 52, -150, 0), (6.9, 45.25, 'Alps', 60, -40, -80), (9.3, 45.1, 'Po valley', 56, 40, -75)]
+    if part == 2: rows += [(4.72, 43.98, 'Rhône', 52, -150, 0), (6.9, 45.25, 'Alps', 60, 0, 85), (9.3, 45.1, 'Po valley', 56, 40, -75)]
     cities(G, P, rows, [0.1, 0.25]); end = pts[-1]; G.pulse(P.n(*end), CAR, [0.85, 1.0]); G.focus = P.n(*end) if part == 2 else P.n(2.9, 42.4); G.zoom = 1.12
     G.add(legend([(CAR, "Hannibal's route")], 'route approximate'), [0.2, 0.35], fix=True); finish(G, base)
 
 def m_rhone(G):
     P = Proj(2.6, 7.2, 42.6, 45.4); base, mask = map_base(P, ('Durance',), [RHONE, ISERE])
     G.add(title('THE RHÔNE', 'late summer 218 BC'), [0.0, 0.1], fix=True)
-    cities(G, P, [(*PL['Massalia'], 'Massalia', 60, 0, 75)], [0.05, 0.2])
+    cities(G, P, [(*PL['Massalia'], 'Massalia', 60, 60, -75)], [0.05, 0.2])
     G.route(R(P, (3.6, 43.5), (4.3, 43.8), (4.72, 43.98), (4.83, 44.5), (4.95, 45.0), (5.7, 45.2)), CAR, [0.15, 0.55], w=11)
     G.route(R(P, (7.0, 42.8), (6.0, 43.0), (5.0, 43.25), (4.6, 43.4)), ROM, [0.45, 0.75]); G.pulse(P.n(4.6, 43.4), ROM, [0.75, 1.0])
-    G.add(text_layer([(P(4.4, 44.25), 'Hannibal crosses', 52, ITA, CAR, 'rm'), (P(5.3, 42.95), "Scipio's fleet", 52, ITA, ROM, 'mm'), (P(4.4, 43.2), 'three days too late', 50, ITA, INK, 'rm')]), [0.55, 0.8])
+    G.add(text_layer([(P(4.62, 44.0), 'Hannibal crosses', 52, ITA, CAR, 'rm'), (P(5.3, 42.95), "Scipio's fleet", 52, ITA, ROM, 'mm'), (P(4.4, 43.2), 'three days too late', 50, ITA, INK, 'rm')]), [0.55, 0.8])
     finish(G, base)
 
 def m_passes(G):
@@ -316,29 +323,29 @@ def m_passes(G):
     passes = [(6.88, 45.68, 'Little St Bernard'), (6.9, 45.25, 'Mont Cenis'), (6.98, 45.15, 'Col du Clapier'), (7.05, 44.68, 'Col de la Traversette')]
     for k, (lo, la, nm) in enumerate(passes):
         t0 = 0.15 + 0.17 * k; G.route(R(P, (5.9, 45.2 + (la - 45.2) * 0.6), (lo, la), (7.6, 45.05)), CAR, [t0, t0 + 0.15], w=7, dash=True)
-        cities(G, P, [(lo, la, nm, 54, -40, -60)], [t0 + 0.1, t0 + 0.18])
+        cities(G, P, [(lo, la, nm, 54, *{0: (0, -60), 1: (-330, -10), 2: (330, 40), 3: (0, 70)}[k])], [t0 + 0.1, t0 + 0.18])
     G.add(text_layer([(P(7.9, 44.85), 'Taurini (Turin)', 56, CAP, INK, 'mm')]), [0.05, 0.15]); finish(G, base)
 
 def m_north_italy(G):
     P = Proj(6.5, 13.5, 43.0, 46.6); base, mask = map_base(P, (), [PO, [(9.45, 44.6), (9.55, 44.85), (9.62, 45.05)], [(8.8, 46.0), (9.0, 45.5), (9.16, 45.15)]])
     G.add(title('NORTHERN ITALY', 'late 218 BC'), [0.0, 0.1], fix=True)
     G.route(R(P, (6.9, 45.25), (7.68, 45.07), (8.6, 45.15), (9.1, 45.2)), CAR, [0.1, 0.4], w=11)
-    cities(G, P, [(*PL['Placentia'], 'Placentia', 56, 60, 70), (9.16, 45.19, 'Ticinus', 50, -80, -60), (9.55, 44.85, 'Trebia', 50, -110, 40)], [0.35, 0.55])
+    cities(G, P, [(*PL['Placentia'], 'Placentia', 56, 230, -10), (9.16, 45.19, 'Ticinus', 50, -60, -70), (9.55, 44.85, 'Trebia', 50, -150, 50)], [0.35, 0.55])
     G.pulse(P.n(9.16, 45.19), ROM, [0.5, 0.75]); G.pulse(P.n(9.57, 44.95), (200, 60, 40), [0.75, 1.0]); G.focus = P.n(9.4, 45.0); G.zoom = 1.2; finish(G, base)
 
 def m_to_cannae(G):
     P = Proj(8, 19, 38.5, 45.5); base, mask = map_base(P)
     G.add(title('TO CANNAE', '217–216 BC'), [0.0, 0.1], fix=True)
     G.route(R(P, (12.1, 43.15), (13.0, 43.4), (13.8, 42.8), (14.6, 42.1), (15.0, 41.7), 'Cannae'), CAR, [0.1, 0.65], w=11)
-    cities(G, P, [(12.1, 43.15, 'Trasimene', 54, -140, 0), (*PL['Rome'], 'Rome', 58, -40, 70, True), (*PL['Cannae'], 'Cannae', 64, 0, 80)], [0.05, 0.2])
+    cities(G, P, [(12.1, 43.15, 'Trasimene', 54, -60, 75), (*PL['Rome'], 'Rome', 58, -40, 70, True), (*PL['Cannae'], 'Cannae', 64, 0, 80)], [0.05, 0.2])
     G.pulse(P.n(*PL['Cannae']), (200, 60, 40), [0.65, 1.0]); G.focus = P.n(*PL['Cannae']); G.zoom = 1.3; finish(G, base)
 
 def m_after_cannae(G):
     P = Proj(8, 19, 38, 45.5); base, mask = map_base(P)
     G.add(title('ITALY AFTER CANNAE', '216–211 BC'), [0.0, 0.1], fix=True)
     territory(G, P, mask, [ITALY_S], ROM, [0.0, 0.1]); territory(G, P, mask, [[(14.0, 41.4), (15.2, 41.6), (16.6, 41.2), (18.6, 40.2), (17.0, 39.0), (16.5, 38.0), (15.6, 37.9), (15.7, 39.5), (14.3, 40.7)]], CAR, [0.4, 0.7], alpha=0.38, hatch=True)
-    cities(G, P, [(*PL['Rome'], 'Rome', 60, -40, -70, True), (*PL['Cannae'], 'Cannae', 56, 0, 75), (*PL['Capua'], 'Capua', 56, -110, 30), (*PL['Tarentum'], 'Tarentum', 52, 0, 70)], [0.05, 0.2])
-    G.route(R(P, 'Cannae', (14.6, 41.6), 'Rome'), (60, 50, 40), [0.15, 0.35], w=6, dash=True); G.add(text_layer([(P(14.4, 42.2), 'about 310 km in a straight line', 58, ITA, INK, 'mm')]), [0.3, 0.42])
+    cities(G, P, [(*PL['Rome'], 'Rome', 60, -110, 10, True), (*PL['Cannae'], 'Cannae', 56, 0, 75), (*PL['Capua'], 'Capua', 56, -110, 30), (*PL['Tarentum'], 'Tarentum', 52, 0, 70)], [0.05, 0.2])
+    G.route(R(P, 'Cannae', (14.6, 41.6), 'Rome'), (60, 50, 40), [0.15, 0.35], w=6, dash=True); G.add(text_layer([(P(14.6, 42.35), 'about 310 km in a straight line', 54, ITA, INK, 'mm')]), [0.3, 0.42])
     G.add(legend([(ROM, 'Rome and loyal allies'), (CAR, 'went over to Hannibal (much of the south)')]), [0.6, 0.75], fix=True); finish(G, base)
 
 def m_fronts(G):
@@ -369,24 +376,24 @@ def m_spain_scipio(G):
 def m_africa202(G):
     P = Proj(7.5, 12.5, 34.5, 37.8); base, mask = map_base(P)
     G.add(title('NORTH AFRICA', '202 BC'), [0.0, 0.1], fix=True)
-    cities(G, P, [(*PL['Carthage'], 'Carthage', 64, 120, -50, True), (*PL['Utica'], 'Utica', 56, -40, -70), (*PL['Hadrumetum'], 'Hadrumetum', 54, 170, 0), (*PL['Zama'], 'Zama', 64, -40, 80)], [0.1, 0.35])
+    cities(G, P, [(*PL['Carthage'], 'Carthage', 64, 140, 60, True), (*PL['Utica'], 'Utica', 56, -140, 0), (*PL['Hadrumetum'], 'Hadrumetum', 54, 170, 0), (*PL['Zama'], 'Zama', 64, -40, 80)], [0.1, 0.35])
     G.add(text_layer([(P(9.2, 36.6), 'Zama: exact site uncertain', 50, ITA, INK, 'mm')]), [0.5, 0.65]); G.pulse(P.n(*PL['Zama']), (200, 60, 40), [0.4, 1.0])
     G.focus = P.n(*PL['Zama']); G.zoom = 1.2; finish(G, base)
 
 def m_exile(G):
-    P = Proj(8, 38, 30.5, 43); base, mask = map_base(P)
+    P = Proj(6, 38, 30.5, 43); base, mask = map_base(P)
     G.add(title("HANNIBAL'S EXILE", '195–183 BC'), [0.0, 0.1], fix=True)
     G.route(R(P, 'Carthage', (14, 35.2), (22, 33.6), (30, 33.2), 'Tyre'), CAR, [0.1, 0.35]); G.route(R(P, 'Tyre', (32, 35.5), (29, 36.2), 'Ephesus'), CAR, [0.35, 0.55])
     G.route(R(P, 'Ephesus', (26.5, 36.5), 'Gortyn'), CAR, [0.55, 0.7]); G.route(R(P, 'Gortyn', (26.0, 37.8), (26.5, 40.3), 'Libyssa'), CAR, [0.7, 0.9])
-    cities(G, P, [(*PL['Carthage'], 'Carthage', 56, 0, 75, True), (*PL['Tyre'], 'Tyre', 54, 0, 75), (*PL['Ephesus'], 'Ephesus', 52, -150, 0), (*PL['Gortyn'], 'Crete', 52, 0, 70),
+    cities(G, P, [(*PL['Carthage'], 'Carthage', 56, 0, 75, True), (*PL['Tyre'], 'Tyre', 54, -110, 40), (*PL['Ephesus'], 'Ephesus', 52, -150, 0), (*PL['Gortyn'], 'Crete', 52, 0, 70),
                   (*PL['Libyssa'], 'Bithynia', 56, 0, -70)], [0.1, 0.3]); G.pulse(P.n(*PL['Libyssa']), CAR, [0.9, 1.0]); finish(G, base)
 
 def m_numidia(G):
     P = Proj(-2, 14, 31.5, 38.5); base, mask = map_base(P)
     G.add(title('CARTHAGE AND NUMIDIA', 'c. 200 to 150 BC'), [0.0, 0.1], fix=True)
     territory(G, P, mask, [AFR_CORE], CAR, [0.0, 0.1]); territory(G, P, mask, [NUMIDIA], NUM, [0.05, 0.2])
-    territory(G, P, mask, [[(8.6, 37.2), (9.6, 37.3), (9.8, 36.0), (10.4, 34.0), (11.5, 33.4), (13.5, 33.0), (15.6, 32.6), (15.6, 31.6), (11, 32.0), (9.5, 33.5), (8.6, 35.2)]], NUM, [0.3, 0.75], alpha=0.55)
-    cities(G, P, [(*PL['Carthage'], 'Carthage', 60, 0, -70, True)], [0.0, 0.1]); G.add(legend([(CAR, 'Carthage'), (NUM, 'Numidia under Masinissa')]), [0.15, 0.3], fix=True); finish(G, base)
+    territory(G, P, mask, [NUMID_GAIN], NUM, [0.3, 0.75], alpha=0.75)
+    cities(G, P, [(*PL['Carthage'], 'Carthage', 60, -60, -70, True)], [0.0, 0.1]); G.add(legend([(CAR, 'Carthage'), (NUM, 'Numidia under Masinissa, growing at Carthage\'s expense')]), [0.15, 0.3], fix=True); finish(G, base)
 
 def m_149(G):
     P = Proj(8.5, 14.5, 35.5, 39.0); base, mask = map_base(P)
@@ -486,7 +493,7 @@ def d_trebia(G):
     rom = [u(ROM, '', [[0.0] + blk(0.75 + 0.0 * i, 0.3 + 0.09 * i), [0.15] + blk(0.75, 0.3 + 0.09 * i), [0.45] + blk(0.47, 0.3 + 0.09 * i), [1.0] + blk(0.43, 0.3 + 0.09 * i)]) for i in range(5)]
     car = [u(CAR, '', [[0.0] + blk(0.25, 0.28 + 0.1 * i, 0.04), [1.0] + blk(0.33, 0.28 + 0.1 * i, 0.04)]) for i in range(5)]
     mago = [u(CAR, 'Mago' if i == 0 else '', [[0.0] + blk(0.55 + 0.05 * i, 0.9, 0.035, 0.03), [0.55] + blk(0.55 + 0.05 * i, 0.9, 0.035, 0.03), [0.85] + blk(0.5 + 0.04 * i, 0.72, 0.035, 0.03), [1.0] + blk(0.5 + 0.04 * i, 0.7, 0.035, 0.03)]) for i in range(3)]
-    battle(G, 'THE TREBIA', 'December 218 BC', rom + car + mago, ([(0.6, 0.15, 'Romans wade the icy river'), (0.72, 0.96, 'ambush from a hidden streambed')], [0.3, 0.6]),
+    battle(G, 'THE TREBIA', 'December 218 BC', rom + car + mago, ([(0.78, 0.3, 'Romans wade the icy river'), (0.72, 0.86, 'ambush from a hidden streambed')], [0.3, 0.6]),
            river=[(0.6, 0.0), (0.58, 0.5), (0.62, 1.0)])
 
 def cannae_units(phase):
@@ -532,15 +539,15 @@ def d_zama(G):
     for i in range(6):
         for j in range(3):
             x = 0.25 + 0.1 * i; rom.append(u(ROM, '', [[0, x, 0.3 + 0.08 * j, 0.06, 0.05, 0], [1, x, 0.3 + 0.08 * j, 0.06, 0.05, 0]]))
-    ele = [u((90, 90, 90), 'elephants' if i == 2 else '', [[0, 0.3 + 0.1 * i, 0.82, 0.025, 0.04, 0], [0.2, 0.3 + 0.1 * i, 0.82, 0.025, 0.04, 0], [0.75, 0.3 + 0.1 * i, 0.12, 0.025, 0.04, 0], [1, 0.3 + 0.1 * i, 0.02, 0.025, 0.04, 0]]) for i in range(5)]
-    car = [u(CAR, '', [[0, 0.25 + 0.11 * i, 0.92, 0.07, 0.03, 0], [1, 0.25 + 0.11 * i, 0.92, 0.07, 0.03, 0]]) for i in range(6)]
-    battle(G, 'ZAMA', '202 BC: the elephant charge', rom + car + ele, ([(0.5, 0.2, 'open lanes between the Roman units')], [0.3, 0.5]))
+    ele = [u((90, 90, 90), 'elephants' if i == 2 else '', [[0, 0.3 + 0.1 * i, 0.75, 0.025, 0.04, 0], [0.2, 0.3 + 0.1 * i, 0.75, 0.025, 0.04, 0], [0.7, 0.3 + 0.1 * i, 0.26, 0.025, 0.04, 0], [1, 0.3 + 0.1 * i, 0.2, 0.025, 0.04, 0]]) for i in range(5)]
+    car = [u(CAR, '', [[0, 0.25 + 0.1 * i, 0.84, 0.07, 0.03, 0], [1, 0.25 + 0.1 * i, 0.84, 0.07, 0.03, 0]]) for i in range(6)]
+    battle(G, 'ZAMA', '202 BC: the elephant charge', rom + car + ele, ([(0.5, 0.62, 'open lanes between the Roman units')], [0.3, 0.5]))
 
 def d_walls(G):
     base = dbase(); G.add(title('THE LANDWARD WALLS', 'cross-section, after Appian; simplified'), [0.0, 0.1], fix=True)
     L = G.layer(); d = ImageDraw.Draw(L); gy = 1800
     d.rectangle([0, gy, W, H], fill=(190, 170, 130, 255)); d.polygon([(500, gy), (620, gy + 160), (900, gy + 160), (1020, gy)], fill=(150, 162, 158, 255), outline=INK + (255,)); G.add(L, [0.05, 0.15])
-    G.add(text_layer([((760, gy + 240), 'ditch', 60, ITA, INK, 'mm')]), [0.12, 0.2])
+    G.add(text_layer([((760, gy - 70), 'ditch', 60, ITA, INK, 'mm')]), [0.12, 0.2])
     L = G.layer(); d = ImageDraw.Draw(L); [d.line([(1150 + i * 22, gy), (1150 + i * 22, gy - 220)], fill=(120, 90, 60, 255), width=12) for i in range(10)]; G.add(L, [0.2, 0.3])
     G.add(text_layer([((1250, gy - 300), 'palisade', 60, ITA, INK, 'mm')]), [0.25, 0.35])
     L = G.layer(); d = ImageDraw.Draw(L); x0, x1, top = 1700, 2700, gy - 1200
@@ -560,9 +567,9 @@ def d_siege(G):
     G.add(text_layer([(BYRSA, 'Byrsa', 70, CAP, INK, 'mm')]), [0.0, 0.1])
     L = G.layer(); d = ImageDraw.Draw(L); d.line([(600, 320), (400, 1180)], fill=INK + (255,), width=26); G.add(L, [0.1, 0.25])
     G.add(text_layer([((820, 750), 'city walls', 60, ITA, INK, 'mm')]), [0.15, 0.25])
-    G.route([nrm(150, 280), nrm(80, 1160)], ROM, [0.3, 0.55], w=16); G.add(text_layer([((260, 1000), "Scipio's siege line", 56, ITA, ROM, 'lm')]), [0.45, 0.55])
+    G.route([nrm(150, 280), nrm(80, 1160)], ROM, [0.3, 0.55], w=16); G.add(text_layer([((330, 900), "Scipio's siege line", 56, ITA, ROM, 'lm')]), [0.45, 0.55])
     G.route([nrm(2900, 2160), nrm(2620, 1990)], ROM, [0.6, 0.85], w=26); G.add(text_layer([((3050, 2030), 'the mole', 60, ITA, ROM, 'lm')]), [0.75, 0.85])
-    G.focus = nrm(2400, 1800); G.zoom = 1.15; finish(G, base)
+    G.focus = None; G.zoom = 1.02; finish(G, base)
 
 def d_channel(G):
     base = city_plan(G); harbour_layers(G, [0.0, 0.05]); G.add(title('THE NEW CHANNEL', '147 BC'), [0.0, 0.1], fix=True)
@@ -598,11 +605,11 @@ def d_byrsa(G):
 def d_trasimene(G):
     base = dbase(); G.add(title('LAKE TRASIMENE', 'June 217 BC · schematic'), [0.0, 0.1], fix=True)
     L = G.layer(); d = ImageDraw.Draw(L); d.ellipse([600, 1250, 3600, 2500], fill=(150, 162, 158, 255), outline=INK + (255,), width=8)
-    for x in range(300, 3700, 160): d.arc([x - 260, 300, x + 260, 1000], 200, 340, fill=(120, 100, 70, 255), width=10)
-    G.add(L, [0.0, 0.1]); G.add(text_layer([((2100, 1900), 'Lake Trasimene', 80, ITA, INK, 'mm'), ((2000, 560), 'hills', 64, ITA, INK, 'mm')]), [0.05, 0.15])
+    for x in range(300, 3700, 320): d.arc([x - 260, 560, x + 260, 1100], 200, 340, fill=(120, 100, 70, 255), width=10)
+    G.add(L, [0.0, 0.1]); G.add(text_layer([((2100, 1900), 'Lake Trasimene', 80, ITA, INK, 'mm'), ((3400, 620), 'hills', 64, ITA, INK, 'mm')]), [0.05, 0.15])
     for i in range(8): G.unit(CAR, '', [[0, 0.12 + 0.1 * i, 0.38, 0.05, 0.03, 0], [0.55, 0.12 + 0.1 * i, 0.38, 0.05, 0.03, 0], [0.8, 0.12 + 0.1 * i, 0.5, 0.05, 0.03, 0], [1, 0.12 + 0.1 * i, 0.52, 0.05, 0.03, 0]])
-    for i in range(10): G.unit(ROM, 'Roman column' if i == 0 else '', [[0, -0.05 + 0.06 * i, 0.57, 0.04, 0.025, 0], [0.55, 0.15 + 0.06 * i, 0.57, 0.04, 0.025, 0], [1, 0.15 + 0.06 * i, 0.57, 0.04, 0.025, 0]])
-    G.add(text_layer([((1900, 1050), 'the trap springs', 64, ITA, CAR, 'mm')]), [0.7, 0.8])
+    for i in range(10): G.unit(ROM, 'Roman column' if i == 9 else '', [[0, -0.05 + 0.06 * i, 0.57, 0.04, 0.025, 0], [0.55, 0.15 + 0.06 * i, 0.57, 0.04, 0.025, 0], [1, 0.15 + 0.06 * i, 0.57, 0.04, 0.025, 0]])
+    G.add(text_layer([((1900, 690), 'the trap springs', 64, ITA, CAR, 'mm')]), [0.7, 0.8])
     L = G.layer(); a = np.zeros((H, W, 4), np.uint8); a[..., :3] = 235; yy = np.mgrid[0:H, 0:W][0]; a[..., 3] = (np.clip(1 - np.abs(yy - 1250) / 500, 0, 1) * 120).astype(np.uint8)
     G.add(Image.fromarray(a), [0.0, 0.3]); finish(G, base)
 
@@ -611,10 +618,10 @@ def d_newcarthage(G):
     L = G.layer(); d = ImageDraw.Draw(L); d.rectangle([0, 1500, W, H], fill=(150, 162, 158, 255)); d.ellipse([200, 200, 1500, 1100], fill=(150, 162, 158, 255), outline=INK + (255,), width=6)
     d.ellipse([1300, 700, 2700, 1550], fill=LAND + (255,), outline=INK + (255,), width=8); G.add(L, [0.0, 0.1])
     G.add(text_layer([((2000, 1120), 'New Carthage', 80, CAP, CAR, 'mm'), ((850, 650), 'lagoon', 70, ITA, INK, 'mm'), ((2000, 1850), 'harbour', 70, ITA, INK, 'mm')]), [0.05, 0.2])
-    G.unit(ROM, "Scipio's camp", [[0, 0.82, 0.32, 0.08, 0.06, 0], [1, 0.82, 0.32, 0.08, 0.06, 0]])
-    G.route([nrm(3000, 700), nrm(2650, 950)], ROM, [0.2, 0.45], w=14); G.add(text_layer([((3100, 1050), 'main attack', 56, ITA, ROM, 'mm')]), [0.35, 0.45])
+    G.unit(ROM, "Scipio's camp", [[0, 0.76, 0.3, 0.08, 0.06, 0], [1, 0.76, 0.3, 0.08, 0.06, 0]])
+    G.route([nrm(2850, 760), nrm(2620, 950)], ROM, [0.2, 0.45], w=14); G.add(text_layer([((2950, 1000), 'main attack', 56, ITA, ROM, 'mm')]), [0.35, 0.45])
     G.route([nrm(450, 1000), nrm(900, 900), nrm(1380, 950)], ROM, [0.5, 0.85], w=12, dash=True); G.add(text_layer([((850, 1250), 'wading at low water', 60, ITA, ROM, 'mm')]), [0.65, 0.8])
-    G.focus = nrm(1300, 950); G.zoom = 1.2; finish(G, base)
+    G.focus = None; G.zoom = 1.04; finish(G, base)
 
 GFX = {'01-00-0': m_phoenicia, '01-01-1': m_trade, '02-00-0': m_empire300, '02-02-0': d_harbours, '03-00-0': m_sicily264, '03-02-0': d_corvus,
        '03-03-0': m_regulus, '03-06-0': m_aegates, '03-07-0': m_241, '04-02-0': m_sardinia, '04-05-0': lambda G: m_spain(G), '04-06-0': lambda G: m_spain(G, ebro=True),
