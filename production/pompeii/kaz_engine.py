@@ -175,7 +175,8 @@ def make_quote(text, hl):
     return shadowed(strip(False)), (pw / R, ph / R), shadowed(strip(True)), hx
 
 BAY_LL = {'misenum': (14.085, 40.782), 'naples': (14.250, 40.845), 'herculaneum': (14.347, 40.806), 'vesuvius': (14.426, 40.821),
-          'oplontis': (14.452, 40.757), 'pompeii': (14.485, 40.749), 'stabiae': (14.483, 40.700), 'sorrento': (14.375, 40.626)}
+          'oplontis': (14.452, 40.757), 'pompeii': (14.485, 40.749), 'stabiae': (14.483, 40.700), 'sorrento': (14.375, 40.626),
+          'sea_mid': (14.19, 40.76), 'off_herc': (14.315, 40.785), 'off_torre': (14.40, 40.72)}
 BAY_BOX = (13.98, 14.66, 40.56, 40.95)
 def bay_xy(lon, lat, wworld=640, hworld=500):
     lo0, lo1, la0, la1 = BAY_BOX
@@ -210,6 +211,7 @@ def make_thebes_map():
     names = {'misenum': 'MISENUM', 'naples': 'NEAPOLIS', 'herculaneum': 'HERCULANEUM', 'vesuvius': 'VESUVIUS', 'oplontis': 'OPLONTIS',
              'pompeii': 'POMPEII', 'stabiae': 'STABIAE', 'sorrento': 'SURRENTUM'}
     for k, (x, y) in THEBES_PTS.items():
+        if k not in names: continue                      # sea waypoints for routes: not drawn
         if k == 'vesuvius':
             d.text(((x - 50)*R, (y + 26)*R), names[k], font=fm, fill=(40, 30, 22)); continue
         d.rectangle([(x - 5)*R, (y - 5)*R, (x + 5)*R, (y + 5)*R], fill=(52, 38, 26))
@@ -360,6 +362,7 @@ def kv(args):
     return pos, opt
 
 ITEMS, BYNAME, TAGS, LINES, ELLS, STAMPS, OVERLAYS, KEYS, NETWORKS = [], {}, [], [], [], [], [], [], []
+ROUTES = []
 VINTAGE = None
 FILMS, LOUPES = [], []
 
@@ -490,6 +493,11 @@ def build_model():
             it = BYNAME[pos[0]]; at = loc(it, opt.get('at'))
             ELLS.append(dict(item=it, t0=trig(ev, opt, .35), du=.55, at=at))
             KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.3, it['size'][1]*1.3), .7))
+        elif cmd == 'route':
+            # animated route on a map: @route <map> a,b,c "LABEL" [dur=3]  (points are named map locations)
+            it = BYNAME[pos[0]]; pts = [loc(it, k) for k in pos[1].split(',')]
+            ROUTES.append(dict(item=it, pts=pts, t0=trig(ev, opt, .4), du=float(opt.get('dur', 3.0)), label=pos[2] if len(pos) > 2 else ''))
+            KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.12, it['size'][1]*1.12), .8))
         elif cmd == 'stamp':
             it = BYNAME[pos[0]]; STAMPS.append(dict(item=it, img=make_stamp(pos[1]), t0=trig(ev, opt, .45) + .05))
             KEYS.append((t, (it['c'][0], it['c'][1], it['size'][0]*1.25, it['size'][1]*1.25), .6))
@@ -652,6 +660,29 @@ def draw_overlays(img, t, C):
         b = (a[0]+(b0[0]-a[0])*u, a[1]+(b0[1]-a[1])*u + math.sin(u*math.pi)*25*z)
         d.line([a, b], fill=RED+(230,), width=max(2, int(5*z)))
         for p in (a, b): d.ellipse([p[0]-8, p[1]-8, p[0]+8, p[1]+8], fill=RED+(255,))
+    for R_ in ROUTES:
+        if t < R_['t0']: continue
+        u = ease((t - R_['t0']) / R_['du'])
+        P = [to_screen(p, C) for p in R_['pts']]
+        # smooth the route (Catmull-Rom through the waypoints) and draw the travelled part as a dashed line
+        S_ = []
+        for i in range(len(P) - 1):
+            p0, p1, p2, p3 = P[max(0, i - 1)], P[i], P[i + 1], P[min(len(P) - 1, i + 2)]
+            for k in range(24):
+                q = k / 24
+                S_.append(tuple(.5 * ((2*p1[j]) + (-p0[j] + p2[j])*q + (2*p0[j] - 5*p1[j] + 4*p2[j] - p3[j])*q*q + (-p0[j] + 3*p1[j] - 3*p2[j] + p3[j])*q**3) for j in (0, 1)))
+        S_.append(P[-1]); n = max(2, int(len(S_) * u))
+        seg = S_[:n]; lw = max(3, int(6 * z))
+        for i in range(0, len(seg) - 1, 2): d.line([seg[i], seg[i + 1]], fill=RED + (235,), width=lw)
+        d.ellipse([P[0][0] - 9, P[0][1] - 9, P[0][0] + 9, P[0][1] + 9], fill=RED + (255,))
+        if len(seg) >= 2:
+            (x0, y0), (x1, y1) = seg[-2], seg[-1]; ang = math.atan2(y1 - y0, x1 - x0); L_ = 20 * max(.8, z)
+            tip = [(x1 + math.cos(ang) * 4, y1 + math.sin(ang) * 4), (x1 - math.cos(ang - .45) * L_, y1 - math.sin(ang - .45) * L_), (x1 - math.cos(ang + .45) * L_, y1 - math.sin(ang + .45) * L_)]
+            d.polygon(tip, fill=RED + (255,))
+        if R_['label'] and u > .35:
+            la = int(230 * min(1, (u - .35) / .3)); m = S_[len(S_) // 3]; fl = font(MONO, 26); tw = fl.getbbox(R_['label'])[2]
+            y = m[1] + 26                                  # label below the route (map names sit above their points)
+            d.rectangle([m[0] - tw / 2 - 10, y, m[0] + tw / 2 + 10, y + 38], fill=(14, 14, 14, la)); d.text((m[0] - tw / 2, y + 3), R_['label'], font=fl, fill=(235, 235, 228, la))
     fm = font(MONO, 30); zn = zone_now(t)
     net = [n for n in NETWORKS if n[0] <= t and n[1] == zn]
     for tg in TAGS:

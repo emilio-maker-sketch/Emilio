@@ -4,7 +4,7 @@
 
 @open "CASE FILE: POMPEII|CAMPANIA, ITALY - A.D. 79|A CITY IS BURIED IN A DAY.|THE EVIDENCE IS STILL ARRIVING."
 @zone open
-@card met299472 as=cast1 w=600
+@card met299472 as=cast1 w=600 ok="the casts are the subject of the DNA study"
 In 2024, a team of geneticists did something no one had done before.
 @note "ANCIENT DNA|FROM THE PLASTER CASTS|OF POMPEII, 2024" as=dna0
 They pulled DNA from the bones hidden inside the famous plaster casts of Pompeii.
@@ -14,6 +14,7 @@ For a hundred and fifty years, those casts had told us stories.
 A mother, holding her child.
 @type "TWO SISTERS.|ONE LAST EMBRACE." red=EMBRACE.
 Two sisters, in one last embrace.
+@hush 1.6
 @stamp cast1 "WRONG"
 The DNA said those stories were wrong.
 @quote "THE 'MOTHER': A MAN. NOT RELATED TO THE CHILD." hl="A MAN." on=man
@@ -40,7 +41,7 @@ It had a forum, temples, two theaters, an amphitheater, public baths, and dozens
 Its walls were covered with writing: election posters, advertisements, jokes, insults, and love notes.
 @card met247017 as=daily w=560
 @tag daily "BEDROOM OF A VILLA NEAR POMPEII, BURIED IN 79"
-@trip met255869,met239778,met243673 "A BRONZE LAMP, A GLASS PERFUME BOTTLE, A GOLD RING  ·  ROMAN, 1ST CENTURY A.D.  ·  THE MET"
+@photo met893901 crop=0,0,.94,1 "A HOUSE IN POMPEII  ·  WATERCOLOUR BY GABRIEL-AUGUSTE ANCELET, 1853  ·  THE MET"
 It was an ordinary place, full of ordinary people.
 @quote "'O WALL, I AM AMAZED YOU HAVE NOT COLLAPSED...'" hl="COLLAPSED" as=wall
 One visitor scratched a complaint that survives in several places around the city.
@@ -52,7 +53,7 @@ In one bakery, archaeologists found eighty one loaves of bread still inside the 
 And above the town rose a mountain covered in vineyards.
 @photo met395504 "VIEW OF THE BAY OF NAPLES WITH MOUNT VESUVIUS  ·  FRANZ LUDWIG CATEL, c. 1820  ·  THE MET"
 The Romans called it Vesuvius.
-@quote "VESUVIUS = VOLCANO?" hl="VOLCANO?" on=dangerous as=volq
+@quote "VESUVIUS = VOLCANO?" hl="VOLCANO?" as=volq
 Almost no one thought of it as dangerous.
 @note "STRABO, GEOGRAPHER:|ITS SUMMIT ROCKS LOOK|'EATEN OUT BY FIRE'" as=strabo
 @string volq strabo
@@ -77,6 +78,7 @@ In one house, painters had left a wall half finished.
 @note "DAYS BEFORE:|SMALL TREMORS|'NOT ALARMING' - PLINY" as=trem
 @string quake trem
 And in the days before the eruption, small tremors shook the area again.
+@circle bm at=pompeii on=Campania
 @tag trem "TREMORS WERE COMMON IN CAMPANIA" on=common
 But tremors were common in Campania, and no one was alarmed.
 @network
@@ -97,7 +99,7 @@ He was also the commander of the Roman fleet stationed there.
 Around one o'clock in the afternoon, Pliny's mother pointed out a cloud of unusual size and shape.
 @tag pe "'HE CALLED FOR HIS SHOES'" on=shoes
 His uncle called for his shoes and climbed to a spot with a better view.
-@photo met287956 "UMBRELLA PINES  ·  VILLA PAMPHILI, ROME  ·  PHOTOGRAPH, 1856  ·  THE MET"
+@photo met287956 ok="analogy: Pliny compared the cloud to an umbrella pine" "UMBRELLA PINES  ·  VILLA PAMPHILI, ROME  ·  PHOTOGRAPH, 1856  ·  THE MET"
 @quote "'LIKE AN UMBRELLA PINE'" hl="UMBRELLA PINE" on=pine as=pine
 Pliny later compared it to an umbrella pine, a tall trunk rising high and then spreading out into branches.
 @note "PLINIAN ERUPTION:|NAMED AFTER PLINY" as=plin
@@ -161,12 +163,12 @@ What had begun as a scientific trip became a rescue mission.
 His nephew stayed behind. He said he would rather keep studying.
 @foot V 266 282
 Near the shore, hot ash and pumice fell on the decks, and the coast was blocked by debris.
-@circle bm at=stabiae on=Stabiae
+@route bm misenum,sea_mid,off_herc,off_torre,stabiae "PLINY'S FLEET" dur=3.2
 So the admiral turned south, to Stabiae, where his friend Pomponianus had a villa.
 @note "STABIAE:|HE BATHES, DINES,|AND SLEEPS" as=stab
 @string bm stab
 To calm everyone around him, he bathed, ate dinner, and went to sleep.
-@push stab
+@push strata
 During the night, the courtyard outside his room filled with ash and pumice, and the buildings shook.
 @year "DAY 2 - 1 AM" "THE COLUMN COLLAPSES"
 Then, sometime after midnight, the eruption changed.
@@ -197,7 +199,7 @@ The heat killed them almost instantly.
 @note "COLLEGIUM OF THE AUGUSTALES:|A YOUNG MAN ON A BED.|HIS BRAIN TURNED TO GLASS." as=glass
 @string bsh glass
 And in a building in the town, a young man was found lying on a wooden bed.
-@circle glass on=glass
+@type "HIS BRAIN|TURNED TO GLASS." red=GLASS.
 In 2020, researchers reported that fragments of his brain had been turned into glass.
 @network
 
@@ -224,6 +226,7 @@ Ash fell on them so thickly that they had to keep standing up and shaking it off
 @circle bm at=pompeii on=seven
 At Pompeii, around seven in the morning, a pyroclastic surge reached the city walls.
 It swept through the streets.
+@hush 2.8
 @type "NO ONE STILL IN THE CITY|SURVIVED." red=SURVIVED.
 No one who was still in the city survived.
 @quote "CAUSE OF DEATH: SUFFOCATION?" hl="SUFFOCATION?" on=suffocated as=cod
@@ -337,7 +340,7 @@ A coin found with one victim carried a title of the emperor Titus that, accordin
 @year "2018" "A LINE IN CHARCOAL"
 @note "XVI K NOV|16 DAYS BEFORE THE KALENDS|OF NOVEMBER = 17 OCTOBER" as=char
 Then, in 2018, archaeologists found a line of charcoal writing on a wall in a house being renovated.
-@circle char on=seventeenth
+@type "XVI K NOV|THE 16TH DAY BEFORE|THE KALENDS OF NOVEMBER" red=NOVEMBER
 It gives a date: the sixteenth day before the Kalends of November, which is the seventeenth of October.
 @tag char "NO YEAR GIVEN - BUT CHARCOAL FADES FAST" on=fades
 It gives no year, but charcoal writing fades quickly, so it was probably written just days before the eruption.
@@ -351,8 +354,8 @@ The second new evidence came from inside the casts themselves.
 Many of them still hold bones and teeth.
 @note "FLORENCE - HARVARD - MAX PLANCK|DNA FROM 14 CASTS" as=team
 In 2024, a team from the University of Florence, Harvard, and the Max Planck Institute published DNA from fourteen of them.
-@card met547711 as=brac w=420
-@tag brac "A ROMAN GOLD SNAKE BRACELET, 1ST CENTURY (THE MET)"
+@card met547711 as=brac w=420 ok="same type as the Pompeii bracelet; provenance given in the label"
+@tag brac "SAME TYPE: GOLD SNAKE BRACELET, ROMAN EGYPT, 1ST C. (THE MET)"
 In the House of the Golden Bracelet, an adult wearing a gold bracelet was found with a child on their lap.
 @quote "'A MOTHER AND HER CHILD'" hl="MOTHER" as=mom
 For generations, they were described as a mother and her child.
@@ -400,7 +403,7 @@ Not a mother, but a man holding a child who was not his own.
 Not sisters, but strangers, or friends, or something we will never know.
 @thesis "A CITY FROZEN IN TIME." "A CITY STILL TALKING"
 Pompeii is often called a city frozen in time.
-@trip met299472,met246878,met547711 "THE CASTS, THE COIN, THE BRACELET  ·  EVIDENCE STILL BEING READ  ·  THE MET"
+@trip met299472,met246878,met547711 ok="recap of the evidence" "THE CASTS, THE COIN, THE BRACELET  ·  EVIDENCE STILL BEING READ  ·  THE MET"
 But it is not frozen: every new tool, from the scanner to the DNA sequencer to the AI that reads burned scrolls, changes what it tells us.
 @type "THE CITY DIED IN A DAY.|WE ARE STILL LEARNING|WHAT HAPPENED IN IT." red=LEARNING
 The city died in a single day, and we are still learning what happened in it.

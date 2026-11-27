@@ -2,7 +2,9 @@
 archival footage, full-screen photographs, museum 'hero' object shots, kinetic type and triptychs.
 Shots are keyed to narration sentences; the board engine calls compose() for every frame."""
 import os, math, json
-import numpy as np, cv2
+import numpy as np, cv2, sys
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docengine"))
+import motion as MO, transitions as TR
 from PIL import Image, ImageDraw
 
 E = None
@@ -30,7 +32,7 @@ def init(eng):
         pos, opt = E.kv(d[1:])
         part = tuple(float(x) for x in opt['part'].split(',')) if 'part' in opt else (0, 1)
         if cmd == 'foot': sh = F(pos[0], float(pos[1]), float(pos[2]), part=part)
-        elif cmd == 'photo': sh = P(pos[0], pos[1] if len(pos) > 1 else None, part=part)
+        elif cmd == 'photo': sh = P(pos[0], pos[1] if len(pos) > 1 else None, part=part, crop=opt.get('crop'), move=opt.get('move'))
         elif cmd == 'object': sh = O(pos[0], pos[1], pos[2], part=part)
         elif cmd == 'type': sh = K(pos[0], [w for w in opt.get('red', '').split(',') if w], part=part)
         else: sh = T(pos[0].split(','), pos[1], part=part)
@@ -52,8 +54,14 @@ def init(eng):
             if t1 - t0 < 1.3: print('cutaway skipped (busy):', i, sh['kind']); continue
             CUTS.append(dict(sh, t0=t0, t1=t1, s=i))
     CUTS.sort(key=lambda c: c['t0'])
+    cfg = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'project.json')))
+    moods = cfg.get('moods', {}); prev = None
+    for c in CUTS:
+        c['mood'] = moods.get(E.ZONES[E.zone_now(c['t0'] + .01)], 'calm')
+        c['tin'] = TR.choose(c['kind'], c['mood'], prev, True); prev = c['tin']
+        c['tout'] = 'cut' if c['kind'] == 'type' else TR.choose(c['kind'], c['mood'], c['tin'], False)
     for p, n in zip(CUTS, CUTS[1:]):
-        if n['t0'] - p['t1'] < .45: p['t1'] = n['t0']; p['hard_out'] = n['hard_in'] = True
+        if n['t0'] - p['t1'] < .45: p['t1'] = n['t0']; p['hard_out'] = n['hard_in'] = True; n['_prev'] = p
     return CUTS
 
 # ------------------------------------------------------------------ helpers
@@ -174,21 +182,19 @@ def r_foot(c, t, fi):
     f = finish(f, fi, .05)
     return label(f, lab, t, c['t0'])
 
+_PREVMOVE = [None]
 def r_photo(c, t, fi):
-    im, rec = museum_img(c['id']); dur = c['t1'] - c['t0']; u = E.ease((t - c['t0']) / dur) * .6 + (t - c['t0']) / dur * .4
-    big = c.setdefault('_big', cover(im, W, H, 1.22))
-    bh, bw = big.shape[:2]; k = c['s'] % 4
-    dx = [(0, 1), (1, 0), (.5, .5), (0, .3)][k]; z = 1.0 + .06*u if k != 2 else 1.08 - .06*u
-    x = (bw - W) * (dx[0] + (dx[1] - dx[0]) * u); y = (bh - H) * (.35 + .3*u if k % 2 else .6 - .3*u)
-    M = np.float32([[z, 0, -x*z + W*(1 - z)/2], [0, z, -y*z + H*(1 - z)/2]])
-    fr = cv2.warpAffine(big, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
-    lum = cv2.cvtColor(fr, cv2.COLOR_BGR2GRAY); lo, hi = np.percentile(lum[::4, ::4], (1, 99))
-    if hi - lo < 190: fr = np.clip((fr.astype(np.float32) - lo) * (225.0 / max(40.0, hi - lo)) + 10, 0, 255).astype(np.uint8)
-    sat = fr.astype(np.float32).std(axis=2).mean()
-    f = grade(fr, .55 if sat > 18 else 0.0)
-    sweep = np.clip(1 - np.abs((E.vx - (-400 + 2700*((t - c['t0'])/dur))) + (E.vy - H/2)*.4) / 380, 0, 1)[..., None]
-    f = f + sweep * 26
-    f = finish(f, fi)
+    im, rec = museum_img(c['id']); dur = c['t1'] - c['t0']
+    if '_mv' not in c:
+        if c.get('crop'):
+            x0, y0, x1, y1 = (float(v) for v in c['crop'].split(',')); h, w = im.shape[:2]
+            im = im[int(y0 * h):int(y1 * h), int(x0 * w):int(x1 * w)]
+        med = (rec.get('medium', '') + ' ' + rec.get('title', '')).lower()
+        c['_mono'] = True if any(k in med for k in ('albumen', 'salted paper', 'gelatin silver', 'photograph')) else None
+        c['_mv'] = MO.plan(im, dur + TR.DUR['dissolve'] * 2, c.get('mood', 'calm'), _PREVMOVE[0], hint=c.get('move'), trim=True)
+        _PREVMOVE[0] = c['_mv'].kind
+    fr = MO.grade(c['_mv'].frame(t - c['t0'] + TR.DUR['dissolve']), mono=c['_mono'])
+    f = finish(fr.astype(np.float32), fi)
     return label(f, c['label'] or rec['title'].upper(), t, c['t0'])
 
 _BG = None
@@ -329,7 +335,7 @@ def r_trip(c, t, fi):
         p2 = cv2.resize(p, None, fx=k, fy=k, interpolation=cv2.INTER_LINEAR); ph, pw2 = p2.shape[:2]
         ox = int((pw2 - pw) * (.5 + .3*math.sin(i + z))); oy = int((ph - (H - 160)) * .5)
         crop = p2[oy:oy + H - 160, ox:ox + pw]
-        g = grade(crop, .6) if crop.size else None
+        g = MO.grade(crop).astype(np.float32) if crop.size else None
         if g is None: continue
         dy = int((1 - u) * (H if i % 2 == 0 else -H))
         y = 80 + dy; x = x0 + i*(pw + gap)
@@ -362,18 +368,20 @@ def compose(t, fi, board):
     if c is None: return board(t, fi)
     fr = R[c['kind']](c, t, fi)
     lt, rt = t - c['t0'], c['t1'] - t
-    if lt < TIN and not c.get('hard_in'):
-        u = E.ss(lt / TIN); b = board(t, fi).astype(np.float32)
-        b = zoom(b, 1 + .7*u); fr = zoom(fr, 1.25 - .25*u)
-        k = int(9*math.sin(math.pi*u)) | 1
-        mix = b*(1 - u) + fr*u
-        fr = cv2.GaussianBlur(mix, (k, k), 0) if k > 1 else mix
-    elif lt < 2/30 and c.get('hard_in'):
-        fr = fr + 60
-    if rt < TIN and not c.get('hard_out'):
-        u = E.ss(1 - rt / TIN); b = board(t, fi).astype(np.float32)
-        fr = zoom(fr, 1 + .7*u); b = zoom(b, 1.25 - .25*u)
-        k = int(9*math.sin(math.pi*u)) | 1
-        mix = fr*(1 - u) + b*u
-        fr = cv2.GaussianBlur(mix, (k, k), 0) if k > 1 else mix
+    ti, to = c.get('tin', 'zoomblur'), c.get('tout', 'zoomblur')
+    pv = c.get('_prev') if c.get('hard_in') else None
+    if c.get('hard_out'): to = 'cut'
+    if pv is not None and 'type' not in (pv['kind'], c['kind']) and ti != 'cut':
+        # shot to shot: transition directly from the previous full-screen shot, not via the board
+        di = TR.DUR[ti]
+        if lt < di: fr = TR.apply(ti, R[pv['kind']](pv, t, fi), fr, lt / di, 1)
+        ti = 'cut'
+    elif c.get('hard_in'): ti = 'cut'
+    di, do = TR.DUR[ti], TR.DUR[to]
+    if ti != 'cut' and lt < di:
+        fr = TR.apply(ti, board(t, fi), fr, lt / di, 1)
+    elif ti == 'cut' and lt < 2/30 and c['kind'] == 'type':
+        fr = fr + 40
+    if to != 'cut' and rt < do:
+        fr = TR.apply(to, fr, board(t, fi), 1 - rt / do, -1)
     return np.clip(fr, 0, 255).astype(np.uint8)

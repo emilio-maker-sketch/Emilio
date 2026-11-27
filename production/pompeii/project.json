@@ -1,0 +1,111 @@
+{
+  "title": "Pompeii's Last Day, Rewritten by DNA",
+  "era": {
+    "from": -150,
+    "to": 120,
+    "cultures": [
+      "Roman",
+      "Greek",
+      "Etruscan",
+      "Campanian",
+      "Italic"
+    ],
+    "note": "Ancient objects must date to roughly 150 BC - AD 120 and be Roman/Italic. Photographs, prints and paintings of the site from any date are allowed (they are documents of the place)."
+  },
+  "pool": [
+    "p_",
+    "archaeology"
+  ],
+  "splices": [
+    {
+      "t0": 215.4,
+      "t1": 228.2,
+      "desc": "3D reconstruction: the eruption column rising over Vesuvius and the Bay of Naples"
+    },
+    {
+      "t0": 423.4,
+      "t1": 427.8,
+      "desc": "3D reconstruction: the eruption column collapsing at night"
+    },
+    {
+      "t0": 574.9,
+      "t1": 583.8,
+      "desc": "3D reconstruction: a pyroclastic surge reaching Pompeii at dawn"
+    }
+  ],
+  "video": "build/Pompeii.mp4",
+  "moods": {
+    "open": "tense",
+    "city": "calm",
+    "column": "tense",
+    "night": "tense",
+    "surge": "somber",
+    "casts": "reveal",
+    "evidence": "calm",
+    "end": "somber"
+  },
+  "places": [
+    "Pompeii",
+    "Pompei",
+    "Pompeji",
+    "Vesuvius",
+    "Vesuvio",
+    "Herculaneum",
+    "Ercolano",
+    "Naples",
+    "Napoli",
+    "Bay of Naples",
+    "Stabiae",
+    "Boscoreale",
+    "Boscotrecase",
+    "Misenum",
+    "Sorrento",
+    "Campania",
+    "Plaster Casts"
+  ],
+  "banned_words": [
+    "Rembrandt",
+    "President",
+    "Chivalry",
+    "U.S.N.",
+    "Studio Portrait"
+  ],
+  "entities": {
+    "Vesuvius": "Mount Vesuvius, a volcano above the Bay of Naples",
+    "Herculaneum": "the excavated ruins of Herculaneum",
+    "Bay of Naples": "a view of the Bay of Naples",
+    "umbrella pine": "umbrella pine trees",
+    "dog": "a dog",
+    "bracelet": "a gold bracelet",
+    "coin": "an ancient coin",
+    "bread": "loaves of bread"
+  },
+  "lexicon": [
+    "Catel",
+    "Pamphili",
+    "Augustales",
+    "Res",
+    "Publica",
+    "Pompeianorum",
+    "Giorgio",
+    "Sommer",
+    "XVI",
+    "approx",
+    "Kalends",
+    "Normand",
+    "Renoir",
+    "Pliny",
+    "Misenum",
+    "Stabiae",
+    "Pomponianus",
+    "Rectina",
+    "Fiorelli",
+    "Boscoreale",
+    "Synistor",
+    "Fannius",
+    "Ancelet",
+    "Watercolour",
+    "Gabriel",
+    "Auguste"
+  ]
+}
