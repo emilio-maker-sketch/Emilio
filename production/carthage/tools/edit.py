@@ -57,6 +57,20 @@ def src_of(sid):
         if os.path.exists(f): return f
     return None
 
+REVIEW = load(os.path.join(ROOT, 'review.json')) if os.path.exists(os.path.join(ROOT, 'review.json')) else {}
+SKIPPED = []
+def review_of(src):
+    """QC rule: only images inspected and marked VERIFIED in review.json may appear. Returns the entry or None."""
+    r = REVIEW.get(os.path.splitext(os.path.basename(src))[0])
+    return r if r and r.get('status') == 'VERIFIED' else None
+
+def window(crop, focus, frac):
+    """A tighter framing (frac of the current crop) centred on the marked subject, in full-image coordinates."""
+    c = crop or [0, 0, 1, 1]; w, h = (c[2] - c[0]) * frac, (c[3] - c[1]) * frac
+    fx, fy = focus
+    x0 = min(max(fx - w / 2, c[0]), c[2] - w); y0 = min(max(fy - h / 2, c[1]), c[3] - h)
+    return [x0, y0, x0 + w, y0 + h]
+
 # ------------------------------------------------------------------ plan
 def choose_move(s, prev):
     """Script move -> concrete camera move, varied by subject, never the same twice in a row."""
@@ -117,25 +131,31 @@ def plan(_=None):
                 o = ed.get(s['id'], {})
                 if s['kind'] in ('still', 'vid', 'photo'):
                     s['src'] = os.path.join(ROOT, o['src']) if 'src' in o else src_of(s['id'])
-                    if not s['src']: continue          # missing photo: the other shots of the paragraph cover it
-                    s['crop'] = o.get('crop'); last_src = (s['src'], s['crop'], s['grade'])
+                    if not s['src']: SKIPPED.append((s['id'], 'missing image')); continue
+                    rv = review_of(s['src'])
+                    if not rv: SKIPPED.append((s['id'], 'not verified: ' + REVIEW.get(os.path.splitext(os.path.basename(s['src']))[0], {}).get('note', 'not reviewed'))); continue
+                    s['crop'] = rv.get('crop', o.get('crop')); s['focus'] = rv.get('focus', [0.5, 0.45]); s['focus2'] = rv.get('focus2')
+                    last_src = (s['src'], s['crop'], s['grade'], s['focus'])
                 elif s['kind'] == 'detail':
                     par = next((x for x in keep if x['id'] == s['parent']), None)
                     if not par: continue
                     c0 = par.get('crop') or [0, 0, 1, 1]; c = s['crop']
                     s['src'] = par['src']; s['crop'] = [c0[0] + c[0] * (c0[2] - c0[0]), c0[1] + c[1] * (c0[3] - c0[1]), c0[0] + c[2] * (c0[2] - c0[0]), c0[1] + c[3] * (c0[3] - c0[1])]
+                    s['focus'] = [(s['crop'][0] + s['crop'][2]) / 2, (s['crop'][1] + s['crop'][3]) / 2]
                 elif s['kind'] in ('quote', 'stat'):
                     if not last_src: continue
-                    s['src'], s['crop'], s['bg_grade'] = last_src
+                    s['src'], s['crop'], s['bg_grade'], _ = last_src
                 elif s['kind'] == 'split':
                     for k, side in enumerate(s['sides']):
                         side['src'] = src_of(side['z']) if side.get('z') else src_of(s['id'] + 'ab'[k])
-                    if not all(x['src'] for x in s['sides']): continue
+                        side['focus'] = (review_of(side['src']) or {}).get('focus', [0.5, 0.4]) if side['src'] else None
+                    if not all(x['src'] and review_of(x['src']) for x in s['sides']): SKIPPED.append((s['id'], 'split side missing or not verified')); continue
                 keep.append(s)
             if not keep:
                 if not last_src: raise SystemExit(f'{ch} para {pi}: nothing to show')
                 keep = [{'id': f'{ch[:2]}-{pi:02d}-x', 'chapter': ch, 'para': pi, 'kind': 'still', 'size': 'WS', 'move': 'drift', 'grade': last_src[2],
-                         'refs': [], 'desc': '', 'src': last_src[0], 'crop': [0.1, 0.1, 0.9, 0.9]}]
+                         'refs': [], 'desc': '', 'src': last_src[0], 'crop': window(last_src[1], last_src[3], 0.8), 'focus': last_src[3]}]
+                SKIPPED.append((f'{ch[:2]}-{pi:02d}', 'paragraph had no verified picture: reused the previous one, reframed on its subject'))
             # cut points: proportional, then snapped to sentence boundaries
             wts = [1.35 if s['kind'] in GRAPHIC else 0.8 if s['kind'] == 'detail' else 1.0 for s in keep]
             bounds = [lead + x['end'] + 0.12 for x in para['sentences'][:-1]]
@@ -166,22 +186,25 @@ def plan(_=None):
                 for bi, bd in enumerate(beats):
                     if bi and s['kind'] in GRAPHIC:
                         it = {'type': 'shot', 'id': s['id'] + '#r', 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
-                              'kind': 'still', 'size': 'CU', 'grade': prev_img[2], 'desc': '', 'beat': 1, 'src': prev_img[0], 'crop': prev_img[1], 'auto': 2, 'move': 'drift'}
+                              'kind': 'still', 'size': 'CU', 'grade': prev_img[2], 'desc': '', 'beat': 1, 'src': prev_img[0], 'crop': window(prev_img[1], prev_img[3], 0.7),
+                              'focus': prev_img[3], 'move': 'drift'}
                         it['tr'] = list(choose_trans(prev, it, False, False)); tl.append(it); prev = it; prev_move = 'drift'; bt += bd; continue
                     it = {'type': 'shot', 'id': s['id'] + (f'#{bi}' if bi else ''), 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
                           'kind': s['kind'], 'size': s['size'], 'grade': s['grade'], 'desc': s['desc'], 'beat': bi}
-                    for key in ('src', 'crop', 'quote', 'attrib', 'sides', 'bg_grade'):
+                    for key in ('src', 'crop', 'quote', 'attrib', 'sides', 'bg_grade', 'focus'):
                         if s.get(key) is not None: it[key] = s[key]
+                    if bi and s.get('focus'):
+                        f = s['focus2'] if (bi == 2 and s.get('focus2')) else s['focus']
+                        it['crop'] = window(s.get('crop'), f, [0.82, 0.66, 0.74, 0.6][bi % 4]); it['focus'] = f
                     if bi == 0 and os.path.exists(clip) and s['kind'] == 'vid': it['clip'] = clip
                     if bi == 0 and s.get('lt'): it['lt'] = s['lt']
                     it['move'] = choose_move(dict(s, move=s['move'] if bi == 0 else ['push', 'drift', 'pull', 'tilt'][(bi - 1 + zlib.crc32(s['id'].encode())) % 4]), prev_move)
-                    if bi: it['auto'] = bi
                     tr = choose_trans(prev, it, k == 0 and bi == 0, ch_start)
                     if prev is not None and tr[0] == prev['tr'][0] and tr[0] in ('burn', 'smoke', 'focus', 'flash') and it['kind'] not in GRAPHIC:
                         tr = ('dissolve', 0.8)        # never the same effect twice in a row
                     it['tr'] = list(tr); ch_start = False
                     tl.append(it); prev = it; prev_move = it['move']; bt += bd
-                    if it['kind'] in ('still', 'vid', 'photo'): prev_img = (it['src'], it.get('crop'), it['grade'])
+                    if it['kind'] in ('still', 'vid', 'photo'): prev_img = (it['src'], s.get('crop'), it['grade'], s.get('focus', [0.5, 0.45]))
             tl.append({'type': 'voice', 'start': round(t + lead, 3), 'wav': os.path.join(ROOT, para['wav']), 'chapter': ch})
             for sent in para['sentences']: caps.append((t + lead + sent['start'], t + lead + sent['end'], sent['text']))
             t += seg
@@ -192,6 +215,8 @@ def plan(_=None):
         def ts(x): h, r = divmod(x, 3600); m, s = divmod(r, 60); return f'{int(h):02d}:{int(m):02d}:{s:06.3f}'.replace('.', ',')
         for i, (a, b_, tx) in enumerate(caps, 1): f.write(f'{i}\n{ts(a)} --> {ts(b_)}\n{tx}\n\n')
     sh = [x for x in tl if x['type'] == 'shot']
+    json.dump(SKIPPED, open(os.path.join(B, 'skipped.json'), 'w'), indent=0); json.dump(caps, open(os.path.join(B, 'captions.json'), 'w'))
+    print(f'skipped shots: {len(SKIPPED)} (build/skipped.json)')
     print(f'timeline {t/60:.1f} min, {len(sh)} shots, mean {np.mean([x["dur"] for x in sh]):.1f}s, max {max(x["dur"] for x in sh):.1f}s')
 
 # ------------------------------------------------------------------ grading
@@ -246,43 +271,44 @@ def best_window(e, frac, avoid=None):
             if s > best: best, bx = s, (x, y)
     return [bx[0] / w, bx[1] / h, (bx[0] + ww) / w, (bx[1] + wh) / h]
 
-def cover(im, w, h):
+def cover(im, w, h, fx=0.5, fy=0.45):
+    """Crop to the output aspect, keeping the marked subject (fx, fy) in frame; returns image and the subject's new position."""
     iw, ih = im.size; tr = w / h
-    if iw / ih > tr: nw = int(ih * tr); im = im.crop(((iw - nw) // 2, 0, (iw - nw) // 2 + nw, ih))
-    else: nh = int(iw / tr); im = im.crop((0, (ih - nh) // 3, iw, (ih - nh) // 3 + nh))
-    return im.resize((w, h), Image.LANCZOS)
+    if iw / ih > tr:
+        nw = int(ih * tr); x0 = int(min(max(fx * iw - nw / 2, 0), iw - nw)); im = im.crop((x0, 0, x0 + nw, ih)); fx = (fx * iw - x0) / nw
+    else:
+        nh = int(iw / tr); y0 = int(min(max(fy * ih - nh / 2, 0), ih - nh)); im = im.crop((0, y0, iw, y0 + nh)); fy = (fy * ih - y0) / nh
+    return im.resize((w, h), Image.LANCZOS), (fx, fy)
 
-def prep_image(key, src, crop, gkey, mode='normal', size=(SW, SH), auto=0):
+def prep_image(key, src, crop, gkey, mode='normal', size=(SW, SH), focus=None):
     out = os.path.join(PREP, key.replace('#', '_') + '.npz')
-    sig = json.dumps([src, crop, gkey, mode, size, auto])
+    focus = focus or [0.5, 0.45]
+    sig = json.dumps([src, crop, gkey, mode, size, focus])
     if os.path.exists(out) and os.path.getmtime(out) > os.path.getmtime(src):
         try:
             if str(np.load(out)['sig']) == sig: return out
         except Exception: pass
-    im = Image.open(src).convert('RGB'); w, h = im.size
-    if crop: x0, y0, x1, y1 = crop; im = im.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h)))
-    if auto:   # detail framing for a later beat of a long hold
-        a0 = np.asarray(cover(im, SW, SH)); e, _ = interest(a0, depth_of(a0))
-        win = best_window(e, 0.62 if auto == 1 else 0.5)
-        if auto == 2: win = best_window(e, 0.5, avoid=((win[0] + win[2]) / 2, (win[1] + win[3]) / 2))
-        iw, ih = im.size; im = im.crop((int(win[0] * iw), int(win[1] * ih), int(win[2] * iw), int(win[3] * ih)))
-    im = cover(im, *size); a = np.asarray(im, np.float32) / 255
+    im = Image.open(src).convert('RGB'); w, h = im.size; fx, fy = focus
+    if crop:
+        x0, y0, x1, y1 = crop; im = im.crop((int(x0 * w), int(y0 * h), int(x1 * w), int(y1 * h)))
+        fx, fy = (fx - x0) / (x1 - x0), (fy - y0) / (y1 - y0)
+    srcw = im.size[0]
+    im, (fx, fy) = cover(im, *size, min(max(fx, 0), 1), min(max(fy, 0), 1))
+    a = np.asarray(im, np.float32) / 255
     a = (np.clip(grade(a, gkey), 0, 1) * 255).astype(np.uint8)
     if mode == 'plate':      # blurred, darkened backdrop for quote and statistic cards
-        a = (cv2.GaussianBlur(a, (0, 0), 16).astype(np.float32) * 0.32).astype(np.uint8); d = np.full(a.shape[:2], 0.5, np.float32); tgt = [0.5, 0.45]
+        a = (cv2.GaussianBlur(a, (0, 0), 16).astype(np.float32) * 0.32).astype(np.uint8); d = np.full(a.shape[:2], 0.5, np.float32)
     else:
         d = depth_of(a) if size == (SW, SH) else cv2.resize(depth_of(cv2.resize(a, (SW, SH))), size)
-        e, _ = interest(a if size == (SW, SH) else cv2.resize(a, (SW, SH)), d if size == (SW, SH) else cv2.resize(d, (SW, SH)))
-        yx = np.unravel_index(np.argmax(cv2.GaussianBlur(e, (0, 0), 6)), e.shape); tgt = [yx[1] / e.shape[1], yx[0] / e.shape[0]]
-    np.savez_compressed(out, img=a, depth=d.astype(np.float16), target=np.array(tgt, np.float32), sig=sig)
+    np.savez_compressed(out, img=a, depth=d.astype(np.float16), target=np.array([fx, fy], np.float32), srcw=srcw, sig=sig)
     return out
 
 def prep_item(it):
     k = it['kind']
-    if k in ('still', 'vid', 'photo', 'detail'): prep_image(it['id'], it['src'], it.get('crop'), it['grade'], auto=it.get('auto', 0))
+    if k in ('still', 'vid', 'photo', 'detail'): prep_image(it['id'], it['src'], it.get('crop'), it['grade'], focus=it.get('focus'))
     elif k in ('quote', 'stat'): prep_image(it['id'], it['src'], it.get('crop'), it.get('bg_grade', 'gold'), 'plate')
     elif k == 'split':
-        for j, side in enumerate(it['sides']): prep_image(it['id'] + 'ab'[j], side['src'], None, 'neutral' if 'photos' in side['src'] else it['grade'], size=(SW // 2, SH))
+        for j, side in enumerate(it['sides']): prep_image(it['id'] + 'ab'[j], side['src'], None, 'neutral' if 'photos' in side['src'] else it['grade'], size=(SW // 2, SH), focus=side.get('focus'))
 
 def prep(chs):
     os.makedirs(PREP, exist_ok=True)
@@ -294,14 +320,15 @@ _U, _V = np.meshgrid(np.arange(W, dtype=np.float32), np.arange(H, dtype=np.float
 def camera(move, t, seed, tgt):
     """-> zoom, centre offset (dx, dy) in canvas px, parallax (px, py), focal depth or None."""
     e = ease(t); r = np.random.default_rng(seed); side = 1 if r.random() < 0.5 else -1
+    if abs(tgt[0] - 0.5) > 0.06: side = 1 if tgt[0] > 0.5 else -1        # move toward the subject, never away from it
     tx, ty = (tgt[0] - 0.5) * SW, (tgt[1] - 0.5) * SH
     lim = lambda z: ((SW - W / z) / 2, (SH - H / z) / 2)
     def toward(z, f): mx, my = lim(z); return (float(np.clip(tx * f, -mx, mx)), float(np.clip(ty * f, -my, my)))
     if move == 'push': z = 1.0 + 0.14 * e; return z, toward(z, 0.55 * e), (side * 14 * e, -6 * e), None
-    if move == 'pull': z = 1.16 - 0.15 * e; return z, toward(z, 0.55 * (1 - e)), (side * 14 * (1 - e), 6 * e), None
-    if move == 'pan': return 1.05, (side * (170 * e - 85), 0), (side * 12 * (e - 0.5), 0), None
+    if move == 'pull': z = 1.16 - 0.15 * e; return z, toward(z, 0.55 * (1 - e) + 0.25 * e), (side * 14 * (1 - e), 6 * e), None
+    if move == 'pan': z = 1.06; b = toward(z, 0.35); return z, (b[0] + side * (150 * e - 75), b[1]), (side * 12 * (e - 0.5), 0), None
     if move == 'tilt': return 1.06, (0, side * (90 * e - 45)), (0, side * 10 * (e - 0.5)), None
-    if move == 'track': return 1.07, (side * (190 * e - 95), 0), (side * 30 * (e - 0.5), 0), None
+    if move == 'track': z = 1.07; b = toward(z, 0.3); return z, (b[0] + side * (160 * e - 80), b[1]), (side * 30 * (e - 0.5), 0), None
     if move == 'crane-up': return 1.07 + 0.03 * e, (0, 100 - 200 * e), (0, -26 * (e - 0.5)), None
     if move == 'crane-down': return 1.07, (0, -100 + 200 * e), (0, 26 * (e - 0.5)), None
     if move == 'aerial': z = 1.02 + 0.12 * e; return z, (toward(z, 0.3 * e)[0], 60 - 120 * e), (0, -20 * e), None

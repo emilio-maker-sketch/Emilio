@@ -3,7 +3,7 @@
 In 202 BC, the two greatest generals of their age faced each other on a plain near a town called Zama, south-west of Carthage. Polybius says that before the battle they met in person, between the armies, each with an interpreter. Hannibal offered peace. Scipio said it was too late. Whether they really spoke, or whether the meeting was invented by later writers, we cannot be sure.
 > MAP | slow push | map | map | | Map of North Africa 202 BC: Carthage, Utica, Hadrumetum, and Zama to the south-west
 > WS | slow push | vid | gold | @hannibal,@scipio | Two generals on horseback meeting alone in the middle of a dusty plain between two great armies, each with a single attendant, wind blowing
-> SPLIT | static | split | gold | | Hannibal, aged about 45 {z: A Carthaginian commander of 45 with a greying short beard and a scarred blind eye, bronze cuirass, plain cloak, on horseback} || Scipio, aged about 33 {z: A Roman general of 33, clean-shaven and confident, bronze muscle cuirass, red cloak, on horseback}
+> SPLIT | static | split | gold | | Hannibal, aged about 45 {z: A Carthaginian commander of 45 with a greying short beard and a scarred blind eye, bronze cuirass, plain cloak, on horseback} || Scipio, aged about 34 {z: A Roman general of 33, clean-shaven and confident, bronze muscle cuirass, red cloak, on horseback}
 
 Hannibal opened the battle with his eighty war elephants. Scipio was ready. He had arranged his infantry not in a solid line, but in columns with open lanes between them. As the elephants charged, the Romans blew trumpets and horns. Many of the terrified animals ran down the lanes and out the back without hurting anyone. Others turned around and stampeded into Hannibal's own cavalry.
 > DIAGRAM | static | diagram | map | | zama

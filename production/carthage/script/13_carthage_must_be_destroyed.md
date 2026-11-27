@@ -16,11 +16,11 @@ Around 153 BC, one of those commissions included an old Roman senator named Marc
 
 Back in Rome, Plutarch tells us, he let some figs fall from the fold of his toga in the Senate. While the senators admired how large and fresh they were, he told them that the country where they grew was only three days' sail from Rome.
 > MS | slow push | vid | candle | @cato,@romans | An elderly Roman senator in a white toga letting large fresh figs fall from a fold of his toga onto the floor of the Senate, other senators leaning forward to look
-> ECU | slow push | detail | candle | | crop=0.3,0.55,0.7,1.0 · the figs on the floor
-> QUOTE | static | quote | candle | | "The country where these grew is only three days' sail from Rome." ~ Cato, as told by Plutarch
+> ECU | slow push | detail | candle | | crop=0.1,0.55,0.6,1.0 · the figs on the floor
+> QUOTE | static | quote | candle | | "The country where these grew is only three days' sail from Rome." ~ Cato, Plutarch, Cato the Elder 27 (translated)
 
 From then on, whatever the subject of the debate, Cato ended every speech in the Senate with the same words. Carthage must be destroyed. The famous Latin phrase, Carthago delenda est, is a later summary, but the idea is his. Another senator, Scipio Nasica, always answered the opposite: Carthage should be spared. Rome, he argued, needed a rival to fear, to keep it disciplined.
-> CARD | static | card | map | | CARTHAGO DELENDA EST · "Carthage must be destroyed"
+> CARD | static | card | map | | CARTHAGO DELENDA EST · "Carthage must be destroyed" · a later Latin summary of Cato's words
 > SPLIT | static | split | candle | | Cato: destroy Carthage {z: An elderly red-haired Roman senator with grey eyes, clean-shaven, speaking forcefully in the Senate, finger raised} || Scipio Nasica: let Carthage stand {z: A dignified Roman senator in his fifties, clean-shaven, calmly answering in the Senate, open hand}
 
 In 151 BC, Carthage made the last of its fifty annual payments. In its own eyes it was free. Soon afterwards, after yet another attack by Masinissa, it raised an army of its own and marched out to fight him. It was beaten, surrounded and starved, and most of the army was killed. A young Roman officer who happened to be visiting Masinissa watched the battle from a hill. His name was Scipio Aemilianus.

@@ -21,7 +21,7 @@ In 237 BC, Hamilcar sailed for Spain with an army, to build Carthage a new empir
 > CU | slow push | photo | neutral | | Hannibal swearing enmity to Rome painting [q: Hannibal swearing eternal enmity Rome painting]
 
 We know this story because Hannibal told it himself, many years later, to a foreign king. Whether every detail is true, we cannot say. But it is how he wanted to be understood.
-> QUOTE | static | quote | candle | | "My father made me swear that I would never be a friend to the Romans." ~ Hannibal to King Antiochus, as told by Polybius
+> QUOTE | static | quote | candle | | "He bade me lay my hand on the victim and swear never to be the friend of the Romans." ~ Hannibal to King Antiochus, Polybius 3.11 (translated)
 > WS | slow pan | still | gold | @ships | A Carthaginian fleet with square sails leaving a harbour at dawn heading west, a boy standing at the stern of one ship
 
 In Spain, Hamilcar conquered and made alliances, and took over the rich silver mines of the south. When he drowned in a river during a battle in 229 BC, his son-in-law, Hasdrubal the Fair, took over. Hasdrubal founded a new capital on a superb natural harbour on the Spanish coast. He called it, too, Qart-hadasht. The Romans called it New Carthage. Today it is the Spanish city of Cartagena.

@@ -22,6 +22,7 @@ W, H = 3840, 2160; OW, OH = 2304, 1296
 INK, SEA, LAND, GOLD = (58, 42, 28), (150, 160, 152), (226, 210, 172), (176, 132, 52)
 CAR, ROM, NUM, GRK, MAC, NEU = (118, 46, 104), (160, 44, 36), (150, 120, 40), (52, 82, 130), (70, 96, 120), (110, 100, 86)
 
+TEXTS = []   # every word drawn on a map or diagram, saved into spec.json for the QC text register
 def font(name, size): return ImageFont.truetype(os.path.join(FONTS, name), int(size * 1.35))
 SER, ITA, CAP = 'CormorantGaramond.ttf', 'CormorantGaramond-Italic.ttf', 'Cinzel.ttf'
 
@@ -76,10 +77,12 @@ class Gfx:
     def route(self, pts, col, a, w=9, dash=False):
         self.layers.append({'t': 'route', 'pts': pts, 'col': list(col), 'a': a, 'w': w, 'dash': dash})
     def pulse(self, xy, col, a): self.layers.append({'t': 'pulse', 'xy': xy, 'col': list(col), 'a': a})
-    def unit(self, col, label, k): self.layers.append({'t': 'unit', 'col': list(col), 'label': label, 'k': k})
+    def unit(self, col, label, k):
+        if label: TEXTS.append(label)
+        self.layers.append({'t': 'unit', 'col': list(col), 'label': label, 'k': k})
     def save(self, base):
         Image.fromarray(np.clip(base, 0, 255).astype(np.uint8)).resize((OW, OH), Image.LANCZOS).save(os.path.join(self.dir, 'base.png'))
-        json.dump({'layers': self.layers, 'focus': self.focus, 'zoom': self.zoom}, open(os.path.join(self.dir, 'spec.json'), 'w'))
+        json.dump({'layers': self.layers, 'focus': self.focus, 'zoom': self.zoom, 'texts': list(dict.fromkeys(TEXTS))}, open(os.path.join(self.dir, 'spec.json'), 'w'))
 
 # ------------------------------------------------------------------ map drawing helpers
 def land_mask(P):
@@ -116,12 +119,14 @@ def territory(G, P, mask, polys, col, a, alpha=0.42, hatch=False):
 
 def text_layer(items):
     """items: (xy, text, size, fontname, colour, anchor) drawn with a soft paper halo for legibility."""
+    TEXTS.extend(t for _, t, *_ in items)
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     for xy, t, size, fn, col, anc in items:
         d.text(xy, t, font=font(fn, size), fill=tuple(col) + (255,), anchor=anc, stroke_width=max(2, size // 22), stroke_fill=(236, 224, 196, 200))
     return L
 
 def city(P, lon, lat, name, size=70, dx=0, dy=-70, star=False, col=INK):
+    TEXTS.append(name)
     x, y = P(lon, lat); r = 22 if star else 14
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     d.ellipse([x - r, y - r, x + r, y + r], fill=(GOLD if star else col) + (255,), outline=INK + (255,), width=5)
@@ -134,6 +139,7 @@ def cities(G, P, rows, a):
     G.add(L, a)
 
 def legend(rows, note='borders approximate'):
+    TEXTS.extend([t for _, t in rows] + ([note] if note else []))
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L); y = H - 150 - 115 * (len(rows) - 1)
     for col, text in rows:
         d.rectangle([120, y - 26, 184, y + 26], fill=tuple(col) + (230,), outline=INK + (255,), width=3)
@@ -142,6 +148,7 @@ def legend(rows, note='borders approximate'):
     return L
 
 def title(text, sub=None):
+    TEXTS.extend([text] + ([sub] if sub else []))
     L = Image.new('RGBA', (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(L)
     d.text((W / 2, 150), text, font=font(CAP, 80), fill=INK + (255,), anchor='mm', stroke_width=3, stroke_fill=(236, 224, 196, 220))
     if sub: d.text((W / 2, 285), sub, font=font(ITA, 58), fill=INK + (255,), anchor='mm')
@@ -228,7 +235,7 @@ def m_regulus(G):
 
 def m_aegates(G):
     P = Proj(11.6, 13.3, 37.55, 38.35); base, mask = map_base(P)
-    G.add(title('THE AEGATES ISLANDS', '10 March 241 BC'), [0.0, 0.1], fix=True)
+    G.add(title('THE AEGATES ISLANDS', '241 BC'), [0.0, 0.1], fix=True)
     G.add(text_layer([(P(12.34, 38.06), 'Levanzo', 58, ITA, INK, 'mm'), (P(12.33, 37.88), 'Favignana', 58, ITA, INK, 'mm'), (P(12.07, 38.03), 'Marettimo', 58, ITA, INK, 'mm'),
                       (P(12.56, 38.13), 'Drepana', 60, CAP, INK, 'mm'), (P(12.48, 37.74), 'Lilybaeum', 60, CAP, INK, 'mm')]), [0.05, 0.2])
     G.route([P.n(11.75, 38.0), P.n(12.0, 38.08), P.n(12.25, 38.07)], CAR, [0.2, 0.5]); G.route([P.n(12.52, 38.0), P.n(12.42, 38.0), P.n(12.3, 38.04)], ROM, [0.3, 0.55])
@@ -331,7 +338,7 @@ def m_after_cannae(G):
     G.add(title('ITALY AFTER CANNAE', '216–211 BC'), [0.0, 0.1], fix=True)
     territory(G, P, mask, [ITALY_S], ROM, [0.0, 0.1]); territory(G, P, mask, [[(14.0, 41.4), (15.2, 41.6), (16.6, 41.2), (18.6, 40.2), (17.0, 39.0), (16.5, 38.0), (15.6, 37.9), (15.7, 39.5), (14.3, 40.7)]], CAR, [0.4, 0.7], alpha=0.38, hatch=True)
     cities(G, P, [(*PL['Rome'], 'Rome', 60, -40, -70, True), (*PL['Cannae'], 'Cannae', 56, 0, 75), (*PL['Capua'], 'Capua', 56, -110, 30), (*PL['Tarentum'], 'Tarentum', 52, 0, 70)], [0.05, 0.2])
-    G.route(R(P, 'Cannae', (14.6, 41.6), 'Rome'), (60, 50, 40), [0.15, 0.35], w=6, dash=True); G.add(text_layer([(P(14.4, 42.2), 'about 360 km', 58, ITA, INK, 'mm')]), [0.3, 0.42])
+    G.route(R(P, 'Cannae', (14.6, 41.6), 'Rome'), (60, 50, 40), [0.15, 0.35], w=6, dash=True); G.add(text_layer([(P(14.4, 42.2), 'about 310 km in a straight line', 58, ITA, INK, 'mm')]), [0.3, 0.42])
     G.add(legend([(ROM, 'Rome and loyal allies'), (CAR, 'went over to Hannibal (much of the south)')]), [0.6, 0.75], fix=True); finish(G, base)
 
 def m_fronts(G):
@@ -413,7 +420,7 @@ def city_plan(G, zoom_harbours=False):
     land_pts = [(0, 300), (900, 260), (1500, 120), (2300, 160), (2900, 380), (3300, 700), (3400, 1100), (3200, 1500), (2850, 1750), (2500, 1980), (1800, 2160), (0, 2160)]
     d.polygon(land_pts, fill=LAND); d.line(land_pts + [land_pts[0]], fill=INK, width=6)
     d.polygon([(0, 1150), (900, 1250), (1500, 1650), (1700, 2160), (0, 2160)], fill=(150, 162, 158)); d.line([(0, 1150), (900, 1250), (1500, 1650), (1700, 2160)], fill=INK, width=5)
-    d.text((500, 1750), 'Lake of Tunis', font=font(ITA, 72), fill=INK, anchor='mm'); d.text((3500, 1900), 'Gulf of Tunis', font=font(ITA, 72), fill=INK, anchor='mm')
+    TEXTS.extend(['Lake of Tunis', 'Gulf of Tunis']); d.text((500, 1750), 'Lake of Tunis', font=font(ITA, 72), fill=INK, anchor='mm'); d.text((3500, 1900), 'Gulf of Tunis', font=font(ITA, 72), fill=INK, anchor='mm')
     return np.array(img, np.float32)
 
 BYRSA, AGORA, CIRC, RECT = (1900, 1050), (2350, 1450), (2420, 1700), (2300, 1930)
@@ -543,7 +550,7 @@ def d_walls(G):
     G.add(text_layer([((2200, gy - 300), 'stalls for 300 elephants', 60, ITA, INK, 'mm'), ((2200, gy - 900), 'stables for 4,000 horses,', 60, ITA, INK, 'mm'),
                       ((2200, gy - 820), 'barracks for 20,000 men', 60, ITA, INK, 'mm')]), [0.55, 0.7])
     L = G.layer(); d = ImageDraw.Draw(L); d.line([(2850, top), (2850, gy)], fill=INK + (255,), width=6); d.line([(2810, top), (2890, top)], fill=INK + (255,), width=6); d.line([(2810, gy), (2890, gy)], fill=INK + (255,), width=6)
-    d.text((2920, (top + gy) / 2), 'about 13 m', font=font(CAP, 70), fill=INK + (255,), anchor='lm')
+    TEXTS.extend(['about 13 m', 'a man, for scale']); d.text((2920, (top + gy) / 2), 'about 13 m', font=font(CAP, 70), fill=INK + (255,), anchor='lm')
     hx = 3400; d.ellipse([hx - 25, gy - 175, hx + 25, gy - 125], fill=INK + (255,)); d.line([(hx, gy - 125), (hx, gy - 50)], fill=INK + (255,), width=12)
     d.line([(hx, gy - 50), (hx - 30, gy)], fill=INK + (255,), width=10); d.line([(hx, gy - 50), (hx + 30, gy)], fill=INK + (255,), width=10)
     d.text((hx, gy + 60), 'a man, for scale', font=font(ITA, 50), fill=INK + (255,), anchor='mm'); G.add(L, [0.7, 0.82]); finish(G, base)
@@ -621,6 +628,6 @@ GFX = {'01-00-0': m_phoenicia, '01-01-1': m_trade, '02-00-0': m_empire300, '02-0
 def main():
     ids = sys.argv[1:] or list(GFX)
     for k in ids:
-        G = Gfx(k); GFX[k](G); print(k, len(G.layers), 'layers', flush=True)
+        TEXTS.clear(); G = Gfx(k); GFX[k](G); print(k, len(G.layers), 'layers', flush=True)
 
 if __name__ == '__main__': main()

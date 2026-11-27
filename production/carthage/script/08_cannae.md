@@ -30,7 +30,6 @@ What followed was not a battle but a slaughter that lasted the rest of the day. 
 > WS | slow pan | still | ash | | A vast empty plain at sunset covered in abandoned shields, broken spears and bronze helmets, crows overhead, dust settling
 > CU | focus | still | ash | | A dented bronze Roman helmet with a broken crest lying in dry grass at sunset
 
-Livy tells us that Hannibal's brother Mago later stood before the council in Carthage and poured out the gold rings taken from the fingers of dead Roman nobles. There were so many, he said, that they were measured not by number but by the bushel. More than two thousand years later, armies still study Cannae. The double envelopment, the perfect encirclement of a larger force, is still often called simply, a Cannae.
+Livy tells us that Hannibal's brother Mago later stood before the council in Carthage and poured out the gold rings taken from the fingers of dead Roman nobles: a heap so large that, by some accounts, it filled three and a half bushels. More than two thousand years later, armies still study Cannae. The double envelopment, the perfect encirclement of a larger force, is still often called simply, a Cannae.
 > MS | slow push | still | candle | @carthaginians | A Carthaginian nobleman pouring a heap of gold signet rings from a basket onto a stone floor before a council of bearded elders, lamplight
 > ECU | slow push | detail | candle | | crop=0.3,0.5,0.7,0.95 · the heap of gold rings
-> QUOTE | static | quote | candle | | "They were measured not by number, but by the bushel." ~ Livy on the rings of Cannae, book 23

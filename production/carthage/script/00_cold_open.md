@@ -4,12 +4,11 @@ Spring, 146 BC. On the coast of North Africa, a city is dying. For six days and 
 > EWS | aerial | vid | fire | @carthage | An ancient Mediterranean city on a hill burning at dusk, columns of black smoke rising over flat-roofed houses and a temple on the citadel, the sea beyond
 > WS | track | still | fire | @legion | Roman soldiers in bronze crested helmets advancing up a narrow stone street between tall flat-roofed houses, smoke drifting, burning doorways
 > MS | handheld | still | fire | @legion | Roman soldiers crossing a wooden plank laid between two rooftops, smoke below them
-> ECU | push | detail | fire | | crop=0.25,0.15,0.75,0.6 · the plank and the soldiers' feet
+> ECU | push | detail | fire | | crop=0.2,0.5,0.8,0.98 · the plank and the soldiers' feet
 
 When a block was cleared, the Romans set it on fire. The ancient historian Appian, following an eyewitness account, describes what came next. Men with axes and hooks cleared the rubble to open a path for the troops, and they swept the dead and the living alike into pits. Cavalry rode over them.
 > WS | slow push | still | fire | | A narrow ancient street full of fallen beams and rubble, houses ablaze on both sides, embers falling
 > CU | focus | still | ash | | A bronze Roman helmet with a broken feather crest lying in ash and rubble, firelight
-> QUOTE | static | quote | fire | | "Men were trampled in every direction, some by horses, others by men." ~ Appian, Punic Wars (paraphrased)
 
 On the seventh day, a group of men came down from the citadel holding olive branches. They asked for one thing: that those who came out should be allowed to live. Fifty thousand men, women and children walked out of the last stronghold of the city. They would be sold as slaves.
 > WS | slow push | still | dawn | @carthaginians | A small group of exhausted Carthaginian men in long robes holding up olive branches, coming down a ruined hillside street at dawn, smoke behind them

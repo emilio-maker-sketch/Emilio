@@ -21,7 +21,7 @@ Most famous of all were the harbours. A ship entering from the sea passed first 
 Carthage was a republic, like Rome. Each year it elected two chief magistrates, called suffetes. There was a council of elders and a popular assembly, and a court of one hundred and four judges who watched over the generals. A general who lost a battle could be put on trial, and sometimes crucified. The Greek philosopher Aristotle admired the Carthaginian constitution and praised its stability.
 > WS | slow pan | still | candle | @carthaginians | A council of bearded Carthaginian elders in long robes seated in a stone hall lit by oil lamps, one standing to speak
 > CU | slow push | photo | neutral | | Bust of Aristotle [q: Aristotle bust Altemps]
-> QUOTE | static | quote | neutral | | "Many of the Carthaginian institutions are excellent." ~ Aristotle, Politics, book 2
+> QUOTE | static | quote | neutral | | "The Carthaginians are also considered to have an excellent form of government." ~ Aristotle, Politics 2.11 (translated)
 
 Its people worshipped Phoenician gods: Baal Hammon, and a goddess called Tanit, whose sign, a triangle with a circle above it, is carved on thousands of stones. Some of those stones stand in a sacred precinct that archaeologists call the tophet. Under them were buried urns holding the cremated bones of infants and young animals.
 > CU | slow push | photo | neutral | | Sign of Tanit carved on a stele [q: Sign of Tanit stele Carthage]
@@ -34,5 +34,6 @@ Greek and Roman writers said that the Carthaginians sacrificed their own childre
 
 For centuries Carthage fought the Greek cities of Sicily, above all Syracuse. With Rome, a small city in central Italy, it was on friendly terms. The Greek historian Polybius copied out the text of a treaty between the two cities made in the first year of the Roman Republic. Rome was to stay out of Carthage's waters. Carthage was to leave Rome's Latin allies alone. For two hundred and fifty years, it worked.
 > WS | slow push | still | steel | @ships | Greek and Carthaginian war galleys ramming each other in a sea battle off a rocky Sicilian coast, splintered oars and smoke
+> WS | pan | photo | neutral | | Olympias, a full-size reconstruction of an ancient Greek trireme [q: Olympias trireme]
 > CU | scan | still | candle | | A bronze treaty tablet with Phoenician and Latin letters on a temple wall, lamplight
 > TL | static | timeline | map | | 509 BC: First treaty with Rome* ; 480 BC: Battle of Himera ; 348 BC: Second treaty ; 279 BC: Alliance against Pyrrhus ; 264 BC: War

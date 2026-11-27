@@ -1,0 +1,1784 @@
+{
+"z_00-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": "replacement; Punic city; Greek-looking hilltop temple cropped out",
+"crop": [
+0,
+0.35,
+1,
+1
+]
+},
+"z_00-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.22
+],
+"note": ""
+},
+"z_00-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.45
+],
+"note": ""
+},
+"z_00-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.75
+],
+"note": ""
+},
+"z_00-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.32,
+0.5
+],
+"note": ""
+},
+"z_00-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.45
+],
+"note": ""
+},
+"z_00-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": "modern-looking buildings at top cropped",
+"crop": [
+0,
+0.35,
+1,
+1
+]
+},
+"z_00-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.88,
+0.25
+],
+"note": ""
+},
+"z_00-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.38,
+0.28
+],
+"note": ""
+},
+"z_00-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.48,
+0.32
+],
+"note": ""
+},
+"z_00-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.45
+],
+"note": ""
+},
+"z_00-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": "replacement"
+},
+"z_01-00-1": {
+"status": "REJECTED",
+"note": "medieval crenellations and a dome: wrong period for Tyre c. 900 BC"
+},
+"z_01-01-0": {
+"status": "REJECTED",
+"note": "AI pseudo-writing in Latin cursive"
+},
+"z_01-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_01-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.55
+],
+"note": ""
+},
+"z_01-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.43,
+0.27
+],
+"note": ""
+},
+"z_01-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.48,
+0.33
+],
+"note": ""
+},
+"z_01-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.6
+],
+"note": ""
+},
+"z_01-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_02-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": "replacement"
+},
+"z_02-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.55
+],
+"note": "modern-looking quay buildings cropped",
+"crop": [
+0,
+0.3,
+1,
+1
+]
+},
+"z_02-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.55
+],
+"note": "replacement"
+},
+"z_02-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_02-02-2": {
+"status": "REJECTED",
+"note": "arched arcade, lighthouse, rowing boats: not the ship sheds"
+},
+"z_02-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.42,
+0.3
+],
+"note": ""
+},
+"z_02-05-0": {
+"status": "REJECTED",
+"note": "triangle without the circle: not the sign of Tanit"
+},
+"z_02-06-0": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_03-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": ""
+},
+"z_03-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_03-02-2": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_03-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.55
+],
+"note": ""
+},
+"z_03-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.35
+],
+"note": ""
+},
+"z_03-04-0": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_03-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.25
+],
+"note": ""
+},
+"z_03-06-1": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_03-07-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_04-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_04-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.35
+],
+"note": ""
+},
+"z_04-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.65
+],
+"note": ""
+},
+"z_04-01-3": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.25
+],
+"note": ""
+},
+"z_04-02-1": {
+"status": "REJECTED",
+"note": "bearded men, unclear who is Roman or Carthaginian"
+},
+"z_04-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.35
+],
+"note": ""
+},
+"z_04-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.48,
+0.3
+],
+"note": ""
+},
+"z_04-04-1": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_04-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.5
+],
+"note": ""
+},
+"z_04-06-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": ""
+},
+"z_04-06-2": {
+"status": "VERIFIED",
+"focus": [
+0.47,
+0.27
+],
+"note": ""
+},
+"z_05-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.68,
+0.3
+],
+"note": ""
+},
+"z_05-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.6
+],
+"note": ""
+},
+"z_05-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.43,
+0.3
+],
+"note": ""
+},
+"z_05-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.5
+],
+"note": ""
+},
+"z_05-03-3": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_05-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.25,
+0.3
+],
+"note": ""
+},
+"z_05-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.65,
+0.3
+],
+"note": ""
+},
+"z_05-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.4
+],
+"note": ""
+},
+"z_06-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.45
+],
+"note": "Islamic-style pointed arch cropped out",
+"crop": [
+0.38,
+0.08,
+1,
+0.9
+]
+},
+"z_06-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_06-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.65,
+0.55
+],
+"note": ""
+},
+"z_06-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.6
+],
+"note": ""
+},
+"z_06-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.5
+],
+"note": ""
+},
+"z_06-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.55
+],
+"note": ""
+},
+"z_06-03-3": {
+"status": "VERIFIED",
+"focus": [
+0.7,
+0.35
+],
+"note": ""
+},
+"z_06-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.55
+],
+"note": ""
+},
+"z_06-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.7
+],
+"note": ""
+},
+"z_06-06-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_07-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.55
+],
+"note": ""
+},
+"z_07-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.25
+],
+"note": ""
+},
+"z_07-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.45
+],
+"note": ""
+},
+"z_07-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": ""
+},
+"z_07-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.6
+],
+"note": ""
+},
+"z_07-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_07-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_07-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.25
+],
+"note": ""
+},
+"z_07-04-2": {
+"status": "VERIFIED",
+"focus": [
+0.7,
+0.5
+],
+"note": ""
+},
+"z_07-05-0": {
+"status": "REJECTED",
+"note": "shows Romans walking on a paved road, not the charge described"
+},
+"z_07-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.4
+],
+"note": ""
+},
+"z_07-06-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.6
+],
+"note": ""
+},
+"z_07-06-2": {
+"status": "VERIFIED",
+"focus": [
+0.65,
+0.35
+],
+"note": ""
+},
+"z_07-07-0": {
+"status": "VERIFIED",
+"focus": [
+0.65,
+0.3
+],
+"note": ""
+},
+"z_07-07-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.55
+],
+"note": ""
+},
+"z_07-07-2": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.4
+],
+"note": ""
+},
+"z_08-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_08-00-2a": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_08-00-2b": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.3
+],
+"note": ""
+},
+"z_08-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.4
+],
+"note": ""
+},
+"z_08-02-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.4
+],
+"note": ""
+},
+"z_08-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_08-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_08-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_08-04-2": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.4
+],
+"note": ""
+},
+"z_08-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.7
+],
+"note": ""
+},
+"z_08-05-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_08-06-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.55
+],
+"note": ""
+},
+"z_09-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.35
+],
+"note": ""
+},
+"z_09-01-1": {
+"status": "REJECTED",
+"note": "Renaissance villas and medieval towers: not 3rd-century BC Rome"
+},
+"z_09-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.45
+],
+"note": ""
+},
+"z_09-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.5
+],
+"note": ""
+},
+"z_09-04-0": {
+"status": "REJECTED",
+"note": "Viking-style ship"
+},
+"z_09-04-2": {
+"status": "REJECTED",
+"note": "modern trousers"
+},
+"z_09-05-0": {
+"status": "REJECTED",
+"note": "medieval round towers: not the walls of Rome"
+},
+"z_09-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.35
+],
+"note": ""
+},
+"z_09-06-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_09-07-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": ""
+},
+"z_10-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.25
+],
+"note": ""
+},
+"z_10-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.7
+],
+"note": "replacement; crenellated wall top cropped",
+"crop": [
+0,
+0.4,
+1,
+1
+]
+},
+"z_10-01-2": {
+"status": "REJECTED",
+"note": "medieval round towers"
+},
+"z_10-02-2": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.35
+],
+"note": ""
+},
+"z_10-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": ""
+},
+"z_10-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.7
+],
+"note": "Viking-style ship in background cropped",
+"crop": [
+0,
+0.45,
+0.6,
+1
+]
+},
+"z_10-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.3
+],
+"note": ""
+},
+"z_10-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_10-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_10-06-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.35
+],
+"note": ""
+},
+"z_11-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": ""
+},
+"z_11-00-2a": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.2
+],
+"note": ""
+},
+"z_11-00-2b": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.2
+],
+"note": ""
+},
+"z_11-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": ""
+},
+"z_11-01-2": {
+"status": "REJECTED",
+"note": "elephants walking calmly, not panicking"
+},
+"z_11-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": ""
+},
+"z_11-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.45
+],
+"note": ""
+},
+"z_11-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_11-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_11-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.35
+],
+"note": ""
+},
+"z_11-05-1": {
+"status": "REJECTED",
+"note": "Viking-style ships, modern-looking town"
+},
+"z_11-05-2": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.4
+],
+"note": ""
+},
+"z_11-06-0": {
+"status": "VERIFIED",
+"focus": [
+0.65,
+0.7
+],
+"note": "imperial-looking temples cropped down to the chariot and elephants",
+"crop": [
+0.25,
+0.4,
+0.95,
+1
+]
+},
+"z_12-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": ""
+},
+"z_12-01-0": {
+"status": "REJECTED",
+"note": "paved road"
+},
+"z_12-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.6
+],
+"note": "dome cropped",
+"crop": [
+0,
+0.38,
+1,
+1
+]
+},
+"z_12-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "modern beach in background cropped",
+"crop": [
+0.2,
+0.3,
+1,
+1
+]
+},
+"z_12-03-0": {
+"status": "REJECTED",
+"note": "feather quill: anachronism"
+},
+"z_12-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": ""
+},
+"z_12-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.55
+],
+"note": ""
+},
+"z_12-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_12-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_12-06-0": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.35
+],
+"note": ""
+},
+"z_13-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.25
+],
+"note": ""
+},
+"z_13-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_13-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": "AI map lettering cropped out",
+"crop": [
+0,
+0,
+1,
+0.6
+]
+},
+"z_13-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_13-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.62,
+0.6
+],
+"note": "replacement; dome on far hill cropped",
+"crop": [
+0.3,
+0.22,
+1,
+1
+]
+},
+"z_13-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.6
+],
+"note": ""
+},
+"z_13-04-1a": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_13-04-1b": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_13-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_13-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_13-06-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.3
+],
+"note": ""
+},
+"z_14-00-1": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_14-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.35
+],
+"note": ""
+},
+"z_14-01-1": {
+"status": "REJECTED",
+"note": "Viking-style boat"
+},
+"z_14-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.3,
+0.75
+],
+"note": "pointed arch gate cropped out",
+"crop": [
+0,
+0.42,
+0.66,
+1
+]
+},
+"z_14-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_14-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": ""
+},
+"z_14-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_14-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": ""
+},
+"z_14-04-1": {
+"status": "REJECTED",
+"note": "modern pier and schooner"
+},
+"z_14-04-2": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": "glass lantern cropped out",
+"crop": [
+0,
+0.05,
+0.76,
+1
+]
+},
+"z_14-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_14-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": ""
+},
+"z_14-05-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.4
+],
+"note": ""
+},
+"z_15-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": "replacement"
+},
+"z_15-01-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "castle-like wall top cropped",
+"crop": [
+0,
+0.35,
+1,
+1
+]
+},
+"z_15-01-1": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_15-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_15-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.35
+],
+"note": ""
+},
+"z_15-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": ""
+},
+"z_15-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.35
+],
+"note": ""
+},
+"z_15-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.6
+],
+"note": "modern-looking town cropped",
+"crop": [
+0,
+0.4,
+1,
+1
+]
+},
+"z_15-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": ""
+},
+"z_15-05-1": {
+"status": "REJECTED",
+"note": "modern-looking harbour town"
+},
+"z_15-07-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "medieval wall top cropped",
+"crop": [
+0,
+0.5,
+1,
+1
+]
+},
+"z_15-07-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.45
+],
+"note": ""
+},
+"z_15-07-2": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.5
+],
+"note": ""
+},
+"z_16-00-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_16-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": ""
+},
+"z_16-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.35,
+0.45
+],
+"note": ""
+},
+"z_16-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": "replacement"
+},
+"z_16-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": ""
+},
+"z_16-02-2a": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "replacement, castle-like top cropped"
+},
+"z_16-03-0": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.5
+],
+"note": "medieval tower cropped",
+"crop": [
+0.18,
+0,
+1,
+1
+]
+},
+"z_16-03-1": {
+"status": "REJECTED",
+"note": "Greek temple like the Parthenon: misleading for Carthage"
+},
+"z_16-04-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.4
+],
+"note": ""
+},
+"z_16-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.3
+],
+"note": ""
+},
+"z_16-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": "replacement"
+},
+"z_16-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.3
+],
+"note": ""
+},
+"z_17-00-0": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": ""
+},
+"z_17-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.45
+],
+"note": ""
+},
+"z_17-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": "Roman Carthage, 2nd century AD"
+},
+"z_17-05-1": {
+"status": "REJECTED",
+"note": "AI pseudo-writing"
+},
+"z_17-06-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.6
+],
+"note": ""
+},
+"z_02-06-2": {
+"status": "REJECTED",
+"note": "AI pseudo-writing"
+},
+"z_03-01-3": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": ""
+},
+"z_03-01-2": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_03-01-1": {
+"status": "REJECTED",
+"note": "Viking-style hull"
+},
+"z_03-04-3": {
+"status": "REJECTED",
+"note": "Viking-style hull"
+},
+"z_15-06-1": {
+"status": "REJECTED",
+"note": "Viking-style ships"
+},
+"z_12-00-2": {
+"status": "REJECTED",
+"note": "paper codex: anachronism"
+},
+"00-04-2": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"01-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"01-02-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.45
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"01-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"01-04-2": {
+"status": "REJECTED",
+"note": "view from the hill, not of the Byrsa itself"
+},
+"01-05-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"02-00-3": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"02-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"02-01-3": {
+"status": "REJECTED",
+"note": "location cannot be verified from the file"
+},
+"02-03-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.4
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"02-04-2": {
+"status": "REJECTED",
+"note": "unclear subject: a vault, not identifiable as the tophet urns"
+},
+"03-05-1": {
+"status": "VERIFIED",
+"focus": [
+0.55,
+0.5
+],
+"note": "view from Erice (Eryx), Sicily"
+},
+"03-06-2": {
+"status": "VERIFIED",
+"focus": [
+0.4,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"04-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.45
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"04-05-3": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"05-00-0b": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.3
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"05-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"06-01-2": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.4
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"06-03-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"08-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.55
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"09-02-1": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.45
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"09-04-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image",
+"crop": [
+0,
+0,
+1,
+0.93
+]
+},
+"09-07-1": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"10-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.45,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image",
+"crop": [
+0.02,
+0.05,
+0.98,
+0.9
+]
+},
+"10-04-2": {
+"status": "REJECTED",
+"note": "a modern medal, not an ancient coin"
+},
+"12-01-1": {
+"status": "VERIFIED",
+"focus": [
+0.6,
+0.4
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"13-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.5
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"16-02-0": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+},
+"17-00-2": {
+"status": "VERIFIED",
+"focus": [
+0.5,
+0.6
+],
+"note": "real photograph/artwork, Wikimedia Commons; subject checked against title and image"
+}
+}

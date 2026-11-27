@@ -29,7 +29,7 @@ At a signal, Hannibal's men charged down out of the fog from every direction. Th
 > STAT | static | stat | steel | | 15,000 :: Romans killed at Lake Trasimene, according to Polybius
 
 In Rome, a magistrate stood up before the crowd in the Forum and announced simply: We have been defeated in a great battle. The Senate turned to an old aristocrat, Quintus Fabius Maximus, and made him dictator. Fabius had a new idea. He would not fight Hannibal at all.
-> QUOTE | static | quote | steel | | "We have been defeated in a great battle." ~ Roman praetor to the people, 217 BC, as told by Livy
+> QUOTE | static | quote | steel | | "We have been defeated in a great battle." ~ Roman praetor to the people, 217 BC, Livy 22.7 (translated)
 > WS | slow push | still | gold | @romans,@rome | A crowd of anxious Romans packed into an ancient forum of terracotta temples, listening in silence to a magistrate on a platform
 > CU | slow push | still | candle | @fabius | An old calm Roman senator in a white toga with a purple border, thoughtful, by lamplight {LT: Quintus Fabius Maximus | dictator, 217 BC}
 

@@ -22,9 +22,9 @@ On the seventh day, the people on the Byrsa sent envoys down to ask that those w
 Then Hasdrubal broke. He slipped out alone, carrying an olive branch, and threw himself at Scipio's feet. Scipio had him displayed to the deserters on the temple roof. And on the roof, in front of everyone, Hasdrubal's wife appeared, in her finest clothes, holding her two sons. Polybius, who was there, records that she called out to her husband as a traitor and a coward. Then she killed her children, threw them into the burning temple, and followed them into the flames.
 > MS | slow push | still | fire | @hasdrubal146,@aemilianus | A heavy-set bearded Carthaginian general kneeling with an olive branch at the feet of a Roman general in a red cloak, soldiers all around, fire behind
 > WS | slow push | vid | fire | @carthaginians | A Carthaginian noblewoman in rich robes standing on the roof of a burning temple at dusk, holding the hands of two young boys, defiant
-> QUOTE | static | quote | fire | | "Wretch, traitor, most unmanly of men." ~ Hasdrubal's wife, as told by Polybius and Appian
+> QUOTE | static | quote | fire | | "Wretch, traitor, most unmanly of men." ~ Hasdrubal's wife, Polybius 38.20 (translated)
 
 Later writers said Carthage burned for seventeen days. As Scipio watched, Polybius saw him weep. He was thinking, he said, of how cities and empires rise and fall, as Troy had fallen, and Assyria, and Persia, and Macedon. Then he quoted the lines of Homer in which a Trojan hero foresees the fall of his own city. When Polybius asked what he meant, Scipio took him by the hand. He feared, he said, that one day someone would say the same about Rome.
 > EWS | aerial | still | fire | @carthage | A vast ancient city burning from end to end at night, the whole sky lit orange, smoke drifting over the sea
 > MS | slow push | still | fire | @aemilianus,@polybius | A Roman general gripping the hand of a grey-bearded Greek man on a hilltop at night, a burning city below, both faces lit by fire
-> QUOTE | static | quote | fire | | "A day will come when sacred Troy shall perish, and Priam, and the people of Priam." ~ Homer, Iliad 6, quoted by Scipio at Carthage
+> QUOTE | static | quote | fire | | "A day will come when sacred Troy shall perish, and Priam, and the people of Priam." ~ Homer, Iliad 6.448, quoted by Scipio at Carthage (translated)

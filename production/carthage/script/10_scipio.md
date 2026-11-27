@@ -30,4 +30,4 @@ In the spring of 203, Scipio struck by night. The enemy armies of Carthage and i
 
 Carthage did what Scipio had expected. It called Hannibal home. In the autumn of 203 BC, after fifteen years in Italy, he sailed for Africa. Livy says that few exiles ever left their own country as sadly as Hannibal left the country of his enemies.
 > WS | slow pan | still | dawn | @hannibal,@ships | A commander with a patched eye standing at the stern of a galley at dawn, looking back at the coast of Italy disappearing into the mist
-> QUOTE | static | quote | dawn | | "Few exiles have left their own country as sadly as Hannibal left the land of his enemies." ~ Livy, book 30
+> QUOTE | static | quote | dawn | | "Rarely, they say, has any exile left his own country as sadly as Hannibal left the land of his enemies." ~ Livy 30.20 (translated)

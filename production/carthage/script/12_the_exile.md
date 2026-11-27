@@ -27,8 +27,8 @@ Hannibal served Antiochus as an adviser and admiral, but the king ignored most o
 Around 183 BC, the Romans sent an envoy to demand that Prusias surrender him. Soldiers surrounded Hannibal's house. He had long kept poison ready, and now he took it. Livy gives his last words. Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man. He was about sixty-four.
 > WS | slow push | still | night | @legion | Armed soldiers surrounding a house at night with torches, guarding every door and gate
 > CU | focus | still | candle | @hannibal | An old grey-bearded man with one scarred eye sitting alone in a dim room holding a small cup, calm, lamplight
-> QUOTE | static | quote | candle | | "Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man." ~ Hannibal's last words, as told by Livy
+> QUOTE | static | quote | candle | | "Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man." ~ Hannibal's last words, Livy 39.51 (translated)
 
 In about the same year, Scipio Africanus died too, bitter and out of favour, at his country estate. It was said that he asked to be buried there, not in Rome. The two great enemies left the stage together. But the story of Carthage was not over.
 > WS | slow pan | still | ash | @scipio | An old Roman general sitting alone in a quiet villa garden by the sea at dusk, gazing at the water
-> TL | static | timeline | map | | 202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Hannibal flees ; 191 BC: Carthage offers to pay ; 183 BC: Death of Hannibal and Scipio*
+> TL | static | timeline | map | | 202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Hannibal flees ; 191 BC: Carthage offers to pay ; c. 183 BC: Deaths of Hannibal and Scipio*

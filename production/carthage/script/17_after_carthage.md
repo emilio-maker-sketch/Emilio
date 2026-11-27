@@ -13,7 +13,7 @@ The curse did not last long. A generation later, the reformer Gaius Gracchus tri
 > EWS | aerial | still | gold | | A grand Roman city on the North African coast in the 2nd century AD, a huge bath complex beside the sea, a theatre and colonnaded streets on a hill
 > WS | slow pan | photo | neutral | | Antonine Baths of Carthage [q: Antonine Baths Carthage]
 > SPLIT | static | split | neutral | | Punic Carthage, destroyed 146 BC [q: Punic Carthage ruins Byrsa] || Roman Carthage, rebuilt from about 29 BC [q: Antonine Baths columns Carthage]
-> TL | static | timeline | map | | 146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; 29 BC: Roman Carthage refounded* ; AD 439: Vandals ; AD 698: Arab conquest
+> TL | static | timeline | map | | 146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; c. 29 BC: Roman Carthage refounded* ; AD 439: Vandals ; AD 698: Arab conquest
 
 The Phoenician language, Punic, lived on too. It was still spoken in the countryside of North Africa six hundred years after the fall, in the time of Augustine. Carthage itself passed to the Vandals, then the Byzantines, and was finally abandoned after the Arab conquest at the end of the seventh century, its stones carried off for centuries to build Tunis and other cities.
 > CU | scan | photo | neutral | | Neo-Punic inscription [q: Neo-Punic inscription]
@@ -29,7 +29,7 @@ We know Carthage almost entirely through the eyes of its enemies: Polybius, the 
 > CU | slow push | still | candle | | A charred fragment of an ancient scroll with Phoenician letters, lying in ash, lamplight
 
 Cato died in 149 BC, before he could see the war he had demanded won. Scipio Aemilianus, who had wept for Rome as he burned Carthage, was found dead in his bed twenty years later, during the political violence that would eventually tear the Roman Republic apart. And Hannibal, who never captured Rome, became more famous than almost any Roman of his age. Generals have studied his campaigns ever since.
-> TL | static | timeline | map | | 149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 129 BC: Death of Scipio Aemilianus* ; 133–30 BC: Rome's civil wars
+> TL | static | timeline | map | | 149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 133 BC: Tiberius Gracchus killed in Rome ; 129 BC: Death of Scipio Aemilianus*
 > WS | slow pan | still | snow | @hannibal,@elephants | A lone commander on horseback beside an elephant on a snowy mountain ridge at sunset, looking out over endless peaks
 
 For generations, Romans used the words Hannibal at the gates to mean mortal danger. They never forgot that, for fifteen years, one man from a city they destroyed had held Rome itself in the balance. Carthage had been the New City. Rome made sure it would also be the last city of its kind. And Scipio's fear, at least, came true. Six centuries later, Rome itself would be sacked, and its empire in the west would fall.

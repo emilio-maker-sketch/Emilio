@@ -52,10 +52,10 @@
   "grade": "fire",
   "refs": [],
   "crop": [
-   0.25,
-   0.15,
-   0.75,
-   0.6
+   0.2,
+   0.5,
+   0.8,
+   0.98
   ],
   "parent": "00-00-2",
   "desc": "the plank and the soldiers' feet"
@@ -83,20 +83,6 @@
   "grade": "ash",
   "refs": [],
   "desc": "A bronze Roman helmet with a broken feather crest lying in ash and rubble, firelight"
- },
- {
-  "id": "00-01-2",
-  "chapter": "00_cold_open",
-  "para": 1,
-  "idx": 2,
-  "kind": "quote",
-  "size": "QUOTE",
-  "move": "static",
-  "grade": "fire",
-  "refs": [],
-  "quote": "Men were trampled in every direction, some by horses, others by men.",
-  "attrib": "Appian, Punic Wars (paraphrased)",
-  "desc": "\"Men were trampled in every direction, some by horses, others by men.\" ~ Appian, Punic Wars (paraphrased)"
  },
  {
   "id": "00-02-0",
@@ -466,8 +452,8 @@
   "grade": "candle",
   "refs": [],
   "quote": "Let there be no love between our peoples, and no treaty.",
-  "attrib": "Dido's curse, Virgil, Aeneid, book 4",
-  "desc": "\"Let there be no love between our peoples, and no treaty.\" ~ Dido's curse, Virgil, Aeneid, book 4"
+  "attrib": "Dido's curse, Virgil, Aeneid 4.624 (translated)",
+  "desc": "\"Let there be no love between our peoples, and no treaty.\" ~ Dido's curse, Virgil, Aeneid 4.624 (translated)"
  },
  {
   "id": "01-06-0",
@@ -693,9 +679,9 @@
   "move": "static",
   "grade": "neutral",
   "refs": [],
-  "quote": "Many of the Carthaginian institutions are excellent.",
-  "attrib": "Aristotle, Politics, book 2",
-  "desc": "\"Many of the Carthaginian institutions are excellent.\" ~ Aristotle, Politics, book 2"
+  "quote": "The Carthaginians are also considered to have an excellent form of government.",
+  "attrib": "Aristotle, Politics 2.11 (translated)",
+  "desc": "\"The Carthaginians are also considered to have an excellent form of government.\" ~ Aristotle, Politics 2.11 (translated)"
  },
  {
   "id": "02-04-0",
@@ -789,6 +775,19 @@
   "chapter": "02_queen_of_the_sea",
   "para": 6,
   "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Olympias trireme",
+  "desc": "Olympias, a full-size reconstruction of an ancient Greek trireme"
+ },
+ {
+  "id": "02-06-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 6,
+  "idx": 2,
   "kind": "still",
   "size": "CU",
   "move": "scan",
@@ -797,10 +796,10 @@
   "desc": "A bronze treaty tablet with Phoenician and Latin letters on a temple wall, lamplight"
  },
  {
-  "id": "02-06-2",
+  "id": "02-06-3",
   "chapter": "02_queen_of_the_sea",
   "para": 6,
-  "idx": 2,
+  "idx": 3,
   "kind": "timeline",
   "size": "TL",
   "move": "static",
@@ -851,6 +850,19 @@
   "chapter": "03_the_first_war",
   "para": 1,
   "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Marsala Punic ship museum",
+  "desc": "Remains of the Punic warship of Marsala, Sicily"
+ },
+ {
+  "id": "03-01-1",
+  "chapter": "03_the_first_war",
+  "para": 1,
+  "idx": 1,
   "kind": "still",
   "size": "WS",
   "move": "slow push",
@@ -861,10 +873,10 @@
   "desc": "A wrecked ancient war galley lying on its side on a beach, Roman carpenters measuring its timbers and sketching on wax tablets"
  },
  {
-  "id": "03-01-1",
+  "id": "03-01-2",
   "chapter": "03_the_first_war",
   "para": 1,
-  "idx": 1,
+  "idx": 2,
   "kind": "still",
   "size": "EWS",
   "move": "crane-up",
@@ -875,10 +887,10 @@
   "desc": "A vast Roman shipyard on a beach, dozens of half-built war galleys on wooden slipways, hundreds of workers with timber"
  },
  {
-  "id": "03-01-2",
+  "id": "03-01-3",
   "chapter": "03_the_first_war",
   "para": 1,
-  "idx": 2,
+  "idx": 3,
   "kind": "still",
   "size": "MS",
   "move": "handheld",
@@ -889,10 +901,10 @@
   "desc": "Rows of Roman oarsmen practising rowing on wooden benches set up on a sandy beach, an officer calling the time"
  },
  {
-  "id": "03-01-3",
+  "id": "03-01-4",
   "chapter": "03_the_first_war",
   "para": 1,
-  "idx": 3,
+  "idx": 4,
   "kind": "stat",
   "size": "STAT",
   "move": "static",
@@ -999,6 +1011,19 @@
   "chapter": "03_the_first_war",
   "para": 4,
   "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "track",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Olympias trireme rowing",
+  "desc": "The reconstructed trireme Olympias under oar"
+ },
+ {
+  "id": "03-04-2",
+  "chapter": "03_the_first_war",
+  "para": 4,
+  "idx": 2,
   "kind": "stat",
   "size": "STAT",
   "move": "static",
@@ -1007,10 +1032,10 @@
   "desc": "364 ships · 80 survived :: the storm off Camarina, 255 BC"
  },
  {
-  "id": "03-04-2",
+  "id": "03-04-3",
   "chapter": "03_the_first_war",
   "para": 4,
-  "idx": 2,
+  "idx": 3,
   "kind": "still",
   "size": "WS",
   "move": "slow pan",
@@ -1318,9 +1343,9 @@
   "move": "static",
   "grade": "candle",
   "refs": [],
-  "quote": "My father made me swear that I would never be a friend to the Romans.",
-  "attrib": "Hannibal to King Antiochus, as told by Polybius",
-  "desc": "\"My father made me swear that I would never be a friend to the Romans.\" ~ Hannibal to King Antiochus, as told by Polybius"
+  "quote": "He bade me lay my hand on the victim and swear never to be the friend of the Romans.",
+  "attrib": "Hannibal to King Antiochus, Polybius 3.11 (translated)",
+  "desc": "\"He bade me lay my hand on the victim and swear never to be the friend of the Romans.\" ~ Hannibal to King Antiochus, Polybius 3.11 (translated)"
  },
  {
   "id": "04-04-1",
@@ -1503,9 +1528,9 @@
   "move": "static",
   "grade": "night",
   "refs": [],
-  "quote": "He was the first to enter battle and the last to leave it.",
-  "attrib": "Livy, History of Rome, book 21",
-  "desc": "\"He was the first to enter battle and the last to leave it.\" ~ Livy, History of Rome, book 21"
+  "quote": "He was the first into battle and the last to leave it.",
+  "attrib": "Livy 21.4 (translated)",
+  "desc": "\"He was the first into battle and the last to leave it.\" ~ Livy 21.4 (translated)"
  },
  {
   "id": "05-01-2",
@@ -1532,9 +1557,9 @@
   "move": "static",
   "grade": "candle",
   "refs": [],
-  "quote": "Inhuman cruelty, a treachery worse than Punic.",
-  "attrib": "Livy on Hannibal, book 21",
-  "desc": "\"Inhuman cruelty, a treachery worse than Punic.\" ~ Livy on Hannibal, book 21"
+  "quote": "Inhuman cruelty, more than Punic treachery.",
+  "attrib": "Livy 21.4 (translated)",
+  "desc": "\"Inhuman cruelty, more than Punic treachery.\" ~ Livy 21.4 (translated)"
  },
  {
   "id": "05-02-1",
@@ -1639,9 +1664,9 @@
   "move": "static",
   "grade": "candle",
   "refs": [],
-  "quote": "Here we bring you peace and war. Choose which you please.",
-  "attrib": "Roman envoy at Carthage, 218 BC, as told by Livy",
-  "desc": "\"Here we bring you peace and war. Choose which you please.\" ~ Roman envoy at Carthage, 218 BC, as told by Livy"
+  "quote": "Here we bring you war and peace. Take whichever you please.",
+  "attrib": "Roman envoy at Carthage, 218 BC, Livy 21.18 (translated)",
+  "desc": "\"Here we bring you war and peace. Take whichever you please.\" ~ Roman envoy at Carthage, 218 BC, Livy 21.18 (translated)"
  },
  {
   "id": "05-05-0",
@@ -1680,9 +1705,9 @@
   "grade": "candle",
   "refs": [],
   "crop": [
-   0.35,
+   0.2,
    0.45,
-   0.85,
+   0.75,
    0.95
   ],
   "parent": "05-05-1",
@@ -2181,8 +2206,8 @@
   "grade": "steel",
   "refs": [],
   "quote": "We have been defeated in a great battle.",
-  "attrib": "Roman praetor to the people, 217 BC, as told by Livy",
-  "desc": "\"We have been defeated in a great battle.\" ~ Roman praetor to the people, 217 BC, as told by Livy"
+  "attrib": "Roman praetor to the people, 217 BC, Livy 22.7 (translated)",
+  "desc": "\"We have been defeated in a great battle.\" ~ Roman praetor to the people, 217 BC, Livy 22.7 (translated)"
  },
  {
   "id": "07-06-1",
@@ -2532,20 +2557,6 @@
   "desc": "the heap of gold rings"
  },
  {
-  "id": "08-06-2",
-  "chapter": "08_cannae",
-  "para": 6,
-  "idx": 2,
-  "kind": "quote",
-  "size": "QUOTE",
-  "move": "static",
-  "grade": "candle",
-  "refs": [],
-  "quote": "They were measured not by number, but by the bushel.",
-  "attrib": "Livy on the rings of Cannae, book 23",
-  "desc": "\"They were measured not by number, but by the bushel.\" ~ Livy on the rings of Cannae, book 23"
- },
- {
   "id": "09-00-0",
   "chapter": "09_the_long_war",
   "para": 0,
@@ -2570,8 +2581,8 @@
   "grade": "night",
   "refs": [],
   "quote": "You know how to win a victory, Hannibal. You do not know how to use one.",
-  "attrib": "Maharbal, as told by Livy",
-  "desc": "\"You know how to win a victory, Hannibal. You do not know how to use one.\" ~ Maharbal, as told by Livy"
+  "attrib": "Maharbal, Livy 22.51 (translated)",
+  "desc": "\"You know how to win a victory, Hannibal. You do not know how to use one.\" ~ Maharbal, Livy 22.51 (translated)"
  },
  {
   "id": "09-01-0",
@@ -2663,8 +2674,8 @@
   "grade": "ash",
   "refs": [],
   "quote": "A rite hardly Roman at all.",
-  "attrib": "Livy on the human sacrifice in Rome after Cannae, book 22",
-  "desc": "\"A rite hardly Roman at all.\" ~ Livy on the human sacrifice in Rome after Cannae, book 22"
+  "attrib": "Livy 22.57, on the sacrifice in Rome after Cannae (translated)",
+  "desc": "\"A rite hardly Roman at all.\" ~ Livy 22.57, on the sacrifice in Rome after Cannae (translated)"
  },
  {
   "id": "09-04-0",
@@ -3046,9 +3057,9 @@
   "move": "static",
   "grade": "dawn",
   "refs": [],
-  "quote": "Few exiles have left their own country as sadly as Hannibal left the land of his enemies.",
-  "attrib": "Livy, book 30",
-  "desc": "\"Few exiles have left their own country as sadly as Hannibal left the land of his enemies.\" ~ Livy, book 30"
+  "quote": "Rarely, they say, has any exile left his own country as sadly as Hannibal left the land of his enemies.",
+  "attrib": "Livy 30.20 (translated)",
+  "desc": "\"Rarely, they say, has any exile left his own country as sadly as Hannibal left the land of his enemies.\" ~ Livy 30.20 (translated)"
  },
  {
   "id": "11-00-0",
@@ -3094,10 +3105,10 @@
    },
    {
     "z": "11-00-2b",
-    "label": "Scipio, aged about 33"
+    "label": "Scipio, aged about 34"
    }
   ],
-  "desc": "Hannibal, aged about 45 {z: A Carthaginian commander of 45 with a greying short beard and a scarred blind eye, bronze cuirass, plain cloak, on horseback} || Scipio, aged about 33 {z: A Roman general of 33, clean-shaven and confident, bronze muscle cuirass, red cloak, on horseback}"
+  "desc": "Hannibal, aged about 45 {z: A Carthaginian commander of 45 with a greying short beard and a scarred blind eye, bronze cuirass, plain cloak, on horseback} || Scipio, aged about 34 {z: A Roman general of 33, clean-shaven and confident, bronze muscle cuirass, red cloak, on horseback}"
  },
  {
   "id": "11-01-0",
@@ -3523,8 +3534,8 @@
   "grade": "candle",
   "refs": [],
   "quote": "Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.",
-  "attrib": "Hannibal's last words, as told by Livy",
-  "desc": "\"Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.\" ~ Hannibal's last words, as told by Livy"
+  "attrib": "Hannibal's last words, Livy 39.51 (translated)",
+  "desc": "\"Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.\" ~ Hannibal's last words, Livy 39.51 (translated)"
  },
  {
   "id": "12-06-0",
@@ -3550,7 +3561,7 @@
   "move": "static",
   "grade": "map",
   "refs": [],
-  "desc": "202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Hannibal flees ; 191 BC: Carthage offers to pay ; 183 BC: Death of Hannibal and Scipio*"
+  "desc": "202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Hannibal flees ; 191 BC: Carthage offers to pay ; c. 183 BC: Deaths of Hannibal and Scipio*"
  },
  {
   "id": "13-00-0",
@@ -3696,9 +3707,9 @@
   "grade": "candle",
   "refs": [],
   "crop": [
-   0.3,
+   0.1,
    0.55,
-   0.7,
+   0.6,
    1.0
   ],
   "parent": "13-03-0",
@@ -3715,8 +3726,8 @@
   "grade": "candle",
   "refs": [],
   "quote": "The country where these grew is only three days' sail from Rome.",
-  "attrib": "Cato, as told by Plutarch",
-  "desc": "\"The country where these grew is only three days' sail from Rome.\" ~ Cato, as told by Plutarch"
+  "attrib": "Cato, Plutarch, Cato the Elder 27 (translated)",
+  "desc": "\"The country where these grew is only three days' sail from Rome.\" ~ Cato, Plutarch, Cato the Elder 27 (translated)"
  },
  {
   "id": "13-04-0",
@@ -3728,7 +3739,7 @@
   "move": "static",
   "grade": "map",
   "refs": [],
-  "desc": "CARTHAGO DELENDA EST · \"Carthage must be destroyed\""
+  "desc": "CARTHAGO DELENDA EST · \"Carthage must be destroyed\" · a later Latin summary of Cato's words"
  },
  {
   "id": "13-04-1",
@@ -4174,8 +4185,8 @@
   "grade": "candle",
   "refs": [],
   "quote": "He alone has understanding. The rest are flitting shadows.",
-  "attrib": "Cato, quoting Homer, on Scipio Aemilianus",
-  "desc": "\"He alone has understanding. The rest are flitting shadows.\" ~ Cato, quoting Homer, on Scipio Aemilianus"
+  "attrib": "Cato, quoting Homer, Plutarch, Cato the Elder 27 (translated)",
+  "desc": "\"He alone has understanding. The rest are flitting shadows.\" ~ Cato, quoting Homer, Plutarch, Cato the Elder 27 (translated)"
  },
  {
   "id": "15-03-0",
@@ -4290,6 +4301,19 @@
   "chapter": "15_the_siege",
   "para": 6,
   "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Praeneste relief bireme Vatican",
+  "desc": "Roman warship relief from Praeneste"
+ },
+ {
+  "id": "15-06-1",
+  "chapter": "15_the_siege",
+  "para": 6,
+  "idx": 1,
   "kind": "still",
   "size": "WS",
   "move": "handheld",
@@ -4536,8 +4560,8 @@
   "grade": "fire",
   "refs": [],
   "quote": "Wretch, traitor, most unmanly of men.",
-  "attrib": "Hasdrubal's wife, as told by Polybius and Appian",
-  "desc": "\"Wretch, traitor, most unmanly of men.\" ~ Hasdrubal's wife, as told by Polybius and Appian"
+  "attrib": "Hasdrubal's wife, Polybius 38.20 (translated)",
+  "desc": "\"Wretch, traitor, most unmanly of men.\" ~ Hasdrubal's wife, Polybius 38.20 (translated)"
  },
  {
   "id": "16-05-0",
@@ -4579,8 +4603,8 @@
   "grade": "fire",
   "refs": [],
   "quote": "A day will come when sacred Troy shall perish, and Priam, and the people of Priam.",
-  "attrib": "Homer, Iliad 6, quoted by Scipio at Carthage",
-  "desc": "\"A day will come when sacred Troy shall perish, and Priam, and the people of Priam.\" ~ Homer, Iliad 6, quoted by Scipio at Carthage"
+  "attrib": "Homer, Iliad 6.448, quoted by Scipio at Carthage (translated)",
+  "desc": "\"A day will come when sacred Troy shall perish, and Priam, and the people of Priam.\" ~ Homer, Iliad 6.448, quoted by Scipio at Carthage (translated)"
  },
  {
   "id": "17-00-0",
@@ -4702,7 +4726,7 @@
   "move": "static",
   "grade": "map",
   "refs": [],
-  "desc": "146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; 29 BC: Roman Carthage refounded* ; AD 439: Vandals ; AD 698: Arab conquest"
+  "desc": "146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; c. 29 BC: Roman Carthage refounded* ; AD 439: Vandals ; AD 698: Arab conquest"
  },
  {
   "id": "17-03-0",
@@ -4804,7 +4828,7 @@
   "move": "static",
   "grade": "map",
   "refs": [],
-  "desc": "149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 129 BC: Death of Scipio Aemilianus* ; 133–30 BC: Rome's civil wars"
+  "desc": "149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 133 BC: Tiberius Gracchus killed in Rome ; 129 BC: Death of Scipio Aemilianus*"
  },
  {
   "id": "17-06-1",

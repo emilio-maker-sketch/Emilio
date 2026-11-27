@@ -5,7 +5,7 @@ shots.json: one entry per shot line, with parsed fields:
   q (Commons query), lt (lower third), crop (detail shots), sides (split screens), stat/timeline text.
 build/zreq_all.json: [{id, prompt}] for every AI image needed (still, vid, split {z:} sides).
 """
-import os, re, json
+import os, re, json, sys
 from script_parse import chapters, load_bible, ROOT
 
 LT_RE = re.compile(r'\{LT:\s*([^|}]+)\|\s*([^}]+)\}')
@@ -61,6 +61,14 @@ def main():
                     zreq.append({'id': sid, 'prompt': zprompt(d, s['size'], s['refs'], s['grade'], B)})
                 if s['kind'] in ('still', 'vid', 'photo'): last_img = sid
                 shots.append(x)
+    # id stability: an edit that shifts shot ids would silently attach images to the wrong lines (QC rule)
+    im = os.path.join(ROOT, 'idmap.json')
+    if os.path.exists(im) and '--accept-ids' not in sys.argv:
+        old = json.load(open(im)); bad = [(k, old[k], x['desc'][:80]) for x in shots for k in [x['id']] if k in old and old[k] != x['desc'][:80]]
+        if bad:
+            for b in bad: print('ID SHIFT', b)
+            raise SystemExit('shot ids moved: rename assets and review.json entries, then rerun with --accept-ids')
+    json.dump({x['id']: x['desc'][:80] for x in shots}, open(im, 'w'), indent=0)
     json.dump(shots, open(os.path.join(ROOT, 'shots.json'), 'w'), indent=1, ensure_ascii=False)
     os.makedirs(os.path.join(ROOT, 'build'), exist_ok=True)
     json.dump(zreq, open(os.path.join(ROOT, 'build', 'zreq_all.json'), 'w'), indent=1, ensure_ascii=False)

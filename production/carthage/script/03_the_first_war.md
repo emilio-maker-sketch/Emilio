@@ -6,6 +6,7 @@ In 264 BC, a band of mercenaries who had seized the Sicilian city of Messana fou
 > TL | static | timeline | map | | 264 BC: First Punic War* ; 218 BC: Second Punic War ; 149 BC: Third Punic War ; 146 BC: Carthage destroyed
 
 Carthage was a naval power. Rome was not. The Romans had almost no warships, and none of the heavy galleys called quinqueremes that dominated the sea. According to Polybius, they found a Carthaginian quinquereme that had run aground, used it as a model, and built a hundred more in sixty days, training their oarsmen on benches set up on dry land while the ships were being finished.
+> WS | slow pan | photo | neutral | | Remains of the Punic warship of Marsala, Sicily [q: Marsala Punic ship museum]
 > WS | slow push | still | gold | @ships | A wrecked ancient war galley lying on its side on a beach, Roman carpenters measuring its timbers and sketching on wax tablets
 > EWS | crane-up | still | gold | @ships | A vast Roman shipyard on a beach, dozens of half-built war galleys on wooden slipways, hundreds of workers with timber
 > MS | handheld | still | gold | @legion | Rows of Roman oarsmen practising rowing on wooden benches set up on a sandy beach, an officer calling the time
@@ -23,6 +24,7 @@ The war dragged on for twenty-three years. In 256 BC, after one of the largest s
 
 Then the sea itself turned against Rome. In 255 BC, a Roman fleet ignored the warnings of its pilots and was caught by a storm off the south coast of Sicily. According to Polybius, of three hundred and sixty-four ships, only eighty survived. Tens of thousands of men drowned. Even so, the Romans simply built another fleet.
 > EWS | handheld | vid | steel | @ships | A fleet of ancient galleys being smashed against a rocky coast in a violent storm, huge waves, broken oars
+> WS | track | photo | neutral | | The reconstructed trireme Olympias under oar [q: Olympias trireme rowing]
 > STAT | static | stat | steel | | 364 ships · 80 survived :: the storm off Camarina, 255 BC
 > WS | slow pan | still | ash | | Wreckage of ancient galleys and oars washed up along a grey beach after a storm
 

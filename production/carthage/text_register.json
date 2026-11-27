@@ -1,0 +1,859 @@
+{
+ "50,000": {
+  "kind": "statistic",
+  "shot": "00-02-2",
+  "source": "Appian, Punic Wars 8.130: 50,000 men and women came out of the Byrsa"
+ },
+ "people came out of the citadel, according to Appian": {
+  "kind": "statistic",
+  "shot": "00-02-2",
+  "source": "Appian, Punic Wars 8.130: 50,000 men and women came out of the Byrsa"
+ },
+ "PHOENICIA": {
+  "kind": "map text",
+  "shot": "01-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "c. 900 BC": {
+  "kind": "map text",
+  "shot": "01-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Tyre": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Sidon": {
+  "kind": "map text",
+  "shot": "01-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Byblos": {
+  "kind": "map text",
+  "shot": "01-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "THE PHOENICIAN WEST": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "trading posts, 9th to 7th centuries BC": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Kition": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Motya": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Carthage": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Sardinia": {
+  "kind": "map text",
+  "shot": "01-01-1",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Gades": {
+  "kind": "map text",
+  "shot": "02-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "QART-HADASHT": {
+  "kind": "card",
+  "shot": "01-02-1",
+  "source": "Phoenician Qart-hadasht \"New City\"; Greek Karchedon; Latin Carthago (standard)"
+ },
+ "\"New City\"": {
+  "kind": "card",
+  "shot": "01-02-1",
+  "source": "Phoenician Qart-hadasht \"New City\"; Greek Karchedon; Latin Carthago (standard)"
+ },
+ "Karchedon": {
+  "kind": "card",
+  "shot": "01-02-1",
+  "source": "Phoenician Qart-hadasht \"New City\"; Greek Karchedon; Latin Carthago (standard)"
+ },
+ "Carthago": {
+  "kind": "card",
+  "shot": "01-02-1",
+  "source": "Phoenician Qart-hadasht \"New City\"; Greek Karchedon; Latin Carthago (standard)"
+ },
+ "Let there be no love between our peoples, and no treaty.": {
+  "kind": "quote",
+  "shot": "01-05-1",
+  "source": "Virgil, Aeneid 4.624 \"nullus amor populis nec foedera sunto\", translated"
+ },
+ "Dido's curse, Virgil, Aeneid 4.624 (translated)": {
+  "kind": "attribution",
+  "shot": "01-05-1",
+  "source": "Virgil, Aeneid 4.624 \"nullus amor populis nec foedera sunto\", translated"
+ },
+ "814 BC: Carthage founded (tradition)": {
+  "kind": "timeline",
+  "shot": "01-06-0",
+  "source": "traditional dates: Carthage 814 BC (Timaeus), Olympic Games 776 BC, Rome 753 BC (Varro), Republic 509 BC"
+ },
+ "776 BC: First Olympic Games": {
+  "kind": "timeline",
+  "shot": "01-06-0",
+  "source": "traditional dates: Carthage 814 BC (Timaeus), Olympic Games 776 BC, Rome 753 BC (Varro), Republic 509 BC"
+ },
+ "753 BC: Rome founded (tradition)": {
+  "kind": "timeline",
+  "shot": "01-06-0",
+  "source": "traditional dates: Carthage 814 BC (Timaeus), Olympic Games 776 BC, Rome 753 BC (Varro), Republic 509 BC"
+ },
+ "509 BC: Roman Republic": {
+  "kind": "timeline",
+  "shot": "01-06-0",
+  "source": "traditional dates: Carthage 814 BC (Timaeus), Olympic Games 776 BC, Rome 753 BC (Varro), Republic 509 BC"
+ },
+ "CARTHAGE AND ITS EMPIRE": {
+  "kind": "map text",
+  "shot": "02-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "c. 300 BC": {
+  "kind": "map text",
+  "shot": "02-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Rome": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Syracuse": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Carthaginian control, c. 300 BC": {
+  "kind": "map text",
+  "shot": "02-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "borders approximate": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "THE HARBOURS OF CARTHAGE": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "plan, after the excavations": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "merchant harbour": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "naval harbour": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "admiral's island": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "covered sheds for": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "about 220 warships": {
+  "kind": "map text",
+  "shot": "02-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "The Carthaginians are also considered to have an excellent form of government.": {
+  "kind": "quote",
+  "shot": "02-03-2",
+  "source": "Aristotle, Politics 2.11 (1272b), Jowett translation"
+ },
+ "Aristotle, Politics 2.11 (translated)": {
+  "kind": "attribution",
+  "shot": "02-03-2",
+  "source": "Aristotle, Politics 2.11 (1272b), Jowett translation"
+ },
+ "509 BC: First treaty with Rome": {
+  "kind": "timeline",
+  "shot": "02-06-3",
+  "source": "Polybius 3.22-25: treaties of 509, 348 and 279 BC; Himera 480 BC (Herodotus, Diodorus); war 264 BC"
+ },
+ "480 BC: Battle of Himera": {
+  "kind": "timeline",
+  "shot": "02-06-3",
+  "source": "Polybius 3.22-25: treaties of 509, 348 and 279 BC; Himera 480 BC (Herodotus, Diodorus); war 264 BC"
+ },
+ "348 BC: Second treaty": {
+  "kind": "timeline",
+  "shot": "02-06-3",
+  "source": "Polybius 3.22-25: treaties of 509, 348 and 279 BC; Himera 480 BC (Herodotus, Diodorus); war 264 BC"
+ },
+ "279 BC: Alliance against Pyrrhus": {
+  "kind": "timeline",
+  "shot": "02-06-3",
+  "source": "Polybius 3.22-25: treaties of 509, 348 and 279 BC; Himera 480 BC (Herodotus, Diodorus); war 264 BC"
+ },
+ "264 BC: War": {
+  "kind": "timeline",
+  "shot": "02-06-3",
+  "source": "Polybius 3.22-25: treaties of 509, 348 and 279 BC; Himera 480 BC (Herodotus, Diodorus); war 264 BC"
+ },
+ "SICILY, 264 BC": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Messana": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Rome and its allies": {
+  "kind": "map text",
+  "shot": "03-00-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "264 BC: First Punic War": {
+  "kind": "timeline",
+  "shot": "03-00-2",
+  "source": "standard dates of the three Punic Wars"
+ },
+ "218 BC: Second Punic War": {
+  "kind": "timeline",
+  "shot": "03-00-2",
+  "source": "standard dates of the three Punic Wars"
+ },
+ "149 BC: Third Punic War": {
+  "kind": "timeline",
+  "shot": "03-00-2",
+  "source": "standard dates of the three Punic Wars"
+ },
+ "146 BC: Carthage destroyed": {
+  "kind": "timeline",
+  "shot": "17-02-3",
+  "source": "146 BC; Gaius Gracchus's colony Junonia 122 BC; refoundation c. 29 BC; Vandals AD 439; Arab conquest AD 698"
+ },
+ "100 ships in 60 days": {
+  "kind": "statistic",
+  "shot": "03-01-4",
+  "source": "Polybius 1.20-21 (100 quinqueremes, 20 triremes, built in 60 days)"
+ },
+ "according to Polybius": {
+  "kind": "statistic",
+  "shot": "03-01-4",
+  "source": "Polybius 1.20-21 (100 quinqueremes, 20 triremes, built in 60 days)"
+ },
+ "THE CORVUS": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "the 'raven' boarding bridge, simplified": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Roman ship": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "Carthaginian ship": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "iron spike locks the decks together": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "bridge raised on a pole": {
+  "kind": "map text",
+  "shot": "03-02-0",
+  "source": "map/diagram: place names and dates checked against research.md and Natural Earth coordinates"
+ },
+ "364 ships · 80 survived": {
+  "kind": "statistic",
+  "shot": "03-04-2",
+  "source": "Polybius 1.37: of 364 ships only 80 survived, 255 BC, off Camarina"
+ },
+ "the storm off Camarina, 255 BC": {
+  "kind": "statistic",
+  "shot": "03-04-2",
+  "source": "Polybius 1.37: of 364 ships only 80 survived, 255 BC, off Camarina"
+ },
+ "Hamilcar Barca | Carthaginian general": {
+  "kind": "lower third",
+  "shot": "03-05-0",
+  "source": "Hamilcar Barca, Carthaginian general (Polybius 1.56)"
+ },
+ "3,200 talents": {
+  "kind": "statistic",
+  "shot": "03-07-1",
+  "source": "Polybius 1.63: 3,200 talents over 10 years; Attic talent about 26 kg"
+ },
+ "of silver, about 80 tonnes, over 10 years": {
+  "kind": "statistic",
+  "shot": "03-07-1",
+  "source": "Polybius 1.63: 3,200 talents over 10 years; Attic talent about 26 kg"
+ },
+ "The Truceless War.": {
+  "kind": "quote",
+  "shot": "04-01-0",
+  "source": "Polybius 1.65: the war \"known as the truceless war\""
+ },
+ "Polybius's name for the Mercenary War, 241–237 BC": {
+  "kind": "attribution",
+  "shot": "04-01-0",
+  "source": "Polybius 1.65: the war \"known as the truceless war\""
+ },
+ "1,200 talents": {
+  "kind": "statistic",
+  "shot": "04-02-2",
+  "source": "Polybius 1.88, 3.10: 1,200 further talents"
+ },
+ "demanded on top of the first indemnity": {
+  "kind": "statistic",
+  "shot": "04-02-2",
+  "source": "Polybius 1.88, 3.10: 1,200 further talents"
+ },
+ "He bade me lay my hand on the victim and swear never to be the friend of the Romans.": {
+  "kind": "quote",
+  "shot": "04-04-0",
+  "source": "Polybius 3.11, Hannibal to Antiochus, translated (Paton)"
+ },
+ "Hannibal to King Antiochus, Polybius 3.11 (translated)": {
+  "kind": "attribution",
+  "shot": "04-04-0",
+  "source": "Polybius 3.11, Hannibal to Antiochus, translated (Paton)"
+ },
+ "Hannibal Barca | Carthaginian commander, aged 26": {
+  "kind": "lower third",
+  "shot": "04-06-2",
+  "source": "Hannibal born 247 BC, commander 221 BC (Polybius 2.36, 3.13)"
+ },
+ "He was the first into battle and the last to leave it.": {
+  "kind": "quote",
+  "shot": "05-01-1",
+  "source": "Livy 21.4 \"princeps in proelium ibat, ultimus conserto proelio excedebat\", translated; spoken identically"
+ },
+ "Livy 21.4 (translated)": {
+  "kind": "attribution",
+  "shot": "05-02-0",
+  "source": "Livy 21.4 \"inhumana crudelitas, perfidia plus quam Punica\", translated; spoken identically"
+ },
+ "Inhuman cruelty, more than Punic treachery.": {
+  "kind": "quote",
+  "shot": "05-02-0",
+  "source": "Livy 21.4 \"inhumana crudelitas, perfidia plus quam Punica\", translated; spoken identically"
+ },
+ "Here we bring you war and peace. Take whichever you please.": {
+  "kind": "quote",
+  "shot": "05-04-2",
+  "source": "Livy 21.18 \"hic vobis bellum et pacem portamus; utrum placet sumite\", translated; spoken identically"
+ },
+ "Roman envoy at Carthage, 218 BC, Livy 21.18 (translated)": {
+  "kind": "attribution",
+  "shot": "05-04-2",
+  "source": "Livy 21.18 \"hic vobis bellum et pacem portamus; utrum placet sumite\", translated; spoken identically"
+ },
+ "90,000 infantry · 12,000 cavalry · 37 elephants": {
+  "kind": "statistic",
+  "shot": "06-00-2",
+  "source": "Polybius 3.35"
+ },
+ "Hannibal's army leaving Spain, according to Polybius": {
+  "kind": "statistic",
+  "shot": "06-00-2",
+  "source": "Polybius 3.35"
+ },
+ "15 days": {
+  "kind": "statistic",
+  "shot": "06-04-2",
+  "source": "Polybius 3.56: fifteen days crossing the Alps"
+ },
+ "to cross the Alps": {
+  "kind": "statistic",
+  "shot": "06-04-2",
+  "source": "Polybius 3.56: fifteen days crossing the Alps"
+ },
+ "20,000 infantry · 6,000 cavalry": {
+  "kind": "statistic",
+  "shot": "06-06-0",
+  "source": "Polybius 3.56, from Hannibal's inscription at Lacinium"
+ },
+ "arrived in Italy, from Hannibal's own inscription": {
+  "kind": "statistic",
+  "shot": "06-06-0",
+  "source": "Polybius 3.56, from Hannibal's inscription at Lacinium"
+ },
+ "15,000": {
+  "kind": "statistic",
+  "shot": "07-05-2",
+  "source": "Polybius 3.84: about 15,000 Romans killed in the valley"
+ },
+ "Romans killed at Lake Trasimene, according to Polybius": {
+  "kind": "statistic",
+  "shot": "07-05-2",
+  "source": "Polybius 3.84: about 15,000 Romans killed in the valley"
+ },
+ "We have been defeated in a great battle.": {
+  "kind": "quote",
+  "shot": "07-06-0",
+  "source": "Livy 22.7 \"pugna magna victi sumus\"; spoken identically"
+ },
+ "Roman praetor to the people, 217 BC, Livy 22.7 (translated)": {
+  "kind": "attribution",
+  "shot": "07-06-0",
+  "source": "Livy 22.7 \"pugna magna victi sumus\"; spoken identically"
+ },
+ "Quintus Fabius Maximus | dictator, 217 BC": {
+  "kind": "lower third",
+  "shot": "07-06-2",
+  "source": "Fabius Maximus named dictator 217 BC (Polybius 3.87, Livy 22.8)"
+ },
+ "80,000 infantry · 6,000 cavalry": {
+  "kind": "statistic",
+  "shot": "08-00-1",
+  "source": "Polybius 3.113: 80,000 infantry, a little over 6,000 cavalry"
+ },
+ "the Roman army at Cannae, according to Polybius": {
+  "kind": "statistic",
+  "shot": "08-00-1",
+  "source": "Polybius 3.113: 80,000 infantry, a little over 6,000 cavalry"
+ },
+ "Lucius Aemilius Paullus, the aristocrat": {
+  "kind": "split label",
+  "shot": "08-00-2",
+  "source": "the consuls of 216 BC (Polybius 3.106-110, Livy 22.35-40)"
+ },
+ "Gaius Terentius Varro, the popular politician": {
+  "kind": "split label",
+  "shot": "08-00-2",
+  "source": "the consuls of 216 BC (Polybius 3.106-110, Livy 22.35-40)"
+ },
+ "40,000 infantry · 10,000 cavalry": {
+  "kind": "statistic",
+  "shot": "08-01-2",
+  "source": "Polybius 3.114: about 40,000 infantry, 10,000 cavalry"
+ },
+ "Hannibal's army, outnumbered almost two to one": {
+  "kind": "statistic",
+  "shot": "08-01-2",
+  "source": "Polybius 3.114: about 40,000 infantry, 10,000 cavalry"
+ },
+ "48,000 to 70,000": {
+  "kind": "statistic",
+  "shot": "08-05-0",
+  "source": "Livy 22.49: 45,500 infantry and 2,700 cavalry killed; Polybius 3.117: 70,000"
+ },
+ "Roman dead at Cannae, in a single day": {
+  "kind": "statistic",
+  "shot": "08-05-0",
+  "source": "Livy 22.49: 45,500 infantry and 2,700 cavalry killed; Polybius 3.117: 70,000"
+ },
+ "You know how to win a victory, Hannibal. You do not know how to use one.": {
+  "kind": "quote",
+  "shot": "09-00-1",
+  "source": "Livy 22.51 \"vincere scis, Hannibal; victoria uti nescis\"; spoken identically"
+ },
+ "Maharbal, Livy 22.51 (translated)": {
+  "kind": "attribution",
+  "shot": "09-00-1",
+  "source": "Livy 22.51 \"vincere scis, Hannibal; victoria uti nescis\"; spoken identically"
+ },
+ "A rite hardly Roman at all.": {
+  "kind": "quote",
+  "shot": "09-03-2",
+  "source": "Livy 22.57 \"minime Romano sacro\""
+ },
+ "Livy 22.57, on the sacrifice in Rome after Cannae (translated)": {
+  "kind": "attribution",
+  "shot": "09-03-2",
+  "source": "Livy 22.57 \"minime Romano sacro\""
+ },
+ "Publius Cornelius Scipio | later called Africanus": {
+  "kind": "lower third",
+  "shot": "10-00-0",
+  "source": "Publius Cornelius Scipio, later Africanus"
+ },
+ "218 BC: Hannibal invades Italy": {
+  "kind": "timeline",
+  "shot": "11-06-1",
+  "source": "standard dates: 218, 216, 203, 202, 201 BC"
+ },
+ "216 BC: Cannae": {
+  "kind": "timeline",
+  "shot": "11-06-1",
+  "source": "standard dates: 218, 216, 203, 202, 201 BC"
+ },
+ "211 BC: The Scipio brothers killed in Spain": {
+  "kind": "timeline",
+  "shot": "10-00-2",
+  "source": "Polybius 10.6-15, Livy 25.36, 26.18-19: dates of 211, 210, 209 BC"
+ },
+ "210 BC: Young Scipio takes command": {
+  "kind": "timeline",
+  "shot": "10-00-2",
+  "source": "Polybius 10.6-15, Livy 25.36, 26.18-19: dates of 211, 210, 209 BC"
+ },
+ "209 BC: New Carthage": {
+  "kind": "timeline",
+  "shot": "10-00-2",
+  "source": "Polybius 10.6-15, Livy 25.36, 26.18-19: dates of 211, 210, 209 BC"
+ },
+ "Rarely, they say, has any exile left his own country as sadly as Hannibal left the land of his enemies.": {
+  "kind": "quote",
+  "shot": "10-06-1",
+  "source": "Livy 30.20, translated",
+  "narration": "reviewed"
+ },
+ "Livy 30.20 (translated)": {
+  "kind": "attribution",
+  "shot": "10-06-1",
+  "source": "Livy 30.20, translated"
+ },
+ "Hannibal, aged about 45": {
+  "kind": "split label",
+  "shot": "11-00-2",
+  "source": "Hannibal born 247 BC, Scipio born 236/235 BC"
+ },
+ "Scipio, aged about 34": {
+  "kind": "split label",
+  "shot": "11-00-2",
+  "source": "Hannibal born 247 BC, Scipio born 236/235 BC"
+ },
+ "20,000": {
+  "kind": "statistic",
+  "shot": "11-03-1",
+  "source": "Polybius 15.14"
+ },
+ "Carthaginians killed at Zama, according to Polybius": {
+  "kind": "statistic",
+  "shot": "11-03-1",
+  "source": "Polybius 15.14"
+ },
+ "10 ships · 10,000 talents · 50 years": {
+  "kind": "statistic",
+  "shot": "11-05-0",
+  "source": "Polybius 15.18: ten triremes, 10,000 talents over 50 years"
+ },
+ "the peace terms of 201 BC": {
+  "kind": "statistic",
+  "shot": "11-05-0",
+  "source": "Polybius 15.18: ten triremes, 10,000 talents over 50 years"
+ },
+ "203 BC: Hannibal recalled": {
+  "kind": "timeline",
+  "shot": "11-06-1",
+  "source": "standard dates: 218, 216, 203, 202, 201 BC"
+ },
+ "202 BC: Zama": {
+  "kind": "timeline",
+  "shot": "12-06-1",
+  "source": "Livy 33.46-49, 36.4, 39.51-52; Hannibal's death 183 or 181 BC"
+ },
+ "201 BC: Peace": {
+  "kind": "timeline",
+  "shot": "11-06-1",
+  "source": "standard dates: 218, 216, 203, 202, 201 BC"
+ },
+ "Hannibal | suffete of Carthage, 196 BC": {
+  "kind": "lower third",
+  "shot": "12-00-0",
+  "source": "Livy 33.46: Hannibal suffete, 196 BC"
+ },
+ "196 BC": {
+  "kind": "statistic",
+  "shot": "12-00-1",
+  "source": "Livy 33.46"
+ },
+ "Hannibal is elected suffete, one of the two chief magistrates of Carthage": {
+  "kind": "statistic",
+  "shot": "12-00-1",
+  "source": "Livy 33.46"
+ },
+ "191 BC": {
+  "kind": "statistic",
+  "shot": "12-02-2",
+  "source": "Livy 36.4: Carthage offered to pay the rest of the indemnity at once, 191 BC"
+ },
+ "Carthage offers to pay off forty years of indemnity at once. Rome refuses.": {
+  "kind": "statistic",
+  "shot": "12-02-2",
+  "source": "Livy 36.4: Carthage offered to pay the rest of the indemnity at once, 191 BC"
+ },
+ "Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.": {
+  "kind": "quote",
+  "shot": "12-05-2",
+  "source": "Livy 39.51, translated; spoken identically"
+ },
+ "Hannibal's last words, Livy 39.51 (translated)": {
+  "kind": "attribution",
+  "shot": "12-05-2",
+  "source": "Livy 39.51, translated; spoken identically"
+ },
+ "196 BC: Hannibal elected suffete": {
+  "kind": "timeline",
+  "shot": "12-06-1",
+  "source": "Livy 33.46-49, 36.4, 39.51-52; Hannibal's death 183 or 181 BC"
+ },
+ "195 BC: Hannibal flees": {
+  "kind": "timeline",
+  "shot": "12-06-1",
+  "source": "Livy 33.46-49, 36.4, 39.51-52; Hannibal's death 183 or 181 BC"
+ },
+ "191 BC: Carthage offers to pay": {
+  "kind": "timeline",
+  "shot": "12-06-1",
+  "source": "Livy 33.46-49, 36.4, 39.51-52; Hannibal's death 183 or 181 BC"
+ },
+ "c. 183 BC: Deaths of Hannibal and Scipio": {
+  "kind": "timeline",
+  "shot": "12-06-1",
+  "source": "Livy 33.46-49, 36.4, 39.51-52; Hannibal's death 183 or 181 BC"
+ },
+ "Masinissa | king of Numidia": {
+  "kind": "lower third",
+  "shot": "13-00-0",
+  "source": "Masinissa, king of Numidia (Polybius 36.16)"
+ },
+ "Marcus Porcius Cato | senator, aged about 80": {
+  "kind": "lower third",
+  "shot": "13-02-0",
+  "source": "Cato born 234 BC, embassy c. 153/152 BC"
+ },
+ "The country where these grew is only three days' sail from Rome.": {
+  "kind": "quote",
+  "shot": "13-03-2",
+  "source": "Plutarch, Cato the Elder 27, translated",
+  "narration": "reviewed"
+ },
+ "Cato, Plutarch, Cato the Elder 27 (translated)": {
+  "kind": "attribution",
+  "shot": "13-03-2",
+  "source": "Plutarch, Cato the Elder 27, translated"
+ },
+ "CARTHAGO DELENDA EST": {
+  "kind": "card",
+  "shot": "13-04-0",
+  "source": "Plutarch, Cato the Elder 27; the Latin wording is modern"
+ },
+ "\"Carthage must be destroyed\"": {
+  "kind": "card",
+  "shot": "13-04-0",
+  "source": "Plutarch, Cato the Elder 27; the Latin wording is modern"
+ },
+ "a later Latin summary of Cato's words": {
+  "kind": "card",
+  "shot": "13-04-0",
+  "source": "Plutarch, Cato the Elder 27; the Latin wording is modern"
+ },
+ "Cato: destroy Carthage": {
+  "kind": "split label",
+  "shot": "13-04-1",
+  "source": "Plutarch, Cato the Elder 27 (Scipio Nasica)"
+ },
+ "Scipio Nasica: let Carthage stand": {
+  "kind": "split label",
+  "shot": "13-04-1",
+  "source": "Plutarch, Cato the Elder 27 (Scipio Nasica)"
+ },
+ "Scipio Aemilianus | adopted grandson of Africanus": {
+  "kind": "lower third",
+  "shot": "13-05-1",
+  "source": "Scipio Aemilianus, son of Aemilius Paullus, adopted by the son of Africanus"
+ },
+ "The peace of 201 BC": {
+  "kind": "statistic",
+  "shot": "13-06-1",
+  "source": "Polybius 15.18"
+ },
+ "No war, even in Africa, without the permission of Rome": {
+  "kind": "statistic",
+  "shot": "13-06-1",
+  "source": "Polybius 15.18"
+ },
+ "80,000 infantry · 4,000 cavalry": {
+  "kind": "statistic",
+  "shot": "14-00-2",
+  "source": "Appian 8.75"
+ },
+ "the Roman army of 149 BC, according to Appian": {
+  "kind": "statistic",
+  "shot": "14-00-2",
+  "source": "Appian 8.75"
+ },
+ "300": {
+  "kind": "statistic",
+  "shot": "14-01-2",
+  "source": "Appian 8.77"
+ },
+ "children of the noblest families, sent to Sicily as hostages": {
+  "kind": "statistic",
+  "shot": "14-01-2",
+  "source": "Appian 8.77"
+ },
+ "200,000 sets of armour · 2,000 catapults": {
+  "kind": "statistic",
+  "shot": "14-02-2",
+  "source": "Appian 8.80"
+ },
+ "handed over to Rome, according to Appian": {
+  "kind": "statistic",
+  "shot": "14-02-2",
+  "source": "Appian 8.80"
+ },
+ "Hasdrubal | Carthaginian commander, 149–146 BC": {
+  "kind": "lower third",
+  "shot": "14-04-2",
+  "source": "Hasdrubal \"the boetharch\", commander 149-146 BC (Appian 8.93)"
+ },
+ "Every day: 100 shields · 300 swords · 1,000 bolts · 500 javelins": {
+  "kind": "statistic",
+  "shot": "14-05-3",
+  "source": "Appian 8.93"
+ },
+ "according to Appian": {
+  "kind": "statistic",
+  "shot": "14-05-3",
+  "source": "Appian 8.93"
+ },
+ "13 metres high": {
+  "kind": "statistic",
+  "shot": "15-00-2",
+  "source": "Appian 8.95: wall thirty cubits high (about 13 m)"
+ },
+ "the main landward wall of Carthage, according to Appian": {
+  "kind": "statistic",
+  "shot": "15-00-2",
+  "source": "Appian 8.95: wall thirty cubits high (about 13 m)"
+ },
+ "He alone has understanding. The rest are flitting shadows.": {
+  "kind": "quote",
+  "shot": "15-02-1",
+  "source": "Plutarch, Cato the Elder 27 quoting Odyssey 10.495, translated; spoken identically"
+ },
+ "Cato, quoting Homer, Plutarch, Cato the Elder 27 (translated)": {
+  "kind": "attribution",
+  "shot": "15-02-1",
+  "source": "Plutarch, Cato the Elder 27 quoting Odyssey 10.495, translated; spoken identically"
+ },
+ "149 BC: War declared": {
+  "kind": "timeline",
+  "shot": "15-03-2",
+  "source": "Appian 8.105-112: dates of 149, 148, 147, 146 BC"
+ },
+ "148 BC: Death of Masinissa": {
+  "kind": "timeline",
+  "shot": "15-03-2",
+  "source": "Appian 8.105-112: dates of 149, 148, 147, 146 BC"
+ },
+ "147 BC: Scipio Aemilianus consul": {
+  "kind": "timeline",
+  "shot": "15-03-2",
+  "source": "Appian 8.105-112: dates of 149, 148, 147, 146 BC"
+ },
+ "146 BC: Fall of Carthage": {
+  "kind": "timeline",
+  "shot": "17-06-0",
+  "source": "Cato died 149 BC; Tiberius Gracchus killed 133 BC; Scipio Aemilianus died 129 BC"
+ },
+ "Wretch, traitor, most unmanly of men.": {
+  "kind": "quote",
+  "shot": "16-04-2",
+  "source": "Polybius 38.20 (Appian 8.131), translated"
+ },
+ "Hasdrubal's wife, Polybius 38.20 (translated)": {
+  "kind": "attribution",
+  "shot": "16-04-2",
+  "source": "Polybius 38.20 (Appian 8.131), translated"
+ },
+ "A day will come when sacred Troy shall perish, and Priam, and the people of Priam.": {
+  "kind": "quote",
+  "shot": "16-05-2",
+  "source": "Homer, Iliad 6.448-449, quoted by Scipio (Polybius 38.22, Appian 8.132)"
+ },
+ "Homer, Iliad 6.448, quoted by Scipio at Carthage (translated)": {
+  "kind": "attribution",
+  "shot": "16-05-2",
+  "source": "Homer, Iliad 6.448-449, quoted by Scipio (Polybius 38.22, Appian 8.132)"
+ },
+ "MYTH": {
+  "kind": "card",
+  "shot": "17-01-0",
+  "source": "Ridley, Classical Philology 81 (1986): no ancient source; the story appears in the 20th century"
+ },
+ "The Romans sowed Carthage with salt": {
+  "kind": "card",
+  "shot": "17-01-0",
+  "source": "Ridley, Classical Philology 81 (1986): no ancient source; the story appears in the 20th century"
+ },
+ "No ancient source mentions it. The story appears in the 20th century.": {
+  "kind": "card",
+  "shot": "17-01-0",
+  "source": "Ridley, Classical Philology 81 (1986): no ancient source; the story appears in the 20th century"
+ },
+ "122 BC: Gracchus's colony": {
+  "kind": "timeline",
+  "shot": "17-02-3",
+  "source": "146 BC; Gaius Gracchus's colony Junonia 122 BC; refoundation c. 29 BC; Vandals AD 439; Arab conquest AD 698"
+ },
+ "c. 29 BC: Roman Carthage refounded": {
+  "kind": "timeline",
+  "shot": "17-02-3",
+  "source": "146 BC; Gaius Gracchus's colony Junonia 122 BC; refoundation c. 29 BC; Vandals AD 439; Arab conquest AD 698"
+ },
+ "AD 439: Vandals": {
+  "kind": "timeline",
+  "shot": "17-02-3",
+  "source": "146 BC; Gaius Gracchus's colony Junonia 122 BC; refoundation c. 29 BC; Vandals AD 439; Arab conquest AD 698"
+ },
+ "AD 698: Arab conquest": {
+  "kind": "timeline",
+  "shot": "17-02-3",
+  "source": "146 BC; Gaius Gracchus's colony Junonia 122 BC; refoundation c. 29 BC; Vandals AD 439; Arab conquest AD 698"
+ },
+ "149 BC: Death of Cato": {
+  "kind": "timeline",
+  "shot": "17-06-0",
+  "source": "Cato died 149 BC; Tiberius Gracchus killed 133 BC; Scipio Aemilianus died 129 BC"
+ },
+ "133 BC: Tiberius Gracchus killed in Rome": {
+  "kind": "timeline",
+  "shot": "17-06-0",
+  "source": "Cato died 149 BC; Tiberius Gracchus killed 133 BC; Scipio Aemilianus died 129 BC"
+ },
+ "129 BC: Death of Scipio Aemilianus": {
+  "kind": "timeline",
+  "shot": "17-06-0",
+  "source": "Cato died 149 BC; Tiberius Gracchus killed 133 BC; Scipio Aemilianus died 129 BC"
+ },
+ "end card (credits)": {
+  "kind": "card",
+  "shot": "17-07-2",
+  "source": "credits"
+ }
+}

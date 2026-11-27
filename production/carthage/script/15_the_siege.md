@@ -12,7 +12,7 @@ The first assaults failed. The consuls brought up two enormous battering rams an
 
 One officer kept distinguishing himself: the young military tribune Scipio Aemilianus. When others blundered, he saved them. Even Cato, in his last months of life, quoted Homer about him: he alone has understanding; the rest are flitting shadows. In 148 BC old Masinissa died, at around ninety, and Scipio was given the task of dividing his kingdom among his sons.
 > MS | handheld | still | steel | @aemilianus,@legion | A young Roman officer leading a rescue of trapped soldiers under attack at night, shouting orders, torches
-> QUOTE | static | quote | candle | | "He alone has understanding. The rest are flitting shadows." ~ Cato, quoting Homer, on Scipio Aemilianus
+> QUOTE | static | quote | candle | | "He alone has understanding. The rest are flitting shadows." ~ Cato, quoting Homer, Plutarch, Cato the Elder 27 (translated)
 
 In 147 BC, the Roman people elected Scipio Aemilianus consul, even though he was too young for the office and was only standing for a lower post. The law was set aside. He took command at Carthage, and with him, as his adviser and friend, came the Greek historian Polybius, who would see everything that followed with his own eyes.
 > WS | slow push | still | gold | @romans | A crowd of Roman citizens in a voting enclosure on the Campus Martius cheering, holding up tablets
@@ -29,6 +29,7 @@ The Carthaginians answered with a feat of their own. Working in secret, they dug
 > DIAGRAM | static | diagram | map | | channel
 
 But the surprise was wasted. Appian says that instead of attacking at once, the Carthaginian fleet sailed out, showed itself, and sailed back in. When it finally fought, three days later, the battle was indecisive, and on the way back into the harbour the Carthaginian ships jammed at the narrow entrance and were badly mauled.
+> WS | slow pan | photo | neutral | | Roman warship relief from Praeneste [q: Praeneste relief bireme Vatican]
 > WS | handheld | still | steel | @ships | Galleys jammed together in a narrow harbour entrance under attack from Roman ships, oars snapping, men falling into the sea
 
 Inside the city, Hasdrubal had taken control. To make sure no one in Carthage could hope for mercy, he had the Roman prisoners he held brought up onto the walls, in full view of their comrades, and tortured to death. Now there could be no turning back. Through the winter of 147, the Romans destroyed the last Carthaginian army in the countryside. In the city, people began to starve.

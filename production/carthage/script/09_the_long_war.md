@@ -2,7 +2,7 @@
 
 After Cannae, Hannibal's cavalry commander Maharbal urged him to march on Rome at once. Give me the cavalry, he said, and in five days you will dine on the Capitol. Hannibal refused. Livy says Maharbal turned on him. The gods have not given everything to one man. You know how to win a victory, Hannibal. You do not know how to use one.
 > MS | slow push | still | night | @hannibal | Two Carthaginian commanders arguing in a tent at night by lamplight, one pointing toward the north, the other with a cloth patch over one eye, unmoved
-> QUOTE | static | quote | night | | "You know how to win a victory, Hannibal. You do not know how to use one." ~ Maharbal, as told by Livy
+> QUOTE | static | quote | night | | "You know how to win a victory, Hannibal. You do not know how to use one." ~ Maharbal, Livy 22.51 (translated)
 
 Historians still argue about it. But Rome was a well-fortified city more than three hundred kilometres away, and Hannibal had no siege equipment. His strategy had never been to storm Rome. It was to break up Rome's alliance of Italian cities, one by one, until Rome stood alone.
 > MAP | slow push | map | map | | Map of Italy after Cannae: distance from Cannae to Rome, and the cities that went over to Hannibal in the south
@@ -15,7 +15,7 @@ At first it seemed to work. Capua, the second city of Italy, went over to him. S
 But Rome did not break. In the panic after Cannae, the Romans even buried two Gauls and two Greeks alive in the cattle market, an ancient rite that Livy calls hardly Roman at all. The Senate refused to ransom the prisoners Hannibal had taken. It armed eight thousand slaves, and raised new legions from boys and old men. And the Latin cities of central Italy, the core of Rome's alliance, stayed loyal.
 > WS | slow push | still | ash | @romans | Grim Roman senators standing in a torchlit hall in silence, refusing a Carthaginian envoy who holds out a list of prisoners
 > WS | slow pan | still | gold | @legion | Young slaves and teenage boys being issued bronze helmets and oval shields in a Roman square, officers handing out weapons
-> QUOTE | static | quote | ash | | "A rite hardly Roman at all." ~ Livy on the human sacrifice in Rome after Cannae, book 22
+> QUOTE | static | quote | ash | | "A rite hardly Roman at all." ~ Livy 22.57, on the sacrifice in Rome after Cannae (translated)
 
 At Syracuse, a Roman army and fleet laid siege to the city in 213 BC. For two years they were held off by the inventions of one old man, the mathematician Archimedes: catapults that could strike ships at any range, and great cranes with iron claws that lifted Roman galleys out of the water and dropped them. When the city finally fell in 212, a Roman soldier killed Archimedes, according to the story, while he was drawing in the sand.
 > WS | handheld | vid | steel | @ships | A huge wooden crane with an iron claw on a city sea wall lifting the bow of a Roman war galley out of the water, sailors falling, waves crashing

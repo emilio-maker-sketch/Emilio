@@ -29,7 +29,7 @@ She asked the local ruler for as much land as could be covered by the hide of an
 
 Roman writers added a love story. In Virgil's Aeneid, Dido falls in love with the Trojan hero Aeneas, and when he abandons her to found Rome she kills herself, cursing his descendants with eternal enmity. It is pure poetry, written centuries later, but it tells you how the Romans came to see Carthage: as the enemy destined from the beginning.
 > WS | slow pan | photo | neutral | | Death of Dido painting [q: Guercino Death of Dido]
-> QUOTE | static | quote | candle | | "Let there be no love between our peoples, and no treaty." ~ Dido's curse, Virgil, Aeneid, book 4
+> QUOTE | static | quote | candle | | "Let there be no love between our peoples, and no treaty." ~ Dido's curse, Virgil, Aeneid 4.624 (translated)
 
 The ancient tradition dated the founding to 814 BC. For a long time historians doubted it. But the oldest objects found in the city date from the late ninth or eighth century BC, close enough to suggest the tradition was not far wrong. Carthage was older than Rome itself.
 > TL | static | timeline | map | | 814 BC: Carthage founded (tradition)* ; 776 BC: First Olympic Games ; 753 BC: Rome founded (tradition) ; 509 BC: Roman Republic
