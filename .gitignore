@@ -20,3 +20,4 @@ production/carthage/*.mp4
 /carthage_preview_*.mp4
 production/derinkuyu/build/pool_thumbs/
 production/derinkuyu/build/cand_thumbs/
+production/derinkuyu/build/narration/**/*.wav
