@@ -1,6 +1,6 @@
 # COLD OPEN
 
-Beneath an ordinary town in central Turkey there is a second town. It was not built. It was dug, straight down into the rock, level below level, about eighty-five metres deep. It had stables, kitchens, wine presses, wells and a church, and doors of solid stone that could be rolled shut from the inside. This is Derinkuyu. In this film we answer three questions: how it was built, who built it, and why people would choose to live underground.
+How do you build a city eighty-five metres down, into solid rock, with nothing but hand tools? And why would anyone want to? Beneath an ordinary town in central Turkey there is a second town. It was not built. It was dug, straight down into the rock, level below level. It had stables, kitchens, wine presses, wells and a church, and doors of solid stone that could be rolled shut from the inside. This is Derinkuyu. In this film we answer three questions: how it was built, who built it, and why people would choose to live underground.
 > WS | slow push | photo | neutral | | Narrow carved stairway descending into darkness inside Derinkuyu underground city [q: Derinkuyu Underground City stairs]
 > WS | slow pan | photo | neutral | | Derinkuyu town above ground today {LT: Derinkuyu today | Nevşehir province, Turkey} [q: Derinkuyu town Nevsehir]
 > CU | slow push | photo | neutral | | Rolling stone door inside Derinkuyu {LT: A rolling stone door | Derinkuyu} [q: Rolling stone door Derinkuyu]

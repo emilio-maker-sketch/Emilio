@@ -327,10 +327,26 @@ def d_dating(G):
     G.add(text_layer([((2850, 1950), 'a carved room: rock removed, no layers left', 54, ITA, INK, 'mm')]), [0.6, 0.75])
     G.focus = None; G.zoom = 1.03; finish(G, base)
 
-GFXD = {'01-00-0': m_cappadocia, '01-05-0': m_central, '02-01-0': d_chimney, '03-00-0': m_kanesh, '03-01-0': m_assur, '03-05-0': m_hittite,
-        '04-01-1': m_kingdom, '04-04-0': m_roman, '05-02-0': d_section, '05-04-1': d_cutting, '06-00-1': d_air, '06-03-0': d_stand, '08-00-2': d_door,
-        '09-01-1': m_phrygia, '09-03-0': m_xenophon, '09-05-0': d_stages, '10-00-0': d_dating, '13-00-0': m_frontier, '13-03-0': m_806, '13-06-0': m_838,
-        '14-00-0': m_manzikert, '15-05-0': m_exchange, '16-03-0': m_tunnel, '16-04-0': m_nevsehir, '17-06-0': m_three, '18-03-0': m_world}
+GFX_BY_DESC = {'Map of Cappadocia: Derinkuyu, Kaymaklı, Nevşehir': m_cappadocia, 'Map of central Cappadocia: Derinkuyu and Kaymaklı, about 10 km': m_central,
+    'How a fairy chimney forms': d_chimney, 'Map of Cappadocia: Kültepe': m_kanesh, 'Map: the caravan route from Assur': m_assur, 'Map of the Hittite heartland': m_hittite,
+    'Map: the Kingdom of Cappadocia': m_kingdom, 'Map: Roman Cappadocia': m_roman, 'Cross-section of Derinkuyu': d_section, 'How a room was cut': d_cutting,
+    'Cross-section: vertical shafts': d_air, 'Why it stands': d_stand, 'How a rolling stone door works': d_door, 'Map of Anatolia: Phrygia': m_phrygia,
+    "Map: route of Xenophon's": m_xenophon, 'Cross-section: the city growing': d_stages, 'Why rock-cut spaces are hard to date': d_dating,
+    'Map of the Byzantine–Arab frontier': m_frontier, 'Map of the Abbasid invasion of 806': m_806, 'Map of the Abbasid campaign of 838': m_838,
+    'Map: Manzikert 1071': m_manzikert, 'Map: Gelveri': m_exchange, 'Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported': m_tunnel,
+    'Map: Nevşehir, about 30 km': m_nevsehir, 'Map of central Cappadocia: Derinkuyu, Kaymaklı, Özkonak': m_three, 'World map: Derinkuyu, Naours': m_world}
+
+def gfx_map():
+    """Shot id -> drawing function, matched on the shot line's description so that renumbering chapters never breaks a graphic."""
+    import json
+    out = {}
+    for x in json.load(open(os.path.join(gfx.ROOT, 'shots.json'))):
+        if x['kind'] in ('map', 'diagram'):
+            f = next((v for k, v in GFX_BY_DESC.items() if x['desc'].startswith(k)), None)
+            if f is None: raise SystemExit(f"no graphic for {x['id']}: {x['desc'][:70]}")
+            out[x['id']] = f
+    return out
+GFXD = gfx_map()
 
 if __name__ == '__main__':
     for k in sys.argv[1:] or list(GFXD):
