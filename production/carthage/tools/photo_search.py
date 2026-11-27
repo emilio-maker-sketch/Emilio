@@ -10,8 +10,10 @@ for s in shots:
     if s['kind'] == 'photo': todo.append((s['id'], s['q']))
     for k, side in enumerate(s.get('sides', [])):
         if side.get('q') and not side.get('z'): todo.append((s['id'] + 'ab'[k], side['q']))
+REQ = json.load(open(os.path.join(ROOT, 'build', 'requery.json'))) if os.path.exists(os.path.join(ROOT, 'build', 'requery.json')) else {}
 for sid, q in todo:
-    if sid in out: continue
+    if sid in REQ: q = REQ[sid]
+    if sid in out and (out[sid]['cands'] or sid not in REQ): continue
     try: c = search(q, 10)
     except Exception as e: print('fail', sid, e, flush=True); time.sleep(40); continue
     out[sid] = {'q': q, 'cands': c[:6]}

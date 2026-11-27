@@ -7,7 +7,7 @@ cand = json.load(open(os.path.join(ROOT, 'build', 'photo_candidates.json'))); pi
 cf = os.path.join(OUT, 'credits.json'); cr = json.load(open(cf)) if os.path.exists(cf) else {}
 for sid, i in picks.items():
     if i is None or sid in cr and any(os.path.exists(os.path.join(OUT, sid + e)) for e in ('.jpg', '.png')): continue
-    c = cand[sid]['cands'][i]; ext = '.png' if c['url'].lower().endswith('.png') else '.jpg'
+    c = cand[i[0]]['cands'][i[1]] if isinstance(i, list) else cand[sid]['cands'][i]; ext = '.png' if c['url'].lower().endswith('.png') else '.jpg'
     for k in range(6):
         try:
             r = requests.get(c['url'], headers=UA, timeout=120)
