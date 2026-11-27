@@ -306,12 +306,12 @@
   {
    "file": "wind.wav",
    "start": 46.99,
-   "end": 53.23,
+   "end": 55.49,
    "gain": 0.2
   },
   {
    "file": "wind.wav",
-   "start": 53.23,
+   "start": 55.49,
    "end": 66.98,
    "gain": 0.14
   },
@@ -340,15 +340,9 @@
    "gain": 0.06
   },
   {
-   "file": "wind.wav",
-   "start": 174.64,
-   "end": 181.27,
-   "gain": 0.2
-  },
-  {
    "file": "night.wav",
    "start": 192.26,
-   "end": 205.29,
+   "end": 200.47,
    "gain": 0.28
   },
   {
@@ -368,18 +362,6 @@
    "start": 251.7,
    "end": 266.57,
    "gain": 0.05
-  },
-  {
-   "file": "wind.wav",
-   "start": 306.5,
-   "end": 320.01,
-   "gain": 0.06
-  },
-  {
-   "file": "wind.wav",
-   "start": 327.76,
-   "end": 337.54,
-   "gain": 0.06
   },
   {
    "file": "wind.wav",
@@ -533,7 +515,7 @@
   },
   {
    "file": "fire.wav",
-   "start": 1103.18,
+   "start": 1101.49,
    "end": 1119.91,
    "gain": 0.05
   },
@@ -726,31 +708,19 @@
   {
    "file": "wind.wav",
    "start": 1842.7,
-   "end": 1851.73,
-   "gain": 0.14
-  },
-  {
-   "file": "wind.wav",
-   "start": 1851.73,
-   "end": 1860.61,
+   "end": 1856.11,
    "gain": 0.06
   },
   {
    "file": "wind.wav",
-   "start": 1860.61,
-   "end": 1872.96,
+   "start": 1856.11,
+   "end": 1868.61,
    "gain": 0.14
   },
   {
    "file": "wind.wav",
-   "start": 1907.35,
-   "end": 1937.01,
-   "gain": 0.06
-  },
-  {
-   "file": "wind.wav",
-   "start": 1949.51,
-   "end": 1955.92,
+   "start": 1868.61,
+   "end": 1872.95,
    "gain": 0.06
   },
   {
@@ -816,8 +786,14 @@
   {
    "file": "wind.wav",
    "start": 2173.24,
-   "end": 2194.53,
+   "end": 2185.74,
    "gain": 0.2
+  },
+  {
+   "file": "wind.wav",
+   "start": 2185.74,
+   "end": 2194.53,
+   "gain": 0.14
   },
   {
    "file": "wind.wav",
@@ -828,12 +804,12 @@
   {
    "file": "wind.wav",
    "start": 2245.51,
-   "end": 2249.96,
+   "end": 2262.27,
    "gain": 0.06
   },
   {
    "file": "wind.wav",
-   "start": 2249.96,
+   "start": 2262.27,
    "end": 2293.33,
    "gain": 0.2
   },
@@ -876,13 +852,19 @@
   {
    "file": "fire.wav",
    "start": 2387.07,
-   "end": 2421.94,
+   "end": 2399.57,
    "gain": 0.05
   },
   {
    "file": "wind.wav",
+   "start": 2399.57,
+   "end": 2421.94,
+   "gain": 0.06
+  },
+  {
+   "file": "wind.wav",
    "start": 2450.05,
-   "end": 2477.69,
+   "end": 2462.55,
    "gain": 0.06
   },
   {
@@ -924,18 +906,6 @@
   {
    "file": "fire.wav",
    "start": 2656.07,
-   "end": 2669.35,
-   "gain": 0.05
-  },
-  {
-   "file": "wind.wav",
-   "start": 2669.35,
-   "end": 2684.11,
-   "gain": 0.06
-  },
-  {
-   "file": "fire.wav",
-   "start": 2684.11,
    "end": 2700.91,
    "gain": 0.05
   },
@@ -984,30 +954,18 @@
   {
    "file": "wind.wav",
    "start": 2859.9,
-   "end": 2887.12,
+   "end": 2872.4,
    "gain": 0.06
   },
   {
    "file": "wind.wav",
-   "start": 2887.12,
-   "end": 2902.84,
+   "start": 2872.4,
+   "end": 2897.43,
    "gain": 0.2
   },
   {
    "file": "fire.wav",
    "start": 2913.45,
-   "end": 2932.84,
-   "gain": 0.3
-  },
-  {
-   "file": "fire.wav",
-   "start": 2932.84,
-   "end": 2951.4,
-   "gain": 0.05
-  },
-  {
-   "file": "fire.wav",
-   "start": 2951.4,
    "end": 2965.23,
    "gain": 0.3
   },
@@ -1025,13 +983,13 @@
   },
   {
    "file": "wind.wav",
-   "start": 2999.99,
-   "end": 3031.28,
+   "start": 3003.38,
+   "end": 3015.88,
    "gain": 0.2
   },
   {
    "file": "wind.wav",
-   "start": 3031.28,
+   "start": 3019.01,
    "end": 3042.93,
    "gain": 0.14
   },
@@ -1061,7 +1019,7 @@
   },
   {
    "file": "wind.wav",
-   "start": 3108.15,
+   "start": 3110.88,
    "end": 3117.91,
    "gain": 0.06
   },
@@ -1074,12 +1032,6 @@
   {
    "file": "wind.wav",
    "start": 3166.88,
-   "end": 3176.65,
-   "gain": 0.2
-  },
-  {
-   "file": "wind.wav",
-   "start": 3176.65,
    "end": 3196.2,
    "gain": 0.14
   },
@@ -1097,15 +1049,9 @@
   },
   {
    "file": "fire.wav",
-   "start": 3248.92,
+   "start": 3250.74,
    "end": 3267.14,
    "gain": 0.3
-  },
-  {
-   "file": "wind.wav",
-   "start": 3278.88,
-   "end": 3290.62,
-   "gain": 0.14
   },
   {
    "file": "wind.wav",
@@ -1133,15 +1079,9 @@
   },
   {
    "file": "wind.wav",
-   "start": 3454.43,
-   "end": 3467.92,
-   "gain": 0.06
-  },
-  {
-   "file": "wind.wav",
-   "start": 3480.42,
+   "start": 3466.93,
    "end": 3488.51,
-   "gain": 0.06
+   "gain": 0.14
   },
   {
    "file": "wind.wav",
@@ -1159,12 +1099,6 @@
    "file": "march.wav",
    "start": 0.0,
    "end": 7.97,
-   "gain": 0.24
-  },
-  {
-   "file": "march.wav",
-   "start": 53.23,
-   "end": 58.8,
    "gain": 0.24
   },
   {
@@ -1187,32 +1121,8 @@
   },
   {
    "file": "waves.wav",
-   "start": 174.64,
-   "end": 182.27,
-   "gain": 0.26
-  },
-  {
-   "file": "waves.wav",
    "start": 192.26,
-   "end": 198.74,
-   "gain": 0.26
-  },
-  {
-   "file": "waves.wav",
-   "start": 197.74,
-   "end": 206.29,
-   "gain": 0.26
-  },
-  {
-   "file": "waves.wav",
-   "start": 306.5,
-   "end": 313.73,
-   "gain": 0.26
-  },
-  {
-   "file": "waves.wav",
-   "start": 312.73,
-   "end": 321.01,
+   "end": 197.36,
    "gain": 0.26
   },
   {
@@ -1308,7 +1218,7 @@
   {
    "file": "march.wav",
    "start": 1135.05,
-   "end": 1147.83,
+   "end": 1141.94,
    "gain": 0.24
   },
   {
@@ -1384,12 +1294,6 @@
    "gain": 0.24
   },
   {
-   "file": "crowd.wav",
-   "start": 1907.35,
-   "end": 1915.76,
-   "gain": 0.2
-  },
-  {
    "file": "march.wav",
    "start": 1955.92,
    "end": 1961.58,
@@ -1416,7 +1320,7 @@
   {
    "file": "waves.wav",
    "start": 2122.67,
-   "end": 2135.74,
+   "end": 2129.71,
    "gain": 0.26
   },
   {
@@ -1426,21 +1330,9 @@
    "gain": 0.24
   },
   {
-   "file": "waves.wav",
-   "start": 2173.24,
-   "end": 2178.77,
-   "gain": 0.26
-  },
-  {
    "file": "march.wav",
    "start": 2212.13,
    "end": 2217.72,
-   "gain": 0.24
-  },
-  {
-   "file": "march.wav",
-   "start": 2249.96,
-   "end": 2256.56,
    "gain": 0.24
   },
   {
@@ -1454,12 +1346,6 @@
    "start": 2367.51,
    "end": 2375.11,
    "gain": 0.2
-  },
-  {
-   "file": "waves.wav",
-   "start": 2458.3,
-   "end": 2463.43,
-   "gain": 0.26
   },
   {
    "file": "waves.wav",
@@ -1480,18 +1366,6 @@
    "gain": 0.26
   },
   {
-   "file": "waves.wav",
-   "start": 2669.35,
-   "end": 2685.11,
-   "gain": 0.26
-  },
-  {
-   "file": "crowd.wav",
-   "start": 2669.35,
-   "end": 2685.11,
-   "gain": 0.2
-  },
-  {
    "file": "march.wav",
    "start": 2731.18,
    "end": 2737.79,
@@ -1506,7 +1380,7 @@
   {
    "file": "crowd.wav",
    "start": 2913.45,
-   "end": 2920.91,
+   "end": 2923.93,
    "gain": 0.2
   },
   {
@@ -1516,22 +1390,10 @@
    "gain": 0.24
   },
   {
-   "file": "waves.wav",
-   "start": 2999.99,
-   "end": 3005.88,
-   "gain": 0.26
-  },
-  {
    "file": "crowd.wav",
    "start": 3072.59,
    "end": 3081.29,
    "gain": 0.2
-  },
-  {
-   "file": "waves.wav",
-   "start": 3108.15,
-   "end": 3114.03,
-   "gain": 0.26
   },
   {
    "file": "waves.wav",
@@ -1543,12 +1405,6 @@
    "file": "waves.wav",
    "start": 3355.49,
    "end": 3361.44,
-   "gain": 0.26
-  },
-  {
-   "file": "waves.wav",
-   "start": 3454.43,
-   "end": 3462.17,
    "gain": 0.26
   },
   {
@@ -1577,7 +1433,7 @@
   },
   {
    "file": "thud.wav",
-   "start": 58.09,
+   "start": 55.79,
    "gain": 0.3,
    "hit": true
   },
@@ -1607,7 +1463,7 @@
   },
   {
    "file": "paper.wav",
-   "start": 187.13,
+   "start": 184.66,
    "gain": 0.4,
    "hit": true
   },
@@ -2069,8 +1925,14 @@
   },
   {
    "file": "thud.wav",
-   "start": 1861.11,
+   "start": 1856.61,
    "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1907.14,
+   "gain": 0.28,
    "hit": true
   },
   {
@@ -2135,7 +1997,7 @@
   },
   {
    "file": "thud.wav",
-   "start": 2182.8,
+   "start": 2173.74,
    "gain": 0.35,
    "hit": true
   },
@@ -2161,12 +2023,6 @@
    "file": "whoosh.wav",
    "start": 2232.81,
    "gain": 0.28,
-   "hit": true
-  },
-  {
-   "file": "impact.wav",
-   "start": 2250.06,
-   "gain": 0.6,
    "hit": true
   },
   {
@@ -2231,7 +2087,7 @@
   },
   {
    "file": "thud.wav",
-   "start": 2402.21,
+   "start": 2387.37,
    "gain": 0.3,
    "hit": true
   },
@@ -2243,7 +2099,7 @@
   },
   {
    "file": "thud.wav",
-   "start": 2466.85,
+   "start": 2450.35,
    "gain": 0.3,
    "hit": true
   },
@@ -2363,13 +2219,13 @@
   },
   {
    "file": "thud.wav",
-   "start": 2876.45,
+   "start": 2860.2,
    "gain": 0.3,
    "hit": true
   },
   {
    "file": "whoosh.wav",
-   "start": 2902.64,
+   "start": 2897.23,
    "gain": 0.28,
    "hit": true
   },
@@ -2393,7 +2249,7 @@
   },
   {
    "file": "thud.wav",
-   "start": 3010.07,
+   "start": 3003.68,
    "gain": 0.3,
    "hit": true
   },
@@ -2507,37 +2363,37 @@
   },
   {
    "file": "whoosh.wav",
-   "start": 3467.72,
+   "start": 3454.23,
    "gain": 0.28,
    "hit": true
   },
   {
    "file": "tick.wav",
-   "start": 3469.42,
+   "start": 3455.93,
    "gain": 0.35,
    "hit": true
   },
   {
    "file": "tick.wav",
-   "start": 3471.13,
+   "start": 3457.64,
    "gain": 0.35,
    "hit": true
   },
   {
    "file": "tick.wav",
-   "start": 3472.85,
+   "start": 3459.36,
    "gain": 0.35,
    "hit": true
   },
   {
    "file": "tick.wav",
-   "start": 3474.57,
+   "start": 3461.08,
    "gain": 0.35,
    "hit": true
   },
   {
    "file": "tick.wav",
-   "start": 3476.29,
+   "start": 3462.8,
    "gain": 0.35,
    "hit": true
   },
