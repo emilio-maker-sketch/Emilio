@@ -661,7 +661,7 @@ def draw_overlays(img, t, C):
         d.line([a, b], fill=RED+(230,), width=max(2, int(5*z)))
         for p in (a, b): d.ellipse([p[0]-8, p[1]-8, p[0]+8, p[1]+8], fill=RED+(255,))
     for R_ in ROUTES:
-        if t < R_['t0']: continue
+        if t < R_['t0'] or t > R_['t0'] + R_['du'] + 14: continue     # a route belongs to its moment; it fades after ~14 s
         u = ease((t - R_['t0']) / R_['du'])
         P = [to_screen(p, C) for p in R_['pts']]
         # smooth the route (Catmull-Rom through the waypoints) and draw the travelled part as a dashed line

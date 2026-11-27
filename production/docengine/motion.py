@@ -228,12 +228,20 @@ def grade(img, mono=None):
     colour kept (slightly restrained) for colour sources, warm-neutral monochrome for B&W prints. BGR uint8 in/out."""
     f = img.astype(np.float32) / 255
     lum = f[..., 0] * .114 + f[..., 1] * .587 + f[..., 2] * .299
-    lo, hi = np.percentile(lum[::3, ::3], (.6, 99.4))
+    # museum object on a seamless backdrop: measure exposure on the object, not on the (bright or dark) backdrop
+    bd = np.concatenate([lum[:6].ravel(), lum[-6:].ravel(), lum[:, :6].ravel(), lum[:, -6:].ravel()])
+    obj = None
+    if bd.std() < .06:
+        m = np.abs(lum - np.median(bd)) > .08
+        if .05 < m.mean() < .9: obj = m
+    stat = lum[obj] if obj is not None else lum[::3, ::3]
+    lo, hi = np.percentile(stat, (.6, 99.4))
+    if obj is not None: lo, hi = min(lo, float(np.median(bd)), np.percentile(lum, 1)), max(hi, float(np.median(bd)) if np.median(bd) > hi else hi)
     gain = min(1.7, .96 / max(.25, hi - lo))
     f = np.clip((f - lo) * gain, 0, 1)
     lum = f[..., 0] * .114 + f[..., 1] * .587 + f[..., 2] * .299
-    med = float(np.median(lum[::3, ::3])); g = math.log(.44) / math.log(min(.9, max(.08, med)))
-    g = min(1.6, max(.65, g)); f = f ** g
+    med = float(np.median(lum[obj] if obj is not None else lum[::3, ::3])); g = math.log(.44) / math.log(min(.9, max(.08, med)))
+    g = 1 + (min(1.5, max(.85, g)) - 1) * .5; f = f ** g             # gentle: respect genuinely light or dark subjects
     # colour vs monochrome: judge by the most colourful 5% of pixels, so a gold object on a grey backdrop stays gold
     chroma = (f.max(axis=2) - f.min(axis=2))[::3, ::3]
     if mono is None: mono = float(np.percentile(chroma, 95)) < .09

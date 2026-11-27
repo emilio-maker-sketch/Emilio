@@ -1,0 +1,115 @@
+{
+  "title": "The Fire That Saved a Library",
+  "era": {
+    "from": -2200,
+    "to": -400,
+    "cultures": [
+      "Assyrian",
+      "Babylonian",
+      "Sumerian",
+      "Neo-Sumerian",
+      "Akkadian",
+      "Neo-Assyrian",
+      "Neo-Babylonian",
+      "Mesopotamia",
+      "Old Assyrian",
+      "Cuneiform"
+    ],
+    "note": "Mesopotamian objects from Sumerian to Neo-Babylonian times. Prints, photographs and books must concern Nineveh/Assyria/Babylon or their 19th-century excavation."
+  },
+  "places": [
+    "Nineveh",
+    "Assyria",
+    "Assyrian",
+    "Babylon",
+    "Mosul",
+    "Tigris",
+    "Kuyunjik",
+    "Nimrud",
+    "Layard",
+    "Botta",
+    "Persepolis",
+    "Assyrian Discoveries"
+  ],
+  "entities": {
+    "winged bull": "a human-headed winged bull statue (lamassu)",
+    "liver": "a clay model or tablet about a sheep's liver",
+    "tablet": "a clay cuneiform tablet",
+    "relief": "an Assyrian stone relief carving"
+  },
+  "banned_words": [
+    "Apocalypse",
+    "Whore",
+    "Alexander"
+  ],
+  "lexicon": [
+    "Ashurbanipal",
+    "Nineveh",
+    "Assyria",
+    "Kuyunjik",
+    "Layard",
+    "Rassam",
+    "Hormuzd",
+    "Sennacherib",
+    "Esarhaddon",
+    "Nabopolassar",
+    "Cyaxares",
+    "Utnapishtim",
+    "Gilgamesh",
+    "Nimrud",
+    "Ashurnasirpal",
+    "Pazuzu",
+    "Lamassu",
+    "Borsippa",
+    "Arbela",
+    "Ecbatana",
+    "Halzi",
+    "Nergal",
+    "Nebi",
+    "Yunus",
+    "Fragmentarium",
+    "LMU",
+    "Colophon",
+    "Rawlinson",
+    "Hincks",
+    "Talbot",
+    "Oppert",
+    "Assur",
+    "Assyriologist",
+    "Persepolis",
+    "Babylonia"
+  ],
+  "moods": {
+    "open": "tense",
+    "king": "calm",
+    "library": "calm",
+    "fall": "tense",
+    "mound": "reveal",
+    "flood": "reveal",
+    "war": "somber",
+    "verdict": "calm"
+  },
+  "pool": [
+    "n_",
+    "neo_assyrian",
+    "mesopotamia"
+  ],
+  "splices": [
+    {
+      "t0": 134.9,
+      "t1": 142.6,
+      "desc": "3D reconstruction: a scribe presses wedge-shaped marks into a clay tablet with a reed"
+    },
+    {
+      "t0": 326.0,
+      "t1": 332.8,
+      "desc": "3D reconstruction: fire, the clay tablet cracks and breaks apart"
+    },
+    {
+      "t0": 711.9,
+      "t1": 723.9,
+      "desc": "3D reconstruction: tablet fragments matched and joined together, one piece missing"
+    }
+  ],
+  "video": "build/Nineveh.mp4"
+}

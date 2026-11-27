@@ -170,10 +170,11 @@ def era_check(rec):
 
 # ---------------------------------------------------------------- main
 OK = {}
+OVERRIDES = []
 for ev in E.TL['events']:
     pos_, opt_ = E.kv(ev['d'][1:])
     if 'ok' in opt_:
-        for x in re.findall(r'(?:met|aic)\d+|wc_\w+', ' '.join(ev['d'][1:2])): OK[x] = opt_['ok']
+        for x in re.findall(r'(?:met|aic)\d+|wc_\w+', ' '.join(ev['d'][1:2])): OK[x] = (OK[x] + ' / ' if x in OK else '') + opt_['ok']
 
 
 def main():
@@ -261,6 +262,11 @@ def main():
                 best_here = max(float(v @ ctx[i] * 100) for v in vs)
                 sh['film_rank'] = film_sc.index(min(film_sc, key=lambda q: abs(q - best_here))) + 1 if film_sc else None
                 ok = sh['z'] > -1.0 if k == 'footage' else (sh['z'] >= -0.35 or ((sh.get('pool_rank') or 0) >= .85 and (sh['film_rank'] or 99) <= 3))
+                # inscribed objects: their meaning is in the text, so the museum's own catalogue title is evidence too
+                if not ok and k != 'footage':
+                    mt = max(TM.overlap(REC.get(x, {}).get('title', ''), spoken)[0] for x in sh.get('ids', []) or [''])
+                    sh['meta'] = round(mt, 2)
+                    if mt >= .25: ok = True
                 if ok and k != 'footage' and sh['z'] < -0.35:
                     # borderline: does the picture show any concrete thing the sentence names?
                     words = [w for w in re.findall(r"[A-Za-z]{4,}", S[i]['text']) if w.lower() not in TM.STOP]
@@ -314,19 +320,41 @@ def main():
                     lex2 = TM.overlap(sh['text'], ' '.join(S[j]['text'] for j in range(max(0, bi - 1), min(len(S), bi + 3))))[0]
                     if lex2 > 0: sh['context'] = True
                 if k in ('note', 'quote', 'type', 'title:counter') and lex2 == 0:
+                    # paraphrase (no shared words) - compare meaning with the CLIP text encoder (calibrated: related >= .77, unrelated <= .67)
+                    cv = SEM.embed_text([sh['text'].replace('|', ' ').lower()] + [S[j]['text'] for j in range(max(0, i - 2), min(len(S), i + 3))])
+                    sem = float((cv[1:] @ cv[0]).max()); sh['sem'] = round(sem, 3)
+                    if sem >= .74: lex2 = sem
+                if k in ('note', 'quote', 'type', 'title:counter') and lex2 == 0:
                     fl.append(('TEXT-UNRELATED', f"{k} '{sh['text'][:60]}'"))
         if '_frame' in r:
             sc = ctx @ r['_frame'] * 100; r['frame_z'] = round(float((sc[i] - sc.mean()) / (sc.std() + 1e-6)), 2)
-        fl = [f for f in fl if not (f[0] in ('ERA', 'ENTITY', 'WEAK') and any(x in f[1] for x in OK))]
+        kept = []
+        for f in fl:
+            ov = next((x for x in OK if x in f[1]), None)
+            if ov and f[0] in ('ERA', 'ENTITY', 'WEAK', 'MISMATCH'):
+                OVERRIDES.append((round(r['start'], 1), f[0], ov, OK[ov]))      # an editor's documented decision, reported, not hidden
+            else: kept.append(f)
+        fl = kept
         r['flags'] = fl
         for f in fl: flags_all.append((r['start'], f[0], f[1], r['text']))
 
     # staleness: same focus key across consecutive samples for too long
-    seq = [(t, shot_at(t)['key']) for t in np.arange(0, S[-1]['end'], 1.0)]
+    # an animation on the focused item (circle, route, stamp, tag, string) is a visual change too
+    anim = {}
+    for ev in E.TL['events']:
+        if ev['d'][0] in ('circle', 'route', 'stamp', 'tag', 'string', 'push') and len(ev['d']) > 1:
+            anim.setdefault(ev['d'][1], []).append(ev['t'])
+    seq = []
+    for t in np.arange(0, S[-1]['end'], 1.0):
+        sh = shot_at(t); k = sh['key']
+        nm = k.split(':', 1)[1] if ':' in k else ''
+        nm = next((it['_name'] for it in E.ITEMS if it['_name'] and k.endswith(':' + it['_name'])), nm)
+        n_anim = sum(1 for a in anim.get(nm, []) if a <= t)
+        seq.append((t, f'{k}#{n_anim}'))
     run_k, run_t0, stale = None, 0, []
     for t, k in seq + [(S[-1]['end'], None)]:
         if k != run_k:
-            if run_k and t - run_t0 > 14 and run_k not in ('wide', 'transit') and not run_k.startswith(('3d', 'ov:end', 'foot:')):
+            if run_k and t - run_t0 > 14 and '#' in run_k and run_k not in ('wide', 'transit') and not run_k.startswith(('3d', 'ov:end', 'foot:')):
                 stale.append((round(run_t0, 1), round(t - run_t0, 1), run_k))
             run_k, run_t0 = k, t
     for s in stale: flags_all.append((s[0], 'STALE', f'{s[2]} held ~{s[1]}s', ''))
@@ -346,6 +374,7 @@ def main():
         'frame_z_mean': round(float(np.mean([r['frame_z'] for r in rows if 'frame_z' in r])), 3) if use_frames else None,
         'frame_z_low': [(round(r['start'], 1), r['frame_z'], r['text'][:60]) for r in rows if r.get('frame_z', 9) < -1.0] if use_frames else None,
         'flags': {k: sum(1 for f in flags_all if f[1] == k) for k in sorted({f[1] for f in flags_all})},
+        'overrides': sorted({(o[1], o[2], o[3]) for o in OVERRIDES}),
     }
     json.dump({'summary': summary, 'flags': flags_all, 'rows': clean(rows)}, open(os.path.join(OUT, 'audit.json'), 'w'), indent=1)
     with open(os.path.join(OUT, 'audit.md'), 'w') as f:

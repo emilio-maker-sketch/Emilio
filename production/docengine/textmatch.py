@@ -73,6 +73,7 @@ def _near(a, b):
     """'suffocation'~'suffocated', 'asleep'~'sleep', 'death'~'dead': shared stem prefix or high similarity."""
     import difflib
     if a == b: return True
+    if min(len(a), len(b)) >= 3 and (a.startswith(b) or b.startswith(a)) and abs(len(a) - len(b)) <= 3: return True
     if min(len(a), len(b)) >= 5 and (a[:6] == b[:6] or a in b or b in a): return True
     if min(len(a), len(b)) >= 4 and difflib.SequenceMatcher(None, a, b).ratio() >= .8: return True
     return a[:4] == b[:4] and min(len(a), len(b)) >= 4 and abs(len(a) - len(b)) <= 2

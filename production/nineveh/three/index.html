@@ -1,0 +1,189 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Tablet</title>
+<style>html,body{margin:0;background:#000;overflow:hidden}canvas{display:block}</style>
+<script type="importmap">{"imports":{"three":"./node_modules/three/build/three.module.js"}}</script>
+</head><body>
+<script type="module">
+// Illustrative 3D reconstruction for "The Fire That Saved a Library".
+// Local timeline (seconds):  0-11 a scribe's reed presses wedges into a clay tablet
+//                            11-18 fire: the tablet cracks and breaks apart
+//                            18-30 fragments float; matches are found; they rejoin (one piece still missing)
+import * as THREE from 'three';
+const W = 1920, H = 1080;
+const renderer = new THREE.WebGLRenderer({ antialias: true, preserveDrawingBuffer: true });
+renderer.setSize(W, H); renderer.setPixelRatio(1); renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+renderer.toneMapping = THREE.ACESFilmicToneMapping; renderer.outputColorSpace = THREE.SRGBColorSpace;
+document.body.appendChild(renderer.domElement);
+const scene = new THREE.Scene();
+const cam = new THREE.PerspectiveCamera(32, W / H, .1, 200);
+
+// deterministic random
+let seed = 7; const rnd = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+const smooth = x => { x = Math.min(1, Math.max(0, x)); return x * x * (3 - 2 * x); };
+const lerp = (a, b, u) => a + (b - a) * u;
+
+// ---------- clay texture (bump + colour variation), procedural
+function clayTex(size, dark) {
+  const c = document.createElement('canvas'); c.width = c.height = size; const g = c.getContext('2d');
+  const img = g.createImageData(size, size);
+  for (let i = 0; i < size * size; i++) {
+    const x = i % size, y = (i / size) | 0;
+    const n = (Math.sin(x * .07 + Math.sin(y * .05) * 3) + Math.sin(y * .09 + x * .02) + rnd() * 1.6) / 3.6;
+    const v = dark ? 128 + n * 60 : 150 + n * 40;
+    img.data[i * 4] = img.data[i * 4 + 1] = img.data[i * 4 + 2] = v; img.data[i * 4 + 3] = 255;
+  }
+  g.putImageData(img, 0, 0); const t = new THREE.CanvasTexture(c); t.wrapS = t.wrapT = THREE.RepeatWrapping; return t;
+}
+const bump = clayTex(512, true);
+const clay = new THREE.MeshStandardMaterial({ color: 0xa0784f, roughness: .92, metalness: 0, bumpMap: bump, bumpScale: 1.2 });
+const clayEdge = new THREE.MeshStandardMaterial({ color: 0x7a5636, roughness: .95, bumpMap: bump, bumpScale: 1.5 });
+const wedgeMat = new THREE.MeshStandardMaterial({ color: 0x3e2a1a, roughness: 1 });
+
+// ---------- tablet cells: a 3x4 jittered grid with jagged shared edges, so fragments fit back exactly
+const TW = 6.4, TH = 8.6, TD = 1.3, NX = 3, NY = 4;
+const nodes = [];
+for (let j = 0; j <= NY; j++) { nodes.push([]); for (let i = 0; i <= NX; i++) {
+  let x = -TW / 2 + TW * i / NX, y = -TH / 2 + TH * j / NY;
+  if (i > 0 && i < NX) x += (rnd() - .5) * .9; if (j > 0 && j < NY) y += (rnd() - .5) * .8;
+  nodes[j].push([x, y]); } }
+const edgeCache = {};
+function jag(a, b, key) {                     // jagged polyline from a to b (shared between neighbouring cells)
+  if (edgeCache[key]) return edgeCache[key];
+  const pts = [a]; const n = 6;
+  const border = (Math.abs(a[0] - b[0]) < 1e-6 && Math.abs(Math.abs(a[0]) - TW / 2) < 1e-6) || (Math.abs(a[1] - b[1]) < 1e-6 && Math.abs(Math.abs(a[1]) - TH / 2) < 1e-6);
+  for (let k = 1; k < n; k++) {
+    const u = k / n, dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy);
+    const off = border ? 0 : (rnd() - .5) * .38;
+    pts.push([a[0] + dx * u - dy / L * off, a[1] + dy * u + dx / L * off]);
+  }
+  pts.push(b); edgeCache[key] = pts; return pts;
+}
+function edge(i0, j0, i1, j1) {
+  const k1 = `${i0},${j0}-${i1},${j1}`, k2 = `${i1},${j1}-${i0},${j0}`;
+  if (edgeCache[k2]) return edgeCache[k2].slice().reverse();
+  return jag(nodes[j0][i0], nodes[j1][i1], k1);
+}
+const cells = [];
+for (let j = 0; j < NY; j++) for (let i = 0; i < NX; i++) {
+  const poly = [...edge(i, j, i + 1, j).slice(0, -1), ...edge(i + 1, j, i + 1, j + 1).slice(0, -1), ...edge(i + 1, j + 1, i, j + 1).slice(0, -1), ...edge(i, j + 1, i, j).slice(0, -1)];
+  cells.push(poly);
+}
+function inPoly(p, poly) { let c = false; for (let i = 0, j = poly.length - 1; i < poly.length; j = i++) {
+  const [xi, yi] = poly[i], [xj, yj] = poly[j];
+  if (((yi > p[1]) !== (yj > p[1])) && (p[0] < (xj - xi) * (p[1] - yi) / (yj - yi) + xi)) c = !c; } return c; }
+
+// ---------- fragments: extruded cells, each a group carrying its own wedges
+const frags = []; const tablet = new THREE.Group(); scene.add(tablet);
+cells.forEach((poly, idx) => {
+  const sh = new THREE.Shape(poly.map(p => new THREE.Vector2(p[0], p[1])));
+  const geo = new THREE.ExtrudeGeometry(sh, { depth: TD, bevelEnabled: false, curveSegments: 4 });
+  geo.translate(0, 0, -TD / 2);
+  const m = new THREE.Mesh(geo, [clay, clayEdge]); m.castShadow = m.receiveShadow = true;
+  const g = new THREE.Group(); g.add(m); g.userData_body = m;
+  let cx = 0, cy = 0; poly.forEach(p => { cx += p[0]; cy += p[1]; }); cx /= poly.length; cy /= poly.length;
+  g.userData = { poly, cx, cy, home: new THREE.Vector3(0, 0, 0), rot0: new THREE.Euler(), idx,
+                 scatter: new THREE.Vector3((cx) * 1.25 + (rnd() - .5) * 1.6, (cy) * 1.0 + (rnd() - .5) * 1.4, (rnd() - .5) * 2),
+                 spin: new THREE.Vector3((rnd() - .5) * 1.6, (rnd() - .5) * 1.6, (rnd() - .5) * 1.2),
+                 fall: new THREE.Vector3((rnd() - .5) * 1.2, -1.5 - rnd() * 2.5, (rnd() - .5) * 1.5) };
+  tablet.add(g); frags.push(g);
+});
+const MISSING = 10;
+// an unbroken tablet shown until the fire cracks it (the fragments' seams must not show beforehand)
+const whole = new THREE.Mesh(new THREE.BoxGeometry(TW, TH, TD), [clayEdge, clayEdge, clayEdge, clayEdge, clay, clay]);
+whole.castShadow = whole.receiveShadow = true; scene.add(whole);                           // one fragment is never found again
+// wedges: rows of small triangular impressions on the front face (pseudo-text: illustrative)
+const wedges = []; const wGeo = new THREE.ConeGeometry(.27, .5, 3); wGeo.rotateX(Math.PI / 2);
+const ROWS = 10, PER = 8; const tailGeo = new THREE.BoxGeometry(.3, .05, .5);
+for (let r = 0; r < ROWS; r++) for (let k = 0; k < PER; k++) {
+  if (rnd() < .18) continue;
+  const x = -TW / 2 + .55 + k * (TW - 1.1) / (PER - 1) + (rnd() - .5) * .12, y = TH / 2 - .6 - r * (TH - 1.2) / (ROWS - 1);
+  const f = frags.find(g => inPoly([x, y], g.userData.poly)); if (!f) continue;
+  const w = new THREE.Mesh(wGeo, wedgeMat); w.position.set(x, y, TD / 2 + .02); w.rotation.z = [0, Math.PI / 2, -Math.PI / 4][(rnd() * 3) | 0] + (rnd() - .5) * .3;
+  w.scale.set(1.15, .9 + rnd() * .5, .22); f.add(w); w.visible = false;
+  const tail = new THREE.Mesh(tailGeo, wedgeMat); tail.position.set(.2, 0, 0); w.add(tail);
+  wedges.push({ mesh: w, order: r * PER + k, x, y });
+}
+wedges.sort((a, b) => a.order - b.order);
+
+// ---------- stylus (reed)
+const reed = new THREE.Mesh(new THREE.CylinderGeometry(.09, .12, 7, 10), new THREE.MeshStandardMaterial({ color: 0xc9b07a, roughness: .7 }));
+reed.geometry.translate(0, 3.5, 0); const reedG = new THREE.Group(); reedG.add(reed); scene.add(reedG); reed.castShadow = true;
+
+// ---------- table, lights, embers
+const table = new THREE.Mesh(new THREE.PlaneGeometry(60, 60), new THREE.MeshStandardMaterial({ color: 0x2a2018, roughness: 1 }));
+table.position.z = -TD / 2 - .15; table.receiveShadow = true; scene.add(table);
+const hemi = new THREE.HemisphereLight(0xffeedd, 0x221810, .55); scene.add(hemi);
+const key = new THREE.SpotLight(0xffd7a0, 260, 60, .55, .6, 1.6); key.position.set(-7, 9, 14); key.castShadow = true; key.shadow.mapSize.set(1024, 1024); scene.add(key); scene.add(key.target);
+const fire = new THREE.PointLight(0xff6a20, 0, 40, 1.4); fire.position.set(2, -6, 6); scene.add(fire);
+const cool = new THREE.DirectionalLight(0x9fc4ff, 0); cool.position.set(6, 6, 10); scene.add(cool);
+const N_EMB = 400, embGeo = new THREE.BufferGeometry(), embPos = new Float32Array(N_EMB * 3), embSeed = [];
+for (let i = 0; i < N_EMB; i++) embSeed.push([rnd() * 16 - 8, rnd(), rnd() * 6 - 1, .6 + rnd() * 1.4]);
+embGeo.setAttribute('position', new THREE.BufferAttribute(embPos, 3));
+const embers = new THREE.Points(embGeo, new THREE.PointsMaterial({ color: 0xffa040, size: .09, transparent: true, opacity: 0, depthWrite: false, blending: THREE.AdditiveBlending }));
+scene.add(embers);
+// match lines for the rejoin
+const lineMat = new THREE.LineBasicMaterial({ color: 0x9fe0ff, transparent: true, opacity: 0, linewidth: 2 });
+const pairs = []; for (let j = 0; j < NY; j++) for (let i = 0; i < NX; i++) { const a = j * NX + i; if (i < NX - 1) pairs.push([a, a + 1]); if (j < NY - 1) pairs.push([a, a + NX]); }
+const lines = pairs.filter(p => p[0] !== MISSING && p[1] !== MISSING).map(p => { const g = new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]); const l = new THREE.Line(g, lineMat); scene.add(l); return { l, p }; });
+
+window.renderAt = (t) => {
+  // ---- phase weights
+  const crack = smooth((t - 12.2) / 1.2), apart = smooth((t - 13.2) / 3.5), toMuseum = smooth((t - 18) / 2), join = smooth((t - 23.5) / 4.5);
+  // ---- inscription
+  const nShow = Math.floor(wedges.length * smooth(t / 10.5));
+  wedges.forEach((w, i) => { w.mesh.visible = i < nShow; });
+  const cur = wedges[Math.min(wedges.length - 1, Math.max(0, nShow))];
+  const press = Math.abs(Math.sin(t * 9));
+  reedG.visible = t < 11.2;
+  if (cur) { reedG.position.set(cur.x, cur.y, TD / 2 + .15 + press * .35); reedG.rotation.set(.75, 0, -.75); }
+  // ---- fragments
+  const intact = t < 12.2; whole.visible = intact; frags.forEach(g => { g.userData_body.visible = !intact; });
+  frags.forEach(g => {
+    const u = g.userData;
+    let p = new THREE.Vector3(), r = new THREE.Vector3();
+    if (t < 18) {
+      const jitter = crack * (1 - apart) * .03;
+      p.set((u.cx) * .05 * crack + (rnd() - .5) * jitter, u.cy * .05 * crack, 0);
+      p.add(u.fall.clone().multiplyScalar(apart * .9)).add(new THREE.Vector3(u.cx * .35 * apart, u.cy * .25 * apart, 0));
+      r.copy(u.spin).multiplyScalar(apart * .5);
+    } else {
+      const floatP = u.scatter.clone().add(new THREE.Vector3(Math.sin(t * .6 + u.idx) * .15, Math.cos(t * .5 + u.idx) * .15, 0));
+      const k = u.idx === MISSING ? 0 : join;
+      p.copy(floatP).multiplyScalar(1 - k);
+      r.copy(u.spin).multiplyScalar(.35 * (1 - k));
+      if (u.idx === MISSING) g.visible = t < 18;            // lost: not among the museum fragments
+    }
+    g.position.copy(p); g.rotation.set(r.x, r.y, r.z);
+  });
+  // ---- lines between matched pieces (appear before the join)
+  const lo = smooth((t - 21) / 1.2) * (1 - smooth((t - 26.5) / 1.5));
+  lineMat.opacity = .9 * lo;
+  lines.forEach(({ l, p }) => {
+    const a = frags[p[0]], b = frags[p[1]];
+    const pa = new THREE.Vector3(a.userData.cx, a.userData.cy, TD / 2 + .2).applyMatrix4(a.matrixWorld.clone().multiply(new THREE.Matrix4())), pb = new THREE.Vector3(b.userData.cx, b.userData.cy, TD / 2 + .2);
+    a.updateMatrixWorld(); b.updateMatrixWorld();
+    const A = new THREE.Vector3(a.userData.cx, a.userData.cy, TD / 2 + .2).applyMatrix4(a.matrixWorld), B = new THREE.Vector3(b.userData.cx, b.userData.cy, TD / 2 + .2).applyMatrix4(b.matrixWorld);
+    l.geometry.setFromPoints([A, B]); l.visible = t > 18;
+  });
+  // ---- light & mood
+  const fireAmt = t < 18 ? smooth((t - 10.8) / 1.5) * (1 - toMuseum) : 0;
+  fire.intensity = fireAmt * (110 + 40 * Math.sin(t * 17) + 25 * Math.sin(t * 29));
+  key.intensity = lerp(260, 120, fireAmt) * (1 - toMuseum) + 150 * toMuseum;
+  key.color.setRGB(lerp(1, .85, toMuseum), lerp(.84, .9, toMuseum), lerp(.63, 1, toMuseum));
+  cool.intensity = 2.2 * toMuseum; hemi.intensity = lerp(.55, .25, fireAmt) + .5 * toMuseum;
+  scene.background = new THREE.Color().setRGB(lerp(.035, .2, fireAmt * .6) * (1 - toMuseum) + .05 * toMuseum, lerp(.025, .05, fireAmt) * (1 - toMuseum) + .065 * toMuseum, .02 * (1 - toMuseum) + .085 * toMuseum);
+  table.visible = t < 18;
+  embers.material.opacity = fireAmt * .95;
+  for (let i = 0; i < N_EMB; i++) { const s = embSeed[i]; const life = (t * .25 * s[3] + s[1]) % 1;
+    embPos[i * 3] = s[0] + Math.sin(t * s[3] + i) * .4; embPos[i * 3 + 1] = -6 + life * 14; embPos[i * 3 + 2] = s[2]; }
+  embGeo.attributes.position.needsUpdate = true;
+  // ---- camera: close and low over the scribe's work, pull back for the fire, gallery view for the join
+  let cp, ct;
+  if (t < 11) { const u = smooth(t / 11); cp = new THREE.Vector3(lerp(3.5, -1.5, u), lerp(-4, -7, u), lerp(11, 19, u)); ct = new THREE.Vector3(lerp(1.2, 0, u), lerp(2.2, 0, u), 0); }
+  else if (t < 18) { const u = smooth((t - 11) / 7); cp = new THREE.Vector3(lerp(-1.5, -2.5, u), lerp(-7, -9, u), lerp(19, 23, u)); ct = new THREE.Vector3(0, lerp(0, -1.5, u), 0); }
+  else { const u = smooth((t - 18) / 12); cp = new THREE.Vector3(lerp(3, 0, u), lerp(-3, -1, u), lerp(30, 22, u)); ct = new THREE.Vector3(0, 0, 0); }
+  cam.position.copy(cp); cam.lookAt(ct);
+  renderer.render(scene, cam);
+};
+window.ready = true;
+</script></body></html>

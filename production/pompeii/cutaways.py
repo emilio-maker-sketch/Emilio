@@ -315,7 +315,13 @@ def frame_object(im, pw, ph):
     bw, bh = bw * 1.07, bh * 1.07                    # room for the slow push-in
     cx, cy = (x0 + x1) / 2, (y0 + y1) / 2
     e = max(4, int(min(im.shape[:2]) * .03)); bg = np.median(np.concatenate([im[:e].reshape(-1, 3), im[-e:].reshape(-1, 3)]), 0)
-    pad = int(max(bw, bh)); big = cv2.copyMakeBorder(im, pad, pad, pad, pad, cv2.BORDER_REPLICATE)
+    pad = int(max(bw, bh))
+    # pad with the backdrop colour and feather the seam (edge replication smeared the border into stripes)
+    big = np.zeros((im.shape[0] + 2 * pad, im.shape[1] + 2 * pad, 3), np.float32) + bg.astype(np.float32)
+    m = np.zeros(im.shape[:2], np.float32); f_ = max(3, int(min(im.shape[:2]) * .04)); m[f_:-f_, f_:-f_] = 1
+    m = cv2.GaussianBlur(m, (0, 0), f_ / 2)[..., None]
+    big[pad:pad + im.shape[0], pad:pad + im.shape[1]] = im.astype(np.float32) * m + bg.astype(np.float32) * (1 - m)
+    big = big.astype(np.uint8)
     X0, Y0 = int(cx - bw/2 + pad), int(cy - bh/2 + pad)
     crop = big[Y0:Y0 + int(bh), X0:X0 + int(bw)]
     return cv2.resize(crop, (int(pw * 1.07) + 2, int(ph * 1.07) + 2), interpolation=cv2.INTER_AREA)

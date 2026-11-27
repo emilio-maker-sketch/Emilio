@@ -16,3 +16,9 @@ production/pompeii/three/test/
 production/pompeii/three/*.log
 production/pompeii/three/test_sheet.jpg
 production/models/
+production/nineveh/build/
+production/nineveh/three/node_modules
+production/nineveh/three/frames/
+production/nineveh/three/test_frames/
+production/nineveh/three/*.log
+production/nineveh/three/test_sheet*.jpg

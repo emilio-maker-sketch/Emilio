@@ -11,7 +11,7 @@ import os, re, json, glob
 import textmatch as TM
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-DOC = r'photograph|albumen|salted paper|gelatin|print|oil on|watercolor|engraving|lithograph|etching|drawing|gouache|daguerreotype|map|plan'
+DOC = r'photograph|albumen|salted paper|gelatin|print|oil on|watercolor|engraving|lithograph|etching|drawing|gouache|daguerreotype|map|plan|paper, board|book|letters on'
 
 
 def records():
@@ -23,11 +23,14 @@ def records():
 
 
 def year_of(rec):
+    """Midpoint year of a museum date string; negative = B.C. ('ca. 668-627 BCE', 'late 1st millennium BCE', '8th-7th century BC')."""
     d = ' '.join(str(rec.get(k) or '') for k in ('date', 'period'))
-    m = re.search(r'(\d{1,4})(?:st|nd|rd|th)?\s*(century)?\s*(BCE|B\.C\.|BC|CE|A\.D\.|AD)?', d)
-    if not m: return None
-    v = int(m.group(1)); bc = bool(m.group(3) and 'B' in m.group(3))
-    if m.group(2): v = v * 100 - 50
+    if not re.search(r'\d', d): return None
+    bc = bool(re.search(r'\b(BCE|B\.C\.?|BC)\b', d))
+    nums = [int(x) for x in re.findall(r'(\d{1,4})(?:st|nd|rd|th)?', d)[:2]]
+    if 'millenni' in d: v = (sum(nums) / len(nums)) * 1000 - 500
+    elif 'century' in d: v = (sum(nums) / len(nums)) * 100 - 50
+    else: v = sum(nums) / len(nums)
     return -v if bc else v
 
 
