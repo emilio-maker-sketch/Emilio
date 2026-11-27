@@ -74,3 +74,9 @@ Title scores (vidIQ `score_title`, CTR model only):
 | Distances: Kaymaklı 9.9 km, Nevşehir 28.0 km, Tyana 61.3 km (great-circle, computed) | coordinates | ok |
 | Nevşehir 2014 discovery under the castle hill | press reports 2014–15 | confirm |
 | 1923 exchange: more than a million people moved | standard (about 1.2 million Orthodox, about 400,000 Muslims) | ok |
+
+## Third pass (2026-11-27)
+- Kaymaklı opened to visitors in 1964: Wikipedia; History Hit. Confirmed.
+- Özkonak found in 1972: consistent. The finder is a farmer in some accounts and the village imam in others, both irrigating fields. Narration: "a villager irrigating his fields".
+- Selime and Açıksaray: Kalas (Dumbarton Oaks report 2004–05; "Cappadocia's rock-cut courtyard complexes", in *Housing in Late Antiquity*, Brill 2007) studied 43 courtyard complexes and argues they were residences of the 10th–11th-century military aristocracy, not monasteries. Narration says "more than forty" and "has argued".
+- St Theodore church in Derinkuyu: a Greek Orthodox church in the town, photographed on Commons. Lower third gives no date until one is confirmed.

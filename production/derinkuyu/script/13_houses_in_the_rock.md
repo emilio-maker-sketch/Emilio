@@ -4,7 +4,7 @@ Not everyone in Byzantine Cappadocia lived in a simple village. Along the valley
 > WS | slow pan | photo | neutral | | Rock-cut courtyard complex at Açıksaray {LT: Açıksaray | rock-cut courtyard complexes} [q: Aciksaray Cappadocia rock cut]
 > MS | slow push | photo | neutral | | Carved facade with blind arches in Cappadocia [q: Aciksaray facade]
 
-At Selime, at the end of the Ihlara valley, an entire cliff was hollowed out into a vast complex with a church, a huge hall with a high carved ceiling, and a kitchen with a chimney cut through the rock. Researchers such as Veronica Kalas have argued that complexes like this were the houses of the local landowning elite, not only monasteries as was once assumed.
+At Selime, at the end of the Ihlara valley, an entire cliff was hollowed out into a vast complex with a church, a huge hall with a high carved ceiling, and a kitchen with a chimney cut through the rock. The art historian Veronica Kalas, who studied more than forty of these courtyard complexes, has argued that they were the houses of the local military aristocracy of the tenth and eleventh centuries, not monasteries as was long assumed.
 > WS | slow push | photo | neutral | | Selime rock-cut complex in the Ihlara valley {LT: Selime | Ihlara valley} [q: Selime monastery Cappadocia]
 > MS | drift | photo | neutral | | Large carved hall at Selime [q: Selime kalesi interior]
 

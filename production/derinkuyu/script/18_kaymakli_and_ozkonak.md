@@ -13,7 +13,7 @@ The rooms at Kaymaklı are low, the passages narrow and steep. There are storero
 > WS | drift | photo | neutral | | Storage room with niches in Kaymaklı [q: Kaymakli underground city 8939 Nevit]
 > CU | slow push | photo | neutral | | Rolling stone door at Kaymaklı [q: A circular door at Kaymakli Underground City]
 
-Further north, near the town of Avanos, is Özkonak. According to the local account, it came to light in 1972, when a farmer noticed that water he poured away kept disappearing into the ground. Following it, he found the tunnels beneath.
+Further north, near the town of Avanos, is Özkonak. According to the local accounts, it came to light in 1972, when a villager irrigating his fields noticed that the water kept disappearing into the ground. Following it, he found the tunnels beneath.
 > WS | slow push | photo | neutral | | Entrance of Özkonak underground city {LT: Özkonak underground city | near Avanos} [q: Entrance of Ozkonak Underground City]
 > STAT | static | stat | neutral | | 1972 :: Özkonak found, according to the local account
 
