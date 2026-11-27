@@ -1,0 +1,4862 @@
+[
+ {
+  "id": "00-00-0",
+  "chapter": "00_cold_open",
+  "para": 0,
+  "idx": 0,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "fire",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "An ancient Mediterranean city on a hill burning at dusk, columns of black smoke rising over flat-roofed houses and a temple on the citadel, the sea beyond"
+ },
+ {
+  "id": "00-00-1",
+  "chapter": "00_cold_open",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "fire",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers in bronze crested helmets advancing up a narrow stone street between tall flat-roofed houses, smoke drifting, burning doorways"
+ },
+ {
+  "id": "00-00-2",
+  "chapter": "00_cold_open",
+  "para": 0,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "fire",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers crossing a wooden plank laid between two rooftops, smoke below them"
+ },
+ {
+  "id": "00-00-3",
+  "chapter": "00_cold_open",
+  "para": 0,
+  "idx": 3,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "push",
+  "grade": "fire",
+  "refs": [],
+  "crop": [
+   0.25,
+   0.15,
+   0.75,
+   0.6
+  ],
+  "parent": "00-00-2",
+  "desc": "the plank and the soldiers' feet"
+ },
+ {
+  "id": "00-01-0",
+  "chapter": "00_cold_open",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [],
+  "desc": "A narrow ancient street full of fallen beams and rubble, houses ablaze on both sides, embers falling"
+ },
+ {
+  "id": "00-01-1",
+  "chapter": "00_cold_open",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "ash",
+  "refs": [],
+  "desc": "A bronze Roman helmet with a broken feather crest lying in ash and rubble, firelight"
+ },
+ {
+  "id": "00-01-2",
+  "chapter": "00_cold_open",
+  "para": 1,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "quote": "Men were trampled in every direction, some by horses, others by men.",
+  "attrib": "Appian, Punic Wars (paraphrased)",
+  "desc": "\"Men were trampled in every direction, some by horses, others by men.\" ~ Appian, Punic Wars (paraphrased)"
+ },
+ {
+  "id": "00-02-0",
+  "chapter": "00_cold_open",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A small group of exhausted Carthaginian men in long robes holding up olive branches, coming down a ruined hillside street at dawn, smoke behind them"
+ },
+ {
+  "id": "00-02-1",
+  "chapter": "00_cold_open",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "pull",
+  "grade": "ash",
+  "refs": [
+   "carthaginians",
+   "legion"
+  ],
+  "desc": "A long column of ragged men, women and children walking out through a gate between rows of Roman soldiers, a smoking city behind them"
+ },
+ {
+  "id": "00-02-2",
+  "chapter": "00_cold_open",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "ash",
+  "refs": [],
+  "desc": "50,000 :: people came out of the citadel, according to Appian"
+ },
+ {
+  "id": "00-03-0",
+  "chapter": "00_cold_open",
+  "para": 3,
+  "idx": 0,
+  "kind": "vid",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "aemilianus"
+  ],
+  "desc": "A stern Roman general in a red cloak standing on a hilltop at dusk watching a great city burn below, firelight on his face, eyes wet"
+ },
+ {
+  "id": "00-03-1",
+  "chapter": "00_cold_open",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "drift",
+  "grade": "fire",
+  "refs": [
+   "polybius"
+  ],
+  "desc": "A thoughtful grey-bearded Greek man in a plain cloak standing on a hilltop at dusk, watching a Roman general beside him"
+ },
+ {
+  "id": "00-03-2",
+  "chapter": "00_cold_open",
+  "para": 3,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "fire",
+  "refs": [
+   "aemilianus"
+  ],
+  "desc": "The Roman general's face in firelight, tears on his cheek, jaw set"
+ },
+ {
+  "id": "00-04-0",
+  "chapter": "00_cold_open",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "snow",
+  "refs": [
+   "elephants",
+   "punic_army"
+  ],
+  "desc": "War elephants and soldiers climbing a snowy mountain pass in a blizzard, a long column disappearing into the clouds"
+ },
+ {
+  "id": "00-04-1",
+  "chapter": "00_cold_open",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "crane-up",
+  "grade": "gold",
+  "refs": [
+   "carthage",
+   "harbour"
+  ],
+  "desc": "Ancient Carthage at its height seen from above the sea at golden hour, a round naval harbour with a round island, warships in their sheds, the citadel hill beyond"
+ },
+ {
+  "id": "00-04-2",
+  "chapter": "00_cold_open",
+  "para": 4,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage coin horse palm tree tetradrachm",
+  "desc": "Carthaginian coin with horse and palm tree"
+ },
+ {
+  "id": "01-00-0",
+  "chapter": "01_the_new_city",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the eastern Mediterranean showing Phoenicia with Tyre, Sidon and Byblos on the Lebanese coast"
+ },
+ {
+  "id": "01-00-1",
+  "chapter": "01_the_new_city",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "gold",
+  "refs": [],
+  "desc": "An ancient Phoenician island city with high walls and twin harbours just off a rocky Levantine coast, merchant ships with curved prows at anchor"
+ },
+ {
+  "id": "01-00-2",
+  "chapter": "01_the_new_city",
+  "para": 0,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Murex brandaris shells Tyrian purple",
+  "desc": "Murex shells used for Tyrian purple dye"
+ },
+ {
+  "id": "01-00-3",
+  "chapter": "01_the_new_city",
+  "para": 0,
+  "idx": 3,
+  "kind": "photo",
+  "size": "CU",
+  "move": "scan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Ahiram sarcophagus inscription Phoenician",
+  "desc": "Phoenician alphabet inscription"
+ },
+ {
+  "id": "01-01-0",
+  "chapter": "01_the_new_city",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "A Phoenician merchant's hand writing letters with a reed pen on a pottery shard by lamplight"
+ },
+ {
+  "id": "01-01-1",
+  "chapter": "01_the_new_city",
+  "para": 1,
+  "idx": 1,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Phoenician trade routes spreading west across the Mediterranean to Cyprus, Sicily, Sardinia, North Africa and Gades in Spain"
+ },
+ {
+  "id": "01-01-2",
+  "chapter": "01_the_new_city",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A Phoenician merchant ship with a horse-head prow under a square sail, crossing a deep blue sea at dawn"
+ },
+ {
+  "id": "01-02-0",
+  "chapter": "01_the_new_city",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [],
+  "desc": "An untouched peninsula on the North African coast at dawn, a low hill above a sheltered bay, a single ship anchored offshore"
+ },
+ {
+  "id": "01-02-1",
+  "chapter": "01_the_new_city",
+  "para": 2,
+  "idx": 1,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "QART-HADASHT · \"New City\" · Karchedon · Carthago · Carthage"
+ },
+ {
+  "id": "01-02-2",
+  "chapter": "01_the_new_city",
+  "para": 2,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Punic inscription stele Carthage",
+  "desc": "Punic inscription stele from Carthage"
+ },
+ {
+  "id": "01-03-0",
+  "chapter": "01_the_new_city",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [],
+  "desc": "A young Phoenician noblewoman in a dark veil and gold jewellery boarding a ship at night by torchlight, chests carried aboard behind her"
+ },
+ {
+  "id": "01-03-1",
+  "chapter": "01_the_new_city",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "night",
+  "refs": [],
+  "desc": "The young Phoenician queen's face lit by torchlight on the deck of a ship at sea, resolute"
+ },
+ {
+  "id": "01-03-2",
+  "chapter": "01_the_new_city",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Turner Dido building Carthage",
+  "desc": "Dido building Carthage by J. M. W. Turner"
+ },
+ {
+  "id": "01-03-3",
+  "chapter": "01_the_new_city",
+  "para": 3,
+  "idx": 3,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "reveal",
+  "grade": "neutral",
+  "refs": [],
+  "crop": [
+   0.3,
+   0.25,
+   0.75,
+   0.75
+  ],
+  "parent": "01-03-2",
+  "desc": "the builders on the shore"
+ },
+ {
+  "id": "01-04-0",
+  "chapter": "01_the_new_city",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "Hands cutting a large ox-hide into very thin strips with a bronze knife on a wooden table"
+ },
+ {
+  "id": "01-04-1",
+  "chapter": "01_the_new_city",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "crane-down",
+  "grade": "gold",
+  "refs": [],
+  "desc": "A long thin leather cord being laid out in a great circle around the foot of a hill by Phoenician settlers"
+ },
+ {
+  "id": "01-04-2",
+  "chapter": "01_the_new_city",
+  "para": 4,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Byrsa hill Carthage",
+  "desc": "Byrsa hill in Carthage today"
+ },
+ {
+  "id": "01-05-0",
+  "chapter": "01_the_new_city",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Guercino Death of Dido",
+  "desc": "Death of Dido painting"
+ },
+ {
+  "id": "01-05-1",
+  "chapter": "01_the_new_city",
+  "para": 5,
+  "idx": 1,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "Let there be no love between our peoples, and no treaty.",
+  "attrib": "Dido's curse, Virgil, Aeneid, book 4",
+  "desc": "\"Let there be no love between our peoples, and no treaty.\" ~ Dido's curse, Virgil, Aeneid, book 4"
+ },
+ {
+  "id": "01-06-0",
+  "chapter": "01_the_new_city",
+  "para": 6,
+  "idx": 0,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "814 BC: Carthage founded (tradition)* ; 776 BC: First Olympic Games ; 753 BC: Rome founded (tradition) ; 509 BC: Roman Republic"
+ },
+ {
+  "id": "01-06-1",
+  "chapter": "01_the_new_city",
+  "para": 6,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage Punic pottery Bardo museum",
+  "desc": "Early Phoenician pottery from Carthage"
+ },
+ {
+  "id": "02-00-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the western Mediterranean around 300 BC with Carthaginian territory growing across North Africa, western Sicily, Sardinia, the Balearics and southern Spain"
+ },
+ {
+  "id": "02-00-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 0,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "gold",
+  "refs": [
+   "carthage",
+   "harbour"
+  ],
+  "desc": "Ancient Carthage at golden hour seen from a ship approaching the harbour, warships in a round harbour, flat-roofed houses rising up a citadel hill"
+ },
+ {
+  "id": "02-00-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 0,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A busy ancient harbour quay, Carthaginian merchants in long robes weighing silver ingots on scales, amphorae stacked behind them"
+ },
+ {
+  "id": "02-00-3",
+  "chapter": "02_queen_of_the_sea",
+  "para": 0,
+  "idx": 3,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage gold stater Tanit horse",
+  "desc": "Carthaginian gold stater coin with Tanit"
+ },
+ {
+  "id": "02-01-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "A narrow ancient street in Carthage climbing a hill between whitewashed five-storey houses with small windows and flat roofs, people in long robes, a donkey with baskets"
+ },
+ {
+  "id": "02-01-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Punic quarter Byrsa Carthage ruins",
+  "desc": "Punic quarter ruins on Byrsa hill, Carthage"
+ },
+ {
+  "id": "02-01-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 1,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "focus",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kerkouane bathtub Punic",
+  "desc": "Punic bathtub or house remains at Kerkouane"
+ },
+ {
+  "id": "02-01-3",
+  "chapter": "02_queen_of_the_sea",
+  "para": 1,
+  "idx": 3,
+  "kind": "photo",
+  "size": "MS",
+  "move": "crane-down",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Kerkouane ruins",
+  "desc": "Kerkouane Punic town ruins"
+ },
+ {
+  "id": "02-02-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 2,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "harbours"
+ },
+ {
+  "id": "02-02-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "crane-down",
+  "grade": "gold",
+  "refs": [
+   "harbour",
+   "ships"
+  ],
+  "desc": "Overhead view of an ancient circular naval harbour with a round island in the centre, long rows of covered ship sheds with columns all around the basin, galleys inside"
+ },
+ {
+  "id": "02-02-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 2,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "harbour",
+   "ships"
+  ],
+  "desc": "Inside the covered ship sheds of an ancient naval harbour, a row of warship hulls with bronze rams on wooden slipways between pairs of columns"
+ },
+ {
+  "id": "02-02-3",
+  "chapter": "02_queen_of_the_sea",
+  "para": 2,
+  "idx": 3,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Punic ports Carthage circular harbour",
+  "desc": "Punic ports of Carthage today, the circular harbour"
+ },
+ {
+  "id": "02-03-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "candle",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A council of bearded Carthaginian elders in long robes seated in a stone hall lit by oil lamps, one standing to speak"
+ },
+ {
+  "id": "02-03-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Aristotle bust Altemps",
+  "desc": "Bust of Aristotle"
+ },
+ {
+  "id": "02-03-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 3,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "quote": "Many of the Carthaginian institutions are excellent.",
+  "attrib": "Aristotle, Politics, book 2",
+  "desc": "\"Many of the Carthaginian institutions are excellent.\" ~ Aristotle, Politics, book 2"
+ },
+ {
+  "id": "02-04-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Sign of Tanit stele Carthage",
+  "desc": "Sign of Tanit carved on a stele"
+ },
+ {
+  "id": "02-04-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Tophet Salammbo Carthage",
+  "desc": "Tophet of Salammbo in Carthage"
+ },
+ {
+  "id": "02-04-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 4,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "focus",
+  "grade": "neutral",
+  "refs": [],
+  "q": "tophet urns Carthage",
+  "desc": "Tophet urns Carthage"
+ },
+ {
+  "id": "02-05-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "night",
+  "refs": [],
+  "desc": "A row of weathered stone grave markers carved with a triangle-and-circle symbol in a dark sacred enclosure lit by a single torch"
+ },
+ {
+  "id": "02-05-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 5,
+  "idx": 1,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "q": "Diodorus Siculus manuscript Bibliotheca historica",
+    "label": "The written accounts"
+   },
+   {
+    "q": "Carthage tophet stele urn museum",
+    "label": "The excavated urns"
+   }
+  ],
+  "desc": "The written accounts [q: Diodorus Siculus manuscript Bibliotheca historica] || The excavated urns [q: Carthage tophet stele urn museum]"
+ },
+ {
+  "id": "02-06-0",
+  "chapter": "02_queen_of_the_sea",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Greek and Carthaginian war galleys ramming each other in a sea battle off a rocky Sicilian coast, splintered oars and smoke"
+ },
+ {
+  "id": "02-06-1",
+  "chapter": "02_queen_of_the_sea",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "scan",
+  "grade": "candle",
+  "refs": [],
+  "desc": "A bronze treaty tablet with Phoenician and Latin letters on a temple wall, lamplight"
+ },
+ {
+  "id": "02-06-2",
+  "chapter": "02_queen_of_the_sea",
+  "para": 6,
+  "idx": 2,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "509 BC: First treaty with Rome* ; 480 BC: Battle of Himera ; 348 BC: Second treaty ; 279 BC: Alliance against Pyrrhus ; 264 BC: War"
+ },
+ {
+  "id": "03-00-0",
+  "chapter": "03_the_first_war",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Sicily in 264 BC showing Carthaginian territory in the west, Syracuse in the east, Messana on the strait and Rome's Italy to the north"
+ },
+ {
+  "id": "03-00-1",
+  "chapter": "03_the_first_war",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "dawn",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers crowded onto small ships and rafts crossing a narrow strait at dawn toward a hilly island coast"
+ },
+ {
+  "id": "03-00-2",
+  "chapter": "03_the_first_war",
+  "para": 0,
+  "idx": 2,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "264 BC: First Punic War* ; 218 BC: Second Punic War ; 149 BC: Third Punic War ; 146 BC: Carthage destroyed"
+ },
+ {
+  "id": "03-01-0",
+  "chapter": "03_the_first_war",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A wrecked ancient war galley lying on its side on a beach, Roman carpenters measuring its timbers and sketching on wax tablets"
+ },
+ {
+  "id": "03-01-1",
+  "chapter": "03_the_first_war",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "crane-up",
+  "grade": "gold",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A vast Roman shipyard on a beach, dozens of half-built war galleys on wooden slipways, hundreds of workers with timber"
+ },
+ {
+  "id": "03-01-2",
+  "chapter": "03_the_first_war",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Rows of Roman oarsmen practising rowing on wooden benches set up on a sandy beach, an officer calling the time"
+ },
+ {
+  "id": "03-01-3",
+  "chapter": "03_the_first_war",
+  "para": 1,
+  "idx": 3,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "100 ships in 60 days :: according to Polybius"
+ },
+ {
+  "id": "03-02-0",
+  "chapter": "03_the_first_war",
+  "para": 2,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "corvus"
+ },
+ {
+  "id": "03-02-1",
+  "chapter": "03_the_first_war",
+  "para": 2,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships",
+   "legion"
+  ],
+  "desc": "A wooden boarding bridge with an iron spike crashing down onto the deck of an enemy galley, Roman soldiers with oval shields charging across it"
+ },
+ {
+  "id": "03-02-2",
+  "chapter": "03_the_first_war",
+  "para": 2,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Burning Carthaginian galleys drifting in smoke after a sea battle, Roman ships rowing among them"
+ },
+ {
+  "id": "03-03-0",
+  "chapter": "03_the_first_war",
+  "para": 3,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Regulus's invasion: the Roman fleet sailing from Sicily past Ecnomus to land at Aspis in Africa, marching toward Carthage"
+ },
+ {
+  "id": "03-03-1",
+  "chapter": "03_the_first_war",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "elephants",
+   "legion"
+  ],
+  "desc": "War elephants charging into a line of Roman soldiers on an open plain in North Africa, dust and broken spears"
+ },
+ {
+  "id": "03-03-2",
+  "chapter": "03_the_first_war",
+  "para": 3,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [],
+  "desc": "A defeated Roman consul in chains in a stone cell, lamplight, head bowed"
+ },
+ {
+  "id": "03-04-0",
+  "chapter": "03_the_first_war",
+  "para": 4,
+  "idx": 0,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A fleet of ancient galleys being smashed against a rocky coast in a violent storm, huge waves, broken oars"
+ },
+ {
+  "id": "03-04-1",
+  "chapter": "03_the_first_war",
+  "para": 4,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "desc": "364 ships · 80 survived :: the storm off Camarina, 255 BC"
+ },
+ {
+  "id": "03-04-2",
+  "chapter": "03_the_first_war",
+  "para": 4,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [],
+  "desc": "Wreckage of ancient galleys and oars washed up along a grey beach after a storm"
+ },
+ {
+  "id": "03-05-0",
+  "chapter": "03_the_first_war",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "hamilcar"
+  ],
+  "lt": [
+   "Hamilcar Barca",
+   "Carthaginian general"
+  ],
+  "desc": "A powerful Carthaginian general with a grey-flecked beard and bronze armour standing on a rocky mountain top in Sicily, looking out to sea"
+ },
+ {
+  "id": "03-05-1",
+  "chapter": "03_the_first_war",
+  "para": 5,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Erice Monte Sicily view",
+  "desc": "Monte Erice or Mount Eryx Sicily"
+ },
+ {
+  "id": "03-06-0",
+  "chapter": "03_the_first_war",
+  "para": 6,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Aegates Islands off western Sicily, the battle of 241 BC"
+ },
+ {
+  "id": "03-06-1",
+  "chapter": "03_the_first_war",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Roman galleys ramming heavily loaded Carthaginian ships in rough grey sea off a group of rocky islands"
+ },
+ {
+  "id": "03-06-2",
+  "chapter": "03_the_first_war",
+  "para": 6,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Egadi rostrum bronze ram",
+  "desc": "Bronze ram from the Battle of the Egadi Islands"
+ },
+ {
+  "id": "03-06-3",
+  "chapter": "03_the_first_war",
+  "para": 6,
+  "idx": 3,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "scan",
+  "grade": "neutral",
+  "refs": [],
+  "crop": [
+   0.15,
+   0.25,
+   0.85,
+   0.75
+  ],
+  "parent": "03-06-2",
+  "desc": "the inscription on the ram"
+ },
+ {
+  "id": "03-07-0",
+  "chapter": "03_the_first_war",
+  "para": 7,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the western Mediterranean in 241 BC: Sicily becomes Roman, Carthage keeps Sardinia and North Africa"
+ },
+ {
+  "id": "03-07-1",
+  "chapter": "03_the_first_war",
+  "para": 7,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "3,200 talents :: of silver, about 80 tonnes, over 10 years"
+ },
+ {
+  "id": "03-07-2",
+  "chapter": "03_the_first_war",
+  "para": 7,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "candle",
+  "refs": [
+   "hamilcar"
+  ],
+  "desc": "The bearded Carthaginian general's face in shadow, eyes hard, in a dark tent"
+ },
+ {
+  "id": "04-00-0",
+  "chapter": "04_the_oath",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "gold",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "An angry crowd of mercenary soldiers of many nations in a dusty camp outside a city, waving spears and shouting at an official on a cart"
+ },
+ {
+  "id": "04-00-1",
+  "chapter": "04_the_oath",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A nervous Carthaginian official in a long robe standing before chests of coins that are almost empty, soldiers glaring at him"
+ },
+ {
+  "id": "04-01-0",
+  "chapter": "04_the_oath",
+  "para": 1,
+  "idx": 0,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "quote": "The Truceless War.",
+  "attrib": "Polybius's name for the Mercenary War, 241–237 BC",
+  "desc": "\"The Truceless War.\" ~ Polybius's name for the Mercenary War, 241–237 BC"
+ },
+ {
+  "id": "04-01-1",
+  "chapter": "04_the_oath",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "A starving ragged army trapped in a narrow dry mountain valley under a grey sky, Carthaginian troops on the ridges above"
+ },
+ {
+  "id": "04-01-2",
+  "chapter": "04_the_oath",
+  "para": 1,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Salammbo Flaubert illustration",
+  "desc": "Salammbo by Flaubert, illustration or painting"
+ },
+ {
+  "id": "04-01-3",
+  "chapter": "04_the_oath",
+  "para": 1,
+  "idx": 3,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "steel",
+  "refs": [
+   "hamilcar"
+  ],
+  "desc": "The bearded Carthaginian general on horseback on a ridge, looking down without pity"
+ },
+ {
+  "id": "04-02-0",
+  "chapter": "04_the_oath",
+  "para": 2,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map showing Rome seizing Sardinia and Corsica in 238 BC"
+ },
+ {
+  "id": "04-02-1",
+  "chapter": "04_the_oath",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "candle",
+  "refs": [
+   "romans"
+  ],
+  "desc": "Stern Roman senators in white togas in a candlelit hall dictating terms to a kneeling Carthaginian envoy"
+ },
+ {
+  "id": "04-02-2",
+  "chapter": "04_the_oath",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "1,200 talents :: demanded on top of the first indemnity"
+ },
+ {
+  "id": "04-03-0",
+  "chapter": "04_the_oath",
+  "para": 3,
+  "idx": 0,
+  "kind": "vid",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "hamilcar",
+   "young_hannibal"
+  ],
+  "desc": "In a dark Carthaginian temple lit by fire, a bearded general guides his nine-year-old son's hand onto a stone altar, the boy looking up solemnly"
+ },
+ {
+  "id": "04-03-1",
+  "chapter": "04_the_oath",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "candle",
+  "refs": [
+   "young_hannibal"
+  ],
+  "desc": "A nine-year-old Carthaginian boy's face lit by altar fire, eyes wide and serious"
+ },
+ {
+  "id": "04-03-2",
+  "chapter": "04_the_oath",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Hannibal swearing eternal enmity Rome painting",
+  "desc": "Hannibal swearing enmity to Rome painting"
+ },
+ {
+  "id": "04-04-0",
+  "chapter": "04_the_oath",
+  "para": 4,
+  "idx": 0,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "My father made me swear that I would never be a friend to the Romans.",
+  "attrib": "Hannibal to King Antiochus, as told by Polybius",
+  "desc": "\"My father made me swear that I would never be a friend to the Romans.\" ~ Hannibal to King Antiochus, as told by Polybius"
+ },
+ {
+  "id": "04-04-1",
+  "chapter": "04_the_oath",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "gold",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A Carthaginian fleet with square sails leaving a harbour at dawn heading west, a boy standing at the stern of one ship"
+ },
+ {
+  "id": "04-05-0",
+  "chapter": "04_the_oath",
+  "para": 5,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Carthaginian Spain 237–219 BC: Gades, the silver mines of the Sierra Morena, New Carthage and the river Ebro"
+ },
+ {
+  "id": "04-05-1",
+  "chapter": "04_the_oath",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [],
+  "desc": "Ancient miners with oil lamps hauling baskets of ore in a narrow underground silver mine shaft"
+ },
+ {
+  "id": "04-05-2",
+  "chapter": "04_the_oath",
+  "para": 5,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Muralla Punica Cartagena",
+  "desc": "Punic wall of Cartagena"
+ },
+ {
+  "id": "04-05-3",
+  "chapter": "04_the_oath",
+  "para": 5,
+  "idx": 3,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Barcid shekel Carthago Nova",
+  "desc": "Barcid silver shekel from Spain"
+ },
+ {
+  "id": "04-06-0",
+  "chapter": "04_the_oath",
+  "para": 6,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Spain showing the Ebro treaty line of 226 BC and the city of Saguntum south of it"
+ },
+ {
+  "id": "04-06-1",
+  "chapter": "04_the_oath",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "crane-up",
+  "grade": "gold",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "A great army of Carthaginians, Iberians and Libyans raising spears and shields and shouting in acclamation in a dusty camp"
+ },
+ {
+  "id": "04-06-2",
+  "chapter": "04_the_oath",
+  "para": 6,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "hannibal"
+  ],
+  "lt": [
+   "Hannibal Barca",
+   "Carthaginian commander, aged 26"
+  ],
+  "desc": "A young Carthaginian commander of twenty-six with a short dark beard, bronze cuirass and red tunic, standing before his cheering army"
+ },
+ {
+  "id": "05-00-0",
+  "chapter": "05_hannibal",
+  "para": 0,
+  "idx": 0,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "q": "Barcid shekel Hannibal coin",
+    "label": "Barcid coin, Spain"
+   },
+   {
+    "q": "Hannibal bust Naples",
+    "label": "\"Hannibal\" bust, Naples"
+   }
+  ],
+  "desc": "Barcid coin, Spain [q: Barcid shekel Hannibal coin] || \"Hannibal\" bust, Naples [q: Hannibal bust Naples]"
+ },
+ {
+  "id": "05-00-1",
+  "chapter": "05_hannibal",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Hannibal Barca bust Museo Archeologico Nazionale Napoli",
+  "desc": "Hannibal bust Naples, marble"
+ },
+ {
+  "id": "05-00-2",
+  "chapter": "05_hannibal",
+  "para": 0,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "candle",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A Carthaginian commander's face half in shadow by lamplight, short dark beard, watching"
+ },
+ {
+  "id": "05-01-0",
+  "chapter": "05_hannibal",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A Carthaginian commander asleep on the bare ground beside a campfire among sentries, wrapped in a plain soldier's cloak"
+ },
+ {
+  "id": "05-01-1",
+  "chapter": "05_hannibal",
+  "para": 1,
+  "idx": 1,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "night",
+  "refs": [],
+  "quote": "He was the first to enter battle and the last to leave it.",
+  "attrib": "Livy, History of Rome, book 21",
+  "desc": "\"He was the first to enter battle and the last to leave it.\" ~ Livy, History of Rome, book 21"
+ },
+ {
+  "id": "05-01-2",
+  "chapter": "05_hannibal",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "hannibal",
+   "punic_army"
+  ],
+  "desc": "A Carthaginian commander riding along a line of soldiers on a dusty plain, soldiers cheering as he passes"
+ },
+ {
+  "id": "05-02-0",
+  "chapter": "05_hannibal",
+  "para": 2,
+  "idx": 0,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "Inhuman cruelty, a treachery worse than Punic.",
+  "attrib": "Livy on Hannibal, book 21",
+  "desc": "\"Inhuman cruelty, a treachery worse than Punic.\" ~ Livy on Hannibal, book 21"
+ },
+ {
+  "id": "05-02-1",
+  "chapter": "05_hannibal",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "scan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Livy Ab Urbe Condita manuscript",
+  "desc": "Medieval manuscript of Livy"
+ },
+ {
+  "id": "05-03-0",
+  "chapter": "05_hannibal",
+  "para": 3,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of eastern Spain zooming in from the Ebro to Saguntum on the coast, 219 BC"
+ },
+ {
+  "id": "05-03-1",
+  "chapter": "05_hannibal",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "gold",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "A Carthaginian army attacking the stone walls of a hilltop Spanish town with a battering ram and siege tower under a hot sky"
+ },
+ {
+  "id": "05-03-2",
+  "chapter": "05_hannibal",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Sagunto castle hill",
+  "desc": "Castle hill of Sagunto"
+ },
+ {
+  "id": "05-03-3",
+  "chapter": "05_hannibal",
+  "para": 3,
+  "idx": 3,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "desc": "Citizens of a besieged ancient town throwing gold and possessions into a great bonfire in a square, flames rising"
+ },
+ {
+  "id": "05-04-0",
+  "chapter": "05_hannibal",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "carthaginians",
+   "romans"
+  ],
+  "desc": "A Roman envoy in a white toga standing in a Carthaginian council hall full of bearded men in long robes, lamplight"
+ },
+ {
+  "id": "05-04-1",
+  "chapter": "05_hannibal",
+  "para": 4,
+  "idx": 1,
+  "kind": "vid",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "romans"
+  ],
+  "desc": "An elderly Roman envoy gathering a fold of his white toga in his fist, then letting it fall open, his face hard"
+ },
+ {
+  "id": "05-04-2",
+  "chapter": "05_hannibal",
+  "para": 4,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "Here we bring you peace and war. Choose which you please.",
+  "attrib": "Roman envoy at Carthage, 218 BC, as told by Livy",
+  "desc": "\"Here we bring you peace and war. Choose which you please.\" ~ Roman envoy at Carthage, 218 BC, as told by Livy"
+ },
+ {
+  "id": "05-05-0",
+  "chapter": "05_hannibal",
+  "para": 5,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Rome's plan in 218 BC: one army to Spain, one to Africa; then Hannibal's planned route from New Carthage over the Pyrenees and Alps to Italy, shown as a dashed line"
+ },
+ {
+  "id": "05-05-1",
+  "chapter": "05_hannibal",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A Carthaginian commander leaning over a large hide map spread on a table in a tent by lamplight, tracing a route with his finger"
+ },
+ {
+  "id": "05-05-2",
+  "chapter": "05_hannibal",
+  "para": 5,
+  "idx": 2,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "reveal",
+  "grade": "candle",
+  "refs": [],
+  "crop": [
+   0.35,
+   0.45,
+   0.85,
+   0.95
+  ],
+  "parent": "05-05-1",
+  "desc": "the finger on the map"
+ },
+ {
+  "id": "06-00-0",
+  "chapter": "06_the_alps",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Hannibal's march 218 BC part one: New Carthage to the Ebro and over the Pyrenees, animated route"
+ },
+ {
+  "id": "06-00-1",
+  "chapter": "06_the_alps",
+  "para": 0,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "crane-down",
+  "grade": "gold",
+  "refs": [
+   "punic_army",
+   "elephants"
+  ],
+  "desc": "A vast ancient army with war elephants, cavalry and infantry columns marching out of a coastal city gate along a dusty road at dawn"
+ },
+ {
+  "id": "06-00-2",
+  "chapter": "06_the_alps",
+  "para": 0,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "90,000 infantry · 12,000 cavalry · 37 elephants :: Hannibal's army leaving Spain, according to Polybius"
+ },
+ {
+  "id": "06-01-0",
+  "chapter": "06_the_alps",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Carthaginian soldiers paddling hundreds of small boats and dugout canoes across a wide fast river at dawn, Gallic warriors waiting on the far bank"
+ },
+ {
+  "id": "06-01-1",
+  "chapter": "06_the_alps",
+  "para": 1,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "elephants"
+  ],
+  "desc": "War elephants standing on a large wooden raft covered with earth, being towed across a wide river by rowing boats, a driver calming one"
+ },
+ {
+  "id": "06-01-2",
+  "chapter": "06_the_alps",
+  "para": 1,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Hannibal elephants Rhone Motte",
+  "desc": "Hannibal's elephants crossing the Rhône, Henri-Paul Motte"
+ },
+ {
+  "id": "06-02-0",
+  "chapter": "06_the_alps",
+  "para": 2,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Rhône delta: Scipio's fleet landing near Massalia while Hannibal's route turns north up the river toward the Alps"
+ },
+ {
+  "id": "06-02-1",
+  "chapter": "06_the_alps",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A Roman consul in a red cloak on a riverbank studying the deep tracks of elephants in the mud, officers beside him"
+ },
+ {
+  "id": "06-03-0",
+  "chapter": "06_the_alps",
+  "para": 3,
+  "idx": 0,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "snow",
+  "refs": [
+   "punic_army",
+   "elephants"
+  ],
+  "desc": "A long column of soldiers, horses and war elephants climbing a narrow path along a cliff in the high Alps, snow falling, clouds below"
+ },
+ {
+  "id": "06-03-1",
+  "chapter": "06_the_alps",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Mountain tribesmen rolling boulders down a steep slope onto a column of soldiers and pack mules in a narrow rocky pass"
+ },
+ {
+  "id": "06-03-2",
+  "chapter": "06_the_alps",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Turner Snow Storm Hannibal crossing the Alps",
+  "desc": "Snow Storm: Hannibal and his Army Crossing the Alps, J. M. W. Turner"
+ },
+ {
+  "id": "06-03-3",
+  "chapter": "06_the_alps",
+  "para": 3,
+  "idx": 3,
+  "kind": "still",
+  "size": "MS",
+  "move": "crane-up",
+  "grade": "snow",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A bearded commander in a snow-covered cloak standing at the top of a mountain pass pointing down to green plains far below, exhausted soldiers turning to look"
+ },
+ {
+  "id": "06-04-0",
+  "chapter": "06_the_alps",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "snow",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Soldiers building a huge fire against a boulder blocking a narrow mountain path, steam rising, snow everywhere"
+ },
+ {
+  "id": "06-04-1",
+  "chapter": "06_the_alps",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "desc": "Sour wine being poured from an amphora onto a cracked red-hot rock, hissing steam"
+ },
+ {
+  "id": "06-04-2",
+  "chapter": "06_the_alps",
+  "para": 4,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "snow",
+  "refs": [],
+  "desc": "15 days :: to cross the Alps"
+ },
+ {
+  "id": "06-05-0",
+  "chapter": "06_the_alps",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Col de la Traversette",
+  "desc": "Col de la Traversette in the Alps"
+ },
+ {
+  "id": "06-05-1",
+  "chapter": "06_the_alps",
+  "para": 5,
+  "idx": 1,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the western Alps showing the main proposed routes of Hannibal: Little St Bernard, Mont Cenis, Col du Clapier and Col de la Traversette"
+ },
+ {
+  "id": "06-06-0",
+  "chapter": "06_the_alps",
+  "para": 6,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "20,000 infantry · 6,000 cavalry :: arrived in Italy, from Hannibal's own inscription"
+ },
+ {
+  "id": "06-06-1",
+  "chapter": "06_the_alps",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "punic_army",
+   "elephants"
+  ],
+  "desc": "An exhausted, ragged army with a few elephants coming down from the mountains into a green valley in autumn sunlight"
+ },
+ {
+  "id": "06-06-2",
+  "chapter": "06_the_alps",
+  "para": 6,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Hannibal's march 218 BC complete: from New Carthage through Spain and Gaul over the Alps into the Po valley, animated route"
+ },
+ {
+  "id": "07-00-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "dawn",
+  "refs": [
+   "numidians",
+   "legion"
+  ],
+  "desc": "Numidian horsemen riding bareback crashing into Roman cavalry in a misty river meadow, javelins flying"
+ },
+ {
+  "id": "07-00-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "dawn",
+  "refs": [
+   "scipio"
+  ],
+  "desc": "A seventeen-year-old Roman youth in a bronze helmet on horseback charging alone through enemy riders toward a wounded older officer"
+ },
+ {
+  "id": "07-00-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 0,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of northern Italy late 218 BC: Hannibal enters the Po valley, the Ticinus and the Trebia near Placentia"
+ },
+ {
+  "id": "07-01-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "numidians"
+  ],
+  "desc": "Numidian light cavalry riding up to a Roman camp palisade at a freezing dawn, hurling javelins, frost on the ground"
+ },
+ {
+  "id": "07-01-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 1,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "track",
+  "grade": "dawn",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman legionaries wading chest-deep across an icy winter river at dawn, holding shields and javelins above their heads, sleet falling"
+ },
+ {
+  "id": "07-01-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "candle",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Carthaginian soldiers eating and rubbing oil into their arms around campfires in the cold before dawn"
+ },
+ {
+  "id": "07-02-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 2,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "trebia"
+ },
+ {
+  "id": "07-02-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Carthaginian soldiers bursting out of a reed-filled streambed through mist behind a battle line, attacking from the rear"
+ },
+ {
+  "id": "07-03-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "An army wading for miles through grey flooded marshland in the rain, dead pack mules half-submerged, soldiers resting on them"
+ },
+ {
+  "id": "07-03-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "hannibal",
+   "elephants"
+  ],
+  "desc": "A feverish commander with a cloth over one eye riding on the neck of a lone war elephant through flooded marshes in grey rain"
+ },
+ {
+  "id": "07-04-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 4,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Lake Trasimene, June 217 BC: the road along the north shore, Hannibal's army hidden in the hills, the Roman column entering the trap"
+ },
+ {
+  "id": "07-04-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Lago Trasimeno nebbia",
+  "desc": "Lake Trasimene in the morning mist"
+ },
+ {
+  "id": "07-04-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 4,
+  "idx": 2,
+  "kind": "vid",
+  "size": "WS",
+  "move": "track",
+  "grade": "dawn",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A long column of Roman soldiers marching along a narrow lakeside road in thick morning fog, unaware of shapes on the hills above"
+ },
+ {
+  "id": "07-05-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "punic_army",
+   "legion"
+  ],
+  "desc": "Carthaginian soldiers charging down a hillside out of thick fog onto a surprised Roman column on a lakeshore road"
+ },
+ {
+  "id": "07-05-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers in armour wading out into a misty lake in panic, some sinking under the weight"
+ },
+ {
+  "id": "07-05-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 5,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "desc": "15,000 :: Romans killed at Lake Trasimene, according to Polybius"
+ },
+ {
+  "id": "07-06-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 6,
+  "idx": 0,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "quote": "We have been defeated in a great battle.",
+  "attrib": "Roman praetor to the people, 217 BC, as told by Livy",
+  "desc": "\"We have been defeated in a great battle.\" ~ Roman praetor to the people, 217 BC, as told by Livy"
+ },
+ {
+  "id": "07-06-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "romans",
+   "rome"
+  ],
+  "desc": "A crowd of anxious Romans packed into an ancient forum of terracotta temples, listening in silence to a magistrate on a platform"
+ },
+ {
+  "id": "07-06-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 6,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "fabius"
+  ],
+  "lt": [
+   "Quintus Fabius Maximus",
+   "dictator, 217 BC"
+  ],
+  "desc": "An old calm Roman senator in a white toga with a purple border, thoughtful, by lamplight"
+ },
+ {
+  "id": "07-07-0",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 7,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A Roman army watching from the safety of a hilltop as an enemy army marches across the plain below, the soldiers frustrated"
+ },
+ {
+  "id": "07-07-1",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 7,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [],
+  "desc": "Hundreds of oxen with burning torches tied to their horns stampeding up a dark hillside at night, a river of fire"
+ },
+ {
+  "id": "07-07-2",
+  "chapter": "07_trebia_and_trasimene",
+  "para": 7,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "night",
+  "refs": [],
+  "desc": "An ox's head with a flaming bundle of sticks tied to its horns, sparks flying in the dark"
+ },
+ {
+  "id": "08-00-0",
+  "chapter": "08_cannae",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "crane-up",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A vast Roman army drawn up in a dense formation on a plain, rank upon rank of bronze helmets and oval shields stretching to the horizon, feather crests stirring"
+ },
+ {
+  "id": "08-00-1",
+  "chapter": "08_cannae",
+  "para": 0,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "80,000 infantry · 6,000 cavalry :: the Roman army at Cannae, according to Polybius"
+ },
+ {
+  "id": "08-00-2",
+  "chapter": "08_cannae",
+  "para": 0,
+  "idx": 2,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "z": "08-00-2a",
+    "label": "Lucius Aemilius Paullus, the aristocrat"
+   },
+   {
+    "z": "08-00-2b",
+    "label": "Gaius Terentius Varro, the popular politician"
+   }
+  ],
+  "desc": "Lucius Aemilius Paullus, the aristocrat {z: An aristocratic Roman consul in his fifties, clean-shaven, grave, in a bronze cuirass} || Gaius Terentius Varro, the popular politician {z: A bold Roman consul in his forties, clean-shaven, eager, in a bronze cuirass}"
+ },
+ {
+  "id": "08-01-0",
+  "chapter": "08_cannae",
+  "para": 1,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Italy zooming to Apulia: Hannibal's movements from Trasimene to Cannae, 217 to 216 BC"
+ },
+ {
+  "id": "08-01-1",
+  "chapter": "08_cannae",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Canne della Battaglia",
+  "desc": "Cannae battlefield and the Ofanto plain"
+ },
+ {
+  "id": "08-01-2",
+  "chapter": "08_cannae",
+  "para": 1,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "40,000 infantry · 10,000 cavalry :: Hannibal's army, outnumbered almost two to one"
+ },
+ {
+  "id": "08-02-0",
+  "chapter": "08_cannae",
+  "para": 2,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "cannae1"
+ },
+ {
+  "id": "08-02-1",
+  "chapter": "08_cannae",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Gallic warriors stripped to the waist and Iberian warriors in white tunics with crimson borders standing together in a battle line, tense, waiting"
+ },
+ {
+  "id": "08-02-2",
+  "chapter": "08_cannae",
+  "para": 2,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "gold",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "Rows of Libyan heavy infantry in captured Roman armour standing in silent ranks, holding long spears"
+ },
+ {
+  "id": "08-03-0",
+  "chapter": "08_cannae",
+  "para": 3,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "cannae2"
+ },
+ {
+  "id": "08-03-1",
+  "chapter": "08_cannae",
+  "para": 3,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion",
+   "punic_army"
+  ],
+  "desc": "A dense mass of Roman legionaries with oval shields pushing forward into a bending line of Gallic and Iberian warriors on a dusty plain, clouds of dust"
+ },
+ {
+  "id": "08-03-2",
+  "chapter": "08_cannae",
+  "para": 3,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "numidians"
+  ],
+  "desc": "Carthaginian horsemen galloping behind a battle line in clouds of dust"
+ },
+ {
+  "id": "08-04-0",
+  "chapter": "08_cannae",
+  "para": 4,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "cannae3"
+ },
+ {
+  "id": "08-04-1",
+  "chapter": "08_cannae",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "crane-up",
+  "grade": "steel",
+  "refs": [
+   "legion",
+   "punic_army"
+  ],
+  "desc": "Aerial view of a huge Roman army completely surrounded on a dusty plain, compressed into a dense mass, enemy troops closing in on all sides"
+ },
+ {
+  "id": "08-04-2",
+  "chapter": "08_cannae",
+  "para": 4,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers crushed together shoulder to shoulder, shields pressed against each other, unable to move, dust and fear"
+ },
+ {
+  "id": "08-05-0",
+  "chapter": "08_cannae",
+  "para": 5,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "ash",
+  "refs": [],
+  "desc": "48,000 to 70,000 :: Roman dead at Cannae, in a single day"
+ },
+ {
+  "id": "08-05-1",
+  "chapter": "08_cannae",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [],
+  "desc": "A vast empty plain at sunset covered in abandoned shields, broken spears and bronze helmets, crows overhead, dust settling"
+ },
+ {
+  "id": "08-05-2",
+  "chapter": "08_cannae",
+  "para": 5,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "ash",
+  "refs": [],
+  "desc": "A dented bronze Roman helmet with a broken crest lying in dry grass at sunset"
+ },
+ {
+  "id": "08-06-0",
+  "chapter": "08_cannae",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A Carthaginian nobleman pouring a heap of gold signet rings from a basket onto a stone floor before a council of bearded elders, lamplight"
+ },
+ {
+  "id": "08-06-1",
+  "chapter": "08_cannae",
+  "para": 6,
+  "idx": 1,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [],
+  "crop": [
+   0.3,
+   0.5,
+   0.7,
+   0.95
+  ],
+  "parent": "08-06-0",
+  "desc": "the heap of gold rings"
+ },
+ {
+  "id": "08-06-2",
+  "chapter": "08_cannae",
+  "para": 6,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "They were measured not by number, but by the bushel.",
+  "attrib": "Livy on the rings of Cannae, book 23",
+  "desc": "\"They were measured not by number, but by the bushel.\" ~ Livy on the rings of Cannae, book 23"
+ },
+ {
+  "id": "09-00-0",
+  "chapter": "09_the_long_war",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "Two Carthaginian commanders arguing in a tent at night by lamplight, one pointing toward the north, the other with a cloth patch over one eye, unmoved"
+ },
+ {
+  "id": "09-00-1",
+  "chapter": "09_the_long_war",
+  "para": 0,
+  "idx": 1,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "night",
+  "refs": [],
+  "quote": "You know how to win a victory, Hannibal. You do not know how to use one.",
+  "attrib": "Maharbal, as told by Livy",
+  "desc": "\"You know how to win a victory, Hannibal. You do not know how to use one.\" ~ Maharbal, as told by Livy"
+ },
+ {
+  "id": "09-01-0",
+  "chapter": "09_the_long_war",
+  "para": 1,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Italy after Cannae: distance from Cannae to Rome, and the cities that went over to Hannibal in the south"
+ },
+ {
+  "id": "09-01-1",
+  "chapter": "09_the_long_war",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "rome"
+  ],
+  "desc": "The walled city of Rome on its hills in the 3rd century BC, tufa walls and brown stone temples, seen from a distance under a heavy sky"
+ },
+ {
+  "id": "09-02-0",
+  "chapter": "09_the_long_war",
+  "para": 2,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Mediterranean 215 to 212 BC: Rome fighting in Italy, Spain, Sicily and against Macedon, with Capua, Syracuse and Macedon going over to Carthage"
+ },
+ {
+  "id": "09-02-1",
+  "chapter": "09_the_long_war",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Philip V Macedon tetradrachm",
+  "desc": "Coin of Philip V of Macedon"
+ },
+ {
+  "id": "09-03-0",
+  "chapter": "09_the_long_war",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "ash",
+  "refs": [
+   "romans"
+  ],
+  "desc": "Grim Roman senators standing in a torchlit hall in silence, refusing a Carthaginian envoy who holds out a list of prisoners"
+ },
+ {
+  "id": "09-03-1",
+  "chapter": "09_the_long_war",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Young slaves and teenage boys being issued bronze helmets and oval shields in a Roman square, officers handing out weapons"
+ },
+ {
+  "id": "09-03-2",
+  "chapter": "09_the_long_war",
+  "para": 3,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "ash",
+  "refs": [],
+  "quote": "A rite hardly Roman at all.",
+  "attrib": "Livy on the human sacrifice in Rome after Cannae, book 22",
+  "desc": "\"A rite hardly Roman at all.\" ~ Livy on the human sacrifice in Rome after Cannae, book 22"
+ },
+ {
+  "id": "09-04-0",
+  "chapter": "09_the_long_war",
+  "para": 4,
+  "idx": 0,
+  "kind": "vid",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "A huge wooden crane with an iron claw on a city sea wall lifting the bow of a Roman war galley out of the water, sailors falling, waves crashing"
+ },
+ {
+  "id": "09-04-1",
+  "chapter": "09_the_long_war",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Death of Archimedes painting",
+  "desc": "Death of Archimedes mosaic or painting"
+ },
+ {
+  "id": "09-04-2",
+  "chapter": "09_the_long_war",
+  "para": 4,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "Geometric circles and diagrams drawn with a stick in fine sand, a sandalled foot stepping into them"
+ },
+ {
+  "id": "09-05-0",
+  "chapter": "09_the_long_war",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "hannibal",
+   "numidians"
+  ],
+  "desc": "A commander with a patched eye on horseback with a small cavalry escort in front of the tall stone walls and gate of Rome, defenders crowding the battlements"
+ },
+ {
+  "id": "09-05-1",
+  "chapter": "09_the_long_war",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "gold",
+  "refs": [
+   "romans"
+  ],
+  "desc": "A Roman auctioneer on a platform in a crowded forum selling a plot of land, citizens bidding confidently"
+ },
+ {
+  "id": "09-06-0",
+  "chapter": "09_the_long_war",
+  "para": 6,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of 207 BC: Hasdrubal's route over the Alps, the Roman consul's secret march north, and the battle of the Metaurus"
+ },
+ {
+  "id": "09-06-1",
+  "chapter": "09_the_long_war",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers attacking a Carthaginian army along the banks of a river in early morning haze"
+ },
+ {
+  "id": "09-06-2",
+  "chapter": "09_the_long_war",
+  "para": 6,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Tiepolo Hannibal head of Hasdrubal",
+  "desc": "Giovanni Battista Tiepolo, Hannibal contemplating the head of Hasdrubal"
+ },
+ {
+  "id": "09-07-0",
+  "chapter": "09_the_long_war",
+  "para": 7,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "candle",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A bearded Carthaginian commander with one damaged eye sitting alone in a tent, grief on his face, lamplight"
+ },
+ {
+  "id": "09-07-1",
+  "chapter": "09_the_long_war",
+  "para": 7,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Aspromonte Calabria mountains",
+  "desc": "Aspromonte mountains Calabria"
+ },
+ {
+  "id": "10-00-0",
+  "chapter": "10_scipio",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "scipio"
+  ],
+  "lt": [
+   "Publius Cornelius Scipio",
+   "later called Africanus"
+  ],
+  "desc": "A confident young Roman general of about 25 in a bronze cuirass and red cloak addressing a crowd of citizens from a platform in a forum"
+ },
+ {
+  "id": "10-00-1",
+  "chapter": "10_scipio",
+  "para": 0,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Scipio Africanus bust Capitoline",
+  "desc": "Bust of Scipio Africanus"
+ },
+ {
+  "id": "10-00-2",
+  "chapter": "10_scipio",
+  "para": 0,
+  "idx": 2,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "218 BC: Hannibal invades Italy ; 216 BC: Cannae ; 211 BC: The Scipio brothers killed in Spain ; 210 BC: Young Scipio takes command* ; 209 BC: New Carthage"
+ },
+ {
+  "id": "10-01-0",
+  "chapter": "10_scipio",
+  "para": 1,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of New Carthage in 209 BC: the city on its peninsula, the harbour, the lagoon behind it, Scipio's camp and the wading route across the lagoon"
+ },
+ {
+  "id": "10-01-1",
+  "chapter": "10_scipio",
+  "para": 1,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers wading waist-deep across a shallow lagoon in late afternoon light carrying ladders toward the undefended back wall of a city"
+ },
+ {
+  "id": "10-01-2",
+  "chapter": "10_scipio",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers climbing ladders onto a city wall from a lagoon, no defenders in sight"
+ },
+ {
+  "id": "10-02-0",
+  "chapter": "10_scipio",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Continence of Scipio painting",
+  "desc": "The Continence of Scipio painting"
+ },
+ {
+  "id": "10-02-1",
+  "chapter": "10_scipio",
+  "para": 2,
+  "idx": 1,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "reveal",
+  "grade": "neutral",
+  "refs": [],
+  "crop": [
+   0.2,
+   0.2,
+   0.7,
+   0.8
+  ],
+  "parent": "10-02-0",
+  "desc": "the young woman and the prince"
+ },
+ {
+  "id": "10-02-2",
+  "chapter": "10_scipio",
+  "para": 2,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "scipio"
+  ],
+  "desc": "A young Roman general returning hostages, Spanish noble families embracing their children in a courtyard"
+ },
+ {
+  "id": "10-03-0",
+  "chapter": "10_scipio",
+  "para": 3,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Scipio's campaigns in Spain 209–206 BC: New Carthage, Baecula, Ilipa, Gades"
+ },
+ {
+  "id": "10-03-1",
+  "chapter": "10_scipio",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "romans"
+  ],
+  "desc": "A Roman Senate debate, an old senator gesturing against a young general standing confidently in the centre"
+ },
+ {
+  "id": "10-04-0",
+  "chapter": "10_scipio",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "ships",
+   "legion"
+  ],
+  "desc": "A Roman invasion fleet beaching on a sandy North African shore at dawn, soldiers jumping into the surf"
+ },
+ {
+  "id": "10-04-1",
+  "chapter": "10_scipio",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "numidians"
+  ],
+  "desc": "A young Numidian prince on a small horse without saddle or bridle, holding javelins, at the head of his horsemen"
+ },
+ {
+  "id": "10-04-2",
+  "chapter": "10_scipio",
+  "para": 4,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Masinissa coin Numidia",
+  "desc": "Coin of Masinissa, Numidia"
+ },
+ {
+  "id": "10-05-0",
+  "chapter": "10_scipio",
+  "para": 5,
+  "idx": 0,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "handheld",
+  "grade": "fire",
+  "refs": [],
+  "desc": "A huge army camp of reed and branch huts burning at night, flames leaping from hut to hut, silhouettes of soldiers running"
+ },
+ {
+  "id": "10-05-1",
+  "chapter": "10_scipio",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "ash",
+  "refs": [],
+  "desc": "The smoking remains of a burned camp at dawn on an African plain"
+ },
+ {
+  "id": "10-06-0",
+  "chapter": "10_scipio",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "dawn",
+  "refs": [
+   "hannibal",
+   "ships"
+  ],
+  "desc": "A commander with a patched eye standing at the stern of a galley at dawn, looking back at the coast of Italy disappearing into the mist"
+ },
+ {
+  "id": "10-06-1",
+  "chapter": "10_scipio",
+  "para": 6,
+  "idx": 1,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "dawn",
+  "refs": [],
+  "quote": "Few exiles have left their own country as sadly as Hannibal left the land of his enemies.",
+  "attrib": "Livy, book 30",
+  "desc": "\"Few exiles have left their own country as sadly as Hannibal left the land of his enemies.\" ~ Livy, book 30"
+ },
+ {
+  "id": "11-00-0",
+  "chapter": "11_zama",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of North Africa 202 BC: Carthage, Utica, Hadrumetum, and Zama to the south-west"
+ },
+ {
+  "id": "11-00-1",
+  "chapter": "11_zama",
+  "para": 0,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "hannibal",
+   "scipio"
+  ],
+  "desc": "Two generals on horseback meeting alone in the middle of a dusty plain between two great armies, each with a single attendant, wind blowing"
+ },
+ {
+  "id": "11-00-2",
+  "chapter": "11_zama",
+  "para": 0,
+  "idx": 2,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "sides": [
+   {
+    "z": "11-00-2a",
+    "label": "Hannibal, aged about 45"
+   },
+   {
+    "z": "11-00-2b",
+    "label": "Scipio, aged about 33"
+   }
+  ],
+  "desc": "Hannibal, aged about 45 {z: A Carthaginian commander of 45 with a greying short beard and a scarred blind eye, bronze cuirass, plain cloak, on horseback} || Scipio, aged about 33 {z: A Roman general of 33, clean-shaven and confident, bronze muscle cuirass, red cloak, on horseback}"
+ },
+ {
+  "id": "11-01-0",
+  "chapter": "11_zama",
+  "para": 1,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "zama"
+ },
+ {
+  "id": "11-01-1",
+  "chapter": "11_zama",
+  "para": 1,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "elephants",
+   "legion"
+  ],
+  "desc": "A line of war elephants charging into a Roman army that opens lanes between its units, soldiers blowing long bronze trumpets, dust everywhere"
+ },
+ {
+  "id": "11-01-2",
+  "chapter": "11_zama",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "elephants"
+  ],
+  "desc": "Panicked war elephants turning back and stampeding into their own cavalry, horses rearing"
+ },
+ {
+  "id": "11-02-0",
+  "chapter": "11_zama",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "numidians"
+  ],
+  "desc": "Numidian horsemen chasing fleeing cavalry across a dusty plain"
+ },
+ {
+  "id": "11-02-1",
+  "chapter": "11_zama",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "punic_army"
+  ],
+  "desc": "A line of hardened veteran Carthaginian soldiers with scarred faces holding firm with shields locked, dust and bodies before them"
+ },
+ {
+  "id": "11-03-0",
+  "chapter": "11_zama",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "numidians",
+   "punic_army"
+  ],
+  "desc": "Cavalry charging into the rear of an infantry line, soldiers turning in shock, dust and chaos"
+ },
+ {
+  "id": "11-03-1",
+  "chapter": "11_zama",
+  "para": 3,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "ash",
+  "refs": [],
+  "desc": "20,000 :: Carthaginians killed at Zama, according to Polybius"
+ },
+ {
+  "id": "11-03-2",
+  "chapter": "11_zama",
+  "para": 3,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "ash",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A defeated commander with a scarred eye riding away from a battlefield at dusk with a few horsemen, not looking back"
+ },
+ {
+  "id": "11-04-0",
+  "chapter": "11_zama",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "hannibal",
+   "carthaginians"
+  ],
+  "desc": "A scarred commander in a council hall angrily pulling a robed speaker down from a speaking platform, elders on their feet in shock"
+ },
+ {
+  "id": "11-05-0",
+  "chapter": "11_zama",
+  "para": 5,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "10 ships · 10,000 talents · 50 years :: the peace terms of 201 BC"
+ },
+ {
+  "id": "11-05-1",
+  "chapter": "11_zama",
+  "para": 5,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Hundreds of ancient galleys burning on a calm sea in front of a coastal city at dusk, the people watching from the walls"
+ },
+ {
+  "id": "11-05-2",
+  "chapter": "11_zama",
+  "para": 5,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "fire",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "Carthaginian men and women watching from the city walls as their fleet burns, faces lit orange"
+ },
+ {
+  "id": "11-06-0",
+  "chapter": "11_zama",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "scipio",
+   "rome"
+  ],
+  "desc": "A Roman triumph through a crowded street of Rome, a general in a four-horse chariot crowned with laurel, captured elephants led ahead"
+ },
+ {
+  "id": "11-06-1",
+  "chapter": "11_zama",
+  "para": 6,
+  "idx": 1,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "218 BC: Hannibal invades Italy ; 216 BC: Cannae ; 203 BC: Hannibal recalled ; 202 BC: Zama* ; 201 BC: Peace"
+ },
+ {
+  "id": "12-00-0",
+  "chapter": "12_the_exile",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "hannibal",
+   "carthaginians"
+  ],
+  "lt": [
+   "Hannibal",
+   "suffete of Carthage, 196 BC"
+  ],
+  "desc": "A grey-bearded commander in a magistrate's long robe examining account tablets at a table, nervous officials standing before him"
+ },
+ {
+  "id": "12-00-1",
+  "chapter": "12_the_exile",
+  "para": 0,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "196 BC :: Hannibal is elected suffete, one of the two chief magistrates of Carthage"
+ },
+ {
+  "id": "12-00-2",
+  "chapter": "12_the_exile",
+  "para": 0,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "scan",
+  "grade": "candle",
+  "refs": [],
+  "desc": "Stacks of wax tablets and papyrus ledgers on a table, columns of Punic numbers, a stylus, lamplight"
+ },
+ {
+  "id": "12-01-0",
+  "chapter": "12_the_exile",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "night",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "A cloaked rider on horseback galloping alone along a moonlit coastal road at night, a small ship waiting offshore with a lantern"
+ },
+ {
+  "id": "12-01-1",
+  "chapter": "12_the_exile",
+  "para": 1,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Antiochus III tetradrachm",
+  "desc": "Coin of Antiochus III"
+ },
+ {
+  "id": "12-01-2",
+  "chapter": "12_the_exile",
+  "para": 1,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of Hannibal's exile, 195 to 183 BC: Carthage to Tyre, Ephesus, Crete, and Bithynia"
+ },
+ {
+  "id": "12-02-0",
+  "chapter": "12_the_exile",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "gold",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "Rich farmland outside an ancient North African city: olive groves, vineyards and wheat fields, farm workers harvesting under a hot sun"
+ },
+ {
+  "id": "12-02-1",
+  "chapter": "12_the_exile",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [],
+  "desc": "Amphorae of olive oil and wine being loaded onto a merchant ship by porters on a busy quay"
+ },
+ {
+  "id": "12-02-2",
+  "chapter": "12_the_exile",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "191 BC :: Carthage offers to pay off forty years of indemnity at once. Rome refuses."
+ },
+ {
+  "id": "12-03-0",
+  "chapter": "12_the_exile",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [],
+  "desc": "An ancient scroll of farming instructions with drawings of olive trees and vines, being copied by a Roman scribe"
+ },
+ {
+  "id": "12-03-1",
+  "chapter": "12_the_exile",
+  "para": 3,
+  "idx": 1,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "q": "Carthage Punic ports aerial",
+    "label": "The harbour today"
+   },
+   {
+    "q": "Carthage harbour model museum",
+    "label": "Model of the naval harbour"
+   }
+  ],
+  "desc": "The harbour today [q: Carthage Punic ports aerial] || Model of the naval harbour [q: Carthage harbour model museum]"
+ },
+ {
+  "id": "12-03-2",
+  "chapter": "12_the_exile",
+  "para": 3,
+  "idx": 2,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Ilot de l'Amirauté Carthage",
+  "desc": "Admiralty island of the Punic naval harbour of Carthage"
+ },
+ {
+  "id": "12-04-0",
+  "chapter": "12_the_exile",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Sailors on a galley throwing clay jars onto an enemy ship's deck, the jars smashing open, sailors recoiling in panic"
+ },
+ {
+  "id": "12-04-1",
+  "chapter": "12_the_exile",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "desc": "A smashed clay jar on a wooden ship's deck with snakes slithering out among coils of rope"
+ },
+ {
+  "id": "12-05-0",
+  "chapter": "12_the_exile",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Armed soldiers surrounding a house at night with torches, guarding every door and gate"
+ },
+ {
+  "id": "12-05-1",
+  "chapter": "12_the_exile",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "candle",
+  "refs": [
+   "hannibal"
+  ],
+  "desc": "An old grey-bearded man with one scarred eye sitting alone in a dim room holding a small cup, calm, lamplight"
+ },
+ {
+  "id": "12-05-2",
+  "chapter": "12_the_exile",
+  "para": 5,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.",
+  "attrib": "Hannibal's last words, as told by Livy",
+  "desc": "\"Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.\" ~ Hannibal's last words, as told by Livy"
+ },
+ {
+  "id": "12-06-0",
+  "chapter": "12_the_exile",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [
+   "scipio"
+  ],
+  "desc": "An old Roman general sitting alone in a quiet villa garden by the sea at dusk, gazing at the water"
+ },
+ {
+  "id": "12-06-1",
+  "chapter": "12_the_exile",
+  "para": 6,
+  "idx": 1,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Hannibal flees ; 191 BC: Carthage offers to pay ; 183 BC: Death of Hannibal and Scipio*"
+ },
+ {
+  "id": "13-00-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "masinissa"
+  ],
+  "lt": [
+   "Masinissa",
+   "king of Numidia"
+  ],
+  "desc": "A very old Numidian king with a white beard and gold diadem, upright and strong, riding a small horse without saddle at the head of his warriors"
+ },
+ {
+  "id": "13-00-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 0,
+  "idx": 1,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of North Africa about 160 BC: Carthage's shrinking territory and Masinissa's expanding Numidian kingdom around it"
+ },
+ {
+  "id": "13-00-2",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 0,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Libyco-Punic Mausoleum Dougga",
+  "desc": "Royal mausoleum of Numidia, Medracen or Dougga"
+ },
+ {
+  "id": "13-01-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "gold",
+  "refs": [
+   "numidians"
+  ],
+  "desc": "Numidian horsemen riding through Carthaginian olive groves and driving farmers off their land, a farmhouse in the background"
+ },
+ {
+  "id": "13-01-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "gold",
+  "refs": [
+   "romans",
+   "carthaginians"
+  ],
+  "desc": "Roman commissioners in togas listening without interest to Carthaginian envoys pointing at a map spread on a table under an awning"
+ },
+ {
+  "id": "13-02-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "cato"
+  ],
+  "lt": [
+   "Marcus Porcius Cato",
+   "senator, aged about 80"
+  ],
+  "desc": "A tough elderly Roman senator with red-grey hair and grey eyes in a plain white toga, a hard lined face"
+ },
+ {
+  "id": "13-02-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "cato",
+   "carthage"
+  ],
+  "desc": "An old Roman senator in a toga standing on a hill looking at a great prosperous city spread out below, busy streets and a crowded harbour"
+ },
+ {
+  "id": "13-02-2",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 2,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Cato the Elder bust",
+  "desc": "So-called bust of Cato the Elder"
+ },
+ {
+  "id": "13-03-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 3,
+  "idx": 0,
+  "kind": "vid",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "cato",
+   "romans"
+  ],
+  "desc": "An elderly Roman senator in a white toga letting large fresh figs fall from a fold of his toga onto the floor of the Senate, other senators leaning forward to look"
+ },
+ {
+  "id": "13-03-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 3,
+  "idx": 1,
+  "kind": "detail",
+  "size": "ECU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [],
+  "crop": [
+   0.3,
+   0.55,
+   0.7,
+   1.0
+  ],
+  "parent": "13-03-0",
+  "desc": "the figs on the floor"
+ },
+ {
+  "id": "13-03-2",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 3,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "The country where these grew is only three days' sail from Rome.",
+  "attrib": "Cato, as told by Plutarch",
+  "desc": "\"The country where these grew is only three days' sail from Rome.\" ~ Cato, as told by Plutarch"
+ },
+ {
+  "id": "13-04-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 4,
+  "idx": 0,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "CARTHAGO DELENDA EST · \"Carthage must be destroyed\""
+ },
+ {
+  "id": "13-04-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 4,
+  "idx": 1,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "sides": [
+   {
+    "z": "13-04-1a",
+    "label": "Cato: destroy Carthage"
+   },
+   {
+    "z": "13-04-1b",
+    "label": "Scipio Nasica: let Carthage stand"
+   }
+  ],
+  "desc": "Cato: destroy Carthage {z: An elderly red-haired Roman senator with grey eyes, clean-shaven, speaking forcefully in the Senate, finger raised} || Scipio Nasica: let Carthage stand {z: A dignified Roman senator in his fifties, clean-shaven, calmly answering in the Senate, open hand}"
+ },
+ {
+  "id": "13-05-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "punic_army",
+   "numidians"
+  ],
+  "desc": "A Carthaginian army surrounded by Numidian cavalry on a dry plain, soldiers exhausted and starving, dust storms"
+ },
+ {
+  "id": "13-05-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "aemilianus"
+  ],
+  "lt": [
+   "Scipio Aemilianus",
+   "adopted grandson of Africanus"
+  ],
+  "desc": "A young Roman officer in a red cloak watching a distant battle from a rocky hilltop beside an old white-bearded king"
+ },
+ {
+  "id": "13-06-0",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "romans"
+  ],
+  "desc": "Old Roman senators smiling grimly in the Senate as a messenger reads out a report"
+ },
+ {
+  "id": "13-06-1",
+  "chapter": "13_carthage_must_be_destroyed",
+  "para": 6,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "desc": "The peace of 201 BC :: No war, even in Africa, without the permission of Rome"
+ },
+ {
+  "id": "14-00-0",
+  "chapter": "14_the_ultimatum",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of 149 BC: the Roman fleet sailing from Lilybaeum in Sicily to Utica, a few kilometres from Carthage"
+ },
+ {
+  "id": "14-00-1",
+  "chapter": "14_the_ultimatum",
+  "para": 0,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "ships",
+   "legion"
+  ],
+  "desc": "A huge Roman invasion fleet of war galleys and transports crossing a calm sea at dawn, the African coast ahead"
+ },
+ {
+  "id": "14-00-2",
+  "chapter": "14_the_ultimatum",
+  "para": 0,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "dawn",
+  "refs": [],
+  "desc": "80,000 infantry · 4,000 cavalry :: the Roman army of 149 BC, according to Appian"
+ },
+ {
+  "id": "14-01-0",
+  "chapter": "14_the_ultimatum",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "Carthaginian envoys in long robes kneeling before two Roman consuls seated on a platform in a military camp, Roman soldiers around them"
+ },
+ {
+  "id": "14-01-1",
+  "chapter": "14_the_ultimatum",
+  "para": 1,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "track",
+  "grade": "dawn",
+  "refs": [
+   "carthaginians",
+   "ships"
+  ],
+  "desc": "Carthaginian mothers wading into the sea after a departing galley full of children, reaching out, wailing, at dawn"
+ },
+ {
+  "id": "14-01-2",
+  "chapter": "14_the_ultimatum",
+  "para": 1,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "dawn",
+  "refs": [],
+  "desc": "300 :: children of the noblest families, sent to Sicily as hostages"
+ },
+ {
+  "id": "14-02-0",
+  "chapter": "14_the_ultimatum",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "gold",
+  "refs": [
+   "carthaginians",
+   "legion"
+  ],
+  "desc": "Long lines of wagons piled high with armour, spears and catapults leaving the gates of an ancient city, Roman soldiers counting"
+ },
+ {
+  "id": "14-02-1",
+  "chapter": "14_the_ultimatum",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [],
+  "desc": "A huge pile of bronze armour, helmets, shields and spears in a Roman camp, soldiers stacking more on top"
+ },
+ {
+  "id": "14-02-2",
+  "chapter": "14_the_ultimatum",
+  "para": 2,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "gold",
+  "refs": [],
+  "desc": "200,000 sets of armour · 2,000 catapults :: handed over to Rome, according to Appian"
+ },
+ {
+  "id": "14-03-0",
+  "chapter": "14_the_ultimatum",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "romans"
+  ],
+  "desc": "A Roman consul in a red cloak standing on a platform reading an order from a tablet to envoys, his face cold"
+ },
+ {
+  "id": "14-03-1",
+  "chapter": "14_the_ultimatum",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "dawn",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A Carthaginian envoy's face as he hears the order, stunned, mouth open, tears beginning"
+ },
+ {
+  "id": "14-03-2",
+  "chapter": "14_the_ultimatum",
+  "para": 3,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map showing Carthage on the coast and the zone at least fifteen kilometres inland where Rome ordered its people to resettle"
+ },
+ {
+  "id": "14-04-0",
+  "chapter": "14_the_ultimatum",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "fire",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "An enraged crowd of Carthaginian men and women pouring through a city street toward a council hall, torches and fists raised"
+ },
+ {
+  "id": "14-04-1",
+  "chapter": "14_the_ultimatum",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [
+   "harbour"
+  ],
+  "desc": "The empty ship sheds of a circular naval harbour at dusk, columns standing over bare slipways with no ships in them, a few people wandering"
+ },
+ {
+  "id": "14-04-2",
+  "chapter": "14_the_ultimatum",
+  "para": 4,
+  "idx": 2,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "hasdrubal146"
+  ],
+  "lt": [
+   "Hasdrubal",
+   "Carthaginian commander, 149–146 BC"
+  ],
+  "desc": "A heavy-set Carthaginian general with a dark beard in ornate bronze armour reading a message in a field tent"
+ },
+ {
+  "id": "14-05-0",
+  "chapter": "14_the_ultimatum",
+  "para": 5,
+  "idx": 0,
+  "kind": "vid",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "Men and women hammering swords and shields in a temple turned into a workshop at night, sparks flying, fires glowing between columns"
+ },
+ {
+  "id": "14-05-1",
+  "chapter": "14_the_ultimatum",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "handheld",
+  "grade": "fire",
+  "refs": [],
+  "desc": "Blacksmiths' hands hammering a glowing sword blade on an anvil, sparks"
+ },
+ {
+  "id": "14-05-2",
+  "chapter": "14_the_ultimatum",
+  "para": 5,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A Carthaginian woman cutting off her long dark hair with a bronze knife, other women's braids piled in a basket beside her"
+ },
+ {
+  "id": "14-05-3",
+  "chapter": "14_the_ultimatum",
+  "para": 5,
+  "idx": 3,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "desc": "Every day: 100 shields · 300 swords · 1,000 bolts · 500 javelins :: according to Appian"
+ },
+ {
+  "id": "15-00-0",
+  "chapter": "15_the_siege",
+  "para": 0,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "walls"
+ },
+ {
+  "id": "15-00-1",
+  "chapter": "15_the_siege",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "steel",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "Massive ancient stone city walls with towers stretching across a narrow isthmus to the sea, a Roman siege camp in front of them"
+ },
+ {
+  "id": "15-00-2",
+  "chapter": "15_the_siege",
+  "para": 0,
+  "idx": 2,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "steel",
+  "refs": [],
+  "desc": "13 metres high :: the main landward wall of Carthage, according to Appian"
+ },
+ {
+  "id": "15-01-0",
+  "chapter": "15_the_siege",
+  "para": 1,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A huge battering ram with a bronze head swinging against a city wall, hundreds of Roman soldiers pushing it under a shelter of shields"
+ },
+ {
+  "id": "15-01-1",
+  "chapter": "15_the_siege",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "handheld",
+  "grade": "night",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Burning fire ships drifting into a crowded anchorage of Roman galleys at night, sailors leaping into the sea"
+ },
+ {
+  "id": "15-01-2",
+  "chapter": "15_the_siege",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [
+   "legion"
+  ],
+  "desc": "A Roman camp beside a marshy lake under grey skies, sick soldiers lying under awnings"
+ },
+ {
+  "id": "15-02-0",
+  "chapter": "15_the_siege",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "aemilianus",
+   "legion"
+  ],
+  "desc": "A young Roman officer leading a rescue of trapped soldiers under attack at night, shouting orders, torches"
+ },
+ {
+  "id": "15-02-1",
+  "chapter": "15_the_siege",
+  "para": 2,
+  "idx": 1,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "candle",
+  "refs": [],
+  "quote": "He alone has understanding. The rest are flitting shadows.",
+  "attrib": "Cato, quoting Homer, on Scipio Aemilianus",
+  "desc": "\"He alone has understanding. The rest are flitting shadows.\" ~ Cato, quoting Homer, on Scipio Aemilianus"
+ },
+ {
+  "id": "15-03-0",
+  "chapter": "15_the_siege",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "romans"
+  ],
+  "desc": "A crowd of Roman citizens in a voting enclosure on the Campus Martius cheering, holding up tablets"
+ },
+ {
+  "id": "15-03-1",
+  "chapter": "15_the_siege",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "static",
+  "grade": "gold",
+  "refs": [
+   "aemilianus",
+   "polybius"
+  ],
+  "desc": "A Roman general and a grey-bearded Greek man studying a model of a walled city in a command tent"
+ },
+ {
+  "id": "15-03-2",
+  "chapter": "15_the_siege",
+  "para": 3,
+  "idx": 2,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "149 BC: War declared ; 148 BC: Death of Masinissa ; 147 BC: Scipio Aemilianus consul* ; 146 BC: Fall of Carthage"
+ },
+ {
+  "id": "15-04-0",
+  "chapter": "15_the_siege",
+  "para": 4,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the siege of Carthage, 147 BC: the city walls, the harbours, Scipio's siege line across the isthmus and his mole blocking the harbour entrance"
+ },
+ {
+  "id": "15-04-1",
+  "chapter": "15_the_siege",
+  "para": 4,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "gold",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Thousands of Roman soldiers dumping huge stones from carts into the sea to build a long stone causeway across a harbour mouth"
+ },
+ {
+  "id": "15-05-0",
+  "chapter": "15_the_siege",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "night",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "Men, women and children digging a deep channel through sand by torchlight at night, passing baskets of earth hand to hand"
+ },
+ {
+  "id": "15-05-1",
+  "chapter": "15_the_siege",
+  "para": 5,
+  "idx": 1,
+  "kind": "vid",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "ships",
+   "carthage"
+  ],
+  "desc": "A fleet of newly built war galleys sailing out through a fresh channel cut through a sea wall at dawn, Roman soldiers on a stone causeway staring in shock"
+ },
+ {
+  "id": "15-05-2",
+  "chapter": "15_the_siege",
+  "para": 5,
+  "idx": 2,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "channel"
+ },
+ {
+  "id": "15-06-0",
+  "chapter": "15_the_siege",
+  "para": 6,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "ships"
+  ],
+  "desc": "Galleys jammed together in a narrow harbour entrance under attack from Roman ships, oars snapping, men falling into the sea"
+ },
+ {
+  "id": "15-07-0",
+  "chapter": "15_the_siege",
+  "para": 7,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "steel",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers below a city wall looking up in horror at something on the battlements, grey sky"
+ },
+ {
+  "id": "15-07-1",
+  "chapter": "15_the_siege",
+  "para": 7,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "ash",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A starving Carthaginian mother and child sitting against a wall in an empty street, thin and exhausted, winter light"
+ },
+ {
+  "id": "15-07-2",
+  "chapter": "15_the_siege",
+  "para": 7,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "ash",
+  "refs": [],
+  "desc": "An empty clay storage jar and a few scattered grains on a bare stone floor"
+ },
+ {
+  "id": "16-00-0",
+  "chapter": "16_the_fall",
+  "para": 0,
+  "idx": 0,
+  "kind": "map",
+  "size": "MAP",
+  "move": "track",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the final assault, spring 146 BC: Romans entering by the harbours into the agora, then three streets climbing toward the Byrsa citadel"
+ },
+ {
+  "id": "16-00-1",
+  "chapter": "16_the_fall",
+  "para": 0,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "handheld",
+  "grade": "steel",
+  "refs": [
+   "legion",
+   "harbour"
+  ],
+  "desc": "Roman soldiers storming over the wall of a circular naval harbour at dawn, ladders against the ship-shed colonnades, smoke rising"
+ },
+ {
+  "id": "16-00-2",
+  "chapter": "16_the_fall",
+  "para": 0,
+  "idx": 2,
+  "kind": "still",
+  "size": "CU",
+  "move": "handheld",
+  "grade": "fire",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers prying gold leaf off a statue and a temple shrine with their swords by torchlight, greedy faces"
+ },
+ {
+  "id": "16-01-0",
+  "chapter": "16_the_fall",
+  "para": 1,
+  "idx": 0,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "byrsa"
+ },
+ {
+  "id": "16-01-1",
+  "chapter": "16_the_fall",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "track",
+  "grade": "fire",
+  "refs": [
+   "legion",
+   "carthaginians"
+  ],
+  "desc": "Defenders on flat rooftops hurling tiles and stones down onto Roman soldiers advancing up a steep narrow street between tall houses"
+ },
+ {
+  "id": "16-01-2",
+  "chapter": "16_the_fall",
+  "para": 1,
+  "idx": 2,
+  "kind": "still",
+  "size": "WS",
+  "move": "crane-up",
+  "grade": "fire",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "Fire spreading along a steep street of tall flat-roofed houses on a hillside, smoke pouring into the sky"
+ },
+ {
+  "id": "16-02-0",
+  "chapter": "16_the_fall",
+  "para": 2,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Quartier Hannibal Byrsa Carthage",
+  "desc": "Punic houses of the Hannibal quarter on the Byrsa hill"
+ },
+ {
+  "id": "16-02-1",
+  "chapter": "16_the_fall",
+  "para": 2,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "ash",
+  "refs": [],
+  "desc": "An archaeological trench cut through a thick black layer of ash and charred roof beams, a trowel and a label on the earth"
+ },
+ {
+  "id": "16-02-2",
+  "chapter": "16_the_fall",
+  "para": 2,
+  "idx": 2,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "z": "16-02-2a",
+    "label": "Before: the Byrsa district, 2nd century BC"
+   },
+   {
+    "q": "Byrsa hill Punic quarter ruins Carthage",
+    "label": "After: the same hill today"
+   }
+  ],
+  "desc": "Before: the Byrsa district, 2nd century BC {z: Reconstruction of a hillside district of ancient Carthage in the 2nd century BC, tall whitewashed flat-roofed houses on stepped streets, morning sun} || After: the same hill today [q: Byrsa hill Punic quarter ruins Carthage]"
+ },
+ {
+  "id": "16-03-0",
+  "chapter": "16_the_fall",
+  "para": 3,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "dawn",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A long line of starving men and women coming down a ruined street from a citadel at dawn, carrying almost nothing, Roman soldiers lining the way"
+ },
+ {
+  "id": "16-03-1",
+  "chapter": "16_the_fall",
+  "para": 3,
+  "idx": 1,
+  "kind": "still",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "A great colonnaded temple on the summit of a hill above a burning city at dusk, a few figures on its roof"
+ },
+ {
+  "id": "16-04-0",
+  "chapter": "16_the_fall",
+  "para": 4,
+  "idx": 0,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "hasdrubal146",
+   "aemilianus"
+  ],
+  "desc": "A heavy-set bearded Carthaginian general kneeling with an olive branch at the feet of a Roman general in a red cloak, soldiers all around, fire behind"
+ },
+ {
+  "id": "16-04-1",
+  "chapter": "16_the_fall",
+  "para": 4,
+  "idx": 1,
+  "kind": "vid",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "carthaginians"
+  ],
+  "desc": "A Carthaginian noblewoman in rich robes standing on the roof of a burning temple at dusk, holding the hands of two young boys, defiant"
+ },
+ {
+  "id": "16-04-2",
+  "chapter": "16_the_fall",
+  "para": 4,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "quote": "Wretch, traitor, most unmanly of men.",
+  "attrib": "Hasdrubal's wife, as told by Polybius and Appian",
+  "desc": "\"Wretch, traitor, most unmanly of men.\" ~ Hasdrubal's wife, as told by Polybius and Appian"
+ },
+ {
+  "id": "16-05-0",
+  "chapter": "16_the_fall",
+  "para": 5,
+  "idx": 0,
+  "kind": "still",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "fire",
+  "refs": [
+   "carthage"
+  ],
+  "desc": "A vast ancient city burning from end to end at night, the whole sky lit orange, smoke drifting over the sea"
+ },
+ {
+  "id": "16-05-1",
+  "chapter": "16_the_fall",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "MS",
+  "move": "slow push",
+  "grade": "fire",
+  "refs": [
+   "aemilianus",
+   "polybius"
+  ],
+  "desc": "A Roman general gripping the hand of a grey-bearded Greek man on a hilltop at night, a burning city below, both faces lit by fire"
+ },
+ {
+  "id": "16-05-2",
+  "chapter": "16_the_fall",
+  "para": 5,
+  "idx": 2,
+  "kind": "quote",
+  "size": "QUOTE",
+  "move": "static",
+  "grade": "fire",
+  "refs": [],
+  "quote": "A day will come when sacred Troy shall perish, and Priam, and the people of Priam.",
+  "attrib": "Homer, Iliad 6, quoted by Scipio at Carthage",
+  "desc": "\"A day will come when sacred Troy shall perish, and Priam, and the people of Priam.\" ~ Homer, Iliad 6, quoted by Scipio at Carthage"
+ },
+ {
+  "id": "17-00-0",
+  "chapter": "17_after_carthage",
+  "para": 0,
+  "idx": 0,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "ash",
+  "refs": [
+   "legion"
+  ],
+  "desc": "Roman soldiers with crowbars and ropes pulling down the last standing walls of a burned city under a grey sky, rubble everywhere"
+ },
+ {
+  "id": "17-00-1",
+  "chapter": "17_after_carthage",
+  "para": 0,
+  "idx": 1,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Map of the Mediterranean in 146 BC: the new Roman province of Africa, and Corinth destroyed in the same year, Rome's territories highlighted"
+ },
+ {
+  "id": "17-00-2",
+  "chapter": "17_after_carthage",
+  "para": 0,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Sack of Corinth Thomas Allom",
+  "desc": "The Sack of Corinth painting by Thomas Allom"
+ },
+ {
+  "id": "17-01-0",
+  "chapter": "17_after_carthage",
+  "para": 1,
+  "idx": 0,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "MYTH · The Romans sowed Carthage with salt · No ancient source mentions it. The story appears in the 20th century."
+ },
+ {
+  "id": "17-01-1",
+  "chapter": "17_after_carthage",
+  "para": 1,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "focus",
+  "grade": "ash",
+  "refs": [],
+  "desc": "A handful of salt crystals falling onto dark burned earth, grey light"
+ },
+ {
+  "id": "17-02-0",
+  "chapter": "17_after_carthage",
+  "para": 2,
+  "idx": 0,
+  "kind": "still",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "gold",
+  "refs": [],
+  "desc": "A grand Roman city on the North African coast in the 2nd century AD, a huge bath complex beside the sea, a theatre and colonnaded streets on a hill"
+ },
+ {
+  "id": "17-02-1",
+  "chapter": "17_after_carthage",
+  "para": 2,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Antonine Baths Carthage",
+  "desc": "Antonine Baths of Carthage"
+ },
+ {
+  "id": "17-02-2",
+  "chapter": "17_after_carthage",
+  "para": 2,
+  "idx": 2,
+  "kind": "split",
+  "size": "SPLIT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "sides": [
+   {
+    "q": "Punic Carthage ruins Byrsa",
+    "label": "Punic Carthage, destroyed 146 BC"
+   },
+   {
+    "q": "Antonine Baths columns Carthage",
+    "label": "Roman Carthage, rebuilt from about 29 BC"
+   }
+  ],
+  "desc": "Punic Carthage, destroyed 146 BC [q: Punic Carthage ruins Byrsa] || Roman Carthage, rebuilt from about 29 BC [q: Antonine Baths columns Carthage]"
+ },
+ {
+  "id": "17-02-3",
+  "chapter": "17_after_carthage",
+  "para": 2,
+  "idx": 3,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; 29 BC: Roman Carthage refounded* ; AD 439: Vandals ; AD 698: Arab conquest"
+ },
+ {
+  "id": "17-03-0",
+  "chapter": "17_after_carthage",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "scan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Neo-Punic inscription",
+  "desc": "Neo-Punic inscription"
+ },
+ {
+  "id": "17-03-1",
+  "chapter": "17_after_carthage",
+  "para": 3,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Gulf of Tunis from Carthage Byrsa view",
+  "desc": "Tunis and the Gulf from Carthage"
+ },
+ {
+  "id": "17-04-0",
+  "chapter": "17_after_carthage",
+  "para": 4,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "aerial",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage ports puniques vue aérienne",
+  "desc": "Aerial view of the Punic ports of Carthage"
+ },
+ {
+  "id": "17-04-1",
+  "chapter": "17_after_carthage",
+  "para": 4,
+  "idx": 1,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage tophet stelae garden",
+  "desc": "Tophet stelae among plants at Carthage"
+ },
+ {
+  "id": "17-04-2",
+  "chapter": "17_after_carthage",
+  "para": 4,
+  "idx": 2,
+  "kind": "photo",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage National Museum Byrsa",
+  "desc": "Carthage National Museum on Byrsa hill"
+ },
+ {
+  "id": "17-05-0",
+  "chapter": "17_after_carthage",
+  "para": 5,
+  "idx": 0,
+  "kind": "photo",
+  "size": "CU",
+  "move": "scan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Polybius stele relief Kleitor",
+  "desc": "Polybius stele relief"
+ },
+ {
+  "id": "17-05-1",
+  "chapter": "17_after_carthage",
+  "para": 5,
+  "idx": 1,
+  "kind": "still",
+  "size": "CU",
+  "move": "slow push",
+  "grade": "candle",
+  "refs": [],
+  "desc": "A charred fragment of an ancient scroll with Phoenician letters, lying in ash, lamplight"
+ },
+ {
+  "id": "17-06-0",
+  "chapter": "17_after_carthage",
+  "para": 6,
+  "idx": 0,
+  "kind": "timeline",
+  "size": "TL",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 129 BC: Death of Scipio Aemilianus* ; 133–30 BC: Rome's civil wars"
+ },
+ {
+  "id": "17-06-1",
+  "chapter": "17_after_carthage",
+  "para": 6,
+  "idx": 1,
+  "kind": "still",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "snow",
+  "refs": [
+   "hannibal",
+   "elephants"
+  ],
+  "desc": "A lone commander on horseback beside an elephant on a snowy mountain ridge at sunset, looking out over endless peaks"
+ },
+ {
+  "id": "17-07-0",
+  "chapter": "17_after_carthage",
+  "para": 7,
+  "idx": 0,
+  "kind": "photo",
+  "size": "EWS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage sunset Punic ports",
+  "desc": "The Punic ports of Carthage at sunset"
+ },
+ {
+  "id": "17-07-1",
+  "chapter": "17_after_carthage",
+  "para": 7,
+  "idx": 1,
+  "kind": "photo",
+  "size": "CU",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "q": "Carthage coin horse head Siculo-Punic",
+  "desc": "Carthaginian coin with horse head"
+ },
+ {
+  "id": "17-07-2",
+  "chapter": "17_after_carthage",
+  "para": 7,
+  "idx": 2,
+  "kind": "card",
+  "size": "CARD",
+  "move": "static",
+  "grade": "map",
+  "refs": [],
+  "desc": "End card"
+ }
+]

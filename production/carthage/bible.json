@@ -1,0 +1,43 @@
+{
+ "title": "Carthage Must Be Destroyed: The Fall of Rome's Greatest Rival",
+ "style": {
+  "prefix": "Photorealistic cinematic film still from a high-budget historical documentary reconstruction, anamorphic lens, natural film grain, realistic skin and fabric texture",
+  "suffix": "historically accurate 3rd and 2nd century BC Mediterranean details, no text, no captions, no watermark, no modern objects",
+  "negative": "cartoon, illustration, CGI look, oversaturated, plastic skin, text, logo, watermark, modern buildings, domes, minarets, medieval castles, segmented plate armour, rectangular imperial shields, gore"
+ },
+ "grades": {
+  "gold": "warm Mediterranean sunlight, honey and ochre tones, soft haze",
+  "candle": "warm light from small clay oil lamps, deep shadows, plaster and dark wood",
+  "steel": "overcast cold daylight, desaturated grey-blue, dust and smoke",
+  "night": "night, moonlight blue with orange torchlight",
+  "dawn": "cold grey-blue dawn light, mist",
+  "ash": "muted grey light, faded colours, smoke and quiet aftermath",
+  "fire": "orange firelight and black smoke, embers in the air",
+  "snow": "cold white mountain light, blowing snow, pale blue shadows",
+  "neutral": "museum photograph",
+  "map": "aged parchment map texture"
+ },
+ "refs": {
+  "hannibal": "a lean hard-faced Carthaginian commander with a short dark curly beard, dark weathered skin, intense dark eyes, a plain bronze cuirass over a red tunic and a simple dark cloak",
+  "young_hannibal": "a nine-year-old Carthaginian boy with dark curly hair in a long pale tunic",
+  "hamilcar": "a powerful Carthaginian general in his forties with a full dark beard flecked with grey, bronze muscle cuirass, crimson cloak",
+  "scipio": "a confident young Roman general of about 30, smooth clean-shaven face, short dark hair, bronze muscle cuirass and a red general's cloak",
+  "aemilianus": "a stern Roman general of about 38, smooth clean-shaven face, close-cropped dark hair, bronze muscle cuirass and a red general's cloak",
+  "polybius": "a thoughtful Greek man in his fifties with a short grey beard and a plain Greek cloak",
+  "cato": "a tough elderly Roman senator with red-grey hair, grey eyes, a hard lined clean-shaven face, plain white toga",
+  "fabius": "an old calm Roman senator of about sixty, clean-shaven, white toga with purple border",
+  "masinissa": "a lean very old Numidian king with a white beard and dark skin, white robe and a gold diadem, still upright and strong",
+  "hasdrubal146": "a heavy-set Carthaginian general in his fifties with a dark beard, ornate bronze armour and a purple cloak",
+  "carthaginians": "Carthaginian citizens in long ankle-length linen robes with wide sleeves and coloured borders, men with short dark beards, women with veils and gold earrings",
+  "punic_army": "a Carthaginian army of many nations: Libyan spearmen in linen armour and bronze helmets with round shields, Iberian warriors in white tunics with crimson borders and curved swords, Gallic warriors with long oval shields, Balearic slingers",
+  "numidians": "Numidian light cavalry on small horses riding without saddle or bridle, short tunics, javelins and small round leather shields",
+  "elephants": "North African forest war elephants, smaller than Asian elephants with large ears, a driver sitting on the neck, no tower",
+  "legion": "Roman legionaries of the 3rd century BC with bronze Montefortino helmets with black and purple feather crests, bronze square chest plates or mail shirts, tall oval curved shields, javelins and short swords",
+  "romans": "Roman senators and citizens of the 2nd century BC, clean-shaven, white woollen togas",
+  "carthage": "ancient Carthage on a peninsula in the 2nd century BC: a citadel hill crowned with a temple, dense whitewashed stone houses five and six storeys tall with flat roofs, Hellenistic colonnades, massive sea walls, North African hills behind",
+  "harbour": "the circular naval harbour of Carthage: a round basin with a round island in the middle holding the admiral's tower, covered ship sheds with columns all around for warships, a rectangular merchant harbour beyond",
+  "ships": "ancient war galleys: quinqueremes with five-man oar banks, bronze rams at the bow, square sails, painted eyes",
+  "rome": "Rome in the 3rd century BC: temples of brown volcanic stone and painted terracotta on hills, red-tiled roofs, the Tiber, city walls of tufa blocks"
+ },
+ "costs": {"still": 0.15, "video": 2.0}
+}
