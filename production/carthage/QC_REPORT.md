@@ -1,6 +1,6 @@
 # Scene-by-scene QC report
 
-Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots failing
+Runtime 60.6 min · 421 shots · 202/240 cuts on a sentence boundary · 0 shots failing
 
 | Time | Shot | Narration at the cut | Visual | Image | Zoom | Text | Sync | Status |
 |---|---|---|---|---|---|---|---|---|
@@ -8,9 +8,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 00:06–00:12 | 00-00-2 | For six days and six nights, Roman soldiers have been fighting their w | still: Roman soldiers crossing a wooden plank laid between two roof | pass | pass | pass | pass | Approved |
 | 00:12–00:18 | 00-00-2#1 | For six days and six nights, Roman soldiers have been fighting their w | still: Roman soldiers crossing a wooden plank laid between two roof | pass | pass | pass | pass | Approved |
 | 00:18–00:24 | 00-00-3 | Every one of them has to be taken, floor by floor, roof by roof. | detail: the plank and the soldiers' feet | pass | pass | pass | pass | Approved |
-| 00:24–00:37 | 00-01-2 | When a block was cleared, the Romans set it on fire. | map: Plan of Carthage, spring 146 BC: the blocks between the agor | pass | pass | pass | pass | Approved |
-| 00:37–00:42 | 00-01-2#r | Men with axes and hooks cleared the rubble to open a path for the troo | still: z_00-00-2.png | pass | pass | pass | pass | Approved |
-| 00:42–00:46 | 00-01-2#r2 | Men with axes and hooks cleared the rubble to open a path for the troo | still: z_00-00-2.png | pass | pass | pass | pass | Approved |
+| 00:24–00:46 | 00-01-2 | When a block was cleared, the Romans set it on fire. | map: Plan of Carthage, spring 146 BC: the blocks between the agor | pass | pass | pass | pass | Approved |
 | 00:46–00:51 | 00-02-0 | On the seventh day, a group of men came down from the citadel holding  | still: A small group of exhausted Carthaginian men in long robes ho | pass | pass | pass | pass | Approved |
 | 00:51–00:55 | 00-02-0#1 | On the seventh day, a group of men came down from the citadel holding  | still: A small group of exhausted Carthaginian men in long robes ho | pass | pass | pass | pass | Approved |
 | 00:55–01:06 | 00-02-2 | They asked for one thing: that those who came out should be allowed to | stat: 50,000 :: people came out of the citadel, according to Appia | pass | pass | pass | pass | Approved |
@@ -22,7 +20,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 01:35–01:41 | 00-04-2 | Its greatest general had marched elephants over the Alps and destroyed | photo: Carthaginian coin with horse and palm tree | pass | pass | pass | pass | Approved |
 | 01:41–01:46 | 00-04-2#1 | Now it was being wiped from the earth. | photo: Carthaginian coin with horse and palm tree | pass | pass | pass | pass | Approved |
 | 01:59–02:12 | 01-00-0 |  | map: Map of the eastern Mediterranean showing Phoenicia with Tyre | pass | pass | pass | pass | Approved |
-| 02:12–02:18 | 01-00-0#r | Here, three thousand years ago, stood the cities of the Phoenicians: B | still: 00-04-2.jpg | pass | pass | pass | pass | Approved |
+| 02:12–02:18 | 01-00-0#r | Here, three thousand years ago, stood the cities of the Phoenicians: B | still: 01-00-2.jpg | pass | pass | pass | pass | Approved |
 | 02:18–02:24 | 01-00-2 | The Phoenicians were the great sailors and traders of their age. | photo: Murex shells used for Tyrian purple dye | pass | pass | pass | pass | Approved |
 | 02:24–02:31 | 01-00-2#1 | They sold cedar wood, glass, and a purple dye so costly that it became | photo: Murex shells used for Tyrian purple dye | pass | pass | pass | pass | Approved |
 | 02:31–02:44 | 01-01-1 | They also spread something even more valuable: their alphabet. | map: Map of Phoenician trade routes spreading west across the Med | pass | pass | pass | pass | Approved |
@@ -41,7 +39,8 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 04:00–04:11 | 01-05-0 | Roman writers added a love story. | photo: Death of Dido painting | pass | pass | pass | pass | Approved |
 | 04:11–04:26 | 01-05-1 | In Virgil's Aeneid, Dido falls in love with the Trojan hero Aeneas, an | quote: "Let there be no love between our peoples, and no treaty." ~ | pass | pass | pass | pass | Approved |
 | 04:26–04:49 | 01-06-0 | The ancient tradition dated the founding to 814 BC. | timeline: 814 BC: Carthage founded (tradition)* ; 776 BC: First Olympi | pass | pass | pass | pass | Approved |
-| 04:55–05:13 | 02-00-0 |  | map: Map of the western Mediterranean around 300 BC with Carthagi | pass | pass | pass | pass | Approved |
+| 04:55–05:07 | 02-00-0 |  | map: Map of the western Mediterranean around 300 BC with Carthagi | pass | pass | pass | pass | Approved |
+| 05:07–05:13 | 02-00-0#r | By the fourth century BC it controlled the coast of North Africa, west | still: 02-00-3.jpg | pass | pass | pass | pass | Approved |
 | 05:13–05:20 | 02-00-3 | By the fourth century BC it controlled the coast of North Africa, west | photo: Carthaginian gold stater coin with Tanit | pass | pass | pass | pass | Approved |
 | 05:20–05:27 | 02-00-3#1 | Its merchants bought tin, silver, grain and slaves, and sold them acro | photo: Carthaginian gold stater coin with Tanit | pass | pass | pass | pass | Approved |
 | 05:27–05:32 | 02-01-1 | The city itself grew into one of the largest in the Mediterranean worl | photo: Punic quarter ruins on Byrsa hill, Carthage | pass | pass | pass | pass | Approved |
@@ -51,8 +50,8 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 05:47–05:52 | 02-01-2#1 | Archaeologists have found bathtubs, mosaic floors and drains that woul | photo: Punic bathtub or house remains at Kerkouane | pass | pass | pass | pass | Approved |
 | 05:52–05:57 | 02-01-2#2 | Archaeologists have found bathtubs, mosaic floors and drains that woul | photo: Punic bathtub or house remains at Kerkouane | pass | pass | pass | pass | Approved |
 | 05:57–06:09 | 02-02-0 | Most famous of all were the harbours. | diagram: harbours | pass | pass | pass | pass | Approved |
-| 06:09–06:14 | 02-02-0#r | A channel led from there into a second, circular harbour reserved for  | still: 02-01-2.jpg | pass | pass | pass | pass | Approved |
-| 06:14–06:18 | 02-02-0#r2 | In its centre was an island with a tower, from which the admiral could | still: 02-01-2.jpg | pass | pass | pass | pass | Approved |
+| 06:09–06:14 | 02-02-0#r | A channel led from there into a second, circular harbour reserved for  | still: 02-02-3.jpg | pass | pass | pass | pass | Approved |
+| 06:14–06:18 | 02-02-0#r2 | In its centre was an island with a tower, from which the admiral could | still: 02-02-3.jpg | pass | pass | pass | pass | Approved |
 | 06:18–06:25 | 02-02-3 | All around the edge of the basin, and on the island, were covered shed | photo: Punic ports of Carthage today, the circular harbour | pass | pass | pass | pass | Approved |
 | 06:25–06:32 | 02-02-3#1 | All around the edge of the basin, and on the island, were covered shed | photo: Punic ports of Carthage today, the circular harbour | pass | pass | pass | pass | Approved |
 | 06:32–06:39 | 02-03-0 | Carthage was a republic, like Rome. | still: A council of bearded Carthaginian elders in long robes seate | pass | pass | pass | pass | Approved |
@@ -62,33 +61,24 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 07:08–07:14 | 02-04-1#1 | Its people worshipped Phoenician gods: Baal Hammon, and a goddess call | photo: Tophet of Salammbo in Carthage | pass | pass | pass | pass | Approved |
 | 07:14–07:20 | 02-04-1#2 | Some of those stones stand in a sacred precinct that archaeologists ca | photo: Tophet of Salammbo in Carthage | pass | pass | pass | pass | Approved |
 | 07:20–07:26 | 02-04-1#3 | Under them were buried urns holding the cremated bones of infants and  | photo: Tophet of Salammbo in Carthage | pass | pass | pass | pass | Approved |
-| 07:26–07:39 | 02-05-1 | Greek and Roman writers said that the Carthaginians sacrificed their o | split: The written accounts [q: Diodorus Siculus manuscript Bibliot | pass | pass | pass | pass | Approved |
-| 07:39–07:46 | 02-05-1#r | Some modern scholars have argued that this was enemy propaganda, and t | still: 02-04-1.jpg | pass | pass | pass | pass | Approved |
-| 07:46–07:52 | 02-05-1#r2 | The debate goes on, but many archaeologists now accept that sacrifices | still: 02-04-1.jpg | pass | pass | pass | pass | Approved |
-| 07:52–07:59 | 02-05-1#r3 | It is worth remembering that almost every word we have about Carthage  | still: 02-04-1.jpg | pass | pass | pass | pass | Approved |
+| 07:26–07:59 | 02-05-1 | Greek and Roman writers said that the Carthaginians sacrificed their o | split: The written accounts [q: Diodorus Siculus manuscript Bibliot | pass | pass | pass | pass | Approved |
 | 07:59–08:06 | 02-06-1 | For centuries Carthage fought the Greek cities of Sicily, above all Sy | photo: Olympias, a full-size reconstruction of an ancient Greek tri | pass | pass | pass | pass | Approved |
 | 08:06–08:12 | 02-06-1#1 | With Rome, a small city in central Italy, it was on friendly terms. | photo: Olympias, a full-size reconstruction of an ancient Greek tri | pass | pass | pass | pass | Approved |
 | 08:12–08:25 | 02-06-3 | The Greek historian Polybius copied out the text of a treaty between t | timeline: 509 BC: First treaty with Rome* ; 480 BC: Battle of Himera ; | pass | pass | pass | pass | Approved |
 | 08:25–08:30 | 02-06-3#r | Carthage was to leave Rome's Latin allies alone. | still: 02-06-1.jpg | pass | pass | pass | pass | Approved |
-| 08:36–08:49 | 03-00-0 |  | map: Map of Sicily in 264 BC showing Carthaginian territory in th | pass | pass | pass | pass | Approved |
-| 08:49–08:56 | 03-00-0#r | In 264 BC, a band of mercenaries who had seized the Sicilian city of M | still: 02-06-1.jpg | pass | pass | pass | pass | Approved |
-| 08:56–09:08 | 03-00-2 | After a fierce debate, the Romans decided to send an army across the n | timeline: 264 BC: First Punic War* ; 218 BC: Second Punic War ; 149 BC | pass | pass | pass | pass | Approved |
-| 09:08–09:14 | 03-00-2#r | It began the first of three wars that the Romans called Punic, from th | still: 02-06-1.jpg | pass | pass | pass | pass | Approved |
+| 08:36–08:56 | 03-00-0 |  | map: Map of Sicily in 264 BC showing Carthaginian territory in th | pass | pass | pass | pass | Approved |
+| 08:56–09:14 | 03-00-2 | After a fierce debate, the Romans decided to send an army across the n | timeline: 264 BC: First Punic War* ; 218 BC: Second Punic War ; 149 BC | pass | pass | pass | pass | Approved |
 | 09:14–09:20 | 03-01-3 | Carthage was a naval power. | still: Rows of Roman oarsmen practising rowing on wooden benches se | pass | pass | pass | pass | Approved |
 | 09:20–09:26 | 03-01-3#1 | The Romans had almost no warships, and none of the heavy galleys calle | still: Rows of Roman oarsmen practising rowing on wooden benches se | pass | pass | pass | pass | Approved |
 | 09:26–09:38 | 03-01-4 | According to Polybius, they found a Carthaginian quinquereme that had  | stat: 100 ships in 60 days :: according to Polybius | pass | pass | pass | pass | Approved |
 | 09:38–09:42 | 03-01-4#r | According to Polybius, they found a Carthaginian quinquereme that had  | still: z_03-01-3.png | pass | pass | pass | pass | Approved |
-| 09:42–09:55 | 03-02-0 | To make up for their lack of skill, the Romans invented a boarding bri | diagram: corvus | pass | pass | pass | pass | Approved |
-| 09:55–10:03 | 03-02-0#r | When an enemy ship came close, the bridge dropped, the spike drove int | still: z_03-01-3.png | pass | pass | pass | pass | Approved |
-| 10:03–10:11 | 03-02-0#r2 | At Mylae in 260 BC the Carthaginian fleet was taken completely by surp | still: z_03-01-3.png | pass | pass | pass | pass | Approved |
+| 09:42–10:11 | 03-02-0 | To make up for their lack of skill, the Romans invented a boarding bri | diagram: corvus | pass | pass | pass | pass | Approved |
 | 10:11–10:24 | 03-03-0 | The war dragged on for twenty-three years. | map: Map of Regulus's invasion: the Roman fleet sailing from Sici | pass | pass | pass | pass | Approved |
 | 10:24–10:28 | 03-03-1 | In 256 BC, after one of the largest sea battles in history, the Romans | still: War elephants charging into a line of Roman soldiers on an o | pass | pass | pass | pass | Approved |
 | 10:28–10:33 | 03-03-1#1 | Carthage seemed about to fall. | still: War elephants charging into a line of Roman soldiers on an o | pass | pass | pass | pass | Approved |
 | 10:33–10:37 | 03-03-2 | But the Carthaginians hired a Spartan mercenary, Xanthippus, who used  | still: A defeated Roman consul in chains in a stone cell, lamplight | pass | pass | pass | pass | Approved |
 | 10:37–10:42 | 03-03-2#1 | But the Carthaginians hired a Spartan mercenary, Xanthippus, who used  | still: A defeated Roman consul in chains in a stone cell, lamplight | pass | pass | pass | pass | Approved |
-| 10:42–10:55 | 03-04-2 | Then the sea itself turned against Rome. | stat: 364 ships · 80 survived :: the storm off Camarina, 255 BC | pass | pass | pass | pass | Approved |
-| 10:55–11:02 | 03-04-2#r | In 255 BC, a Roman fleet ignored the warnings of its pilots and was ca | still: z_03-03-2.png | pass | pass | pass | pass | Approved |
-| 11:02–11:09 | 03-04-2#r2 | Tens of thousands of men drowned. | still: z_03-03-2.png | pass | pass | pass | pass | Approved |
+| 10:42–11:09 | 03-04-2 | Then the sea itself turned against Rome. | stat: 364 ships · 80 survived :: the storm off Camarina, 255 BC | pass | pass | pass | pass | Approved |
 | 11:09–11:15 | 03-05-0 | In Sicily the war ground on. | still: A powerful Carthaginian general with a grey-flecked beard an | pass | pass | pass | pass | Approved |
 | 11:15–11:21 | 03-05-0#1 | A Carthaginian general named Hamilcar, nicknamed Barca, probably meani | still: A powerful Carthaginian general with a grey-flecked beard an | pass | pass | pass | pass | Approved |
 | 11:21–11:27 | 03-05-1 | A Carthaginian general named Hamilcar, nicknamed Barca, probably meani | photo: Monte Erice or Mount Eryx Sicily | pass | pass | pass | pass | Approved |
@@ -118,10 +108,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 14:22–14:28 | 04-03-2 | He led the boy to the altar, made him place his hand on the sacrifice, | photo: Hannibal swearing enmity to Rome painting | pass | pass | pass | pass | Approved |
 | 14:28–14:33 | 04-03-2#1 | He led the boy to the altar, made him place his hand on the sacrifice, | photo: Hannibal swearing enmity to Rome painting | pass | pass | pass | pass | Approved |
 | 14:33–14:48 | 04-04-0 | We know this story because Hannibal told it himself, many years later, | quote: "He bade me lay my hand on the victim and swear never to be  | pass | pass | pass | pass | Approved |
-| 14:48–15:00 | 04-05-0 | In Spain, Hamilcar conquered and made alliances, and took over the ric | map: Map of Carthaginian Spain 237–219 BC: Gades, the silver mine | pass | pass | pass | pass | Approved |
-| 15:00–15:07 | 04-05-0#r | When he drowned in a river during a battle in 229 BC, his son-in-law,  | still: 04-03-2.jpg | pass | pass | pass | pass | Approved |
-| 15:07–15:13 | 04-05-0#r2 | Hasdrubal founded a new capital on a superb natural harbour on the Spa | still: 04-03-2.jpg | pass | pass | pass | pass | Approved |
-| 15:13–15:20 | 04-05-0#r3 | The Romans called it New Carthage. | still: 04-03-2.jpg | pass | pass | pass | pass | Approved |
+| 14:48–15:20 | 04-05-0 | In Spain, Hamilcar conquered and made alliances, and took over the ric | map: Map of Carthaginian Spain 237–219 BC: Gades, the silver mine | pass | pass | pass | pass | Approved |
 | 15:20–15:29 | 04-06-0 | Rome, worried about this new power, made a treaty with Hasdrubal: the  | map: Map of Spain showing the Ebro treaty line of 226 BC and the  | pass | pass | pass | pass | Approved |
 | 15:29–15:34 | 04-06-1 | Then, in 221 BC, Hasdrubal was murdered by a Celt seeking revenge. | still: A great army of Carthaginians, Iberians and Libyans raising  | pass | pass | pass | pass | Approved |
 | 15:34–15:40 | 04-06-1#1 | Then, in 221 BC, Hasdrubal was murdered by a Celt seeking revenge. | still: A great army of Carthaginians, Iberians and Libyans raising  | pass | pass | pass | pass | Approved |
@@ -147,19 +134,15 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 17:45–17:52 | 05-04-1#1 | Its leader, Quintus Fabius, stood before the Carthaginian council and  | vid: An elderly Roman envoy gathering a fold of his white toga in | pass | pass | pass | pass | Approved |
 | 17:52–18:04 | 05-04-2 | Here, he said, we bring you war and peace. | quote: "Here we bring you war and peace. Take whichever you please. | pass | pass | pass | pass | Approved |
 | 18:04–18:08 | 05-04-2#r | Then I give you war, he said, and let the fold fall. | still: z_05-04-1.png | pass | pass | pass | pass | Approved |
-| 18:08–18:21 | 05-05-0 | Rome expected to fight the war on its own terms. | map: Map of Rome's plan in 218 BC: one army to Spain, one to Afri | pass | pass | pass | pass | Approved |
-| 18:21–18:27 | 05-05-0#r | The other would invade Africa. | still: z_05-04-1.png | pass | pass | pass | pass | Approved |
-| 18:27–18:33 | 05-05-0#r2 | If he could not reach Italy by sea, he would go by land, across the Py | still: z_05-04-1.png | pass | pass | pass | pass | Approved |
-| 18:33–18:39 | 05-05-0#r3 | If he could not reach Italy by sea, he would go by land, across the Py | still: z_05-04-1.png | pass | pass | pass | pass | Approved |
-| 18:45–18:58 | 06-00-0 |  | map: Hannibal's march 218 BC part one: New Carthage to the Ebro a | pass | pass | pass | pass | Approved |
-| 18:58–19:02 | 06-00-0#r | Polybius gives him ninety thousand infantry, twelve thousand cavalry,  | still: z_05-04-1.png | pass | pass | pass | pass | Approved |
+| 18:08–18:39 | 05-05-0 | Rome expected to fight the war on its own terms. | map: Map of Rome's plan in 218 BC: one army to Spain, one to Afri | pass | pass | pass | pass | Approved |
+| 18:45–19:02 | 06-00-0 |  | map: Hannibal's march 218 BC part one: New Carthage to the Ebro a | pass | pass | pass | pass | Approved |
 | 19:02–19:17 | 06-00-2 | The starting numbers may be exaggerated, but it was a huge force. | stat: 90,000 infantry · 12,000 cavalry · 37 elephants :: Hannibal' | pass | pass | pass | pass | Approved |
 | 19:17–19:24 | 06-01-2 | At the Rhône, a Gallic tribe waited on the far bank to stop him. | photo: Hannibal's elephants crossing the Rhône, Henri-Paul Motte | pass | pass | pass | pass | Approved |
 | 19:24–19:32 | 06-01-2#1 | Hannibal sent part of his army upstream by night, under an officer nam | photo: Hannibal's elephants crossing the Rhône, Henri-Paul Motte | pass | pass | pass | pass | Approved |
 | 19:32–19:40 | 06-01-2#2 | The elephants were a problem. | photo: Hannibal's elephants crossing the Rhône, Henri-Paul Motte | pass | pass | pass | pass | Approved |
 | 19:40–19:47 | 06-01-2#3 | So the Carthaginians built huge rafts, covered them with earth so that | photo: Hannibal's elephants crossing the Rhône, Henri-Paul Motte | pass | pass | pass | pass | Approved |
 | 19:47–20:00 | 06-02-0 | Days later, a Roman army under the consul Scipio landed at the mouth o | map: Map of the Rhône delta: Scipio's fleet landing near Massalia | pass | pass | pass | pass | Approved |
-| 20:00–20:03 | 06-02-0#r | It arrived to find that Hannibal had already gone, three days earlier, | still: 06-01-2.jpg | pass | pass | pass | pass | Approved |
+| 20:00–20:03 | 06-02-0#r | It arrived to find that Hannibal had already gone, three days earlier, | still: z_06-02-1.png | pass | pass | pass | pass | Approved |
 | 20:03–20:08 | 06-02-1 | He sent his army on to Spain under his brother, to cut Hannibal off fr | still: A Roman consul in a red cloak on a riverbank studying the de | pass | pass | pass | pass | Approved |
 | 20:08–20:13 | 06-02-1#1 | He sent his army on to Spain under his brother, to cut Hannibal off fr | still: A Roman consul in a red cloak on a riverbank studying the de | pass | pass | pass | pass | Approved |
 | 20:13–20:18 | 06-03-0 | It was autumn when Hannibal reached the mountains. | vid: A long column of soldiers, horses and war elephants climbing | pass | pass | pass | pass | Approved |
@@ -170,9 +153,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 20:40–20:46 | 06-04-0 | The way down was worse. | still: Soldiers building a huge fire against a boulder blocking a n | pass | pass | pass | pass | Approved |
 | 20:46–20:52 | 06-04-1 | Livy says the soldiers split a great rock by heating it with fire and  | still: Sour wine being poured from an amphora onto a cracked red-ho | pass | pass | pass | pass | Approved |
 | 20:52–21:01 | 06-04-2 | Polybius, who walked the route himself to check it, does not mention t | stat: 15 days :: to cross the Alps | pass | pass | pass | pass | Approved |
-| 21:01–21:14 | 06-05-1 | Which pass did he use? | map: Map of the western Alps showing the main proposed routes of  | pass | pass | pass | pass | Approved |
-| 21:14–21:20 | 06-05-1#r | In 2016, scientists studying a high pass called the Col de la Traverse | still: z_06-04-1.png | pass | pass | pass | pass | Approved |
-| 21:20–21:26 | 06-05-1#r2 | In 2016, scientists studying a high pass called the Col de la Traverse | still: z_06-04-1.png | pass | pass | pass | pass | Approved |
+| 21:01–21:26 | 06-05-1 | Which pass did he use? | map: Map of the western Alps showing the main proposed routes of  | pass | pass | pass | pass | Approved |
 | 21:26–21:33 | 06-06-0 | When Hannibal came down into the valley of the Po, he had twenty thous | stat: 20,000 infantry · 6,000 cavalry :: arrived in Italy, from Ha | pass | pass | pass | pass | Approved |
 | 21:33–21:41 | 06-06-1 | We know these numbers because he later had them carved on a bronze tab | still: An exhausted, ragged army with a few elephants coming down f | pass | pass | pass | pass | Approved |
 | 21:41–21:51 | 06-06-2 | He had crossed the Pyrenees with about fifty-nine thousand men. | map: Hannibal's march 218 BC complete: from New Carthage through  | pass | pass | pass | pass | Approved |
@@ -240,33 +221,23 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 28:39–28:46 | 08-05-1 | Either way, it was one of the bloodiest single days of fighting in his | still: A vast empty plain at sunset covered in abandoned shields, b | pass | pass | pass | pass | Approved |
 | 28:46–28:51 | 08-05-2 | So were two former consuls and some eighty senators. | still: A dented bronze Roman helmet with a broken crest lying in dr | pass | pass | pass | pass | Approved |
 | 28:51–28:55 | 08-05-2#1 | Hannibal lost about six thousand men, most of them Gauls. | still: A dented bronze Roman helmet with a broken crest lying in dr | pass | pass | pass | pass | Approved |
-| 28:55–29:08 | 08-06-2 | Livy tells us that Hannibal's brother Mago later stood before the coun | diagram: Schematic of a double envelopment: a larger force attacked o | pass | pass | pass | pass | Approved |
-| 29:08–29:16 | 08-06-2#r | Livy tells us that Hannibal's brother Mago later stood before the coun | still: z_08-05-2.png | pass | pass | pass | pass | Approved |
-| 29:16–29:24 | 08-06-2#r2 | The double envelopment, the perfect encirclement of a larger force, is | still: z_08-05-2.png | pass | pass | pass | pass | Approved |
+| 28:55–29:24 | 08-06-2 | Livy tells us that Hannibal's brother Mago later stood before the coun | diagram: Schematic of a double envelopment: a larger force attacked o | pass | pass | pass | pass | Approved |
 | 29:29–29:36 | 09-00-0 |  | still: Two Carthaginian commanders arguing in a tent at night by la | pass | pass | pass | pass | Approved |
 | 29:36–29:42 | 09-00-0#1 | After Cannae, Hannibal's cavalry commander Maharbal urged him to march | still: Two Carthaginian commanders arguing in a tent at night by la | pass | pass | pass | pass | Approved |
 | 29:42–29:54 | 09-00-1 | Give me the cavalry, he said, and in five days you will dine on the Ca | quote: "You know how to win a victory, Hannibal. You do not know ho | pass | pass | pass | pass | Approved |
 | 29:54–29:59 | 09-00-1#r | You know how to win a victory, Hannibal. | still: z_09-00-0.png | pass | pass | pass | pass | Approved |
-| 29:59–30:11 | 09-01-0 | Historians still argue about it. | map: Map of Italy after Cannae: distance from Cannae to Rome, and | pass | pass | pass | pass | Approved |
-| 30:11–30:16 | 09-01-0#r | His strategy had never been to storm Rome. | still: z_09-00-0.png | pass | pass | pass | pass | Approved |
-| 30:16–30:21 | 09-01-0#r2 | It was to break up Rome's alliance of Italian cities, one by one, unti | still: z_09-00-0.png | pass | pass | pass | pass | Approved |
+| 29:59–30:21 | 09-01-0 | Historians still argue about it. | map: Map of Italy after Cannae: distance from Cannae to Rome, and | pass | pass | pass | pass | Approved |
 | 30:21–30:34 | 09-02-0 | At first it seemed to work. | map: Map of the Mediterranean 215 to 212 BC: Rome fighting in Ita | pass | pass | pass | pass | Approved |
 | 30:34–30:38 | 09-02-1 | In Sicily, the great Greek city of Syracuse changed sides. | photo: Coin of Philip V of Macedon | pass | pass | pass | pass | Approved |
 | 30:38–30:42 | 09-02-1#1 | Rome was fighting on four fronts. | photo: Coin of Philip V of Macedon | pass | pass | pass | pass | Approved |
-| 30:42–30:55 | 09-03-2 | But Rome did not break. | quote: "A rite hardly Roman at all." ~ Livy 22.57, on the sacrifice | pass | pass | pass | pass | Approved |
-| 30:55–31:01 | 09-03-2#r | In the panic after Cannae, the Romans even buried two Gauls and two Gr | still: 09-02-1.jpg | pass | pass | pass | pass | Approved |
-| 31:01–31:07 | 09-03-2#r2 | It armed eight thousand slaves, and raised new legions from boys and o | still: 09-02-1.jpg | pass | pass | pass | pass | Approved |
-| 31:07–31:12 | 09-03-2#r3 | And the Latin cities of central Italy, the core of Rome's alliance, st | still: 09-02-1.jpg | pass | pass | pass | pass | Approved |
+| 30:42–31:12 | 09-03-2 | But Rome did not break. | quote: "A rite hardly Roman at all." ~ Livy 22.57, on the sacrifice | pass | pass | pass | pass | Approved |
 | 31:12–31:21 | 09-04-1 | At Syracuse, a Roman army and fleet laid siege to the city in 213 BC. | photo: Death of Archimedes mosaic or painting | pass | pass | pass | pass | Approved |
 | 31:21–31:30 | 09-04-1#1 | For two years they were held off by the inventions of one old man, the | photo: Death of Archimedes mosaic or painting | pass | pass | pass | pass | Approved |
 | 31:30–31:38 | 09-04-1#2 | For two years they were held off by the inventions of one old man, the | photo: Death of Archimedes mosaic or painting | pass | pass | pass | pass | Approved |
 | 31:38–31:47 | 09-04-1#3 | When the city finally fell in 212, a Roman soldier killed Archimedes,  | photo: Death of Archimedes mosaic or painting | pass | pass | pass | pass | Approved |
-| 31:47–31:59 | 09-05-2 | In 211, while Roman armies besieged Capua, Hannibal marched on Rome it | map: Map of Hannibal's march from Capua to Rome, 211 BC | pass | pass | pass | pass | Approved |
-| 31:59–32:05 | 09-05-2#r | He camped five kilometres from the city and rode up to the walls with  | still: 09-04-1.jpg | pass | pass | pass | pass | Approved |
-| 32:05–32:11 | 09-05-2#r2 | Livy says that, at that very moment, the land where Hannibal was campe | still: 09-04-1.jpg | pass | pass | pass | pass | Approved |
-| 32:11–32:17 | 09-05-2#r3 | The Romans did not lift the siege. | still: 09-04-1.jpg | pass | pass | pass | pass | Approved |
+| 31:47–32:17 | 09-05-2 | In 211, while Roman armies besieged Capua, Hannibal marched on Rome it | map: Map of Hannibal's march from Capua to Rome, 211 BC | pass | pass | pass | pass | Approved |
 | 32:17–32:29 | 09-06-0 | Then, in 207 BC, Hannibal's brother Hasdrubal crossed the Alps from Sp | map: Map of 207 BC: Hasdrubal's route over the Alps, the Roman co | pass | pass | pass | pass | Approved |
-| 32:29–32:35 | 09-06-0#r | But Hasdrubal's messengers were captured. | still: 09-04-1.jpg | pass | pass | pass | pass | Approved |
+| 32:29–32:35 | 09-06-0#r | But Hasdrubal's messengers were captured. | still: z_09-06-1.png | pass | pass | pass | pass | Approved |
 | 32:35–32:40 | 09-06-1 | A Roman consul marched north in secret, joined his colleague, and at t | still: Roman soldiers attacking a Carthaginian army along the banks | pass | pass | pass | pass | Approved |
 | 32:40–32:45 | 09-06-1#1 | A Roman consul marched north in secret, joined his colleague, and at t | still: Roman soldiers attacking a Carthaginian army along the banks | pass | pass | pass | pass | Approved |
 | 32:45–32:49 | 09-06-1#2 | The Romans cut off his head, carried it south, and threw it into Hanni | still: Roman soldiers attacking a Carthaginian army along the banks | pass | pass | pass | pass | Approved |
@@ -279,7 +250,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 33:29–33:35 | 10-00-1#1 | Rome needed someone to take their place. | photo: Bust of Scipio Africanus | pass | pass | pass | pass | Approved |
 | 33:35–33:50 | 10-00-2 | The man who stepped forward was the son who had saved his father's lif | timeline: 218 BC: Hannibal invades Italy ; 216 BC: Cannae ; 211 BC: Th | pass | pass | pass | pass | Approved |
 | 33:50–34:02 | 10-01-0 | His first move was the boldest of the war. | map: Map of New Carthage in 209 BC: the city on its peninsula, th | pass | pass | pass | pass | Approved |
-| 34:02–34:09 | 10-01-0#r | In 209 BC he marched his army in seven days straight to New Carthage,  | still: 10-00-1.jpg | pass | pass | pass | pass | Approved |
+| 34:02–34:09 | 10-01-0#r | In 209 BC he marched his army in seven days straight to New Carthage,  | still: z_10-01-1.png | pass | pass | pass | pass | Approved |
 | 34:09–34:15 | 10-01-1 | Scipio had learned from fishermen that the lagoon became shallow enoug | vid: Roman soldiers wading waist-deep across a shallow lagoon in  | pass | pass | pass | pass | Approved |
 | 34:15–34:20 | 10-01-1#1 | Scipio had learned from fishermen that the lagoon became shallow enoug | vid: Roman soldiers wading waist-deep across a shallow lagoon in  | pass | pass | pass | pass | Approved |
 | 34:20–34:26 | 10-01-1#2 | While his main army attacked the walls from the front, a detachment wa | vid: Roman soldiers wading waist-deep across a shallow lagoon in  | pass | pass | pass | pass | Approved |
@@ -289,7 +260,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 34:46–34:52 | 10-02-2 | Polybius tells a famous story: his soldiers brought him a beautiful yo | still: A young Roman general returning hostages, Spanish noble fami | pass | pass | pass | pass | Approved |
 | 34:52–34:58 | 10-02-2#1 | The story was told for centuries as an example of noble restraint, and | still: A young Roman general returning hostages, Spanish noble fami | pass | pass | pass | pass | Approved |
 | 34:58–35:10 | 10-03-0 | Over the next three years Scipio drove the Carthaginians out of Spain  | map: Map of Scipio's campaigns in Spain 209–206 BC: New Carthage, | pass | pass | pass | pass | Approved |
-| 35:10–35:14 | 10-03-0#r | Then he went home, was elected consul, and argued for a plan the old F | still: z_10-02-2.png | pass | pass | pass | pass | Approved |
+| 35:10–35:14 | 10-03-0#r | Then he went home, was elected consul, and argued for a plan the old F | still: z_10-03-1.png | pass | pass | pass | pass | Approved |
 | 35:14–35:18 | 10-03-1 | Instead of chasing Hannibal around Italy, Rome should invade Africa, a | still: A Roman Senate debate, an old senator gesturing against a yo | pass | pass | pass | pass | Approved |
 | 35:18–35:22 | 10-03-1#1 | Instead of chasing Hannibal around Italy, Rome should invade Africa, a | still: A Roman Senate debate, an old senator gesturing against a yo | pass | pass | pass | pass | Approved |
 | 35:22–35:28 | 10-04-1 | In 204 BC, Scipio landed in Africa near Utica. | still: A young Numidian prince on a small horse without saddle or b | pass | pass | pass | pass | Approved |
@@ -301,16 +272,10 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 35:58–36:03 | 10-05-1 | His men set them on fire, and cut down the soldiers as they ran out. | still: The smoking remains of a burned camp at dawn on an African p | pass | pass | pass | pass | Approved |
 | 36:03–36:08 | 10-05-1#1 | Polybius calls it the most dazzling of all Scipio's exploits. | still: The smoking remains of a burned camp at dawn on an African p | pass | pass | pass | pass | Approved |
 | 36:08–36:13 | 10-05-1#2 | A few weeks later he won a pitched battle on the Great Plains. | still: The smoking remains of a burned camp at dawn on an African p | pass | pass | pass | pass | Approved |
-| 36:13–36:25 | 10-06-1 | Carthage did what Scipio had expected. | quote: "Rarely, they say, has any exile left his own country as sad | pass | pass | pass | pass | Approved |
-| 36:25–36:30 | 10-06-1#r | Livy says that few exiles ever left their own country as sadly as Hann | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
-| 36:30–36:34 | 10-06-1#r2 | Livy says that few exiles ever left their own country as sadly as Hann | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
+| 36:13–36:34 | 10-06-1 | Carthage did what Scipio had expected. | quote: "Rarely, they say, has any exile left his own country as sad | pass | pass | pass | pass | Approved |
 | 36:40–36:54 | 11-00-0 |  | map: Map of North Africa 202 BC: Carthage, Utica, Hadrumetum, and | pass | pass | pass | pass | Approved |
-| 36:54–37:07 | 11-00-2 | Polybius says that before the battle they met in person, between the a | split: Hannibal, aged about 45 {z: A Carthaginian commander of 45 w | pass | pass | pass | pass | Approved |
-| 37:07–37:13 | 11-00-2#r | Whether they really spoke, or whether the meeting was invented by late | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
-| 37:13–37:25 | 11-01-0 | Hannibal opened the battle with his eighty war elephants. | diagram: zama | pass | pass | pass | pass | Approved |
-| 37:25–37:31 | 11-01-0#r | As the elephants charged, the Romans blew trumpets and horns. | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
-| 37:31–37:36 | 11-01-0#r2 | Many of the terrified animals ran down the lanes and out the back with | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
-| 37:36–37:42 | 11-01-0#r3 | Others turned around and stampeded into Hannibal's own cavalry. | still: z_10-05-1.png | pass | pass | pass | pass | Approved |
+| 36:54–37:13 | 11-00-2 | Polybius says that before the battle they met in person, between the a | split: Hannibal, aged about 45 {z: A Carthaginian commander of 45 w | pass | pass | pass | pass | Approved |
+| 37:13–37:42 | 11-01-0 | Hannibal opened the battle with his eighty war elephants. | diagram: zama | pass | pass | pass | pass | Approved |
 | 37:42–37:48 | 11-02-1 | Scipio's cavalry, the Italians under his friend Laelius and the Numidi | still: A line of hardened veteran Carthaginian soldiers with scarre | pass | pass | pass | pass | Approved |
 | 37:48–37:55 | 11-02-1#1 | Scipio's cavalry, the Italians under his friend Laelius and the Numidi | still: A line of hardened veteran Carthaginian soldiers with scarre | pass | pass | pass | pass | Approved |
 | 37:55–38:01 | 11-02-1#2 | Then the infantry met. | still: A line of hardened veteran Carthaginian soldiers with scarre | pass | pass | pass | pass | Approved |
@@ -323,22 +288,17 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 38:42–38:48 | 11-04-0#2 | Then he told the astonished councillors that he had left Carthage as a | still: A scarred commander in a council hall angrily pulling a robe | pass | pass | pass | pass | Approved |
 | 38:48–38:54 | 11-04-0#3 | Then he told the astonished councillors that he had left Carthage as a | still: A scarred commander in a council hall angrily pulling a robe | pass | pass | pass | pass | Approved |
 | 38:54–39:07 | 11-05-0 | The terms of 201 BC were harsh. | stat: 10 ships · 10,000 talents · 50 years :: the peace terms of 2 | pass | pass | pass | pass | Approved |
-| 39:07–39:13 | 11-05-0#r | It had to hand over all its elephants and all but ten of its warships. | still: z_11-04-0.png | pass | pass | pass | pass | Approved |
+| 39:07–39:13 | 11-05-0#r | It had to hand over all its elephants and all but ten of its warships. | still: z_11-05-2.png | pass | pass | pass | pass | Approved |
 | 39:13–39:18 | 11-05-2 | And it could not make war on anyone, even in Africa, without Rome's pe | still: Carthaginian men and women watching from the city walls as t | pass | pass | pass | pass | Approved |
 | 39:18–39:22 | 11-05-2#1 | And it could not make war on anyone, even in Africa, without Rome's pe | still: Carthaginian men and women watching from the city walls as t | pass | pass | pass | pass | Approved |
 | 39:22–39:27 | 11-05-2#2 | Livy says the Romans towed some five hundred Carthaginian ships out to | still: Carthaginian men and women watching from the city walls as t | pass | pass | pass | pass | Approved |
 | 39:27–39:41 | 11-06-1 | Scipio returned to Rome in triumph, and took the name by which he is s | timeline: 218 BC: Hannibal invades Italy ; 216 BC: Cannae ; 203 BC: Ha | pass | pass | pass | pass | Approved |
-| 39:47–39:59 | 12-00-1 |  | stat: 196 BC :: Hannibal is elected suffete, one of the two chief  | pass | pass | pass | pass | Approved |
-| 39:59–40:07 | 12-00-1#r | He went after the corrupt officials who had grown rich while the state | still: z_11-05-2.png | pass | pass | pass | pass | Approved |
-| 40:07–40:14 | 12-00-1#r2 | He made the powerful court of judges, whose members had held office fo | still: z_11-05-2.png | pass | pass | pass | pass | Approved |
-| 40:14–40:21 | 12-00-1#r3 | He found that so much public money was being stolen that, once the the | still: z_11-05-2.png | pass | pass | pass | pass | Approved |
+| 39:47–40:21 | 12-00-1 |  | stat: 196 BC :: Hannibal is elected suffete, one of the two chief  | pass | pass | pass | pass | Approved |
 | 40:21–40:27 | 12-01-1 | He made powerful enemies, and they sent word to Rome that Hannibal was | photo: Coin of Antiochus III | pass | pass | pass | pass | Approved |
 | 40:27–40:33 | 12-01-1#1 | He made powerful enemies, and they sent word to Rome that Hannibal was | photo: Coin of Antiochus III | pass | pass | pass | pass | Approved |
 | 40:33–40:45 | 12-01-2 | A Roman commission arrived. | map: Map of Hannibal's exile, 195 to 183 BC: Carthage to Tyre, Ep | pass | pass | pass | pass | Approved |
 | 40:45–40:50 | 12-01-2#r | In 195 BC, Hannibal slipped out of the city at night, rode to the coas | still: 12-01-1.jpg | pass | pass | pass | pass | Approved |
-| 40:50–41:02 | 12-02-2 | Meanwhile, Carthage did something unexpected. | stat: 191 BC :: Carthage offers to pay off forty years of indemnit | pass | pass | pass | pass | Approved |
-| 41:02–41:10 | 12-02-2#r | In 191 BC it offered to pay off the entire rest of the fifty-year inde | still: 12-01-1.jpg | pass | pass | pass | pass | Approved |
-| 41:10–41:17 | 12-02-2#r2 | Rome refused. | still: 12-01-1.jpg | pass | pass | pass | pass | Approved |
+| 40:50–41:17 | 12-02-2 | Meanwhile, Carthage did something unexpected. | stat: 191 BC :: Carthage offers to pay off forty years of indemnit | pass | pass | pass | pass | Approved |
 | 41:17–41:31 | 12-03-3 | Carthaginian agriculture was so admired that, after the city's fall, t | card: MAGO · a Carthaginian writer on farming · his manual was tra | pass | pass | pass | pass | Approved |
 | 41:31–41:41 | 12-03-4 | It was the only book from the libraries of Carthage that Rome consider | diagram: harbours | pass | pass | pass | pass | Approved |
 | 41:41–41:55 | 12-03-5 | The famous circular naval harbour, in the form described by the ancien | stat: 10 warships :: all that Carthage was allowed after 201 BC, a | pass | pass | pass | pass | Approved |
@@ -346,9 +306,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 42:04–42:12 | 12-04-1#1 | Hannibal served Antiochus as an adviser and admiral, but the king igno | still: A smashed clay jar on a wooden ship's deck with snakes slith | pass | pass | pass | pass | Approved |
 | 42:12–42:21 | 12-04-1#2 | He fled again, and found shelter at last with King Prusias of Bithynia | still: A smashed clay jar on a wooden ship's deck with snakes slith | pass | pass | pass | pass | Approved |
 | 42:21–42:29 | 12-04-1#3 | There, according to the Roman writer Nepos, he won a sea battle for hi | still: A smashed clay jar on a wooden ship's deck with snakes slith | pass | pass | pass | pass | Approved |
-| 42:29–42:42 | 12-05-2 | Around 183 BC, the Romans sent an envoy to demand that Prusias surrend | quote: "Let us free the Romans from their long anxiety, since they  | pass | pass | pass | pass | Approved |
-| 42:42–42:49 | 12-05-2#r | He had long kept poison ready, and now he took it. | still: z_12-04-1.png | pass | pass | pass | pass | Approved |
-| 42:49–42:56 | 12-05-2#r2 | Let us free the Romans from their long anxiety, since they think it to | still: z_12-04-1.png | pass | pass | pass | pass | Approved |
+| 42:29–42:56 | 12-05-2 | Around 183 BC, the Romans sent an envoy to demand that Prusias surrend | quote: "Let us free the Romans from their long anxiety, since they  | pass | pass | pass | pass | Approved |
 | 42:56–43:04 | 12-06-0 | In about the same year, Scipio Africanus died too, bitter and out of f | still: An old Roman general sitting alone in a quiet villa garden b | pass | pass | pass | pass | Approved |
 | 43:04–43:15 | 12-06-1 | It was said that he asked to be buried there, not in Rome. | timeline: 202 BC: Zama ; 196 BC: Hannibal elected suffete ; 195 BC: Ha | pass | pass | pass | pass | Approved |
 | 43:20–43:28 | 13-00-0 |  | still: A very old Numidian king with a white beard and gold diadem, | pass | pass | pass | pass | Approved |
@@ -374,36 +332,26 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 46:03–46:08 | 13-06-0 | He was the son of the Roman general Aemilius Paullus, adopted into the | still: Old Roman senators smiling grimly in the Senate as a messeng | pass | pass | pass | pass | Approved |
 | 46:08–46:14 | 13-06-0#1 | He was the son of the Roman general Aemilius Paullus, adopted into the | still: Old Roman senators smiling grimly in the Senate as a messeng | pass | pass | pass | pass | Approved |
 | 46:14–46:25 | 13-06-1 | And the battle he had just watched gave Rome what Cato had been waitin | stat: The peace of 201 BC :: No war, even in Africa, without the p | pass | pass | pass | pass | Approved |
-| 46:31–46:43 | 14-00-0 |  | map: Map of 149 BC: the Roman fleet sailing from Lilybaeum in Sic | pass | pass | pass | pass | Approved |
-| 46:43–46:47 | 14-00-0#r | Utica, Carthage's oldest neighbour, saw what was coming and went over  | still: z_13-06-0.png | pass | pass | pass | pass | Approved |
-| 46:47–47:00 | 14-00-2 | The two consuls of the year sailed from Sicily with, according to Appi | stat: 80,000 infantry · 4,000 cavalry :: the Roman army of 149 BC, | pass | pass | pass | pass | Approved |
-| 47:00–47:06 | 14-00-2#r | Carthage had no allies, no fleet, and no army left to speak of. | still: z_13-06-0.png | pass | pass | pass | pass | Approved |
+| 46:31–46:47 | 14-00-0 |  | map: Map of 149 BC: the Roman fleet sailing from Lilybaeum in Sic | pass | pass | pass | pass | Approved |
+| 46:47–47:06 | 14-00-2 | The two consuls of the year sailed from Sicily with, according to Appi | stat: 80,000 infantry · 4,000 cavalry :: the Roman army of 149 BC, | pass | pass | pass | pass | Approved |
 | 47:06–47:11 | 14-01-0 | Under Roman custom, a people that surrendered gave themselves complete | still: Carthaginian envoys in long robes kneeling before two Roman  | pass | pass | pass | pass | Approved |
 | 47:11–47:16 | 14-01-0#1 | Under Roman custom, a people that surrendered gave themselves complete | still: Carthaginian envoys in long robes kneeling before two Roman  | pass | pass | pass | pass | Approved |
 | 47:16–47:20 | 14-01-0#2 | The Carthaginian envoys were told that the city would keep its freedom | still: Carthaginian envoys in long robes kneeling before two Roman  | pass | pass | pass | pass | Approved |
 | 47:20–47:33 | 14-01-2 | The Carthaginian envoys were told that the city would keep its freedom | stat: 300 :: children of the noblest families, sent to Sicily as h | pass | pass | pass | pass | Approved |
 | 47:33–47:39 | 14-01-2#r | Appian describes the mothers clinging to the ships as they sailed, som | still: z_14-01-0.png | pass | pass | pass | pass | Approved |
-| 47:39–47:52 | 14-02-2 | Then the consuls, now camped at Utica, gave the second order. | stat: 200,000 sets of armour · 2,000 catapults :: handed over to R | pass | pass | pass | pass | Approved |
-| 47:52–47:59 | 14-02-2#r | Again, Carthage obeyed. | still: z_14-01-0.png | pass | pass | pass | pass | Approved |
-| 47:59–48:07 | 14-02-2#r2 | Appian says the Romans received two hundred thousand sets of armour, c | still: z_14-01-0.png | pass | pass | pass | pass | Approved |
+| 47:39–48:07 | 14-02-2 | Then the consuls, now camped at Utica, gave the second order. | stat: 200,000 sets of armour · 2,000 catapults :: handed over to R | pass | pass | pass | pass | Approved |
 | 48:07–48:12 | 14-03-1 | Then the consul Censorinus gave the final order. | still: A Carthaginian envoy's face as he hears the order, stunned,  | pass | pass | pass | pass | Approved |
 | 48:12–48:17 | 14-03-1#1 | The people of Carthage must leave their city. | still: A Carthaginian envoy's face as he hears the order, stunned,  | pass | pass | pass | pass | Approved |
 | 48:17–48:29 | 14-03-2 | The Carthaginians could build a new town wherever they liked, provided | map: Map showing Carthage on the coast and the zone at least fift | pass | pass | pass | pass | Approved |
 | 48:29–48:33 | 14-03-2#r | For a city that had lived from the sea for six hundred years, it was a | still: z_14-03-1.png | pass | pass | pass | pass | Approved |
-| 48:33–48:45 | 14-04-3 | When the envoys brought the news home, the city went mad. | map: Plan of Carthage, 149 BC: the Byrsa, the empty naval harbour | pass | pass | pass | pass | Approved |
-| 48:45–48:52 | 14-04-3#r | Italians who happened to be in the city were murdered. | still: z_14-03-1.png | pass | pass | pass | pass | Approved |
-| 48:52–48:58 | 14-04-3#r2 | People ran to the empty arsenals, to the temples, to the ship sheds wh | still: z_14-03-1.png | pass | pass | pass | pass | Approved |
-| 48:58–49:05 | 14-04-3#r3 | It freed its slaves to serve as soldiers. | still: z_14-03-1.png | pass | pass | pass | pass | Approved |
-| 49:05–49:11 | 14-04-3#r4 | And it recalled a general it had condemned to death only months before | still: z_14-03-1.png | pass | pass | pass | pass | Approved |
+| 48:33–49:11 | 14-04-3 | When the envoys brought the news home, the city went mad. | map: Plan of Carthage, 149 BC: the Byrsa, the empty naval harbour | pass | pass | pass | pass | Approved |
 | 49:11–49:17 | 14-05-0 | The city became one great workshop. | vid: Men and women hammering swords and shields in a temple turne | pass | pass | pass | pass | Approved |
 | 49:17–49:20 | 14-05-0#1 | Appian says that every day the Carthaginians made one hundred shields, | vid: Men and women hammering swords and shields in a temple turne | pass | pass | pass | pass | Approved |
 | 49:20–49:26 | 14-05-2 | Appian says that every day the Carthaginians made one hundred shields, | still: A Carthaginian woman cutting off her long dark hair with a b | pass | pass | pass | pass | Approved |
 | 49:26–49:31 | 14-05-2#1 | Temples and public buildings were turned into forges, men and women wo | still: A Carthaginian woman cutting off her long dark hair with a b | pass | pass | pass | pass | Approved |
 | 49:31–49:42 | 14-05-3 | There was not enough rope for the catapults. | stat: Every day: 100 shields · 300 swords · 1,000 bolts · 500 jave | pass | pass | pass | pass | Approved |
-| 49:47–50:00 | 15-00-0 |  | diagram: walls | pass | pass | pass | pass | Approved |
-| 50:00–50:03 | 15-00-0#r | On the landward side, across the neck of the peninsula, Appian describ | still: z_14-05-2.png | pass | pass | pass | pass | Approved |
-| 50:03–50:15 | 15-00-2 | On the landward side, across the neck of the peninsula, Appian describ | stat: 13 metres high :: the main landward wall of Carthage, accord | pass | pass | pass | pass | Approved |
-| 50:15–50:19 | 15-00-2#r | Inside the wall were stables for three hundred elephants and four thou | still: z_14-05-2.png | pass | pass | pass | pass | Approved |
+| 49:47–50:03 | 15-00-0 |  | diagram: walls | pass | pass | pass | pass | Approved |
+| 50:03–50:19 | 15-00-2 | On the landward side, across the neck of the peninsula, Appian describ | stat: 13 metres high :: the main landward wall of Carthage, accord | pass | pass | pass | pass | Approved |
 | 50:19–50:24 | 15-01-2 | The first assaults failed. | still: A Roman camp beside a marshy lake under grey skies, sick sol | pass | pass | pass | pass | Approved |
 | 50:24–50:30 | 15-01-2#1 | The consuls brought up two enormous battering rams and broke a section | still: A Roman camp beside a marshy lake under grey skies, sick sol | pass | pass | pass | pass | Approved |
 | 50:30–50:36 | 15-01-2#2 | They sent fire ships into the Roman fleet. | still: A Roman camp beside a marshy lake under grey skies, sick sol | pass | pass | pass | pass | Approved |
@@ -415,8 +363,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 51:12–51:18 | 15-03-1 | In 147 BC, the Roman people elected Scipio Aemilianus consul, even tho | still: A Roman general and a grey-bearded Greek man studying a mode | pass | pass | pass | pass | Approved |
 | 51:18–51:24 | 15-03-1#1 | In 147 BC, the Roman people elected Scipio Aemilianus consul, even tho | still: A Roman general and a grey-bearded Greek man studying a mode | pass | pass | pass | pass | Approved |
 | 51:24–51:38 | 15-03-2 | The law was set aside. | timeline: 149 BC: War declared ; 148 BC: Death of Masinissa ; 147 BC:  | pass | pass | pass | pass | Approved |
-| 51:38–51:50 | 15-04-0 | Scipio cut Carthage off. | map: Map of the siege of Carthage, 147 BC: the city walls, the ha | pass | pass | pass | pass | Approved |
-| 51:50–51:57 | 15-04-0#r | Then he began to build a great stone mole out into the sea, to block t | still: z_15-03-1.png | pass | pass | pass | pass | Approved |
+| 51:38–51:57 | 15-04-0 | Scipio cut Carthage off. | map: Map of the siege of Carthage, 147 BC: the city walls, the ha | pass | pass | pass | pass | Approved |
 | 51:57–52:02 | 15-05-0 | The Carthaginians answered with a feat of their own. | still: Men, women and children digging a deep channel through sand  | pass | pass | pass | pass | Approved |
 | 52:02–52:07 | 15-05-0#1 | Working in secret, they dug a new channel from the inner harbour strai | still: Men, women and children digging a deep channel through sand  | pass | pass | pass | pass | Approved |
 | 52:07–52:23 | 15-05-2 | At the same time, from old timber, they built a new fleet of some fift | diagram: channel | pass | pass | pass | pass | Approved |
@@ -431,14 +378,12 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 53:06–53:11 | 15-07-2#1 | Through the winter of 147, the Romans destroyed the last Carthaginian  | still: An empty clay storage jar and a few scattered grains on a ba | pass | pass | pass | pass | Approved |
 | 53:11–53:16 | 15-07-2#2 | Through the winter of 147, the Romans destroyed the last Carthaginian  | still: An empty clay storage jar and a few scattered grains on a ba | pass | pass | pass | pass | Approved |
 | 53:21–53:34 | 16-00-0 |  | map: Map of the final assault, spring 146 BC: Romans entering by  | pass | pass | pass | pass | Approved |
-| 53:34–53:39 | 16-00-0#r | Scipio's friend Gaius Laelius took the wall around the circular naval  | still: z_15-07-2.png | pass | pass | pass | pass | Approved |
-| 53:39–53:43 | 16-00-0#r2 | Scipio's friend Gaius Laelius took the wall around the circular naval  | still: z_15-07-2.png | pass | pass | pass | pass | Approved |
+| 53:34–53:39 | 16-00-0#r | Scipio's friend Gaius Laelius took the wall around the circular naval  | still: z_16-00-2.png | pass | pass | pass | pass | Approved |
+| 53:39–53:43 | 16-00-0#r2 | Scipio's friend Gaius Laelius took the wall around the circular naval  | still: z_16-00-2.png | pass | pass | pass | pass | Approved |
 | 53:43–53:48 | 16-00-2 | Starving and exhausted, the defenders fell back. | still: Roman soldiers prying gold leaf off a statue and a temple sh | pass | pass | pass | pass | Approved |
 | 53:48–53:53 | 16-00-2#1 | That night, Roman soldiers stripped the gold from a temple of Apollo,  | still: Roman soldiers prying gold leaf off a statue and a temple sh | pass | pass | pass | pass | Approved |
 | 53:53–53:58 | 16-00-2#2 | That night, Roman soldiers stripped the gold from a temple of Apollo,  | still: Roman soldiers prying gold leaf off a statue and a temple sh | pass | pass | pass | pass | Approved |
-| 53:58–54:10 | 16-01-0 | From the agora, three narrow streets climbed the hill to the Byrsa, th | diagram: byrsa | pass | pass | pass | pass | Approved |
-| 54:10–54:18 | 16-01-0#r | This is where the fighting of our opening scene took place. | still: z_16-00-2.png | pass | pass | pass | pass | Approved |
-| 54:18–54:27 | 16-01-0#r2 | For six days and nights, the Romans fought their way up, house by hous | still: z_16-00-2.png | pass | pass | pass | pass | Approved |
+| 53:58–54:27 | 16-01-0 | From the agora, three narrow streets climbed the hill to the Byrsa, th | diagram: byrsa | pass | pass | pass | pass | Approved |
 | 54:27–54:33 | 16-02-0 | The excavations on the Byrsa hill in the 1970s and 1980s, led by the F | photo: Punic houses of the Hannibal quarter on the Byrsa hill | pass | pass | pass | pass | Approved |
 | 54:33–54:38 | 16-02-0#1 | The excavations on the Byrsa hill in the 1970s and 1980s, led by the F | photo: Punic houses of the Hannibal quarter on the Byrsa hill | pass | pass | pass | pass | Approved |
 | 54:38–54:44 | 16-02-0#2 | The excavations on the Byrsa hill in the 1970s and 1980s, led by the F | photo: Punic houses of the Hannibal quarter on the Byrsa hill | pass | pass | pass | pass | Approved |
@@ -448,10 +393,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 55:27–55:33 | 16-04-0#1 | He slipped out alone, carrying an olive branch, and threw himself at S | still: A heavy-set bearded Carthaginian general kneeling with an ol | pass | pass | pass | pass | Approved |
 | 55:33–55:41 | 16-04-1 | And on the roof, in front of everyone, Hasdrubal's wife appeared, in h | vid: A Carthaginian noblewoman in rich robes standing on the roof | pass | pass | pass | pass | Approved |
 | 55:41–55:55 | 16-04-2 | Polybius, who was there, records that she called out to her husband as | quote: "Wretch, traitor, most unmanly of men." ~ Hasdrubal's wife,  | pass | pass | pass | pass | Approved |
-| 55:55–56:07 | 16-05-2 | Later writers said Carthage burned for seventeen days. | quote: "A day will come when sacred Troy shall perish, and Priam, a | pass | pass | pass | pass | Approved |
-| 56:07–56:14 | 16-05-2#r | He was thinking, he said, of how cities and empires rise and fall, as  | still: z_16-04-1.png | pass | pass | pass | pass | Approved |
-| 56:14–56:21 | 16-05-2#r2 | Then he quoted the lines of Homer in which a Trojan hero foresees the  | still: z_16-04-1.png | pass | pass | pass | pass | Approved |
-| 56:21–56:28 | 16-05-2#r3 | When Polybius asked what he meant, Scipio took him by the hand. | still: z_16-04-1.png | pass | pass | pass | pass | Approved |
+| 55:55–56:28 | 16-05-2 | Later writers said Carthage burned for seventeen days. | quote: "A day will come when sacred Troy shall perish, and Priam, a | pass | pass | pass | pass | Approved |
 | 56:34–56:39 | 17-00-0 |  | still: Roman soldiers with crowbars and ropes pulling down the last | pass | pass | pass | pass | Approved |
 | 56:39–56:43 | 17-00-0#1 | The Senate sent ten commissioners to decide what should be done. | still: Roman soldiers with crowbars and ropes pulling down the last | pass | pass | pass | pass | Approved |
 | 56:43–56:48 | 17-00-0#2 | Whatever was left of Carthage was to be razed to the ground, and a cur | still: Roman soldiers with crowbars and ropes pulling down the last | pass | pass | pass | pass | Approved |
@@ -461,10 +403,7 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 57:10–57:17 | 17-00-2#1 | In the same year, on the other side of the Mediterranean, another Roma | photo: The Sack of Corinth painting by Thomas Allom | pass | pass | pass | pass | Approved |
 | 57:17–57:27 | 17-01-0 | You may have heard that the Romans ploughed the ground and sowed it wi | card: MYTH · The Romans sowed Carthage with salt · No ancient sour | pass | pass | pass | pass | Approved |
 | 57:27–57:34 | 17-01-1 | The story first appears in modern books, in the twentieth century. | still: A handful of salt crystals falling onto dark burned earth, g | pass | pass | pass | pass | Approved |
-| 57:34–57:46 | 17-02-3 | The curse did not last long. | timeline: 146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; c.  | pass | pass | pass | pass | Approved |
-| 57:46–57:54 | 17-02-3#r | Julius Caesar planned another, and his heir Augustus built it. | still: z_17-01-1.png | pass | pass | pass | pass | Approved |
-| 57:54–58:01 | 17-02-3#r2 | Roman Carthage became one of the greatest cities of the empire, the ca | still: z_17-01-1.png | pass | pass | pass | pass | Approved |
-| 58:01–58:08 | 17-02-3#r3 | Roman Carthage became one of the greatest cities of the empire, the ca | still: z_17-01-1.png | pass | pass | pass | pass | Approved |
+| 57:34–58:08 | 17-02-3 | The curse did not last long. | timeline: 146 BC: Carthage destroyed ; 122 BC: Gracchus's colony ; c.  | pass | pass | pass | pass | Approved |
 | 58:08–58:14 | 17-03-0 | The Phoenician language, Punic, lived on too. | photo: Neo-Punic inscription | pass | pass | pass | pass | Approved |
 | 58:14–58:19 | 17-03-0#1 | It was still spoken in the countryside of North Africa six hundred yea | photo: Neo-Punic inscription | pass | pass | pass | pass | Approved |
 | 58:19–58:24 | 17-03-1 | Carthage itself passed to the Vandals, then the Byzantines, and was fi | photo: Tunis and the Gulf from Carthage | pass | pass | pass | pass | Approved |
@@ -476,11 +415,9 @@ Runtime 60.6 min · 484 shots · 202/240 cuts on a sentence boundary · 0 shots 
 | 58:52–58:58 | 17-04-1 | You can still walk around the circular harbour, now a lagoon, with its | photo: Tophet stelae among plants at Carthage | pass | pass | pass | pass | Approved |
 | 58:58–59:03 | 17-04-1#1 | On the Byrsa hill, the houses that burned in 146 BC have been uncovere | photo: Tophet stelae among plants at Carthage | pass | pass | pass | pass | Approved |
 | 59:03–59:09 | 17-04-1#2 | And in the tophet, the little stones of Tanit still stand in the grass | photo: Tophet stelae among plants at Carthage | pass | pass | pass | pass | Approved |
-| 59:09–59:22 | 17-05-2 | We know Carthage almost entirely through the eyes of its enemies: Poly | card: OUR SOURCES · Polybius, a Greek, friend of Scipio Aemilianus | pass | pass | pass | pass | Approved |
-| 59:22–59:27 | 17-05-2#r | We know Carthage almost entirely through the eyes of its enemies: Poly | still: 17-04-1.jpg | pass | pass | pass | pass | Approved |
-| 59:27–59:32 | 17-05-2#r2 | Its own version of its story is lost. | still: 17-04-1.jpg | pass | pass | pass | pass | Approved |
+| 59:09–59:32 | 17-05-2 | We know Carthage almost entirely through the eyes of its enemies: Poly | card: OUR SOURCES · Polybius, a Greek, friend of Scipio Aemilianus | pass | pass | pass | pass | Approved |
 | 59:32–59:44 | 17-06-0 | Cato died in 149 BC, before he could see the war he had demanded won. | timeline: 149 BC: Death of Cato ; 146 BC: Fall of Carthage ; 133 BC: T | pass | pass | pass | pass | Approved |
-| 59:44–59:52 | 17-06-0#r | Scipio Aemilianus, who had wept for Rome as he burned Carthage, was fo | still: 17-04-1.jpg | pass | pass | pass | pass | Approved |
+| 59:44–59:52 | 17-06-0#r | Scipio Aemilianus, who had wept for Rome as he burned Carthage, was fo | still: z_17-06-1.png | pass | pass | pass | pass | Approved |
 | 59:52–59:57 | 17-06-1 | And Hannibal, who never captured Rome, became more famous than almost  | still: A lone commander on horseback beside an elephant on a snowy  | pass | pass | pass | pass | Approved |
 | 59:57–60:03 | 17-06-1#1 | And Hannibal, who never captured Rome, became more famous than almost  | still: A lone commander on horseback beside an elephant on a snowy  | pass | pass | pass | pass | Approved |
 | 60:03–60:07 | 17-07-0 | For generations, Romans used the words Hannibal at the gates to mean m | photo: The Punic ports of Carthage at sunset | pass | pass | pass | pass | Approved |

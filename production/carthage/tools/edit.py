@@ -170,6 +170,8 @@ def plan(_=None):
             if len(cuts) < len(keep) - 1:   # too many shots for a short paragraph: fall back to even spacing
                 cuts = [seg * (i + 1) / len(keep) for i in range(len(keep) - 1)]
             edges = [0.0] + cuts + [seg]
+            # pictures of THIS paragraph: the only ones a long graphic may cut back to (never the previous paragraph or chapter)
+            para_imgs = [(x['src'], x.get('crop'), x['grade'], x.get('focus', [0.5, 0.45])) for x in keep if x['kind'] in ('still', 'vid', 'photo') and x.get('src')]
             for k, s in enumerate(keep):
                 st, du = t + edges[k], edges[k + 1] - edges[k]
                 clip = os.path.join(B, 'clips', s['id'] + '.mp4')
@@ -185,12 +187,15 @@ def plan(_=None):
                         first = min(du - 2.6, 5.6); beats = [first] + [(du - first) / max(1, math.ceil((du - first) / MAX_HOLD))] * max(1, math.ceil((du - first) / MAX_HOLD))
                     else:
                         nb = min(4, math.ceil(du / 7.0)); beats = [du / nb] * nb
-                elif s['kind'] in GRAPHIC and du > 15.5 and prev_img and detail_px(prev_img[0], prev_img[1], 0.7) >= 900:
-                    nr = math.ceil((du - 12.5) / MAX_HOLD); beats = [12.5] + [(du - 12.5) / nr] * nr   # graphic, then detail reprises of the last picture, none longer than MAX_HOLD
+                elif s['kind'] in GRAPHIC and du > 15.5 and [q for q in para_imgs if detail_px(q[0], q[1], 0.7) >= 900]:
+                    before = [q for q in para_imgs[:sum(1 for x in keep[:k] if x['kind'] in ('still', 'vid', 'photo') and x.get('src'))] if detail_px(q[0], q[1], 0.7) >= 900]
+                    pool = before[::-1] or [q for q in para_imgs if detail_px(q[0], q[1], 0.7) >= 900]
+                    nr = math.ceil((du - 12.5) / MAX_HOLD); beats = [12.5] + [(du - 12.5) / nr] * nr   # graphic, then reframings of this paragraph's own pictures
                 else: beats = [du]
                 bt = st
                 for bi, bd in enumerate(beats):
                     if bi and s['kind'] in GRAPHIC:
+                        prev_img = pool[(bi - 1) % len(pool)]
                         it = {'type': 'shot', 'id': s['id'] + '#r' + (str(bi) if bi > 1 else ''), 'sid': s['id'], 'chapter': ch, 'para': pi, 'start': round(bt, 3), 'dur': round(bd, 3),
                               'kind': 'still', 'size': 'CU', 'grade': prev_img[2], 'desc': '', 'beat': bi, 'src': prev_img[0], 'crop': window(prev_img[1], prev_img[3], (0.7, 0.92, 0.8)[(bi - 1) % 3]),
                               'focus': prev_img[3], 'move': ('drift', 'push', 'pull')[(bi - 1) % 3]}
