@@ -1,11 +1,11 @@
 {
  "z_00-00-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.55
   ],
-  "note": "replacement; Punic city; Greek-looking hilltop temple cropped out",
+  "note": "full-size re-check after render: modern town: AC units, satellite dishes, balcony railings, street lamps; Greek temple",
   "crop": [
    0,
    0.35,
@@ -30,20 +30,20 @@
   "note": ""
  },
  "z_00-01-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.75
   ],
-  "note": ""
+  "note": "full-size re-check after render: overhead power line, utility pole, glazed barred windows, drainpipes"
  },
  "z_00-01-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.32,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: AI lettering \"SVA\" on helmet"
  },
  "z_00-02-0": {
   "status": "VERIFIED",
@@ -100,12 +100,12 @@
   "note": ""
  },
  "z_00-04-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.6
   ],
-  "note": "replacement"
+  "note": "full-size re-check after render: modern waterfront town, promenade, Greek temple"
  },
  "z_01-00-1": {
   "status": "REJECTED",
@@ -148,12 +148,12 @@
   "note": ""
  },
  "z_01-04-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern chef knife"
  },
  "z_01-04-1": {
   "status": "VERIFIED",
@@ -194,12 +194,12 @@
   "note": "frame re-check after render: electric cables and wall lamp"
  },
  "z_02-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: crenellated medieval round tower; Viking-like hulls"
  },
  "z_02-02-2": {
   "status": "REJECTED",
@@ -222,20 +222,20 @@
   "note": "Viking-style ships"
  },
  "z_03-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern houses on hillside behind"
  },
  "z_03-02-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.55
   ],
-  "note": ""
+  "note": "full-size re-check after render: cast-iron mooring bollard; modern ships on horizon"
  },
  "z_03-02-2": {
   "status": "REJECTED",
@@ -267,7 +267,13 @@
    0.4,
    0.25
   ],
-  "note": ""
+  "note": "crop removes modern detail at edge",
+  "crop": [
+   0,
+   0,
+   0.85,
+   1
+  ]
  },
  "z_03-06-1": {
   "status": "REJECTED",
@@ -290,12 +296,12 @@
   "note": ""
  },
  "z_04-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.35,
    0.35
   ],
-  "note": ""
+  "note": "full-size re-check after render: wristwatch"
  },
  "z_04-01-1": {
   "status": "VERIFIED",
@@ -338,12 +344,12 @@
   "note": "Viking-style ships"
  },
  "z_04-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: glass lanterns"
  },
  "z_04-06-1": {
   "status": "VERIFIED",
@@ -386,12 +392,12 @@
   "note": ""
  },
  "z_05-03-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern town on hill behind walls"
  },
  "z_05-03-3": {
   "status": "VERIFIED",
@@ -402,12 +408,12 @@
   "note": ""
  },
  "z_05-04-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.25,
    0.3
   ],
-  "note": ""
+  "note": "full-size re-check after render: gold wristwatch"
  },
  "z_05-04-1": {
   "status": "VERIFIED",
@@ -426,12 +432,12 @@
   "note": "frame re-check after render: modern metal-nib pen"
  },
  "z_06-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.45
   ],
-  "note": "Islamic-style pointed arch cropped out",
+  "note": "full-size re-check after render: pointed (Islamic) arch gate; agave (New World plant)",
   "crop": [
    0.38,
    0.08,
@@ -440,20 +446,20 @@
   ]
  },
  "z_06-01-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern buildings on river bank"
  },
  "z_06-01-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.65,
    0.55
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern buildings on bank"
  },
  "z_06-02-1": {
   "status": "VERIFIED",
@@ -480,12 +486,12 @@
   "note": ""
  },
  "z_06-03-3": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.7,
    0.35
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern field pattern below"
  },
  "z_06-04-0": {
   "status": "VERIFIED",
@@ -520,12 +526,12 @@
   "note": ""
  },
  "z_07-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.3,
    0.25
   ],
-  "note": ""
+  "note": "full-size re-check after render: stirrups"
  },
  "z_07-01-0": {
   "status": "VERIFIED",
@@ -544,12 +550,12 @@
   "note": ""
  },
  "z_07-01-2": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern cup and food wrappers"
  },
  "z_07-02-1": {
   "status": "VERIFIED",
@@ -596,12 +602,12 @@
   "note": ""
  },
  "z_07-06-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.55,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern building behind forum; mechanical device"
  },
  "z_07-06-2": {
   "status": "VERIFIED",
@@ -641,7 +647,13 @@
    0.5,
    0.5
   ],
-  "note": ""
+  "note": "crop removes modern detail at edge",
+  "crop": [
+   0,
+   0.32,
+   1,
+   1
+  ]
  },
  "z_08-00-2a": {
   "status": "VERIFIED",
@@ -652,12 +664,12 @@
   "note": ""
  },
  "z_08-00-2b": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.3,
    0.3
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern pop-up gazebo canopy"
  },
  "z_08-02-1": {
   "status": "VERIFIED",
@@ -724,12 +736,12 @@
   "note": ""
  },
  "z_08-06-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.55
   ],
-  "note": ""
+  "note": "full-size re-check after render: wristwatch on seated man"
  },
  "z_09-00-0": {
   "status": "VERIFIED",
@@ -752,12 +764,12 @@
   "note": "frame re-check after render: paper sheet with gibberish text"
  },
  "z_09-03-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.4,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: AI lettering on shield"
  },
  "z_09-04-0": {
   "status": "REJECTED",
@@ -838,12 +850,12 @@
   "note": ""
  },
  "z_10-04-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.3,
    0.7
   ],
-  "note": "Viking-style ship in background cropped",
+  "note": "full-size re-check after render: Viking longship",
   "crop": [
    0,
    0.45,
@@ -884,12 +896,12 @@
   "note": "frame re-check after render: sunglasses"
  },
  "z_11-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.45
   ],
-  "note": ""
+  "note": "full-size re-check after render: stirrups"
  },
  "z_11-00-2a": {
   "status": "VERIFIED",
@@ -920,12 +932,12 @@
   "note": "elephants walking calmly, not panicking"
  },
  "z_11-02-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern farm shed in background"
  },
  "z_11-02-1": {
   "status": "VERIFIED",
@@ -972,12 +984,12 @@
   "note": ""
  },
  "z_11-06-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.65,
    0.7
   ],
-  "note": "imperial-looking temples cropped down to the chariot and elephants",
+  "note": "full-size re-check after render: Renaissance/modern buildings in Rome",
   "crop": [
    0.25,
    0.4,
@@ -1030,12 +1042,12 @@
   "note": "feather quill: anachronism"
  },
  "z_12-04-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.45
   ],
-  "note": ""
+  "note": "full-size re-check after render: Viking-type hull with rope-ladder shrouds"
  },
  "z_12-04-1": {
   "status": "VERIFIED",
@@ -1046,20 +1058,20 @@
   "note": ""
  },
  "z_12-05-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern drain grate in ground"
  },
  "z_12-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.3
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern ceramic cup"
  },
  "z_12-06-0": {
   "status": "VERIFIED",
@@ -1146,12 +1158,12 @@
   "note": ""
  },
  "z_13-05-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: denim jeans on fallen man"
  },
  "z_13-05-1": {
   "status": "VERIFIED",
@@ -1224,12 +1236,12 @@
   "note": ""
  },
  "z_14-04-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.5
   ],
-  "note": ""
+  "note": "full-size re-check after render: wall lamp, modern windows, church facade"
  },
  "z_14-04-1": {
   "status": "REJECTED",
@@ -1255,15 +1267,21 @@
    0.5,
    0.6
   ],
-  "note": ""
+  "note": "crop removes modern detail at edge",
+  "crop": [
+   0,
+   0,
+   0.88,
+   1
+  ]
  },
  "z_14-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern London-pattern anvil, medieval cross-guard sword"
  },
  "z_14-05-2": {
   "status": "VERIFIED",
@@ -1316,12 +1334,12 @@
   "note": ""
  },
  "z_15-03-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.45
   ],
-  "note": ""
+  "note": "full-size re-check after render: paper sheets with fake lettering"
  },
  "z_15-03-1": {
   "status": "VERIFIED",
@@ -1388,12 +1406,12 @@
   "note": ""
  },
  "z_16-00-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.6
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern machine on harbour wall"
  },
  "z_16-00-2": {
   "status": "VERIFIED",
@@ -1404,12 +1422,12 @@
   "note": ""
  },
  "z_16-01-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.35,
    0.45
   ],
-  "note": ""
+  "note": "full-size re-check after render: modern balconies, railings, drainpipes"
  },
  "z_16-01-2": {
   "status": "REJECTED",
@@ -1436,12 +1454,12 @@
   "note": "replacement, castle-like top cropped"
  },
  "z_16-03-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.6,
    0.5
   ],
-  "note": "medieval tower cropped",
+  "note": "full-size re-check after render: medieval crenellated round tower",
   "crop": [
    0.18,
    0,
@@ -1470,20 +1488,20 @@
   "note": ""
  },
  "z_16-05-0": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.5,
    0.55
   ],
-  "note": "replacement"
+  "note": "full-size re-check after render: modern lit town, balconies, statue"
  },
  "z_16-05-1": {
-  "status": "VERIFIED",
+  "status": "REJECTED",
   "focus": [
    0.45,
    0.3
   ],
-  "note": ""
+  "note": "full-size re-check after render: church spire and electric city lights"
  },
  "z_17-00-0": {
   "status": "VERIFIED",

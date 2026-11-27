@@ -9,6 +9,7 @@ Spring, 146 BC. On the coast of North Africa, a city is dying. For six days and 
 When a block was cleared, the Romans set it on fire. The ancient historian Appian, following an eyewitness account, describes what came next. Men with axes and hooks cleared the rubble to open a path for the troops, and they swept the dead and the living alike into pits. Cavalry rode over them.
 > WS | slow push | still | fire | | A narrow ancient street full of fallen beams and rubble, houses ablaze on both sides, embers falling
 > CU | focus | still | ash | | A bronze Roman helmet with a broken feather crest lying in ash and rubble, firelight
+> MAP | slow push | map | map | | Plan of Carthage, spring 146 BC: the blocks between the agora and the Byrsa taken and burned one by one
 
 On the seventh day, a group of men came down from the citadel holding olive branches. They asked for one thing: that those who came out should be allowed to live. Fifty thousand men, women and children walked out of the last stronghold of the city. They would be sold as slaves.
 > WS | slow push | still | dawn | @carthaginians | A small group of exhausted Carthaginian men in long robes holding up olive branches, coming down a ruined hillside street at dawn, smoke behind them

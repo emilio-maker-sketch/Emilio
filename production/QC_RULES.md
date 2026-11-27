@@ -17,7 +17,7 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
    - A quote that is also spoken must match the narration word for word, or be marked as reviewed indirect speech.
 6. **Run `tools/qc.py`.** It writes `QC_REPORT.md`, a scene-by-scene table with an image / zoom / text / sync status for every shot.
    - Nothing is delivered while it reports failures.
-7. **Render, then inspect the render.** Extract a frame from the middle of every shot and the end of every transition, and look at all of them on sheets.
+7. **Render, then inspect the render.** Run `tools/aisheet.py` and look at every AI image at full size. Extract a frame from the middle of every shot and the end of every transition, and look at all of them on sheets.
    - Check maps for geography, text for spelling and overlap, and zooms for subject framing.
    - Run blackdetect and loudness (`qc.py --render`).
 8. **Review the whole film again** before export. Fix in place; do not redesign scenes that pass.
@@ -38,7 +38,11 @@ Each rule exists because a mistake happened. The tools enforce the rules; the ey
 - No image is reused outside deliberate detail beats.
 - A photo of a modern reconstruction (a replica ship) or of a site as it is today (a medieval castle on an ancient hill) carries a lower third that says so, e.g. "a modern reconstruction" or "today".
 - A split-screen label must describe what its picture actually shows (a stele is not an urn).
-- After the render, re-check every AI image at 640 px or larger, not as thumbnails. Look at the background as closely as the subject. Reject on sight:
+- After the render, re-check every AI image at about 1000 px or larger (four per sheet at 1400 × 788 each), not as thumbnails or 640 px frames: the 640 px pass on *The Fall of Carthage* missed 38 more faults. Look at the background, the wrists, the feet and every hand-held object as closely as the subject. Reject on sight:
+  - wristwatches (check every bare wrist), stirrups, denim trousers, modern cups and mugs, food wrappers, chef's knives, modern anvils
+  - Viking-style dragon-prow longships and rope-ladder shrouds, cast-iron bollards, drain grates, pop-up gazebo canopies
+  - pointed or horseshoe arches, agave and other New World plants, Renaissance or modern buildings behind a "period" street
+  - satellite dishes, air-conditioning units, power lines and utility poles, electric light in windows
   - electric cables, wall lamps, street lamps, metal railings, glass lanterns, glass bottles
   - sunglasses, metal-nib pens, printed paper or maps with fake lettering, patio umbrellas
   - domes, church bell towers, medieval round towers and castle walls, great helms, valved brass trumpets

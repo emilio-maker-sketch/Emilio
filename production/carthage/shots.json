@@ -85,6 +85,18 @@
   "desc": "A bronze Roman helmet with a broken feather crest lying in ash and rubble, firelight"
  },
  {
+  "id": "00-01-2",
+  "chapter": "00_cold_open",
+  "para": 1,
+  "idx": 2,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Plan of Carthage, spring 146 BC: the blocks between the agora and the Byrsa taken and burned one by one"
+ },
+ {
   "id": "00-02-0",
   "chapter": "00_cold_open",
   "para": 2,
@@ -2585,6 +2597,18 @@
   "desc": "the heap of gold rings"
  },
  {
+  "id": "08-06-2",
+  "chapter": "08_cannae",
+  "para": 6,
+  "idx": 2,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Schematic of a double envelopment: a larger force attacked on both flanks and from behind"
+ },
+ {
   "id": "09-00-0",
   "chapter": "09_the_long_war",
   "para": 0,
@@ -4104,6 +4128,18 @@
   "desc": "A heavy-set Carthaginian general with a dark beard in ornate bronze armour reading a message in a field tent"
  },
  {
+  "id": "14-04-3",
+  "chapter": "14_the_ultimatum",
+  "para": 4,
+  "idx": 3,
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Plan of Carthage, 149 BC: the Byrsa, the empty naval harbour, the gates closed"
+ },
+ {
   "id": "14-05-0",
   "chapter": "14_the_ultimatum",
   "para": 5,
@@ -4599,6 +4635,18 @@
    "carthage"
   ],
   "desc": "A great colonnaded temple on the summit of a hill above a burning city at dusk, a few figures on its roof"
+ },
+ {
+  "id": "16-03-2",
+  "chapter": "16_the_fall",
+  "para": 3,
+  "idx": 2,
+  "kind": "diagram",
+  "size": "DIAGRAM",
+  "move": "slow push",
+  "grade": "map",
+  "refs": [],
+  "desc": "Schematic of the Byrsa on the seventh day: 50,000 people come out, 900 deserters hold the temple of Eshmun"
  },
  {
   "id": "16-04-0",

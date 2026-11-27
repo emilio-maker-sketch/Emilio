@@ -24,6 +24,7 @@ When the envoys brought the news home, the city went mad. Crowds dragged the cou
 > WS | handheld | still | fire | @carthaginians | An enraged crowd of Carthaginian men and women pouring through a city street toward a council hall, torches and fists raised
 > WS | slow pan | still | ash | @harbour | The empty ship sheds of a circular naval harbour at dusk, columns standing over bare slipways with no ships in them, a few people wandering
 > MS | slow push | still | candle | @hasdrubal146 | A heavy-set Carthaginian general with a dark beard in ornate bronze armour reading a message in a field tent {LT: Hasdrubal | Carthaginian commander, 149–146 BC}
+> MAP | slow push | map | map | | Plan of Carthage, 149 BC: the Byrsa, the empty naval harbour, the gates closed
 
 The city became one great workshop. Appian says that every day the Carthaginians made one hundred shields, three hundred swords, a thousand catapult bolts, and five hundred spears and javelins. Temples and public buildings were turned into forges, men and women working day and night. There was not enough rope for the catapults. So, Appian says, the women of Carthage cut off their hair and gave it to be twisted into cords.
 > WS | slow push | vid | fire | @carthaginians | Men and women hammering swords and shields in a temple turned into a workshop at night, sparks flying, fires glowing between columns

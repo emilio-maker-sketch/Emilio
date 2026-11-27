@@ -634,6 +634,51 @@ def m_rome211(G):
     G.pulse(P.n(*PL['Rome']), (200, 60, 40), [0.7, 1.0])
     G.add(legend([(CAR, 'Hannibal')], 'route approximate'), [0.5, 0.65], fix=True); G.focus = P.n(13.4, 41.5); G.zoom = 1.15; finish(G, base)
 
+
+def d_blocks(G):
+    """Cold open: block-by-block fighting between the agora and the Byrsa (Appian, Pun. 128-130)."""
+    base = city_plan(G); harbour_layers(G, [0.0, 0.05]); G.add(title('CARTHAGE', 'spring 146 BC'), [0.0, 0.1], fix=True)
+    G.add(text_layer([(BYRSA, 'Byrsa', 70, CAP, INK, 'mm'), ((2500, 1320), 'agora', 60, ITA, INK, 'mm')]), [0.05, 0.15])
+    for k, (x, y) in enumerate(((2330, 1360), (2260, 1300), (2190, 1240), (2120, 1180), (2050, 1120))):
+        G.pulse(nrm(x, y), (200, 60, 40), [0.15 + 0.12 * k, 0.3 + 0.12 * k])
+    G.add(text_layer([((2700, 1050), 'block by block, then burned', 60, ITA, CAR, 'mm')]), [0.55, 0.7])
+    G.focus = nrm(2000, 1150); G.zoom = 1.08; finish(G, base)
+
+def d_envelop(G):
+    """The double envelopment, as a general pattern (no positions claimed)."""
+    base = dbase(); G.add(title('DOUBLE ENVELOPMENT', 'schematic'), [0.0, 0.1], fix=True)
+    G.unit(ROM, '', [[0, 0.5, 0.5, 0.26, 0.16, 0], [1, 0.5, 0.5, 0.24, 0.15, 0]])
+    G.unit(CAR, '', [[0, 0.5, 0.72, 0.3, 0.04, 0], [0.5, 0.5, 0.65, 0.3, 0.04, 0], [1, 0.5, 0.63, 0.3, 0.04, 0]])
+    G.unit(CAR, '', [[0, 0.22, 0.6, 0.04, 0.1, 0], [0.5, 0.3, 0.5, 0.04, 0.2, 0], [1, 0.33, 0.5, 0.04, 0.2, 0]])
+    G.unit(CAR, '', [[0, 0.78, 0.6, 0.04, 0.1, 0], [0.5, 0.7, 0.5, 0.04, 0.2, 0], [1, 0.67, 0.5, 0.04, 0.2, 0]])
+    G.unit(CAR, '', [[0, 0.12, 0.25, 0.08, 0.03, 0], [0.4, 0.3, 0.3, 0.1, 0.03, 0], [1, 0.5, 0.37, 0.3, 0.03, 0]])
+    G.route([[0.2, 0.6], [0.3, 0.52]], CAR, [0.3, 0.6], w=10); G.route([[0.8, 0.6], [0.7, 0.52]], CAR, [0.3, 0.6], w=10)
+    G.add(legend([(ROM, 'larger force'), (CAR, 'smaller force')], 'positions schematic'), [0.05, 0.15], fix=True)
+    G.add(text_layer([((W / 2, H * 0.88), 'attacked from every side at once', 60, ITA, INK, 'mm')]), [0.7, 0.85])
+    G.focus = None; G.zoom = 1.05; finish(G, base)
+
+def d_arms149(G):
+    """149 BC: Carthage decides to fight (Appian, Pun. 92-93)."""
+    base = city_plan(G); harbour_layers(G, [0.0, 0.05]); G.add(title('CARTHAGE', '149 BC'), [0.0, 0.1], fix=True)
+    G.add(text_layer([(BYRSA, 'Byrsa', 70, CAP, INK, 'mm')]), [0.05, 0.15])
+    G.add(text_layer([((2420, 1480), 'naval harbour: no ships', 60, ITA, CAR, 'mm')]), [0.25, 0.4])
+    L = G.layer(); d = ImageDraw.Draw(L); d.line([(700, 300), (520, 1200)], fill=INK + (255,), width=26); G.add(L, [0.45, 0.6])
+    G.add(text_layer([((660, 750), 'gates closed', 60, ITA, INK, 'lm')]), [0.55, 0.7])
+    G.focus = None; G.zoom = 1.04; finish(G, base)
+
+def d_surrender(G):
+    """The seventh day on the Byrsa (Appian, Pun. 130)."""
+    base = dbase(); G.add(title('THE BYRSA', 'the seventh day, 146 BC'), [0.0, 0.1], fix=True)
+    L = G.layer(); d = ImageDraw.Draw(L)
+    for r, c in ((900, (214, 196, 156)), (650, (206, 186, 146)), (400, (196, 176, 136))): d.ellipse([1300 - r, 900 - r * 0.7, 1300 + r, 900 + r * 0.7], fill=c + (255,), outline=(150, 130, 100, 255), width=4)
+    d.rectangle([1220, 850, 1380, 950], fill=(232, 222, 196, 255), outline=INK + (255,), width=5); G.add(L, [0.0, 0.1])
+    G.add(text_layer([((1300, 700), 'temple of Eshmun', 64, ITA, INK, 'mm')]), [0.1, 0.2])
+    for k, (ex, ey) in enumerate(((3000, 1700), (3300, 1250), (2700, 2000))): G.route([nrm(1450, 960), nrm(ex, ey)], (90, 80, 70), [0.2 + 0.05 * k, 0.55 + 0.05 * k], w=10, dash=True)
+    G.add(text_layer([((2850, 1040), '50,000 come out', 66, CAP, INK, 'mm')]), [0.45, 0.6])
+    G.pulse(nrm(1300, 900), (200, 60, 40), [0.65, 0.9])
+    G.add(text_layer([((1300, 1080), '900 deserters', 60, ITA, CAR, 'mm')]), [0.7, 0.85])
+    G.focus = nrm(1900, 1150); G.zoom = 1.1; finish(G, base)
+
 GFX = {'12-03-4': d_harbours, '01-00-0': m_phoenicia, '01-01-1': m_trade, '02-00-0': m_empire300, '02-02-0': d_harbours, '03-00-0': m_sicily264, '03-02-0': d_corvus,
        '03-03-0': m_regulus, '03-06-0': m_aegates, '03-07-0': m_241, '04-02-0': m_sardinia, '04-05-0': lambda G: m_spain(G), '04-06-0': lambda G: m_spain(G, ebro=True),
        '05-03-0': lambda G: m_spain(G, sag=True), '05-05-0': m_plan218, '06-00-0': lambda G: m_march(G, 1), '06-02-0': m_rhone, '06-05-1': m_passes,
@@ -641,7 +686,8 @@ GFX = {'12-03-4': d_harbours, '01-00-0': m_phoenicia, '01-01-1': m_trade, '02-00
        '08-02-0': lambda G: d_cannae(G, 1), '08-03-0': lambda G: d_cannae(G, 2), '08-04-0': lambda G: d_cannae(G, 3), '09-01-0': m_after_cannae,
        '09-02-0': m_fronts, '09-05-2': m_rome211, '09-06-0': m_metaurus, '10-01-0': d_newcarthage, '10-03-0': m_spain_scipio, '11-00-0': m_africa202, '11-01-0': d_zama,
        '12-01-2': m_exile, '13-00-1': m_numidia, '14-00-0': m_149, '14-03-2': m_inland, '15-00-0': d_walls, '15-04-0': d_siege, '15-05-2': d_channel,
-       '16-00-0': d_assault, '16-01-0': d_byrsa, '17-00-1': m_146}
+       '16-00-0': d_assault, '16-01-0': d_byrsa, '17-00-1': m_146,
+       '00-01-2': d_blocks, '08-06-2': d_envelop, '14-04-3': d_arms149, '16-03-2': d_surrender}
 
 def main():
     ids = sys.argv[1:] or list(GFX)
