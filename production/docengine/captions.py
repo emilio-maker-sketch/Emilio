@@ -75,8 +75,10 @@ def build(tl, words):
             prev, last = groups[-2], groups[-1]
             if len(prev) <= 3 or not fits([sw[j] for j in prev[-1:] + last]): break
             groups[-2], groups[-1] = prev[:-1], prev[-1:] + last
-        for g in groups:
-            cues.append({'t0': tim[g[0]][0], 't1': tim[g[-1]][1], 'text': wrap([sw[j] for j in g])})
+        for gi, g in enumerate(groups):
+            t0 = tim[g[0]][0]
+            if gi == 0: t0 = s['start']            # the narration is synthesised per sentence: its start is exact; ASR word times can drift
+            cues.append({'t0': max(s['start'], min(t0, s['end'] - .3)), 't1': min(tim[g[-1]][1], s['end']), 'text': wrap([sw[j] for j in g])})
     out = []
     for i, c in enumerate(cues):
         t1 = max(c['t1'] + .2, c['t0'] + max(1.0, len(c['text']) / CPS))

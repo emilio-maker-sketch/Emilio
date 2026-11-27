@@ -1,0 +1,856 @@
+1
+00:00:08,300 --> 00:00:13,700
+In the summer of 612 B.C.,
+an army broke into Nineveh,
+
+2
+00:00:14,060 --> 00:00:16,140
+one of the greatest cities in the world,
+
+3
+00:00:16,220 --> 00:00:18,440
+and set its palaces on fire.
+
+4
+00:00:18,933 --> 00:00:22,160
+Inside one of them was a library of clay.
+
+5
+00:00:22,749 --> 00:00:28,069
+Tens of thousands of tablets,
+gathered by one king who wanted copies of
+
+6
+00:00:28,109 --> 00:00:29,546
+everything worth knowing.
+
+7
+00:00:29,896 --> 00:00:32,661
+The fire was meant to destroy it.
+
+8
+00:00:33,011 --> 00:00:36,460
+It is often said that the
+fire saved it instead.
+
+9
+00:00:37,107 --> 00:00:42,260
+The truth is stranger, and some of it was
+only discovered in the last few years,
+
+10
+00:00:42,300 --> 00:00:45,240
+with the help of artificial intelligence.
+
+11
+00:00:45,877 --> 00:00:48,180
+Not the legend, but the evidence.
+
+12
+00:00:53,332 --> 00:00:55,700
+This is Ancient World Files.
+
+13
+00:01:01,190 --> 00:01:03,260
+Nineveh stood on the river Tigris,
+
+14
+00:01:03,300 --> 00:01:08,960
+in what is now northern Iraq, across
+the river from the modern city of Mosul.
+
+15
+00:01:09,701 --> 00:01:14,780
+In the seventh century B.C., it was
+the capital of the Assyrian empire,
+
+16
+00:01:14,820 --> 00:01:18,340
+which stretched from the mountains
+of Iran to the Mediterranean,
+
+17
+00:01:18,380 --> 00:01:21,120
+and for a time into Egypt.
+
+18
+00:01:21,691 --> 00:01:26,120
+Its kings guarded their palaces
+with stone giants like this one:
+
+19
+00:01:26,440 --> 00:01:28,520
+winged bulls with human heads.
+
+20
+00:01:29,093 --> 00:01:34,000
+In 669 B.C., a new king
+came to the throne.
+
+21
+00:01:34,582 --> 00:01:39,340
+His name was Ashurbanipal, and he
+was a younger son who had not been
+
+22
+00:01:39,380 --> 00:01:40,740
+expected to rule.
+
+23
+00:01:41,244 --> 00:01:44,380
+Because of that, he had
+been trained as a scholar.
+
+24
+00:01:44,964 --> 00:01:50,260
+In his own inscriptions he boasted that
+he could read difficult tablets in ancient
+
+25
+00:01:50,300 --> 00:01:55,140
+languages, even inscriptions on
+stones from before the Flood.
+
+26
+00:01:55,723 --> 00:01:59,780
+Few kings of his age ever
+claimed they could read at all.
+
+27
+00:02:00,260 --> 00:02:02,520
+This one wanted to know everything.
+
+28
+00:02:03,122 --> 00:02:06,460
+And he ruled an empire
+that took what it wanted.
+
+29
+00:02:12,045 --> 00:02:14,680
+Writing in Assyria meant clay.
+
+30
+00:02:15,272 --> 00:02:19,860
+A scribe pressed the corner of a
+cut reed into a soft clay tablet,
+
+31
+00:02:19,940 --> 00:02:22,240
+leaving tiny wedge-shaped marks.
+
+32
+00:02:22,742 --> 00:02:27,420
+Ashurbanipal ordered copies of
+every important text in his kingdom,
+
+33
+00:02:27,680 --> 00:02:29,840
+and his scribes worked for years.
+
+34
+00:02:30,455 --> 00:02:35,880
+Today, more than thirty thousand tablets
+and fragments from Nineveh survive.
+
+35
+00:02:36,472 --> 00:02:38,860
+And the library also held writing boards:
+
+36
+00:02:38,900 --> 00:02:42,900
+hinged panels of ivory
+or wood, covered in wax,
+
+37
+00:02:42,940 --> 00:02:45,080
+that have almost all perished.
+
+38
+00:02:45,689 --> 00:02:48,380
+But this was not a library of stories.
+
+39
+00:02:48,985 --> 00:02:53,440
+Most of it was practical: how to read
+the future in the liver of a sheep,
+
+40
+00:02:53,720 --> 00:02:58,120
+in the movements of the stars,
+in the birth of a deformed lamb.
+
+41
+00:02:58,723 --> 00:03:01,960
+There were spells against
+demons, medical treatments,
+
+42
+00:03:02,280 --> 00:03:04,760
+and long lists of words in two languages.
+
+43
+00:03:05,533 --> 00:03:08,300
+It was a working library
+for the king's experts,
+
+44
+00:03:08,540 --> 00:03:12,540
+whose job was to warn him
+of danger before it came.
+
+45
+00:03:13,109 --> 00:03:15,620
+Many tablets end with a note of ownership:
+
+46
+00:03:16,360 --> 00:03:19,320
+palace of Ashurbanipal, king of the world,
+
+47
+00:03:19,600 --> 00:03:20,700
+king of Assyria.
+
+48
+00:03:21,204 --> 00:03:24,800
+Some add a curse on anyone
+who steals the tablet.
+
+49
+00:03:25,349 --> 00:03:29,180
+That is an irony, because many
+of the tablets were taken.
+
+50
+00:03:29,782 --> 00:03:32,020
+After a civil war with his own brother,
+
+51
+00:03:32,280 --> 00:03:37,880
+who ruled Babylon, Ashurbanipal's
+officials gathered tablets from the old
+
+52
+00:03:37,920 --> 00:03:39,820
+temple cities of the south.
+
+53
+00:03:40,410 --> 00:03:45,740
+One surviving record lists about two
+thousand tablets and three hundred writing
+
+54
+00:03:45,780 --> 00:03:48,380
+boards brought into
+the collection at once,
+
+55
+00:03:48,640 --> 00:03:51,680
+many from private libraries in Babylonia.
+
+56
+00:03:52,260 --> 00:03:57,281
+The greatest library of its age
+was built partly by confiscation.
+
+57
+00:04:05,631 --> 00:04:09,860
+Ashurbanipal died around 631 B.C.,
+
+58
+00:04:10,380 --> 00:04:13,340
+and within twenty years
+his empire was gone.
+
+59
+00:04:13,853 --> 00:04:17,420
+His successors fought each other,
+and Babylon broke free.
+
+60
+00:04:18,027 --> 00:04:21,980
+A Babylonian general named
+Nabopolassar made himself king,
+
+61
+00:04:22,260 --> 00:04:25,060
+and the Medes, from the mountains of Iran,
+
+62
+00:04:25,440 --> 00:04:27,760
+rose under their king Cyaxares.
+
+63
+00:04:31,528 --> 00:04:36,820
+In 614 B.C., the Medes
+captured and sacked Assur,
+
+64
+00:04:37,080 --> 00:04:38,900
+the ancient religious capital.
+
+65
+00:04:39,440 --> 00:04:43,240
+Two years later, the Medes and
+the Babylonians came together
+
+66
+00:04:43,280 --> 00:04:45,320
+against Nineveh itself.
+
+67
+00:04:45,943 --> 00:04:50,980
+A clay tablet known as the Babylonian
+Chronicle records what happened.
+
+68
+00:04:51,572 --> 00:04:53,720
+The siege lasted about three months,
+
+69
+00:04:53,760 --> 00:04:57,340
+through the summer of 612 B.C.
+
+70
+00:04:58,131 --> 00:05:00,360
+Then the attackers broke into the city,
+
+71
+00:05:00,760 --> 00:05:02,580
+plundered the palaces and temples,
+
+72
+00:05:02,900 --> 00:05:07,260
+and, in the Chronicle's words,
+turned the city into a ruin heap.
+
+73
+00:05:07,782 --> 00:05:11,300
+Archaeologists have found the
+evidence of that fighting.
+
+74
+00:05:11,864 --> 00:05:16,680
+At one of the city gates, excavators
+uncovered the skeletons of people killed
+
+75
+00:05:16,720 --> 00:05:20,600
+in the gateway, with arrowheads
+lying among the bones.
+
+76
+00:05:24,292 --> 00:05:25,820
+The palaces burned.
+
+77
+00:05:26,462 --> 00:05:31,220
+Their roofs and walls collapsed onto
+the rooms where the tablets were kept.
+
+78
+00:05:31,731 --> 00:05:35,000
+And this is where the
+famous story comes from.
+
+79
+00:05:35,480 --> 00:05:37,960
+Most tablets were only dried in the sun,
+
+80
+00:05:38,180 --> 00:05:42,740
+so the story says the fire baked
+them hard and preserved them forever.
+
+81
+00:05:43,333 --> 00:05:46,400
+There is some truth in it:
+heat can harden clay,
+
+82
+00:05:46,520 --> 00:05:48,240
+and some tablets were fired.
+
+83
+00:05:48,774 --> 00:05:51,340
+But the fire also wrecked the library.
+
+84
+00:05:51,946 --> 00:05:55,460
+Shelves and floors collapsed,
+tablets were smashed,
+
+85
+00:05:55,780 --> 00:05:59,580
+and most of what survives today is
+not whole tablets but fragments.
+
+86
+00:06:00,253 --> 00:06:04,800
+The fire did not save the library
+so much as bury it in pieces.
+
+87
+00:06:13,470 --> 00:06:17,960
+For more than two thousand years,
+the ruins lay under great mounds of earth
+
+88
+00:06:18,000 --> 00:06:20,440
+across the Tigris from Mosul.
+
+89
+00:06:21,195 --> 00:06:27,020
+In the 1840s, European
+explorers began digging into
+
+90
+00:06:27,060 --> 00:06:29,880
+them, looking for the cities of the Bible.
+
+91
+00:06:30,494 --> 00:06:36,120
+In 1849, a young Englishman named
+Austen Henry Layard tunnelled into
+
+92
+00:06:36,160 --> 00:06:38,300
+the mound called Kuyunjik.
+
+93
+00:06:38,831 --> 00:06:41,320
+He found the palace of Sennacherib,
+
+94
+00:06:41,660 --> 00:06:47,620
+Ashurbanipal's grandfather, with dozens
+of rooms lined with carved stone panels.
+
+95
+00:06:48,139 --> 00:06:50,400
+The reliefs showed sieges, battles,
+
+96
+00:06:50,500 --> 00:06:53,680
+and kings, carved in astonishing detail.
+
+97
+00:06:54,205 --> 00:06:56,780
+And in two of the rooms, Layard wrote,
+
+98
+00:06:57,100 --> 00:07:02,020
+the floor was covered with broken clay
+tablets to a depth of a foot or more.
+
+99
+00:07:02,509 --> 00:07:07,120
+Then, in 1853, Layard's
+assistant Hormuzd Rassam,
+
+100
+00:07:07,400 --> 00:07:10,900
+who had been born in Mosul,
+made a second discovery.
+
+101
+00:07:11,439 --> 00:07:15,800
+The northern part of the mound had
+been promised to French excavators,
+
+102
+00:07:16,020 --> 00:07:19,600
+so Rassam's workmen dug
+there secretly, at night.
+
+103
+00:07:20,151 --> 00:07:23,460
+They found the palace
+of Ashurbanipal himself,
+
+104
+00:07:23,560 --> 00:07:26,220
+with its famous lion hunt reliefs,
+
+105
+00:07:26,260 --> 00:07:28,140
+and thousands more tablets.
+
+106
+00:07:28,748 --> 00:07:31,040
+The finds were shipped
+to the British Museum,
+
+107
+00:07:31,080 --> 00:07:34,700
+and Victorian Britain
+went mad for Assyria.
+
+108
+00:07:35,207 --> 00:07:37,940
+But almost no one could read the tablets.
+
+109
+00:07:38,622 --> 00:07:41,200
+Cuneiform had only just been deciphered,
+
+110
+00:07:41,240 --> 00:07:47,180
+and in 1857 four scholars were each
+sent a copy of the same new inscription
+
+111
+00:07:47,220 --> 00:07:49,740
+to translate on their own.
+
+112
+00:07:50,224 --> 00:07:52,720
+Their sealed translations matched closely,
+
+113
+00:07:52,760 --> 00:07:55,780
+and the script was accepted as readable.
+
+114
+00:08:04,448 --> 00:08:08,940
+Among the people who came to look at the
+tablets was a young banknote engraver
+
+115
+00:08:08,980 --> 00:08:10,540
+named George Smith.
+
+116
+00:08:11,142 --> 00:08:15,460
+He had left school at fourteen, but he
+spent his lunch breaks in the museum,
+
+117
+00:08:15,500 --> 00:08:18,420
+teaching himself to read cuneiform.
+
+118
+00:08:19,060 --> 00:08:22,240
+He was so good at it that
+the museum gave him a job,
+
+119
+00:08:22,280 --> 00:08:24,940
+sorting the fragments from Nineveh.
+
+120
+00:08:25,445 --> 00:08:31,200
+In 1872, Smith picked up a broken
+tablet and read about a ship that
+
+121
+00:08:31,240 --> 00:08:35,960
+came to rest on a mountain,
+and a bird sent out to look for dry land.
+
+122
+00:08:36,449 --> 00:08:40,140
+It was a flood story,
+told by a man named Utnapishtim,
+
+123
+00:08:40,180 --> 00:08:45,440
+who survived a great flood sent by
+the gods by building a huge boat.
+
+124
+00:08:45,960 --> 00:08:48,560
+According to an account
+written years later,
+
+125
+00:08:48,800 --> 00:08:52,020
+Smith jumped up, rushed
+around the room in excitement,
+
+126
+00:08:52,060 --> 00:08:54,600
+and began to take off his clothes.
+
+127
+00:08:55,305 --> 00:09:00,220
+On the third of December, 1872,
+he presented the tablet in London,
+
+128
+00:09:00,260 --> 00:09:03,240
+and the Prime Minister, William Gladstone,
+
+129
+00:09:03,280 --> 00:09:04,920
+came to hear him.
+
+130
+00:09:05,313 --> 00:09:09,760
+The tablet was part of what we
+now call the Epic of Gilgamesh,
+
+131
+00:09:09,800 --> 00:09:12,620
+one of the oldest great
+works of literature.
+
+132
+00:09:13,196 --> 00:09:17,580
+And its flood story had roots
+far older than Ashurbanipal:
+
+133
+00:09:18,380 --> 00:09:23,380
+Babylonian versions were already
+being copied around 1700 B.C.
+
+134
+00:09:24,195 --> 00:09:26,980
+A London newspaper, the Daily Telegraph,
+
+135
+00:09:27,120 --> 00:09:31,340
+paid for Smith to go to Nineveh
+and look for the missing pieces.
+
+136
+00:09:31,899 --> 00:09:34,820
+Astonishingly, within
+days of starting to dig,
+
+137
+00:09:35,020 --> 00:09:39,280
+he found a fragment that seemed
+to fill a gap in the flood story.
+
+138
+00:09:39,815 --> 00:09:44,540
+But later scholars showed it belonged to
+a different version of the flood story,
+
+139
+00:09:44,720 --> 00:09:46,440
+not to the same tablet.
+
+140
+00:09:49,986 --> 00:09:53,440
+George Smith died of illness
+on his third expedition,
+
+141
+00:09:53,900 --> 00:09:56,520
+near Aleppo, in 1876.
+
+142
+00:09:57,161 --> 00:09:59,324
+He was thirty six years old.
+
+143
+00:10:07,674 --> 00:10:11,920
+In June 2014, the Islamic
+State group seized Mosul.
+
+144
+00:10:12,762 --> 00:10:18,580
+In February 2015, it released a video
+of its fighters smashing statues in the
+
+145
+00:10:18,620 --> 00:10:23,020
+Mosul Museum and drilling into
+the face of a winged bull at
+
+146
+00:10:23,060 --> 00:10:25,140
+Nineveh's Nergal Gate.
+
+147
+00:10:25,701 --> 00:10:30,140
+Weeks later, it blew up the
+palace of Ashurnasirpal at Nimrud,
+
+148
+00:10:30,340 --> 00:10:33,140
+the palace this winged bull came from.
+
+149
+00:10:33,612 --> 00:10:38,740
+In 2016, two of Nineveh's gates,
+partly rebuilt in the twentieth
+
+150
+00:10:38,780 --> 00:10:40,240
+century, were bulldozed.
+
+151
+00:10:40,674 --> 00:10:44,280
+The people who did this
+called it a war on idolatry.
+
+152
+00:10:44,769 --> 00:10:49,620
+But some of it was also looting,
+and it left something unexpected behind.
+
+153
+00:10:50,269 --> 00:10:53,160
+After the city was retaken in 2017,
+
+154
+00:10:53,780 --> 00:10:58,080
+Iraqi archaeologists entered tunnels
+the militants had dug beneath
+
+155
+00:10:58,120 --> 00:10:59,700
+a destroyed shrine.
+
+156
+00:11:00,344 --> 00:11:03,160
+Inside, they found walls, sculptures,
+
+157
+00:11:03,540 --> 00:11:06,540
+and inscriptions of a
+palace of Esarhaddon,
+
+158
+00:11:06,580 --> 00:11:11,500
+Ashurbanipal's father, that no one
+had seen for twenty six centuries.
+
+159
+00:11:11,999 --> 00:11:15,960
+Destruction and discovery,
+again, in the same place.
+
+160
+00:11:24,407 --> 00:11:29,980
+Back in the museums, the library of
+Ashurbanipal is still being put together.
+
+161
+00:11:30,474 --> 00:11:32,760
+The fire left tens of
+thousands of fragments,
+
+162
+00:11:32,800 --> 00:11:35,140
+and for a hundred and fifty years,
+
+163
+00:11:35,180 --> 00:11:38,740
+scholars matched them by eye, one by one.
+
+164
+00:11:39,200 --> 00:11:44,460
+In 2023, a team at the University
+of Munich made public a database
+
+165
+00:11:44,500 --> 00:11:50,207
+called the Fragmentarium, with
+photographs and texts of more than twenty
+
+166
+00:11:50,247 --> 00:11:51,700
+two thousand fragments.
+
+167
+00:11:52,351 --> 00:11:57,780
+An algorithm compares the fragments and
+suggests which ones belong together.
+
+168
+00:11:58,327 --> 00:12:01,820
+It has already found new lines
+of the Epic of Gilgamesh,
+
+169
+00:12:01,860 --> 00:12:06,400
+and pieces of a hymn to the city
+of Babylon that had been lost for
+
+170
+00:12:06,440 --> 00:12:07,860
+two thousand years.
+
+171
+00:12:08,418 --> 00:12:12,720
+And thousands of fragments are
+still waiting to be identified.
+
+172
+00:12:16,360 --> 00:12:18,760
+So, did the fire save the library?
+
+173
+00:12:19,330 --> 00:12:20,360
+Not really.
+
+174
+00:12:20,982 --> 00:12:24,540
+What saved it was clay,
+which outlasts paper and parchment,
+
+175
+00:12:24,580 --> 00:12:28,800
+and burial, which hid it from
+looters for twenty five centuries.
+
+176
+00:12:29,472 --> 00:12:32,400
+And people: an excavator who dug at night,
+
+177
+00:12:32,760 --> 00:12:36,440
+a banknote engraver who taught
+himself an extinct script,
+
+178
+00:12:36,740 --> 00:12:40,120
+and the researchers who are still
+fitting the pieces together.
+
+179
+00:12:40,651 --> 00:12:44,180
+The library was built by a
+king who took what he wanted,
+
+180
+00:12:44,460 --> 00:12:47,740
+and it was destroyed by
+armies who took everything.
+
+181
+00:12:51,885 --> 00:12:53,920
+But almost everything we know about it,
+
+182
+00:12:53,960 --> 00:12:57,260
+we learned only in the
+last two hundred years.
+
+183
+00:12:57,831 --> 00:13:02,840
+Somewhere in a museum drawer, there is
+still a fragment of clay with a line of
+
+184
+00:13:02,880 --> 00:13:05,400
+Gilgamesh on it that no one has read.
+
+185
+00:13:05,897 --> 00:13:09,140
+The library burned two and
+a half thousand years ago,
+
+186
+00:13:09,220 --> 00:13:10,959
+and we are still reading it.
+
+187
+00:13:18,309 --> 00:13:21,120
+Thank you for watching
+Ancient World Files.
+

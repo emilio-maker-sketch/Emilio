@@ -1,0 +1,72 @@
+{
+ "video": "build/Pompeii_v2.mp4",
+ "duration": 1096.366667,
+ "results": [
+  {
+   "check": "decode",
+   "status": "PASS",
+   "msg": "0 decode errors",
+   "items": []
+  },
+  {
+   "check": "black",
+   "status": "PASS",
+   "msg": "0 black stretches > 0.6 s (excluding open/close)",
+   "items": []
+  },
+  {
+   "check": "freeze",
+   "status": "PASS",
+   "msg": "0 frozen stretches >= 4 s",
+   "items": []
+  },
+  {
+   "check": "strobe",
+   "status": "PASS",
+   "msg": "21 hard cuts; 0 clusters of >3 cuts in 2 s",
+   "items": []
+  },
+  {
+   "check": "loudness",
+   "status": "PASS",
+   "msg": "integrated -14.0 LUFS, range 2.1 LU, true peak -1.3 dBTP (target -14 LUFS, <= -1 dBTP)",
+   "items": []
+  },
+  {
+   "check": "static",
+   "status": "PASS",
+   "msg": "0 stretches >= 8 s with almost no visual change",
+   "items": []
+  },
+  {
+   "check": "look",
+   "status": "PASS",
+   "msg": "median luma 0.22, saturation 0.42; 0 outlier stretches",
+   "items": []
+  },
+  {
+   "check": "balance",
+   "status": "PASS",
+   "msg": "speech -13.0 dB, bed in pauses -19.6 dB -> pauses sit 6.6 dB under speech (target 6-22)",
+   "items": []
+  },
+  {
+   "check": "subtitles",
+   "status": "PASS",
+   "msg": "270 cues; caption start vs exact sentence start: median 0.000s, 95th pct 0.000s; 0 too fast (>21 cps); 0 lines > 42 chars",
+   "items": []
+  },
+  {
+   "check": "spelling",
+   "status": "PASS",
+   "msg": "157 on-screen strings, 0 unknown words",
+   "items": []
+  },
+  {
+   "check": "images",
+   "status": "PASS",
+   "msg": "16 images: 0 soft upscales, 0 near-duplicate pairs",
+   "items": []
+  }
+ ]
+}

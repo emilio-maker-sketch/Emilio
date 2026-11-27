@@ -1,43 +1,31 @@
-CREDITS — Pompeii's Last Day, Rewritten by DNA
+CREDITS - Pompeii's Last Day, Rewritten by DNA
 
-IMAGES — The Metropolitan Museum of Art, Open Access (CC0)
-- Gold aureus of Vespasian, 77–78 CE — https://www.metmuseum.org/art/collection/search/246877
-- Gold aureus of Titus, 79 CE — https://www.metmuseum.org/art/collection/search/246878
-- Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE — https://www.metmuseum.org/art/collection/search/247009
-- Cubiculum (bedroom) from the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE — https://www.metmuseum.org/art/collection/search/247017
-- Terracotta wine amphora, ca. 100 BCE — https://www.metmuseum.org/art/collection/search/254781
-- [Plaster Casts of Bodies, Pompeii], Giorgio Sommer, ca. 1875 — https://www.metmuseum.org/art/collection/search/299472
-- The Bay of Naples, Auguste Renoir, 1881 — https://www.metmuseum.org/art/collection/search/437427
-- Snake bracelet, 1st century CE — https://www.metmuseum.org/art/collection/search/547711
-- Pompeii, Pompey’s Lane, Tomb Monument of Mamia, Firmin-Eugène Le Dien, ca. 1853 — https://www.metmuseum.org/art/collection/search/629811
-- Temple of Jupiter, Pompeii, Alfred-Nicolas Normand, 1851 — https://www.metmuseum.org/art/collection/search/785777
-- Bronze lamp, 1st century CE — https://www.metmuseum.org/art/collection/search/255869
-- Glass perfume bottle, 1st century CE — https://www.metmuseum.org/art/collection/search/239778
-- Gold and garnet ring, 1st century BCE–1st century CE — https://www.metmuseum.org/art/collection/search/243673
-- Key, 1st century CE — https://www.metmuseum.org/art/collection/search/244238
-- Stone Pines, Villa Pamfili Doria, Rome, Jane Martha St. John, 1856 — https://www.metmuseum.org/art/collection/search/287956
-- View of the Bay of Naples with Mount Vesuvius, Franz Ludwig Catel, ca. 1820–1822 — https://www.metmuseum.org/art/collection/search/395504
+IMAGES - The Metropolitan Museum of Art, Open Access (CC0)
+- [Plaster Casts of Bodies, Pompeii], Giorgio Sommer, ca. 1875 - https://www.metmuseum.org/art/collection/search/299472
+- Temple of Jupiter, Pompeii, Alfred-Nicolas Normand, 1851 - https://www.metmuseum.org/art/collection/search/785777
+- Cubiculum (bedroom) from the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE - https://www.metmuseum.org/art/collection/search/247017
+- Ruins at Pompeii, Gabriel-Auguste Ancelet, 1853 - https://www.metmuseum.org/art/collection/search/893901
+- View of the Bay of Naples with Mount Vesuvius, Franz Ludwig Catel, ca. 1820–1822 - https://www.metmuseum.org/art/collection/search/395504
+- The Bay of Naples, Auguste Renoir, 1881 - https://www.metmuseum.org/art/collection/search/437427
+- Stone Pines, Villa Pamfili Doria, Rome, Jane Martha St. John, 1856 - https://www.metmuseum.org/art/collection/search/287956
+- Gold aureus of Vespasian, 77–78 CE - https://www.metmuseum.org/art/collection/search/246877
+- Key, 1st century CE - https://www.metmuseum.org/art/collection/search/244238
+- Gold and garnet ring, 1st century BCE–1st century CE - https://www.metmuseum.org/art/collection/search/243673
+- Pompeii, Pompey’s Lane, Tomb Monument of Mamia, Firmin-Eugène Le Dien, ca. 1853 - https://www.metmuseum.org/art/collection/search/629811
+- Wall painting from Room H of the Villa of P. Fannius Synistor at Boscoreale, ca. 50–40 BCE - https://www.metmuseum.org/art/collection/search/247009
+- Terracotta wine amphora, ca. 100 BCE - https://www.metmuseum.org/art/collection/search/254781
+- Gold aureus of Titus, 79 CE - https://www.metmuseum.org/art/collection/search/246878
+- Snake bracelet, 1st century CE - https://www.metmuseum.org/art/collection/search/547711
 
-IMAGES — Wikimedia Commons (public domain)
-- Cast of a Dog Killed by the Eruption of Vesuvius — https://commons.wikimedia.org/wiki/File:Giorgio_Sommer_(Italian,_born_Germany_-_(Cast_of_a_Dog_Killed_by_the_Eruption_of_Mount_Vesuvius,_Pompeii)_-_Google_Art_Project.jpg
+IMAGES - Wikimedia Commons (public domain)
+- Giorgio Sommer, Cast of a Dog Killed by the Eruption of Vesuvius (c. 1875)
 
-FOOTAGE — U.S. National Archives (public domain, U.S. Government work)
-- Eruption of Vesuvius, March 1944 — U.S. Army Signal Corps
-- Pompeii ruins and Vesuvius, 1943–44 — U.S. Army Signal Corps
-(Shown labelled as 1944 footage; the 79 A.D. eruption was far larger.)
+MUSIC - Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0
+- Ossuary 1 - A Beginning · Echoes of Time v2 · Long Note Two · Dark Times · Lightless Dawn · Ossuary 6 - Air · Unwritten Return · Bittersweet
 
-3D RECONSTRUCTION
-- Illustrative eruption scene built for this video with three.js (MIT License)
+3D RECONSTRUCTIONS - illustrative scenes built for this video with three.js (MIT License)
+MAPS, DIAGRAMS, SILENT-FILM SCENES - drawn for this video (schematic)
+SOUND EFFECTS - CC0 recordings + effects synthesized for this video
+NARRATION - Kokoro TTS (Apache 2.0), voice bm_george
 
-MAPS, DIAGRAMS, SILENT-FILM SCENES
-- Drawn for this video (schematic, not to scale)
-
-SOUND EFFECTS
-- CC0 recorded effects + synthesized rumble, pumice and sea made for this video
-
-MUSIC — Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0
-- Ossuary 1 - A Beginning · Echoes of Time v2 · Long Note Two · Dark Times
-- Lightless Dawn · Ossuary 6 - Air · Unwritten Return · Bittersweet
-
-NARRATION
-- Kokoro TTS (Apache 2.0), voice bm_george
+FOOTAGE - U.S. National Archives (public domain): Eruption of Vesuvius, March 1944, and Pompeii ruins, 1943, U.S. Army Signal Corps (labelled on screen)

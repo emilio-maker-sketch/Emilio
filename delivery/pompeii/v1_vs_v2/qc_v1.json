@@ -1,0 +1,83 @@
+{
+ "video": "build/Pompeii.mp4",
+ "duration": 1096.408,
+ "results": [
+  {
+   "check": "decode",
+   "status": "PASS",
+   "msg": "0 decode errors",
+   "items": []
+  },
+  {
+   "check": "black",
+   "status": "PASS",
+   "msg": "0 black stretches > 0.6 s (excluding open/close)",
+   "items": []
+  },
+  {
+   "check": "freeze",
+   "status": "PASS",
+   "msg": "0 frozen stretches >= 4 s",
+   "items": []
+  },
+  {
+   "check": "strobe",
+   "status": "PASS",
+   "msg": "23 hard cuts; 0 clusters of >3 cuts in 2 s",
+   "items": []
+  },
+  {
+   "check": "loudness",
+   "status": "FAIL",
+   "msg": "integrated -14.4 LUFS, range 2.4 LU, true peak 1.6 dBTP (target -14 LUFS, <= -1 dBTP)",
+   "items": []
+  },
+  {
+   "check": "static",
+   "status": "PASS",
+   "msg": "0 stretches >= 8 s with almost no visual change",
+   "items": []
+  },
+  {
+   "check": "look",
+   "status": "PASS",
+   "msg": "median luma 0.23, saturation 0.42; 0 outlier stretches",
+   "items": []
+  },
+  {
+   "check": "balance",
+   "status": "WARN",
+   "msg": "speech -13.2 dB, bed in pauses -13.9 dB -> pauses sit 0.7 dB under speech (target 6-22)",
+   "items": []
+  },
+  {
+   "check": "subtitles",
+   "status": "PASS",
+   "msg": "351 cues; caption start vs exact sentence start: median 0.001s, 95th pct 0.001s; 0 too fast (>21 cps); 199 lines > 42 chars",
+   "items": [
+    "0:08.3 \"In 2024, a team of geneticists did somet\"",
+    "0:14.4 \"They pulled DNA from the bones hidden in\"",
+    "0:21.0 \"For a hundred and fifty years, those cas\"",
+    "0:35.1 \"The adult holding the child was a man, a\"",
+    "0:41.4 \"So what really happened on the last day \"",
+    "1:00.6 \"In the first century A.D., Pompeii was a\"",
+    "1:04.0 \"Roman town on the Bay of Naples, in sout\"",
+    "1:11.5 \"It had a forum, temples, two theaters, a\"",
+    "1:15.5 \"public baths, and dozens of bakeries, ba\"",
+    "1:20.3 \"Its walls were covered with writing: ele\""
+   ]
+  },
+  {
+   "check": "spelling",
+   "status": "PASS",
+   "msg": "157 on-screen strings, 0 unknown words",
+   "items": []
+  },
+  {
+   "check": "images",
+   "status": "PASS",
+   "msg": "16 images: 0 soft upscales, 0 near-duplicate pairs",
+   "items": []
+  }
+ ]
+}

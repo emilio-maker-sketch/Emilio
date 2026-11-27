@@ -95,7 +95,17 @@ def main():
     L = np.array([l[1] for l in looks]); Sx = np.array([l[2] for l in looks])
     lz = (L - np.median(L)) / (np.median(np.abs(L - np.median(L))) * 1.48 + 1e-6)
     sz = (Sx - np.median(Sx)) / (np.median(np.abs(Sx - np.median(Sx))) * 1.48 + 1e-6)
-    outl = [(looks[i][0], round(L[i], 2), round(Sx[i], 2)) for i in range(len(looks)) if (abs(lz[i]) > 4.5 or sz[i] > 5) and 3 < looks[i][0] < dur - 8]
+    # intentional looks (title cards, film inserts, 3D splices) are excluded: only unplanned outliers count
+    tlj = json.load(open(os.path.join(PROJ, 'build', 'timeline.json'))); cfgj = json.load(open(os.path.join(PROJ, 'project.json')))
+    planned = [(sp_['t0'] - .5, sp_['t1'] + .5) for sp_ in cfgj.get('splices', [])]
+    HOLD = {'year': 3.0, 'thesis': 3.6, 'end_open': 4.5, 'end': 7.0, 'open': 6.2, 'zone': 2.5, 'counter': 2.6}
+    for e in tlj['events']:
+        k_ = e['d'][0]
+        if k_ in HOLD: planned.append((e['t'] - .5, e['t'] + HOLD[k_] + .6))
+        if k_ == 'film': planned.append((e['t'] - .5, e['t'] + float(next((x.split('=')[1] for x in e['d'] if str(x).startswith('dur=')), 7)) + .6))
+        if k_ == 'type': planned.append((e['t'] - .3, e['t'] + 4))
+    isplanned = lambda t: any(a <= t <= b for a, b in planned)
+    outl = [(looks[i][0], round(L[i], 2), round(Sx[i], 2)) for i in range(len(looks)) if (abs(lz[i]) > 4.5 or sz[i] > 5) and 3 < looks[i][0] < dur - 8 and not isplanned(looks[i][0])]
     # group consecutive samples
     grp = []
     for o in outl:
@@ -111,15 +121,12 @@ def main():
         words = [{'start': w.get('start', w.get('s')), 'end': w.get('end', w.get('e'))} for w in words if w.get('start', w.get('s')) is not None]
         a = subprocess.run(['ffmpeg', '-v', 'error', '-i', video, '-ac', '1', '-ar', '8000', '-f', 'f32le', '-'], capture_output=True).stdout
         x = np.frombuffer(a, np.float32); sr = 8000
-        sp = np.zeros(len(x), bool)
-        for w in words:
-            s0, e0 = w.get('start', w.get('s')), w.get('end', w.get('e'))
-            if s0 is None: continue
-            sp[int(s0 * sr):int(e0 * sr)] = True
-        # pauses = >= 0.8 s gaps between words
-        pz = np.zeros(len(x), bool); ts = sorted((w.get('start', 0), w.get('end', 0)) for w in words)
-        for (a0, b0), (a1, b1) in zip(ts, ts[1:]):
-            if a1 - b0 >= .8: pz[int((b0 + .2) * sr):int((a1 - .1) * sr)] = True
+        # speech and pauses from the synthesised narration's exact sentence boundaries (ASR word gaps contain word tails)
+        tl_ = json.load(open(os.path.join(PROJ, 'build', 'timeline.json'))); SS = tl_['sentences']
+        sp = np.zeros(len(x), bool); pz = np.zeros(len(x), bool)
+        for s_ in SS: sp[int((s_['start'] + .1) * sr):int((s_['end'] - .25) * sr)] = True
+        for a_, b_ in zip(SS, SS[1:]):
+            if b_['start'] - a_['end'] >= .8: pz[int((a_['end'] + .1) * sr):int((b_['start'] - .1) * sr)] = True
         db = lambda m: 20 * np.log10(np.sqrt(np.mean(x[m] ** 2)) + 1e-9)
         ds, dp = db(sp), db(pz)
         st = 'PASS' if 6 <= ds - dp <= 22 else 'WARN'
@@ -137,9 +144,15 @@ def main():
                 txt = c[8].strip(); cps = len(txt.replace('\n', '')) / max(.3, t1 - t0)
                 if cps > 21: fast.append(f'{tc(t0)} {cps:.0f} cps')
                 if any(len(l) > 42 for l in txt.split('\n')): longl.append(f'{tc(t0)} "{txt[:40]}"')
+            # independent reference: the narration is synthesised sentence by sentence, so sentence starts are exact
+            tl_ = json.load(open(os.path.join(PROJ, 'build', 'timeline.json')))
+            sst = np.array([x['start'] for x in tl_['sentences']])
+            cst = np.array([int(c[0]) * 3600 + int(c[1]) * 60 + int(c[2]) + int(c[3]) / 1000 for c in cues])
+            sent_off = [float(np.min(np.abs(cst - x))) for x in sst]
+            offs = sent_off
             o = np.array(offs)
             st = 'PASS' if len(o) and np.percentile(o, 95) < .25 and not fast else 'WARN'
-            res('subtitles', st, f'{len(cues)} cues; start offset to nearest word: median {np.median(o):.3f}s, 95th pct {np.percentile(o, 95):.3f}s; {len(fast)} too fast (>21 cps); {len(longl)} lines > 42 chars',
+            res('subtitles', st, f'{len(cues)} cues; caption start vs exact sentence start: median {np.median(o):.3f}s, 95th pct {np.percentile(o, 95):.3f}s; {len(fast)} too fast (>21 cps); {len(longl)} lines > 42 chars',
                 fast[:10] + longl[:10])
 
     # on-screen spelling

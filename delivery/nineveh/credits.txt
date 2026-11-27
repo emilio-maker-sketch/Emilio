@@ -1,0 +1,29 @@
+CREDITS - The Fire That Saved a Library
+
+IMAGES - The Metropolitan Museum of Art, Open Access (CC0)
+- Cuneiform tablet: Akkadian synonym list, Malku=sharru, tablet 5, ca. 8th–7th century BCE - https://www.metmuseum.org/art/collection/search/328922
+- Relief fragment: cavalrymen along a stream in mountainous terrain, ca. 704–681 BCE - https://www.metmuseum.org/art/collection/search/322623
+- Human-headed winged bull (lamassu), ca. 883–859 BCE - https://www.metmuseum.org/art/collection/search/322608
+- Stone slab fragment with inscription from annals of Ashurbanipal, ca. 668–627 BCE - https://www.metmuseum.org/art/collection/search/322030
+- Relief fragment: Assyrian soldier conducting captives across the water, ca. 668–627 BCE - https://www.metmuseum.org/art/collection/search/322612
+- Panels of a writing board, ca. 721–705 BCE - https://www.metmuseum.org/art/collection/search/324332
+- Cuneiform tablet: fragment of a liver omen, ca. late 1st millennium BCE - https://www.metmuseum.org/art/collection/search/322102
+- Pendant with the head of Pazuzu, ca. 8th–7th century BCE - https://www.metmuseum.org/art/collection/search/327485
+- Nineveh and Persepolis: An Historical Sketch of Ancient Assyria and Persia with an Account of the Recent Discoveries in Those Countries, 1850 - https://www.metmuseum.org/art/collection/search/891682
+- Relief fragment: siege of a city by Assyrian troops, ca. 704–681 BCE - https://www.metmuseum.org/art/collection/search/322622
+- Brooch with Assyrian winged human-headed bull, ca. 1870–1875 - https://www.metmuseum.org/art/collection/search/891639
+- M. Botta’s Letters on the Discoveries at Nineveh, 1850 - https://www.metmuseum.org/art/collection/search/891673
+- Human-headed winged bull, 1850–1900 - https://www.metmuseum.org/art/collection/search/891611
+- Assyrian Discoveries: An Account of Explorations and Discoveries on the Site of Nineveh during 1873 and 1874, 1875 - https://www.metmuseum.org/art/collection/search/891674
+- Cuneiform prism: inscription of Esarhaddon, ca. 680–669 BCE - https://www.metmuseum.org/art/collection/search/321901
+- Cuneiform tablet: unidentified fragment, ca. late 1st millennium BCE - https://www.metmuseum.org/art/collection/search/321846
+- Cuneiform tablet: unidentified fragment, ca. late 1st millennium BCE - https://www.metmuseum.org/art/collection/search/322034
+- Cuneiform tablet: unidentified fragment, ca. late 1st millennium BCE - https://www.metmuseum.org/art/collection/search/328927
+
+MUSIC - Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0
+- Ossuary 1 - A Beginning · Desert City · Ancient Rite · Dark Times · Echoes of Time v2 · Eternal Hope · Lightless Dawn · Bittersweet
+
+3D RECONSTRUCTIONS - illustrative scenes built for this video with three.js (MIT License)
+MAPS, DIAGRAMS, SILENT-FILM SCENES - drawn for this video (schematic)
+SOUND EFFECTS - CC0 recordings + effects synthesized for this video
+NARRATION - Kokoro TTS (Apache 2.0), voice bm_george

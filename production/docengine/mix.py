@@ -92,14 +92,14 @@ def duck_gain(vo, depth_db=14.0, floor_db=-6.0):
     thr = max(np.percentile(e, 30) * 2.5, 10 ** (-45 / 20))
     speech = e > thr
     # bridge short gaps (between words) so the music doesn't pump
-    k = 70
+    k = 160                                        # hold the duck through gaps < 1.6 s: music swells at section breaks, not between sentences
     s = np.convolve(speech.astype(float), np.ones(k), 'same') > 0
     target = np.where(s, -depth_db, 0.0)
     la = 18; target = np.minimum(target, np.concatenate([target[la:], np.zeros(la)]))
     out = np.zeros_like(target); cur = 0.0
     for i, v in enumerate(target):
-        rate = .35 if v < cur else .06              # dB per 10 ms: fast attack, gentle release
-        cur = max(v, cur - rate * 10) if v < cur else min(v, cur + rate * 10 / 4)
+        # fast attack (~0.3 s to full depth), slow release (~2.5 s) so swells feel deliberate, never pumping
+        cur = max(v, cur - 3.5) if v < cur else min(v, cur + .4)
         out[i] = cur
     g = 10 ** (out / 20)
     return np.interp(np.arange(len(vo)) / (SR // 100), np.arange(len(g)), g).astype(np.float32)
@@ -120,8 +120,8 @@ def mix(vo_p, mus_p, amb_p, sfx_p, out, tl_p=None):
     def fit(a): b = np.zeros((n, a.shape[1]), np.float32); b[:min(n, len(a))] = a[:n]; return b
     mus = fit(load(mus_p)); amb = fit(load(amb_p, stereo=False)); sfx = fit(load(sfx_p, stereo=False))
     vo = np.concatenate([vo, np.zeros(SR, np.float32)])
-    g = duck_gain(vo)
-    mus *= g[:, None]
+    g = duck_gain(vo, depth_db=10.0)
+    mus *= g[:, None] * 10 ** (-4 / 20)                               # bed sits ~8 dB under the voice even in pauses
     amb2 = widen(amb[:, 0]) * (.55 + .45 * g[:, None])               # ambience dips less than music
     # sfx: slight pan per hit region so impacts don't all sit dead centre
     pan = .5 + .12 * np.sin(np.arange(n) / SR * .37)
