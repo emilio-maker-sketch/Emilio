@@ -40,7 +40,21 @@ Title scores (vidIQ `score_title`, CTR model only):
 - Used by Cappadocian Greeks and Armenians into the 20th century (Dawkins 1916). Abandoned after the 1923 population exchange (Darke 2011; Rodley 2010).
 - UNESCO: Göreme National Park and the Rock Sites of Cappadocia, 1985, ref. 357.
 
+## Second pass (2026-11-27, web search; Springer and the Turkish Ministry sites are blocked from this environment)
+- Levels: Wikipedia says "at least eight levels"; the site's official visitor page says eight levels are open today and the District Governorship estimates 12–13 once fully cleared. **Narration: "at least eight levels are known".** "18" stays out.
+- Depth: about 85 m is consistent across sources. Keep "about 85 metres".
+- Rolling stones: published sizes and weights conflict (200 kg, 500 kg, "up to 1.5 m"), none from a survey. **Narration gives no weight; it says "round stone doors, rolled across the passage from the inside".**
+- Engineering source to cite: Aydan Ö. & Ulusay R. (2013), *Geomechanical evaluation of Derinkuyu antique underground city and its implications in geoengineering*, Rock Mechanics and Rock Engineering 46: 731–754. A secondary summary credits it with: tuff uniaxial compressive strength of roughly 1–10 MPa; monitoring on the fifth and seventh floors since 1996; wells dug downward, air shafts upward. Confirm against the paper before any of these goes on screen.
+- Ousterhout (2017) on Byzantine Cappadocian settlement: not reachable here; the Byzantine-refuge framing stays hedged ("greatly enlarged in the middle Byzantine period, when Arab raids reached Cappadocia").
+
 ## Visual plan: real images only (the user agreed, 2026-11-27)
 - Wikimedia Commons photos of Derinkuyu, Kaymaklı, Özkonak, Göreme and Cappadocia landscapes, chosen by title and checked by eye.
 - Drawn graphics: animated cross-section, ventilation airflow, rolling-door mechanism, map of Cappadocia's underground settlements, timeline.
 - Higgsfield: 50 credits approved, **planned use 0**. Ask the user before spending.
+
+## Commons survey (2026-11-27, paced; full list in build/commons_survey.txt)
+- Derinkuyu: about 30 photos at 4000 × 3000 (Nevit Dilmen series, CC BY-SA 3.0), and two rolling-door photos at full resolution ("Rolling stone door Derinkuyu.jpg", "Roling door in Derinkuyu.JPG").
+- Kaymaklı: a large series at 4000 × 3000, plus a circular door and a large room at 6000 × 4000.
+- Özkonak: an entrance photo and 2024 HDR series at about 8600 px across.
+- Göreme and Cappadocia landscapes: panoramas up to 17,000 px across.
+- None on ventilation shafts by name. The airflow will be a drawn cross-section.
