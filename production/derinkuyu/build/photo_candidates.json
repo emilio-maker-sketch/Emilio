@@ -2314,5 +2314,1080 @@
  "00-01-0": {
   "q": "Derinkuyu Underground City tunnel passage",
   "cands": []
+ },
+ "00-02-1": {
+  "q": "Kaymakli underground city 8870 Nevit",
+  "cands": [
+   {
+    "title": "File:Kaymakli underground city 8870 Nevit Compressor.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Kaymakli_underground_city_8870_Nevit_Compressor.jpg/1920px-Kaymakli_underground_city_8870_Nevit_Compressor.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaymakli_underground_city_8870_Nevit_Compressor.jpg"
+   },
+   {
+    "title": "File:Kaymakli underground city 8870 Nevit.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nevit Dilmen (talk)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a2/Kaymakli_underground_city_8870_Nevit.jpg/1920px-Kaymakli_underground_city_8870_Nevit.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kaymakli_underground_city_8870_Nevit.jpg"
+   }
+  ]
+ },
+ "00-03-0": {
+  "q": "Derinkuyu Underground City shaft",
+  "cands": []
+ },
+ "01-00-2": {
+  "q": "Cappadocia tuff layers cliff",
+  "cands": []
+ },
+ "01-01-0": {
+  "q": "Hasan Dagi volcano",
+  "cands": [
+   {
+    "title": "File:Hasan Dağı, Mount Hasan.jpg",
+    "w": 3564,
+    "h": 2366,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Hasan_Da%C4%9F%C4%B1%2C_Mount_Hasan.jpg/1920px-Hasan_Da%C4%9F%C4%B1%2C_Mount_Hasan.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hasan_Da%C4%9F%C4%B1,_Mount_Hasan.jpg"
+   },
+   {
+    "title": "File:Hasan Dagi volcano near Aksaray in Turkey 20140220.jpg",
+    "w": 5472,
+    "h": 3648,
+    "license": "CC BY 2.0",
+    "artist": "Graeme Churchard (GOC53) https://www.flickr.com/people/graeme/",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Hasan_Dagi_volcano_near_Aksaray_in_Turkey_20140220.jpg/1920px-Hasan_Dagi_volcano_near_Aksaray_in_Turkey_20140220.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hasan_Dagi_volcano_near_Aksaray_in_Turkey_20140220.jpg"
+   },
+   {
+    "title": "File:Hasan Dağı, Mount Hasan - 52397064381.jpg",
+    "w": 3234,
+    "h": 2214,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Hasan_Da%C4%9F%C4%B1%2C_Mount_Hasan_-_52397064381.jpg/1920px-Hasan_Da%C4%9F%C4%B1%2C_Mount_Hasan_-_52397064381.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hasan_Da%C4%9F%C4%B1,_Mount_Hasan_-_52397064381.jpg"
+   },
+   {
+    "title": "File:Hasan Dağı volcano.jpg",
+    "w": 2766,
+    "h": 2096,
+    "license": "CC BY-SA 4.0",
+    "artist": "Asaview",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Hasan_Da%C4%9F%C4%B1_volcano.jpg/1920px-Hasan_Da%C4%9F%C4%B1_volcano.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Hasan_Da%C4%9F%C4%B1_volcano.jpg"
+   },
+   {
+    "title": "File:Vulkan Hasan Bagi.jpg",
+    "w": 1600,
+    "h": 1200,
+    "license": "Public domain",
+    "artist": "Dr. Hans-Helmut Bissem",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Vulkan_Hasan_Bagi.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Vulkan_Hasan_Bagi.jpg"
+   },
+   {
+    "title": "File:Aksaray and Hasan Dağı (52397560193).jpg",
+    "w": 3388,
+    "h": 2065,
+    "license": "CC BY 2.0",
+    "artist": "Sonse",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Aksaray_and_Hasan_Da%C4%9F%C4%B1_%2852397560193%29.jpg/1920px-Aksaray_and_Hasan_Da%C4%9F%C4%B1_%2852397560193%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aksaray_and_Hasan_Da%C4%9F%C4%B1_(52397560193).jpg"
+   }
+  ]
+ },
+ "01-01-1": {
+  "q": "Catalhoyuk mural volcano",
+  "cands": []
+ },
+ "01-03-0": {
+  "q": "Cappadocia rock cut houses cliff",
+  "cands": []
+ },
+ "01-03-1": {
+  "q": "Cappadocia pigeon houses dovecote",
+  "cands": []
+ },
+ "01-04-0": {
+  "q": "Cappadocia cave house fairy chimney door",
+  "cands": []
+ },
+ "02-00-0": {
+  "q": "Cappadocia Goreme red valley fairy chimneys badlands tele",
+  "cands": [
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 3333.jpg",
+    "w": 4240,
+    "h": 2726,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3333.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3333.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3333.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 12.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_12.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_12.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_12.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 73.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_73.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_73.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_73.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 11.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_11.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_11.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_11.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 10.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_10.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_10.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme red valley fairy chimneys badlands tele 3.jpg",
+    "w": 4240,
+    "h": 2726,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3.jpg/1920px-Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_red_valley_fairy_chimneys_badlands_tele_3.jpg"
+   }
+  ]
+ },
+ "02-00-1": {
+  "q": "Cappadocia Goreme hike red valley fairy chimneys 2",
+  "cands": [
+   {
+    "title": "File:Cappadocia Goreme hike red valley fairy chimneys 2.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/Cappadocia_Goreme_hike_red_valley_fairy_chimneys_2.jpg/1920px-Cappadocia_Goreme_hike_red_valley_fairy_chimneys_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_hike_red_valley_fairy_chimneys_2.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme hike red valley fairy chimneys 5.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Cappadocia_Goreme_hike_red_valley_fairy_chimneys_5.jpg/1920px-Cappadocia_Goreme_hike_red_valley_fairy_chimneys_5.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_hike_red_valley_fairy_chimneys_5.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme hike red valley fairy chimneys 3.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Cappadocia_Goreme_hike_red_valley_fairy_chimneys_3.jpg/1920px-Cappadocia_Goreme_hike_red_valley_fairy_chimneys_3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_hike_red_valley_fairy_chimneys_3.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme hike red valley fairy chimneys 4.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Cappadocia_Goreme_hike_red_valley_fairy_chimneys_4.jpg/1920px-Cappadocia_Goreme_hike_red_valley_fairy_chimneys_4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_hike_red_valley_fairy_chimneys_4.jpg"
+   },
+   {
+    "title": "File:Cappadocia Goreme hike red valley fairy chimneys and caves.jpg",
+    "w": 4240,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Aquinoxmedia",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Cappadocia_Goreme_hike_red_valley_fairy_chimneys_and_caves.jpg/1920px-Cappadocia_Goreme_hike_red_valley_fairy_chimneys_and_caves.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Goreme_hike_red_valley_fairy_chimneys_and_caves.jpg"
+   }
+  ]
+ },
+ "02-02-0": {
+  "q": "Zelve open air museum Cappadocia",
+  "cands": [
+   {
+    "title": "File:Zelve Monastery, Cappadocia.jpg",
+    "w": 1536,
+    "h": 2048,
+    "license": "CC BY-SA 4.0",
+    "artist": "Slyronit",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Zelve_Monastery%2C_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Zelve_Monastery,_Cappadocia.jpg"
+   },
+   {
+    "title": "File:Cappadocia Zelve (7144826355).jpg",
+    "w": 1414,
+    "h": 2121,
+    "license": "CC BY-SA 2.0",
+    "artist": "Benh LIEU SONG from Torcy, France",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/33/Cappadocia_Zelve_%287144826355%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Zelve_(7144826355).jpg"
+   },
+   {
+    "title": "File:Zelve Cappadocia.JPG",
+    "w": 2856,
+    "h": 2142,
+    "license": "CC BY-SA 3.0",
+    "artist": "Noumenon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Zelve_Cappadocia.JPG/1920px-Zelve_Cappadocia.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Zelve_Cappadocia.JPG"
+   },
+   {
+    "title": "File:Landscape at Zelve - Cappadocia - Turkey (5764731091).jpg",
+    "w": 3456,
+    "h": 2304,
+    "license": "CC BY-SA 2.0",
+    "artist": "Adam Jones from Kelowna, BC, Canada",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Landscape_at_Zelve_-_Cappadocia_-_Turkey_%285764731091%29.jpg/1920px-Landscape_at_Zelve_-_Cappadocia_-_Turkey_%285764731091%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Landscape_at_Zelve_-_Cappadocia_-_Turkey_(5764731091).jpg"
+   },
+   {
+    "title": "File:The Other Open Air Museum (41221654).jpeg",
+    "w": 2048,
+    "h": 1152,
+    "license": "CC BY 3.0",
+    "artist": "Charlton",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/The_Other_Open_Air_Museum_%2841221654%29.jpeg/1920px-The_Other_Open_Air_Museum_%2841221654%29.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Other_Open_Air_Museum_(41221654).jpeg"
+   },
+   {
+    "title": "File:Cappadocia Zelva Wikimedia Commons 01.jpg",
+    "w": 5184,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "Benh LIEU SONG",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Cappadocia_Zelva_Wikimedia_Commons_01.jpg/1920px-Cappadocia_Zelva_Wikimedia_Commons_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia_Zelva_Wikimedia_Commons_01.jpg"
+   }
+  ]
+ },
+ "02-02-1": {
+  "q": "Zelve rock dwellings",
+  "cands": []
+ },
+ "02-03-0": {
+  "q": "Uchisar castle Cappadocia",
+  "cands": [
+   {
+    "title": "File:Castle Uçhisar in Cappadocia.jpg",
+    "w": 7360,
+    "h": 4912,
+    "license": "CC BY-SA 3.0",
+    "artist": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Castle_U%C3%A7hisar_in_Cappadocia.jpg/1920px-Castle_U%C3%A7hisar_in_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Castle_U%C3%A7hisar_in_Cappadocia.jpg"
+   },
+   {
+    "title": "File:Uçhisar, Cappadocia 02.jpg",
+    "w": 4977,
+    "h": 3318,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/U%C3%A7hisar%2C_Cappadocia_02.jpg/1920px-U%C3%A7hisar%2C_Cappadocia_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar,_Cappadocia_02.jpg"
+   },
+   {
+    "title": "File:Uçhisar, Cappadocia 01.jpg",
+    "w": 4848,
+    "h": 3232,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/U%C3%A7hisar%2C_Cappadocia_01.jpg/1920px-U%C3%A7hisar%2C_Cappadocia_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar,_Cappadocia_01.jpg"
+   },
+   {
+    "title": "File:Uçhisar, Cappadocia 07.jpg",
+    "w": 4067,
+    "h": 2779,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/U%C3%A7hisar%2C_Cappadocia_07.jpg/1920px-U%C3%A7hisar%2C_Cappadocia_07.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar,_Cappadocia_07.jpg"
+   },
+   {
+    "title": "File:Uchisar Castle , Cappadocia , Turkey - panoramio.jpg",
+    "w": 4000,
+    "h": 3000,
+    "license": "CC BY 3.0",
+    "artist": "belemita@gmail.com",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Uchisar_Castle_%2C_Cappadocia_%2C_Turkey_-_panoramio.jpg/1920px-Uchisar_Castle_%2C_Cappadocia_%2C_Turkey_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Uchisar_Castle_,_Cappadocia_,_Turkey_-_panoramio.jpg"
+   },
+   {
+    "title": "File:Uçhisar Castle 05.jpg",
+    "w": 4858,
+    "h": 3239,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/U%C3%A7hisar_Castle_05.jpg/1920px-U%C3%A7hisar_Castle_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Castle_05.jpg"
+   }
+  ]
+ },
+ "03-00-1": {
+  "q": "Kultepe Kanesh excavation",
+  "cands": [
+   {
+    "title": "File:Kultepe Karum excavations (1993) 06.jpg",
+    "w": 4632,
+    "h": 3047,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Kultepe_Karum_excavations_%281993%29_06.jpg/1920px-Kultepe_Karum_excavations_%281993%29_06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_06.jpg"
+   },
+   {
+    "title": "File:Kultepe Karum excavations (1993) 02.jpg",
+    "w": 4632,
+    "h": 3047,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Kultepe_Karum_excavations_%281993%29_02.jpg/1920px-Kultepe_Karum_excavations_%281993%29_02.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_02.jpg"
+   },
+   {
+    "title": "File:Kultepe Karum excavations (1993) 05.jpg",
+    "w": 4607,
+    "h": 3047,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Kultepe_Karum_excavations_%281993%29_05.jpg/1920px-Kultepe_Karum_excavations_%281993%29_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_05.jpg"
+   },
+   {
+    "title": "File:Kultepe Karum excavations (1993) 01.jpg",
+    "w": 4551,
+    "h": 2940,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Kultepe_Karum_excavations_%281993%29_01.jpg/1920px-Kultepe_Karum_excavations_%281993%29_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_01.jpg"
+   },
+   {
+    "title": "File:Kultepe Karum excavations (1993) 04.jpg",
+    "w": 4632,
+    "h": 3047,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Kultepe_Karum_excavations_%281993%29_04.jpg/1920px-Kultepe_Karum_excavations_%281993%29_04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_04.jpg"
+   },
+   {
+    "title": "File:Kultepe Karum excavations (1993) 03.jpg",
+    "w": 4632,
+    "h": 3047,
+    "license": "CC BY 4.0",
+    "artist": "Mark Landon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Kultepe_Karum_excavations_%281993%29_03.jpg/1920px-Kultepe_Karum_excavations_%281993%29_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Kultepe_Karum_excavations_(1993)_03.jpg"
+   }
+  ]
+ },
+ "03-01-1": {
+  "q": "Kultepe karum ruins houses",
+  "cands": []
+ },
+ "03-02-0": {
+  "q": "Kultepe tablet Old Assyrian cuneiform",
+  "cands": [
+   {
+    "title": "File:Old assyrian treaty - Kultepe Anatolian Civilizations Museum.jpg",
+    "w": 1943,
+    "h": 3370,
+    "license": "CC BY-SA 2.0",
+    "artist": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Old_assyrian_treaty_-_Kultepe_Anatolian_Civilizations_Museum.jpg/1920px-Old_assyrian_treaty_-_Kultepe_Anatolian_Civilizations_Museum.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_assyrian_treaty_-_Kultepe_Anatolian_Civilizations_Museum.jpg"
+   },
+   {
+    "title": "File:Cuneiform tablet case impressed with four cylinder seals Old Assyrian.png",
+    "w": 4616,
+    "h": 2784,
+    "license": "CC0",
+    "artist": "Metropolitan Museum of Art",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Cuneiform_tablet_case_impressed_with_four_cylinder_seals_Old_Assyrian.png/1920px-Cuneiform_tablet_case_impressed_with_four_cylinder_seals_Old_Assyrian.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_case_impressed_with_four_cylinder_seals_Old_Assyrian.png"
+   },
+   {
+    "title": "File:Cuneiform tablet case impressed with four cylinder seals in Anatolian and Old Assyrian style, for cuneiform tablet 66.245.16a- quittance for a loan in silver MET DP162273.jpg",
+    "w": 2882,
+    "h": 3842,
+    "license": "CC0",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Anatolian_and_Old_Assyrian_style%2C_for_cuneiform_tablet_66.245.16a-_quittance_for_a_loan_in_silver_MET_DP162273.jpg/1920px-thumbnail.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Anatolian_and_Old_Assyrian_style,_for_cuneiform_tablet_66.245.16a-_quittance_for_a_loan_in_silver_MET_DP162273.jpg"
+   },
+   {
+    "title": "File:Cuneiform tablet case impressed with four cylinder seals in Assyrian and Anatolian styles, for cuneiform tablet 66.245.17a- loan of silver MET DP-13441-010.jpg",
+    "w": 3912,
+    "h": 4000,
+    "license": "CC0",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles%2C_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-010.jpg/1920px-Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles%2C_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-010.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles,_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-010.jpg"
+   },
+   {
+    "title": "File:Cuneiform tablet case impressed with four cylinder seals in Assyrian and Anatolian styles, for cuneiform tablet 66.245.17a- loan of silver MET DP-13441-013.jpg",
+    "w": 3912,
+    "h": 4000,
+    "license": "CC0",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles%2C_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-013.jpg/1920px-Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles%2C_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-013.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet_case_impressed_with_four_cylinder_seals_in_Assyrian_and_Anatolian_styles,_for_cuneiform_tablet_66.245.17a-_loan_of_silver_MET_DP-13441-013.jpg"
+   },
+   {
+    "title": "File:Cuneiform tablet- record of a lawsuit MET DP162268.jpg",
+    "w": 2882,
+    "h": 3842,
+    "license": "CC0",
+    "artist": "",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Cuneiform_tablet-_record_of_a_lawsuit_MET_DP162268.jpg/1920px-Cuneiform_tablet-_record_of_a_lawsuit_MET_DP162268.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cuneiform_tablet-_record_of_a_lawsuit_MET_DP162268.jpg"
+   }
+  ]
+ },
+ "03-02-1": {
+  "q": "Kultepe tablet envelope",
+  "cands": [
+   {
+    "title": "File:Unopened tablet envelope Old Assyrian 113574.jpg",
+    "w": 2345,
+    "h": 2364,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zunkir",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Unopened_tablet_envelope_Old_Assyrian_113574.jpg/1920px-Unopened_tablet_envelope_Old_Assyrian_113574.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Unopened_tablet_envelope_Old_Assyrian_113574.jpg"
+   },
+   {
+    "title": "File:Tablet and its envelope Old Assyrian 113583.jpg",
+    "w": 4508,
+    "h": 2217,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zunkir",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Tablet_and_its_envelope_Old_Assyrian_113583.jpg/1920px-Tablet_and_its_envelope_Old_Assyrian_113583.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tablet_and_its_envelope_Old_Assyrian_113583.jpg"
+   },
+   {
+    "title": "File:Tablet envelope sealed Old Assyrian 113581.jpg",
+    "w": 2573,
+    "h": 2535,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zunkir",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Tablet_envelope_sealed_Old_Assyrian_113581.jpg/1920px-Tablet_envelope_sealed_Old_Assyrian_113581.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tablet_envelope_sealed_Old_Assyrian_113581.jpg"
+   },
+   {
+    "title": "File:Silver debt tablet and envelope IAM.jpg",
+    "w": 4776,
+    "h": 3209,
+    "license": "Public domain",
+    "artist": "Marie-Lan Nguyen",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Silver_debt_tablet_and_envelope_IAM.jpg/1920px-Silver_debt_tablet_and_envelope_IAM.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Silver_debt_tablet_and_envelope_IAM.jpg"
+   },
+   {
+    "title": "File:Clay tablet and its stamped envelop. Legal debt-note on silver. Old Assyrian dialect. Assyrian Colony Period, 19th century BCE. Ancient Orient Museum, Istanbul.jpg",
+    "w": 4437,
+    "h": 3034,
+    "license": "CC BY-SA 4.0",
+    "artist": "Osama Shukir Muhammed Amin FRCP(Glasg)",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Clay_tablet_and_its_stamped_envelop._Legal_debt-note_on_silver._Old_Assyrian_dialect._Assyrian_Colony_Period%2C_19th_century_BCE._Ancient_Orient_Museum%2C_Istanbul.jpg/1920px-thumbnail.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clay_tablet_and_its_stamped_envelop._Legal_debt-note_on_silver._Old_Assyrian_dialect._Assyrian_Colony_Period,_19th_century_BCE._Ancient_Orient_Museum,_Istanbul.jpg"
+   },
+   {
+    "title": "File:Enveloppe Cappadoce AO 7297.jpg",
+    "w": 2467,
+    "h": 2036,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zunkir",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Enveloppe_Cappadoce_AO_7297.jpg/1920px-Enveloppe_Cappadoce_AO_7297.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Enveloppe_Cappadoce_AO_7297.jpg"
+   }
+  ]
+ },
+ "03-03-0": {
+  "q": "Kultepe tablets museum Ankara",
+  "cands": [
+   {
+    "title": "File:Ankara Anatolian Civilizations Museum september 2014 1414.jpg",
+    "w": 2401,
+    "h": 2401,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Ankara_Anatolian_Civilizations_Museum_september_2014_1414.jpg/1920px-Ankara_Anatolian_Civilizations_Museum_september_2014_1414.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ankara_Anatolian_Civilizations_Museum_september_2014_1414.jpg"
+   },
+   {
+    "title": "File:LETTER - Terra Cotta - Assyrian settlement in Kültepe - Kayseri - Museum of Anatolian Civilizations - Ankara.jpg",
+    "w": 1000,
+    "h": 881,
+    "license": "CC BY-SA 4.0",
+    "artist": "PersianDutchNetwork",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/23/LETTER_-_Terra_Cotta_-_Assyrian_settlement_in_K%C3%BCltepe_-_Kayseri_-_Museum_of_Anatolian_Civilizations_-_Ankara.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:LETTER_-_Terra_Cotta_-_Assyrian_settlement_in_K%C3%BCltepe_-_Kayseri_-_Museum_of_Anatolian_Civilizations_-_Ankara.jpg"
+   },
+   {
+    "title": "File:Old assyrian marriage certificate - Kultepe Anatolian Civilizations Museum.jpg",
+    "w": 3076,
+    "h": 1696,
+    "license": "CC BY-SA 2.0",
+    "artist": "Ray Swi-hymn from Sijhih-Taipei, Taiwan",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Old_assyrian_marriage_certificate_-_Kultepe_Anatolian_Civilizations_Museum.jpg/1920px-Old_assyrian_marriage_certificate_-_Kultepe_Anatolian_Civilizations_Museum.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Old_assyrian_marriage_certificate_-_Kultepe_Anatolian_Civilizations_Museum.jpg"
+   },
+   {
+    "title": "File:Clay tablets with cuneiform letters found Kültepe (ancient Kanesh), 1900 BC - 1700 BC, Museum of Anatolian Civilizations, Ankara (30187162882).jpg",
+    "w": 4443,
+    "h": 3069,
+    "license": "CC BY-SA 2.0",
+    "artist": "Carole Raddato from Frankfurt, Germany",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Clay_tablets_with_cuneiform_letters_found_K%C3%BCltepe_%28ancient_Kanesh%29%2C_1900_BC_-_1700_BC%2C_Museum_of_Anatolian_Civilizations%2C_Ankara_%2830187162882%29.jpg/1920px-Clay_tablets_with_cuneiform_letters_found_K%C3%BCltepe_%28ancient_Kanesh%29%2C_1900_BC_-_1700_BC%2C_Museum_of_Anatolian_Civilizations%2C_Ankara_%2830187162882%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Clay_tablets_with_cuneiform_letters_found_K%C3%BCltepe_(ancient_Kanesh),_1900_BC_-_1700_BC,_Museum_of_Anatolian_Civilizations,_Ankara_(30187162882).jpg"
+   },
+   {
+    "title": "File:Museum of Anatolian Civilizations Assyrian Colonies period from Kültepe Unopened cuneiform letter and cover in 2014 01.jpg",
+    "w": 4568,
+    "h": 3046,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2014_01.jpg/1920px-Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2014_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2014_01.jpg"
+   },
+   {
+    "title": "File:Museum of Anatolian Civilizations Assyrian Colonies period from Kültepe Unopened cuneiform letter and cover in 2019 03.jpg",
+    "w": 4576,
+    "h": 6800,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2019_03.jpg/1920px-Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2019_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Assyrian_Colonies_period_from_K%C3%BCltepe_Unopened_cuneiform_letter_and_cover_in_2019_03.jpg"
+   }
+  ]
+ },
+ "03-03-1": {
+  "q": "Museum of Anatolian Civilizations Ankara",
+  "cands": [
+   {
+    "title": "File:Museum of Anatolian Civilizations Phrygian Small table fom tomb of Midas in 2014 04.jpg",
+    "w": 4928,
+    "h": 3280,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Museum_of_Anatolian_Civilizations_Phrygian_Small_table_fom_tomb_of_Midas_in_2014_04.jpg/1920px-Museum_of_Anatolian_Civilizations_Phrygian_Small_table_fom_tomb_of_Midas_in_2014_04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Phrygian_Small_table_fom_tomb_of_Midas_in_2014_04.jpg"
+   },
+   {
+    "title": "File:Museum of Anatolian Civilizations Lion-headed situla in 2011 05.jpg",
+    "w": 4104,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Museum_of_Anatolian_Civilizations_Lion-headed_situla_in_2011_05.jpg/1920px-Museum_of_Anatolian_Civilizations_Lion-headed_situla_in_2011_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_Lion-headed_situla_in_2011_05.jpg"
+   },
+   {
+    "title": "File:Museum of Anatolian Civilizations, Ankara (31093737884).jpg",
+    "w": 2849,
+    "h": 3108,
+    "license": "CC BY-SA 2.0",
+    "artist": "Carole Raddato from Frankfurt, Germany",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Museum_of_Anatolian_Civilizations%2C_Ankara_%2831093737884%29.jpg/1920px-Museum_of_Anatolian_Civilizations%2C_Ankara_%2831093737884%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations,_Ankara_(31093737884).jpg"
+   },
+   {
+    "title": "File:Museum of Anatolian Civilizations 08.jpg",
+    "w": 3336,
+    "h": 1561,
+    "license": "CC BY 4.0",
+    "artist": "Derbrauni",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Museum_of_Anatolian_Civilizations_08.jpg/1920px-Museum_of_Anatolian_Civilizations_08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Museum_of_Anatolian_Civilizations_08.jpg"
+   },
+   {
+    "title": "File:Entrance of the Museum of Anatolian Civilizations in Ankara.jpg",
+    "w": 3024,
+    "h": 4032,
+    "license": "CC BY-SA 4.0",
+    "artist": "Raicem",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Entrance_of_the_Museum_of_Anatolian_Civilizations_in_Ankara.jpg/1920px-Entrance_of_the_Museum_of_Anatolian_Civilizations_in_Ankara.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Entrance_of_the_Museum_of_Anatolian_Civilizations_in_Ankara.jpg"
+   },
+   {
+    "title": "File:Stag statuette, Museum of Anatolian Civilizations, Ankara (25514585444).jpg",
+    "w": 3264,
+    "h": 4928,
+    "license": "CC BY-SA 2.0",
+    "artist": "Carole Raddato from Frankfurt, Germany",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Stag_statuette%2C_Museum_of_Anatolian_Civilizations%2C_Ankara_%2825514585444%29.jpg/1920px-Stag_statuette%2C_Museum_of_Anatolian_Civilizations%2C_Ankara_%2825514585444%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Stag_statuette,_Museum_of_Anatolian_Civilizations,_Ankara_(25514585444).jpg"
+   }
+  ]
+ },
+ "03-04-0": {
+  "q": "Hattusa Lion Gate",
+  "cands": [
+   {
+    "title": "File:Lion Gate, Hattusa 01.jpg",
+    "w": 5184,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Lion_Gate%2C_Hattusa_01.jpg/1920px-Lion_Gate%2C_Hattusa_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_01.jpg"
+   },
+   {
+    "title": "File:Lion Gate, Hattusa 06.jpg",
+    "w": 4934,
+    "h": 3384,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Lion_Gate%2C_Hattusa_06.jpg/1920px-Lion_Gate%2C_Hattusa_06.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_06.jpg"
+   },
+   {
+    "title": "File:Lion Gate, Hattusa 05.jpg",
+    "w": 3456,
+    "h": 5184,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Lion_Gate%2C_Hattusa_05.jpg/1920px-Lion_Gate%2C_Hattusa_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_05.jpg"
+   },
+   {
+    "title": "File:Lion Gate, Hattusa 07.jpg",
+    "w": 3456,
+    "h": 5184,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Lion_Gate%2C_Hattusa_07.jpg/1920px-Lion_Gate%2C_Hattusa_07.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_07.jpg"
+   },
+   {
+    "title": "File:Lion Gate, Hattusa 04.jpg",
+    "w": 3456,
+    "h": 5184,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Lion_Gate%2C_Hattusa_04.jpg/1920px-Lion_Gate%2C_Hattusa_04.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_04.jpg"
+   },
+   {
+    "title": "File:Lion Gate, Hattusa 03.jpg",
+    "w": 3456,
+    "h": 5184,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Lion_Gate%2C_Hattusa_03.jpg/1920px-Lion_Gate%2C_Hattusa_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion_Gate,_Hattusa_03.jpg"
+   }
+  ]
+ },
+ "03-05-1": {
+  "q": "Hittite relief Yazilikaya",
+  "cands": [
+   {
+    "title": "File:Chamber A, Yazilikaya 01.jpg",
+    "w": 4858,
+    "h": 3238,
+    "license": "CC BY-SA 3.0",
+    "artist": "Bernard Gagnon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Chamber_A%2C_Yazilikaya_01.jpg/1920px-Chamber_A%2C_Yazilikaya_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Chamber_A,_Yazilikaya_01.jpg"
+   },
+   {
+    "title": "File:YAZILIKAYA, Hattusha, Boğazköy, Çorum, Turkey 23.jpg",
+    "w": 3648,
+    "h": 2736,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_23.jpg/1920px-YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_23.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YAZILIKAYA,_Hattusha,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_23.jpg"
+   },
+   {
+    "title": "File:YAZILIKAYA, Hattusha, Boğazköy, Çorum, Turkey 01.jpg",
+    "w": 5005,
+    "h": 1973,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_01.jpg/1920px-YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YAZILIKAYA,_Hattusha,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_01.jpg"
+   },
+   {
+    "title": "File:YAZILIKAYA, Hattusha, Boğazköy, Çorum, Turkey 12.jpg",
+    "w": 3648,
+    "h": 2736,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_12.jpg/1920px-YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_12.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YAZILIKAYA,_Hattusha,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_12.jpg"
+   },
+   {
+    "title": "File:YAZILIKAYA, Hattusha, Boğazköy, Çorum, Turkey 22.jpg",
+    "w": 3648,
+    "h": 2736,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_22.jpg/1920px-YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_22.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YAZILIKAYA,_Hattusha,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_22.jpg"
+   },
+   {
+    "title": "File:YAZILIKAYA, Hattusha, Boğazköy, Çorum, Turkey 29.jpg",
+    "w": 3648,
+    "h": 2736,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_29.jpg/1920px-YAZILIKAYA%2C_Hattusha%2C_Bo%C4%9Fazk%C3%B6y%2C_%C3%87orum%2C_Turkey_29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:YAZILIKAYA,_Hattusha,_Bo%C4%9Fazk%C3%B6y,_%C3%87orum,_Turkey_29.jpg"
+   }
+  ]
+ },
+ "03-06-0": {
+  "q": "Cappadocia landscape plateau",
+  "cands": [
+   {
+    "title": "File:View of Cappadocia edit1.jpg",
+    "w": 1554,
+    "h": 1051,
+    "license": "CC BY-SA 3.0",
+    "artist": "Brocken Inaglory",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/View_of_Cappadocia_edit1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:View_of_Cappadocia_edit1.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. Turkey. Hot Air Ballooning Cappadocia.jpg",
+    "w": 6000,
+    "h": 3375,
+    "license": "CC0",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg"
+   },
+   {
+    "title": "File:Göreme National Park and the Rock Sites of Cappadocia - Nevşehir, Turkey3.jpg",
+    "w": 2576,
+    "h": 1920,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey3.jpg/1920px-G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey3.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir,_Turkey3.jpg"
+   },
+   {
+    "title": "File:Göreme National Park and the Rock Sites of Cappadocia - Nevşehir, Turkey4.jpg",
+    "w": 1378,
+    "h": 921,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey4.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir,_Turkey4.jpg"
+   },
+   {
+    "title": "File:Göreme National Park and the Rock Sites of Cappadocia - Nevşehir, Turkey1.jpg",
+    "w": 2288,
+    "h": 1728,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey1.jpg/1920px-G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir,_Turkey1.jpg"
+   },
+   {
+    "title": "File:Göreme National Park and the Rock Sites of Cappadocia - Nevşehir, Turkey2.jpg",
+    "w": 2576,
+    "h": 1920,
+    "license": "CC BY-SA 4.0",
+    "artist": "Murat Özsoy 1958",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey2.jpg/1920px-G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir%2C_Turkey2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:G%C3%B6reme_National_Park_and_the_Rock_Sites_of_Cappadocia_-_Nev%C5%9Fehir,_Turkey2.jpg"
+   }
+  ]
+ },
+ "04-00-0": {
+  "q": "Behistun inscription Darius",
+  "cands": [
+   {
+    "title": "File:Behistun inscription reliefs.jpg",
+    "w": 2892,
+    "h": 1780,
+    "license": "Public domain",
+    "artist": "Unknown artistUnknown artist",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Behistun_inscription_reliefs.jpg/1920px-Behistun_inscription_reliefs.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Behistun_inscription_reliefs.jpg"
+   },
+   {
+    "title": "File:Behistun Darius the Great.jpg",
+    "w": 1600,
+    "h": 2096,
+    "license": "CC0",
+    "artist": "Leen van Dorp",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Behistun_Darius_the_Great.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Behistun_Darius_the_Great.jpg"
+   },
+   {
+    "title": "File:کتیبه داریوش ( بیستون(.jpg",
+    "w": 2765,
+    "h": 2074,
+    "license": "CC BY-SA 4.0",
+    "artist": "Korosh.091",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/%DA%A9%D8%AA%DB%8C%D8%A8%D9%87_%D8%AF%D8%A7%D8%B1%DB%8C%D9%88%D8%B4_%28_%D8%A8%DB%8C%D8%B3%D8%AA%D9%88%D9%86%28.jpg/1920px-%DA%A9%D8%AA%DB%8C%D8%A8%D9%87_%D8%AF%D8%A7%D8%B1%DB%8C%D9%88%D8%B4_%28_%D8%A8%DB%8C%D8%B3%D8%AA%D9%88%D9%86%28.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:%DA%A9%D8%AA%DB%8C%D8%A8%D9%87_%D8%AF%D8%A7%D8%B1%DB%8C%D9%88%D8%B4_(_%D8%A8%DB%8C%D8%B3%D8%AA%D9%88%D9%86(.jpg"
+   },
+   {
+    "title": "File:Darius (Behistun relief).jpg",
+    "w": 802,
+    "h": 1200,
+    "license": "CC0",
+    "artist": "Leen van Dorp",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Darius_%28Behistun_relief%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Darius_(Behistun_relief).jpg"
+   },
+   {
+    "title": "File:Behistun relief Darius.jpg",
+    "w": 1970,
+    "h": 3434,
+    "license": "CC BY-SA 2.0",
+    "artist": "Patrick C, known as dynamomosquito on Flickr, and Pentocelo on this project",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Behistun_relief_Darius.jpg/1920px-Behistun_relief_Darius.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Behistun_relief_Darius.jpg"
+   },
+   {
+    "title": "File:Behistun relief Darius and Gaumata.jpg",
+    "w": 2658,
+    "h": 3434,
+    "license": "CC BY-SA 2.0",
+    "artist": "Patrick C, known as dynamomosquito on Flickr, and Pentocelo on this project",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Behistun_relief_Darius_and_Gaumata.jpg/1920px-Behistun_relief_Darius_and_Gaumata.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Behistun_relief_Darius_and_Gaumata.jpg"
+   }
+  ]
+ },
+ "04-01-0": {
+  "q": "Ariarathes drachm coin Cappadocia",
+  "cands": [
+   {
+    "title": "File:Drachm of Ariarathes IX.jpg",
+    "w": 859,
+    "h": 793,
+    "license": "CC BY-SA 4.0",
+    "artist": "CGPavlos",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Drachm_of_Ariarathes_IX.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Drachm_of_Ariarathes_IX.jpg"
+   },
+   {
+    "title": "File:Coin of Ariarathes I of Cappadocia, minted in Gaziura.jpg",
+    "w": 800,
+    "h": 382,
+    "license": "CC BY-SA 2.5",
+    "artist": "User:LouisAragon (uploader)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Coin_of_Ariarathes_I_of_Cappadocia%2C_minted_in_Gaziura.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Coin_of_Ariarathes_I_of_Cappadocia,_minted_in_Gaziura.jpg"
+   },
+   {
+    "title": "File:AriarathesIX.jpg",
+    "w": 861,
+    "h": 793,
+    "license": "CC BY-SA 4.0",
+    "artist": "CNG",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/AriarathesIX.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:AriarathesIX.jpg"
+   },
+   {
+    "title": "File:Ariarathes V.jpg",
+    "w": 4822,
+    "h": 2411,
+    "license": "CC BY-SA 3.0",
+    "artist": "Johny SYSEL",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Ariarathes_V.jpg/1920px-Ariarathes_V.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ariarathes_V.jpg"
+   },
+   {
+    "title": "File:Ariarate VI di Cappadocia - dracma anno 1.jpg",
+    "w": 500,
+    "h": 233,
+    "license": "CC BY-SA 2.5",
+    "artist": "CNG[1]",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Ariarate_VI_di_Cappadocia_-_dracma_anno_1.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ariarate_VI_di_Cappadocia_-_dracma_anno_1.jpg"
+   },
+   {
+    "title": "File:Ariarate IV di Cappadocia.jpg",
+    "w": 500,
+    "h": 247,
+    "license": "CC BY-SA 2.5",
+    "artist": "CNG[1]",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Ariarate_IV_di_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ariarate_IV_di_Cappadocia.jpg"
+   }
+  ]
+ },
+ "04-02-0": {
+  "q": "Kayseri city Erciyes",
+  "cands": [
+   {
+    "title": "File:Erciyes Volcano, Cappadocia.jpg",
+    "w": 2256,
+    "h": 1496,
+    "license": "CC BY-SA 2.0",
+    "artist": "Dan",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Erciyes_Volcano%2C_Cappadocia.jpg/1920px-Erciyes_Volcano%2C_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Erciyes_Volcano,_Cappadocia.jpg"
+   },
+   {
+    "title": "File:City of Kayseri under Mount Erciyes - 2014.10 - panoramio.jpg",
+    "w": 4619,
+    "h": 2593,
+    "license": "CC BY 3.0",
+    "artist": "rheins",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/City_of_Kayseri_under_Mount_Erciyes_-_2014.10_-_panoramio.jpg/1920px-City_of_Kayseri_under_Mount_Erciyes_-_2014.10_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:City_of_Kayseri_under_Mount_Erciyes_-_2014.10_-_panoramio.jpg"
+   },
+   {
+    "title": "File:City of Kayseri, Turkey and the Ercijes Volcano - panoramio.jpg",
+    "w": 3978,
+    "h": 2378,
+    "license": "CC BY 3.0",
+    "artist": "belemita@gmail.com",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/City_of_Kayseri%2C_Turkey_and_the_Ercijes_Volcano_-_panoramio.jpg/1920px-City_of_Kayseri%2C_Turkey_and_the_Ercijes_Volcano_-_panoramio.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:City_of_Kayseri,_Turkey_and_the_Ercijes_Volcano_-_panoramio.jpg"
+   },
+   {
+    "title": "File:Turkish soldiers repel from helicopter 5392555.jpg",
+    "w": 5212,
+    "h": 3475,
+    "license": "Public domain",
+    "artist": "Spc. Ryan Lucas",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Turkish_soldiers_repel_from_helicopter_5392555.jpg/1920px-Turkish_soldiers_repel_from_helicopter_5392555.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_soldiers_repel_from_helicopter_5392555.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. Turkey. Hot Air Ballooning Cappadocia.jpg",
+    "w": 6000,
+    "h": 3375,
+    "license": "CC0",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._Turkey._Hot_Air_Ballooning_Cappadocia.jpg"
+   },
+   {
+    "title": "File:CAPPADOCIA Göreme National Park and the Rock Sites. World Heritage List. The Fairy Chimneys.jpg",
+    "w": 4431,
+    "h": 3223,
+    "license": "Public domain",
+    "artist": "Feridun F. Alkaya",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg/1920px-CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CAPPADOCIA_G%C3%B6reme_National_Park_and_the_Rock_Sites._World_Heritage_List._The_Fairy_Chimneys.jpg"
+   }
+  ]
+ },
+ "04-02-1": {
+  "q": "Tiberius bust",
+  "cands": [
+   {
+    "title": "File:Bust of Germanicus, front - Getty Museum (2021.66).jpg",
+    "w": 9749,
+    "h": 12141,
+    "license": "CC0",
+    "artist": "J. Paul Getty Museum",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Bust_of_Germanicus%2C_front_-_Getty_Museum_%282021.66%29.jpg/1920px-Bust_of_Germanicus%2C_front_-_Getty_Museum_%282021.66%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Bust_of_Germanicus,_front_-_Getty_Museum_(2021.66).jpg"
+   },
+   {
+    "title": "File:1902 - Tiberio (sec. I d.C.) - Museo Archeologico, Cagliari - Photo by Giovanni Dall'Orto, November 11 2016.jpg",
+    "w": 3648,
+    "h": 5472,
+    "license": "Attribution",
+    "artist": "G.dallorto",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/1902_-_Tiberio_%28sec._I_d.C.%29_-_Museo_Archeologico%2C_Cagliari_-_Photo_by_Giovanni_Dall%27Orto%2C_November_11_2016.jpg/1920px-1902_-_Tiberio_%28sec._I_d.C.%29_-_Museo_Archeologico%2C_Cagliari_-_Photo_by_Giovanni_Dall%27Orto%2C_November_11_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1902_-_Tiberio_(sec._I_d.C.)_-_Museo_Archeologico,_Cagliari_-_Photo_by_Giovanni_Dall%27Orto,_November_11_2016.jpg"
+   },
+   {
+    "title": "File:1879 - Tiberio e Claudio (sec. I d.C.) - Museo Archeologico, Cagliari - Photo by Giovanni Dall'Orto, November 11 2016.jpg",
+    "w": 5472,
+    "h": 3648,
+    "license": "Attribution",
+    "artist": "G.dallorto",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/1879_-_Tiberio_e_Claudio_%28sec._I_d.C.%29_-_Museo_Archeologico%2C_Cagliari_-_Photo_by_Giovanni_Dall%27Orto%2C_November_11_2016.jpg/1920px-1879_-_Tiberio_e_Claudio_%28sec._I_d.C.%29_-_Museo_Archeologico%2C_Cagliari_-_Photo_by_Giovanni_Dall%27Orto%2C_November_11_2016.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1879_-_Tiberio_e_Claudio_(sec._I_d.C.)_-_Museo_Archeologico,_Cagliari_-_Photo_by_Giovanni_Dall%27Orto,_November_11_2016.jpg"
+   },
+   {
+    "title": "File:Tiberio, da s. antioco, I secolo dc.jpg",
+    "w": 2148,
+    "h": 4128,
+    "license": "CC BY 3.0",
+    "artist": "Sailko",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Tiberio%2C_da_s._antioco%2C_I_secolo_dc.jpg/1920px-Tiberio%2C_da_s._antioco%2C_I_secolo_dc.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tiberio,_da_s._antioco,_I_secolo_dc.jpg"
+   },
+   {
+    "title": "File:Tiberius bust from Hercolaneum.jpg",
+    "w": 357,
+    "h": 510,
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Tiberius_bust_from_Hercolaneum.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tiberius_bust_from_Hercolaneum.jpg"
+   },
+   {
+    "title": "File:Tarragona Museum Bust Tiberius.jpg",
+    "w": 2854,
+    "h": 3806,
+    "license": "CC BY-SA 4.0",
+    "artist": "Ad Meskens",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Tarragona_Museum_Bust_Tiberius.jpg/1920px-Tarragona_Museum_Bust_Tiberius.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tarragona_Museum_Bust_Tiberius.jpg"
+   }
+  ]
+ },
+ "04-03-0": {
+  "q": "Comana Cappadocia Sar ruins",
+  "cands": []
+ },
+ "04-04-1": {
+  "q": "Roman milestone Cappadocia",
+  "cands": []
+ },
+ "04-05-0": {
+  "q": "Codex Sinaiticus 1 Peter",
+  "cands": [
+   {
+    "title": "File:CodicePedro.jpg",
+    "w": 396,
+    "h": 288,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/CodicePedro.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:CodicePedro.jpg"
+   }
+  ]
+ },
+ "05-00-0": {
+  "q": "Derinkuyu underground city entrance",
+  "cands": []
  }
 }

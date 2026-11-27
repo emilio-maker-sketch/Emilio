@@ -210,11 +210,11 @@ def m_kanesh(G):
     P = Proj(33.4, 36.6, 37.4, 39.5); base, mask = map_base(P); d = round(km('Derinkuyu', 'Kultepe'))
     G.add(title('KANESH', 'Kültepe, near Kayseri'), [0.0, 0.1], fix=True)
     peak(P, *PLD['Erciyes'], 'Mount Erciyes', [0.05, 0.2], G, dx=170, dy=120)
-    cities(G, P, [(*PLD['Derinkuyu'], 'Derinkuyu', 60, 0, 85, True), (*PLD['Kayseri'], 'Kayseri', 52, 0, 75)], [0.1, 0.25])
+    cities(G, P, [(*PLD['Derinkuyu'], 'Derinkuyu', 60, 0, 85, True), (*PLD['Kayseri'], 'Kayseri', 52, 190, 10)], [0.1, 0.25])
     cities(G, P, [(*PLD['Kultepe'], 'Kanesh (Kültepe)', 62, 0, -80, True)], [0.3, 0.45]); G.pulse(P.n(*PLD['Kultepe']), (200, 60, 40), [0.45, 1.0])
     G.route(RD(P, 'Derinkuyu', 'Kultepe'), INK, [0.5, 0.7], w=6, dash=True)
     x0, y0 = P(*PLD['Derinkuyu']); x1, y1 = P(*PLD['Kultepe'])
-    G.add(text_layer([(((x0 + x1) / 2, (y0 + y1) / 2 - 80), f'about {d} km', 58, ITA, INK, 'mm')]), [0.65, 0.8])
+    G.add(text_layer([(((x0 + x1) / 2 - 260, (y0 + y1) / 2 - 130), f'about {d} km', 58, ITA, INK, 'mm')]), [0.65, 0.8])
     G.focus = None; G.zoom = 1.04; finish(G, base)
 
 def m_assur(G):
@@ -223,7 +223,7 @@ def m_assur(G):
     G.add(title('FROM ASSUR TO KANESH', 'about 1900 BC'), [0.0, 0.1], fix=True)
     cities(G, P, [(*PLD['Assur'], 'Assur', 62, 0, 80, True), (*PLD['Kultepe'], 'Kanesh', 62, 0, -80, True)], [0.05, 0.2])
     G.route(RD(P, 'Assur', (41.0, 36.9), (38.3, 37.2), (36.6, 37.9), 'Kultepe'), (150, 100, 40), [0.2, 0.7], w=12)
-    G.add(text_layer([(P(39.2, 38.4), 'donkey caravans: tin and cloth west, silver and gold east', 54, ITA, INK, 'mm'), (P(39.2, 36.4), f'about {d:.0f} km in a straight line', 54, ITA, INK, 'mm')]), [0.6, 0.75])
+    G.add(text_layer([(P(40.6, 38.7), 'donkey caravans: tin and cloth west, silver and gold east', 54, ITA, INK, 'mm'), (P(39.2, 36.4), f'about {d:.0f} km in a straight line', 54, ITA, INK, 'mm')]), [0.6, 0.75])
     G.add(legend([((150, 100, 40), 'caravan route')], 'route approximate'), [0.7, 0.85], fix=True); finish(G, base)
 
 def m_hittite(G):
@@ -236,24 +236,23 @@ def m_hittite(G):
 def m_kingdom(G):
     P = Proj(31.5, 39.5, 36.0, 41.5); base, mask = map_base(P)
     G.add(title('THE KINGDOM OF CAPPADOCIA', '2nd century BC'), [0.0, 0.1], fix=True)
-    territory(G, P, mask, [[(33.0, 40.0), (37.0, 40.2), (38.6, 39.0), (37.6, 37.6), (35.0, 37.3), (33.2, 38.0)]], BYZ, [0.1, 0.35], alpha=0.3)
-    peak(P, *PLD['Erciyes'], 'Mount Erciyes', [0.3, 0.45], G, dx=170, dy=120)
+    territory(G, P, mask, [[(33.0, 40.0), (37.0, 40.2), (38.6, 39.0), (37.6, 37.6), (35.0, 37.3), (33.2, 38.0)]], PHR, [0.1, 0.35], alpha=0.3)
     cities(G, P, [(*PLD['Kayseri'], 'Mazaca', 64, 0, -80, True), (*PLD['Derinkuyu'], 'Derinkuyu', 54, -200, 30)], [0.35, 0.55])
-    G.add(legend([(BYZ, 'Kingdom of Cappadocia')]), [0.55, 0.7], fix=True); G.focus = P.n(*PLD['Kayseri']); G.zoom = 1.1; finish(G, base)
+    G.add(legend([(PHR, 'Kingdom of Cappadocia')]), [0.55, 0.7], fix=True); G.focus = P.n(*PLD['Kayseri']); G.zoom = 1.1; finish(G, base)
 
 def m_roman(G):
     P = Proj(29.5, 41.0, 35.0, 42.0); base, mask = map_base(P, ('Euphrates',))
     G.add(title('ROMAN CAPPADOCIA', 'from AD 17'), [0.0, 0.1], fix=True)
-    cities(G, P, [(*PLD['Kayseri'], 'Caesarea', 62, 0, -80, True), (*PLD['Ankara'], 'Ancyra', 54, 0, -70), (*PLD['Melitene'], 'Melitene', 54, 0, 75),
+    cities(G, P, [(*PLD['Kayseri'], 'Caesarea', 62, 200, -85, True), (*PLD['Ankara'], 'Ancyra', 54, 0, -70), (*PLD['Melitene'], 'Melitene', 54, 0, 75),
                   (*PLD['Samosata'], 'Samosata', 52, 0, 75), (*PLD['Derinkuyu'], 'Derinkuyu', 50, -200, 30)], [0.05, 0.25])
     G.route(RD(P, 'Ankara', 'Kayseri', 'Melitene'), ROM, [0.25, 0.55], w=10); G.route(RD(P, 'Kayseri', (37.0, 37.9), 'Samosata'), ROM, [0.4, 0.65], w=10)
     G.add(text_layer([(P(39.6, 39.4), 'the Euphrates frontier', 58, ITA, INK, 'mm')]), [0.6, 0.75])
     G.add(legend([(ROM, 'main roads east')], 'routes approximate'), [0.65, 0.8], fix=True); finish(G, base)
 
 def m_838(G):
-    P = Proj(29.5, 37.5, 36.4, 40.6); base, mask = map_base(P)
+    P = Proj(29.5, 37.5, 36.4, 41.4); base, mask = map_base(P)
     G.add(title('THE CAMPAIGN OF 838', "al-Mu'tasim"), [0.0, 0.1], fix=True)
-    cities(G, P, [(*PLD['Tarsus'], 'Tarsus', 52, 150, 30), (*PLD['Derinkuyu'], 'Derinkuyu', 54, 200, 0, True)], [0.0, 0.12])
+    cities(G, P, [(*PLD['Tarsus'], 'Tarsus', 52, 150, 30), (*PLD['Derinkuyu'], 'Derinkuyu', 54, 250, 0, True)], [0.0, 0.12])
     G.route(RD(P, 'Tarsus', 'Gates', 'Tyana', (34.1, 39.0), 'Ankara'), ARAB, [0.12, 0.5], w=12); cities(G, P, [(*PLD['Ankara'], 'Ancyra', 56, 0, -75)], [0.45, 0.55])
     G.route(RD(P, 'Ankara', 'Amorium'), ARAB, [0.55, 0.75], w=12); cities(G, P, [(*PLD['Amorium'], 'Amorium', 60, 0, 80, True)], [0.7, 0.8])
     G.pulse(P.n(*PLD['Amorium']), (200, 60, 40), [0.8, 1.0])
@@ -263,8 +262,8 @@ def m_manzikert(G):
     P = Proj(26.0, 45.0, 35.5, 42.8); base, mask = map_base(P)
     G.add(title('MANZIKERT', '1071'), [0.0, 0.1], fix=True)
     cities(G, P, [(*PLD['Constantinople'], 'Constantinople', 52, 0, -70), (*PLD['Derinkuyu'], 'Derinkuyu', 54, 0, 80, True), (*PLD['Konya'], 'Konya', 54, 0, 75)], [0.0, 0.15])
-    cities(G, P, [(*PLD['Manzikert'], 'Manzikert', 62, 0, -80)], [0.2, 0.35]); G.pulse(P.n(*PLD['Manzikert']), (200, 60, 40), [0.3, 0.6])
-    for k, (lon, lat) in enumerate(((38.5, 39.4), (35.5, 39.0), (32.5, 38.8))): G.route(RD(P, (lon + 3.0, lat + 0.1), (lon, lat)), (40, 110, 80), [0.5 + 0.1 * k, 0.65 + 0.1 * k], w=10)
+    cities(G, P, [(*PLD['Manzikert'], 'Manzikert', 62, 0, 85)], [0.2, 0.35]); G.pulse(P.n(*PLD['Manzikert']), (200, 60, 40), [0.3, 0.6])
+    for k, (lon, lat) in enumerate(((38.2, 39.4), (35.3, 39.0), (32.5, 38.8))): G.route(RD(P, (lon + 2.6, lat + 0.1), (lon, lat)), (40, 110, 80), [0.5 + 0.1 * k, 0.65 + 0.1 * k], w=10)
     G.add(legend([((40, 110, 80), 'Turkish advance after 1071')], 'schematic'), [0.6, 0.75], fix=True); finish(G, base)
 
 def m_exchange(G):
@@ -274,7 +273,7 @@ def m_exchange(G):
     cities(G, P, [(*PLD['Gelveri'], 'Gelveri (Güzelyurt)', 56, 0, 85, True), (*PLD['Derinkuyu'], 'Derinkuyu', 50, 240, 0)], [0.05, 0.2])
     G.route(RD(P, 'Gelveri', (31.0, 39.6), (27.5, 40.4), (25.5, 40.7), 'NeaKarvali'), (150, 60, 50), [0.25, 0.7], w=10, dash=True)
     cities(G, P, [(*PLD['NeaKarvali'], 'Nea Karvali', 60, 0, -80, True)], [0.65, 0.8])
-    G.add(text_layer([(P(*PLD['Gelveri'])[0], P(*PLD['Gelveri'])[1] + 170, f'about {d} km from Derinkuyu', 50, ITA, INK, 'mm')]), [0.15, 0.25])
+    G.add(text_layer([((P(*PLD['Gelveri'])[0], P(*PLD['Gelveri'])[1] + 170), f'about {d} km from Derinkuyu', 50, ITA, INK, 'mm')]), [0.15, 0.25])
     G.add(legend([((150, 60, 50), 'refugees, 1923–24')], 'route schematic'), [0.7, 0.85], fix=True); finish(G, base)
 
 def m_three(G):
@@ -314,7 +313,7 @@ def d_cutting(G):
     for k in range(4):
         L = G.layer(); ImageDraw.Draw(L).rectangle([1500 + k * 220, mpx(20) - 120, 1720 + k * 220, mpx(20) + 120], fill=DARK + (255,)); G.add(L, [0.2 + 0.12 * k, 0.3 + 0.12 * k])
     G.route([[1300 / W, mpx(20) / H], [900 / W, mpx(12) / H], [760 / W, (GY - 30) / H]], (180, 90, 60), [0.4, 0.75], w=10)
-    G.add(text_layer([((2600, mpx(32)), 'working forward into the rock face', 56, ITA, INK, 'mm'), ((1150, GY - 220), 'loose rock carried up in baskets', 54, ITA, (180, 90, 60), 'mm')]), [0.55, 0.75])
+    G.add(text_layer([((2600, mpx(32)), 'working forward into the rock face', 56, ITA, INK, 'mm'), ((1150, mpx(38)), 'loose rock carried up in baskets', 54, ITA, (180, 90, 60), 'mm')]), [0.55, 0.75])
     G.focus = None; G.zoom = 1.03; finish(G, base)
 
 def d_dating(G):

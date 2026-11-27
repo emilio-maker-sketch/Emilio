@@ -1,0 +1,33 @@
+01-00-0 6 layers
+01-05-0 6 layers
+02-01-0 6 layers
+03-00-0 7 layers
+03-01-0 5 layers
+03-05-0 4 layers
+04-01-1 5 layers
+04-04-0 6 layers
+05-02-0 7 layers
+05-04-1 10 layers
+06-00-1 9 layers
+06-03-0 4 layers
+08-00-2 6 layers
+09-01-1 5 layers
+09-03-0 7 layers
+09-05-0 7 layers
+10-00-0 5 layers
+13-00-0 6 layers
+13-03-0 10 layers
+13-06-0 8 layers
+14-00-0 8 layers
+Traceback (most recent call last):
+  File "/home/user/Emilio/production/derinkuyu/tools/gfx_d.py", line 338, in <module>
+    gfx.TEXTS.clear(); G = Gfx(k); GFXD[k](G); print(k, len(G.layers), 'layers', flush=True)
+                                   ~~~~~~~^^^
+  File "/home/user/Emilio/production/derinkuyu/tools/gfx_d.py", line 277, in m_exchange
+    G.add(text_layer([(P(*PLD['Gelveri'])[0], P(*PLD['Gelveri'])[1] + 170, f'about {d} km from Derinkuyu', 50, ITA, INK, 'mm')]), [0.15, 0.25])
+          ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/user/Emilio/production/derinkuyu/tools/gfx.py", line 124, in text_layer
+    for xy, t, size, fn, col, anc in items:
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: too many values to unpack (expected 6)
+DONE
