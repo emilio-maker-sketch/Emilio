@@ -8,7 +8,7 @@ Cappadocia was home to a community of Orthodox Christians who spoke their own fo
 > WS | slow push | photo | neutral | | Greek Orthodox church in a Cappadocian village, now disused [q: Cappadocia Greek church village Mustafapasa]
 > MS | drift | photo | neutral | | Portrait of R. M. Dawkins {LT: Richard M. Dawkins | scholar of Cappadocian Greek} [q: Richard MacGillivray Dawkins]
 
-Families in these villages still remembered the tunnels under their houses. According to accounts gathered after they left, the passages were used as cellars, as stores, and in moments of danger as hiding places.
+How much the families of Malakopi still used the old passages is not well recorded. The rooms nearest the surface may well have served as cellars and stores, as rock-cut rooms did all over Cappadocia, but the deep levels seem to have slipped out of everyday memory.
 > WS | slow push | photo | neutral | | Passage under a house leading down into the underground city [q: Derinkuyu Underground City.JPG]
 
 Then, in 1923, after the war between Greece and Turkey, the two countries agreed to exchange their populations. Orthodox Christians in Turkey were sent to Greece, and Muslims in Greece were sent to Turkey. More than a million people were moved. The Christians of Malakopi left their homes, and with them went the memory of what lay underneath.

@@ -8,8 +8,8 @@ Today it is one of the most visited sites in Turkey. Electric light and handrail
 > WS | drift | photo | neutral | | Lit passage with handrail in Derinkuyu [q: DERINKUYU UNDERGROUND CITY - panoramio]
 > MS | slow push | photo | neutral | | A blocked or closed passage in Derinkuyu [q: Derinkuyu Underground City 9815 Nevit]
 
-One of the most repeated claims is that a tunnel joins Derinkuyu to Kaymaklı, about nine kilometres away. A tunnel heading in that direction has been reported, but its full length has not been explored or published. It may connect the two cities. It may not.
-> MAP | slow push | map | map | | Map: Derinkuyu and Kaymaklı, about 9 km apart, with the reported tunnel shown dashed and marked unconfirmed
+One of the most repeated claims is that a tunnel joins Derinkuyu to Kaymaklı, about ten kilometres away. A tunnel heading in that direction has been reported, but its full length has not been explored or published. It may connect the two cities. It may not.
+> MAP | slow push | map | map | | Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported tunnel shown dashed and marked unconfirmed
 > WS | slow push | photo | neutral | | Large room in Kaymaklı underground city {LT: Kaymaklı underground city | today} [q: Kaymaklı Underground City large room]
 
 Discoveries have not stopped. In 2014, building work in the city of Nevşehir, about thirty kilometres to the north, broke into another network of tunnels and rooms beneath the old castle hill. Its full extent is still being studied. Cappadocia, it seems, has not yet shown us everything that lies beneath it.

@@ -58,3 +58,19 @@ Title scores (vidIQ `score_title`, CTR model only):
 - Özkonak: an entrance photo and 2024 HDR series at about 8600 px across.
 - Göreme and Cappadocia landscapes: panoramas up to 17,000 px across.
 - None on ventilation shafts by name. The airflow will be a drawn cross-section.
+
+## Script claims still to confirm before narration is recorded (2026-11-27)
+| Claim in script | Source so far | Status |
+|---|---|---|
+| Opened to visitors in 1969 | Wikipedia (Derinkuyu underground city) | confirm |
+| Derinkuyu is a named component of UNESCO site 357 | UNESCO listing (components include Derinkuyu and Kaymaklı underground cities) | confirm on whc.unesco.org |
+| Greek name Malakopi | Wikipedia; Dawkins 1916 | confirm Dawkins covers Malakopi |
+| Xenophon, Anabasis 4.5.25: underground houses in Armenia | paraphrased only (Perseus, Perseids and Gutenberg blocked here) | quote card removed; no direct quotation |
+| "Missionary school" is a modern name for the vaulted hall | visitor literature | keep the hedge |
+| Midas Monument, 6th century BC | standard dating (early 6th c.) | ok |
+| Mount Erciyes 3,917 m | standard figure | ok |
+| Harun al-Rashid at Tyana in 806, mosque built, detachment sent into central Cappadocia (al-Tabari: about 70,000) | Wikipedia, Abbasid invasion of Asia Minor (806); PBE "Harun 1" | ok; narration says "tens of thousands" |
+| Byzantine commanders told to avoid battle and move people into strongholds | McMahon (CEU 2016) on *De velitatione*; Dennis 1985 translation | ok as worded; no underground claim |
+| Distances: Kaymaklı 9.9 km, Nevşehir 28.0 km, Tyana 61.3 km (great-circle, computed) | coordinates | ok |
+| Nevşehir 2014 discovery under the castle hill | press reports 2014–15 | confirm |
+| 1923 exchange: more than a million people moved | standard (about 1.2 million Orthodox, about 400,000 Muslims) | ok |

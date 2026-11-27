@@ -8,9 +8,9 @@ You will often read that it was begun by the Phrygians, a people of Anatolia in 
 > WS | slow pan | photo | neutral | | The Midas Monument, a Phrygian rock-cut facade {LT: The Midas Monument | Phrygian rock-cut facade, 6th century BC} [q: Midas monument Midas sehri Phrygian]
 > MAP | slow push | map | map | | Map of Anatolia: Phrygia in the west, Cappadocia in the centre
 
-Another favourite claim is that the Greek writer Xenophon described Derinkuyu. Around 400 BC he marched across Anatolia with an army of Greek mercenaries, and in his book, the Anabasis, he describes villages where people lived underground.
+Another favourite claim is that the Greek writer Xenophon described Derinkuyu. Around 400 BC he marched across Anatolia with an army of Greek mercenaries, and in his book, the Anabasis, he describes villages whose houses were dug into the ground, entered through a narrow opening like the mouth of a well and wide inside, with ramps for the animals and ladders for the people.
 > WS | slow pan | photo | neutral | | Manuscript or early printed edition of Xenophon's Anabasis [q: Xenophon Anabasis manuscript]
-> QUOTE | static | quote | neutral | | "The houses here were underground, with a mouth like that of a well, but spacious below." ~ Xenophon, Anabasis 4.5.25 (translated)
+> STAT | static | stat | neutral | | Anabasis 4.5.25 :: houses dug into the ground, entered through a narrow opening like a well
 
 But read where he says it. Xenophon was describing villages in Armenia, in the mountains of eastern Anatolia, hundreds of kilometres from Cappadocia. His houses were real, and they show that living underground was an old idea in Anatolia. They are not Derinkuyu.
 > MAP | slow push | map | map | | Map: route of Xenophon's Ten Thousand through Armenia, far east of Cappadocia; distance computed

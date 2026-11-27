@@ -15,7 +15,7 @@ The same softness made it easy to dig. With iron tools a person can cut tuff alm
 > MS | slow pan | photo | neutral | | Rock-cut church interior at Göreme with frescoes {LT: Göreme Open Air Museum | rock-cut church} [q: Goreme open air museum church fresco]
 
 Underground settlements were the next step down. Dozens of them have been recorded across the region, and new ones are still being found. Most are small. A few are enormous. The two largest open to visitors lie only a few kilometres apart, at Kaymaklı and here at Derinkuyu.
-> MAP | track | map | map | | Map of central Cappadocia: Derinkuyu and Kaymaklı, about 9 km apart, with Özkonak and Nevşehir
+> MAP | track | map | map | | Map of central Cappadocia: Derinkuyu and Kaymaklı, about 10 km apart, with Özkonak and Nevşehir
 > WS | slow push | photo | neutral | | Passage inside Kaymaklı underground city {LT: Kaymaklı underground city | a few kilometres north of Derinkuyu} [q: Kaymakli underground city]
 > WS | drift | photo | neutral | | Entrance of Özkonak underground city {LT: Özkonak underground city | north of Avanos} [q: Entrance of Ozkonak Underground City]
 
