@@ -12,7 +12,7 @@ Other shafts were wells. They were dug down to the groundwater, and the deepest 
 > STAT | static | stat | neutral | | about 55 m :: the reported depth of one of the city's wells
 > WS | slow push | photo | neutral | | Well shaft inside Derinkuyu [q: Derinkuyu well shaft]
 
-Two Turkish engineers, Ömer Aydan and Reşat Ulusay, have studied Derinkuyu's rock and structure for years. Their work shows why the city has lasted. The tuff is weak compared with granite or limestone, but the builders kept rooms small, left thick pillars and walls between them, and stacked the levels so that each one stood on solid rock.
+Why has it lasted? Tuff is weak compared with granite or limestone. A space cut into it stays up only if its span is modest and enough solid rock is left around it. That is what the builders did. They kept most rooms small, left thick walls and pillars of rock between them, and did not stack every room directly on top of the one below.
 > DIAGRAM | slow push | diagram | map | | Why it stands: small rooms, thick walls and pillars between them, levels offset on solid rock
 > WS | drift | photo | neutral | | Thick rock pillar between two chambers in Derinkuyu [q: Derinkuyu Underground City pillar]
 
