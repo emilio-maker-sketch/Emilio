@@ -77,6 +77,32 @@
   },
   {
    "wav": "build/narration/11_dating_the_rock/03.wav",
+   "dur": 29.77,
+   "sentences": [
+    {
+     "text": "Science can sometimes help where the rock cannot.",
+     "start": 0.0,
+     "end": 2.986
+    },
+    {
+     "text": "Where soot from lamps, charcoal from a hearth or seeds and bones survive in an undisturbed corner, radiocarbon dating can give a date for when they were left there.",
+     "start": 3.366,
+     "end": 14.389
+    },
+    {
+     "text": "But such deposits are rare in a city that has been cleared and reused so many times, and a date for a hearth tells you when someone lit a fire, not when the room around it was cut.",
+     "start": 14.769,
+     "end": 26.43
+    },
+    {
+     "text": "Every date has to be read with that in mind.",
+     "start": 26.81,
+     "end": 29.77
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/11_dating_the_rock/04.wav",
    "dur": 8.877,
    "sentences": [
     {

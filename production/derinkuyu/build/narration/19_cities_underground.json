@@ -153,6 +153,37 @@
      "end": 22.7
     }
    ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/07.wav",
+   "dur": 30.375,
+   "sentences": [
+    {
+     "text": "And the idea is not only ancient.",
+     "start": 0.0,
+     "end": 2.361
+    },
+    {
+     "text": "In the desert of South Australia lies the opal-mining town of Coober Pedy, where summer temperatures can climb above forty degrees.",
+     "start": 2.741,
+     "end": 11.66
+    },
+    {
+     "text": "Since the early twentieth century many of its people have lived in dugouts, homes carved into the hillsides, where the temperature stays comfortable all year.",
+     "start": 12.04,
+     "end": 21.653
+    },
+    {
+     "text": "There are underground houses, shops and churches.",
+     "start": 22.033,
+     "end": 25.218
+    },
+    {
+     "text": "It is a modern town that solved the old problem in the same old way.",
+     "start": 25.599,
+     "end": 30.375
+    }
+   ]
   }
  ]
 }

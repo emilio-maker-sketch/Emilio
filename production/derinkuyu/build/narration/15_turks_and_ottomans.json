@@ -46,6 +46,27 @@
   },
   {
    "wav": "build/narration/15_turks_and_ottomans/02.wav",
+   "dur": 29.357,
+   "sentences": [
+    {
+     "text": "Caravanserais like this were built along the main trade roads of the sultanate, roughly a day's travel apart, so that merchants, their animals and their goods could shelter behind high walls for the night.",
+     "start": 0.0,
+     "end": 12.939
+    },
+    {
+     "text": "Inside there was a courtyard, rooms, stables and often a small mosque.",
+     "start": 13.319,
+     "end": 18.268
+    },
+    {
+     "text": "The roads that the Assyrian merchants of Kanesh had used three thousand years earlier were busy again, and the sultans protected them because trade paid for their state.",
+     "start": 18.648,
+     "end": 29.357
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/15_turks_and_ottomans/03.wav",
    "dur": 22.833,
    "sentences": [
     {
@@ -71,7 +92,7 @@
    ]
   },
   {
-   "wav": "build/narration/15_turks_and_ottomans/03.wav",
+   "wav": "build/narration/15_turks_and_ottomans/04.wav",
    "dur": 30.977,
    "sentences": [
     {
@@ -92,7 +113,7 @@
    ]
   },
   {
-   "wav": "build/narration/15_turks_and_ottomans/04.wav",
+   "wav": "build/narration/15_turks_and_ottomans/05.wav",
    "dur": 23.26,
    "sentences": [
     {
@@ -113,7 +134,7 @@
    ]
   },
   {
-   "wav": "build/narration/15_turks_and_ottomans/05.wav",
+   "wav": "build/narration/15_turks_and_ottomans/06.wav",
    "dur": 21.141,
    "sentences": [
     {
@@ -134,7 +155,7 @@
    ]
   },
   {
-   "wav": "build/narration/15_turks_and_ottomans/06.wav",
+   "wav": "build/narration/15_turks_and_ottomans/07.wav",
    "dur": 5.924,
    "sentences": [
     {

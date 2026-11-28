@@ -225,6 +225,42 @@
   },
   {
    "wav": "build/narration/20_what_we_know/06.wav",
+   "dur": 32.104,
+   "sentences": [
+    {
+     "text": "Questions remain, and some of them may one day be answered.",
+     "start": 0.0,
+     "end": 3.775
+    },
+    {
+     "text": "How deep does the city really go, below the levels open to visitors?",
+     "start": 4.155,
+     "end": 8.86
+    },
+    {
+     "text": "Is there a tunnel to Kaymakl\u0131, and how long is it?",
+     "start": 9.24,
+     "end": 12.607
+    },
+    {
+     "text": "When were the first rooms cut?",
+     "start": 12.987,
+     "end": 14.734
+    },
+    {
+     "text": "Careful survey, new dating methods and the study of the other underground settlements of Cappadocia may give better answers than we have now.",
+     "start": 15.114,
+     "end": 24.378
+    },
+    {
+     "text": "For the moment, the honest position is to enjoy the mystery that is real, and leave aside the ones that were invented.",
+     "start": 24.758,
+     "end": 32.104
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/20_what_we_know/07.wav",
    "dur": 22.601,
    "sentences": [
     {
