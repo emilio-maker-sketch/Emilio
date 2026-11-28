@@ -11,12 +11,10 @@ The volcanoes were not only ancient history. Mount Hasan, west of Derinkuyu, eru
 > STAT | static | stat | neutral | | about 9,000 years ago :: the youngest dated eruption of Mount Hasan
 
 Wind and water carved the tuff into the strange cones and pillars that make Cappadocia famous today, the so-called fairy chimneys. Where a harder cap of rock protected the softer tuff below, a tall pillar was left standing as the land around it wore away.
-> EWS | slow pan | photo | neutral | | Fairy chimneys in the Göreme valley {LT: Göreme | fairy chimneys} [q: Cappadocia fairy chimneys Goreme]
 > WS | slow push | photo | neutral | | Fairy chimney with a dark cap stone [q: fairy chimney cap rock Cappadocia]
 
 The same softness made it easy to dig. With iron tools a person can cut tuff almost like hard clay, yet a room carved in it will stand for centuries. So for thousands of years the people of Cappadocia did not only build upward. They dug in. They cut houses, pigeon houses, storerooms and churches into the cliffs and the cones.
 > WS | drift | photo | neutral | | Rock-cut dwellings with doors and windows in a Cappadocian cliff [q: Cappadocia rock cut houses cliff]
-> WS | slow push | photo | neutral | | Carved dovecotes in a Cappadocian valley [q: Cappadocia pigeon houses dovecote]
 > MS | slow pan | photo | neutral | | Rock-cut church interior at Göreme with frescoes {LT: Göreme Open Air Museum | rock-cut church} [q: Goreme open air museum church fresco]
 
 Carving had another advantage. A carved room needs no timber for its roof, and timber was scarce on this treeless plateau. It needs no mortar and no bricks. And it stays cool in summer and holds its warmth in winter. For poor farmers, a room cut into the rock was cheaper and more comfortable than one built on top of it.

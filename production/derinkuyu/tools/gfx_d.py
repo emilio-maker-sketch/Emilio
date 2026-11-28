@@ -13,7 +13,7 @@ PLD = dict(Derinkuyu=(34.735, 38.374), Kaymakli=(34.752, 38.462), Nevsehir=(34.7
            Gordion=(31.995, 39.651), Midas=(30.555, 39.190), Erzurum=(41.27, 39.90), Trapezus=(39.72, 41.00), Melitene=(38.33, 38.35),
            Ankara=(32.86, 39.93), Antioch=(36.16, 36.20), Amorium=(31.29, 39.02), Kultepe=(35.635, 38.850), Assur=(43.262, 35.457),
            Hattusa=(34.615, 40.020), Manzikert=(42.54, 39.14), Konya=(32.49, 37.87), Gelveri=(34.371, 38.277), NeaKarvali=(24.33, 40.96),
-           Naours=(2.28, 50.04), Matmata=(10.0, 33.54), Armenia=(42.0, 39.5), Samosata=(38.52, 37.53), Athens=(23.73, 37.98))
+           Naours=(2.28, 50.04), Matmata=(10.0, 33.54), Armenia=(42.0, 39.5), Samosata=(38.52, 37.53), Athens=(23.73, 37.98), Comana=(36.150, 38.330))
 BYZ, ARAB, PHR, XEN = (52, 82, 130), (40, 110, 80), (150, 100, 40), (118, 46, 104)
 
 def km(a, b):
@@ -327,6 +327,14 @@ def d_dating(G):
     G.add(text_layer([((2850, 1950), 'a carved room: rock removed, no layers left', 54, ITA, INK, 'mm')]), [0.6, 0.75])
     G.focus = None; G.zoom = 1.03; finish(G, base)
 
+
+def m_comana(G):
+    P = Proj(33.6, 37.4, 37.4, 39.6); base, mask = map_base(P)
+    G.add(title('COMANA', 'a temple-state of Cappadocia'), [0.0, 0.1], fix=True)
+    cities(G, P, [(*PLD['Kayseri'], 'Caesarea', 58, 0, -80, True), (*PLD['Derinkuyu'], 'Derinkuyu', 50, -200, 30)], [0.05, 0.2])
+    cities(G, P, [(*PLD['Comana'], 'Comana (Şar)', 62, 0, 85, True)], [0.3, 0.45]); G.pulse(P.n(*PLD['Comana']), GOLD, [0.45, 1.0])
+    G.add(legend([], 'positions from map coordinates'), [0.5, 0.6], fix=True); G.focus = P.n(*PLD['Comana']); G.zoom = 1.12; finish(G, base)
+
 GFX_BY_DESC = {'Map of Cappadocia: Derinkuyu, Kaymaklı, Nevşehir': m_cappadocia, 'Map of central Cappadocia: Derinkuyu and Kaymaklı, about 10 km': m_central,
     'How a fairy chimney forms': d_chimney, 'Map of Cappadocia: Kültepe': m_kanesh, 'Map: the caravan route from Assur': m_assur, 'Map of the Hittite heartland': m_hittite,
     'Map: the Kingdom of Cappadocia': m_kingdom, 'Map: Roman Cappadocia': m_roman, 'Cross-section of Derinkuyu': d_section, 'How a room was cut': d_cutting,
@@ -334,7 +342,7 @@ GFX_BY_DESC = {'Map of Cappadocia: Derinkuyu, Kaymaklı, Nevşehir': m_cappadoci
     "Map: route of Xenophon's": m_xenophon, 'Cross-section: the city growing': d_stages, 'Why rock-cut spaces are hard to date': d_dating,
     'Map of the Byzantine–Arab frontier': m_frontier, 'Map of the Abbasid invasion of 806': m_806, 'Map of the Abbasid campaign of 838': m_838,
     'Map: Manzikert 1071': m_manzikert, 'Map: Gelveri': m_exchange, 'Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported': m_tunnel,
-    'Map: Nevşehir, about 30 km': m_nevsehir, 'Map of central Cappadocia: Derinkuyu, Kaymaklı, Özkonak': m_three, 'World map: Derinkuyu, Naours': m_world}
+    'Map: Nevşehir, about 30 km': m_nevsehir, 'Map of central Cappadocia: Derinkuyu, Kaymaklı, Özkonak': m_three, 'World map: Derinkuyu, Naours': m_world, 'Map: Comana': m_comana}
 
 def gfx_map():
     """Shot id -> drawing function, matched on the shot line's description so that renumbering chapters never breaks a graphic."""

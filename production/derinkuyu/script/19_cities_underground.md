@@ -4,8 +4,7 @@ Derinkuyu is not unique. Across the world, wherever people faced raiders they co
 > WS | slow push | photo | neutral | | Underground passage in Kaymaklı [q: Kaymakli underground city 8972 Nevit]
 
 In northern France, beneath the village of Naours in Picardy, there is a network of tunnels and rooms cut into the chalk. Local people used it as a refuge during the wars of the seventeenth century, sheltering there with their animals. In the First World War, soldiers from Britain, Australia and other countries visited the tunnels behind the front line, and left their names on the walls.
-> WS | slow push | photo | neutral | | Tunnel in the underground refuge of Naours, France {LT: Naours | Picardy, France} [q: Naours souterraine cite tunnel]
-> CU | drift | photo | neutral | | Soldiers' graffiti on a chalk wall at Naours [q: Naours graffiti soldiers]
+> WS | slow push | photo | neutral | | Tunnel in the underground refuge of Naours, France {LT: Naours | Picardy, France} [q: Grottes de Naours]
 
 In southern Tunisia, at Matmata, Berber families still live in houses dug down into the ground: a deep circular pit open to the sky, with rooms cut into its sides. Here the purpose was mostly not defence but climate. Underground, the heat of the summer and the cold of winter nights are both kept out.
 > WS | slow push | photo | neutral | | Troglodyte pit house at Matmata, Tunisia {LT: Matmata | southern Tunisia} [q: Matmata troglodyte house]
@@ -22,9 +21,7 @@ What makes Cappadocia special is the scale. Nowhere else did so many communities
 > EWS | slow pan | photo | neutral | | Cappadocian valley seen from above [q: Cappadocia Chimneys - DWiW]
 
 There are many others besides the famous ones. Underground settlements are known at Mazı, Tatlarin, Gaziemir and dozens of other villages, some only recently opened to visitors. New entrances are still found, sometimes when a road is widened or a house is rebuilt. Nobody knows how many remain undiscovered.
-> WS | slow push | photo | neutral | | Underground city at Mazı or Tatlarin, Cappadocia [q: Mazi underground city Cappadocia]
-> WS | drift | photo | neutral | | Entrance of a smaller underground settlement in Cappadocia [q: Gaziemir underground city]
+> WS | slow pan | photo | neutral | | The village of Tatlarin today {LT: Tatlarin today | above one of the smaller underground settlements} [q: Tatlarin underground city]
 
 And the idea is not only ancient. In the desert of South Australia lies the opal-mining town of Coober Pedy, where summer temperatures can climb above forty degrees. Since the early twentieth century many of its people have lived in dugouts, homes carved into the hillsides, where the temperature stays comfortable all year. There are underground houses, shops and churches. It is a modern town that solved the old problem in the same old way.
-> WS | slow push | photo | neutral | | Underground dugout home in Coober Pedy, South Australia {LT: Coober Pedy | South Australia} [q: Coober Pedy dugout]
-> MS | drift | photo | neutral | | Underground church in Coober Pedy [q: Coober Pedy underground church]
+> WS | slow push | photo | neutral | | The underground Serbian Orthodox church at Coober Pedy {LT: Coober Pedy | an underground church, South Australia} [q: Coober Pedy dugout]

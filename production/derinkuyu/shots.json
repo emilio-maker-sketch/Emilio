@@ -233,23 +233,6 @@
   "para": 2,
   "idx": 0,
   "kind": "photo",
-  "size": "EWS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "Göreme",
-   "fairy chimneys"
-  ],
-  "q": "Cappadocia fairy chimneys Goreme",
-  "desc": "Fairy chimneys in the Göreme valley"
- },
- {
-  "id": "01-02-1",
-  "chapter": "01_the_soft_stone",
-  "para": 2,
-  "idx": 1,
-  "kind": "photo",
   "size": "WS",
   "move": "slow push",
   "grade": "neutral",
@@ -275,19 +258,6 @@
   "chapter": "01_the_soft_stone",
   "para": 3,
   "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Cappadocia pigeon houses dovecote",
-  "desc": "Carved dovecotes in a Cappadocian valley"
- },
- {
-  "id": "01-03-2",
-  "chapter": "01_the_soft_stone",
-  "para": 3,
-  "idx": 2,
   "kind": "photo",
   "size": "MS",
   "move": "slow pan",
@@ -958,17 +928,12 @@
   "chapter": "05_katpatuka",
   "para": 3,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
+  "kind": "map",
+  "size": "MAP",
+  "move": "slow push",
+  "grade": "map",
   "refs": [],
-  "lt": [
-   "Comana",
-   "a temple-state of Cappadocia"
-  ],
-  "q": "Comana Cappadocia Sar ruins",
-  "desc": "Ruins of Comana in Cappadocia, modern Şar"
+  "desc": "Map: Comana (modern Şar), a temple-state of Cappadocia, east of Caesarea"
  },
  {
   "id": "05-04-0",
@@ -983,19 +948,6 @@
   "desc": "Map: Roman Cappadocia with the roads east to the Euphrates frontier; routes approximate"
  },
  {
-  "id": "05-04-1",
-  "chapter": "05_katpatuka",
-  "para": 4,
-  "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Roman milestone Cappadocia",
-  "desc": "Roman road or milestone in Cappadocia"
- },
- {
   "id": "05-05-0",
   "chapter": "05_katpatuka",
   "para": 5,
@@ -1005,8 +957,12 @@
   "move": "slow push",
   "grade": "neutral",
   "refs": [],
-  "q": "Codex Sinaiticus 1 Peter",
-  "desc": "Early Christian manuscript page"
+  "lt": [
+   "Codex Sinaiticus",
+   "4th century, includes Acts and 1 Peter"
+  ],
+  "q": "Codex Sinaiticus",
+  "desc": "Codex Sinaiticus on display"
  },
  {
   "id": "05-05-1",
@@ -1439,23 +1395,6 @@
   "chapter": "10_who_dug_it",
   "para": 1,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "The Midas Monument",
-   "Phrygian rock-cut facade, 6th century BC"
-  ],
-  "q": "Midas monument Midas sehri Phrygian",
-  "desc": "The Midas Monument, a Phrygian rock-cut facade"
- },
- {
-  "id": "10-01-1",
-  "chapter": "10_who_dug_it",
-  "para": 1,
-  "idx": 1,
   "kind": "map",
   "size": "MAP",
   "move": "slow push",
@@ -1644,19 +1583,6 @@
   "chapter": "12_the_rock_churches",
   "para": 0,
   "idx": 1,
-  "kind": "photo",
-  "size": "MS",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Gregory of Nazianzus icon mosaic",
-  "desc": "Icon of Gregory of Nazianzus"
- },
- {
-  "id": "12-00-2",
-  "chapter": "12_the_rock_churches",
-  "para": 0,
-  "idx": 2,
   "kind": "card",
   "size": "CARD",
   "move": "static",
@@ -1669,19 +1595,6 @@
   "chapter": "12_the_rock_churches",
   "para": 1,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Basil of Caesarea manuscript miniature",
-  "desc": "Medieval manuscript illumination of Saint Basil"
- },
- {
-  "id": "12-01-1",
-  "chapter": "12_the_rock_churches",
-  "para": 1,
-  "idx": 1,
   "kind": "stat",
   "size": "STAT",
   "move": "static",
@@ -1695,19 +1608,6 @@
   "para": 2,
   "idx": 0,
   "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Goreme open air museum monastery rock cut",
-  "desc": "Rock-cut monastery facade in Cappadocia"
- },
- {
-  "id": "12-02-1",
-  "chapter": "12_the_rock_churches",
-  "para": 2,
-  "idx": 1,
-  "kind": "photo",
   "size": "MS",
   "move": "drift",
   "grade": "neutral",
@@ -1720,10 +1620,10 @@
   "desc": "Rock-cut refectory with a carved table at Göreme"
  },
  {
-  "id": "12-02-2",
+  "id": "12-02-1",
   "chapter": "12_the_rock_churches",
   "para": 2,
-  "idx": 2,
+  "idx": 1,
   "kind": "photo",
   "size": "EWS",
   "move": "slow pan",
@@ -1788,19 +1688,6 @@
   "chapter": "12_the_rock_churches",
   "para": 4,
   "idx": 0,
-  "kind": "photo",
-  "size": "MS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Cappadocia fresco Saint George dragon",
-  "desc": "Fresco of a warrior saint on horseback in a Cappadocian church"
- },
- {
-  "id": "12-04-1",
-  "chapter": "12_the_rock_churches",
-  "para": 4,
-  "idx": 1,
   "kind": "photo",
   "size": "CU",
   "move": "drift",
@@ -1919,11 +1806,11 @@
   "grade": "neutral",
   "refs": [],
   "lt": [
-   "Dovecotes",
-   "carved into the cliffs"
+   "A dovecote",
+   "carved into the tuff"
   ],
-  "q": "Cappadocia dovecote",
-  "desc": "Pigeon houses cut into a Cappadocian cliff"
+  "q": "Cappadocia pigeon house",
+  "desc": "Carved dovecote facade with rows of openings, Cappadocia"
  },
  {
   "id": "13-04-0",
@@ -1980,40 +1867,10 @@
   "desc": "The Taurus Mountains"
  },
  {
-  "id": "14-01-1",
-  "chapter": "14_the_raids",
-  "para": 1,
-  "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Cappadocia plain fields",
-  "desc": "Open Cappadocian plain with fields"
- },
- {
   "id": "14-02-0",
   "chapter": "14_the_raids",
   "para": 2,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "A Byzantine rock-cut church",
-   "Cappadocia"
-  ],
-  "q": "Cappadocia Byzantine rock cut church fresco",
-  "desc": "Rock-cut Byzantine church in Cappadocia with frescoes"
- },
- {
-  "id": "14-02-1",
-  "chapter": "14_the_raids",
-  "para": 2,
-  "idx": 1,
   "kind": "photo",
   "size": "WS",
   "move": "drift",
@@ -2081,23 +1938,6 @@
   "chapter": "14_the_raids",
   "para": 5,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "Digenis Akritis",
-   "the hero of the Byzantine frontier epic"
-  ],
-  "q": "Digenis Akritas Byzantine plate",
-  "desc": "Medieval Byzantine plate or manuscript showing Digenis Akritis"
- },
- {
-  "id": "14-05-1",
-  "chapter": "14_the_raids",
-  "para": 5,
-  "idx": 1,
   "kind": "card",
   "size": "CARD",
   "move": "static",
@@ -2159,23 +1999,6 @@
   "chapter": "15_turks_and_ottomans",
   "para": 0,
   "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "The battle of Manzikert",
-   "from a 15th-century French manuscript"
-  ],
-  "q": "Battle of Manzikert miniature manuscript",
-  "desc": "Medieval miniature of the battle of Manzikert"
- },
- {
-  "id": "15-00-2",
-  "chapter": "15_turks_and_ottomans",
-  "para": 0,
-  "idx": 2,
   "kind": "stat",
   "size": "STAT",
   "move": "static",
@@ -2199,19 +2022,6 @@
   ],
   "q": "Sultanhani caravanserai Aksaray",
   "desc": "The Seljuk caravanserai of Sultanhanı near Aksaray"
- },
- {
-  "id": "15-01-1",
-  "chapter": "15_turks_and_ottomans",
-  "para": 1,
-  "idx": 1,
-  "kind": "photo",
-  "size": "MS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Sultanhani portal",
-  "desc": "Carved portal of a Seljuk caravanserai"
  },
  {
   "id": "15-02-0",
@@ -2280,11 +2090,11 @@
   "grade": "neutral",
   "refs": [],
   "lt": [
-   "Karamanlidika",
+   "A Karamanli book",
    "Turkish written in Greek letters"
   ],
-  "q": "Karamanlidika book page",
-  "desc": "Page of a Karamanlidika book: Turkish printed in Greek letters"
+  "q": "Karamanlidika",
+  "desc": "A Karamanli book on display"
  },
  {
   "id": "15-05-1",
@@ -2314,19 +2124,6 @@
   ],
   "q": "Mustafapasa Sinasos Greek house",
   "desc": "Stone mansion of the Greek period in Mustafapaşa"
- },
- {
-  "id": "15-06-1",
-  "chapter": "15_turks_and_ottomans",
-  "para": 6,
-  "idx": 1,
-  "kind": "photo",
-  "size": "MS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Mustafapasa house facade",
-  "desc": "Carved stone facade in Mustafapaşa"
  },
  {
   "id": "16-00-0",
@@ -2362,19 +2159,6 @@
   "chapter": "16_malakopi",
   "para": 1,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Cappadocia Greek church village Mustafapasa",
-  "desc": "Greek Orthodox church in a Cappadocian village, now disused"
- },
- {
-  "id": "16-01-1",
-  "chapter": "16_malakopi",
-  "para": 1,
-  "idx": 1,
   "kind": "photo",
   "size": "MS",
   "move": "drift",
@@ -2430,23 +2214,6 @@
   "chapter": "16_malakopi",
   "para": 4,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow pan",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "Lausanne",
-   "the exchange convention, 30 January 1923"
-  ],
-  "q": "Lausanne 1923 conference signing",
-  "desc": "Signing of the Treaty of Lausanne, 1923"
- },
- {
-  "id": "16-04-1",
-  "chapter": "16_malakopi",
-  "para": 4,
-  "idx": 1,
   "kind": "stat",
   "size": "STAT",
   "move": "static",
@@ -2465,23 +2232,6 @@
   "grade": "map",
   "refs": [],
   "desc": "Map: Gelveri (Güzelyurt) near Derinkuyu, and Nea Karvali near Kavala in northern Greece; distance computed"
- },
- {
-  "id": "16-05-1",
-  "chapter": "16_malakopi",
-  "para": 5,
-  "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "Güzelyurt",
-   "the former Greek village of Gelveri"
-  ],
-  "q": "Guzelyurt Gelveri Aksaray",
-  "desc": "Güzelyurt, the former Gelveri"
  },
  {
   "id": "16-06-0",
@@ -2558,23 +2308,6 @@
   "grade": "map",
   "refs": [],
   "desc": "Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported tunnel shown dashed and marked unconfirmed"
- },
- {
-  "id": "17-03-1",
-  "chapter": "17_rediscovery",
-  "para": 3,
-  "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "lt": [
-   "Kaymaklı underground city",
-   "today"
-  ],
-  "q": "Kaymaklı Underground City large room",
-  "desc": "Large room in Kaymaklı underground city"
  },
  {
   "id": "17-04-0",
@@ -2679,38 +2412,12 @@
   "para": 2,
   "idx": 0,
   "kind": "photo",
-  "size": "MS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Water trickling through the rocks at Kaymakli Underground City",
-  "desc": "Water trickling through the rock at Kaymaklı"
- },
- {
-  "id": "18-02-1",
-  "chapter": "18_kaymakli_and_ozkonak",
-  "para": 2,
-  "idx": 1,
-  "kind": "photo",
   "size": "WS",
   "move": "drift",
   "grade": "neutral",
   "refs": [],
   "q": "Kaymakli underground city 8939 Nevit",
   "desc": "Storage room with niches in Kaymaklı"
- },
- {
-  "id": "18-02-2",
-  "chapter": "18_kaymakli_and_ozkonak",
-  "para": 2,
-  "idx": 2,
-  "kind": "photo",
-  "size": "CU",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "A circular door at Kaymakli Underground City",
-  "desc": "Rolling stone door at Kaymaklı"
  },
  {
   "id": "18-03-0",
@@ -2746,19 +2453,6 @@
   "chapter": "18_kaymakli_and_ozkonak",
   "para": 4,
   "idx": 0,
-  "kind": "photo",
-  "size": "WS",
-  "move": "slow push",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Ciudad subterránea de Özkonak, Capadocia, Turquía, 2024-10-01, DD 36",
-  "desc": "Passage inside Özkonak"
- },
- {
-  "id": "18-04-1",
-  "chapter": "18_kaymakli_and_ozkonak",
-  "para": 4,
-  "idx": 1,
   "kind": "photo",
   "size": "MS",
   "move": "drift",
@@ -2828,21 +2522,8 @@
    "Naours",
    "Picardy, France"
   ],
-  "q": "Naours souterraine cite tunnel",
+  "q": "Grottes de Naours",
   "desc": "Tunnel in the underground refuge of Naours, France"
- },
- {
-  "id": "19-01-1",
-  "chapter": "19_cities_underground",
-  "para": 1,
-  "idx": 1,
-  "kind": "photo",
-  "size": "CU",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Naours graffiti soldiers",
-  "desc": "Soldiers' graffiti on a chalk wall at Naours"
  },
  {
   "id": "19-02-0",
@@ -2931,24 +2612,15 @@
   "idx": 0,
   "kind": "photo",
   "size": "WS",
-  "move": "slow push",
+  "move": "slow pan",
   "grade": "neutral",
   "refs": [],
-  "q": "Mazi underground city Cappadocia",
-  "desc": "Underground city at Mazı or Tatlarin, Cappadocia"
- },
- {
-  "id": "19-06-1",
-  "chapter": "19_cities_underground",
-  "para": 6,
-  "idx": 1,
-  "kind": "photo",
-  "size": "WS",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Gaziemir underground city",
-  "desc": "Entrance of a smaller underground settlement in Cappadocia"
+  "lt": [
+   "Tatlarin today",
+   "above one of the smaller underground settlements"
+  ],
+  "q": "Tatlarin underground city",
+  "desc": "The village of Tatlarin today"
  },
  {
   "id": "19-07-0",
@@ -2962,23 +2634,10 @@
   "refs": [],
   "lt": [
    "Coober Pedy",
-   "South Australia"
+   "an underground church, South Australia"
   ],
   "q": "Coober Pedy dugout",
-  "desc": "Underground dugout home in Coober Pedy, South Australia"
- },
- {
-  "id": "19-07-1",
-  "chapter": "19_cities_underground",
-  "para": 7,
-  "idx": 1,
-  "kind": "photo",
-  "size": "MS",
-  "move": "drift",
-  "grade": "neutral",
-  "refs": [],
-  "q": "Coober Pedy underground church",
-  "desc": "Underground church in Coober Pedy"
+  "desc": "The underground Serbian Orthodox church at Coober Pedy"
  },
  {
   "id": "20-00-0",

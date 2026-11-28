@@ -7313,5 +7313,971 @@
     "page": "https://commons.wikimedia.org/wiki/File:Derinkuyu-24-travel-turkey.jpg"
    }
   ]
+ },
+ "S4 Grottes de Naours": {
+  "q": "Grottes de Naours",
+  "cands": [
+   {
+    "title": "File:Grottes de Naours001.JPG",
+    "w": 3248,
+    "h": 2340,
+    "license": "CC BY-SA 3.0",
+    "artist": "Raphodon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/Grottes_de_Naours001.JPG/1920px-Grottes_de_Naours001.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Grottes_de_Naours001.JPG"
+   },
+   {
+    "title": "File:Naours Ville souterraine Ossuaire.jpg",
+    "w": 4524,
+    "h": 3356,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Naours_Ville_souterraine_Ossuaire.jpg/1920px-Naours_Ville_souterraine_Ossuaire.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_Ossuaire.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 05.jpg",
+    "w": 3850,
+    "h": 2772,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Naours_Ville_souterraine_05.jpg/1920px-Naours_Ville_souterraine_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_05.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 23.jpg",
+    "w": 4560,
+    "h": 3146,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Naours_Ville_souterraine_23.jpg/1920px-Naours_Ville_souterraine_23.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_23.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 09.jpg",
+    "w": 4570,
+    "h": 3101,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Naours_Ville_souterraine_09.jpg/1920px-Naours_Ville_souterraine_09.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_09.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 19.jpg",
+    "w": 4283,
+    "h": 3310,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Naours_Ville_souterraine_19.jpg/1920px-Naours_Ville_souterraine_19.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_19.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 21.jpg",
+    "w": 4484,
+    "h": 3298,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Naours_Ville_souterraine_21.jpg/1920px-Naours_Ville_souterraine_21.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_21.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 22.jpg",
+    "w": 4564,
+    "h": 3410,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Naours_Ville_souterraine_22.jpg/1920px-Naours_Ville_souterraine_22.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_22.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 10.jpg",
+    "w": 4524,
+    "h": 3356,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Naours_Ville_souterraine_10.jpg/1920px-Naours_Ville_souterraine_10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_10.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 15.jpg",
+    "w": 3181,
+    "h": 4280,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Naours_Ville_souterraine_15.jpg/1920px-Naours_Ville_souterraine_15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_15.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 08.jpg",
+    "w": 3356,
+    "h": 4524,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Naours_Ville_souterraine_08.jpg/1920px-Naours_Ville_souterraine_08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_08.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 03.jpg",
+    "w": 4556,
+    "h": 3400,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Naours_Ville_souterraine_03.jpg/1920px-Naours_Ville_souterraine_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_03.jpg"
+   }
+  ]
+ },
+ "S4 Naours souterraine": {
+  "q": "Naours souterraine",
+  "cands": [
+   {
+    "title": "File:Naours Ville souterraine 23.jpg",
+    "w": 4560,
+    "h": 3146,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Naours_Ville_souterraine_23.jpg/1920px-Naours_Ville_souterraine_23.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_23.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine Ossuaire.jpg",
+    "w": 4524,
+    "h": 3356,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Naours_Ville_souterraine_Ossuaire.jpg/1920px-Naours_Ville_souterraine_Ossuaire.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_Ossuaire.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 05.jpg",
+    "w": 3850,
+    "h": 2772,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Naours_Ville_souterraine_05.jpg/1920px-Naours_Ville_souterraine_05.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_05.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 19.jpg",
+    "w": 4283,
+    "h": 3310,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Naours_Ville_souterraine_19.jpg/1920px-Naours_Ville_souterraine_19.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_19.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 09.jpg",
+    "w": 4570,
+    "h": 3101,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Naours_Ville_souterraine_09.jpg/1920px-Naours_Ville_souterraine_09.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_09.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 21.jpg",
+    "w": 4484,
+    "h": 3298,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Naours_Ville_souterraine_21.jpg/1920px-Naours_Ville_souterraine_21.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_21.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 22.jpg",
+    "w": 4564,
+    "h": 3410,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Naours_Ville_souterraine_22.jpg/1920px-Naours_Ville_souterraine_22.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_22.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 10.jpg",
+    "w": 4524,
+    "h": 3356,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Naours_Ville_souterraine_10.jpg/1920px-Naours_Ville_souterraine_10.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_10.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 15.jpg",
+    "w": 3181,
+    "h": 4280,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Naours_Ville_souterraine_15.jpg/1920px-Naours_Ville_souterraine_15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_15.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 16.jpg",
+    "w": 4560,
+    "h": 3201,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Naours_Ville_souterraine_16.jpg/1920px-Naours_Ville_souterraine_16.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_16.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 08.jpg",
+    "w": 3356,
+    "h": 4524,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Naours_Ville_souterraine_08.jpg/1920px-Naours_Ville_souterraine_08.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_08.jpg"
+   },
+   {
+    "title": "File:Naours Ville souterraine 03.jpg",
+    "w": 4556,
+    "h": 3400,
+    "license": "CC BY-SA 4.0",
+    "artist": "Zairon",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Naours_Ville_souterraine_03.jpg/1920px-Naours_Ville_souterraine_03.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Naours_Ville_souterraine_03.jpg"
+   }
+  ]
+ },
+ "S4 Mazi underground city": {
+  "q": "Mazi underground city",
+  "cands": []
+ },
+ "S4 Tatlarin underground city": {
+  "q": "Tatlarin underground city",
+  "cands": [
+   {
+    "title": "File:Tatlarin 01.jpg",
+    "w": 800,
+    "h": 600,
+    "license": "Public domain",
+    "artist": "Katpatuka at Turkish Wikipedia",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Tatlarin_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tatlarin_01.jpg"
+   },
+   {
+    "title": "File:Tatlarin 20250901 8.jpg",
+    "w": 1236,
+    "h": 1352,
+    "license": "CC0",
+    "artist": "Katpatuka",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Tatlarin_20250901_8.jpg/960px-Tatlarin_20250901_8.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Tatlarin_20250901_8.jpg"
+   }
+  ]
+ },
+ "S4 Coober Pedy dugout": {
+  "q": "Coober Pedy dugout",
+  "cands": [
+   {
+    "title": "File:Serbian Orthodox Church in Coober Pedy.jpg",
+    "w": 1024,
+    "h": 768,
+    "license": "CC BY-SA 2.0",
+    "artist": "Robert Link",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Serbian_Orthodox_Church_in_Coober_Pedy.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Serbian_Orthodox_Church_in_Coober_Pedy.jpg"
+   },
+   {
+    "title": "File:Churches in South Australia banner.jpg",
+    "w": 1018,
+    "h": 145,
+    "license": "CC BY-SA 2.0",
+    "artist": "Robert Link",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Churches_in_South_Australia_banner.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Churches_in_South_Australia_banner.jpg"
+   }
+  ]
+ },
+ "S4 Coober Pedy underground church": {
+  "q": "Coober Pedy underground church",
+  "cands": []
+ },
+ "S4 Cappadocia pigeon house": {
+  "q": "Cappadocia pigeon house",
+  "cands": [
+   {
+    "title": "File:Valley of Pigeons in Cappadocia (4).JPG",
+    "w": 3456,
+    "h": 2304,
+    "license": "CC BY-SA 3.0",
+    "artist": "Jbribeiro1",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Valley_of_Pigeons_in_Cappadocia_%284%29.JPG/1920px-Valley_of_Pigeons_in_Cappadocia_%284%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Valley_of_Pigeons_in_Cappadocia_(4).JPG"
+   },
+   {
+    "title": "File:Valley of Pigeons in Cappadocia (2).JPG",
+    "w": 2304,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "José Luiz",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Valley_of_Pigeons_in_Cappadocia_%282%29.JPG/1920px-Valley_of_Pigeons_in_Cappadocia_%282%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Valley_of_Pigeons_in_Cappadocia_(2).JPG"
+   },
+   {
+    "title": "File:Valley of Pigeons in Cappadocia (1).JPG",
+    "w": 2304,
+    "h": 3456,
+    "license": "CC BY-SA 3.0",
+    "artist": "José Luiz",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/05/Valley_of_Pigeons_in_Cappadocia_%281%29.JPG/1920px-Valley_of_Pigeons_in_Cappadocia_%281%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Valley_of_Pigeons_in_Cappadocia_(1).JPG"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0240 2739.jpg",
+    "w": 2560,
+    "h": 1920,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240_2739.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240_2739.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240_2739.jpg"
+   },
+   {
+    "title": "File:Cappadocia, Uchisar, Nevşehir - panoramio (4).jpg",
+    "w": 2048,
+    "h": 2048,
+    "license": "CC BY 3.0",
+    "artist": "Николай Максимович",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Cappadocia%2C_Uchisar%2C_Nev%C5%9Fehir_-_panoramio_%284%29.jpg/1920px-Cappadocia%2C_Uchisar%2C_Nev%C5%9Fehir_-_panoramio_%284%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Cappadocia,_Uchisar,_Nev%C5%9Fehir_-_panoramio_(4).jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0240.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0240.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0236.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0236.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0236.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0236.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0229.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0229.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0229.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0229.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0228.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0228.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0228.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0228.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0233.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0233.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0233.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0233.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0234.jpg",
+    "w": 4256,
+    "h": 2832,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0234.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0234.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0234.jpg"
+   },
+   {
+    "title": "File:Uçhisar Pigeon Valley Uçhisar west to Uçhisar east 0239.jpg",
+    "w": 2832,
+    "h": 4256,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0239.jpg/1920px-U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0239.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:U%C3%A7hisar_Pigeon_Valley_U%C3%A7hisar_west_to_U%C3%A7hisar_east_0239.jpg"
+   }
+  ]
+ },
+ "S4 Comana Kayseri": {
+  "q": "Comana Kayseri",
+  "cands": []
+ },
+ "S4 Karamanlidika": {
+  "q": "Karamanlidika",
+  "cands": [
+   {
+    "title": "File:Orthodox Prayer Book in Karamanli Turkish 1806.png",
+    "w": 666,
+    "h": 1081,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Orthodox_Prayer_Book_in_Karamanli_Turkish_1806.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Orthodox_Prayer_Book_in_Karamanli_Turkish_1806.png"
+   },
+   {
+    "title": "File:Karamanlidika-.jpg",
+    "w": 863,
+    "h": 718,
+    "license": "CC BY-SA 4.0",
+    "artist": "Cihan Yalvar",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Karamanlidika-.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karamanlidika-.jpg"
+   },
+   {
+    "title": "File:Pafra Karamanli Sacramentary.jpg",
+    "w": 3096,
+    "h": 4128,
+    "license": "CC BY-SA 4.0",
+    "artist": "Catlemur",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Pafra_Karamanli_Sacramentary.jpg/1920px-Pafra_Karamanli_Sacramentary.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pafra_Karamanli_Sacramentary.jpg"
+   },
+   {
+    "title": "File:Karamanli Publication 19th century Benaki.jpg",
+    "w": 3096,
+    "h": 4128,
+    "license": "CC BY-SA 4.0",
+    "artist": "Catlemur",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Karamanli_Publication_19th_century_Benaki.jpg/1920px-Karamanli_Publication_19th_century_Benaki.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karamanli_Publication_19th_century_Benaki.jpg"
+   },
+   {
+    "title": "File:Turkey Kirkhraman Pontic Greeks letter Karamanlidika c1910.jpg",
+    "w": 2531,
+    "h": 3294,
+    "license": "Public domain",
+    "artist": "Pontic Greeks, residents of the village Kırkharman, Amasya, Turkey // Έλληνες Πόντιοι, κάτοικοι του χωριού Κιρκχαρμάν, Α",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Turkey_Kirkhraman_Pontic_Greeks_letter_Karamanlidika_c1910.jpg/1920px-Turkey_Kirkhraman_Pontic_Greeks_letter_Karamanlidika_c1910.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey_Kirkhraman_Pontic_Greeks_letter_Karamanlidika_c1910.jpg"
+   },
+   {
+    "title": "File:Turkish Christian book with Greek alphabet.png",
+    "w": 742,
+    "h": 1024,
+    "license": "CC0",
+    "artist": "British Library",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Turkish_Christian_book_with_Greek_alphabet.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_Christian_book_with_Greek_alphabet.png"
+   },
+   {
+    "title": "File:Karamanlidika title page 1784.JPG",
+    "w": 559,
+    "h": 768,
+    "license": "Public domain",
+    "artist": "18th century authors",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Karamanlidika_title_page_1784.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Karamanlidika_title_page_1784.JPG"
+   },
+   {
+    "title": "File:Turkish New Testament in Greek alphabet.png",
+    "w": 638,
+    "h": 1024,
+    "license": "CC0",
+    "artist": "British Library",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/73/Turkish_New_Testament_in_Greek_alphabet.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkish_New_Testament_in_Greek_alphabet.png"
+   },
+   {
+    "title": "File:Gospel in many tongues - Osmanli Turkish, Greek characters - 1912 - page 98.png",
+    "w": 848,
+    "h": 168,
+    "license": "Public domain",
+    "artist": "John Sharp (1837-1917)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Gospel_in_many_tongues_-_Osmanli_Turkish%2C_Greek_characters_-_1912_-_page_98.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Gospel_in_many_tongues_-_Osmanli_Turkish,_Greek_characters_-_1912_-_page_98.png"
+   },
+   {
+    "title": "File:Karamanlidika.jpg",
+    "w": 760,
+    "h": 537,
+    "license": "Public domain",
+    "artist": "tr:kullanıcı:katpatuka",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/34/Karamanlidika.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Karamanlidika.jpg"
+   },
+   {
+    "title": "File:Aesop's tale in Greek-Turkish language from the Mariupol area.jpg",
+    "w": 506,
+    "h": 319,
+    "license": "Public domain",
+    "artist": "Aesop (original fable); unknown translator in the \"Griechisch-türkische Sprach\" as written down from local narrator(s) b",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Aesop%27s_tale_in_Greek-Turkish_language_from_the_Mariupol_area.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Aesop%27s_tale_in_Greek-Turkish_language_from_the_Mariupol_area.jpg"
+   },
+   {
+    "title": "File:Sille Agia Eleni Inscription.jpg",
+    "w": 3888,
+    "h": 2592,
+    "license": "CC BY-SA 3.0",
+    "artist": "FrancescoMazzucotelli",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Sille_Agia_Eleni_Inscription.jpg/1920px-Sille_Agia_Eleni_Inscription.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Sille_Agia_Eleni_Inscription.jpg"
+   }
+  ]
+ },
+ "S4 Treaty of Lausanne 1923": {
+  "q": "Treaty of Lausanne 1923",
+  "cands": [
+   {
+    "title": "File:Treaty of Lausanne 1923 (Greek).jpg",
+    "w": 1436,
+    "h": 1800,
+    "license": "Public domain",
+    "artist": "Ministry of Foreign Affairs of Greece // Υπουργείο Εξωτερικών της Ελλάδας",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Treaty_of_Lausanne_1923_%28Greek%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Treaty_of_Lausanne_1923_(Greek).jpg"
+   },
+   {
+    "title": "File:Lausanne treaty 1923 plaque.jpg",
+    "w": 960,
+    "h": 720,
+    "license": "CC BY-SA 4.0",
+    "artist": "هیوا",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Lausanne_treaty_1923_plaque.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lausanne_treaty_1923_plaque.jpg"
+   },
+   {
+    "title": "File:Signing of the Treaty of Lausanne (1923).jpg",
+    "w": 520,
+    "h": 386,
+    "license": "Public domain",
+    "artist": "HubPages",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Signing_of_the_Treaty_of_Lausanne_%281923%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Signing_of_the_Treaty_of_Lausanne_(1923).jpg"
+   },
+   {
+    "title": "File:Turkey-Greece-Bulgaria on Treaty of Lausanne-EL.png",
+    "w": 757,
+    "h": 385,
+    "license": "CC BY-SA 4.0",
+    "artist": "Flashdart2",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne-EL.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne-EL.png"
+   },
+   {
+    "title": "File:Lausanne 1923.jpg",
+    "w": 1128,
+    "h": 1284,
+    "license": "Public domain",
+    "artist": "Qualimac",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Lausanne_1923.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lausanne_1923.jpg"
+   },
+   {
+    "title": "File:Turkey-Greece-Bulgaria on Treaty of Lausanne.png",
+    "w": 634,
+    "h": 324,
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/58/Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey-Greece-Bulgaria_on_Treaty_of_Lausanne.png"
+   },
+   {
+    "title": "File:Lausanne 2.jpg",
+    "w": 635,
+    "h": 424,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Lausanne_2.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Lausanne_2.jpg"
+   },
+   {
+    "title": "File:Turkey Peace treaty.gif",
+    "w": 1281,
+    "h": 834,
+    "license": "Public domain",
+    "artist": "Lawrence Martin",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Turkey_Peace_treaty.gif",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey_Peace_treaty.gif"
+   },
+   {
+    "title": "File:Turkey Peace treaty.jpg",
+    "w": 2020,
+    "h": 1158,
+    "license": "Public domain",
+    "artist": "Lawrence Martin",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/Turkey_Peace_treaty.jpg/1920px-Turkey_Peace_treaty.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Turkey_Peace_treaty.jpg"
+   },
+   {
+    "title": "File:Greek history from 1832-ar.png",
+    "w": 868,
+    "h": 624,
+    "license": "Public domain",
+    "artist": "Bassem Fleifel",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Greek_history_from_1832-ar.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Greek_history_from_1832-ar.png"
+   },
+   {
+    "title": "File:1930 07 24 Cumhuriyet.jpg",
+    "w": 1545,
+    "h": 2623,
+    "license": "Public domain",
+    "artist": "Cumhuriyet gazetesi",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/1930_07_24_Cumhuriyet.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:1930_07_24_Cumhuriyet.jpg"
+   },
+   {
+    "title": "File:National struggle and Lausanne museum in 2024 5725.jpg",
+    "w": 4999,
+    "h": 5240,
+    "license": "CC BY-SA 4.0",
+    "artist": "Dosseman",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/National_struggle_and_Lausanne_museum_in_2024_5725.jpg/1920px-National_struggle_and_Lausanne_museum_in_2024_5725.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:National_struggle_and_Lausanne_museum_in_2024_5725.jpg"
+   }
+  ]
+ },
+ "S4 Digenis Akritas": {
+  "q": "Digenis Akritas",
+  "cands": [
+   {
+    "title": "File:Digenis Akritas Athens.jpg",
+    "w": 298,
+    "h": 480,
+    "license": "Public domain",
+    "artist": "???, Pitichinaccio",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Digenis_Akritas_Athens.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Digenis_Akritas_Athens.jpg"
+   },
+   {
+    "title": "File:3335 - Athens - Stoà of Attalus Museum - Byzantine plate - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg",
+    "w": 1972,
+    "h": 1796,
+    "license": "Attribution",
+    "artist": "Giovanni Dall'Orto.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/3335_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg/1920px-3335_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:3335_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg"
+   },
+   {
+    "title": "File:3332 - Athens - Stoà of Attalus Museum - Byzantine plate - Photo by Giovanni Dall'Orto, Nov 9 2009.jpg",
+    "w": 2176,
+    "h": 1876,
+    "license": "Attribution",
+    "artist": "Giovanni Dall'Orto.",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/3332_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg/1920px-3332_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto%2C_Nov_9_2009.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:3332_-_Athens_-_Sto%C3%A0_of_Attalus_Museum_-_Byzantine_plate_-_Photo_by_Giovanni_Dall%27Orto,_Nov_9_2009.jpg"
+   },
+   {
+    "title": "File:Digenes Akritas and his wife Eydokia, detail from silver cup, made in Cilician Armenia.jpg",
+    "w": 657,
+    "h": 643,
+    "license": "CC BY-SA 3.0",
+    "artist": "Photo by sailko",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Digenes_Akritas_and_his_wife_Eydokia%2C_detail_from_silver_cup%2C_made_in_Cilician_Armenia.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Digenes_Akritas_and_his_wife_Eydokia,_detail_from_silver_cup,_made_in_Cilician_Armenia.jpg"
+   },
+   {
+    "title": "File:Digeni Akrita Avenue and buildings Nicosia Republic of Cyprus.jpg",
+    "w": 900,
+    "h": 466,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Digeni_Akrita_Avenue_and_buildings_Nicosia_Republic_of_Cyprus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Digeni_Akrita_Avenue_and_buildings_Nicosia_Republic_of_Cyprus.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Market Digeni Akrita Avenue Nicosia Republic of Cyprus.jpg",
+    "w": 900,
+    "h": 397,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Ayios_Antonios_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market Digeni Akrita Avenue Nicosia Republic of Cyprus Cy.jpg",
+    "w": 818,
+    "h": 900,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Cy.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Cy.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market Digeni Akrita Avenue Nicosia Republic of Cyprus 15.jpg",
+    "w": 545,
+    "h": 900,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_15.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_15.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market corridors fruits Digeni Akrita Avenue Nicosia Republic of Cyprus.jpg",
+    "w": 900,
+    "h": 675,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Ayios_Antonios_Municipal_Market_corridors_fruits_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_corridors_fruits_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market Digeni Akrita Avenue Nicosia Republic of Cyprus Kipros.jpg",
+    "w": 900,
+    "h": 675,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Kipros.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Kipros.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market corridors Digeni Akrita Avenue Nicosia Republic of Cyprus.jpg",
+    "w": 900,
+    "h": 675,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Ayios_Antonios_Municipal_Market_corridors_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_corridors_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus.jpg"
+   },
+   {
+    "title": "File:Ayios Antonios Municipal Market Digeni Akrita Avenue Nicosia Republic of Cyprus Kypros.jpg",
+    "w": 900,
+    "h": 414,
+    "license": "CC BY-SA 3.0",
+    "artist": "Nic0245",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Kypros.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Ayios_Antonios_Municipal_Market_Digeni_Akrita_Avenue_Nicosia_Republic_of_Cyprus_Kypros.jpg"
+   }
+  ]
+ },
+ "S4 Codex Sinaiticus": {
+  "q": "Codex Sinaiticus",
+  "cands": [
+   {
+    "title": "File:Codex Sinaiticus Matthew 6,4-32.JPG",
+    "w": 760,
+    "h": 746,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/be/Codex_Sinaiticus_Matthew_6%2C4-32.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_6,4-32.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus, GA 01.jpg",
+    "w": 878,
+    "h": 1564,
+    "license": "CC BY-SA 4.0",
+    "artist": "London, British Library",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Codex_Sinaiticus%2C_GA_01.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus,_GA_01.jpg"
+   },
+   {
+    "title": "File:Codex sinaticus (The S.S. Teacher's Edition-The Holy Bible - Plate XXII).jpg",
+    "w": 366,
+    "h": 768,
+    "license": "Public domain",
+    "artist": "",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Codex_sinaticus_%28The_S.S._Teacher%27s_Edition-The_Holy_Bible_-_Plate_XXII%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_sinaticus_(The_S.S._Teacher%27s_Edition-The_Holy_Bible_-_Plate_XXII).jpg"
+   },
+   {
+    "title": "File:Codex Sinaiticus.jpg",
+    "w": 4080,
+    "h": 3060,
+    "license": "CC0",
+    "artist": "PotatoCow25",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Codex_Sinaiticus.jpg/1920px-Codex_Sinaiticus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus.jpg"
+   },
+   {
+    "title": "File:Mark 16 first lines, Codex Sinaiticus.png",
+    "w": 446,
+    "h": 464,
+    "license": "Public domain",
+    "artist": "Ancient\n\n(Life time: Ancient)",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Mark_16_first_lines%2C_Codex_Sinaiticus.png",
+    "page": "https://commons.wikimedia.org/wiki/File:Mark_16_first_lines,_Codex_Sinaiticus.png"
+   },
+   {
+    "title": "File:Codex Sinaiticus-small.jpg",
+    "w": 406,
+    "h": 238,
+    "license": "Public domain",
+    "artist": "Pitichinaccio",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Codex_Sinaiticus-small.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus-small.jpg"
+   },
+   {
+    "title": "File:Codex Sinaiticus Matthew 1,1-2,5.JPG",
+    "w": 700,
+    "h": 677,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Codex_Sinaiticus_Matthew_1%2C1-2%2C5.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_1,1-2,5.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus Matthew 3,7-4,19.JPG",
+    "w": 735,
+    "h": 810,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Codex_Sinaiticus_Matthew_3%2C7-4%2C19.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_3,7-4,19.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus Matthew 2,5-3,7.JPG",
+    "w": 745,
+    "h": 820,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Codex_Sinaiticus_Matthew_2%2C5-3%2C7.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Matthew_2,5-3,7.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus John 21,7.JPG",
+    "w": 500,
+    "h": 200,
+    "license": "Public domain",
+    "artist": "Unknown authorUnknown author",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Codex_Sinaiticus_John_21%2C7.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_John_21,7.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus - Early 5th century.JPG",
+    "w": 694,
+    "h": 434,
+    "license": "Public domain",
+    "artist": "Thompson, Edward Maunde,(1840-1929).",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Codex_Sinaiticus_-_Early_5th_century.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_-_Early_5th_century.JPG"
+   },
+   {
+    "title": "File:Codex Sinaiticus Petropolitanus (title).JPG",
+    "w": 1685,
+    "h": 1952,
+    "license": "Public domain",
+    "artist": "unknown, facsimile editior Tischendorf",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/03/Codex_Sinaiticus_Petropolitanus_%28title%29.JPG",
+    "page": "https://commons.wikimedia.org/wiki/File:Codex_Sinaiticus_Petropolitanus_(title).JPG"
+   }
+  ]
+ },
+ "S4 Basil of Caesarea manuscript": {
+  "q": "Basil of Caesarea manuscript",
+  "cands": [
+   {
+    "title": "File:Romanus of Caesarea (Menologion of Basil II).jpg",
+    "w": 1075,
+    "h": 738,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Romanus_of_Caesarea_%28Menologion_of_Basil_II%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Romanus_of_Caesarea_(Menologion_of_Basil_II).jpg"
+   },
+   {
+    "title": "File:Polyeuctus at Caesarea (Menologion of Basil II).jpg",
+    "w": 1949,
+    "h": 1299,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Polyeuctus_at_Caesarea_%28Menologion_of_Basil_II%29.jpg/1920px-Polyeuctus_at_Caesarea_%28Menologion_of_Basil_II%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Polyeuctus_at_Caesarea_(Menologion_of_Basil_II).jpg"
+   },
+   {
+    "title": "File:Mammes of Caesarea (Menologion of Basil II).jpg",
+    "w": 920,
+    "h": 625,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Mammes_of_Caesarea_%28Menologion_of_Basil_II%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Mammes_of_Caesarea_(Menologion_of_Basil_II).jpg"
+   },
+   {
+    "title": "File:Antoninus, Nicephorus and Germanus of Caesarea (Menologion of Basil II).jpg",
+    "w": 1060,
+    "h": 740,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Antoninus%2C_Nicephorus_and_Germanus_of_Caesarea_%28Menologion_of_Basil_II%29.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Antoninus,_Nicephorus_and_Germanus_of_Caesarea_(Menologion_of_Basil_II).jpg"
+   },
+   {
+    "title": "File:Menologion of Basil II - Martinian of Caesarea.jpg",
+    "w": 750,
+    "h": 527,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Menologion_of_Basil_II_-_Martinian_of_Caesarea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_II_-_Martinian_of_Caesarea.jpg"
+   },
+   {
+    "title": "File:Menologion of Basil 048.jpg",
+    "w": 1743,
+    "h": 1153,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Menologion_of_Basil_048.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_048.jpg"
+   },
+   {
+    "title": "File:Menologion of Basil 058.jpg",
+    "w": 1075,
+    "h": 738,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Menologion_of_Basil_058.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_058.jpg"
+   },
+   {
+    "title": "File:Porphyrius, Julian, Theodulus at Caesaria (Menologion of Basil II).jpeg",
+    "w": 2126,
+    "h": 1386,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Porphyrius%2C_Julian%2C_Theodulus_at_Caesaria_%28Menologion_of_Basil_II%29.jpeg/1920px-Porphyrius%2C_Julian%2C_Theodulus_at_Caesaria_%28Menologion_of_Basil_II%29.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Porphyrius,_Julian,_Theodulus_at_Caesaria_(Menologion_of_Basil_II).jpeg"
+   },
+   {
+    "title": "File:Menologion of Basil II - Adrian of Batanea and Eubulus.jpg",
+    "w": 734,
+    "h": 520,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Menologion_of_Basil_II_-_Adrian_of_Batanea_and_Eubulus.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Menologion_of_Basil_II_-_Adrian_of_Batanea_and_Eubulus.jpg"
+   },
+   {
+    "title": "File:Basil the Great Ad Iuvenes.jpg",
+    "w": 356,
+    "h": 512,
+    "license": "Public domain",
+    "artist": "Basil of Caesarea",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/5/51/Basil_the_Great_Ad_Iuvenes.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Basil_the_Great_Ad_Iuvenes.jpg"
+   },
+   {
+    "title": "File:Martinian, monk of Caesaria in Palestine (Menologion of Basil II).jpeg",
+    "w": 2126,
+    "h": 1393,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Martinian%2C_monk_of_Caesaria_in_Palestine_%28Menologion_of_Basil_II%29.jpeg/1920px-Martinian%2C_monk_of_Caesaria_in_Palestine_%28Menologion_of_Basil_II%29.jpeg",
+    "page": "https://commons.wikimedia.org/wiki/File:Martinian,_monk_of_Caesaria_in_Palestine_(Menologion_of_Basil_II).jpeg"
+   },
+   {
+    "title": "File:Pamphilus of Caesarea.jpg",
+    "w": 863,
+    "h": 599,
+    "license": "Public domain",
+    "artist": "Authors of Menologion of Basil II (circa 985 AC, Constantinople), Byzantine manuscript illuminators[1]:\nPantoleon with G",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Pamphilus_of_Caesarea.jpg",
+    "page": "https://commons.wikimedia.org/wiki/File:Pamphilus_of_Caesarea.jpg"
+   }
+  ]
+ },
+ "S4 Sultanhani caravanserai portal": {
+  "q": "Sultanhani caravanserai portal",
+  "cands": []
  }
 }

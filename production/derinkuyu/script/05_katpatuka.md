@@ -14,14 +14,13 @@ Squeezed between larger powers, the kings of Cappadocia learned to survive by ch
 > STAT | static | stat | neutral | | 17 AD :: Cappadocia becomes a Roman province
 
 Rome's interest was not only strategic. Cappadocia was a land of great estates, horses and flocks, and of temple-states where whole territories belonged to a god and were run by his priests. The most famous was Comana, whose temple of the goddess Ma, Strabo says, had thousands of temple servants. It was a very different world from the cities of the Aegean coast.
-> WS | slow pan | photo | neutral | | Ruins of Comana in Cappadocia, modern Şar {LT: Comana | a temple-state of Cappadocia} [q: Comana Cappadocia Sar ruins]
+> MAP | slow push | map | map | | Map: Comana (modern Şar), a temple-state of Cappadocia, east of Caesarea
 
 Under Rome, the great roads to the eastern frontier ran across the plateau, and Caesarea grew into one of the important cities of Asia Minor. Soldiers and supplies moved east along these roads. So, in later centuries, would invaders moving west.
 > MAP | track | map | map | | Map: Roman Cappadocia with the roads east to the Euphrates frontier; routes approximate
-> WS | drift | photo | neutral | | Roman road or milestone in Cappadocia [q: Roman milestone Cappadocia]
 
 Christianity arrived early. When the New Testament describes the crowd in Jerusalem at Pentecost, Cappadocians are named among them. The First Letter of Peter is addressed to Christians scattered across Asia Minor, Cappadocia among them. By the fourth century, Caesarea was one of the great centres of the Christian world.
-> WS | slow push | photo | neutral | | Early Christian manuscript page [q: Codex Sinaiticus 1 Peter]
+> WS | slow push | photo | neutral | | Codex Sinaiticus on display {LT: Codex Sinaiticus | 4th century, includes Acts and 1 Peter} [q: Codex Sinaiticus]
 > STAT | static | stat | neutral | | Acts 2:9 · 1 Peter 1:1 :: Cappadocia in the New Testament
 
 It is in this Christian Cappadocia that the underground cities first come clearly into view. But before we follow that story, let us go back down into Derinkuyu and see the city itself, level by level.

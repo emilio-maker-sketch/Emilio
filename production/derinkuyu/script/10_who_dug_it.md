@@ -5,7 +5,6 @@ So who were they? This is the hardest question about Derinkuyu, and the honest a
 > CU | slow push | photo | neutral | | Bare carved room, Derinkuyu [q: POOL 43]
 
 You will often read that it was begun by the Phrygians, a people of Anatolia in the eighth and seventh centuries before Christ. Some scholars have suggested this, and Phrygians did cut rock monuments elsewhere in Anatolia. But there is no direct evidence linking them to Derinkuyu. It is a possibility, not a fact.
-> WS | slow pan | photo | neutral | | The Midas Monument, a Phrygian rock-cut facade {LT: The Midas Monument | Phrygian rock-cut facade, 6th century BC} [q: Midas monument Midas sehri Phrygian]
 > MAP | slow push | map | map | | Map of Anatolia: Phrygia in the west, Cappadocia in the centre
 
 Another favourite claim is that the Greek writer Xenophon described Derinkuyu. Around 400 BC he marched across Anatolia with an army of Greek mercenaries, and in his book, the Anabasis, he describes villages whose houses were dug into the ground, entered through a narrow opening like the mouth of a well and wide inside, with ramps for the animals and ladders for the people.
