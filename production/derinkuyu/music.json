@@ -1,0 +1,1027 @@
+{
+ "credit": "Music by Kevin MacLeod (incompetech.com), licensed under Creative Commons: By Attribution 4.0",
+ "cues": [
+  {
+   "file": "Ossuary 1 - A Beginning.mp3",
+   "start": 0.0,
+   "end": 121.4,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Echoes of Time v2.mp3",
+   "start": 118.4,
+   "end": 213.73,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note One.mp3",
+   "start": 208.73,
+   "end": 306.07,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Eternal Hope.mp3",
+   "start": 303.07,
+   "end": 367.64,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Unwritten Return.mp3",
+   "start": 362.64,
+   "end": 429.21,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Three.mp3",
+   "start": 426.21,
+   "end": 531.52,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Dreams Become Real.mp3",
+   "start": 526.52,
+   "end": 633.82,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Lost Frontier.mp3",
+   "start": 630.83,
+   "end": 730.9,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Echoes of Time v2.mp3",
+   "start": 725.9,
+   "end": 827.98,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Eternal Hope.mp3",
+   "start": 824.98,
+   "end": 919.17,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Two.mp3",
+   "start": 914.17,
+   "end": 1010.36,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Ossuary 6 - Air.mp3",
+   "start": 1007.36,
+   "end": 1083.09,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Four.mp3",
+   "start": 1078.09,
+   "end": 1155.83,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note One.mp3",
+   "start": 1152.83,
+   "end": 1212.72,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Ossuary 2 - Turn.mp3",
+   "start": 1207.72,
+   "end": 1269.61,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Lightless Dawn.mp3",
+   "start": 1266.61,
+   "end": 1330.75,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Three.mp3",
+   "start": 1325.75,
+   "end": 1391.89,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Dark Times.mp3",
+   "start": 1388.89,
+   "end": 1460.81,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Ossuary 5 - Rest.mp3",
+   "start": 1455.81,
+   "end": 1529.73,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Two.mp3",
+   "start": 1526.73,
+   "end": 1603.34,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Dreams Become Real.mp3",
+   "start": 1598.34,
+   "end": 1676.95,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Four.mp3",
+   "start": 1673.95,
+   "end": 1740.3,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Ossuary 6 - Air.mp3",
+   "start": 1735.3,
+   "end": 1803.66,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Bittersweet.mp3",
+   "start": 1800.66,
+   "end": 1883.42,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Eternal Hope.mp3",
+   "start": 1878.42,
+   "end": 1963.17,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Unwritten Return.mp3",
+   "start": 1960.17,
+   "end": 2032.45,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Echoes of Time v2.mp3",
+   "start": 2027.45,
+   "end": 2101.73,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Anguish.mp3",
+   "start": 2098.73,
+   "end": 2211.46,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Dark Times.mp3",
+   "start": 2206.46,
+   "end": 2321.18,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Lost Frontier.mp3",
+   "start": 2318.18,
+   "end": 2424.57,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note One.mp3",
+   "start": 2419.57,
+   "end": 2527.95,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Bittersweet.mp3",
+   "start": 2524.95,
+   "end": 2621.78,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Despair and Triumph.mp3",
+   "start": 2616.78,
+   "end": 2715.6,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Dreams Become Real.mp3",
+   "start": 2712.6,
+   "end": 2796.43,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Two.mp3",
+   "start": 2791.43,
+   "end": 2877.26,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Ossuary 2 - Turn.mp3",
+   "start": 2874.26,
+   "end": 2957.94,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Long Note Three.mp3",
+   "start": 2952.94,
+   "end": 3038.63,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Lost Frontier.mp3",
+   "start": 3035.63,
+   "end": 3137.94,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Eternal Hope.mp3",
+   "start": 3132.94,
+   "end": 3237.25,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Despair and Triumph.mp3",
+   "start": 3234.25,
+   "end": 3352.48,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Bittersweet.mp3",
+   "start": 3347.48,
+   "end": 3467.71,
+   "gain": 0.8,
+   "fade_in": 3,
+   "fade_out": 4
+  },
+  {
+   "file": "Despair and Triumph.mp3",
+   "start": 108.902,
+   "end": 126.902,
+   "gain": 0.95,
+   "fade_in": 1.5,
+   "fade_out": 5
+  }
+ ],
+ "sfx": [
+  {
+   "file": "thud.wav",
+   "start": 48.19,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "boom.wav",
+   "start": 110.9,
+   "gain": 0.9,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 117.5,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 124.3,
+   "gain": 0.25,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 169.3,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 259.71,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 282.39,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 302.17,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 333.69,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 425.31,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 494.82,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 513.35,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 540.99,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 596.37,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 629.93,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 636.73,
+   "gain": 0.25,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 662.82,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 691.46,
+   "gain": 0.4,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 705.14,
+   "gain": 0.4,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 709.6,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 722.02,
+   "gain": 0.4,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 761.51,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 776.08,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 824.08,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 830.98,
+   "gain": 0.4,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 880.07,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 910.63,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 920.35,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 948.08,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 978.07,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1006.46,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1062.97,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1078.72,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1151.92,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1168.04,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1206.4,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1265.71,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1327.76,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1387.99,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1404.99,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1442.47,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1525.83,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1558.62,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 1589.15,
+   "gain": 0.4,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1595.07,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1610.83,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1622.88,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1673.05,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 1679.85,
+   "gain": 0.25,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1741.88,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 1743.58,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 1745.3,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 1747.02,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 1748.74,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 1750.45,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1790.09,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1799.76,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 1835.87,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 1959.27,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2020.72,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2097.83,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 2104.63,
+   "gain": 0.25,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2116.93,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 2118.79,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 2121.33,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 2123.86,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 2126.4,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2177.91,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2206.75,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2261.67,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2277.83,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2317.28,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "paper.wav",
+   "start": 2324.09,
+   "gain": 0.25,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2339.88,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2435.95,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2517.33,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2524.05,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2591.63,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2617.98,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2648.14,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2678.85,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2711.7,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2728.98,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2764.41,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2782.26,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2802.6,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2851.69,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2873.36,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2888.81,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 2962.18,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 2993.91,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3019.24,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3034.73,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3110.15,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 3121.31,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3233.35,
+   "gain": 0.42,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 3240.15,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "thud.wav",
+   "start": 3263.93,
+   "gain": 0.3,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3285.9,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3311.56,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3313.26,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3314.41,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3315.55,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3316.7,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3317.84,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3318.99,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3320.14,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "whoosh.wav",
+   "start": 3347.27,
+   "gain": 0.28,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3348.97,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3350.34,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3351.72,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3353.09,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3354.47,
+   "gain": 0.35,
+   "hit": true
+  },
+  {
+   "file": "tick.wav",
+   "start": 3355.84,
+   "gain": 0.35,
+   "hit": true
+  }
+ ]
+}

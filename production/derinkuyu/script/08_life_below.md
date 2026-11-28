@@ -1,4 +1,4 @@
-# LIFE BELOW
+# CHAPTER EIGHT: LIFE BELOW
 
 What was it like to shelter here? No one who did so left us a description, so we have to read the rooms themselves, and be honest about where the evidence stops.
 > WS | slow push | photo | neutral | | Dim room in Derinkuyu [q: POOL 23]
@@ -12,5 +12,6 @@ The second is the cold. The underground keeps a cool, steady temperature, which 
 
 The third is the animals. The stables near the top were not decoration. A family that left its sheep, goats and draught animals above ground would lose them to the raiders, and with them its future. So the animals came down too, which means the smell, the noise and the waste of the animals came too.
 
+> WS | slow pan | photo | neutral | | Wide room in the upper levels of Derinkuyu [q: POOL 28]
 How long could people stay? The honest answer is that we do not know. With stored food and a well, a community could in principle hold out for weeks. Most raids, though, were measured in days. The point of the city was not to live below for ever. It was to outlast the danger and come back up to fields and houses that were still there.
 > WS | drift | photo | neutral | | Stairs and doorway, Derinkuyu [q: POOL 44]

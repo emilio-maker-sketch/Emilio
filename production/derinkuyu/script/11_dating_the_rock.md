@@ -1,4 +1,4 @@
-# HOW DO YOU DATE A HOLE?
+# CHAPTER ELEVEN: HOW DO YOU DATE A HOLE?
 
 Archaeologists usually date a site by digging down through layers. The deeper the layer, the older it is, and the pottery, coins and bones in each layer give it a date. An underground city turns this upside down. It was made by taking rock away, not by building anything up, and the empty rooms carry no layers of their own.
 > DIAGRAM | slow push | diagram | map | | Why rock-cut spaces are hard to date: a mound builds up in layers; a carved room removes rock and leaves no layers; schematic
@@ -15,3 +15,5 @@ Science can sometimes help where the rock cannot. Where soot from lamps, charcoa
 > WS | slow push | photo | neutral | | Carved room in Kaymaklı {LT: Kaymaklı | a neighbouring underground city} [q: Kaymakli underground city 8887 Nevit]
 
 That uncertainty is not a failure. It is the honest state of the evidence, and it is exactly where the myths rush in to fill the gap.
+
+> STAT | static | stat | neutral | | the honest answer :: we do not know when it was begun

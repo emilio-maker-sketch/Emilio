@@ -163,7 +163,7 @@
   "refs": [],
   "lt": [
    "Mount Erciyes",
-   "an extinct volcano, 3,917 m"
+   "a volcano, 3,917 m"
   ],
   "q": "Mount Erciyes volcano Kayseri",
   "desc": "Mount Erciyes volcano seen across the Cappadocian plain"
@@ -1092,6 +1092,19 @@
   "desc": "about 85 m :: the depth of the lowest known level"
  },
  {
+  "id": "06-03-0",
+  "chapter": "06_going_down",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow push",
+  "grade": "neutral",
+  "refs": [],
+  "q": "POOL 20",
+  "desc": "Long room with a rock pillar deep in Derinkuyu"
+ },
+ {
   "id": "06-04-0",
   "chapter": "06_going_down",
   "para": 4,
@@ -1258,6 +1271,19 @@
   "desc": "cool all year :: ideal for storage, hard for people"
  },
  {
+  "id": "08-03-0",
+  "chapter": "08_life_below",
+  "para": 3,
+  "idx": 0,
+  "kind": "photo",
+  "size": "WS",
+  "move": "slow pan",
+  "grade": "neutral",
+  "refs": [],
+  "q": "POOL 28",
+  "desc": "Wide room in the upper levels of Derinkuyu"
+ },
+ {
   "id": "08-04-0",
   "chapter": "08_life_below",
   "para": 4,
@@ -1311,6 +1337,18 @@
   ],
   "q": "A circular door at Kaymakli Underground City",
   "desc": "Circular door at Kaymaklı"
+ },
+ {
+  "id": "09-02-0",
+  "chapter": "09_the_doors",
+  "para": 2,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "a hole in the centre :: what it was for is not certain"
  },
  {
   "id": "09-03-0",
@@ -1562,6 +1600,18 @@
   "desc": "Carved room in Kaymaklı"
  },
  {
+  "id": "11-04-0",
+  "chapter": "11_dating_the_rock",
+  "para": 4,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "the honest answer :: we do not know when it was begun"
+ },
+ {
   "id": "12-00-0",
   "chapter": "12_the_rock_churches",
   "para": 0,
@@ -1794,6 +1844,18 @@
   "refs": [],
   "q": "Cappadocia village cliff dwellings",
   "desc": "Cappadocian village beneath carved cliffs"
+ },
+ {
+  "id": "13-02-1",
+  "chapter": "13_houses_in_the_rock",
+  "para": 2,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "the rich carved outward :: the farmers dug down"
  },
  {
   "id": "13-03-0",
@@ -2080,6 +2142,18 @@
   "desc": "Ottoman-period village mosque and houses in Cappadocia"
  },
  {
+  "id": "15-04-1",
+  "chapter": "15_turks_and_ottomans",
+  "para": 4,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "15th–16th centuries :: Cappadocia becomes an Ottoman province"
+ },
+ {
   "id": "15-05-0",
   "chapter": "15_turks_and_ottomans",
   "para": 5,
@@ -2124,6 +2198,18 @@
   ],
   "q": "Mustafapasa Sinasos Greek house",
   "desc": "Stone mansion of the Greek period in Mustafapaşa"
+ },
+ {
+  "id": "15-07-0",
+  "chapter": "15_turks_and_ottomans",
+  "para": 7,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "still there :: the rooms beneath the village houses"
  },
  {
   "id": "16-00-0",
@@ -2247,6 +2333,18 @@
   "desc": "Old houses of a Cappadocian village"
  },
  {
+  "id": "16-06-1",
+  "chapter": "16_malakopi",
+  "para": 6,
+  "idx": 1,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "about 400,000 :: Muslims moved from Greece to Turkey in the exchange"
+ },
+ {
   "id": "16-07-0",
   "chapter": "16_malakopi",
   "para": 7,
@@ -2296,6 +2394,18 @@
   "refs": [],
   "q": "POOL 25",
   "desc": "Visitors on the stairs of Derinkuyu today"
+ },
+ {
+  "id": "17-02-0",
+  "chapter": "17_rediscovery",
+  "para": 2,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "1963 to 1969 :: clearing the levels before the city opened"
  },
  {
   "id": "17-03-0",
@@ -2350,6 +2460,18 @@
   "refs": [],
   "q": "POOL 0",
   "desc": "Looking down a lit shaft in Derinkuyu"
+ },
+ {
+  "id": "17-06-0",
+  "chapter": "17_rediscovery",
+  "para": 6,
+  "idx": 0,
+  "kind": "stat",
+  "size": "STAT",
+  "move": "static",
+  "grade": "neutral",
+  "refs": [],
+  "desc": "two towns :: one above the other"
  },
  {
   "id": "18-00-0",

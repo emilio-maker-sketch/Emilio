@@ -1,4 +1,4 @@
-# REFUGE FROM THE RAIDS
+# CHAPTER FOURTEEN: REFUGE FROM THE RAIDS
 
 We are on firmer ground with the period when the city was used most. From the seventh century AD, Cappadocia became a frontier. To the south-east lay the new Islamic caliphate, to the west the Christian Byzantine Empire, and for roughly three centuries armies and raiding parties crossed this plateau again and again.
 > MAP | slow push | map | map | | Map of the Byzantine–Arab frontier c. 800 AD: Byzantine Anatolia, the Caliphate, the Taurus passes, Cappadocia on the frontier

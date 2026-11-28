@@ -1,4 +1,4 @@
-# STONE THAT WEARS AWAY
+# CHAPTER TWO: STONE THAT WEARS AWAY
 
 The fairy chimneys are beautiful, but they are also a warning. The same softness that let people carve the rock lets wind, rain and frost carve it too. Every winter, water seeps into cracks, freezes and pushes the rock apart. Every spring, the meltwater carries the loosened grains away.
 > EWS | slow pan | photo | neutral | | Fairy chimneys with dark cap stones [q: Cappadocia Goreme red valley fairy chimneys badlands tele]

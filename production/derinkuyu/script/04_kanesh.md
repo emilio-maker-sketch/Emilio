@@ -1,4 +1,4 @@
-# THE MERCHANTS OF KANESH
+# CHAPTER FOUR: THE MERCHANTS OF KANESH
 
 Long before anyone dug Derinkuyu, Cappadocia was already one of the busiest places in the ancient world. Nearly a hundred kilometres north-east of Derinkuyu, near the modern city of Kayseri, stands a great mound called Kültepe. Under it lie the ruins of a city that its own people called Kanesh.
 > MAP | slow push | map | map | | Map of Cappadocia: Kültepe (Kanesh) near Kayseri, about 94 km north-east of Derinkuyu; distance computed

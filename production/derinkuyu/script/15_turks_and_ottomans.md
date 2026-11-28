@@ -1,4 +1,4 @@
-# NEW MASTERS
+# CHAPTER FIFTEEN: NEW MASTERS
 
 In August 1071, near the town of Manzikert, far to the east, the Byzantine emperor Romanos the Fourth met the army of the Seljuk sultan Alp Arslan. The Byzantine army was defeated and the emperor himself was captured. In the years of confusion that followed, Turkish groups spread across the Anatolian plateau, and Cappadocia passed out of Byzantine control.
 > MAP | slow push | map | map | | Map: Manzikert 1071, far east of Cappadocia; Seljuk advance across Anatolia; positions approximate
@@ -17,6 +17,7 @@ The Christians of Cappadocia did not disappear. Under the Seljuks and later unde
 Under the Ottomans, who took over Cappadocia in the fifteenth and sixteenth centuries, the region became a quiet province of the empire, far from the great cities. Villages were taxed, soldiers recruited, and roads maintained, but there were also long periods of insecurity, of bandits and local revolts. The underground rooms beneath the villages, still known to the people who lived above them, kept their old purpose as stores and, when needed, as hiding places.
 > WS | slow pan | photo | neutral | | Ottoman-period village mosque and houses in Cappadocia [q: Cappadocia village mosque Ottoman]
 
+> STAT | static | stat | neutral | | 15th–16th centuries :: Cappadocia becomes an Ottoman province
 Many of these Christians gradually came to speak Turkish as their everyday language while keeping their Orthodox faith. They are known as the Karamanlides. They wrote Turkish in the Greek alphabet, and from the eighteenth century onwards printed whole books this way, Bibles, prayer books and newspapers, in a script that today almost no one can read.
 > CU | slow push | photo | neutral | | A Karamanli book on display {LT: A Karamanli book | Turkish written in Greek letters} [q: Karamanlidika]
 > CARD | static | card | neutral | | KARAMANLIDES · Orthodox Christians who spoke Turkish
@@ -25,3 +26,5 @@ In the nineteenth century, some of these villages grew rich. Men went to work in
 > WS | slow push | photo | neutral | | Stone mansion of the Greek period in Mustafapaşa {LT: Mustafapaşa | the former Greek village of Sinasos} [q: Mustafapasa Sinasos Greek house]
 
 And in many of these villages, under the houses, the old underground rooms were still there.
+
+> STAT | static | stat | neutral | | still there :: the rooms beneath the village houses

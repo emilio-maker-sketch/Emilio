@@ -1,8 +1,8 @@
-# THE LAND OF SOFT STONE
+# CHAPTER ONE: THE LAND OF SOFT STONE
 
 To understand Derinkuyu you have to start with the ground it was cut from. Cappadocia lies on the high plateau of central Anatolia. Millions of years ago, volcanoes such as Erciyes and Hasan buried this landscape under thick layers of ash. Pressed and settled over time, the ash became a pale, soft rock called tuff.
 > MAP | slow push | map | map | | Map of Cappadocia: Derinkuyu, Kaymaklı, Nevşehir, Göreme, and the volcanoes Erciyes and Hasan
-> EWS | slow pan | photo | neutral | | Mount Erciyes volcano seen across the Cappadocian plain {LT: Mount Erciyes | an extinct volcano, 3,917 m} [q: Mount Erciyes volcano Kayseri]
+> EWS | slow pan | photo | neutral | | Mount Erciyes volcano seen across the Cappadocian plain {LT: Mount Erciyes | a volcano, 3,917 m} [q: Mount Erciyes volcano Kayseri]
 > WS | drift | photo | neutral | | Layered volcanic tuff cliffs in Cappadocia [q: Cappadocia tuff layers cliff]
 
 The volcanoes were not only ancient history. Mount Hasan, west of Derinkuyu, erupted within the time of human memory. Geologists who dated its youngest rocks found an eruption about nine thousand years ago, and some archaeologists think a wall painting at Çatalhöyük, a Neolithic town on the Konya plain, shows a twin-peaked volcano erupting above a settlement. Whether the painting really shows Hasan is still debated. But the people of this region have lived beside volcanoes for as long as there have been people here.

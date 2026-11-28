@@ -7,13 +7,13 @@ dates, paper on documents, a thud under quotes). Hits are thinned so no two land
 import os, json, re
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TRACKS = {
- '00_cold_open': ['Ossuary 1 - A Beginning'], '01_the_new_city': ['Echoes of Time v2', 'Unwritten Return'], '02_queen_of_the_sea': ['Eternal Hope', 'Lost Frontier'],
- '03_the_first_war': ['Dark Times', 'Long Note One'], '04_the_oath': ['Long Note Three', 'Ossuary 2 - Turn'], '05_hannibal': ['Dreams Become Real', 'Lightless Dawn'],
- '06_the_alps': ['Lost Frontier', 'Long Note Four'], '07_trebia_and_trasimene': ['Lightless Dawn', 'Dark Times'], '08_cannae': ['Anguish', 'Ossuary 5 - Rest'],
- '09_the_long_war': ['Long Note Two', 'Ossuary 6 - Air'], '10_scipio': ['Dreams Become Real', 'Echoes of Time v2'], '11_zama': ['Dark Times', 'Despair and Triumph'],
- '12_the_exile': ['Bittersweet', 'Long Note One'], '13_carthage_must_be_destroyed': ['Long Note Three', 'Unwritten Return'],
- '14_the_ultimatum': ['Ossuary 2 - Turn', 'Lightless Dawn'], '15_the_siege': ['Long Note Four', 'Dark Times'], '16_the_fall': ['Anguish', 'Ossuary 5 - Rest'],
- '17_after_carthage': ['Eternal Hope', 'Bittersweet']}
+ '00_cold_open': ['Ossuary 1 - A Beginning'], '01_the_soft_stone': ['Echoes of Time v2', 'Long Note One'], '02_fairy_chimneys': ['Eternal Hope', 'Unwritten Return'],
+ '03_how_it_was_built': ['Long Note Three', 'Dreams Become Real'], '04_kanesh': ['Lost Frontier', 'Echoes of Time v2'], '05_katpatuka': ['Eternal Hope', 'Long Note Two'],
+ '06_going_down': ['Ossuary 6 - Air', 'Long Note Four'], '07_air_and_water': ['Long Note One', 'Ossuary 2 - Turn'], '08_life_below': ['Lightless Dawn', 'Long Note Three'],
+ '09_the_doors': ['Dark Times', 'Ossuary 5 - Rest'], '10_who_dug_it': ['Long Note Two', 'Dreams Become Real'], '11_dating_the_rock': ['Long Note Four', 'Ossuary 6 - Air'],
+ '12_the_rock_churches': ['Bittersweet', 'Eternal Hope'], '13_houses_in_the_rock': ['Unwritten Return', 'Echoes of Time v2'], '14_the_raids': ['Anguish', 'Dark Times'],
+ '15_turks_and_ottomans': ['Lost Frontier', 'Long Note One'], '16_malakopi': ['Bittersweet', 'Despair and Triumph'], '17_rediscovery': ['Dreams Become Real', 'Long Note Two'],
+ '18_kaymakli_and_ozkonak': ['Ossuary 2 - Turn', 'Long Note Three'], '19_cities_underground': ['Lost Frontier', 'Eternal Hope'], '20_what_we_know': ['Despair and Triumph', 'Bittersweet']}
 AMB = {'fire': [('fire.wav', 0.30)], 'night': [('night.wav', 0.28)], 'steel': [('wind.wav', 0.20)], 'snow': [('wind.wav', 0.42)],
        'dawn': [('wind.wav', 0.20)], 'ash': [('wind.wav', 0.14)], 'gold': [('wind.wav', 0.06)], 'candle': [('fire.wav', 0.05)]}
 BEDS = {'waves.wav': (r'\b(sea|ship|harbour|fleet|galley|galleys|surf|shore|lagoon|strait)', 0.26),

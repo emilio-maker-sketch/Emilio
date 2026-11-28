@@ -1,4 +1,4 @@
-# GOING DOWN
+# CHAPTER SIX: GOING DOWN
 
 From the street, almost nothing shows. The entrance is a low doorway in a modest building in the middle of town. Inside, a passage slopes down, so narrow and low in places that visitors have to stoop and walk in single file. That was not an accident. A narrow passage is easy to defend.
 > WS | slow push | photo | neutral | | The square at the centre of Derinkuyu today [q: POOL 53]
@@ -16,6 +16,7 @@ Below them the city keeps going. Stairs and ramps lead from one level to the nex
 
 Deep down is a long room with a vaulted ceiling, often called the missionary school, though the name is a modern guess. Lower still is a cross-shaped church cut into the rock. A church this deep tells us something important about the people who used the city at a later stage of its history: they were Christians.
 
+> WS | slow push | photo | neutral | | Long room with a rock pillar deep in Derinkuyu [q: POOL 20]
 Moving between levels was deliberately awkward. Stairs turn, passages narrow, and in places a visitor must crouch to pass. An attacker coming down would have to do so one at a time, bent over, in the dark, while the defenders waited on the far side of a stone door. The architecture itself was a weapon.
 > MS | handheld | photo | neutral | | Visitors in a low passage, Derinkuyu [q: POOL 30]
 

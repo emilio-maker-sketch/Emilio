@@ -1,0 +1,281 @@
+lower third	Derinkuyu today | Nevşehir province, Turkey
+lower third	A rolling stone door | Derinkuyu
+statistic	1963
+statistic	the year a house renovation broke into the underground city
+lower third	Kaymaklı | another underground city, 10 km away
+card	DERINKUYU
+card	The City Beneath Cappadocia
+map text	CAPPADOCIA
+map text	central Anatolia, Turkey
+map text	Mount Erciyes
+map text	Mount Hasan
+map text	Kayseri
+map text	Nevşehir
+map text	Göreme
+map text	Niğde
+map text	Kaymaklı
+map text	Derinkuyu
+lower third	Mount Erciyes | an extinct volcano, 3,917 m
+lower third	Mount Hasan | a volcano west of Derinkuyu
+statistic	about 9,000 years ago
+statistic	the youngest dated eruption of Mount Hasan
+lower third	Göreme Open Air Museum | rock-cut church
+map text	THE UNDERGROUND CITIES
+map text	central Cappadocia
+map text	about 10 km
+map text	Özkonak
+map text	underground city open to visitors
+map text	positions from map coordinates
+lower third	Kaymaklı underground city | a few kilometres north of Derinkuyu
+lower third	Özkonak underground city | north of Avanos
+statistic	1985
+statistic	UNESCO World Heritage listing, Göreme National Park and the Rock Sites of Cappadocia
+map text	HOW A FAIRY CHIMNEY FORMS
+map text	schematic
+map text	hard layer over soft tuff
+map text	the cap shields the cone
+map text	cap falls; the cone wears away
+lower third	Zelve | abandoned in the 1950s
+lower third	Uçhisar | a crag of tuff honeycombed with rooms
+map text	CUTTING A ROOM
+map text	the town today
+map text	working forward into the rock face
+map text	loose rock carried up in baskets
+map text	A CITY THAT GREW
+map text	schematic; dates uncertain
+map text	earlier rooms (date unknown)
+map text	deeper levels added later
+map text	WHY IT STANDS
+map text	small rooms
+map text	thick rock left between rooms
+map text	lower level offset, standing on solid rock
+statistic	by hand, over generations
+statistic	how Derinkuyu was built
+map text	KANESH
+map text	Kültepe, near Kayseri
+map text	Kanesh (Kültepe)
+map text	about 94 km
+lower third	Kültepe | the site of ancient Kanesh, near Kayseri
+map text	FROM ASSUR TO KANESH
+map text	about 1900 BC
+map text	Assur
+map text	Kanesh
+map text	donkey caravans: tin and cloth west, silver and gold east
+map text	about 800 km in a straight line
+map text	caravan route
+map text	route approximate
+lower third	A merchant's letter | Kültepe, about 1900 BC
+statistic	more than 20,000
+statistic	clay tablets found at Kültepe
+lower third	Museum of Anatolian Civilizations | Ankara, where many Kültepe finds are kept
+lower third	Hattusa | capital of the Hittites
+statistic	nesili
+statistic	"the language of Nesa", the Hittites' own name for their language
+map text	THE HITTITE HEARTLAND
+map text	about 1600–1200 BC
+map text	Hattusa
+map text	Hittite core lands
+map text	borders approximate
+lower third	The Behistun inscription | Darius the Great, about 520 BC
+card	KATPATUKA
+card	Cappadocia
+lower third	Coin of Ariarathes | king of Cappadocia
+map text	THE KINGDOM OF CAPPADOCIA
+map text	2nd century BC
+map text	Mazaca
+map text	Kingdom of Cappadocia
+lower third	Kayseri | ancient Mazaca, later Caesarea
+statistic	17 AD
+statistic	Cappadocia becomes a Roman province
+map text	COMANA
+map text	a temple-state of Cappadocia
+map text	Caesarea
+map text	Comana (Şar)
+map text	ROMAN CAPPADOCIA
+map text	from AD 17
+map text	Ancyra
+map text	Melitene
+map text	Samosata
+map text	the Euphrates frontier
+map text	main roads east
+map text	routes approximate
+lower third	Codex Sinaiticus | 4th century, includes Acts and 1 Peter
+statistic	Acts 2:9 · 1 Peter 1:1
+statistic	Cappadocia in the New Testament
+map text	DERINKUYU IN SECTION
+map text	schematic; levels simplified
+map text	20 m
+map text	40 m
+map text	60 m
+map text	about 85 m
+map text	stables, kitchens, presses
+map text	lowest known level
+map text	at least eight levels known
+statistic	the depth of the lowest known level
+map text	AIR AND WATER
+map text	fresh air in
+map text	stale air out
+map text	air shaft
+map text	well shaft
+map text	groundwater
+statistic	about 55 m
+statistic	the reported depth of one of the city's wells
+statistic	cool all year
+statistic	ideal for storage, hard for people
+map text	THE ROLLING STONE DOOR
+map text	outside
+map text	inside the city
+map text	slot cut into the wall
+map text	rolled across from inside
+map text	view from above; sizes not to scale
+lower third	A rolling stone door | Kaymaklı underground city
+statistic	a hole in the centre
+statistic	what it was for is not certain
+map text	ANATOLIA
+map text	Phrygia and Cappadocia
+map text	Phrygia
+map text	Gordion
+map text	Midas City
+map text	Phrygian heartland, 8th–6th centuries BC
+statistic	Anabasis 4.5.25
+statistic	houses dug into the ground, entered through a narrow opening like a well
+map text	THE MARCH OF THE TEN THOUSAND
+map text	401–400 BC
+map text	Armenia
+map text	Trapezus
+map text	about 590 km
+map text	Xenophon's route through Armenia
+map text	positions approximate
+statistic	Armenia, not Cappadocia
+statistic	where Xenophon saw his underground houses
+lower third	Yerkapı | Hittite tunnel, Hattusa
+map text	WHY CARVED ROOMS ARE HARD TO DATE
+map text	a mound: layers build up, oldest at the bottom
+map text	a carved room: rock removed, no layers left
+timeline	Bronze Age: merchants at Kanesh (no link to Derinkuyu known)
+timeline	8th–6th centuries BC: Phrygian period (link suggested, not proven)
+timeline	4th century AD: Christian Cappadocia
+timeline	7th–10th centuries: the raids, main period of use
+timeline	until 1923: still used
+lower third	Kaymaklı | a neighbouring underground city
+statistic	the honest answer
+statistic	we do not know when it was begun
+lower third	Basil of Caesarea | about 330 to 379
+card	THE CAPPADOCIAN FATHERS
+card	Basil of Caesarea
+card	Gregory of Nyssa
+card	Gregory of Nazianzus
+statistic	4th century
+statistic	Basil founds a refuge for the poor and sick outside Caesarea
+lower third	A monks' refectory | carved from the rock, Göreme
+lower third	The Ihlara valley | south-west of Derinkuyu
+lower third	The Tokalı church | Göreme, 10th century
+lower third	The Dark Church | Göreme, 11th century
+lower third	Açıksaray | rock-cut courtyard complexes
+lower third	Selime | Ihlara valley
+lower third	A dovecote | carved into the tuff
+map text	THE BYZANTINE–ARAB FRONTIER
+map text	c. 800 AD
+map text	Byzantine Empire
+map text	Abbasid Caliphate
+map text	Taurus passes
+map text	Constantinople
+map text	Tarsus
+timeline	c. 640s: Arab armies first raid Anatolia
+timeline	717–718: Arab siege of Constantinople fails
+timeline	9th century: raids across Cappadocia continue
+timeline	10th century: Byzantium pushes the frontier east
+lower third	The Taurus Mountains | southern edge of the Anatolian plateau
+map text	THE INVASION OF 806
+map text	Harun al-Rashid
+map text	Cilician Gates
+map text	Tyana
+map text	Heraclea
+map text	about 61 km
+map text	Abbasid army, 806
+lower third	Tyana today | Kemerhisar, Niğde
+statistic	806
+statistic	Harun al-Rashid's army reaches Tyana, about 60 km from Derinkuyu
+card	DIGENIS AKRITIS
+card	"the two-blooded border lord"
+map text	THE CAMPAIGN OF 838
+map text	al-Mu'tasim
+map text	Amorium
+map text	one Abbasid army, 838
+statistic	838
+statistic	the sack of Amorium
+map text	MANZIKERT
+map text	1071
+map text	Konya
+map text	Manzikert
+map text	Turkish advance after 1071
+statistic	the battle of Manzikert
+lower third	Sultanhanı caravanserai | near Aksaray, 1229
+lower third	The Soğanlı valley | south of Derinkuyu
+lower third	A Karamanli book | Turkish written in Greek letters
+card	KARAMANLIDES
+card	Orthodox Christians who spoke Turkish
+lower third	Mustafapaşa | the former Greek village of Sinasos
+lower third	The church of St Theodore | Derinkuyu
+card	MALAKOPI
+card	"deep well"
+lower third	Richard M. Dawkins | scholar of Cappadocian Greek
+statistic	1923
+statistic	the population exchange between Greece and Turkey
+statistic	religion, not language
+statistic	the test of the 1923 exchange
+map text	from Gelveri to Nea Karvali
+map text	Gelveri (Güzelyurt)
+map text	Nea Karvali
+map text	about 34 km from Derinkuyu
+map text	refugees, 1923–24
+map text	route schematic
+statistic	1969
+statistic	Derinkuyu opens to visitors
+map text	DERINKUYU AND KAYMAKLI
+map text	about 10 km apart
+map text	tunnel reported, not confirmed
+map text	NEVŞEHIR
+map text	2014
+map text	about 28 km
+lower third	Nevşehir | the castle hill
+lower third	Kaymaklı underground city | opened to visitors in 1964
+statistic	1964
+statistic	Kaymaklı opens to visitors
+lower third	Özkonak underground city | near Avanos
+statistic	1972
+statistic	Özkonak found, according to the local account
+map text	THE THREE BEST KNOWN
+map text	and dozens more across the region
+map text	Avanos
+lower third	Naours | Picardy, France
+lower third	Matmata | southern Tunisia
+map text	REFUGES UNDERGROUND
+map text	Naours
+map text	Matmata
+map text	Xenophon's Armenia
+statistic	safety · steady temperature
+statistic	the two reasons people went underground
+lower third	Tatlarin today | above one of the smaller underground settlements
+lower third	Coober Pedy | an underground church, South Australia
+statistic	at least 8
+statistic	the number of levels known; 18 is unsupported
+statistic	up to 20,000
+statistic	a popular estimate with no published calculation behind it
+split label	The claim: 18 levels, 20,000 people
+split label	The evidence: at least 8 levels, no published count
+timeline	Confirmed: rolling stone doors
+timeline	Confirmed: the church in the lower levels
+timeline	Confirmed: at least eight levels, about 85 m
+timeline	Reported: a 55 m well
+timeline	Reported: tunnel to Kaymaklı
+timeline	Possible: Phrygian origins
+timeline	Unsupported: 18 levels
+timeline	uncertain date: first chambers cut
+timeline	7th–10th centuries: enlarged as a refuge from raids
+timeline	1923: Christian inhabitants leave in the population exchange
+timeline	1963: rediscovered
+timeline	1969: opened to visitors
+timeline	1985: UNESCO World Heritage listing
+lower third	Kaymaklı | only part is open to visitors
+card	end card (credits)

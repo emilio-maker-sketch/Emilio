@@ -1,4 +1,4 @@
-# HOW IT WAS BUILT
+# CHAPTER THREE: HOW IT WAS BUILT
 
 So how do you build a city by digging down? Start with what the builders had. They had a rock that is soft when fresh, and which a person can cut with hand tools. They had iron picks and adzes. They had oil lamps, baskets and rope. And they had time: not years, but generations. That turns out to be enough.
 > WS | slow push | photo | neutral | | Narrow carved stairway in Derinkuyu [q: POOL 40]

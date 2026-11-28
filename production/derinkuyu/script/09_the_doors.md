@@ -1,4 +1,4 @@
-# THE DOORS
+# CHAPTER NINE: THE DOORS
 
 The most famous objects in Derinkuyu are its doors. They are not doors in the ordinary sense. They are great discs of stone, shaped like millstones, standing on edge in a slot beside the passage. When danger came, the people inside rolled the stone across the opening and sealed it.
 > WS | slow push | photo | neutral | | Rolling stone door in its slot beside a passage, Derinkuyu [q: Roling door in Derinkuyu]
@@ -9,6 +9,7 @@ Look closely at how they sit and you see the logic. The slot is on the inside. T
 
 Some descriptions add that the doors had a hole in the centre, through which defenders could thrust a spear at anyone outside. Several of the stones do have central holes, but what they were for is not certain. They may simply have helped people move the stones.
 
+> STAT | static | stat | neutral | | a hole in the centre :: what it was for is not certain
 Kaymaklı and Özkonak have the same kind of doors, cut and placed in the same way. That suggests a shared tradition, a way of building that spread from village to village across the region. Whoever designed the first one, it worked well enough to be copied again and again.
 > MS | slow push | photo | neutral | | Rolling stone door at Kaymaklı [q: Kaymakli underground city 8899 Nevit]
 

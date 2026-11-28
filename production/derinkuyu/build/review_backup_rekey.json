@@ -1,0 +1,1204 @@
+{
+ "00-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "00-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.42,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Derinkuyu main square with the town sign"
+ },
+ "00-00-2": {
+  "status": "VERIFIED",
+  "focus": [
+   0.28,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; crop removes the modern sign",
+  "crop": [
+   0.12,
+   0.1,
+   1,
+   1
+  ]
+ },
+ "00-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.38
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "00-01-2": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.42
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "00-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "00-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli interior, labelled as Kaymakli"
+ },
+ "00-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.52,
+   0.78
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "01-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.25
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Mount Erciyes"
+ },
+ "01-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Mount Hasan; crop removes the fence and depot in the foreground",
+  "crop": [
+   0,
+   0.18,
+   1,
+   0.6
+  ]
+ },
+ "01-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.65,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "01-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; frescoed ceiling, G\u00f6reme"
+ },
+ "01-05-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.65
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli interior"
+ },
+ "01-05-2": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; \u00d6zkonak entrance"
+ },
+ "02-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "01-06-0": {
+  "status": "REJECTED",
+  "note": "same view as 00-02-0 (another file of the same panorama): a reuse"
+ },
+ "02-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "02-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.78,
+   0.25
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; capstones"
+ },
+ "02-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Zelve"
+ },
+ "02-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.72,
+   0.3
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Uchisar"
+ },
+ "02-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.75,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; tool-marked tuff wall"
+ },
+ "03-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "01-00-2": {
+  "status": "REJECTED",
+  "note": "full-size check: shows the modern town of G\u00f6reme with hotels, not layered tuff cliffs"
+ },
+ "01-01-1": {
+  "status": "REJECTED",
+  "note": "full-size check: a geometric wall painting, not the painting read as a volcano; would mislead"
+ },
+ "01-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rock-cut dwellings from above"
+ },
+ "01-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.7
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; carved dwellings at Zelve"
+ },
+ "02-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-04-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.2,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rock pillar between rooms"
+ },
+ "03-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "03-05-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rolling stone"
+ },
+ "03-06-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "04-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; K\u00fcltepe excavations"
+ },
+ "04-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; karum trench"
+ },
+ "04-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Old Assyrian tablet"
+ },
+ "04-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; tablet in its envelope"
+ },
+ "04-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; tablets in a museum case"
+ },
+ "04-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; museum gallery, Ankara"
+ },
+ "04-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.25,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Lion Gate, Hattusa"
+ },
+ "04-05-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.35,
+   0.65
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Yaz\u0131l\u0131kaya reliefs"
+ },
+ "04-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; crop removes flowers in the foreground",
+  "crop": [
+   0,
+   0,
+   1,
+   0.72
+  ]
+ },
+ "05-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Behistun relief (drawing-like photo of the relief)"
+ },
+ "05-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; drachm of a king of Cappadocia"
+ },
+ "05-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.3
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; modern Kayseri with Erciyes; lower third says today"
+ },
+ "05-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Tiberius bust"
+ },
+ "05-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Codex Sinaiticus in a case"
+ },
+ "05-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "06-00-0": {
+  "status": "REJECTED",
+  "note": "full-size check: same town square as 00-00-1 from another angle: near-reuse"
+ },
+ "06-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.7
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; visitor in a narrow passage"
+ },
+ "06-00-2": {
+  "status": "VERIFIED",
+  "focus": [
+   0.7,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "06-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "06-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; basin cut into the floor"
+ },
+ "06-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "06-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; visitors in a low passage"
+ },
+ "06-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.65,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "06-05-1": {
+  "status": "REJECTED",
+  "note": "full-size check: almost entirely black; nothing readable at screen size"
+ },
+ "07-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; opening in the ceiling"
+ },
+ "07-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "07-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; water on the rock, Kaymakli"
+ },
+ "07-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "08-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "08-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "08-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "08-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "09-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rolling stone with central hole"
+ },
+ "09-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; crop removes the modern sign and arrow",
+  "crop": [
+   0,
+   0,
+   0.42,
+   1
+  ]
+ },
+ "09-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "09-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rolling stone beside a stairway"
+ },
+ "09-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "09-05-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "10-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; crop removes a modern sign and arrow at the left edge",
+  "crop": [
+   0.15,
+   0,
+   1,
+   1
+  ]
+ },
+ "10-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "10-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Anabasis manuscript page"
+ },
+ "10-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Yerkap\u0131 tunnel, Hattusa"
+ },
+ "10-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "11-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "11-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; passage with modern lighting cables: matches the narration about clearing for visitors"
+ },
+ "11-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.25
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Dark Church frescoes"
+ },
+ "11-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli room"
+ },
+ "12-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; mosaic of Basil; only 350 px wide, so no detail framings"
+ },
+ "12-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; refectory with rock-cut table; modern railing at the right is cropped",
+  "crop": [
+   0,
+   0,
+   0.85,
+   1
+  ]
+ },
+ "12-02-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Ihlara valley"
+ },
+ "12-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Tokali church apse"
+ },
+ "12-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.3
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Christ Pantocrator, Dark Church"
+ },
+ "12-03-2": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Baptism fresco"
+ },
+ "12-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; damaged fresco faces"
+ },
+ "12-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; G\u00f6reme valley"
+ },
+ "12-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "13-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; carved facade with painted crosses, A\u00e7\u0131ksaray"
+ },
+ "13-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; A\u00e7\u0131ksaray facade"
+ },
+ "13-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Selime complex"
+ },
+ "13-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; carved columns, Selime"
+ },
+ "13-02-0": {
+  "status": "REJECTED",
+  "note": "full-size check: restored village with modern buildings, a satellite dish and a parabolic antenna: not a period view"
+ },
+ "13-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; carved dovecote"
+ },
+ "13-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; fresco in the A\u011fa\u00e7alt\u0131 church; lower third says it is Ihlara"
+ },
+ "14-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Taurus mountains"
+ },
+ "14-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "14-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.65,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Tyana aqueduct; parked car and modern van at the right are cropped",
+  "crop": [
+   0,
+   0,
+   0.88,
+   0.8
+  ]
+ },
+ "14-04-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "14-07-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "15-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Sultanhan\u0131 courtyard; modern floodlights small, kept"
+ },
+ "15-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Sultanhan\u0131 kiosk mosque, black and white"
+ },
+ "15-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; later frescoed church, So\u011fanl\u0131"
+ },
+ "15-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; So\u011fanl\u0131 valley"
+ },
+ "15-04-0": {
+  "status": "REJECTED",
+  "note": "full-size check: modern town with solar panels and hotels; illustrates nothing period"
+ },
+ "15-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.35,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Karamanli book in a case"
+ },
+ "15-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.65,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; stone house in Mustafapa\u015fa; parked cars cropped out",
+  "crop": [
+   0.3,
+   0,
+   0.9,
+   0.85
+  ]
+ },
+ "16-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; St Theodore church, Derinkuyu"
+ },
+ "16-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; R. M. Dawkins, cropped to him alone",
+  "crop": [
+   0,
+   0,
+   0.78,
+   1
+  ]
+ },
+ "16-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; painted dome of St Theodore"
+ },
+ "16-03-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Greek and Armenian refugee children, early 1920s"
+ },
+ "16-06-0": {
+  "status": "REJECTED",
+  "note": "full-size check: modern village street with solar water heater and plastic sheeting"
+ },
+ "16-07-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "17-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; visitors in a lit passage"
+ },
+ "17-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; no-smoking sign at upper right cropped",
+  "crop": [
+   0,
+   0.15,
+   0.85,
+   1
+  ]
+ },
+ "17-04-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.3
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Nev\u015fehir castle"
+ },
+ "17-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; shaft seen from above"
+ },
+ "18-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli, with modern stairs (narration is about visiting today)"
+ },
+ "18-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli room; modern orange paint cropped",
+  "crop": [
+   0,
+   0.45,
+   1,
+   1
+  ]
+ },
+ "18-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "18-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "18-03-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; \u00d6zkonak rolling stone; small sign at top left cropped",
+  "crop": [
+   0.15,
+   0.2,
+   1,
+   1
+  ]
+ },
+ "18-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; \u00d6zkonak room"
+ },
+ "18-05-0a": {
+  "status": "VERIFIED",
+  "focus": [
+   0.3,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Derinkuyu rolling stone; sign at left cropped",
+  "crop": [
+   0.12,
+   0,
+   1,
+   1
+  ]
+ },
+ "18-05-0b": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli"
+ },
+ "19-00-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli"
+ },
+ "19-01-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Naours tunnel"
+ },
+ "19-02-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.35,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Matmata room with pots"
+ },
+ "19-02-1": {
+  "status": "REJECTED",
+  "note": "full-size check: modern Matmata with cars, power lines and a new mosque; not a pit house"
+ },
+ "19-04-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Yerkap\u0131 tunnel"
+ },
+ "19-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.6,
+   0.65
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "19-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Tatlarin; 960 px, no detail framings"
+ },
+ "19-07-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Coober Pedy underground church; 1,024 px"
+ },
+ "20-00-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.5,
+   0.4
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "20-01-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "20-02-0a": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.6
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rolling stone in its slot"
+ },
+ "20-02-0b": {
+  "status": "VERIFIED",
+  "focus": [
+   0.8,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; rolling stone, edge on"
+ },
+ "20-04-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "20-05-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.35
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size"
+ },
+ "20-06-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.45,
+   0.55
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Kaymakli; lower third says so"
+ },
+ "20-07-0": {
+  "status": "VERIFIED",
+  "focus": [
+   0.4,
+   0.45
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; light at the top of a stairway"
+ },
+ "20-07-1": {
+  "status": "VERIFIED",
+  "focus": [
+   0.55,
+   0.5
+  ],
+  "note": "real photograph, Wikimedia Commons; checked at full size; Cappadocia at sunset"
+ }
+}

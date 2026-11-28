@@ -1,4 +1,4 @@
-# KATPATUKA
+# CHAPTER FIVE: KATPATUKA
 
 The name Cappadocia first appears in writing in the inscriptions of the Persian king Darius the Great, around 520 BC, as Katpatuka, one of the lands of his empire. You will often read that the name means the land of beautiful horses. It is a lovely story, but its origin is really unknown. What is certain is that Cappadocian horses were famous. The geographer Strabo says the province once paid the Persian king a yearly tribute that included fifteen hundred horses.
 > WS | slow push | photo | neutral | | The Behistun inscription of Darius the Great {LT: The Behistun inscription | Darius the Great, about 520 BC} [q: Behistun inscription Darius]

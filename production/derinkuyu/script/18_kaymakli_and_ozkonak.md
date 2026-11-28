@@ -1,4 +1,4 @@
-# KAYMAKLI AND ÖZKONAK
+# CHAPTER EIGHTEEN: KAYMAKLI AND ÖZKONAK
 
 Ten kilometres north of Derinkuyu lies its nearest rival. Kaymaklı was opened to visitors in 1964, a year after the discovery at Derinkuyu. It does not go as deep, but it spreads out widely beneath the village, and only part of it can be visited.
 > WS | slow push | photo | neutral | | Large room in Kaymaklı underground city {LT: Kaymaklı underground city | opened to visitors in 1964} [q: Kaymakli underground city 9003 Nevit]

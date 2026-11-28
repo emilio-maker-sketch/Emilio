@@ -1,4 +1,4 @@
-# REDISCOVERY
+# CHAPTER SEVENTEEN: REDISCOVERY
 
 After 1963, the people of Derinkuyu began clearing the passages they had found. Rubble and earth that had filled rooms for generations were carried up to the surface, level by level. A few years later, in 1969, the underground city was opened to visitors.
 > WS | slow push | photo | neutral | | Visitors in a chamber of Derinkuyu today [q: POOL 58]
@@ -9,6 +9,7 @@ Today it is one of the most visited sites in Turkey. Electric light and handrail
 
 Clearing a place like this is slow, dangerous work. Rooms were full of earth and fallen rock, and some passages had partly collapsed. As each level was cleared, it had to be made safe before visitors could follow, and some parts were left closed.
 
+> STAT | static | stat | neutral | | 1963 to 1969 :: clearing the levels before the city opened
 One of the most repeated claims is that a tunnel joins Derinkuyu to Kaymaklı, about ten kilometres away. A tunnel heading in that direction has been reported, but its full length has not been explored or published. It may connect the two cities. It may not.
 > MAP | slow push | map | map | | Map: Derinkuyu and Kaymaklı, about 10 km apart, with the reported tunnel shown dashed and marked unconfirmed
 
@@ -20,3 +21,5 @@ Research continues. In 2025, a study of the acoustics of Derinkuyu's deep shafts
 > WS | slow push | photo | neutral | | Looking down a lit shaft in Derinkuyu [q: POOL 0]
 
 Tourism has changed the town above as well. Coach parties arrive every morning, and the shops on the main street sell carpets and pottery. Behind them, in ordinary courtyards, there are still doors that open onto stairs going down. Derinkuyu has never really stopped being two towns, one above the other.
+
+> STAT | static | stat | neutral | | two towns :: one above the other

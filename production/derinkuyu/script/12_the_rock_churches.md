@@ -1,4 +1,4 @@
-# THE ROCK CHURCHES
+# CHAPTER TWELVE: THE ROCK CHURCHES
 
 In the fourth century, three men from Cappadocia shaped Christian thought for the rest of history. Basil, bishop of Caesarea, his younger brother Gregory of Nyssa, and their friend Gregory of Nazianzus are known together as the Cappadocian Fathers. Their writings helped to settle the doctrine of the Trinity that most Christian churches still hold today.
 > MS | slow push | photo | neutral | | Icon or mosaic of Saint Basil the Great {LT: Basil of Caesarea | about 330 to 379} [q: Basil the Great mosaic icon]

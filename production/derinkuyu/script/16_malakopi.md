@@ -1,4 +1,4 @@
-# MALAKOPI
+# CHAPTER SIXTEEN: MALAKOPI
 
 For most of its later history, the town above Derinkuyu was not called Derinkuyu at all. Its Greek-speaking Christian inhabitants called it Malakopi. Derinkuyu is Turkish and means deep well.
 > WS | slow pan | photo | neutral | | The church of St Theodore in Derinkuyu, built by the Greek Orthodox community {LT: The church of St Theodore | Derinkuyu} [q: POOL 63]
@@ -23,5 +23,6 @@ The villages emptied. People were allowed to take only what they could carry. So
 Muslim families arriving from Greece were settled in the houses they left behind. In the space of a few years, the population of many Cappadocian towns was almost completely replaced. The newcomers had no reason to know what the old cellars led to, and no one was left to tell them.
 > WS | drift | photo | neutral | | Old houses of a Cappadocian village [q: Mustafapasa village houses]
 
+> STAT | static | stat | neutral | | about 400,000 :: Muslims moved from Greece to Turkey in the exchange
 Forty years later, when a man knocked through his wall, the town above had new people who did not know the passages were there. The city had to be discovered all over again.
 > MS | slow push | photo | neutral | | Stairs leading up from a passage, Derinkuyu [q: POOL 12]
