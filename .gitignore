@@ -25,3 +25,6 @@ production/derinkuyu/build/*.log
 production/derinkuyu/build/photos/*.jpg
 production/derinkuyu/build/photos/*.png
 production/derinkuyu/build/stale.txt
+production/derinkuyu/build/audio/
+production/derinkuyu/build/parts/
+production/derinkuyu/build/prep/
