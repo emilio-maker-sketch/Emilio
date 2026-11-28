@@ -1,0 +1,168 @@
+{
+ "id": "05_katpatuka",
+ "title": "KATPATUKA",
+ "paras": [
+  {
+   "wav": "build/narration/05_katpatuka/00.wav",
+   "dur": 34.449,
+   "sentences": [
+    {
+     "text": "The name Cappadocia first appears in writing in the inscriptions of the Persian king Darius the Great, around 520 BC, as Katpatuka, one of the lands of his empire.",
+     "start": 0.0,
+     "end": 13.149
+    },
+    {
+     "text": "You will often read that the name means the land of beautiful horses.",
+     "start": 13.529,
+     "end": 17.873
+    },
+    {
+     "text": "It is a lovely story, but its origin is really unknown.",
+     "start": 18.253,
+     "end": 22.246
+    },
+    {
+     "text": "What is certain is that Cappadocian horses were famous.",
+     "start": 22.626,
+     "end": 26.273
+    },
+    {
+     "text": "The geographer Strabo says the province once paid the Persian king a yearly tribute that included fifteen hundred horses.",
+     "start": 26.653,
+     "end": 34.449
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/01.wav",
+   "dur": 22.773,
+   "sentences": [
+    {
+     "text": "The Persian empire fell to Alexander the Great in the 330s BC, but Cappadocia was never fully conquered by him.",
+     "start": 0.0,
+     "end": 9.125
+    },
+    {
+     "text": "After his death, a local dynasty took the title of king.",
+     "start": 9.505,
+     "end": 13.293
+    },
+    {
+     "text": "The kings of Cappadocia ruled from the city of Mazaca, at the foot of Mount Erciyes, and minted silver coins with their portraits.",
+     "start": 13.673,
+     "end": 22.773
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/02.wav",
+   "dur": 23.345,
+   "sentences": [
+    {
+     "text": "Squeezed between larger powers, the kings of Cappadocia learned to survive by choosing their friends carefully.",
+     "start": 0.0,
+     "end": 7.105
+    },
+    {
+     "text": "In the end they became clients of Rome.",
+     "start": 7.485,
+     "end": 10.031
+    },
+    {
+     "text": "The last king, Archelaus, renamed Mazaca Caesarea in honour of the emperor Augustus, and in the year 17 AD the emperor Tiberius made Cappadocia a Roman province.",
+     "start": 10.412,
+     "end": 23.345
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/03.wav",
+   "dur": 25.735,
+   "sentences": [
+    {
+     "text": "Rome's interest was not only strategic.",
+     "start": 0.0,
+     "end": 2.966
+    },
+    {
+     "text": "Cappadocia was a land of great estates, horses and flocks, and of temple-states where whole territories belonged to a god and were run by his priests.",
+     "start": 3.346,
+     "end": 13.4
+    },
+    {
+     "text": "The most famous was Comana, whose temple of the goddess Ma, Strabo says, had thousands of temple servants.",
+     "start": 13.78,
+     "end": 21.37
+    },
+    {
+     "text": "It was a very different world from the cities of the Aegean coast.",
+     "start": 21.75,
+     "end": 25.735
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/04.wav",
+   "dur": 17.277,
+   "sentences": [
+    {
+     "text": "Under Rome, the great roads to the eastern frontier ran across the plateau, and Caesarea grew into one of the important cities of Asia Minor.",
+     "start": 0.0,
+     "end": 9.256
+    },
+    {
+     "text": "Soldiers and supplies moved east along these roads.",
+     "start": 9.636,
+     "end": 13.392
+    },
+    {
+     "text": "So, in later centuries, would invaders moving west.",
+     "start": 13.772,
+     "end": 17.277
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/05.wav",
+   "dur": 22.162,
+   "sentences": [
+    {
+     "text": "Christianity arrived early.",
+     "start": 0.0,
+     "end": 2.038
+    },
+    {
+     "text": "When the New Testament describes the crowd in Jerusalem at Pentecost, Cappadocians are named among them.",
+     "start": 2.418,
+     "end": 9.495
+    },
+    {
+     "text": "The First Letter of Peter is addressed to Christians scattered across Asia Minor, Cappadocia among them.",
+     "start": 9.875,
+     "end": 16.563
+    },
+    {
+     "text": "By the fourth century, Caesarea was one of the great centres of the Christian world.",
+     "start": 16.943,
+     "end": 22.162
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/05_katpatuka/06.wav",
+   "dur": 13.641,
+   "sentences": [
+    {
+     "text": "It is in this Christian Cappadocia that the underground cities first come clearly into view.",
+     "start": 0.0,
+     "end": 5.842
+    },
+    {
+     "text": "But before we follow that story, let us go back down into Derinkuyu and see the city itself, level by level.",
+     "start": 6.222,
+     "end": 13.641
+    }
+   ]
+  }
+ ]
+}

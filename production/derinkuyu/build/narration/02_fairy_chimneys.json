@@ -1,0 +1,126 @@
+{
+ "id": "02_fairy_chimneys",
+ "title": "STONE THAT WEARS AWAY",
+ "paras": [
+  {
+   "wav": "build/narration/02_fairy_chimneys/00.wav",
+   "dur": 19.827,
+   "sentences": [
+    {
+     "text": "The fairy chimneys are beautiful, but they are also a warning.",
+     "start": 0.0,
+     "end": 3.72
+    },
+    {
+     "text": "The same softness that let people carve the rock lets wind, rain and frost carve it too.",
+     "start": 4.1,
+     "end": 10.078
+    },
+    {
+     "text": "Every winter, water seeps into cracks, freezes and pushes the rock apart.",
+     "start": 10.458,
+     "end": 15.506
+    },
+    {
+     "text": "Every spring, the meltwater carries the loosened grains away.",
+     "start": 15.886,
+     "end": 19.827
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/02_fairy_chimneys/01.wav",
+   "dur": 19.087,
+   "sentences": [
+    {
+     "text": "A chimney survives as long as its cap.",
+     "start": 0.0,
+     "end": 2.684
+    },
+    {
+     "text": "The cap is a block of harder rock, often a layer of more resistant volcanic material, that shields the soft tuff beneath it from the rain.",
+     "start": 3.064,
+     "end": 12.263
+    },
+    {
+     "text": "When the cap finally falls, the cone below begins to wear down quickly, and in time it disappears.",
+     "start": 12.643,
+     "end": 19.087
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/02_fairy_chimneys/02.wav",
+   "dur": 23.147,
+   "sentences": [
+    {
+     "text": "People have had to live with this.",
+     "start": 0.0,
+     "end": 1.871
+    },
+    {
+     "text": "At Zelve, a valley full of carved houses and churches, families lived in the rock until the middle of the twentieth century.",
+     "start": 2.251,
+     "end": 10.338
+    },
+    {
+     "text": "In the 1950s the danger of collapse became too great, and the inhabitants were moved to a new village nearby.",
+     "start": 10.718,
+     "end": 19.086
+    },
+    {
+     "text": "Zelve is now an open-air museum of empty rooms.",
+     "start": 19.466,
+     "end": 23.147
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/02_fairy_chimneys/03.wav",
+   "dur": 19.967,
+   "sentences": [
+    {
+     "text": "Not every carved hill was so fragile.",
+     "start": 0.0,
+     "end": 2.678
+    },
+    {
+     "text": "At U\u00e7hisar, a great crag of tuff rises over the surrounding valleys, honeycombed with rooms and passages.",
+     "start": 3.058,
+     "end": 10.736
+    },
+    {
+     "text": "It was a natural fortress, a lookout over the whole region, and from its top on a clear day you can see Mount Erciyes far to the east.",
+     "start": 11.116,
+     "end": 19.967
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/02_fairy_chimneys/04.wav",
+   "dur": 22.114,
+   "sentences": [
+    {
+     "text": "Underground, the rock is protected from all of this.",
+     "start": 0.0,
+     "end": 3.232
+    },
+    {
+     "text": "There is no frost, no rain and no wind below the first few metres.",
+     "start": 3.611,
+     "end": 8.14
+    },
+    {
+     "text": "That is one reason the underground cities have survived better than many of the carved houses above.",
+     "start": 8.52,
+     "end": 14.876
+    },
+    {
+     "text": "Their enemy is not the weather but water seeping through the rock, and the slow weight of the ground overhead.",
+     "start": 15.256,
+     "end": 22.114
+    }
+   ]
+  }
+ ]
+}

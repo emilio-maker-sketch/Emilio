@@ -1,0 +1,168 @@
+{
+ "id": "04_kanesh",
+ "title": "THE MERCHANTS OF KANESH",
+ "paras": [
+  {
+   "wav": "build/narration/04_kanesh/00.wav",
+   "dur": 21.198,
+   "sentences": [
+    {
+     "text": "Long before anyone dug Derinkuyu, Cappadocia was already one of the busiest places in the ancient world.",
+     "start": 0.0,
+     "end": 7.147
+    },
+    {
+     "text": "Nearly a hundred kilometres north-east of Derinkuyu, near the modern city of Kayseri, stands a great mound called K\u00fcltepe.",
+     "start": 7.527,
+     "end": 16.215
+    },
+    {
+     "text": "Under it lie the ruins of a city that its own people called Kanesh.",
+     "start": 16.595,
+     "end": 21.198
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/01.wav",
+   "dur": 26.038,
+   "sentences": [
+    {
+     "text": "Nearly four thousand years ago, in the twentieth and nineteenth centuries before Christ, merchants from the city of Assur, in what is now northern Iraq, settled at Kanesh.",
+     "start": 0.0,
+     "end": 11.355
+    },
+    {
+     "text": "They lived in their own quarter at the foot of the citadel, the karum, or harbour, although there was no sea.",
+     "start": 11.735,
+     "end": 18.185
+    },
+    {
+     "text": "Donkey caravans brought them tin and fine woollen cloth from Mesopotamia, which they sold for silver and gold.",
+     "start": 18.565,
+     "end": 26.038
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/02.wav",
+   "dur": 28.554,
+   "sentences": [
+    {
+     "text": "We know this in astonishing detail because the merchants wrote everything down.",
+     "start": 0.0,
+     "end": 5.24
+    },
+    {
+     "text": "More than twenty thousand clay tablets have been excavated at K\u00fcltepe: letters between business partners, contracts, loans, lawsuits, and letters from wives in Assur complaining that the money had not arrived.",
+     "start": 5.62,
+     "end": 20.138
+    },
+    {
+     "text": "They are written in Old Assyrian, in cuneiform, and they form one of the oldest large archives of private letters ever found.",
+     "start": 20.518,
+     "end": 28.554
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/03.wav",
+   "dur": 25.784,
+   "sentences": [
+    {
+     "text": "The letters are often startlingly human.",
+     "start": 0.0,
+     "end": 2.733
+    },
+    {
+     "text": "Merchants complain about prices and taxes, worry about smugglers on the road, and argue with their partners.",
+     "start": 3.113,
+     "end": 10.193
+    },
+    {
+     "text": "Women in Assur ran the weaving side of the business and wrote to their husbands and brothers in Kanesh, sometimes sharply, about money they were owed.",
+     "start": 10.573,
+     "end": 20.051
+    },
+    {
+     "text": "Some merchants married local women in Anatolia, and their contracts survive too.",
+     "start": 20.431,
+     "end": 25.784
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/04.wav",
+   "dur": 24.88,
+   "sentences": [
+    {
+     "text": "The tablets also preserve something else: the names of the local people.",
+     "start": 0.0,
+     "end": 4.511
+    },
+    {
+     "text": "Many of them are in an Indo-European language, the earliest trace of the language we call Hittite.",
+     "start": 4.891,
+     "end": 11.094
+    },
+    {
+     "text": "Later the Hittites themselves would call their own tongue nesili, the language of Nesa, which was another name for Kanesh.",
+     "start": 11.474,
+     "end": 19.487
+    },
+    {
+     "text": "In a sense, the written history of Anatolia begins here, in Cappadocia.",
+     "start": 19.867,
+     "end": 24.88
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/05.wav",
+   "dur": 23.819,
+   "sentences": [
+    {
+     "text": "The Hittite kingdom that followed ruled central Anatolia for centuries, from its capital at Hattusa, north-west of Cappadocia.",
+     "start": 0.0,
+     "end": 8.722
+    },
+    {
+     "text": "It fought Egypt at the battle of Kadesh and signed one of the earliest peace treaties that survives.",
+     "start": 9.102,
+     "end": 14.983
+    },
+    {
+     "text": "When it collapsed, around 1200 BC, the region broke into smaller kingdoms, and for a while the written record grows thin.",
+     "start": 15.363,
+     "end": 23.819
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/04_kanesh/06.wav",
+   "dur": 20.88,
+   "sentences": [
+    {
+     "text": "None of this tells us when Derinkuyu was begun.",
+     "start": 0.0,
+     "end": 3.211
+    },
+    {
+     "text": "No tablet mentions an underground city, and nothing found in Derinkuyu has been dated to the Bronze Age.",
+     "start": 3.591,
+     "end": 11.083
+    },
+    {
+     "text": "But it shows what kind of land this was: rich, crossed by trade routes, and worth fighting over.",
+     "start": 11.463,
+     "end": 17.388
+    },
+    {
+     "text": "A land like that would always need places to hide.",
+     "start": 17.768,
+     "end": 20.88
+    }
+   ]
+  }
+ ]
+}

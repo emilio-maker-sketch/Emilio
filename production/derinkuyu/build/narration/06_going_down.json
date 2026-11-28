@@ -1,0 +1,152 @@
+{
+ "id": "06_going_down",
+ "title": "GOING DOWN",
+ "paras": [
+  {
+   "wav": "build/narration/06_going_down/00.wav",
+   "dur": 20.939,
+   "sentences": [
+    {
+     "text": "From the street, almost nothing shows.",
+     "start": 0.0,
+     "end": 2.498
+    },
+    {
+     "text": "The entrance is a low doorway in a modest building in the middle of town.",
+     "start": 2.878,
+     "end": 7.523
+    },
+    {
+     "text": "Inside, a passage slopes down, so narrow and low in places that visitors have to stoop and walk in single file.",
+     "start": 7.903,
+     "end": 15.686
+    },
+    {
+     "text": "That was not an accident.",
+     "start": 16.066,
+     "end": 17.983
+    },
+    {
+     "text": "A narrow passage is easy to defend.",
+     "start": 18.363,
+     "end": 20.938
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/06_going_down/01.wav",
+   "dur": 21.868,
+   "sentences": [
+    {
+     "text": "The first levels are the busiest.",
+     "start": 0.0,
+     "end": 2.285
+    },
+    {
+     "text": "Here are the rooms people needed every day: stables for animals near the surface, wide halls, kitchens blackened by smoke, storerooms and niches for lamps.",
+     "start": 2.665,
+     "end": 13.388
+    },
+    {
+     "text": "Basins cut into the floor are usually read as wine or oil presses, though no one can say exactly what was pressed in each.",
+     "start": 13.768,
+     "end": 21.868
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/06_going_down/02.wav",
+   "dur": 20.919,
+   "sentences": [
+    {
+     "text": "Below them the city keeps going.",
+     "start": 0.0,
+     "end": 2.202
+    },
+    {
+     "text": "Stairs and ramps lead from one level to the next, and every one is a little cooler and darker than the last.",
+     "start": 2.582,
+     "end": 9.071
+    },
+    {
+     "text": "At least eight levels are known, reaching about eighty-five metres below the surface.",
+     "start": 9.451,
+     "end": 14.531
+    },
+    {
+     "text": "Only part of the complex is open to visitors, and some of it has never been fully cleared.",
+     "start": 14.911,
+     "end": 20.919
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/06_going_down/03.wav",
+   "dur": 19.882,
+   "sentences": [
+    {
+     "text": "Deep down is a long room with a vaulted ceiling, often called the missionary school, though the name is a modern guess.",
+     "start": 0.0,
+     "end": 7.047
+    },
+    {
+     "text": "Lower still is a cross-shaped church cut into the rock.",
+     "start": 7.427,
+     "end": 10.785
+    },
+    {
+     "text": "A church this deep tells us something important about the people who used the city at a later stage of its history: they were Christians.",
+     "start": 11.165,
+     "end": 19.882
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/06_going_down/04.wav",
+   "dur": 20.929,
+   "sentences": [
+    {
+     "text": "Moving between levels was deliberately awkward.",
+     "start": 0.0,
+     "end": 3.124
+    },
+    {
+     "text": "Stairs turn, passages narrow, and in places a visitor must crouch to pass.",
+     "start": 3.504,
+     "end": 8.671
+    },
+    {
+     "text": "An attacker coming down would have to do so one at a time, bent over, in the dark, while the defenders waited on the far side of a stone door.",
+     "start": 9.051,
+     "end": 18.03
+    },
+    {
+     "text": "The architecture itself was a weapon.",
+     "start": 18.41,
+     "end": 20.929
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/06_going_down/05.wav",
+   "dur": 19.927,
+   "sentences": [
+    {
+     "text": "How long people stayed underground at any one time is not recorded.",
+     "start": 0.0,
+     "end": 4.731
+    },
+    {
+     "text": "Most experts think the city was not a permanent home but a refuge, filled when danger came and emptied when it passed.",
+     "start": 5.111,
+     "end": 12.77
+    },
+    {
+     "text": "Families would have brought their animals, their grain and their oil, closed the doors behind them, and waited.",
+     "start": 13.15,
+     "end": 19.927
+    }
+   ]
+  }
+ ]
+}

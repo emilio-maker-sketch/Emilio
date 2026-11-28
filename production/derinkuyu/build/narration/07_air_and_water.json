@@ -1,0 +1,116 @@
+{
+ "id": "07_air_and_water",
+ "title": "AIR AND WATER",
+ "paras": [
+  {
+   "wav": "build/narration/07_air_and_water/00.wav",
+   "dur": 15.479,
+   "sentences": [
+    {
+     "text": "A city eighty-five metres underground has two problems that matter more than anything else.",
+     "start": 0.0,
+     "end": 5.697
+    },
+    {
+     "text": "People need to breathe, and they need to drink.",
+     "start": 6.077,
+     "end": 8.805
+    },
+    {
+     "text": "Derinkuyu solved both with the same idea: vertical shafts cut straight down through the rock.",
+     "start": 9.185,
+     "end": 15.479
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/07_air_and_water/01.wav",
+   "dur": 24.794,
+   "sentences": [
+    {
+     "text": "Some shafts run from the surface down through the levels, bringing fresh air to every floor.",
+     "start": 0.0,
+     "end": 5.598
+    },
+    {
+     "text": "Air moves through them because the underground stays at much the same cool temperature all year while the air outside changes, so the difference pushes air in and out.",
+     "start": 5.978,
+     "end": 16.738
+    },
+    {
+     "text": "The system still works: even on the lowest levels open to visitors, the air is fresh enough to breathe without difficulty.",
+     "start": 17.118,
+     "end": 24.794
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/07_air_and_water/02.wav",
+   "dur": 18.117,
+   "sentences": [
+    {
+     "text": "Other shafts were wells.",
+     "start": 0.0,
+     "end": 1.569
+    },
+    {
+     "text": "They were dug down to the groundwater, and the deepest is reported to reach about fifty-five metres.",
+     "start": 1.949,
+     "end": 8.03
+    },
+    {
+     "text": "A well that could be reached from inside the city meant that people sheltering below did not have to go up for water, the most dangerous moment of any siege.",
+     "start": 8.41,
+     "end": 18.117
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/07_air_and_water/03.wav",
+   "dur": 18.546,
+   "sentences": [
+    {
+     "text": "Water also posed a danger.",
+     "start": 0.0,
+     "end": 2.064
+    },
+    {
+     "text": "Rain seeping down through cracks could soften the tuff, and a flooded passage could cut a level off.",
+     "start": 2.444,
+     "end": 8.451
+    },
+    {
+     "text": "Water still finds its way down today; in some rooms it trickles quietly over the walls.",
+     "start": 8.831,
+     "end": 14.619
+    },
+    {
+     "text": "Keeping the city dry was a task that never ended.",
+     "start": 14.999,
+     "end": 18.546
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/07_air_and_water/04.wav",
+   "dur": 17.851,
+   "sentences": [
+    {
+     "text": "None of this needed advanced technology.",
+     "start": 0.0,
+     "end": 2.762
+    },
+    {
+     "text": "It needed patience, experience and a very good understanding of this one kind of rock.",
+     "start": 3.142,
+     "end": 8.86
+    },
+    {
+     "text": "The people who dug Derinkuyu learned what tuff would and would not do, probably over many generations, and passed that knowledge on.",
+     "start": 9.24,
+     "end": 17.851
+    }
+   ]
+  }
+ ]
+}

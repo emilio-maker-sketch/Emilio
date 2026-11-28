@@ -1,0 +1,147 @@
+{
+ "id": "09_the_doors",
+ "title": "THE DOORS",
+ "paras": [
+  {
+   "wav": "build/narration/09_the_doors/00.wav",
+   "dur": 19.35,
+   "sentences": [
+    {
+     "text": "The most famous objects in Derinkuyu are its doors.",
+     "start": 0.0,
+     "end": 3.517
+    },
+    {
+     "text": "They are not doors in the ordinary sense.",
+     "start": 3.897,
+     "end": 6.575
+    },
+    {
+     "text": "They are great discs of stone, shaped like millstones, standing on edge in a slot beside the passage.",
+     "start": 6.955,
+     "end": 13.429
+    },
+    {
+     "text": "When danger came, the people inside rolled the stone across the opening and sealed it.",
+     "start": 13.809,
+     "end": 19.35
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/09_the_doors/01.wav",
+   "dur": 20.927,
+   "sentences": [
+    {
+     "text": "Look closely at how they sit and you see the logic.",
+     "start": 0.0,
+     "end": 3.226
+    },
+    {
+     "text": "The slot is on the inside.",
+     "start": 3.606,
+     "end": 5.581
+    },
+    {
+     "text": "The stone could be moved only from the city's side, and once it was in place there was nothing on the outside for an attacker to grip.",
+     "start": 5.961,
+     "end": 14.004
+    },
+    {
+     "text": "Each level could be closed separately, so if one level fell, the people below could still shut themselves in.",
+     "start": 14.384,
+     "end": 20.927
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/09_the_doors/02.wav",
+   "dur": 16.567,
+   "sentences": [
+    {
+     "text": "Some descriptions add that the doors had a hole in the centre, through which defenders could thrust a spear at anyone outside.",
+     "start": 0.0,
+     "end": 7.964
+    },
+    {
+     "text": "Several of the stones do have central holes, but what they were for is not certain.",
+     "start": 8.344,
+     "end": 13.527
+    },
+    {
+     "text": "They may simply have helped people move the stones.",
+     "start": 13.907,
+     "end": 16.567
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/09_the_doors/03.wav",
+   "dur": 18.243,
+   "sentences": [
+    {
+     "text": "Kaymakl\u0131 and \u00d6zkonak have the same kind of doors, cut and placed in the same way.",
+     "start": 0.0,
+     "end": 5.914
+    },
+    {
+     "text": "That suggests a shared tradition, a way of building that spread from village to village across the region.",
+     "start": 6.294,
+     "end": 13.012
+    },
+    {
+     "text": "Whoever designed the first one, it worked well enough to be copied again and again.",
+     "start": 13.392,
+     "end": 18.243
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/09_the_doors/04.wav",
+   "dur": 22.04,
+   "sentences": [
+    {
+     "text": "How heavy were they?",
+     "start": 0.0,
+     "end": 1.303
+    },
+    {
+     "text": "You will find figures from two hundred kilograms to a thousand.",
+     "start": 1.683,
+     "end": 5.62
+    },
+    {
+     "text": "None of them comes from a published survey, so we will not give one.",
+     "start": 6.0,
+     "end": 9.727
+    },
+    {
+     "text": "What is certain is that they were heavy enough to need several people to roll, and that they were cut from the same rock as the city, on the spot, because they could never have been brought down the narrow passages.",
+     "start": 10.107,
+     "end": 22.04
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/09_the_doors/05.wav",
+   "dur": 19.713,
+   "sentences": [
+    {
+     "text": "Narrow passages, low ceilings, sharp turns and doors that close from the inside: everything about Derinkuyu says the same thing.",
+     "start": 0.0,
+     "end": 9.305
+    },
+    {
+     "text": "It was built by people who expected to be attacked, and who knew they could not win a fight in the open.",
+     "start": 9.685,
+     "end": 15.655
+    },
+    {
+     "text": "Their answer was to make themselves impossible to reach.",
+     "start": 16.035,
+     "end": 19.713
+    }
+   ]
+  }
+ ]
+}
