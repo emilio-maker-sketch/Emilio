@@ -22,7 +22,7 @@ def main():
     chapters = [(0, 'Cold open: the last days of Carthage')]
     for x in tl['items']:
         if x['type'] == 'card': chapters.append((x['start'], nice_title(x['line2'])))
-    desc = ["In the spring of 146 BC, Roman soldiers fought their way, house by house, up the streets of Carthage. When it was over, the greatest city of the western Mediterranean was a ruin, and its people were sold as slaves.",
+    desc = ["The fall of Carthage in 146 BC ended the Punic Wars, 118 years after they began: the story of Hannibal, Scipio Africanus and the city Rome swore to destroy.", "", "In the spring of 146 BC, Roman soldiers fought their way, house by house, up the streets of Carthage. When it was over, the greatest city of the western Mediterranean was a ruin, and its people were sold as slaves.",
             "",
             "This documentary tells the whole story: the Phoenician city founded from Tyre, its harbours and its empire, the wars with Rome over Sicily, "
             "Hannibal's oath, his march over the Alps and his victories at the Trebia, Lake Trasimene and Cannae, Scipio's answer at Zama, "
@@ -57,27 +57,25 @@ def main():
     open(os.path.join(OUT, 'credits.txt'), 'w').write('\n'.join(full) + '\n')
     n = len('\n'.join(desc)); print('description', n, 'chars'); assert n < 5000, 'description too long for YouTube'
     open(os.path.join(OUT, 'titles.txt'), 'w').write(
-        "Carthage Must Be Destroyed: The Fall of Rome's Greatest Rival | Full Documentary\n"
-        "Hannibal, Rome and the Destruction of Carthage (146 BC) | Full Documentary\n"
-        "Why Rome Wiped Carthage Off the Map: The Punic Wars\n")
+        "Carthage Must Be Destroyed: The 118-Year War That Ended an Empire\n"
+        "The Fall of Carthage: How Rome Erased Its Greatest Rival\n"
+        "Hannibal, Scipio and the Fall of Carthage: The Full Story\n")
     open(os.path.join(OUT, 'tags.txt'), 'w').write(', '.join([
         'carthage', 'fall of carthage', 'punic wars', 'hannibal', 'hannibal barca', 'scipio africanus', 'battle of cannae', 'battle of zama',
         'carthago delenda est', 'ancient rome', 'roman republic', 'third punic war', '146 bc', 'phoenicians', 'history documentary', 'ancient history',
-        'hannibal crossing the alps', 'ancient world files']) + '\n')
+        'hannibal crossing the alps', 'history of carthage', 'ancient world files']) + '\n')
     shutil.copy(os.path.join(B, 'captions.srt'), os.path.join(OUT, 'captions_en.srt'))
     W, H = 1280, 720
-    th = Image.open(os.path.join(B, 'gen', 'z_00-03-0.png')).convert('RGB').resize((W, H))
+    src = Image.open(os.path.join(B, 'gen', 'z_00-03-0.png')).convert('RGB'); sw, sh = src.size
+    th = src.crop((int(sw * 0.12), 0, sw, int(sh * 0.8))).resize((W, H))   # same crop as the film: removes a cable at the bottom edge
     th = ImageEnhance.Contrast(th).enhance(1.12)
     g = Image.new('L', (W, H), 0); dg = ImageDraw.Draw(g)
     for x in range(W): dg.line([x, 0, x, H], fill=int(max(0, (720 - x) / 720) * 225))
     th = Image.composite(Image.new('RGB', (W, H), (8, 6, 5)), th, g)
     d = ImageDraw.Draw(th)
-    f1 = ImageFont.truetype(os.path.join(FONTS, 'Cinzel.ttf'), 92); f2 = ImageFont.truetype(os.path.join(FONTS, 'Cinzel.ttf'), 52)
-    for dx, dy in ((4, 4), (0, 0)):
-        d.text((330 + dx, 270 + dy), 'CARTHAGE', font=f1, fill=(0, 0, 0) if dx else (240, 222, 180), anchor='mm')
-        d.text((330 + dx, 370 + dy), 'MUST BE', font=f2, fill=(0, 0, 0) if dx else (240, 222, 180), anchor='mm')
-        d.text((330 + dx, 460 + dy), 'DESTROYED', font=f1, fill=(0, 0, 0) if dx else (205, 60, 45), anchor='mm')
-    d.text((330, 560), '146 BC', font=f2, fill=(220, 200, 160), anchor='mm')
+    f1 = ImageFont.truetype(os.path.join(FONTS, 'Cinzel.ttf'), 150)
+    for dx, dy in ((6, 6), (0, 0)):   # one short line that adds to the title, never repeats it (QC thumbnail rules)
+        d.text((330 + dx, 360 + dy), '146 BC', font=f1, fill=(0, 0, 0) if dx else (240, 222, 180), anchor='mm')
     th.save(os.path.join(OUT, 'thumbnail.jpg'), quality=92)
     print('package written to', OUT)
 

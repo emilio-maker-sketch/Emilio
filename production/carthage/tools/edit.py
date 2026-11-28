@@ -370,13 +370,15 @@ def warp(img, z, cx, cy):
     return cv2.warpAffine(img, M, (W, H), flags=cv2.INTER_LINEAR, borderMode=cv2.BORDER_REFLECT)
 
 # ------------------------------------------------------------------ clips
-def load_clip(path, gkey):
+def load_clip(path, gkey, crop=None):
     p = subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v:0', '-show_entries', 'stream=width,height', '-of', 'csv=p=0', path], capture_output=True, text=True, check=True)
     w, h = map(int, p.stdout.strip().split(','))
     raw = subprocess.run(['ffmpeg', '-v', 'error', '-i', path, '-f', 'rawvideo', '-pix_fmt', 'rgb24', '-'], capture_output=True, check=True).stdout
     out = []
     for f in np.frombuffer(raw, np.uint8).reshape(-1, h, w, 3):
-        a = np.asarray(cover(Image.fromarray(f), 1152, 648)[0], np.float32) / 255
+        im = Image.fromarray(f)
+        if crop: im = im.crop((int(crop[0] * w), int(crop[1] * h), int(crop[2] * w), int(crop[3] * h)))   # same review crop as the still
+        a = np.asarray(cover(im, 1152, 648)[0], np.float32) / 255
         out.append((np.clip(grade(a, gkey), 0, 1) * 255).astype(np.uint8))
     return out
 
@@ -668,7 +670,7 @@ class Shot:
             z = np.load(os.path.join(PREP, it['id'].replace('#', '_') + '.npz'))
             self.img = z['img']; self.dep = z['depth'].astype(np.float32) if k not in ('quote', 'stat') else None; self.tgt = list(z['target'])
             self.blur = cv2.GaussianBlur(self.img, (0, 0), 7) if it['move'] == 'focus' else None
-        if it.get('clip'): self.clip = load_clip(it['clip'], it['grade'])
+        if it.get('clip'): self.clip = load_clip(it['clip'], it['grade'], it.get('crop'))
         if k in ('map', 'diagram'): self.gfx = prime_layers(load_gfx(it['sid']))
         if k == 'timeline': self.gfx = prime_layers(timeline_spec(it['desc']))
         if k == 'quote': self.ql = quote_layer(it['quote'], it['attrib'])

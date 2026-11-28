@@ -70,10 +70,16 @@
  "z_00-03-0": {
   "status": "VERIFIED",
   "focus": [
-   0.88,
-   0.25
+   0.85,
+   0.3
   ],
-  "note": ""
+  "note": "crop removes a hose-like cable at the bottom edge (found on the thumbnail check)",
+  "crop": [
+   0.2,
+   0,
+   1,
+   0.72
+  ]
  },
  "z_00-03-1": {
   "status": "VERIFIED",
