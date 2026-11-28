@@ -1,0 +1,2336 @@
+1
+00:00:00,600 --> 00:00:03,360
+Spring, 146 BC.
+
+2
+00:00:03,740 --> 00:00:06,853
+On the coast of North Africa, a city is dying.
+
+3
+00:00:07,233 --> 00:00:14,929
+For six days and six nights, Roman soldiers have been fighting their way up three narrow streets toward the citadel at its heart.
+
+4
+00:00:15,309 --> 00:00:18,454
+The houses on either side are six storeys tall.
+
+5
+00:00:18,834 --> 00:00:23,350
+Every one of them has to be taken, floor by floor, roof by roof.
+
+6
+00:00:25,350 --> 00:00:28,703
+When a block was cleared, the Romans set it on fire.
+
+7
+00:00:29,083 --> 00:00:35,010
+The ancient historian Appian, following an eyewitness account, describes what came next.
+
+8
+00:00:35,390 --> 00:00:43,483
+Men with axes and hooks cleared the rubble to open a path for the troops, and they swept the dead and the living alike into pits.
+
+9
+00:00:43,863 --> 00:00:45,588
+Cavalry rode over them.
+
+10
+00:00:47,588 --> 00:00:53,112
+On the seventh day, a group of men came down from the citadel holding olive branches.
+
+11
+00:00:53,492 --> 00:00:57,675
+They asked for one thing: that those who came out should be allowed to live.
+
+12
+00:00:58,055 --> 00:01:03,322
+Fifty thousand men, women and children walked out of the last stronghold of the city.
+
+13
+00:01:03,702 --> 00:01:05,579
+They would be sold as slaves.
+
+14
+00:01:07,579 --> 00:01:15,634
+Watching from a high place, the Roman commander, Publius Cornelius Scipio Aemilianus, looked out over the burning city.
+
+15
+00:01:16,014 --> 00:01:19,874
+Beside him stood his friend, the Greek historian Polybius.
+
+16
+00:01:20,254 --> 00:01:23,388
+And Polybius saw the conqueror of Carthage weep.
+
+17
+00:01:25,388 --> 00:01:26,992
+The city was Carthage.
+
+18
+00:01:27,372 --> 00:01:32,439
+For more than a century it had fought Rome for control of the Mediterranean world.
+
+19
+00:01:32,819 --> 00:01:39,556
+Its greatest general had marched elephants over the Alps and destroyed Roman armies on Italian soil.
+
+20
+00:01:39,936 --> 00:01:42,079
+Now it was being wiped from the earth.
+
+21
+00:01:42,459 --> 00:01:45,429
+This is the story of how that happened, and why.
+
+22
+00:02:03,929 --> 00:02:08,591
+The story begins far to the east, on the coast of what is now Lebanon.
+
+23
+00:02:08,971 --> 00:02:18,602
+Here, three thousand years ago, stood the cities of the Phoenicians: Byblos, Sidon, and above all Tyre, built on an island just off the shore.
+
+24
+00:02:18,982 --> 00:02:23,001
+The Phoenicians were the great sailors and traders of their age.
+
+25
+00:02:23,381 --> 00:02:29,659
+They sold cedar wood, glass, and a purple dye so costly that it became the colour of kings.
+
+26
+00:02:31,659 --> 00:02:35,531
+They also spread something even more valuable: their alphabet.
+
+27
+00:02:35,911 --> 00:02:41,836
+The Greeks borrowed it, and from the Greek alphabet came the Latin letters you are reading on this screen.
+
+28
+00:02:42,216 --> 00:02:53,241
+Phoenician ships pushed further and further west, past Cyprus, Sicily and Sardinia, all the way through the Strait of Gibraltar, founding trading posts along the way.
+
+29
+00:02:55,241 --> 00:03:01,155
+One of those settlements, on a peninsula in what is now Tunisia, was given a simple name.
+
+30
+00:03:01,535 --> 00:03:02,745
+Qart-hadasht.
+
+31
+00:03:03,125 --> 00:03:04,143
+The New City.
+
+32
+00:03:04,523 --> 00:03:06,610
+The Greeks called it Karchedon.
+
+33
+00:03:06,990 --> 00:03:09,102
+The Romans called it Carthago.
+
+34
+00:03:09,482 --> 00:03:10,858
+We call it Carthage.
+
+35
+00:03:12,858 --> 00:03:20,350
+According to the legend, the city was founded by a princess of Tyre named Elissa, whom the Romans would call Dido.
+
+36
+00:03:20,730 --> 00:03:25,175
+Her brother, King Pygmalion, had murdered her husband for his wealth.
+
+37
+00:03:25,555 --> 00:03:31,682
+Elissa fled with her followers and the treasure, sailed west, and landed on the African shore.
+
+38
+00:03:33,682 --> 00:03:39,055
+She asked the local ruler for as much land as could be covered by the hide of an ox.
+
+39
+00:03:39,435 --> 00:03:40,363
+He agreed.
+
+40
+00:03:40,743 --> 00:03:46,640
+So she cut the hide into strips so thin that, laid end to end, they circled a whole hill.
+
+41
+00:03:47,020 --> 00:03:50,551
+That hill became the citadel of Carthage, the Byrsa.
+
+42
+00:03:50,931 --> 00:03:53,359
+In Greek, byrsa means ox-hide.
+
+43
+00:03:53,739 --> 00:03:59,284
+It is a good story, but it is almost certainly a pun on a Phoenician word for a fortress.
+
+44
+00:04:01,284 --> 00:04:03,807
+Roman writers added a love story.
+
+45
+00:04:04,187 --> 00:04:15,664
+In Virgil's Aeneid, Dido falls in love with the Trojan hero Aeneas, and when he abandons her to found Rome she kills herself, cursing his descendants with eternal enmity.
+
+46
+00:04:16,044 --> 00:04:25,169
+It is pure poetry, written centuries later, but it tells you how the Romans came to see Carthage: as the enemy destined from the beginning.
+
+47
+00:04:27,169 --> 00:04:32,306
+The ancient tradition dated the founding to 814 BC.
+
+48
+00:04:32,686 --> 00:04:35,513
+For a long time historians doubted it.
+
+49
+00:04:35,893 --> 00:04:45,033
+But the oldest objects found in the city date from the late ninth or eighth century BC, close enough to suggest the tradition was not far wrong.
+
+50
+00:04:45,413 --> 00:04:48,062
+Carthage was older than Rome itself.
+
+51
+00:04:59,062 --> 00:05:06,381
+When Tyre itself fell under the power of the great empires of the East, Carthage became the leader of the Phoenician West.
+
+52
+00:05:06,761 --> 00:05:17,121
+By the fourth century BC it controlled the coast of North Africa, western Sicily, Sardinia, the Balearic Islands and stretches of southern Spain.
+
+53
+00:05:17,501 --> 00:05:19,894
+Its fleets kept rival traders out.
+
+54
+00:05:20,274 --> 00:05:26,362
+Its merchants bought tin, silver, grain and slaves, and sold them across the Mediterranean.
+
+55
+00:05:28,362 --> 00:05:33,162
+The city itself grew into one of the largest in the Mediterranean world.
+
+56
+00:05:33,542 --> 00:05:42,274
+Its houses climbed the slopes of the Byrsa, with tall apartment blocks on narrow streets, and grand villas with gardens on the outskirts.
+
+57
+00:05:42,654 --> 00:05:46,774
+Water was precious, so almost every house had its own cistern.
+
+58
+00:05:47,154 --> 00:05:55,709
+Archaeologists have found bathtubs, mosaic floors and drains that would not look out of place in a Roman town centuries later.
+
+59
+00:05:57,709 --> 00:06:00,174
+Most famous of all were the harbours.
+
+60
+00:06:00,554 --> 00:06:06,604
+A ship entering from the sea passed first into a long rectangular basin for merchant ships.
+
+61
+00:06:06,984 --> 00:06:12,140
+A channel led from there into a second, circular harbour reserved for the navy.
+
+62
+00:06:12,520 --> 00:06:18,304
+In its centre was an island with a tower, from which the admiral could watch the open sea.
+
+63
+00:06:18,684 --> 00:06:30,895
+All around the edge of the basin, and on the island, were covered sheds for some two hundred and twenty warships, each fronted by a pair of columns, so that the whole harbour looked like one great colonnade.
+
+64
+00:06:32,895 --> 00:06:35,326
+Carthage was a republic, like Rome.
+
+65
+00:06:35,706 --> 00:06:39,543
+Each year it elected two chief magistrates, called suffetes.
+
+66
+00:06:39,923 --> 00:06:47,702
+There was a council of elders and a popular assembly, and a court of one hundred and four judges who watched over the generals.
+
+67
+00:06:48,082 --> 00:06:53,184
+A general who lost a battle could be put on trial, and sometimes crucified.
+
+68
+00:06:53,564 --> 00:07:00,431
+The Greek philosopher Aristotle admired the Carthaginian constitution and praised its stability.
+
+69
+00:07:02,431 --> 00:07:13,356
+Its people worshipped Phoenician gods: Baal Hammon, and a goddess called Tanit, whose sign, a triangle with a circle above it, is carved on thousands of stones.
+
+70
+00:07:13,736 --> 00:07:19,382
+Some of those stones stand in a sacred precinct that archaeologists call the tophet.
+
+71
+00:07:19,762 --> 00:07:25,425
+Under them were buried urns holding the cremated bones of infants and young animals.
+
+72
+00:07:27,425 --> 00:07:35,498
+Greek and Roman writers said that the Carthaginians sacrificed their own children to their gods in times of crisis.
+
+73
+00:07:35,878 --> 00:07:44,625
+Some modern scholars have argued that this was enemy propaganda, and that the tophet was simply a cemetery for children who died young.
+
+74
+00:07:45,005 --> 00:07:51,639
+The debate goes on, but many archaeologists now accept that sacrifices did happen, at least at times.
+
+75
+00:07:52,019 --> 00:07:58,248
+It is worth remembering that almost every word we have about Carthage was written by its enemies.
+
+76
+00:08:00,248 --> 00:08:05,416
+For centuries Carthage fought the Greek cities of Sicily, above all Syracuse.
+
+77
+00:08:05,796 --> 00:08:10,501
+With Rome, a small city in central Italy, it was on friendly terms.
+
+78
+00:08:10,881 --> 00:08:19,186
+The Greek historian Polybius copied out the text of a treaty between the two cities made in the first year of the Roman Republic.
+
+79
+00:08:19,566 --> 00:08:22,287
+Rome was to stay out of Carthage's waters.
+
+80
+00:08:22,667 --> 00:08:26,280
+Carthage was to leave Rome's Latin allies alone.
+
+81
+00:08:26,660 --> 00:08:29,531
+For two hundred and fifty years, it worked.
+
+82
+00:08:40,531 --> 00:08:52,791
+In 264 BC, a band of mercenaries who had seized the Sicilian city of Messana found themselves under attack, and appealed for help to both Carthage and Rome.
+
+83
+00:08:53,171 --> 00:08:55,967
+Rome had by now conquered most of Italy.
+
+84
+00:08:56,347 --> 00:09:02,496
+After a fierce debate, the Romans decided to send an army across the narrow strait into Sicily.
+
+85
+00:09:02,876 --> 00:09:06,727
+It was the first time a Roman army had ever left Italy.
+
+86
+00:09:07,107 --> 00:09:13,182
+It began the first of three wars that the Romans called Punic, from their word for Phoenician.
+
+87
+00:09:15,182 --> 00:09:17,226
+Carthage was a naval power.
+
+88
+00:09:17,606 --> 00:09:18,751
+Rome was not.
+
+89
+00:09:19,131 --> 00:09:25,955
+The Romans had almost no warships, and none of the heavy galleys called quinqueremes that dominated the sea.
+
+90
+00:09:26,335 --> 00:09:41,355
+According to Polybius, they found a Carthaginian quinquereme that had run aground, used it as a model, and built a hundred more in sixty days, training their oarsmen on benches set up on dry land while the ships were being finished.
+
+91
+00:09:43,355 --> 00:09:52,442
+To make up for their lack of skill, the Romans invented a boarding bridge with a heavy iron spike on the end, which they called the corvus, the raven.
+
+92
+00:09:52,822 --> 00:10:02,407
+When an enemy ship came close, the bridge dropped, the spike drove into the deck, and Roman soldiers ran across to fight as if they were on land.
+
+93
+00:10:02,787 --> 00:10:10,127
+At Mylae in 260 BC the Carthaginian fleet was taken completely by surprise.
+
+94
+00:10:12,126 --> 00:10:14,645
+The war dragged on for twenty-three years.
+
+95
+00:10:15,025 --> 00:10:26,815
+In 256 BC, after one of the largest sea battles in history, the Romans landed an army in Africa itself under the consul Marcus Atilius Regulus.
+
+96
+00:10:27,195 --> 00:10:29,190
+Carthage seemed about to fall.
+
+97
+00:10:29,570 --> 00:10:39,138
+But the Carthaginians hired a Spartan mercenary, Xanthippus, who used their elephants and cavalry to smash the Roman army on open ground.
+
+98
+00:10:39,518 --> 00:10:41,223
+Regulus was captured.
+
+99
+00:10:43,223 --> 00:10:45,767
+Then the sea itself turned against Rome.
+
+100
+00:10:46,147 --> 00:10:55,711
+In 255 BC, a Roman fleet ignored the warnings of its pilots and was caught by a storm off the south coast of Sicily.
+
+101
+00:10:56,091 --> 00:11:01,416
+According to Polybius, of three hundred and sixty-four ships, only eighty survived.
+
+102
+00:11:01,796 --> 00:11:04,016
+Tens of thousands of men drowned.
+
+103
+00:11:04,396 --> 00:11:07,720
+Even so, the Romans simply built another fleet.
+
+104
+00:11:09,720 --> 00:11:11,949
+In Sicily the war ground on.
+
+105
+00:11:12,329 --> 00:11:28,021
+A Carthaginian general named Hamilcar, nicknamed Barca, probably meaning lightning, held out for years on a mountain near Panormus, modern Palermo, and later at Eryx, raiding the Italian coast and never losing a battle.
+
+106
+00:11:28,401 --> 00:11:29,922
+Remember his name.
+
+107
+00:11:30,302 --> 00:11:32,825
+His family would shape the next fifty years.
+
+108
+00:11:34,825 --> 00:11:45,569
+In 241 BC, with its treasury empty, the Roman Senate accepted loans from private citizens to build one last fleet of two hundred ships.
+
+109
+00:11:45,949 --> 00:11:54,071
+Off the Aegates Islands, west of Sicily, it caught a Carthaginian supply fleet heavily loaded and destroyed it.
+
+110
+00:11:54,451 --> 00:12:05,823
+Since 2004, divers have found more than twenty bronze warship rams from this battle on the seabed, some still inscribed with the names of the officials who commissioned them.
+
+111
+00:12:07,823 --> 00:12:09,605
+Carthage asked for peace.
+
+112
+00:12:09,985 --> 00:12:20,889
+It gave up Sicily, which became Rome's first overseas province, and agreed to pay a huge indemnity of three thousand two hundred talents of silver over ten years.
+
+113
+00:12:21,269 --> 00:12:27,710
+Hamilcar came down from his mountain undefeated, and never forgave the men who had made him surrender.
+
+114
+00:12:38,710 --> 00:12:40,783
+Peace brought Carthage no rest.
+
+115
+00:12:41,163 --> 00:12:48,070
+Its army in Sicily had been made up largely of mercenaries: Libyans, Iberians, Gauls, Greeks.
+
+116
+00:12:48,450 --> 00:12:53,043
+Twenty thousand of them were shipped back to Africa expecting to be paid.
+
+117
+00:12:53,423 --> 00:12:55,167
+The treasury was empty.
+
+118
+00:12:55,547 --> 00:13:01,799
+The mercenaries mutinied, and the Libyan towns that Carthage had taxed so heavily rose with them.
+
+119
+00:13:03,799 --> 00:13:08,222
+What followed was so savage that Polybius called it the Truceless War.
+
+120
+00:13:08,602 --> 00:13:14,163
+The rebels tortured and killed a Carthaginian envoy and seven hundred prisoners.
+
+121
+00:13:14,543 --> 00:13:16,594
+Carthage answered in kind.
+
+122
+00:13:16,974 --> 00:13:31,982
+Hamilcar Barca was given command, and after three years he trapped the main rebel army in a mountain valley known as the Saw, where the starving men, Polybius says, ate their prisoners and then their slaves before they surrendered.
+
+123
+00:13:33,982 --> 00:13:36,479
+The revolt nearly destroyed Carthage.
+
+124
+00:13:36,859 --> 00:13:39,293
+And while it was helpless, Rome struck.
+
+125
+00:13:39,673 --> 00:13:51,214
+In 238 BC, the Romans seized the island of Sardinia, and when Carthage protested, threatened war again unless it paid a further twelve hundred talents.
+
+126
+00:13:51,594 --> 00:13:56,967
+Polybius, who admired Rome, admitted that this was without any justification.
+
+127
+00:13:57,347 --> 00:14:01,515
+Many Carthaginians, Hamilcar among them, never forgot it.
+
+128
+00:14:03,515 --> 00:14:12,712
+In 237 BC, Hamilcar sailed for Spain with an army, to build Carthage a new empire there, rich in silver.
+
+129
+00:14:13,092 --> 00:14:16,196
+Before he left, he made a sacrifice to the gods.
+
+130
+00:14:16,576 --> 00:14:19,585
+His nine-year-old son begged to come with him.
+
+131
+00:14:19,965 --> 00:14:22,627
+Hamilcar agreed, on one condition.
+
+132
+00:14:23,007 --> 00:14:30,274
+He led the boy to the altar, made him place his hand on the sacrifice, and swear that he would never be a friend to Rome.
+
+133
+00:14:30,654 --> 00:14:32,574
+The boy's name was Hannibal.
+
+134
+00:14:34,574 --> 00:14:40,531
+We know this story because Hannibal told it himself, many years later, to a foreign king.
+
+135
+00:14:40,911 --> 00:14:43,879
+Whether every detail is true, we cannot say.
+
+136
+00:14:44,259 --> 00:14:46,778
+But it is how he wanted to be understood.
+
+137
+00:14:48,778 --> 00:14:55,313
+In Spain, Hamilcar conquered and made alliances, and took over the rich silver mines of the south.
+
+138
+00:14:55,693 --> 00:15:04,048
+When he drowned in a river during a battle in 229 BC, his son-in-law, Hasdrubal the Fair, took over.
+
+139
+00:15:04,428 --> 00:15:10,297
+Hasdrubal founded a new capital on a superb natural harbour on the Spanish coast.
+
+140
+00:15:10,677 --> 00:15:12,984
+He called it, too, Qart-hadasht.
+
+141
+00:15:13,364 --> 00:15:15,563
+The Romans called it New Carthage.
+
+142
+00:15:15,943 --> 00:15:19,048
+Today it is the Spanish city of Cartagena.
+
+143
+00:15:21,048 --> 00:15:29,408
+Rome, worried about this new power, made a treaty with Hasdrubal: the Carthaginians would not cross the river Ebro in arms.
+
+144
+00:15:29,788 --> 00:15:36,085
+Then, in 221 BC, Hasdrubal was murdered by a Celt seeking revenge.
+
+145
+00:15:36,465 --> 00:15:40,320
+The army in Spain chose a new commander by acclamation.
+
+146
+00:15:40,700 --> 00:15:42,599
+He was twenty-six years old.
+
+147
+00:15:42,979 --> 00:15:44,591
+It was Hamilcar's son.
+
+148
+00:15:44,971 --> 00:15:45,702
+Hannibal.
+
+149
+00:15:56,702 --> 00:15:59,154
+We do not know what Hannibal looked like.
+
+150
+00:15:59,534 --> 00:16:03,032
+No portrait of him survives that we can be sure of.
+
+151
+00:16:03,412 --> 00:16:14,532
+Some silver coins minted by his family in Spain show a young beardless man and an older bearded one, and some historians think these are Barca family portraits.
+
+152
+00:16:14,912 --> 00:16:20,604
+A marble bust in Naples has been called Hannibal since the Renaissance, but it is a guess.
+
+153
+00:16:22,604 --> 00:16:26,132
+What we do have are descriptions written by his enemies.
+
+154
+00:16:26,512 --> 00:16:34,362
+The Roman historian Livy, writing two centuries later, says that no man was ever better at both obeying and commanding.
+
+155
+00:16:34,742 --> 00:16:37,178
+He endured heat and cold alike.
+
+156
+00:16:37,558 --> 00:16:41,113
+He ate and slept when there was time, not when it was night.
+
+157
+00:16:41,493 --> 00:16:47,422
+He was often seen asleep on the ground among the sentries, wrapped in a common soldier's cloak.
+
+158
+00:16:47,802 --> 00:16:51,046
+He was the first into battle and the last to leave it.
+
+159
+00:16:53,046 --> 00:16:59,056
+Livy also gave him a list of vices: inhuman cruelty, and more than Punic treachery.
+
+160
+00:16:59,436 --> 00:17:03,485
+That phrase, Punic faith, became a Roman proverb for lying.
+
+161
+00:17:03,865 --> 00:17:06,020
+We should remember who was writing.
+
+162
+00:17:08,020 --> 00:17:11,786
+Hannibal spent two years strengthening his hold on Spain.
+
+163
+00:17:12,166 --> 00:17:20,300
+Then he turned to Saguntum, a wealthy town on the coast south of the Ebro, which had placed itself under Rome's protection.
+
+164
+00:17:20,680 --> 00:17:24,337
+In 219 BC he laid siege to it.
+
+165
+00:17:24,717 --> 00:17:30,124
+The Saguntines held out for eight months, expecting Roman help that never came.
+
+166
+00:17:30,504 --> 00:17:37,785
+When the city fell, many of its people, according to Livy, burned themselves and their possessions rather than surrender.
+
+167
+00:17:39,785 --> 00:17:44,289
+In Rome, the news caused outrage, and an embassy sailed to Carthage.
+
+168
+00:17:44,669 --> 00:17:52,128
+Its leader, Quintus Fabius, stood before the Carthaginian council and gathered a fold of his toga in his hand.
+
+169
+00:17:52,508 --> 00:17:55,199
+Here, he said, we bring you war and peace.
+
+170
+00:17:55,579 --> 00:17:57,285
+Take whichever you please.
+
+171
+00:17:57,665 --> 00:18:01,422
+Give us whichever you like, the Carthaginians shouted back.
+
+172
+00:18:01,802 --> 00:18:05,048
+Then I give you war, he said, and let the fold fall.
+
+173
+00:18:05,428 --> 00:18:07,590
+They answered that they accepted it.
+
+174
+00:18:09,590 --> 00:18:12,657
+Rome expected to fight the war on its own terms.
+
+175
+00:18:13,037 --> 00:18:14,807
+Its fleet ruled the sea.
+
+176
+00:18:15,187 --> 00:18:20,626
+One consul, Publius Cornelius Scipio, would sail to Spain to deal with Hannibal.
+
+177
+00:18:21,006 --> 00:18:23,057
+The other would invade Africa.
+
+178
+00:18:23,438 --> 00:18:25,609
+But Hannibal had a different plan.
+
+179
+00:18:25,989 --> 00:18:38,509
+If he could not reach Italy by sea, he would go by land, across the Pyrenees, across the Rhône, and over the Alps, and fight the Romans in their own country, where their allies might abandon them.
+
+180
+00:18:49,509 --> 00:18:54,928
+In the late spring of 218 BC, Hannibal marched out of New Carthage.
+
+181
+00:18:55,308 --> 00:19:01,966
+Polybius gives him ninety thousand infantry, twelve thousand cavalry, and thirty-seven war elephants.
+
+182
+00:19:02,346 --> 00:19:06,711
+The starting numbers may be exaggerated, but it was a huge force.
+
+183
+00:19:07,091 --> 00:19:15,740
+He crossed the Ebro, fought his way through the tribes north of it, and climbed over the Pyrenees, leaving troops behind to hold what he had won.
+
+184
+00:19:17,740 --> 00:19:21,633
+At the Rhône, a Gallic tribe waited on the far bank to stop him.
+
+185
+00:19:22,013 --> 00:19:30,899
+Hannibal sent part of his army upstream by night, under an officer named Hanno, to cross in secret and fall on the Gauls from behind.
+
+186
+00:19:31,279 --> 00:19:33,076
+The elephants were a problem.
+
+187
+00:19:33,456 --> 00:19:35,724
+They refused to step onto boats.
+
+188
+00:19:36,104 --> 00:19:46,526
+So the Carthaginians built huge rafts, covered them with earth so that they looked like solid ground, and coaxed the animals onto them with two females leading the way.
+
+189
+00:19:48,526 --> 00:19:55,337
+Days later, a Roman army under the consul Scipio landed at the mouth of the Rhône, on its way to Spain.
+
+190
+00:19:55,717 --> 00:20:00,904
+It arrived to find that Hannibal had already gone, three days earlier, heading inland.
+
+191
+00:20:01,284 --> 00:20:03,584
+Scipio made a remarkable decision.
+
+192
+00:20:03,964 --> 00:20:11,867
+He sent his army on to Spain under his brother, to cut Hannibal off from his base, and sailed back to Italy alone to meet him there.
+
+193
+00:20:13,867 --> 00:20:16,856
+It was autumn when Hannibal reached the mountains.
+
+194
+00:20:17,236 --> 00:20:24,347
+Mountain tribes attacked his long column in narrow passes, rolling rocks down onto men and pack animals.
+
+195
+00:20:24,728 --> 00:20:27,773
+Horses and mules slipped and fell from the paths.
+
+196
+00:20:28,153 --> 00:20:31,315
+At the top of the pass, snow was already falling.
+
+197
+00:20:31,695 --> 00:20:39,547
+Polybius says that Hannibal gathered his exhausted men and pointed out the plains of Italy, far below, to give them heart.
+
+198
+00:20:41,547 --> 00:20:43,343
+The way down was worse.
+
+199
+00:20:43,723 --> 00:20:46,204
+A landslide had swept away the path.
+
+200
+00:20:46,584 --> 00:20:52,548
+Livy says the soldiers split a great rock by heating it with fire and pouring vinegar on it.
+
+201
+00:20:52,928 --> 00:20:57,259
+Polybius, who walked the route himself to check it, does not mention this.
+
+202
+00:20:57,639 --> 00:21:00,514
+The whole crossing took about fifteen days.
+
+203
+00:21:02,514 --> 00:21:04,121
+Which pass did he use?
+
+204
+00:21:04,501 --> 00:21:06,193
+Nobody knows for certain.
+
+205
+00:21:06,573 --> 00:21:10,015
+Historians have argued for at least half a dozen routes.
+
+206
+00:21:10,395 --> 00:21:21,749
+In 2016, scientists studying a high pass called the Col de la Traversette reported a layer of churned-up earth full of horse dung dating to around this time.
+
+207
+00:21:22,129 --> 00:21:24,822
+It is an intriguing clue, but not proof.
+
+208
+00:21:26,822 --> 00:21:33,820
+When Hannibal came down into the valley of the Po, he had twenty thousand infantry and six thousand cavalry left.
+
+209
+00:21:34,200 --> 00:21:41,442
+We know these numbers because he later had them carved on a bronze tablet in southern Italy, where Polybius read them.
+
+210
+00:21:41,822 --> 00:21:45,634
+He had crossed the Pyrenees with about fifty-nine thousand men.
+
+211
+00:21:46,014 --> 00:21:48,045
+More than half of them were gone.
+
+212
+00:21:48,425 --> 00:21:49,809
+But he was in Italy.
+
+213
+00:22:00,809 --> 00:22:07,530
+The Gallic tribes of northern Italy, who had recently been conquered by Rome, began to come over to Hannibal.
+
+214
+00:22:07,910 --> 00:22:13,449
+Scipio, back from the Rhône, met him first in a cavalry clash near the river Ticinus.
+
+215
+00:22:13,829 --> 00:22:17,537
+The Romans were beaten and the consul was badly wounded.
+
+216
+00:22:17,917 --> 00:22:27,489
+According to the story later told by his friend Laelius, he was saved by his seventeen-year-old son, who charged into the enemy alone to rescue him.
+
+217
+00:22:27,869 --> 00:22:31,197
+The boy was also named Publius Cornelius Scipio.
+
+218
+00:22:31,577 --> 00:22:32,584
+Remember him.
+
+219
+00:22:34,584 --> 00:22:39,040
+In December, at the river Trebia, Hannibal set his first great trap.
+
+220
+00:22:39,420 --> 00:22:47,053
+Before dawn, on a freezing morning, he sent his Numidian cavalry to ride up to the Roman camp and taunt the enemy.
+
+221
+00:22:47,433 --> 00:22:58,826
+The second consul, Sempronius, eager for glory, led his army out without breakfast, through the icy river swollen to chest height, and into battle soaked and starving.
+
+222
+00:22:59,206 --> 00:23:04,575
+Hannibal's men had eaten, rested and rubbed themselves with oil around their fires.
+
+223
+00:23:06,575 --> 00:23:15,013
+As the battle reached its height, two thousand men under Hannibal's brother Mago burst from a hidden streambed behind the Roman lines.
+
+224
+00:23:15,393 --> 00:23:17,082
+The Roman army broke.
+
+225
+00:23:17,462 --> 00:23:23,316
+About ten thousand Romans fought their way through the centre of the enemy line and escaped.
+
+226
+00:23:23,696 --> 00:23:28,760
+Most of the rest were killed, captured, or drowned trying to recross the river.
+
+227
+00:23:30,760 --> 00:23:34,737
+That winter almost all of Hannibal's elephants died of the cold.
+
+228
+00:23:35,117 --> 00:23:42,316
+In the spring of 217 BC he took the army across the flooded marshes of the river Arno.
+
+229
+00:23:42,696 --> 00:23:46,211
+For four days and three nights the men marched through water.
+
+230
+00:23:46,591 --> 00:23:53,422
+Many pack animals collapsed and died, and the soldiers slept on their carcasses to keep out of the water.
+
+231
+00:23:53,802 --> 00:24:00,244
+Hannibal, riding the last surviving elephant, caught an infection that cost him the sight of one eye.
+
+232
+00:24:02,244 --> 00:24:05,934
+The new consul, Gaius Flaminius, followed him south.
+
+233
+00:24:06,314 --> 00:24:12,452
+Near Lake Trasimene, the road ran along a narrow strip between the water and a line of hills.
+
+234
+00:24:12,832 --> 00:24:16,587
+Hannibal hid his entire army on the hills overnight.
+
+235
+00:24:16,967 --> 00:24:19,965
+In the morning a thick mist rose off the lake.
+
+236
+00:24:20,345 --> 00:24:23,988
+The Roman column marched into the valley without scouting it.
+
+237
+00:24:25,988 --> 00:24:31,032
+At a signal, Hannibal's men charged down out of the fog from every direction.
+
+238
+00:24:31,412 --> 00:24:35,546
+The Romans could not see the enemy, could not form up, could not run.
+
+239
+00:24:35,926 --> 00:24:40,522
+Livy says the fighting was so fierce that no one noticed an earthquake.
+
+240
+00:24:40,902 --> 00:24:43,903
+Flaminius was killed by a Gallic horseman.
+
+241
+00:24:44,283 --> 00:24:47,895
+In three hours, about fifteen thousand Romans died.
+
+242
+00:24:48,275 --> 00:24:51,719
+Thousands more drowned trying to swim out into the lake.
+
+243
+00:24:53,719 --> 00:25:01,529
+In Rome, a magistrate stood up before the crowd in the Forum and announced simply: We have been defeated in a great battle.
+
+244
+00:25:01,909 --> 00:25:07,882
+The Senate turned to an old aristocrat, Quintus Fabius Maximus, and made him dictator.
+
+245
+00:25:08,262 --> 00:25:10,061
+Fabius had a new idea.
+
+246
+00:25:10,441 --> 00:25:12,525
+He would not fight Hannibal at all.
+
+247
+00:25:14,525 --> 00:25:23,698
+He shadowed the Carthaginian army along the hills, cut off its foraging parties and starved it, but refused every invitation to battle.
+
+248
+00:25:24,078 --> 00:25:25,734
+The Romans hated it.
+
+249
+00:25:26,114 --> 00:25:31,211
+They called him Cunctator, the Delayer, and laughed at him as Hannibal's servant.
+
+250
+00:25:31,591 --> 00:25:35,141
+Once, Fabius trapped Hannibal in a valley in Campania.
+
+251
+00:25:35,521 --> 00:25:42,450
+That night Hannibal had burning torches tied to the horns of two thousand oxen, and drove them up a hillside.
+
+252
+00:25:42,830 --> 00:25:49,727
+The Romans rushed to block what they thought was the army escaping, and Hannibal slipped through the pass behind them.
+
+253
+00:26:00,727 --> 00:26:05,356
+By 216 BC, Rome had lost patience with delay.
+
+254
+00:26:05,736 --> 00:26:18,923
+The voters elected two new consuls, the cautious aristocrat Lucius Aemilius Paullus and the popular Gaius Terentius Varro, and gave them the largest army Rome had ever put into the field.
+
+255
+00:26:19,303 --> 00:26:24,547
+Eight legions, each one enlarged, with as many again from the Italian allies.
+
+256
+00:26:24,927 --> 00:26:30,417
+Polybius gives a total of eighty thousand infantry and more than six thousand cavalry.
+
+257
+00:26:30,797 --> 00:26:34,014
+Their orders were to find Hannibal and destroy him.
+
+258
+00:26:36,014 --> 00:26:44,246
+They found him in Apulia, in the south-east of Italy, near a small hilltop town called Cannae, beside the river Aufidus.
+
+259
+00:26:44,626 --> 00:26:49,113
+Hannibal had perhaps forty thousand infantry and ten thousand cavalry.
+
+260
+00:26:49,493 --> 00:26:51,834
+He was outnumbered almost two to one.
+
+261
+00:26:52,214 --> 00:26:58,542
+On the second of August, by the Roman calendar, the two armies formed up on the flat ground by the river.
+
+262
+00:27:00,542 --> 00:27:05,026
+The Romans planned to smash through the centre with sheer weight of numbers.
+
+263
+00:27:05,406 --> 00:27:08,448
+Hannibal read their plan, and used it against them.
+
+264
+00:27:08,828 --> 00:27:17,676
+In the centre he placed his Gauls and Spaniards, the least reliable troops, in a line that bulged forward toward the enemy like a crescent.
+
+265
+00:27:18,056 --> 00:27:22,368
+On either side, held back, stood his best African infantry.
+
+266
+00:27:22,748 --> 00:27:24,611
+On the wings, his cavalry.
+
+267
+00:27:26,611 --> 00:27:28,734
+The battle began on the wings.
+
+268
+00:27:29,114 --> 00:27:43,013
+On the riverside, Hannibal's heavy cavalry under Hasdrubal crushed the Roman horsemen, then rode all the way around behind the Roman army to attack the allied cavalry on the far wing, and sent them fleeing too.
+
+269
+00:27:43,393 --> 00:27:47,209
+Meanwhile the Roman infantry pushed forward into the centre.
+
+270
+00:27:47,589 --> 00:27:53,141
+The Gauls and Spaniards gave ground, slowly, step by step, exactly as planned.
+
+271
+00:27:53,521 --> 00:27:55,316
+The crescent bent backward.
+
+272
+00:27:55,696 --> 00:27:58,769
+The Romans pressed into it, thinking they were winning.
+
+273
+00:28:00,769 --> 00:28:02,773
+Then Hannibal sprang the trap.
+
+274
+00:28:03,153 --> 00:28:09,278
+The African infantry on either side turned inward and attacked the flanks of the Roman mass.
+
+275
+00:28:09,658 --> 00:28:14,845
+The Carthaginian cavalry came back from the pursuit and fell on the Roman rear.
+
+276
+00:28:15,225 --> 00:28:24,942
+The Roman army, still pushing forward, found itself surrounded on every side, packed so tightly that many men could not raise their arms to fight.
+
+277
+00:28:26,942 --> 00:28:31,895
+What followed was not a battle but a slaughter that lasted the rest of the day.
+
+278
+00:28:32,275 --> 00:28:35,395
+Polybius says seventy thousand Romans died.
+
+279
+00:28:35,775 --> 00:28:39,313
+Livy gives a lower figure, about forty-eight thousand.
+
+280
+00:28:39,693 --> 00:28:44,081
+Either way, it was one of the bloodiest single days of fighting in history.
+
+281
+00:28:44,460 --> 00:28:46,403
+The consul Paullus was killed.
+
+282
+00:28:46,783 --> 00:28:49,996
+So were two former consuls and some eighty senators.
+
+283
+00:28:50,376 --> 00:28:54,220
+Hannibal lost about six thousand men, most of them Gauls.
+
+284
+00:28:56,220 --> 00:29:11,433
+Livy tells us that Hannibal's brother Mago later stood before the council in Carthage and poured out the gold rings taken from the fingers of dead Roman nobles: a heap so large that, by some accounts, it filled three and a half bushels.
+
+285
+00:29:11,813 --> 00:29:15,456
+More than two thousand years later, armies still study Cannae.
+
+286
+00:29:15,836 --> 00:29:22,812
+The double envelopment, the perfect encirclement of a larger force, is still often called simply, a Cannae.
+
+287
+00:29:33,812 --> 00:29:39,932
+After Cannae, Hannibal's cavalry commander Maharbal urged him to march on Rome at once.
+
+288
+00:29:40,312 --> 00:29:44,966
+Give me the cavalry, he said, and in five days you will dine on the Capitol.
+
+289
+00:29:45,346 --> 00:29:46,685
+Hannibal refused.
+
+290
+00:29:47,065 --> 00:29:49,444
+Livy says Maharbal turned on him.
+
+291
+00:29:49,824 --> 00:29:52,668
+The gods have not given everything to one man.
+
+292
+00:29:53,048 --> 00:29:55,341
+You know how to win a victory, Hannibal.
+
+293
+00:29:55,721 --> 00:29:57,904
+You do not know how to use one.
+
+294
+00:29:59,904 --> 00:30:02,343
+Historians still argue about it.
+
+295
+00:30:02,723 --> 00:30:09,840
+But Rome was a well-fortified city more than three hundred kilometres away, and Hannibal had no siege equipment.
+
+296
+00:30:10,220 --> 00:30:13,104
+His strategy had never been to storm Rome.
+
+297
+00:30:13,484 --> 00:30:19,957
+It was to break up Rome's alliance of Italian cities, one by one, until Rome stood alone.
+
+298
+00:30:21,957 --> 00:30:23,758
+At first it seemed to work.
+
+299
+00:30:24,138 --> 00:30:27,640
+Capua, the second city of Italy, went over to him.
+
+300
+00:30:28,020 --> 00:30:29,775
+So did much of the south.
+
+301
+00:30:30,155 --> 00:30:34,329
+King Philip the Fifth of Macedon made an alliance with Carthage.
+
+302
+00:30:34,709 --> 00:30:38,773
+In Sicily, the great Greek city of Syracuse changed sides.
+
+303
+00:30:39,154 --> 00:30:41,299
+Rome was fighting on four fronts.
+
+304
+00:30:43,299 --> 00:30:45,043
+But Rome did not break.
+
+305
+00:30:45,423 --> 00:30:55,988
+In the panic after Cannae, the Romans even buried two Gauls and two Greeks alive in the cattle market, an ancient rite that Livy calls hardly Roman at all.
+
+306
+00:30:56,368 --> 00:31:00,491
+The Senate refused to ransom the prisoners Hannibal had taken.
+
+307
+00:31:00,871 --> 00:31:05,790
+It armed eight thousand slaves, and raised new legions from boys and old men.
+
+308
+00:31:06,170 --> 00:31:11,555
+And the Latin cities of central Italy, the core of Rome's alliance, stayed loyal.
+
+309
+00:31:13,555 --> 00:31:20,532
+At Syracuse, a Roman army and fleet laid siege to the city in 213 BC.
+
+310
+00:31:20,912 --> 00:31:36,107
+For two years they were held off by the inventions of one old man, the mathematician Archimedes: catapults that could strike ships at any range, and great cranes with iron claws that lifted Roman galleys out of the water and dropped them.
+
+311
+00:31:36,487 --> 00:31:45,945
+When the city finally fell in 212, a Roman soldier killed Archimedes, according to the story, while he was drawing in the sand.
+
+312
+00:31:47,945 --> 00:31:56,003
+In 211, while Roman armies besieged Capua, Hannibal marched on Rome itself, hoping to draw them away.
+
+313
+00:31:56,383 --> 00:32:01,355
+He camped five kilometres from the city and rode up to the walls with his cavalry.
+
+314
+00:32:01,735 --> 00:32:10,053
+Livy says that, at that very moment, the land where Hannibal was camped was put up for sale in Rome, and sold at full price.
+
+315
+00:32:10,433 --> 00:32:12,734
+The Romans did not lift the siege.
+
+316
+00:32:13,114 --> 00:32:15,613
+Hannibal withdrew, and Capua fell.
+
+317
+00:32:17,613 --> 00:32:25,113
+Then, in 207 BC, Hannibal's brother Hasdrubal crossed the Alps from Spain with a second army.
+
+318
+00:32:25,493 --> 00:32:29,352
+If the brothers could join forces, the war might still be won.
+
+319
+00:32:29,732 --> 00:32:32,558
+But Hasdrubal's messengers were captured.
+
+320
+00:32:32,938 --> 00:32:40,892
+A Roman consul marched north in secret, joined his colleague, and at the river Metaurus destroyed Hasdrubal's army.
+
+321
+00:32:41,272 --> 00:32:43,124
+Hasdrubal was killed.
+
+322
+00:32:43,504 --> 00:32:48,519
+The Romans cut off his head, carried it south, and threw it into Hannibal's camp.
+
+323
+00:32:50,519 --> 00:32:56,901
+Livy says that when Hannibal recognised his brother's face, he said that he now saw the fate of Carthage.
+
+324
+00:32:57,281 --> 00:33:01,495
+He withdrew to the mountains of the far south of Italy, to Bruttium.
+
+325
+00:33:01,875 --> 00:33:06,169
+For four more years he stayed there, undefeated, but going nowhere.
+
+326
+00:33:17,169 --> 00:33:19,927
+In Spain, the war had gone badly for Rome.
+
+327
+00:33:20,307 --> 00:33:29,437
+In 211 BC, both Roman commanders there, the brothers Publius and Gnaeus Scipio, were killed within weeks of each other.
+
+328
+00:33:29,817 --> 00:33:32,573
+Rome needed someone to take their place.
+
+329
+00:33:32,953 --> 00:33:41,742
+The man who stepped forward was the son who had saved his father's life at the Ticinus seven years before, Publius Cornelius Scipio.
+
+330
+00:33:42,122 --> 00:33:45,836
+He was about twenty-five, and he had never held high office.
+
+331
+00:33:46,216 --> 00:33:48,716
+The people gave him the command anyway.
+
+332
+00:33:50,716 --> 00:33:53,522
+His first move was the boldest of the war.
+
+333
+00:33:53,902 --> 00:34:05,497
+In 209 BC he marched his army in seven days straight to New Carthage, the enemy's capital in Spain, while the three Carthaginian armies there were far away.
+
+334
+00:34:05,877 --> 00:34:09,422
+The city stood on a peninsula with a lagoon behind it.
+
+335
+00:34:09,802 --> 00:34:15,857
+Scipio had learned from fishermen that the lagoon became shallow enough to wade at certain times of day.
+
+336
+00:34:16,237 --> 00:34:25,325
+While his main army attacked the walls from the front, a detachment waded across the lagoon and climbed the undefended walls on the other side.
+
+337
+00:34:27,325 --> 00:34:36,489
+New Carthage fell in a single day, with its treasury, its arsenals, its ships, and the hostages Carthage had taken from the Spanish tribes.
+
+338
+00:34:36,869 --> 00:34:39,116
+Scipio sent the hostages home.
+
+339
+00:34:39,496 --> 00:34:49,495
+Polybius tells a famous story: his soldiers brought him a beautiful young captive, and he returned her, untouched, to her fiancé, a Spanish prince.
+
+340
+00:34:49,875 --> 00:34:56,637
+The story was told for centuries as an example of noble restraint, and painted over and over again.
+
+341
+00:34:58,637 --> 00:35:07,540
+Over the next three years Scipio drove the Carthaginians out of Spain altogether, defeating them at Baecula and at Ilipa.
+
+342
+00:35:07,920 --> 00:35:14,117
+Then he went home, was elected consul, and argued for a plan the old Fabius thought insane.
+
+343
+00:35:14,497 --> 00:35:21,273
+Instead of chasing Hannibal around Italy, Rome should invade Africa, and force Carthage to call him home.
+
+344
+00:35:23,273 --> 00:35:28,242
+In 204 BC, Scipio landed in Africa near Utica.
+
+345
+00:35:28,622 --> 00:35:39,350
+He found a vital ally there: Masinissa, a young Numidian prince who had fought against Rome in Spain, had been driven from his kingdom, and now changed sides.
+
+346
+00:35:39,730 --> 00:35:45,416
+His horsemen, who rode without saddle or bridle, were the best light cavalry in the world.
+
+347
+00:35:47,416 --> 00:35:51,158
+In the spring of 203, Scipio struck by night.
+
+348
+00:35:51,538 --> 00:35:58,415
+The enemy armies of Carthage and its Numidian allies were camped in huts made of reeds and branches.
+
+349
+00:35:58,795 --> 00:36:03,233
+His men set them on fire, and cut down the soldiers as they ran out.
+
+350
+00:36:03,613 --> 00:36:07,477
+Polybius calls it the most dazzling of all Scipio's exploits.
+
+351
+00:36:07,857 --> 00:36:11,839
+A few weeks later he won a pitched battle on the Great Plains.
+
+352
+00:36:13,839 --> 00:36:16,361
+Carthage did what Scipio had expected.
+
+353
+00:36:16,741 --> 00:36:18,384
+It called Hannibal home.
+
+354
+00:36:18,764 --> 00:36:25,434
+In the autumn of 203 BC, after fifteen years in Italy, he sailed for Africa.
+
+355
+00:36:25,814 --> 00:36:33,132
+Livy says that few exiles ever left their own country as sadly as Hannibal left the country of his enemies.
+
+356
+00:36:44,132 --> 00:36:54,402
+In 202 BC, the two greatest generals of their age faced each other on a plain near a town called Zama, south-west of Carthage.
+
+357
+00:36:54,782 --> 00:37:01,199
+Polybius says that before the battle they met in person, between the armies, each with an interpreter.
+
+358
+00:37:01,579 --> 00:37:03,103
+Hannibal offered peace.
+
+359
+00:37:03,483 --> 00:37:05,088
+Scipio said it was too late.
+
+360
+00:37:05,468 --> 00:37:11,608
+Whether they really spoke, or whether the meeting was invented by later writers, we cannot be sure.
+
+361
+00:37:13,608 --> 00:37:17,064
+Hannibal opened the battle with his eighty war elephants.
+
+362
+00:37:17,444 --> 00:37:18,766
+Scipio was ready.
+
+363
+00:37:19,146 --> 00:37:25,465
+He had arranged his infantry not in a solid line, but in columns with open lanes between them.
+
+364
+00:37:25,845 --> 00:37:29,838
+As the elephants charged, the Romans blew trumpets and horns.
+
+365
+00:37:30,218 --> 00:37:35,999
+Many of the terrified animals ran down the lanes and out the back without hurting anyone.
+
+366
+00:37:36,379 --> 00:37:40,867
+Others turned around and stampeded into Hannibal's own cavalry.
+
+367
+00:37:42,867 --> 00:37:53,872
+Scipio's cavalry, the Italians under his friend Laelius and the Numidians under Masinissa, drove the Carthaginian horsemen off the field and chased them away.
+
+368
+00:37:54,252 --> 00:37:55,964
+Then the infantry met.
+
+369
+00:37:56,344 --> 00:37:58,953
+Hannibal's first two lines were broken.
+
+370
+00:37:59,333 --> 00:38:06,407
+But his third line, his veterans from Italy, held firm, and for a long time the outcome hung in the balance.
+
+371
+00:38:08,407 --> 00:38:13,213
+Then Scipio's cavalry returned, and charged into the back of Hannibal's line.
+
+372
+00:38:13,593 --> 00:38:15,428
+It was Cannae in reverse.
+
+373
+00:38:15,808 --> 00:38:21,184
+Polybius says twenty thousand Carthaginians were killed, and almost as many captured.
+
+374
+00:38:21,564 --> 00:38:24,497
+Hannibal escaped with a handful of horsemen.
+
+375
+00:38:24,877 --> 00:38:28,365
+For the first time in his life, he had lost a great battle.
+
+376
+00:38:30,365 --> 00:38:35,501
+Back in Carthage, a councillor stood up to argue against accepting Rome's terms.
+
+377
+00:38:35,881 --> 00:38:39,291
+Hannibal walked over and pulled him down from the platform.
+
+378
+00:38:39,671 --> 00:38:51,387
+Then he told the astonished councillors that he had left Carthage as a boy of nine, and had come back at forty-five, and that he knew more about war than about the customs of their assembly.
+
+379
+00:38:51,767 --> 00:38:53,598
+Carthage must make peace.
+
+380
+00:38:55,598 --> 00:38:58,769
+The terms of 201 BC were harsh.
+
+381
+00:38:59,149 --> 00:39:03,952
+Carthage would keep its lands in Africa but lose everything overseas.
+
+382
+00:39:04,332 --> 00:39:08,746
+It had to hand over all its elephants and all but ten of its warships.
+
+383
+00:39:09,126 --> 00:39:13,193
+It had to pay ten thousand talents of silver over fifty years.
+
+384
+00:39:13,573 --> 00:39:18,646
+And it could not make war on anyone, even in Africa, without Rome's permission.
+
+385
+00:39:19,026 --> 00:39:26,110
+Livy says the Romans towed some five hundred Carthaginian ships out to sea, and burned them in sight of the city.
+
+386
+00:39:28,110 --> 00:39:33,987
+Scipio returned to Rome in triumph, and took the name by which he is still known: Africanus.
+
+387
+00:39:34,367 --> 00:39:38,070
+Hannibal, against all expectation, stayed in Carthage.
+
+388
+00:39:38,450 --> 00:39:40,066
+He was not finished yet.
+
+389
+00:39:51,066 --> 00:39:58,461
+In 196 BC, Hannibal was elected suffete, one of the two chief magistrates of Carthage.
+
+390
+00:39:58,841 --> 00:40:04,392
+He went after the corrupt officials who had grown rich while the state struggled to pay Rome.
+
+391
+00:40:04,772 --> 00:40:11,647
+He made the powerful court of judges, whose members had held office for life, subject to election every year.
+
+392
+00:40:12,027 --> 00:40:20,544
+He found that so much public money was being stolen that, once the theft stopped, the indemnity could be paid without any new taxes.
+
+393
+00:40:22,544 --> 00:40:33,240
+He made powerful enemies, and they sent word to Rome that Hannibal was plotting with King Antiochus the Third, the ruler of the vast Seleucid empire in the East.
+
+394
+00:40:33,620 --> 00:40:35,386
+A Roman commission arrived.
+
+395
+00:40:35,766 --> 00:40:46,160
+In 195 BC, Hannibal slipped out of the city at night, rode to the coast, and sailed for Tyre, the ancient mother city of Carthage.
+
+396
+00:40:46,540 --> 00:40:48,648
+He would never see Africa again.
+
+397
+00:40:50,648 --> 00:40:53,993
+Meanwhile, Carthage did something unexpected.
+
+398
+00:40:54,373 --> 00:40:55,682
+It got rich again.
+
+399
+00:40:56,062 --> 00:41:00,787
+Freed from the cost of empire and war, its farms and its trade flourished.
+
+400
+00:41:01,167 --> 00:41:09,108
+In 191 BC it offered to pay off the entire rest of the fifty-year indemnity at once.
+
+401
+00:41:09,488 --> 00:41:10,730
+Rome refused.
+
+402
+00:41:11,110 --> 00:41:13,519
+The payments were not really about money.
+
+403
+00:41:13,899 --> 00:41:16,293
+They were a reminder of who was in charge.
+
+404
+00:41:18,293 --> 00:41:31,333
+Carthaginian agriculture was so admired that, after the city's fall, the Roman Senate ordered a Carthaginian farming manual, by a writer named Mago, to be translated into Latin.
+
+405
+00:41:31,714 --> 00:41:37,043
+It was the only book from the libraries of Carthage that Rome considered worth keeping.
+
+406
+00:41:37,423 --> 00:41:41,047
+And archaeologists have found something even more surprising.
+
+407
+00:41:41,427 --> 00:41:54,065
+The famous circular naval harbour, in the form described by the ancient writers, seems to have been built in this period, after the war with Hannibal, even though Carthage was allowed only ten warships.
+
+408
+00:41:56,065 --> 00:42:06,884
+Hannibal served Antiochus as an adviser and admiral, but the king ignored most of his advice and was crushed by the Romans in 190 BC.
+
+409
+00:42:07,264 --> 00:42:11,107
+The peace treaty demanded that Hannibal be handed over.
+
+410
+00:42:11,487 --> 00:42:18,596
+He fled again, and found shelter at last with King Prusias of Bithynia, in what is now northern Turkey.
+
+411
+00:42:18,976 --> 00:42:28,409
+There, according to the Roman writer Nepos, he won a sea battle for his host by having jars full of poisonous snakes thrown onto the enemy's ships.
+
+412
+00:42:30,409 --> 00:42:37,381
+Around 183 BC, the Romans sent an envoy to demand that Prusias surrender him.
+
+413
+00:42:37,761 --> 00:42:40,261
+Soldiers surrounded Hannibal's house.
+
+414
+00:42:40,641 --> 00:42:43,864
+He had long kept poison ready, and now he took it.
+
+415
+00:42:44,244 --> 00:42:46,241
+Livy gives his last words.
+
+416
+00:42:46,621 --> 00:42:53,378
+Let us free the Romans from their long anxiety, since they think it too long to wait for the death of an old man.
+
+417
+00:42:53,758 --> 00:42:55,298
+He was about sixty-four.
+
+418
+00:42:57,298 --> 00:43:04,154
+In about the same year, Scipio Africanus died too, bitter and out of favour, at his country estate.
+
+419
+00:43:04,534 --> 00:43:07,668
+It was said that he asked to be buried there, not in Rome.
+
+420
+00:43:08,048 --> 00:43:10,960
+The two great enemies left the stage together.
+
+421
+00:43:11,340 --> 00:43:13,912
+But the story of Carthage was not over.
+
+422
+00:43:24,912 --> 00:43:31,449
+Rome's ally in Africa was the Numidian king Masinissa, who had fought beside Scipio at Zama.
+
+423
+00:43:31,829 --> 00:43:33,361
+He was a remarkable man.
+
+424
+00:43:33,741 --> 00:43:40,697
+Polybius met him when he was nearly ninety and says he could still ride all day, and stand in one place for hours.
+
+425
+00:43:41,077 --> 00:43:46,304
+He had made his nomadic people into farmers, and turned Numidia into a powerful kingdom.
+
+426
+00:43:48,304 --> 00:43:56,372
+The treaty of 201 BC said Carthage could not go to war, even in Africa, without Rome's permission.
+
+427
+00:43:56,752 --> 00:43:59,246
+Masinissa used this ruthlessly.
+
+428
+00:43:59,626 --> 00:44:03,925
+Again and again he seized pieces of Carthaginian territory.
+
+429
+00:44:04,305 --> 00:44:07,457
+Again and again Carthage complained to Rome.
+
+430
+00:44:07,837 --> 00:44:14,670
+Roman commissions came, looked, and either sided with Masinissa or went home without deciding anything.
+
+431
+00:44:16,670 --> 00:44:25,091
+Around 153 BC, one of those commissions included an old Roman senator named Marcus Porcius Cato.
+
+432
+00:44:25,471 --> 00:44:29,234
+Cato had fought in the war against Hannibal as a young man.
+
+433
+00:44:29,614 --> 00:44:34,151
+He was famous for his harshness, his thrift and his hatred of luxury.
+
+434
+00:44:34,531 --> 00:44:36,547
+What he saw at Carthage shocked him.
+
+435
+00:44:36,927 --> 00:44:39,424
+The city was not ruined and humbled.
+
+436
+00:44:39,804 --> 00:44:42,713
+It was rich, crowded and full of young men.
+
+437
+00:44:44,713 --> 00:44:50,799
+Back in Rome, Plutarch tells us, he let some figs fall from the fold of his toga in the Senate.
+
+438
+00:44:51,179 --> 00:44:59,512
+While the senators admired how large and fresh they were, he told them that the country where they grew was only three days' sail from Rome.
+
+439
+00:45:01,512 --> 00:45:08,352
+From then on, whatever the subject of the debate, Cato ended every speech in the Senate with the same words.
+
+440
+00:45:08,732 --> 00:45:10,629
+Carthage must be destroyed.
+
+441
+00:45:11,009 --> 00:45:18,518
+The famous Latin phrase, Carthago delenda est, is a later summary, but the idea is his.
+
+442
+00:45:18,898 --> 00:45:24,951
+Another senator, Scipio Nasica, always answered the opposite: Carthage should be spared.
+
+443
+00:45:25,331 --> 00:45:29,777
+Rome, he argued, needed a rival to fear, to keep it disciplined.
+
+444
+00:45:31,777 --> 00:45:37,610
+In 151 BC, Carthage made the last of its fifty annual payments.
+
+445
+00:45:37,990 --> 00:45:39,856
+In its own eyes it was free.
+
+446
+00:45:40,236 --> 00:45:47,882
+Soon afterwards, after yet another attack by Masinissa, it raised an army of its own and marched out to fight him.
+
+447
+00:45:48,262 --> 00:45:52,887
+It was beaten, surrounded and starved, and most of the army was killed.
+
+448
+00:45:53,267 --> 00:45:59,066
+A young Roman officer who happened to be visiting Masinissa watched the battle from a hill.
+
+449
+00:45:59,446 --> 00:46:01,884
+His name was Scipio Aemilianus.
+
+450
+00:46:03,884 --> 00:46:13,887
+He was the son of the Roman general Aemilius Paullus, adopted into the family of the Scipios: the grandson, by adoption, of Scipio Africanus.
+
+451
+00:46:14,267 --> 00:46:18,875
+And the battle he had just watched gave Rome what Cato had been waiting for.
+
+452
+00:46:19,255 --> 00:46:22,191
+Carthage had made war without Rome's permission.
+
+453
+00:46:22,571 --> 00:46:24,105
+It had broken the treaty.
+
+454
+00:46:35,105 --> 00:46:39,076
+In 149 BC, Rome declared war.
+
+455
+00:46:39,456 --> 00:46:47,874
+Utica, Carthage's oldest neighbour, saw what was coming and went over to Rome, giving the Romans a harbour just up the coast.
+
+456
+00:46:48,254 --> 00:46:56,530
+The two consuls of the year sailed from Sicily with, according to Appian, eighty thousand infantry and four thousand cavalry.
+
+457
+00:46:56,910 --> 00:47:01,537
+Carthage had no allies, no fleet, and no army left to speak of.
+
+458
+00:47:01,917 --> 00:47:04,063
+It did the only thing it could think of.
+
+459
+00:47:04,443 --> 00:47:05,450
+It surrendered.
+
+460
+00:47:07,450 --> 00:47:15,746
+Under Roman custom, a people that surrendered gave themselves completely into the hands of Rome, and trusted to its good faith.
+
+461
+00:47:16,126 --> 00:47:23,875
+The Carthaginian envoys were told that the city would keep its freedom, its laws and its territory, on certain conditions.
+
+462
+00:47:24,255 --> 00:47:30,836
+The first was that they send three hundred children from their noblest families to Sicily, as hostages.
+
+463
+00:47:31,216 --> 00:47:31,970
+They did.
+
+464
+00:47:32,350 --> 00:47:38,504
+Appian describes the mothers clinging to the ships as they sailed, some swimming after them into the sea.
+
+465
+00:47:40,504 --> 00:47:44,844
+Then the consuls, now camped at Utica, gave the second order.
+
+466
+00:47:45,224 --> 00:47:49,399
+Carthage did not need weapons, since it was under Rome's protection.
+
+467
+00:47:49,779 --> 00:47:51,512
+It must hand them all over.
+
+468
+00:47:51,892 --> 00:47:53,689
+Again, Carthage obeyed.
+
+469
+00:47:54,069 --> 00:48:02,195
+Appian says the Romans received two hundred thousand sets of armour, countless javelins and arrows, and two thousand catapults.
+
+470
+00:48:02,575 --> 00:48:05,723
+Long wagon trains carried them out of the city.
+
+471
+00:48:07,723 --> 00:48:11,305
+Then the consul Censorinus gave the final order.
+
+472
+00:48:11,685 --> 00:48:14,522
+The people of Carthage must leave their city.
+
+473
+00:48:14,902 --> 00:48:17,312
+The Romans were going to destroy it.
+
+474
+00:48:17,692 --> 00:48:26,331
+The Carthaginians could build a new town wherever they liked, provided it was at least eighty stades, about fifteen kilometres, from the sea.
+
+475
+00:48:26,712 --> 00:48:32,045
+For a city that had lived from the sea for six hundred years, it was a sentence of death.
+
+476
+00:48:34,045 --> 00:48:37,469
+When the envoys brought the news home, the city went mad.
+
+477
+00:48:37,849 --> 00:48:43,099
+Crowds dragged the councillors who had advised surrender from their seats and killed them.
+
+478
+00:48:43,479 --> 00:48:46,541
+Italians who happened to be in the city were murdered.
+
+479
+00:48:46,921 --> 00:48:52,724
+People ran to the empty arsenals, to the temples, to the ship sheds where there were no ships.
+
+480
+00:48:53,104 --> 00:48:56,642
+Then, in desperation, Carthage decided to fight.
+
+481
+00:48:57,022 --> 00:48:58,531
+It closed its gates.
+
+482
+00:48:58,911 --> 00:49:01,640
+It freed its slaves to serve as soldiers.
+
+483
+00:49:02,020 --> 00:49:10,002
+And it recalled a general it had condemned to death only months before, Hasdrubal, who still had an army in the countryside.
+
+484
+00:49:12,002 --> 00:49:14,410
+The city became one great workshop.
+
+485
+00:49:14,790 --> 00:49:25,106
+Appian says that every day the Carthaginians made one hundred shields, three hundred swords, a thousand catapult bolts, and five hundred spears and javelins.
+
+486
+00:49:25,486 --> 00:49:31,349
+Temples and public buildings were turned into forges, men and women working day and night.
+
+487
+00:49:31,729 --> 00:49:34,149
+There was not enough rope for the catapults.
+
+488
+00:49:34,529 --> 00:49:40,751
+So, Appian says, the women of Carthage cut off their hair and gave it to be twisted into cords.
+
+489
+00:49:51,751 --> 00:49:54,972
+The Romans had expected to walk into an empty city.
+
+490
+00:49:55,352 --> 00:49:59,873
+Instead they faced the strongest fortifications in the Mediterranean.
+
+491
+00:50:00,253 --> 00:50:09,646
+On the landward side, across the neck of the peninsula, Appian describes a triple line of defences, with a main wall thirteen metres high.
+
+492
+00:50:10,026 --> 00:50:17,607
+Inside the wall were stables for three hundred elephants and four thousand horses, and barracks for twenty thousand infantry.
+
+493
+00:50:19,607 --> 00:50:21,292
+The first assaults failed.
+
+494
+00:50:21,672 --> 00:50:31,159
+The consuls brought up two enormous battering rams and broke a section of the wall, but the Carthaginians drove them back and rebuilt it in the night.
+
+495
+00:50:31,539 --> 00:50:34,175
+They sent fire ships into the Roman fleet.
+
+496
+00:50:34,555 --> 00:50:38,259
+Disease spread through the Roman camp beside a marshy lake.
+
+497
+00:50:38,639 --> 00:50:41,531
+For two years, the war went badly for Rome.
+
+498
+00:50:43,531 --> 00:50:49,998
+One officer kept distinguishing himself: the young military tribune Scipio Aemilianus.
+
+499
+00:50:50,378 --> 00:50:52,587
+When others blundered, he saved them.
+
+500
+00:50:52,967 --> 00:51:01,277
+Even Cato, in his last months of life, quoted Homer about him: he alone has understanding; the rest are flitting shadows.
+
+501
+00:51:01,657 --> 00:51:11,192
+In 148 BC old Masinissa died, at around ninety, and Scipio was given the task of dividing his kingdom among his sons.
+
+502
+00:51:13,192 --> 00:51:24,687
+In 147 BC, the Roman people elected Scipio Aemilianus consul, even though he was too young for the office and was only standing for a lower post.
+
+503
+00:51:25,067 --> 00:51:26,669
+The law was set aside.
+
+504
+00:51:27,049 --> 00:51:36,980
+He took command at Carthage, and with him, as his adviser and friend, came the Greek historian Polybius, who would see everything that followed with his own eyes.
+
+505
+00:51:38,980 --> 00:51:40,638
+Scipio cut Carthage off.
+
+506
+00:51:41,018 --> 00:51:48,033
+He built a fortified camp across the whole width of the isthmus, so that nothing could reach the city by land.
+
+507
+00:51:48,413 --> 00:51:56,507
+Then he began to build a great stone mole out into the sea, to block the entrance of the harbours, so that no supply ship could get in.
+
+508
+00:51:58,507 --> 00:52:01,774
+The Carthaginians answered with a feat of their own.
+
+509
+00:52:02,154 --> 00:52:07,837
+Working in secret, they dug a new channel from the inner harbour straight out to the open sea.
+
+510
+00:52:08,217 --> 00:52:13,537
+At the same time, from old timber, they built a new fleet of some fifty warships.
+
+511
+00:52:13,917 --> 00:52:21,638
+One morning, the Romans watched in amazement as a Carthaginian fleet sailed out of a harbour that they thought was sealed.
+
+512
+00:52:23,638 --> 00:52:25,629
+But the surprise was wasted.
+
+513
+00:52:26,009 --> 00:52:33,620
+Appian says that instead of attacking at once, the Carthaginian fleet sailed out, showed itself, and sailed back in.
+
+514
+00:52:34,000 --> 00:52:45,476
+When it finally fought, three days later, the battle was indecisive, and on the way back into the harbour the Carthaginian ships jammed at the narrow entrance and were badly mauled.
+
+515
+00:52:47,476 --> 00:52:50,958
+Inside the city, Hasdrubal had taken control.
+
+516
+00:52:51,338 --> 00:53:01,846
+To make sure no one in Carthage could hope for mercy, he had the Roman prisoners he held brought up onto the walls, in full view of their comrades, and tortured to death.
+
+517
+00:53:02,226 --> 00:53:04,171
+Now there could be no turning back.
+
+518
+00:53:04,551 --> 00:53:11,968
+Through the winter of 147, the Romans destroyed the last Carthaginian army in the countryside.
+
+519
+00:53:12,348 --> 00:53:14,802
+In the city, people began to starve.
+
+520
+00:53:25,802 --> 00:53:30,026
+In the spring of 146 BC, Scipio attacked.
+
+521
+00:53:30,406 --> 00:53:32,552
+His men broke in by the harbours.
+
+522
+00:53:32,932 --> 00:53:43,632
+Scipio's friend Gaius Laelius took the wall around the circular naval harbour, and the Romans poured into the great public square of Carthage, its agora, near the sea.
+
+523
+00:53:44,012 --> 00:53:47,171
+Starving and exhausted, the defenders fell back.
+
+524
+00:53:47,551 --> 00:53:56,842
+That night, Roman soldiers stripped the gold from a temple of Apollo, as the Greeks called the Phoenician god Reshef, hacking it off with their swords.
+
+525
+00:53:58,842 --> 00:54:05,635
+From the agora, three narrow streets climbed the hill to the Byrsa, the citadel at the heart of the city.
+
+526
+00:54:06,015 --> 00:54:08,799
+They were lined with houses six storeys high.
+
+527
+00:54:09,179 --> 00:54:12,397
+This is where the fighting of our opening scene took place.
+
+528
+00:54:12,777 --> 00:54:20,508
+For six days and nights, the Romans fought their way up, house by house, crossing from roof to roof on planks and beams.
+
+529
+00:54:20,888 --> 00:54:25,739
+Then, to clear a path for the troops, Scipio ordered the streets set on fire.
+
+530
+00:54:27,739 --> 00:54:49,221
+The excavations on the Byrsa hill in the 1970s and 1980s, led by the French archaeologist Serge Lancel, found exactly this: a district of tall houses built in the second century BC, ending in a thick layer of ash, burnt timber, fallen roof tiles and sling stones.
+
+531
+00:54:51,221 --> 00:54:58,850
+On the seventh day, the people on the Byrsa sent envoys down to ask that those who came out would be allowed to live.
+
+532
+00:54:59,230 --> 00:55:01,895
+Scipio agreed, except for deserters.
+
+533
+00:55:02,275 --> 00:55:05,917
+Fifty thousand men and women came out of the citadel.
+
+534
+00:55:06,297 --> 00:55:16,559
+Nine hundred Roman deserters, who knew they would be shown no mercy, took refuge in the temple of Eshmun, the god of healing, at the very summit of the hill.
+
+535
+00:55:16,939 --> 00:55:20,529
+With them were Hasdrubal, his wife and their two sons.
+
+536
+00:55:22,529 --> 00:55:24,338
+Then Hasdrubal broke.
+
+537
+00:55:24,718 --> 00:55:29,688
+He slipped out alone, carrying an olive branch, and threw himself at Scipio's feet.
+
+538
+00:55:30,068 --> 00:55:33,876
+Scipio had him displayed to the deserters on the temple roof.
+
+539
+00:55:34,256 --> 00:55:41,524
+And on the roof, in front of everyone, Hasdrubal's wife appeared, in her finest clothes, holding her two sons.
+
+540
+00:55:41,904 --> 00:55:48,075
+Polybius, who was there, records that she called out to her husband as a traitor and a coward.
+
+541
+00:55:48,455 --> 00:55:54,091
+Then she killed her children, threw them into the burning temple, and followed them into the flames.
+
+542
+00:55:56,091 --> 00:55:59,909
+Later writers said Carthage burned for seventeen days.
+
+543
+00:56:00,289 --> 00:56:03,041
+As Scipio watched, Polybius saw him weep.
+
+544
+00:56:03,421 --> 00:56:11,808
+He was thinking, he said, of how cities and empires rise and fall, as Troy had fallen, and Assyria, and Persia, and Macedon.
+
+545
+00:56:12,188 --> 00:56:18,275
+Then he quoted the lines of Homer in which a Trojan hero foresees the fall of his own city.
+
+546
+00:56:18,655 --> 00:56:22,506
+When Polybius asked what he meant, Scipio took him by the hand.
+
+547
+00:56:22,886 --> 00:56:27,265
+He feared, he said, that one day someone would say the same about Rome.
+
+548
+00:56:38,265 --> 00:56:42,124
+The Senate sent ten commissioners to decide what should be done.
+
+549
+00:56:42,504 --> 00:56:48,580
+Whatever was left of Carthage was to be razed to the ground, and a curse was laid upon the site.
+
+550
+00:56:48,960 --> 00:56:51,519
+No one was ever to live there again.
+
+551
+00:56:51,899 --> 00:56:55,240
+The libraries were given away to the Numidian kings.
+
+552
+00:56:55,620 --> 00:57:00,058
+Its territory became a new Roman province, called simply Africa.
+
+553
+00:57:00,438 --> 00:57:15,936
+In the same year, on the other side of the Mediterranean, another Roman army sacked the great Greek city of Corinth. 146 BC was the year Rome became the unchallenged master of the Mediterranean world.
+
+554
+00:57:17,936 --> 00:57:24,758
+You may have heard that the Romans ploughed the ground and sowed it with salt, so that nothing would ever grow there again.
+
+555
+00:57:25,138 --> 00:57:27,119
+There is no ancient source for this.
+
+556
+00:57:27,499 --> 00:57:31,535
+The story first appears in modern books, in the twentieth century.
+
+557
+00:57:31,915 --> 00:57:33,026
+It is a myth.
+
+558
+00:57:35,026 --> 00:57:36,875
+The curse did not last long.
+
+559
+00:57:37,255 --> 00:57:43,401
+A generation later, the reformer Gaius Gracchus tried to found a Roman colony on the site.
+
+560
+00:57:43,781 --> 00:57:47,796
+Julius Caesar planned another, and his heir Augustus built it.
+
+561
+00:57:48,176 --> 00:58:01,698
+Roman Carthage became one of the greatest cities of the empire, the capital of Africa, with vast public baths, a circus, an amphitheatre and theatres, its harbours rebuilt on the old Punic plan.
+
+562
+00:58:02,078 --> 00:58:07,108
+It was in Roman Carthage, centuries later, that the young Augustine studied.
+
+563
+00:58:09,108 --> 00:58:12,239
+The Phoenician language, Punic, lived on too.
+
+564
+00:58:12,618 --> 00:58:19,841
+It was still spoken in the countryside of North Africa six hundred years after the fall, in the time of Augustine.
+
+565
+00:58:20,221 --> 00:58:33,619
+Carthage itself passed to the Vandals, then the Byzantines, and was finally abandoned after the Arab conquest at the end of the seventh century, its stones carried off for centuries to build Tunis and other cities.
+
+566
+00:58:35,619 --> 00:58:42,672
+Today the site of Carthage is a quiet suburb of Tunis, with villas, gardens and a presidential palace.
+
+567
+00:58:43,052 --> 00:58:47,757
+Since 1979 it has been a UNESCO World Heritage Site.
+
+568
+00:58:48,137 --> 00:58:55,943
+You can still walk around the circular harbour, now a lagoon, with its small round island where the admiral's tower once stood.
+
+569
+00:58:56,323 --> 00:59:03,270
+On the Byrsa hill, the houses that burned in 146 BC have been uncovered again.
+
+570
+00:59:03,650 --> 00:59:08,269
+And in the tophet, the little stones of Tanit still stand in the grass.
+
+571
+00:59:10,269 --> 00:59:23,283
+We know Carthage almost entirely through the eyes of its enemies: Polybius, the friend of the man who destroyed it; Livy, who wrote Rome's national epic; and Appian, two centuries later still.
+
+572
+00:59:23,663 --> 00:59:25,544
+Carthage's own books are gone.
+
+573
+00:59:25,924 --> 00:59:28,518
+Its own version of its story is lost.
+
+574
+00:59:28,898 --> 00:59:30,661
+We will never hear its side.
+
+575
+00:59:32,661 --> 00:59:38,923
+Cato died in 149 BC, before he could see the war he had demanded won.
+
+576
+00:59:39,303 --> 00:59:51,917
+Scipio Aemilianus, who had wept for Rome as he burned Carthage, was found dead in his bed twenty years later, during the political violence that would eventually tear the Roman Republic apart.
+
+577
+00:59:52,297 --> 00:59:58,295
+And Hannibal, who never captured Rome, became more famous than almost any Roman of his age.
+
+578
+00:59:58,675 --> 01:00:01,684
+Generals have studied his campaigns ever since.
+
+579
+01:00:03,684 --> 01:00:09,222
+For generations, Romans used the words Hannibal at the gates to mean mortal danger.
+
+580
+01:00:09,602 --> 01:00:16,986
+They never forgot that, for fifteen years, one man from a city they destroyed had held Rome itself in the balance.
+
+581
+01:00:17,366 --> 01:00:19,375
+Carthage had been the New City.
+
+582
+01:00:19,755 --> 01:00:23,565
+Rome made sure it would also be the last city of its kind.
+
+583
+01:00:23,945 --> 01:00:26,386
+And Scipio's fear, at least, came true.
+
+584
+01:00:26,766 --> 01:00:32,490
+Six centuries later, Rome itself would be sacked, and its empire in the west would fall.
+
