@@ -22,3 +22,6 @@ production/derinkuyu/build/pool_thumbs/
 production/derinkuyu/build/cand_thumbs/
 production/derinkuyu/build/narration/**/*.wav
 production/derinkuyu/build/*.log
+production/derinkuyu/build/photos/*.jpg
+production/derinkuyu/build/photos/*.png
+production/derinkuyu/build/stale.txt
