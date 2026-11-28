@@ -10,7 +10,7 @@ for sid, i in picks.items():
     c = cand[i[0]]['cands'][i[1]] if isinstance(i, list) else cand[sid]['cands'][i]; ext = '.png' if c['url'].lower().endswith('.png') else '.jpg'
     for k in range(6):
         try:
-            r = requests.get(c['url'], headers=UA, timeout=120)
+            r = requests.get(c['url'], headers=UA, timeout=(20, 90))   # connect, read: a hung connection can no longer stall the run
             if r.ok and r.headers.get('content-type', '').startswith('image/'): break
         except Exception: pass
         time.sleep(15 * (k + 1))
