@@ -21,3 +21,4 @@ production/carthage/*.mp4
 production/derinkuyu/build/pool_thumbs/
 production/derinkuyu/build/cand_thumbs/
 production/derinkuyu/build/narration/**/*.wav
+production/derinkuyu/build/*.log
