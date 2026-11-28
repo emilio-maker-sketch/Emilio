@@ -1,0 +1,153 @@
+{
+ "id": "12_the_rock_churches",
+ "title": "THE ROCK CHURCHES",
+ "paras": [
+  {
+   "wav": "build/narration/12_the_rock_churches/00.wav",
+   "dur": 23.902,
+   "sentences": [
+    {
+     "text": "In the fourth century, three men from Cappadocia shaped Christian thought for the rest of history.",
+     "start": 0.0,
+     "end": 6.061
+    },
+    {
+     "text": "Basil, bishop of Caesarea, his younger brother Gregory of Nyssa, and their friend Gregory of Nazianzus are known together as the Cappadocian Fathers.",
+     "start": 6.441,
+     "end": 17.036
+    },
+    {
+     "text": "Their writings helped to settle the doctrine of the Trinity that most Christian churches still hold today.",
+     "start": 17.416,
+     "end": 23.902
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/01.wav",
+   "dur": 19.449,
+   "sentences": [
+    {
+     "text": "Basil was also a practical man.",
+     "start": 0.0,
+     "end": 2.295
+    },
+    {
+     "text": "Outside Caesarea he built a great complex to care for the poor, the sick and travellers, which some historians count among the first hospitals.",
+     "start": 2.675,
+     "end": 12.061
+    },
+    {
+     "text": "And he wrote rules for monks living together in communities, rules that are still followed in Orthodox monasteries.",
+     "start": 12.441,
+     "end": 19.449
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/02.wav",
+   "dur": 19.546,
+   "sentences": [
+    {
+     "text": "Monks found the valleys of Cappadocia ideal.",
+     "start": 0.0,
+     "end": 3.076
+    },
+    {
+     "text": "In the soft rock they could cut a cell, a chapel, a refectory with a table and benches carved out of the living stone.",
+     "start": 3.456,
+     "end": 11.164
+    },
+    {
+     "text": "Over the following centuries, hundreds of rock-cut churches appeared in the valleys around G\u00f6reme, Ihlara and So\u011fanl\u0131.",
+     "start": 11.544,
+     "end": 19.546
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/03.wav",
+   "dur": 22.015,
+   "sentences": [
+    {
+     "text": "Most of the painted churches that survive date from the ninth to the eleventh centuries.",
+     "start": 0.0,
+     "end": 5.52
+    },
+    {
+     "text": "The Tokal\u0131 church at G\u00f6reme, painted in the tenth century, is covered with scenes from the life of Christ in a deep blue that still glows.",
+     "start": 5.9,
+     "end": 15.043
+    },
+    {
+     "text": "The so-called Dark Church, which receives very little daylight, has kept its colours unusually fresh.",
+     "start": 15.424,
+     "end": 22.015
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/04.wav",
+   "dur": 28.349,
+   "sentences": [
+    {
+     "text": "The paintings were not only decoration.",
+     "start": 0.0,
+     "end": 2.612
+    },
+    {
+     "text": "In a world where few people could read, they were how the stories of the faith were told.",
+     "start": 2.992,
+     "end": 8.091
+    },
+    {
+     "text": "The faces of saints, the scenes of Christ's birth and death, the warrior saints George and Theodore on horseback killing dragons, were all familiar to villagers who would never see Constantinople.",
+     "start": 8.471,
+     "end": 20.997
+    },
+    {
+     "text": "Many faces were later scratched out, and visitors from the last two centuries have carved their names over them.",
+     "start": 21.377,
+     "end": 28.349
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/05.wav",
+   "dur": 18.947,
+   "sentences": [
+    {
+     "text": "These painted churches are the same world as the church deep inside Derinkuyu.",
+     "start": 0.0,
+     "end": 5.668
+    },
+    {
+     "text": "The same communities that carved chapels in the cliffs carved refuges under their villages.",
+     "start": 6.048,
+     "end": 11.816
+    },
+    {
+     "text": "One was for prayer in the open valleys.",
+     "start": 12.196,
+     "end": 14.808
+    },
+    {
+     "text": "The other was for the times when the open valleys were not safe.",
+     "start": 15.188,
+     "end": 18.947
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/12_the_rock_churches/06.wav",
+   "dur": 4.303,
+   "sentences": [
+    {
+     "text": "And from the seventh century onwards, the times were very rarely safe.",
+     "start": 0.0,
+     "end": 4.303
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "19_cities_underground",
+ "title": "REFUGES UNDERGROUND",
+ "paras": [
+  {
+   "wav": "build/narration/19_cities_underground/00.wav",
+   "dur": 12.658,
+   "sentences": [
+    {
+     "text": "Derinkuyu is not unique.",
+     "start": 0.0,
+     "end": 2.127
+    },
+    {
+     "text": "Across the world, wherever people faced raiders they could not fight in the open, some of them went underground, and the solutions they found look strikingly alike.",
+     "start": 2.507,
+     "end": 12.658
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/01.wav",
+   "dur": 25.728,
+   "sentences": [
+    {
+     "text": "In northern France, beneath the village of Naours in Picardy, there is a network of tunnels and rooms cut into the chalk.",
+     "start": 0.0,
+     "end": 7.725
+    },
+    {
+     "text": "Local people used it as a refuge during the wars of the seventeenth century, sheltering there with their animals.",
+     "start": 8.105,
+     "end": 15.384
+    },
+    {
+     "text": "In the First World War, soldiers from Britain, Australia and other countries visited the tunnels behind the front line, and left their names on the walls.",
+     "start": 15.764,
+     "end": 25.728
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/02.wav",
+   "dur": 21.329,
+   "sentences": [
+    {
+     "text": "In southern Tunisia, at Matmata, Berber families still live in houses dug down into the ground: a deep circular pit open to the sky, with rooms cut into its sides.",
+     "start": 0.0,
+     "end": 11.803
+    },
+    {
+     "text": "Here the purpose was mostly not defence but climate.",
+     "start": 12.183,
+     "end": 15.621
+    },
+    {
+     "text": "Underground, the heat of the summer and the cold of winter nights are both kept out.",
+     "start": 16.001,
+     "end": 21.329
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/03.wav",
+   "dur": 19.332,
+   "sentences": [
+    {
+     "text": "And then there are Xenophon's Armenian villages, which we met earlier.",
+     "start": 0.0,
+     "end": 4.59
+    },
+    {
+     "text": "People and animals sheltered together below ground through the winter, in houses reached by a narrow opening like a well.",
+     "start": 4.97,
+     "end": 12.8
+    },
+    {
+     "text": "Different places, different centuries, and the same two reasons: safety, and a steady temperature.",
+     "start": 13.18,
+     "end": 19.332
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/04.wav",
+   "dur": 23.25,
+   "sentences": [
+    {
+     "text": "Closer to home, at Hattusa, the Hittites built a long stone tunnel under their walls, and other ancient peoples dug escape passages under their cities.",
+     "start": 0.0,
+     "end": 10.313
+    },
+    {
+     "text": "Medieval castles across Europe had cellars and sally ports.",
+     "start": 10.693,
+     "end": 14.91
+    },
+    {
+     "text": "But a refuge on the scale of a whole town, hidden beneath ordinary houses, is rare almost everywhere except here.",
+     "start": 15.29,
+     "end": 23.25
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/05.wav",
+   "dur": 18.247,
+   "sentences": [
+    {
+     "text": "What makes Cappadocia special is the scale.",
+     "start": 0.0,
+     "end": 2.822
+    },
+    {
+     "text": "Nowhere else did so many communities, over so many centuries, carve so many refuges so deep.",
+     "start": 3.202,
+     "end": 9.969
+    },
+    {
+     "text": "That was possible because of the rock, and necessary because of the frontier.",
+     "start": 10.349,
+     "end": 15.028
+    },
+    {
+     "text": "Put the two together, and you get Derinkuyu.",
+     "start": 15.408,
+     "end": 18.247
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/19_cities_underground/06.wav",
+   "dur": 22.7,
+   "sentences": [
+    {
+     "text": "There are many others besides the famous ones.",
+     "start": 0.0,
+     "end": 2.742
+    },
+    {
+     "text": "Underground settlements are known at Maz\u0131, Tatlarin, Gaziemir and dozens of other villages, some only recently opened to visitors.",
+     "start": 3.122,
+     "end": 12.867
+    },
+    {
+     "text": "New entrances are still found, sometimes when a road is widened or a house is rebuilt.",
+     "start": 13.247,
+     "end": 19.275
+    },
+    {
+     "text": "Nobody knows how many remain undiscovered.",
+     "start": 19.655,
+     "end": 22.7
+    }
+   ]
+  }
+ ]
+}

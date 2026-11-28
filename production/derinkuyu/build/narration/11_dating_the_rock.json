@@ -1,0 +1,95 @@
+{
+ "id": "11_dating_the_rock",
+ "title": "HOW DO YOU DATE A HOLE?",
+ "paras": [
+  {
+   "wav": "build/narration/11_dating_the_rock/00.wav",
+   "dur": 22.11,
+   "sentences": [
+    {
+     "text": "Archaeologists usually date a site by digging down through layers.",
+     "start": 0.0,
+     "end": 4.445
+    },
+    {
+     "text": "The deeper the layer, the older it is, and the pottery, coins and bones in each layer give it a date.",
+     "start": 4.825,
+     "end": 11.125
+    },
+    {
+     "text": "An underground city turns this upside down.",
+     "start": 11.505,
+     "end": 14.513
+    },
+    {
+     "text": "It was made by taking rock away, not by building anything up, and the empty rooms carry no layers of their own.",
+     "start": 14.893,
+     "end": 22.11
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/11_dating_the_rock/01.wav",
+   "dur": 21.216,
+   "sentences": [
+    {
+     "text": "Worse, the rooms were used for centuries and cleared out many times.",
+     "start": 0.0,
+     "end": 4.195
+    },
+    {
+     "text": "Whatever the first users left behind was swept away by the next ones, and much of what remained was removed again when the city was cleared for visitors in the 1960s.",
+     "start": 4.575,
+     "end": 16.023
+    },
+    {
+     "text": "So the objects found inside tell us mostly about the last people to use it.",
+     "start": 16.403,
+     "end": 21.216
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/11_dating_the_rock/02.wav",
+   "dur": 25.743,
+   "sentences": [
+    {
+     "text": "What researchers can use is the shape of the rooms.",
+     "start": 0.0,
+     "end": 3.426
+    },
+    {
+     "text": "A cross-shaped church with the plan we see in Derinkuyu belongs to the Byzantine Christian world, so that part of the city must have been in use by then.",
+     "start": 3.806,
+     "end": 13.646
+    },
+    {
+     "text": "Comparisons with dated rock-cut churches and houses elsewhere in Cappadocia help a little more.",
+     "start": 14.026,
+     "end": 20.491
+    },
+    {
+     "text": "Beyond that, most dates you read for Derinkuyu are educated guesses.",
+     "start": 20.871,
+     "end": 25.743
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/11_dating_the_rock/03.wav",
+   "dur": 8.877,
+   "sentences": [
+    {
+     "text": "That uncertainty is not a failure.",
+     "start": 0.0,
+     "end": 2.466
+    },
+    {
+     "text": "It is the honest state of the evidence, and it is exactly where the myths rush in to fill the gap.",
+     "start": 2.846,
+     "end": 8.877
+    }
+   ]
+  }
+ ]
+}

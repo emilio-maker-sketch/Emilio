@@ -1,0 +1,153 @@
+{
+ "id": "18_kaymakli_and_ozkonak",
+ "title": "KAYMAKLI AND \u00d6ZKONAK",
+ "paras": [
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/00.wav",
+   "dur": 18.706,
+   "sentences": [
+    {
+     "text": "Ten kilometres north of Derinkuyu lies its nearest rival.",
+     "start": 0.0,
+     "end": 4.529
+    },
+    {
+     "text": "Kaymakl\u0131 was opened to visitors in 1964, a year after the discovery at Derinkuyu.",
+     "start": 4.909,
+     "end": 11.928
+    },
+    {
+     "text": "It does not go as deep, but it spreads out widely beneath the village, and only part of it can be visited.",
+     "start": 12.308,
+     "end": 18.707
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/01.wav",
+   "dur": 22.664,
+   "sentences": [
+    {
+     "text": "What makes Kaymakl\u0131 remarkable is how closely it is tied to the village above.",
+     "start": 0.0,
+     "end": 4.858
+    },
+    {
+     "text": "Many houses in Kaymakl\u0131 still have doors in their cellars or courtyards that lead into the old tunnels, and people have used the upper rooms as storerooms and stables within living memory.",
+     "start": 5.238,
+     "end": 17.336
+    },
+    {
+     "text": "Here you can see how the underground city was simply the lowest floor of the village.",
+     "start": 17.716,
+     "end": 22.664
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/02.wav",
+   "dur": 22.832,
+   "sentences": [
+    {
+     "text": "The rooms at Kaymakl\u0131 are low, the passages narrow and steep.",
+     "start": 0.0,
+     "end": 4.377
+    },
+    {
+     "text": "There are storerooms, niches, and stone blocks with hollows in them that guides call copper workings or kitchens; the identifications are not always certain.",
+     "start": 4.757,
+     "end": 15.118
+    },
+    {
+     "text": "There is even water trickling through the rock in places, a reminder of how damp and cold life below must have been.",
+     "start": 15.498,
+     "end": 22.832
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/03.wav",
+   "dur": 17.79,
+   "sentences": [
+    {
+     "text": "Further north, near the town of Avanos, is \u00d6zkonak.",
+     "start": 0.0,
+     "end": 3.772
+    },
+    {
+     "text": "According to the local accounts, it came to light in 1972, when a villager irrigating his fields noticed that the water kept disappearing into the ground.",
+     "start": 4.152,
+     "end": 14.976
+    },
+    {
+     "text": "Following it, he found the tunnels beneath.",
+     "start": 15.356,
+     "end": 17.79
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/04.wav",
+   "dur": 18.86,
+   "sentences": [
+    {
+     "text": "\u00d6zkonak has its own rolling stone doors and its own puzzles.",
+     "start": 0.0,
+     "end": 4.451
+    },
+    {
+     "text": "Small holes pierce the ceilings between some of its levels.",
+     "start": 4.831,
+     "end": 8.443
+    },
+    {
+     "text": "Guides say they were used to talk between floors, or even to pour hot liquid onto attackers below.",
+     "start": 8.823,
+     "end": 14.889
+    },
+    {
+     "text": "Both may be true.",
+     "start": 15.269,
+     "end": 16.639
+    },
+    {
+     "text": "Neither has been proven.",
+     "start": 17.019,
+     "end": 18.86
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/05.wav",
+   "dur": 23.33,
+   "sentences": [
+    {
+     "text": "Most of these sites share the same features: narrow, winding passages; rolling stone doors; ventilation shafts; storerooms, stables and presses; and, often, a chapel.",
+     "start": 0.0,
+     "end": 11.98
+    },
+    {
+     "text": "It is like visiting different branches of the same family.",
+     "start": 12.36,
+     "end": 15.797
+    },
+    {
+     "text": "Each has its own character, but all of them were built for the same purpose, by people who faced the same dangers.",
+     "start": 16.177,
+     "end": 23.33
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/18_kaymakli_and_ozkonak/06.wav",
+   "dur": 14.194,
+   "sentences": [
+    {
+     "text": "Derinkuyu, Kaymakl\u0131 and \u00d6zkonak are the three best known, but they are only the largest pieces of something much bigger: a whole region where, for more than a thousand years, every village kept a way down.",
+     "start": 0.0,
+     "end": 14.194
+    }
+   ]
+  }
+ ]
+}

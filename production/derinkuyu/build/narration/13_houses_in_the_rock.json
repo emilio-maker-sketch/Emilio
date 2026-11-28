@@ -1,0 +1,85 @@
+{
+ "id": "13_houses_in_the_rock",
+ "title": "MANSIONS IN THE ROCK",
+ "paras": [
+  {
+   "wav": "build/narration/13_houses_in_the_rock/00.wav",
+   "dur": 17.663,
+   "sentences": [
+    {
+     "text": "Not everyone in Byzantine Cappadocia lived in a simple village.",
+     "start": 0.0,
+     "end": 4.545
+    },
+    {
+     "text": "Along the valleys there are rock-cut complexes of a quite different kind: great carved facades with arches and columns, opening onto courtyards, with halls, kitchens and stables behind them.",
+     "start": 4.925,
+     "end": 17.663
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/13_houses_in_the_rock/01.wav",
+   "dur": 29.583,
+   "sentences": [
+    {
+     "text": "At Selime, at the end of the Ihlara valley, an entire cliff was hollowed out into a vast complex with a church, a huge hall with a high carved ceiling, and a kitchen with a chimney cut through the rock.",
+     "start": 0.0,
+     "end": 13.535
+    },
+    {
+     "text": "The art historian Veronica Kalas, who studied more than forty of these courtyard complexes, has argued that they were the houses of the local military aristocracy of the tenth and eleventh centuries, not monasteries as was long assumed.",
+     "start": 13.915,
+     "end": 29.583
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/13_houses_in_the_rock/02.wav",
+   "dur": 20.409,
+   "sentences": [
+    {
+     "text": "These carved mansions show the other side of rock-cut life.",
+     "start": 0.0,
+     "end": 3.856
+    },
+    {
+     "text": "The rich could afford grand rooms in the cliffs, with decorated facades that faced the world.",
+     "start": 4.236,
+     "end": 10.119
+    },
+    {
+     "text": "The farmers in the villages, with fewer resources, dug down.",
+     "start": 10.499,
+     "end": 14.353
+    },
+    {
+     "text": "Both were making the most of the same rock, in the same centuries, under the same threats.",
+     "start": 14.733,
+     "end": 20.409
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/13_houses_in_the_rock/03.wav",
+   "dur": 23.762,
+   "sentences": [
+    {
+     "text": "It is a reminder that the underground cities were not built by a different people or a lost civilisation.",
+     "start": 0.0,
+     "end": 6.903
+    },
+    {
+     "text": "They were built by the same Byzantine Cappadocians whose churches, monasteries and houses fill the valleys above.",
+     "start": 7.283,
+     "end": 14.951
+    },
+    {
+     "text": "To understand Derinkuyu, you have to see it as part of that whole landscape, the bottom floor of a world carved into stone.",
+     "start": 15.331,
+     "end": 23.762
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,179 @@
+{
+ "id": "16_malakopi",
+ "title": "MALAKOPI",
+ "paras": [
+  {
+   "wav": "build/narration/16_malakopi/00.wav",
+   "dur": 13.903,
+   "sentences": [
+    {
+     "text": "For most of its later history, the town above Derinkuyu was not called Derinkuyu at all.",
+     "start": 0.0,
+     "end": 6.02
+    },
+    {
+     "text": "Its Greek-speaking Christian inhabitants called it Malakopi.",
+     "start": 6.4,
+     "end": 10.476
+    },
+    {
+     "text": "Derinkuyu is Turkish and means deep well.",
+     "start": 10.856,
+     "end": 13.903
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/01.wav",
+   "dur": 19.684,
+   "sentences": [
+    {
+     "text": "Cappadocia was home to a community of Orthodox Christians who spoke their own form of Greek, quite different from the Greek of Athens.",
+     "start": 0.0,
+     "end": 8.542
+    },
+    {
+     "text": "In the early twentieth century the British scholar Richard Dawkins travelled through their villages, Malakopi among them, and recorded their dialect before it disappeared.",
+     "start": 8.922,
+     "end": 19.684
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/02.wav",
+   "dur": 17.795,
+   "sentences": [
+    {
+     "text": "How much the families of Malakopi still used the old passages is not well recorded.",
+     "start": 0.0,
+     "end": 6.209
+    },
+    {
+     "text": "The rooms nearest the surface may well have served as cellars and stores, as rock-cut rooms did all over Cappadocia, but the deep levels seem to have slipped out of everyday memory.",
+     "start": 6.589,
+     "end": 17.795
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/03.wav",
+   "dur": 24.35,
+   "sentences": [
+    {
+     "text": "Then, in 1923, after the war between Greece and Turkey, the two countries agreed to exchange their populations.",
+     "start": 0.0,
+     "end": 8.511
+    },
+    {
+     "text": "Orthodox Christians in Turkey were sent to Greece, and Muslims in Greece were sent to Turkey.",
+     "start": 8.891,
+     "end": 14.888
+    },
+    {
+     "text": "More than a million people were moved.",
+     "start": 15.268,
+     "end": 17.339
+    },
+    {
+     "text": "The Christians of Malakopi left their homes, and with them went the memory of what lay underneath.",
+     "start": 17.719,
+     "end": 24.35
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/04.wav",
+   "dur": 28.662,
+   "sentences": [
+    {
+     "text": "The agreement was signed at Lausanne, in Switzerland, on the thirtieth of January 1923.",
+     "start": 0.0,
+     "end": 6.554
+    },
+    {
+     "text": "It did not ask what language people spoke or how they saw themselves.",
+     "start": 6.934,
+     "end": 11.352
+    },
+    {
+     "text": "It asked only their religion.",
+     "start": 11.732,
+     "end": 13.779
+    },
+    {
+     "text": "So the Karamanlides of Cappadocia, Orthodox Christians whose everyday language was Turkish, were classed as Greeks and sent to Greece, a country many of them had never seen and whose language some of them barely spoke.",
+     "start": 14.159,
+     "end": 28.662
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/05.wav",
+   "dur": 28.202,
+   "sentences": [
+    {
+     "text": "The villages emptied.",
+     "start": 0.0,
+     "end": 1.633
+    },
+    {
+     "text": "People were allowed to take only what they could carry.",
+     "start": 2.014,
+     "end": 4.896
+    },
+    {
+     "text": "Some carried their icons, some the keys of their houses.",
+     "start": 5.276,
+     "end": 9.055
+    },
+    {
+     "text": "In Greece, many refugee communities named their new villages after the old ones.",
+     "start": 9.435,
+     "end": 15.031
+    },
+    {
+     "text": "Families from Gelveri, today G\u00fczelyurt, about thirty-five kilometres west of Derinkuyu, founded a new village in northern Greece and called it Nea Karvali, New Gelveri.",
+     "start": 15.411,
+     "end": 28.202
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/06.wav",
+   "dur": 19.155,
+   "sentences": [
+    {
+     "text": "Muslim families arriving from Greece were settled in the houses they left behind.",
+     "start": 0.0,
+     "end": 5.506
+    },
+    {
+     "text": "In the space of a few years, the population of many Cappadocian towns was almost completely replaced.",
+     "start": 5.886,
+     "end": 12.865
+    },
+    {
+     "text": "The newcomers had no reason to know what the old cellars led to, and no one was left to tell them.",
+     "start": 13.245,
+     "end": 19.155
+    }
+   ]
+  },
+  {
+   "wav": "build/narration/16_malakopi/07.wav",
+   "dur": 10.897,
+   "sentences": [
+    {
+     "text": "Forty years later, when a man knocked through his wall, the town above had new people who did not know the passages were there.",
+     "start": 0.0,
+     "end": 7.73
+    },
+    {
+     "text": "The city had to be discovered all over again.",
+     "start": 8.11,
+     "end": 10.897
+    }
+   ]
+  }
+ ]
+}
